@@ -29,20 +29,51 @@ let activeSection = 'main'; // 'main' | 'breakfast' | 'snack'
 let activeProtein = 'all';
 let activeMacro = 'all';
 
+// ---------------- local storage (per-device persistence) ----------------
+// Household, saved weeks, and admin-added recipes all live in the browser's
+// localStorage — each household uses the app on its own device, so there's
+// no need for server-side storage (or a backend database) for any of it.
+
+const LS_KEYS = {
+  household: 'unhangry_household',
+  savedWeeks: 'unhangry_saved_weeks',
+  localRecipes: 'unhangry_local_recipes',
+};
+
+function lsGet(key, fallback) {
+  try {
+    const raw = localStorage.getItem(key);
+    return raw ? JSON.parse(raw) : fallback;
+  } catch (err) {
+    console.error(`Could not read ${key} from localStorage:`, err);
+    return fallback;
+  }
+}
+
+function lsSet(key, value) {
+  try {
+    localStorage.setItem(key, JSON.stringify(value));
+  } catch (err) {
+    console.error(`Could not save ${key} to localStorage:`, err);
+    throw new Error('Could not save — your browser may be blocking local storage (private/incognito mode?).');
+  }
+}
+
 // ---------------- data loading ----------------
 
 async function loadRecipes() {
+  let serverRecipes = [];
   try {
     const res = await fetch('/api/recipes');
     if (!res.ok) throw new Error(`Server responded ${res.status}`);
-    ALL_RECIPES = await res.json();
+    serverRecipes = await res.json();
   } catch (err) {
     console.error('Could not load recipes:', err);
-    ALL_RECIPES = [];
     document.getElementById('recipe-grid').innerHTML =
-      `<p class="empty-state">Couldn't load the recipe database. Make sure the app is running via <code>node server.js</code>, not opened directly as a file.</p>`;
-    return;
+      `<p class="empty-state">Couldn't load the built-in recipe database — showing anything saved on this device instead.</p>`;
   }
+  const localRecipes = lsGet(LS_KEYS.localRecipes, []);
+  ALL_RECIPES = [...serverRecipes, ...localRecipes];
   ALL_RECIPES.sort((a, b) => a.name.localeCompare(b.name));
   renderGrid();
 }
@@ -566,20 +597,65 @@ document.getElementById('review-modal').addEventListener('click', (e) => {
   if (e.target.id === 'review-modal') document.getElementById('review-modal').hidden = true;
 });
 
-document.getElementById('review-form').addEventListener('submit', async (e) => {
+// ---------------- recipe saving (client-side — mirrors the shape the ----
+// ---------------- bundled recipe files already use) ----------------
+
+function slugify(name) {
+  return String(name || 'recipe')
+    .toLowerCase()
+    .trim()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '') || 'recipe';
+}
+
+function uniqueRecipeId(base) {
+  const existingIds = new Set(ALL_RECIPES.map((r) => r.id));
+  let id = base;
+  let n = 2;
+  while (existingIds.has(id)) {
+    id = `${base}-${n}`;
+    n += 1;
+  }
+  return id;
+}
+
+// Only meaningful for snacks — AI Advice uses it to match a snack to
+// whichever macro a person is short on. Infer from the dominant macro (by
+// calorie contribution) since the review form doesn't collect it directly.
+function inferPrimaryMacro(macrosPerServing) {
+  const proteinCals = (macrosPerServing.protein || 0) * 4;
+  const carbCals = (macrosPerServing.carbs || 0) * 4;
+  const fatCals = (macrosPerServing.fat || 0) * 9;
+  const max = Math.max(proteinCals, carbCals, fatCals);
+  if (max === 0) return 'carb'; // no macro data at all — harmless default
+  if (max === fatCals) return 'fat';
+  if (max === proteinCals) return 'protein';
+  return 'carb';
+}
+
+document.getElementById('review-form').addEventListener('submit', (e) => {
   e.preventDefault();
+
+  const name = document.getElementById('rf-name').value.trim();
+  if (!name) { showToast('Recipe name is required.'); return; }
+
+  const mealType = document.getElementById('rf-mealtype').value;
+  const macrosPerServing = {
+    kcal: Number(document.getElementById('rf-kcal').value) || 0,
+    protein: Number(document.getElementById('rf-protein-g').value) || 0,
+    carbs: Number(document.getElementById('rf-carbs').value) || 0,
+    fat: Number(document.getElementById('rf-fat').value) || 0,
+  };
+
   const recipe = {
-    name: document.getElementById('rf-name').value.trim(),
-    feeds: Number(document.getElementById('rf-feeds').value) || 4,
+    id: uniqueRecipeId(slugify(name)),
+    name,
     protein: document.getElementById('rf-protein').value,
     method: document.getElementById('rf-method').value,
-    mealType: document.getElementById('rf-mealtype').value,
-    macrosPerServing: {
-      kcal: Number(document.getElementById('rf-kcal').value) || 0,
-      protein: Number(document.getElementById('rf-protein-g').value) || 0,
-      carbs: Number(document.getElementById('rf-carbs').value) || 0,
-      fat: Number(document.getElementById('rf-fat').value) || 0,
-    },
+    mealType,
+    ...(mealType === 'snack' ? { primaryMacro: inferPrimaryMacro(macrosPerServing) } : {}),
+    feeds: Number(document.getElementById('rf-feeds').value) || 4,
+    macrosPerServing,
     ingredients: currentIngredients.filter((i) => i.name && i.name.trim()),
     steps: document.getElementById('rf-steps').value.split('\n').map((s) => s.trim()).filter(Boolean),
     notes: document.getElementById('rf-notes').value.split('\n').map((s) => s.trim()).filter(Boolean),
@@ -589,28 +665,18 @@ document.getElementById('review-form').addEventListener('submit', async (e) => {
     },
   };
 
-  const submitBtn = e.target.querySelector('button[type="submit"]');
-  submitBtn.disabled = true;
-  submitBtn.textContent = 'Saving…';
   try {
-    const res = await fetch('/api/recipes', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(recipe),
-    });
-    const data = await res.json();
-    if (!res.ok) throw new Error(data.message || 'Could not save the recipe.');
+    const localRecipes = lsGet(LS_KEYS.localRecipes, []);
+    localRecipes.push(recipe);
+    lsSet(LS_KEYS.localRecipes, localRecipes);
 
-    ALL_RECIPES.push(data.recipe);
+    ALL_RECIPES.push(recipe);
     ALL_RECIPES.sort((a, b) => a.name.localeCompare(b.name));
     renderGrid();
     document.getElementById('review-modal').hidden = true;
-    showToast(`"${data.recipe.name}" saved to the database.`);
+    showToast(`"${recipe.name}" saved on this device.`);
   } catch (err) {
     showToast(err.message);
-  } finally {
-    submitBtn.disabled = false;
-    submitBtn.textContent = 'Save to database';
   }
 });
 
@@ -659,34 +725,19 @@ let currentActivity = null;
 // ---------------- data loading / saving ----------------
 
 async function loadHousehold() {
-  try {
-    const res = await fetch('/api/household');
-    HOUSEHOLD = await res.json();
-  } catch (err) {
-    console.error('Could not load household:', err);
-  }
+  HOUSEHOLD = lsGet(LS_KEYS.household, HOUSEHOLD);
   renderFamilyHub();
 }
 
 async function saveHousehold() {
-  const res = await fetch('/api/household', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(HOUSEHOLD),
-  });
-  const data = await res.json();
-  if (!res.ok) throw new Error(data.message || 'Could not save the household.');
-  HOUSEHOLD = data.household;
+  lsSet(LS_KEYS.household, HOUSEHOLD);
   renderFamilyHub();
 }
 
-// Rules/schedule/roles each fire a save on every small edit. Firing them
-// immediately would let several overlapping requests race — whichever one's
-// network round-trip finishes last "wins" and can silently drop an edit that
-// was actually made after it (e.g. setting 3 role dropdowns back to back can
-// lose one). Debouncing coalesces rapid edits into a single save that reads
-// HOUSEHOLD only once everything has settled, so it always reflects the
-// latest state.
+// Rules/schedule/roles each fire a save on every small edit. Debouncing
+// coalesces rapid edits (e.g. setting 3 role dropdowns back to back) into a
+// single write that reads HOUSEHOLD only once everything has settled —
+// avoids thrashing localStorage on every keystroke.
 let saveDebounceTimer = null;
 let saveWaiters = [];
 
@@ -1426,6 +1477,11 @@ function updateGenerateButtonState() {
 function buildWeekPayload() {
   const allSelected = [...METHODS.map((m) => selectedMains[m]), selectedBreakfast, ...selectedSnacks].filter(Boolean);
   return {
+    // The server has no disk access to household.json or the recipe library's
+    // local additions anymore — both live in this browser's localStorage, so
+    // they have to ride along in the request body.
+    household: HOUSEHOLD,
+    localRecipes: lsGet(LS_KEYS.localRecipes, []),
     mains: METHODS.map((m) => ({ method: m, recipe: selectedMains[m] })),
     breakfast: selectedBreakfast,
     snacks: selectedSnacks.filter(Boolean),
@@ -1611,14 +1667,20 @@ let SAVED_WEEKS = [];
 let openSavedWeek = null;
 
 async function loadSavedWeeks() {
-  try {
-    const res = await fetch('/api/saved-weeks');
-    SAVED_WEEKS = await res.json();
-  } catch (err) {
-    console.error('Could not load saved weeks:', err);
-    SAVED_WEEKS = [];
-  }
+  SAVED_WEEKS = lsGet(LS_KEYS.savedWeeks, []);
+  SAVED_WEEKS.sort((a, b) => new Date(b.savedAt) - new Date(a.savedAt));
   renderPastWeeks();
+}
+
+function uniqueSavedWeekId(base) {
+  const existingIds = new Set(SAVED_WEEKS.map((w) => w.id));
+  let id = base;
+  let n = 2;
+  while (existingIds.has(id)) {
+    id = `${base}-${n}`;
+    n += 1;
+  }
+  return id;
 }
 
 function renderPastWeeks() {
@@ -1715,60 +1777,49 @@ document.getElementById('saved-week-copy').addEventListener('click', async () =>
   }
 });
 
-document.getElementById('saved-week-delete').addEventListener('click', async () => {
+document.getElementById('saved-week-delete').addEventListener('click', () => {
   if (!openSavedWeek) return;
   try {
-    const res = await fetch('/api/saved-weeks', {
-      method: 'DELETE',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ id: openSavedWeek.id }),
-    });
-    if (!res.ok) throw new Error('Could not delete that saved week.');
+    SAVED_WEEKS = SAVED_WEEKS.filter((w) => w.id !== openSavedWeek.id);
+    lsSet(LS_KEYS.savedWeeks, SAVED_WEEKS);
     document.getElementById('saved-week-modal').hidden = true;
     showToast('Saved week deleted.');
-    await loadSavedWeeks();
+    renderPastWeeks();
   } catch (err) {
     showToast(err.message);
   }
 });
 
-document.getElementById('save-week-btn').addEventListener('click', async () => {
+document.getElementById('save-week-btn').addEventListener('click', () => {
   if (!generatedList) return;
-  const btn = document.getElementById('save-week-btn');
 
-  const payload = {
-    name: document.getElementById('save-week-name').value.trim(),
-    notes: {
-      sprintDuration: document.getElementById('save-week-duration').value.trim(),
-      wentWell: document.getElementById('save-week-well').value.trim(),
-      wentHard: document.getElementById('save-week-hard').value.trim(),
-    },
+  const name = document.getElementById('save-week-name').value.trim() || `Week of ${new Date().toLocaleDateString()}`;
+  const week = {
+    id: uniqueSavedWeekId(slugify(name)),
+    name,
+    savedAt: new Date().toISOString(),
     selections: {
       mains: METHODS.map((m) => ({ method: m, recipeName: selectedMains[m] ? selectedMains[m].name : '' })).filter((m) => m.recipeName),
       breakfast: selectedBreakfast ? { recipeName: selectedBreakfast.name } : null,
       snacks: selectedSnacks.filter(Boolean).map((s) => ({ recipeName: s.name })),
     },
     list: generatedList,
+    notes: {
+      sprintDuration: document.getElementById('save-week-duration').value.trim(),
+      wentWell: document.getElementById('save-week-well').value.trim(),
+      wentHard: document.getElementById('save-week-hard').value.trim(),
+      general: '',
+    },
   };
 
-  btn.disabled = true;
-  btn.textContent = 'Saving…';
   try {
-    const res = await fetch('/api/saved-weeks', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(payload),
-    });
-    const data = await res.json();
-    if (!res.ok) throw new Error(data.message || 'Could not save this week.');
-    await loadSavedWeeks();
+    SAVED_WEEKS.push(week);
+    lsSet(LS_KEYS.savedWeeks, SAVED_WEEKS);
+    loadSavedWeeks();
     resetListScreenForNewWeek();
-    showToast(`"${data.week.name}" saved — The List is cleared and ready for next week.`);
+    showToast(`"${week.name}" saved — The List is cleared and ready for next week.`);
   } catch (err) {
     showToast(err.message);
-  } finally {
-    btn.disabled = false;
-    btn.textContent = 'Save this week';
   }
 });
 
