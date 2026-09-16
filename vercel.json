@@ -1,4 +1,5 @@
 {
+  "framework": null,
   "functions": {
     "api/generate-list.js": {
       "maxDuration": 60
