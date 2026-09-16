@@ -1,0 +1,33 @@
+{
+  "id": "latte",
+  "name": "Latte or Cappuccino",
+  "protein": "veggie",
+  "method": "no-cook",
+  "mealType": "snack",
+  "primaryMacro": "fat",
+  "feeds": 1,
+  "macrosPerServing": {
+    "kcal": 120,
+    "protein": 8,
+    "carbs": 12,
+    "fat": 5
+  },
+  "ingredients": [
+    {
+      "name": "Milk",
+      "qty": 250,
+      "unit": "ml",
+      "component": "other"
+    }
+  ],
+  "steps": [
+    "Portion 1 regular and enjoy. No cooking needed."
+  ],
+  "notes": [
+    "Snack option ~120 kcal. Primary macro: fat. Used by AI Advice to fill a fat gap; portion can be nudged to match the exact gap."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": false
+  }
+}

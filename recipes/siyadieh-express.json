@@ -1,0 +1,82 @@
+{
+  "id": "siyadieh-express",
+  "name": "Siyadieh Express",
+  "protein": "seafood",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 4,
+  "macrosPerServing": {
+    "kcal": 460,
+    "protein": 38,
+    "carbs": 44,
+    "fat": 10
+  },
+  "ingredients": [
+    {
+      "name": "White fish fillets",
+      "qty": 1,
+      "unit": "kg",
+      "component": "protein"
+    },
+    {
+      "name": "Basmati rice",
+      "qty": 1.5,
+      "unit": "cup",
+      "component": "carb"
+    },
+    {
+      "name": "Brown onions",
+      "qty": 2,
+      "unit": "pc",
+      "component": "aromatic"
+    },
+    {
+      "name": "Olive oil",
+      "qty": 3,
+      "unit": "tbsp",
+      "component": "other"
+    },
+    {
+      "name": "Cumin",
+      "qty": 1,
+      "unit": "tbsp",
+      "component": "sauce"
+    },
+    {
+      "name": "Turmeric",
+      "qty": 1,
+      "unit": "tbsp",
+      "component": "sauce"
+    },
+    {
+      "name": "Curry powder",
+      "qty": 1,
+      "unit": "tbsp",
+      "component": "sauce"
+    },
+    {
+      "name": "Salt",
+      "qty": 1,
+      "unit": "tbsp",
+      "component": "other"
+    },
+    {
+      "name": "Black pepper",
+      "qty": 1,
+      "unit": "to taste",
+      "component": "other"
+    }
+  ],
+  "steps": [
+    "Thinly slice the onions and caramelize slowly in olive oil until deep golden brown — this is the base of the dish's flavor.",
+    "Season the fish fillets with salt, pepper, and half the spice mix, then bake at 200°C for 12-15 minutes until just cooked.",
+    "Meanwhile, cook the basmati rice with the remaining spices and a portion of the caramelized onions stirred through.",
+    "Flake the baked fish gently.",
+    "Layer the spiced rice on a platter, top with the flaked fish and remaining caramelized onions."
+  ],
+  "notes": [],
+  "flags": {
+    "shelfLife": "Fresh fish — plan for days 1-2. Do not leave this one to day 5.",
+    "freezeFriendly": false
+  }
+}

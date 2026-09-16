@@ -1,0 +1,33 @@
+{
+  "id": "granola",
+  "name": "Granola",
+  "protein": "veggie",
+  "method": "no-cook",
+  "mealType": "snack",
+  "primaryMacro": "carb",
+  "feeds": 1,
+  "macrosPerServing": {
+    "kcal": 220,
+    "protein": 5,
+    "carbs": 34,
+    "fat": 8
+  },
+  "ingredients": [
+    {
+      "name": "Granola",
+      "qty": 45,
+      "unit": "g",
+      "component": "carb"
+    }
+  ],
+  "steps": [
+    "Portion 45g and enjoy. No cooking needed."
+  ],
+  "notes": [
+    "Snack option ~220 kcal. Primary macro: carb. Used by AI Advice to fill a carb gap; portion can be nudged to match the exact gap."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": false
+  }
+}

@@ -1,0 +1,6 @@
+.env
+node_modules/
+recipes/_photo-drafts/
+data/household.json
+data/saved-weeks/
+.DS_Store

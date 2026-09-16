@@ -1,0 +1,70 @@
+{
+  "id": "chicken-stroganoff",
+  "name": "Chicken Stroganoff",
+  "protein": "chicken",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 5,
+  "macrosPerServing": {
+    "kcal": 420,
+    "protein": 40,
+    "carbs": 6,
+    "fat": 26
+  },
+  "ingredients": [
+    {
+      "name": "Chicken strips",
+      "qty": 1,
+      "unit": "kg",
+      "component": "protein"
+    },
+    {
+      "name": "Onions",
+      "qty": 2,
+      "unit": "pc",
+      "component": "aromatic"
+    },
+    {
+      "name": "Cooking cream",
+      "qty": 400,
+      "unit": "ml",
+      "component": "sauce"
+    },
+    {
+      "name": "Mustard",
+      "qty": 4,
+      "unit": "tbsp",
+      "component": "sauce"
+    },
+    {
+      "name": "Olive oil",
+      "qty": 2,
+      "unit": "tbsp",
+      "component": "other"
+    },
+    {
+      "name": "Salt and pepper",
+      "qty": 1,
+      "unit": "to taste",
+      "component": "other"
+    },
+    {
+      "name": "Butter",
+      "qty": 2,
+      "unit": "tbsp",
+      "component": "sauce"
+    }
+  ],
+  "steps": [
+    "Season the chicken strips and sear in olive oil over medium-high heat until golden and cooked through. Set aside.",
+    "In the same pan, add the butter and diced onions, cook until softened.",
+    "Stir in the mustard, cook for 1 minute.",
+    "Pour in the cooking cream and bring to a gentle simmer.",
+    "Return the chicken to the pan, simmer 5 minutes until the sauce thickens slightly. Season to taste and serve."
+  ],
+  "notes": [],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": false
+  }
+}

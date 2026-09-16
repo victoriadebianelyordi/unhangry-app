@@ -1,0 +1,33 @@
+{
+  "id": "hummus-veg",
+  "name": "Hummus with Veg Sticks",
+  "protein": "veggie",
+  "method": "no-cook",
+  "mealType": "snack",
+  "primaryMacro": "fat",
+  "feeds": 1,
+  "macrosPerServing": {
+    "kcal": 200,
+    "protein": 6,
+    "carbs": 16,
+    "fat": 13
+  },
+  "ingredients": [
+    {
+      "name": "Hummus",
+      "qty": 60,
+      "unit": "g",
+      "component": "other"
+    }
+  ],
+  "steps": [
+    "Portion 60g hummus and enjoy. No cooking needed."
+  ],
+  "notes": [
+    "Snack option ~200 kcal. Primary macro: fat. Used by AI Advice to fill a fat gap; portion can be nudged to match the exact gap."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": false
+  }
+}

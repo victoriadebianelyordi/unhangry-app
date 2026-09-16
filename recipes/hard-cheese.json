@@ -1,0 +1,33 @@
+{
+  "id": "hard-cheese",
+  "name": "Hard Cheese",
+  "protein": "veggie",
+  "method": "no-cook",
+  "mealType": "snack",
+  "primaryMacro": "fat",
+  "feeds": 1,
+  "macrosPerServing": {
+    "kcal": 230,
+    "protein": 14,
+    "carbs": 2,
+    "fat": 19
+  },
+  "ingredients": [
+    {
+      "name": "Hard cheese",
+      "qty": 45,
+      "unit": "g",
+      "component": "other"
+    }
+  ],
+  "steps": [
+    "Portion 45g and enjoy. No cooking needed."
+  ],
+  "notes": [
+    "Snack option ~230 kcal. Primary macro: fat. Used by AI Advice to fill a fat gap; portion can be nudged to match the exact gap."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": false
+  }
+}

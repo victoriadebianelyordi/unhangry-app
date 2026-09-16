@@ -1,0 +1,33 @@
+{
+  "id": "crackers-cheese",
+  "name": "Crackers with a Little Cheese",
+  "protein": "veggie",
+  "method": "no-cook",
+  "mealType": "snack",
+  "primaryMacro": "carb",
+  "feeds": 1,
+  "macrosPerServing": {
+    "kcal": 230,
+    "protein": 6,
+    "carbs": 38,
+    "fat": 7
+  },
+  "ingredients": [
+    {
+      "name": "Crackers",
+      "qty": 6,
+      "unit": "pc",
+      "component": "carb"
+    }
+  ],
+  "steps": [
+    "Portion 5-6 crackers and enjoy. No cooking needed."
+  ],
+  "notes": [
+    "Snack option ~230 kcal. Primary macro: carb. Used by AI Advice to fill a carb gap; portion can be nudged to match the exact gap."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": false
+  }
+}

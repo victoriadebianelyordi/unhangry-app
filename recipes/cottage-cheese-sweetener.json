@@ -1,0 +1,33 @@
+{
+  "id": "cottage-cheese-sweetener",
+  "name": "Cottage Cheese with Low-Cal Sweetener",
+  "protein": "veggie",
+  "method": "no-cook",
+  "mealType": "snack",
+  "primaryMacro": "protein",
+  "feeds": 1,
+  "macrosPerServing": {
+    "kcal": 200,
+    "protein": 24,
+    "carbs": 8,
+    "fat": 6
+  },
+  "ingredients": [
+    {
+      "name": "Cottage cheese",
+      "qty": 200,
+      "unit": "g",
+      "component": "protein"
+    }
+  ],
+  "steps": [
+    "Portion 200g and enjoy. No cooking needed."
+  ],
+  "notes": [
+    "Snack option ~200 kcal. Primary macro: protein. Used by AI Advice to fill a protein gap; portion can be nudged to match the exact gap."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": false
+  }
+}

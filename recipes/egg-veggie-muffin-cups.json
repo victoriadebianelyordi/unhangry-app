@@ -1,0 +1,35 @@
+{
+  "id": "egg-veggie-muffin-cups",
+  "name": "Egg and Veggie Muffin Cups",
+  "protein": "veggie",
+  "method": "oven",
+  "mealType": "breakfast",
+  "feeds": 6,
+  "macrosPerServing": { "kcal": 220, "protein": 16, "carbs": 6, "fat": 14 },
+  "ingredients": [
+    { "name": "Eggs", "qty": 12, "unit": "pc", "component": "protein" },
+    { "name": "Milk", "qty": 120, "unit": "ml", "component": "other" },
+    { "name": "Bell peppers (diced)", "qty": 2, "unit": "pc", "component": "other" },
+    { "name": "Spinach (chopped)", "qty": 100, "unit": "g", "component": "other" },
+    { "name": "Onion (diced)", "qty": 1, "unit": "pc", "component": "aromatic" },
+    { "name": "Cheese (shredded)", "qty": 100, "unit": "g", "component": "other" },
+    { "name": "Salt and pepper", "qty": 1, "unit": "to taste", "component": "other" },
+    { "name": "Olive oil (for the tin)", "qty": 1, "unit": "tbsp", "component": "other" }
+  ],
+  "steps": [
+    "Preheat the oven to 190°C and grease a 12-cup muffin tin well.",
+    "Whisk the eggs and milk together with salt and pepper.",
+    "Divide the bell pepper, spinach, and onion evenly between the muffin cups.",
+    "Pour the egg mixture over the vegetables in each cup, filling about ¾ full.",
+    "Top with shredded cheese.",
+    "Bake 18-20 minutes until puffed and set. Cool slightly before removing from the tin.",
+    "Store in the fridge and reheat 2 at a time each morning (roughly 2 muffins per serving)."
+  ],
+  "notes": [
+    "Freezes very well — a great one to double and freeze half for a slower week."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  }
+}

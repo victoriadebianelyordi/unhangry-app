@@ -1,0 +1,109 @@
+{
+  "id": "salmon-teriyaki",
+  "name": "Salmon Teriyaki & Broccoli",
+  "protein": "seafood",
+  "method": "air-fryer",
+  "mealType": "main",
+  "feeds": 6,
+  "macrosPerServing": {
+    "kcal": 520,
+    "protein": 42,
+    "carbs": 46,
+    "fat": 16
+  },
+  "ingredients": [
+    {
+      "name": "Salmon fillets",
+      "qty": 900,
+      "unit": "g",
+      "component": "protein"
+    },
+    {
+      "name": "Olive oil",
+      "qty": 1.5,
+      "unit": "tbsp",
+      "component": "other"
+    },
+    {
+      "name": "Cornflour",
+      "qty": 1,
+      "unit": "tbsp",
+      "component": "sauce"
+    },
+    {
+      "name": "Light soy sauce",
+      "qty": 60,
+      "unit": "ml",
+      "component": "sauce"
+    },
+    {
+      "name": "Dark soy sauce",
+      "qty": 40,
+      "unit": "ml",
+      "component": "sauce"
+    },
+    {
+      "name": "Brown sugar",
+      "qty": 25,
+      "unit": "g",
+      "component": "sauce"
+    },
+    {
+      "name": "Jasmine rice",
+      "qty": 300,
+      "unit": "g",
+      "component": "carb"
+    },
+    {
+      "name": "Cold water (for rice)",
+      "qty": 500,
+      "unit": "ml",
+      "component": "other"
+    },
+    {
+      "name": "Oil (for rice)",
+      "qty": 1,
+      "unit": "tbsp",
+      "component": "other"
+    },
+    {
+      "name": "Garlic clove (for rice)",
+      "qty": 1,
+      "unit": "pc",
+      "component": "aromatic"
+    },
+    {
+      "name": "Ginger (for rice)",
+      "qty": 5,
+      "unit": "g",
+      "component": "aromatic"
+    },
+    {
+      "name": "Salt (for rice)",
+      "qty": 1,
+      "unit": "pinch",
+      "component": "other"
+    },
+    {
+      "name": "Broccoli (optional, air fried)",
+      "qty": 1,
+      "unit": "head",
+      "component": "other"
+    }
+  ],
+  "steps": [
+    "Combine the light soy sauce, dark soy sauce, and brown sugar in a small pan, simmer until slightly thickened. Whisk in the cornflour mixed with a little water to thicken further into a teriyaki glaze.",
+    "Pat the salmon dry, brush with olive oil, and air fry at 200°C for 8-10 minutes until just cooked.",
+    "Brush the teriyaki glaze over the salmon in the last 2 minutes of cooking.",
+    "For the rice: rinse the jasmine rice, cook with the water, oil, garlic, ginger and a pinch of salt until fluffy.",
+    "If using broccoli, air fry alongside the salmon with a touch of oil until tender-crisp.",
+    "Serve the glazed salmon over the rice with broccoli on the side."
+  ],
+  "notes": [
+    "Do not add extra salt — the soy sauce is salty enough on its own."
+  ],
+  "flags": {
+    "shelfLife": "Salmon doesn't last the full week — plan this for days 1-3 and buy accordingly.",
+    "freezeFriendly": false
+  }
+}

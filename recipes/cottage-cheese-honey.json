@@ -1,0 +1,33 @@
+{
+  "id": "cottage-cheese-honey",
+  "name": "Cottage Cheese with Honey or Maple",
+  "protein": "veggie",
+  "method": "no-cook",
+  "mealType": "snack",
+  "primaryMacro": "protein",
+  "feeds": 1,
+  "macrosPerServing": {
+    "kcal": 230,
+    "protein": 22,
+    "carbs": 18,
+    "fat": 6
+  },
+  "ingredients": [
+    {
+      "name": "Cottage cheese",
+      "qty": 180,
+      "unit": "g",
+      "component": "protein"
+    }
+  ],
+  "steps": [
+    "Portion 180g + 1 tsp and enjoy. No cooking needed."
+  ],
+  "notes": [
+    "Snack option ~230 kcal. Primary macro: protein. Used by AI Advice to fill a protein gap; portion can be nudged to match the exact gap."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": false
+  }
+}

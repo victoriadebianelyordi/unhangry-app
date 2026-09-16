@@ -1,0 +1,33 @@
+{
+  "id": "rice-cakes-jam",
+  "name": "Rice Cakes with Jam",
+  "protein": "veggie",
+  "method": "no-cook",
+  "mealType": "snack",
+  "primaryMacro": "carb",
+  "feeds": 1,
+  "macrosPerServing": {
+    "kcal": 210,
+    "protein": 4,
+    "carbs": 46,
+    "fat": 1
+  },
+  "ingredients": [
+    {
+      "name": "Rice cakes",
+      "qty": 3,
+      "unit": "pc",
+      "component": "carb"
+    }
+  ],
+  "steps": [
+    "Portion 3 cakes + jam and enjoy. No cooking needed."
+  ],
+  "notes": [
+    "Snack option ~210 kcal. Primary macro: carb. Used by AI Advice to fill a carb gap; portion can be nudged to match the exact gap."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": false
+  }
+}

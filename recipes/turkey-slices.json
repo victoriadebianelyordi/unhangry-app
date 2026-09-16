@@ -1,0 +1,33 @@
+{
+  "id": "turkey-slices",
+  "name": "Turkey or Chicken Slices",
+  "protein": "veggie",
+  "method": "no-cook",
+  "mealType": "snack",
+  "primaryMacro": "protein",
+  "feeds": 1,
+  "macrosPerServing": {
+    "kcal": 200,
+    "protein": 32,
+    "carbs": 2,
+    "fat": 7
+  },
+  "ingredients": [
+    {
+      "name": "Turkey or chicken slices",
+      "qty": 120,
+      "unit": "g",
+      "component": "protein"
+    }
+  ],
+  "steps": [
+    "Portion 120g and enjoy. No cooking needed."
+  ],
+  "notes": [
+    "Snack option ~200 kcal. Primary macro: protein. Used by AI Advice to fill a protein gap; portion can be nudged to match the exact gap."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": false
+  }
+}

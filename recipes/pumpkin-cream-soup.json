@@ -1,0 +1,76 @@
+{
+  "id": "pumpkin-cream-soup",
+  "name": "Pumpkin Cream Soup",
+  "protein": "veggie",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 5,
+  "macrosPerServing": {
+    "kcal": 180,
+    "protein": 6,
+    "carbs": 28,
+    "fat": 6
+  },
+  "ingredients": [
+    {
+      "name": "Pumpkin or butternut squash",
+      "qty": 1.75,
+      "unit": "kg",
+      "component": "carb"
+    },
+    {
+      "name": "Brown onion (sliced)",
+      "qty": 1,
+      "unit": "pc",
+      "component": "aromatic"
+    },
+    {
+      "name": "Garlic cloves",
+      "qty": 4,
+      "unit": "pc",
+      "component": "aromatic"
+    },
+    {
+      "name": "Ginger (shredded, optional)",
+      "qty": 1,
+      "unit": "tsp",
+      "component": "aromatic"
+    },
+    {
+      "name": "Vegetable or chicken broth (low sodium)",
+      "qty": 750,
+      "unit": "ml",
+      "component": "other"
+    },
+    {
+      "name": "Water",
+      "qty": 250,
+      "unit": "ml",
+      "component": "other"
+    },
+    {
+      "name": "Salt and pepper",
+      "qty": 1,
+      "unit": "to taste",
+      "component": "other"
+    },
+    {
+      "name": "Cream or Greek yogurt (to finish)",
+      "qty": 150,
+      "unit": "ml",
+      "component": "sauce"
+    }
+  ],
+  "steps": [
+    "Peel and cube the pumpkin.",
+    "Sauté the onion, garlic, and ginger in a large pot until fragrant.",
+    "Add the pumpkin, broth, and water. Simmer 20-25 minutes until the pumpkin is very tender.",
+    "Blend until smooth using an immersion blender or regular blender.",
+    "Stir in the cream or Greek yogurt, season with salt and pepper, and warm through gently."
+  ],
+  "notes": [],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": "kafta-sandwiches",
+  "name": "Kafta Sandwiches",
+  "protein": "beef",
+  "method": "air-fryer",
+  "mealType": "main",
+  "feeds": 6,
+  "macrosPerServing": {
+    "kcal": 480,
+    "protein": 35,
+    "carbs": 38,
+    "fat": 20
+  },
+  "ingredients": [
+    {
+      "name": "Kafta",
+      "qty": 1,
+      "unit": "kg",
+      "component": "protein",
+      "buyVsMake": {
+        "buy": "1kg kafta, ready-made from the butcher",
+        "make": "0.9kg ground beef, ½ cup parsley (chopped), 2 small yellow onions (quartered), 4 tsp 7-spice, 1 tsp cumin, 1 tsp cinnamon, 1 tsp coriander, ¼ tsp cayenne, salt, black pepper — blend onion and parsley, mix through the meat with the spices, shape onto skewers or into logs"
+      }
+    },
+    {
+      "name": "Hummus",
+      "qty": 400,
+      "unit": "g",
+      "component": "sauce",
+      "buyVsMake": {
+        "buy": "400g hummus, ready-made",
+        "make": "240g cooked chickpeas, 75g tahini, 45g lemon juice, 1 garlic clove, salt — blend until smooth, loosen with water if needed"
+      }
+    },
+    {
+      "name": "Parsley",
+      "qty": 1,
+      "unit": "bunch",
+      "component": "aromatic"
+    },
+    {
+      "name": "Tomatoes",
+      "qty": 3,
+      "unit": "pc",
+      "component": "other"
+    },
+    {
+      "name": "Arabic bread",
+      "qty": 1,
+      "unit": "pack",
+      "component": "other"
+    }
+  ],
+  "steps": [
+    "If making kafta from scratch: blend the onion and parsley until fine, mix into the ground beef with all the spices, and knead until sticky and well combined.",
+    "Shape the mixture onto skewers or into small logs.",
+    "Air fry at 200°C for 10-12 minutes, flipping halfway, until browned and cooked through.",
+    "While the kafta cooks, slice the tomatoes and warm the Arabic bread.",
+    "Spread hummus on the bread, add the kafta, top with parsley and tomato, wrap and serve."
+  ],
+  "notes": [
+    "Level 1 of this recipe is buying kafta and hummus ready — Level 2+ is making both from scratch."
+  ],
+  "flags": {
+    "shelfLife": "Arabic bread doesn't last the week — buy fresh closer to cook day or freeze the remainder.",
+    "freezeFriendly": false
+  }
+}

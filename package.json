@@ -1,0 +1,9 @@
+{
+  "name": "unhangry-assistant",
+  "version": "0.1.0",
+  "private": true,
+  "description": "The Unhangry Assistant — weekly meal prep planner for The Unhangry Society.",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

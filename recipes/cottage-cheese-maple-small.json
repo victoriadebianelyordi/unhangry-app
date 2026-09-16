@@ -1,0 +1,33 @@
+{
+  "id": "cottage-cheese-maple-small",
+  "name": "Small Cottage Cheese with Maple",
+  "protein": "veggie",
+  "method": "no-cook",
+  "mealType": "snack",
+  "primaryMacro": "protein",
+  "feeds": 1,
+  "macrosPerServing": {
+    "kcal": 130,
+    "protein": 12,
+    "carbs": 10,
+    "fat": 3
+  },
+  "ingredients": [
+    {
+      "name": "Cottage cheese",
+      "qty": 100,
+      "unit": "g",
+      "component": "protein"
+    }
+  ],
+  "steps": [
+    "Portion 100g + 1 tsp and enjoy. No cooking needed."
+  ],
+  "notes": [
+    "Snack option ~130 kcal. Primary macro: protein. Used by AI Advice to fill a protein gap; portion can be nudged to match the exact gap."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": false
+  }
+}

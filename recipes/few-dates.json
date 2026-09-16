@@ -1,0 +1,33 @@
+{
+  "id": "few-dates",
+  "name": "A Few Dates",
+  "protein": "veggie",
+  "method": "no-cook",
+  "mealType": "snack",
+  "primaryMacro": "carb",
+  "feeds": 1,
+  "macrosPerServing": {
+    "kcal": 110,
+    "protein": 1,
+    "carbs": 28,
+    "fat": 0
+  },
+  "ingredients": [
+    {
+      "name": "Dates",
+      "qty": 2,
+      "unit": "pc",
+      "component": "carb"
+    }
+  ],
+  "steps": [
+    "Portion 2 dates and enjoy. No cooking needed."
+  ],
+  "notes": [
+    "Snack option ~110 kcal. Primary macro: carb. Used by AI Advice to fill a carb gap; portion can be nudged to match the exact gap."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": false
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "avocado-rice-cake",
+  "name": "Rice Cake with Nut Butter of Choice",
+  "protein": "veggie",
+  "method": "no-cook",
+  "mealType": "snack",
+  "primaryMacro": "fat",
+  "feeds": 1,
+  "macrosPerServing": {
+    "kcal": 260,
+    "protein": 9,
+    "carbs": 20,
+    "fat": 17
+  },
+  "ingredients": [
+    {
+      "name": "Rice cakes",
+      "qty": 2,
+      "unit": "pc",
+      "component": "other"
+    },
+    {
+      "name": "Peanut butter (or nut butter of choice)",
+      "qty": 2,
+      "unit": "tbsp",
+      "component": "other"
+    }
+  ],
+  "steps": [
+    "Spread 2 tbsp peanut butter (or any nut butter you prefer) over 2 rice cakes and enjoy. No cooking needed."
+  ],
+  "notes": [
+    "Snack option ~260 kcal. Primary macro: fat. Swap in almond or cashew butter if preferred — calories stay close enough not to matter.",
+    "Used by AI Advice to fill a fat gap; portion can be nudged to match the exact gap."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": false
+  }
+}

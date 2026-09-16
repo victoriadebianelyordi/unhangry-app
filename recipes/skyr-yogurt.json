@@ -1,0 +1,33 @@
+{
+  "id": "skyr-yogurt",
+  "name": "High Protein Yogurt",
+  "protein": "veggie",
+  "method": "no-cook",
+  "mealType": "snack",
+  "primaryMacro": "protein",
+  "feeds": 1,
+  "macrosPerServing": {
+    "kcal": 220,
+    "protein": 22,
+    "carbs": 16,
+    "fat": 4
+  },
+  "ingredients": [
+    {
+      "name": "High-protein yogurt",
+      "qty": 200,
+      "unit": "g",
+      "component": "protein"
+    }
+  ],
+  "steps": [
+    "Portion 200g and enjoy. No cooking needed."
+  ],
+  "notes": [
+    "Snack option ~220 kcal. Primary macro: protein. Used by AI Advice to fill a protein gap; portion can be nudged to match the exact gap."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": false
+  }
+}

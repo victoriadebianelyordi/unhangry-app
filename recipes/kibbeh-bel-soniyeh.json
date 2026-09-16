@@ -1,0 +1,109 @@
+{
+  "id": "kibbeh-bel-soniyeh",
+  "name": "Kibbeh bel Soniyeh",
+  "protein": "beef",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 6,
+  "macrosPerServing": {
+    "kcal": 390,
+    "protein": 28,
+    "carbs": 30,
+    "fat": 18
+  },
+  "ingredients": [
+    {
+      "name": "Lean fine ground meat",
+      "qty": 500,
+      "unit": "g",
+      "component": "protein"
+    },
+    {
+      "name": "Bulgur wheat",
+      "qty": 1.5,
+      "unit": "cup",
+      "component": "carb"
+    },
+    {
+      "name": "Onions (for filling)",
+      "qty": 3,
+      "unit": "pc",
+      "component": "aromatic"
+    },
+    {
+      "name": "Onion (for meat mix)",
+      "qty": 1,
+      "unit": "pc",
+      "component": "aromatic"
+    },
+    {
+      "name": "Walnuts",
+      "qty": 0.75,
+      "unit": "cup",
+      "component": "other"
+    },
+    {
+      "name": "Pine nuts",
+      "qty": 0.5,
+      "unit": "cup",
+      "component": "other"
+    },
+    {
+      "name": "Sumac",
+      "qty": 1,
+      "unit": "tsp",
+      "component": "sauce"
+    },
+    {
+      "name": "Marjoram",
+      "qty": 1,
+      "unit": "tsp",
+      "component": "sauce"
+    },
+    {
+      "name": "Basil",
+      "qty": 1,
+      "unit": "tsp",
+      "component": "sauce"
+    },
+    {
+      "name": "Cumin",
+      "qty": 1,
+      "unit": "tsp",
+      "component": "sauce"
+    },
+    {
+      "name": "Salt",
+      "qty": 1,
+      "unit": "tbsp",
+      "component": "other"
+    },
+    {
+      "name": "Black pepper",
+      "qty": 0.25,
+      "unit": "tsp",
+      "component": "other"
+    },
+    {
+      "name": "Cinnamon",
+      "qty": 0.5,
+      "unit": "tsp",
+      "component": "sauce"
+    }
+  ],
+  "steps": [
+    "Soak the bulgur wheat in water for 15-20 minutes, then drain well.",
+    "For the filling: sauté the diced onions with walnuts and pine nuts until golden, season with sumac and set aside.",
+    "For the base and top layer: blend the ground meat, soaked bulgur, remaining onion, marjoram, basil, cumin, cinnamon, salt and pepper into a smooth, sticky paste (a food processor works well).",
+    "Press half the kibbeh mixture into an oiled baking tray, spread the filling evenly on top, then cover with the remaining kibbeh mixture and smooth flat.",
+    "Score into diamonds or squares, drizzle with a little olive oil.",
+    "Bake at 200°C for 35-40 minutes until golden brown on top."
+  ],
+  "notes": [
+    "Freezes well both baked and unbaked — if freezing unbaked, bake straight from frozen adding 10-15 extra minutes."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  }
+}

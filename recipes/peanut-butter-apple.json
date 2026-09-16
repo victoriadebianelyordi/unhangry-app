@@ -1,0 +1,33 @@
+{
+  "id": "peanut-butter-apple",
+  "name": "Peanut Butter on Apple",
+  "protein": "veggie",
+  "method": "no-cook",
+  "mealType": "snack",
+  "primaryMacro": "fat",
+  "feeds": 1,
+  "macrosPerServing": {
+    "kcal": 230,
+    "protein": 5,
+    "carbs": 28,
+    "fat": 12
+  },
+  "ingredients": [
+    {
+      "name": "Apple",
+      "qty": 1,
+      "unit": "pc",
+      "component": "other"
+    }
+  ],
+  "steps": [
+    "Portion 1 apple + 1 tbsp and enjoy. No cooking needed."
+  ],
+  "notes": [
+    "Snack option ~230 kcal. Primary macro: fat. Used by AI Advice to fill a fat gap; portion can be nudged to match the exact gap."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": false
+  }
+}

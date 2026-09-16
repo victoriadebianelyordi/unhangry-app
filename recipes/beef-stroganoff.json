@@ -1,0 +1,89 @@
+{
+  "id": "beef-stroganoff",
+  "name": "Beef Stroganoff",
+  "protein": "beef",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 5,
+  "macrosPerServing": {
+    "kcal": 460,
+    "protein": 42,
+    "carbs": 8,
+    "fat": 28
+  },
+  "ingredients": [
+    {
+      "name": "Lean beef strips",
+      "qty": 1,
+      "unit": "kg",
+      "component": "protein"
+    },
+    {
+      "name": "Onion (large)",
+      "qty": 1,
+      "unit": "pc",
+      "component": "aromatic"
+    },
+    {
+      "name": "Garlic cloves",
+      "qty": 6,
+      "unit": "pc",
+      "component": "aromatic"
+    },
+    {
+      "name": "Green onions",
+      "qty": 3,
+      "unit": "pc",
+      "component": "aromatic"
+    },
+    {
+      "name": "Cooking cream",
+      "qty": 300,
+      "unit": "ml",
+      "component": "sauce"
+    },
+    {
+      "name": "Mustard",
+      "qty": 4,
+      "unit": "tbsp",
+      "component": "sauce"
+    },
+    {
+      "name": "Olive oil",
+      "qty": 2,
+      "unit": "tbsp",
+      "component": "other"
+    },
+    {
+      "name": "Paprika",
+      "qty": 1,
+      "unit": "tbsp",
+      "component": "sauce"
+    },
+    {
+      "name": "Salt and pepper",
+      "qty": 1,
+      "unit": "to taste",
+      "component": "other"
+    },
+    {
+      "name": "Butter",
+      "qty": 2,
+      "unit": "tbsp",
+      "component": "sauce"
+    }
+  ],
+  "steps": [
+    "Season the beef strips and sear in batches in olive oil over high heat until browned. Set aside.",
+    "In the same pan, add the butter, diced onion and garlic, cook until softened.",
+    "Stir in the paprika and mustard, cook for 1 minute.",
+    "Pour in the cooking cream, bring to a gentle simmer.",
+    "Return the beef to the pan, simmer for 5-8 minutes until the sauce thickens and the beef is tender.",
+    "Finish with sliced green onions, season to taste, and serve."
+  ],
+  "notes": [],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": false
+  }
+}

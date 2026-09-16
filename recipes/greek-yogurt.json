@@ -1,0 +1,33 @@
+{
+  "id": "greek-yogurt",
+  "name": "Greek Yogurt",
+  "protein": "veggie",
+  "method": "no-cook",
+  "mealType": "snack",
+  "primaryMacro": "protein",
+  "feeds": 1,
+  "macrosPerServing": {
+    "kcal": 200,
+    "protein": 20,
+    "carbs": 12,
+    "fat": 5
+  },
+  "ingredients": [
+    {
+      "name": "Greek yogurt",
+      "qty": 200,
+      "unit": "g",
+      "component": "protein"
+    }
+  ],
+  "steps": [
+    "Portion 200g and enjoy. No cooking needed."
+  ],
+  "notes": [
+    "Snack option ~200 kcal. Primary macro: protein. Used by AI Advice to fill a protein gap; portion can be nudged to match the exact gap."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": false
+  }
+}

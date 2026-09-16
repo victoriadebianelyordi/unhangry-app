@@ -1,0 +1,33 @@
+{
+  "id": "protein-shake-milk",
+  "name": "Protein Powder with Milk",
+  "protein": "veggie",
+  "method": "no-cook",
+  "mealType": "snack",
+  "primaryMacro": "protein",
+  "feeds": 1,
+  "macrosPerServing": {
+    "kcal": 250,
+    "protein": 30,
+    "carbs": 16,
+    "fat": 8
+  },
+  "ingredients": [
+    {
+      "name": "Protein powder",
+      "qty": 1,
+      "unit": "scoop",
+      "component": "protein"
+    }
+  ],
+  "steps": [
+    "Portion 1 scoop + 250ml milk and enjoy. No cooking needed."
+  ],
+  "notes": [
+    "Snack option ~250 kcal. Primary macro: protein. Used by AI Advice to fill a protein gap; portion can be nudged to match the exact gap."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": false
+  }
+}

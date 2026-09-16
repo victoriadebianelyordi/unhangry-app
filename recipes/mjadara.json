@@ -1,0 +1,103 @@
+{
+  "id": "mjadara",
+  "name": "Mjadara / Lentils",
+  "protein": "veggie",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 5,
+  "macrosPerServing": {
+    "kcal": 380,
+    "protein": 18,
+    "carbs": 58,
+    "fat": 8
+  },
+  "ingredients": [
+    {
+      "name": "Lentils",
+      "qty": 2,
+      "unit": "cup",
+      "component": "protein"
+    },
+    {
+      "name": "Water",
+      "qty": 6,
+      "unit": "cup",
+      "component": "other"
+    },
+    {
+      "name": "Rice",
+      "qty": 0.25,
+      "unit": "cup",
+      "component": "carb"
+    },
+    {
+      "name": "Onions (medium)",
+      "qty": 2,
+      "unit": "pc",
+      "component": "aromatic"
+    },
+    {
+      "name": "Olive oil",
+      "qty": 3,
+      "unit": "tbsp",
+      "component": "other"
+    },
+    {
+      "name": "Salt",
+      "qty": 1,
+      "unit": "to taste",
+      "component": "other"
+    },
+    {
+      "name": "Black pepper",
+      "qty": 1,
+      "unit": "to taste",
+      "component": "other"
+    },
+    {
+      "name": "Mixed salad veggies",
+      "qty": 1,
+      "unit": "bowl",
+      "component": "other"
+    },
+    {
+      "name": "Olive oil (for salad)",
+      "qty": 2,
+      "unit": "tbsp",
+      "component": "other"
+    },
+    {
+      "name": "Lemon (for salad)",
+      "qty": 1,
+      "unit": "pc",
+      "component": "other"
+    },
+    {
+      "name": "Garlic (for salad)",
+      "qty": 1,
+      "unit": "clove",
+      "component": "other"
+    },
+    {
+      "name": "Pita bread",
+      "qty": 1,
+      "unit": "pack",
+      "component": "other"
+    }
+  ],
+  "steps": [
+    "Rinse the lentils, cover with water, and simmer 15-20 minutes until just tender.",
+    "Slice the onions thinly and fry in olive oil until deeply caramelized and crisp — set most aside for topping, keep some in the pot.",
+    "Add the rice to the lentil pot, cook together until the rice is tender and most of the liquid is absorbed.",
+    "Season with salt and pepper.",
+    "Toss the salad veggies with olive oil, lemon juice, and crushed garlic.",
+    "Serve the mjadara topped with the crispy onions, alongside the salad and pita bread."
+  ],
+  "notes": [
+    "High-carb, lower-protein by nature — this is the recipe the app will flag for a protein boost if someone's targets need it."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": false
+  }
+}

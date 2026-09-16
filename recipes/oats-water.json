@@ -1,0 +1,33 @@
+{
+  "id": "oats-water",
+  "name": "Oats with Water",
+  "protein": "veggie",
+  "method": "no-cook",
+  "mealType": "snack",
+  "primaryMacro": "carb",
+  "feeds": 1,
+  "macrosPerServing": {
+    "kcal": 230,
+    "protein": 8,
+    "carbs": 40,
+    "fat": 4
+  },
+  "ingredients": [
+    {
+      "name": "Rolled oats",
+      "qty": 60,
+      "unit": "g",
+      "component": "carb"
+    }
+  ],
+  "steps": [
+    "Portion 60g dry and enjoy. No cooking needed."
+  ],
+  "notes": [
+    "Snack option ~230 kcal. Primary macro: carb. Used by AI Advice to fill a carb gap; portion can be nudged to match the exact gap."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": false
+  }
+}

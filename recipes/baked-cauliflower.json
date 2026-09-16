@@ -1,0 +1,64 @@
+{
+  "id": "baked-cauliflower",
+  "name": "Baked Cauliflower",
+  "protein": "veggie",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 4,
+  "macrosPerServing": {
+    "kcal": 200,
+    "protein": 6,
+    "carbs": 18,
+    "fat": 12
+  },
+  "ingredients": [
+    {
+      "name": "Whole cauliflower",
+      "qty": 1,
+      "unit": "pc",
+      "component": "carb"
+    },
+    {
+      "name": "Olive oil",
+      "qty": 3,
+      "unit": "tbsp",
+      "component": "other"
+    },
+    {
+      "name": "Salt and pepper",
+      "qty": 1,
+      "unit": "to taste",
+      "component": "other"
+    },
+    {
+      "name": "Pine nuts",
+      "qty": 0.25,
+      "unit": "cup",
+      "component": "other"
+    },
+    {
+      "name": "Pomegranate seeds",
+      "qty": 0.25,
+      "unit": "cup",
+      "component": "other"
+    },
+    {
+      "name": "Tahini (for drizzle)",
+      "qty": 3,
+      "unit": "tbsp",
+      "component": "sauce"
+    }
+  ],
+  "steps": [
+    "Trim the cauliflower and cut into thick steaks or florets.",
+    "Toss with olive oil, salt and pepper.",
+    "Roast at 210°C for 25-30 minutes, turning once, until deeply golden and tender.",
+    "Thin the tahini with a little water and lemon juice if needed to make a drizzle-able sauce.",
+    "Plate the roasted cauliflower, drizzle with tahini, and scatter with pine nuts and pomegranate seeds."
+  ],
+  "notes": [],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": false
+  }
+}

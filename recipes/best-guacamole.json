@@ -1,0 +1,33 @@
+{
+  "id": "best-guacamole",
+  "name": "Best Guacamole",
+  "protein": "veggie",
+  "method": "no-cook",
+  "mealType": "snack",
+  "primaryMacro": "fat",
+  "feeds": 2,
+  "macrosPerServing": { "kcal": 189, "protein": 4, "carbs": 13, "fat": 15 },
+  "ingredients": [
+    { "name": "Ripe avocados, halved and pitted", "qty": 4, "unit": "pc", "component": "other" },
+    { "name": "Finely chopped white onion (about ½ small onion)", "qty": 0.5, "unit": "cup", "component": "aromatic" },
+    { "name": "Finely chopped fresh cilantro", "qty": 0.25, "unit": "cup", "component": "other" },
+    { "name": "Small jalapeño, seeds and ribs removed, finely chopped", "qty": 1, "unit": "pc", "component": "aromatic" },
+    { "name": "Lime juice (from about 1½ limes), or more if needed", "qty": 3, "unit": "tbsp", "component": "sauce" },
+    { "name": "Ground coriander", "qty": 0.25, "unit": "tsp", "component": "sauce" },
+    { "name": "Kosher salt, more to taste", "qty": 1, "unit": "tsp", "component": "other" }
+  ],
+  "steps": [
+    "Using a spoon, scoop the flesh of the avocados into a low serving bowl, discarding any bruised, browned areas.",
+    "Using a pastry cutter, potato masher, or fork, mash up the avocado until it reaches your desired texture (some texture is nice — stop mashing once there are just small chunks remaining).",
+    "Promptly add the onion, cilantro, jalapeño, lime juice, coriander, and salt. Stir to combine.",
+    "Taste and add more salt if needed, until the flavors really sing. If it needs more zip, add a little more lime juice."
+  ],
+  "notes": [
+    "A snack/side, not a full meal — pair it with a higher-protein main rather than counting it as lunch or dinner on its own."
+  ],
+  "flags": {
+    "shelfLife": "Best eaten the same day — avocado browns quickly even with the lime juice.",
+    "freezeFriendly": false
+  },
+  "sourceUrl": "https://cookieandkate.com/best-guacamole-recipe/"
+}

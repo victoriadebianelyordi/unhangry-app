@@ -1,0 +1,39 @@
+{
+  "id": "recipe-id-here",
+  "name": "Recipe Name Here",
+  "protein": "beef",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 6,
+  "macrosPerServing": { "kcal": 0, "protein": 0, "carbs": 0, "fat": 0 },
+  "ingredients": [
+    {
+      "name": "Ingredient name",
+      "qty": 1,
+      "unit": "kg",
+      "component": "protein",
+      "buyVsMake": {
+        "buy": "Description of the ready-bought option",
+        "make": "Description of the from-scratch option"
+      }
+    },
+    {
+      "name": "Another ingredient (no buy/make choice)",
+      "qty": 2,
+      "unit": "pc",
+      "component": "aromatic"
+    }
+  ],
+  "steps": [
+    "Step one.",
+    "Step two.",
+    "Step three."
+  ],
+  "notes": [
+    "Any extra tips go here."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": false
+  }
+}

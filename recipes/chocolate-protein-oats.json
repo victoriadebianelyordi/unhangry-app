@@ -1,0 +1,31 @@
+{
+  "id": "chocolate-protein-oats",
+  "name": "Chocolate Protein Oats",
+  "protein": "veggie",
+  "method": "no-cook",
+  "mealType": "breakfast",
+  "feeds": 6,
+  "macrosPerServing": { "kcal": 380, "protein": 24, "carbs": 45, "fat": 9 },
+  "ingredients": [
+    { "name": "Rolled oats", "qty": 480, "unit": "g", "component": "carb" },
+    { "name": "Milk (or plant milk)", "qty": 1.2, "unit": "L", "component": "other" },
+    { "name": "Chocolate protein powder", "qty": 180, "unit": "g", "component": "protein" },
+    { "name": "Cocoa powder", "qty": 4, "unit": "tbsp", "component": "other" },
+    { "name": "Greek yogurt", "qty": 240, "unit": "g", "component": "protein" },
+    { "name": "Honey or maple syrup", "qty": 4, "unit": "tbsp", "component": "other" },
+    { "name": "Pinch of salt", "qty": 1, "unit": "pinch", "component": "other" }
+  ],
+  "steps": [
+    "Divide the oats evenly between 6 jars.",
+    "Whisk the milk, protein powder, cocoa powder, Greek yogurt, honey, and salt together until smooth.",
+    "Pour over the oats in each jar and stir well to combine.",
+    "Cover and refrigerate overnight (or at least 4 hours). Keeps 4-5 days refrigerated."
+  ],
+  "notes": [
+    "If the protein powder makes it too thick once set, loosen with a splash of milk before eating."
+  ],
+  "flags": {
+    "shelfLife": "Best within 4-5 days refrigerated.",
+    "freezeFriendly": false
+  }
+}

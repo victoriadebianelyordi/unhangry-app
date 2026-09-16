@@ -1,0 +1,58 @@
+{
+  "id": "broccolini-fries",
+  "name": "Broccolini Fries",
+  "protein": "veggie",
+  "method": "air-fryer",
+  "mealType": "main",
+  "feeds": 2,
+  "macrosPerServing": {
+    "kcal": 120,
+    "protein": 4,
+    "carbs": 10,
+    "fat": 8
+  },
+  "ingredients": [
+    {
+      "name": "Broccoli (cut into thin spears)",
+      "qty": 1,
+      "unit": "head",
+      "component": "carb"
+    },
+    {
+      "name": "Olive oil",
+      "qty": 1,
+      "unit": "tbsp",
+      "component": "other"
+    },
+    {
+      "name": "Salt",
+      "qty": 0.5,
+      "unit": "tsp",
+      "component": "other"
+    },
+    {
+      "name": "Garlic powder",
+      "qty": 1,
+      "unit": "tsp",
+      "component": "sauce"
+    },
+    {
+      "name": "Black pepper",
+      "qty": 1,
+      "unit": "to taste",
+      "component": "other"
+    }
+  ],
+  "steps": [
+    "Cut the broccoli into thin, fry-shaped spears including the stem.",
+    "Toss with olive oil, salt, garlic powder, and pepper.",
+    "Air fry at 200°C for 10-12 minutes, shaking the basket halfway, until crisp-edged and tender."
+  ],
+  "notes": [
+    "This recipe scales per head of broccoli — the base ratio above is per head, feeding roughly 2. Multiply heads for a bigger batch."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": false
+  }
+}

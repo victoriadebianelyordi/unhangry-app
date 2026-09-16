@@ -1,0 +1,90 @@
+{
+  "id": "tuna-lasagna",
+  "name": "Tuna Lasagna",
+  "protein": "seafood",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 7,
+  "macrosPerServing": {
+    "kcal": 480,
+    "protein": 36,
+    "carbs": 42,
+    "fat": 16
+  },
+  "ingredients": [
+    {
+      "name": "Fresh lasagna sheets",
+      "qty": 1,
+      "unit": "pack",
+      "component": "carb"
+    },
+    {
+      "name": "Tuna (canned, drained)",
+      "qty": 4,
+      "unit": "can",
+      "component": "protein"
+    },
+    {
+      "name": "Spinach",
+      "qty": 200,
+      "unit": "g",
+      "component": "other"
+    },
+    {
+      "name": "Crushed tomatoes (seasoned with garlic/onion/herbs)",
+      "qty": 400,
+      "unit": "g",
+      "component": "sauce"
+    },
+    {
+      "name": "Butter (for bechamel)",
+      "qty": 2,
+      "unit": "tbsp",
+      "component": "sauce"
+    },
+    {
+      "name": "Flour (for bechamel)",
+      "qty": 2,
+      "unit": "tbsp",
+      "component": "sauce"
+    },
+    {
+      "name": "Milk (for bechamel)",
+      "qty": 500,
+      "unit": "ml",
+      "component": "sauce"
+    },
+    {
+      "name": "Salt, pepper, nutmeg (for bechamel)",
+      "qty": 1,
+      "unit": "to taste",
+      "component": "sauce"
+    },
+    {
+      "name": "Mozzarella balls (or 1 large Zanetti)",
+      "qty": 2,
+      "unit": "pc",
+      "component": "sauce"
+    },
+    {
+      "name": "Grated parmesan",
+      "qty": 0.5,
+      "unit": "cup",
+      "component": "sauce"
+    }
+  ],
+  "steps": [
+    "Make the bechamel (or substitute 500ml cooking cream): melt the butter, whisk in the flour, cook 1 minute, then gradually whisk in the milk until smooth and thickened. Season with salt, pepper, and nutmeg.",
+    "Wilt the spinach briefly and mix it through the drained tuna.",
+    "In a baking dish, layer: crushed tomato sauce, lasagna sheets, tuna-spinach mix, bechamel, repeat until ingredients are used, finishing with a bechamel layer.",
+    "Top with torn mozzarella and grated parmesan.",
+    "Bake at 190°C for 30-35 minutes until golden and bubbling. Rest 10 minutes before slicing."
+  ],
+  "notes": [
+    "Great for batch freezing — assemble a second tray unbaked and freeze half for midweek."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  }
+}

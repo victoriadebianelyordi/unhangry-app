@@ -1,0 +1,33 @@
+{
+  "id": "seeds",
+  "name": "Pumpkin or Sunflower Seeds",
+  "protein": "veggie",
+  "method": "no-cook",
+  "mealType": "snack",
+  "primaryMacro": "fat",
+  "feeds": 1,
+  "macrosPerServing": {
+    "kcal": 200,
+    "protein": 9,
+    "carbs": 6,
+    "fat": 16
+  },
+  "ingredients": [
+    {
+      "name": "Seeds",
+      "qty": 35,
+      "unit": "g",
+      "component": "other"
+    }
+  ],
+  "steps": [
+    "Portion 35g and enjoy. No cooking needed."
+  ],
+  "notes": [
+    "Snack option ~200 kcal. Primary macro: fat. Used by AI Advice to fill a fat gap; portion can be nudged to match the exact gap."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": false
+  }
+}

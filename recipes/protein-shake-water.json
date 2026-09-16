@@ -1,0 +1,33 @@
+{
+  "id": "protein-shake-water",
+  "name": "Protein Powder with Water",
+  "protein": "veggie",
+  "method": "no-cook",
+  "mealType": "snack",
+  "primaryMacro": "protein",
+  "feeds": 1,
+  "macrosPerServing": {
+    "kcal": 180,
+    "protein": 36,
+    "carbs": 6,
+    "fat": 2
+  },
+  "ingredients": [
+    {
+      "name": "Protein powder",
+      "qty": 1.5,
+      "unit": "scoop",
+      "component": "protein"
+    }
+  ],
+  "steps": [
+    "Portion 1.5 scoops and enjoy. No cooking needed."
+  ],
+  "notes": [
+    "Snack option ~180 kcal. Primary macro: protein. Used by AI Advice to fill a protein gap; portion can be nudged to match the exact gap."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": false
+  }
+}

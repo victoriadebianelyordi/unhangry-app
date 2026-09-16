@@ -1,0 +1,158 @@
+{
+  "id": "lebanese-oriental-rice-chicken",
+  "name": "Lebanese Oriental Rice & Chicken",
+  "protein": "chicken",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 5,
+  "macrosPerServing": {
+    "kcal": 580,
+    "protein": 44,
+    "carbs": 48,
+    "fat": 22
+  },
+  "ingredients": [
+    {
+      "name": "Whole chicken",
+      "qty": 1,
+      "unit": "pc",
+      "component": "protein"
+    },
+    {
+      "name": "Onion (small)",
+      "qty": 1,
+      "unit": "pc",
+      "component": "aromatic"
+    },
+    {
+      "name": "Bay leaves",
+      "qty": 2,
+      "unit": "pc",
+      "component": "sauce"
+    },
+    {
+      "name": "Galangal",
+      "qty": 1,
+      "unit": "pc",
+      "component": "sauce"
+    },
+    {
+      "name": "Dry lemon",
+      "qty": 1,
+      "unit": "pc",
+      "component": "sauce"
+    },
+    {
+      "name": "Nutmeg",
+      "qty": 1,
+      "unit": "pinch",
+      "component": "sauce"
+    },
+    {
+      "name": "Cloves",
+      "qty": 4,
+      "unit": "pc",
+      "component": "sauce"
+    },
+    {
+      "name": "Dry ginger",
+      "qty": 1,
+      "unit": "tsp",
+      "component": "sauce"
+    },
+    {
+      "name": "Cinnamon sticks",
+      "qty": 2,
+      "unit": "pc",
+      "component": "sauce"
+    },
+    {
+      "name": "Cardamom",
+      "qty": 4,
+      "unit": "pod",
+      "component": "sauce"
+    },
+    {
+      "name": "Basmati rice",
+      "qty": 2,
+      "unit": "cup",
+      "component": "carb"
+    },
+    {
+      "name": "Ground lean beef",
+      "qty": 200,
+      "unit": "g",
+      "component": "protein"
+    },
+    {
+      "name": "Cinnamon (ground)",
+      "qty": 1,
+      "unit": "tsp",
+      "component": "sauce"
+    },
+    {
+      "name": "Almonds",
+      "qty": 0.25,
+      "unit": "cup",
+      "component": "other"
+    },
+    {
+      "name": "Cashews",
+      "qty": 0.25,
+      "unit": "cup",
+      "component": "other"
+    },
+    {
+      "name": "Yellow raisins",
+      "qty": 0.25,
+      "unit": "cup",
+      "component": "other"
+    },
+    {
+      "name": "Pine nuts",
+      "qty": 0.25,
+      "unit": "cup",
+      "component": "other"
+    },
+    {
+      "name": "Pistachios",
+      "qty": 0.25,
+      "unit": "cup",
+      "component": "other"
+    },
+    {
+      "name": "Garlic cloves (for sauce)",
+      "qty": 4,
+      "unit": "pc",
+      "component": "sauce"
+    },
+    {
+      "name": "Olive oil (for sauce)",
+      "qty": 0.5,
+      "unit": "cup",
+      "component": "sauce"
+    },
+    {
+      "name": "Lemons (for sauce)",
+      "qty": 1.5,
+      "unit": "pc",
+      "component": "sauce"
+    }
+  ],
+  "steps": [
+    "Place the whole chicken in a large pot with the onion and all the whole spices. Cover with water, bring to a boil, then simmer 45-60 minutes until the chicken is fully cooked. Reserve the broth.",
+    "Remove the chicken, let it cool slightly, then shred or joint the meat.",
+    "In a separate pot, brown the ground beef with ground cinnamon until cooked, then set aside.",
+    "Cook the basmati rice in the reserved chicken broth (about 1.5x rice volume in liquid) until fluffy.",
+    "Toast the mixed nuts and raisins in a dry pan or with a touch of oil until golden.",
+    "For the garlic lemon sauce: blend the garlic, olive oil, and lemon juice until emulsified.",
+    "To serve: layer the rice, top with shredded chicken, the spiced ground beef, and the toasted nut mix. Drizzle with garlic lemon sauce."
+  ],
+  "notes": [
+    "Whole spices are available at any spice shop or the Carrefour spice section."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": false
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "fruit-of-choice",
+  "name": "Fruit of Choice",
+  "protein": "veggie",
+  "method": "no-cook",
+  "mealType": "snack",
+  "primaryMacro": "carb",
+  "feeds": 1,
+  "macrosPerServing": {
+    "kcal": 200,
+    "protein": 2,
+    "carbs": 48,
+    "fat": 1
+  },
+  "ingredients": [
+    {
+      "name": "Fruit",
+      "qty": 2,
+      "unit": "pc",
+      "component": "carb"
+    }
+  ],
+  "steps": [
+    "Portion 1-2 pieces and enjoy. No cooking needed."
+  ],
+  "notes": [
+    "Snack option ~200 kcal. Primary macro: carb. Used by AI Advice to fill a carb gap; portion can be nudged to match the exact gap."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": false
+  }
+}

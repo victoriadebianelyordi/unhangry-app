@@ -1,0 +1,103 @@
+{
+  "id": "fatteh-arayes",
+  "name": "Fatteh Arayes",
+  "protein": "beef",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 7,
+  "macrosPerServing": {
+    "kcal": 520,
+    "protein": 36,
+    "carbs": 34,
+    "fat": 24
+  },
+  "ingredients": [
+    {
+      "name": "Large tortilla wraps",
+      "qty": 8,
+      "unit": "pc",
+      "component": "carb"
+    },
+    {
+      "name": "Ground beef",
+      "qty": 1,
+      "unit": "kg",
+      "component": "protein"
+    },
+    {
+      "name": "Brown onion",
+      "qty": 1,
+      "unit": "pc",
+      "component": "aromatic"
+    },
+    {
+      "name": "Paprika",
+      "qty": 1,
+      "unit": "tsp",
+      "component": "sauce"
+    },
+    {
+      "name": "Salt and pepper",
+      "qty": 1,
+      "unit": "to taste",
+      "component": "other"
+    },
+    {
+      "name": "Greek yogurt",
+      "qty": 1,
+      "unit": "kg",
+      "component": "sauce"
+    },
+    {
+      "name": "Tahini",
+      "qty": 4,
+      "unit": "tbsp",
+      "component": "sauce"
+    },
+    {
+      "name": "Garlic cloves",
+      "qty": 4,
+      "unit": "pc",
+      "component": "aromatic"
+    },
+    {
+      "name": "Lemon juice",
+      "qty": 2,
+      "unit": "tbsp",
+      "component": "sauce"
+    },
+    {
+      "name": "Pomegranate seeds (garnish)",
+      "qty": 0.5,
+      "unit": "cup",
+      "component": "other"
+    },
+    {
+      "name": "Pine nuts (garnish)",
+      "qty": 3,
+      "unit": "tbsp",
+      "component": "other"
+    },
+    {
+      "name": "Parsley (garnish)",
+      "qty": 1,
+      "unit": "bunch",
+      "component": "other"
+    }
+  ],
+  "steps": [
+    "Cut tortilla wraps into triangles, bake or toast until crisp and golden — this is your fatteh base.",
+    "Cook the ground beef with the diced onion, paprika, salt and pepper until browned and cooked through.",
+    "Whisk the Greek yogurt with tahini, crushed garlic, and lemon juice until smooth to make the sauce.",
+    "Layer the crisp tortilla pieces in a serving dish, spoon the cooked beef over the top.",
+    "Pour the yogurt-tahini sauce generously over the beef and bread.",
+    "Garnish with pomegranate seeds, toasted pine nuts, and chopped parsley. Serve immediately so the bread stays crisp."
+  ],
+  "notes": [
+    "Assemble just before serving — the tortilla base loses its crunch if it sits too long under the sauce."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": false
+  }
+}

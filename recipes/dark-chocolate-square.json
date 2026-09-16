@@ -1,0 +1,33 @@
+{
+  "id": "dark-chocolate-square",
+  "name": "Dark Chocolate Square",
+  "protein": "veggie",
+  "method": "no-cook",
+  "mealType": "snack",
+  "primaryMacro": "fat",
+  "feeds": 1,
+  "macrosPerServing": {
+    "kcal": 90,
+    "protein": 1,
+    "carbs": 7,
+    "fat": 6
+  },
+  "ingredients": [
+    {
+      "name": "Dark chocolate",
+      "qty": 15,
+      "unit": "g",
+      "component": "other"
+    }
+  ],
+  "steps": [
+    "Portion 15g and enjoy. No cooking needed."
+  ],
+  "notes": [
+    "Snack option ~90 kcal. Primary macro: fat. Used by AI Advice to fill a fat gap; portion can be nudged to match the exact gap."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": false
+  }
+}

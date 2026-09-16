@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Unhangry Assistant</title>
+<link rel="icon" href="assets/unhangry-logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,500&family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="site-header__inner">
+    <div class="wordmark">UNHANGRY<span class="wordmark__dot">.</span></div>
+    <nav class="tabnav" id="tabnav">
+      <button class="tabnav__btn is-active" data-screen="database">The Database</button>
+      <button class="tabnav__btn" data-screen="family">The Family Hub</button>
+      <button class="tabnav__btn" data-screen="list">The List</button>
+    </nav>
+  </div>
+</header>
+
+<main id="app">
+
+  <!-- SCREEN 1 — THE DATABASE -->
+  <section class="screen is-active" id="screen-database">
+    <div class="screen__header">
+      <p class="eyebrow">Recipe Library</p>
+      <h1 class="display-h1">The Database</h1>
+      <p class="screen__lede">Every recipe in the Unhangry system — pick a section, filter by protein, click a card for the full breakdown, and build your week from here.</p>
+    </div>
+
+    <div class="section-tabs" id="section-tabs">
+      <button class="section-tab is-active" data-section="main">🍽️ Lunch &amp; Dinners</button>
+      <button class="section-tab" data-section="breakfast">🍳 Breakfasts</button>
+      <button class="section-tab" data-section="snack">🥨 Snacks &amp; Sides</button>
+    </div>
+
+    <div class="filter-row">
+      <div class="chips" id="protein-filters">
+        <button class="chip is-active" data-protein="all">All</button>
+        <button class="chip" data-protein="beef">🥩 Beef</button>
+        <button class="chip" data-protein="chicken">🍗 Chicken</button>
+        <button class="chip" data-protein="seafood">🐟 Seafood</button>
+        <button class="chip" data-protein="veggie">🥦 Veggie</button>
+      </div>
+      <div class="chips" id="macro-filters" hidden>
+        <button class="chip is-active" data-macro="all">All</button>
+        <button class="chip" data-macro="protein">💪 Protein</button>
+        <button class="chip" data-macro="carb">🍞 Carb</button>
+        <button class="chip" data-macro="fat">🥑 Fat</button>
+      </div>
+      <button class="btn btn--ghost" id="open-importer">+ Add a recipe</button>
+    </div>
+
+    <div class="recipe-grid" id="recipe-grid">
+      <!-- recipe cards injected here -->
+    </div>
+    <p class="empty-state" id="recipe-empty" hidden>No recipes here yet.</p>
+  </section>
+
+  <!-- SCREEN 2 — THE FAMILY HUB -->
+  <section class="screen" id="screen-family">
+    <div class="screen__header">
+      <p class="eyebrow">Household Setup</p>
+      <h1 class="display-h1">The Family Hub</h1>
+      <p class="screen__lede">Set this up once — the real people in your household, their goals, and your house rules. Everything in The List gets built around this.</p>
+    </div>
+
+    <div class="hub-section">
+      <div class="hub-section__header">
+        <h2 class="display-h2-sm">Household Members</h2>
+        <button class="btn btn--ghost" id="open-member-modal">+ Add a member</button>
+      </div>
+      <div class="member-grid" id="member-grid"></div>
+      <p class="empty-state" id="member-empty" hidden>No one's been added yet — start with yourself.</p>
+    </div>
+
+    <div class="hub-section">
+      <h2 class="display-h2-sm">Household Rules</h2>
+      <div class="rules-columns">
+        <div class="rules-col">
+          <h3 class="rules-col__title">Family-wide<span>Excluded for everyone — filters which recipes can be picked.</span></h3>
+          <div class="rules-list" id="family-rules-list"></div>
+          <div class="rules-add">
+            <input type="text" id="family-rule-input" placeholder="e.g. Halal only, No pork, No shellfish">
+            <button class="btn btn--ghost btn--small" id="family-rule-add" type="button">+ Add</button>
+          </div>
+        </div>
+        <div class="rules-col">
+          <h3 class="rules-col__title">Individual<span>Flagged, not excluded — creates a prep note for that person's portion only.</span></h3>
+          <div class="rules-list" id="individual-rules-list"></div>
+          <div class="rules-add">
+            <select id="individual-rule-member"></select>
+            <input type="text" id="individual-rule-input" placeholder="e.g. hates cucumber, no fish">
+            <button class="btn btn--ghost btn--small" id="individual-rule-add" type="button">+ Add</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hub-section">
+      <h2 class="display-h2-sm">Cook Schedule</h2>
+      <div class="schedule-row">
+        <label class="field">
+          <span>Cook days per week (lunch/dinner)</span>
+          <input type="number" id="cook-days" min="1" max="7">
+        </label>
+        <label class="field">
+          <span>Breakfast days per week</span>
+          <input type="number" id="breakfast-days" min="0" max="7">
+        </label>
+        <p class="schedule-note" id="eat-out-note"></p>
+      </div>
+    </div>
+
+    <div class="hub-section">
+      <h2 class="display-h2-sm">Roles</h2>
+      <div class="roles-row">
+        <label class="field"><span>Planner</span><select id="role-planner"><option value="">—</option></select></label>
+        <label class="field"><span>Shopper</span><select id="role-shopper"><option value="">—</option></select></label>
+        <label class="field"><span>Sunday Cook</span><select id="role-cook"><option value="">—</option></select></label>
+      </div>
+    </div>
+  </section>
+
+  <!-- SCREEN 3 — THE LIST -->
+  <section class="screen" id="screen-list">
+    <div class="screen__header">
+      <p class="eyebrow">Weekly Planning</p>
+      <h1 class="display-h1">The List</h1>
+      <p class="screen__lede">Pick your 3 mains, one per cooking method, add breakfast and any snacks, flag this week's exceptions, and generate the scaled grocery list.</p>
+    </div>
+
+    <div class="hub-section" id="past-weeks-section" hidden>
+      <div class="hub-section__header">
+        <h2 class="display-h2-sm">Past Weeks</h2>
+      </div>
+      <div class="past-weeks-list" id="past-weeks-list"></div>
+    </div>
+
+    <div class="hub-section">
+      <h2 class="display-h2-sm">This Week's Mains</h2>
+      <p class="list-step-hint">One recipe per method — air fryer, oven, and stovetop all run Sunday.</p>
+      <div class="method-slots" id="method-slots">
+        <div class="method-slot" role="button" tabindex="0" data-method="air-fryer">
+          <span class="method-slot__icon">💨</span>
+          <span class="method-slot__body">
+            <span class="method-slot__label">Air Fryer</span>
+            <span class="method-slot__cta">+ Choose a recipe</span>
+          </span>
+        </div>
+        <div class="method-slot" role="button" tabindex="0" data-method="oven">
+          <span class="method-slot__icon">🔥</span>
+          <span class="method-slot__body">
+            <span class="method-slot__label">Oven</span>
+            <span class="method-slot__cta">+ Choose a recipe</span>
+          </span>
+        </div>
+        <div class="method-slot" role="button" tabindex="0" data-method="stovetop">
+          <span class="method-slot__icon">🍲</span>
+          <span class="method-slot__body">
+            <span class="method-slot__label">Stovetop</span>
+            <span class="method-slot__cta">+ Choose a recipe</span>
+          </span>
+        </div>
+      </div>
+      <div class="protein-warning" id="protein-warning" hidden></div>
+    </div>
+
+    <div class="hub-section">
+      <h2 class="display-h2-sm">Breakfast</h2>
+      <p class="list-step-hint" id="breakfast-hint">Pick one — you'll batch it Sunday and rotate through the week.</p>
+      <div class="method-slots method-slots--single">
+        <div class="method-slot" role="button" tabindex="0" id="breakfast-slot">
+          <span class="method-slot__icon">🍳</span>
+          <span class="method-slot__body">
+            <span class="method-slot__label">Breakfast</span>
+            <span class="method-slot__cta">+ Choose</span>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hub-section">
+      <h2 class="display-h2-sm">Snacks &amp; Sides <span class="optional-tag">optional</span></h2>
+      <p class="list-step-hint">Up to 2 for the week — these don't count toward your 3 mains.</p>
+      <div class="method-slots method-slots--snacks" id="snack-slots">
+        <div class="method-slot" role="button" tabindex="0" data-snack-slot="0">
+          <span class="method-slot__icon">🥨</span>
+          <span class="method-slot__body">
+            <span class="method-slot__label">Snack 1</span>
+            <span class="method-slot__cta">+ Choose (optional)</span>
+          </span>
+        </div>
+        <div class="method-slot" role="button" tabindex="0" data-snack-slot="1">
+          <span class="method-slot__icon">🥨</span>
+          <span class="method-slot__body">
+            <span class="method-slot__label">Snack 2</span>
+            <span class="method-slot__cta">+ Choose (optional)</span>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hub-section">
+      <h2 class="display-h2-sm">This Week's Exceptions <span class="optional-tag">optional</span></h2>
+      <p class="list-step-hint">Anyone away or eating out more than usual? This only affects this week's list — their saved profile in the Family Hub doesn't change.</p>
+      <div class="weekly-adjustments" id="weekly-adjustments"></div>
+      <p class="empty-state" id="weekly-adjustments-empty" hidden>Add household members in the Family Hub first.</p>
+    </div>
+
+    <div class="hub-section" id="buy-vs-make-section" hidden>
+      <h2 class="display-h2-sm">Buy or Make?</h2>
+      <p class="list-step-hint">Quick calls before we generate the list — this changes what shows up in the grocery list for these ingredients.</p>
+      <div class="buy-vs-make-questions" id="buy-vs-make-questions"></div>
+    </div>
+
+    <div class="generate-row">
+      <p class="ai-status-line" id="list-ai-status-line" hidden></p>
+      <button class="btn btn--primary btn--large" id="generate-list-btn" type="button">Generate The List</button>
+      <p class="generate-status" id="generate-status" hidden></p>
+    </div>
+
+    <div class="grocery-output" id="grocery-output" hidden>
+      <div class="grocery-output__header">
+        <p class="eyebrow">🛒 The List</p>
+        <p class="grocery-output__summary" id="grocery-summary"></p>
+      </div>
+      <div class="grocery-categories" id="grocery-categories"></div>
+
+      <div class="ai-advice-section" id="ai-advice-section" hidden>
+        <p class="detail-section-title">🧠 AI Advice</p>
+        <p class="ai-advice-error" id="ai-advice-error" hidden></p>
+        <div class="ai-advice-list" id="ai-advice-list"></div>
+      </div>
+
+      <div class="grocery-output__actions">
+        <button class="btn btn--primary" id="copy-whatsapp-btn" type="button">Copy for WhatsApp</button>
+        <button class="btn btn--ghost" id="copy-recipes-btn" type="button">Copy recipes for the cook</button>
+      </div>
+
+      <div class="weigh-pack-section" id="weigh-pack-section" hidden>
+        <p class="detail-section-title">⚖️ Weigh &amp; Pack</p>
+        <div class="weigh-pack-list" id="weigh-pack-list"></div>
+      </div>
+
+      <div class="save-week-box">
+        <p class="detail-section-title">Save this week</p>
+        <p class="list-step-hint">Give it a name and a quick note — handy if you want to repeat it or remember what worked.</p>
+        <div class="review-grid">
+          <label class="field"><span>Week name</span><input type="text" id="save-week-name" placeholder="e.g. Week of March 3rd"></label>
+          <label class="field"><span>How long did the Sunday sprint take?</span><input type="text" id="save-week-duration" placeholder="e.g. 3.5 hours"></label>
+        </div>
+        <label class="field"><span>What went well</span><textarea id="save-week-well" rows="2"></textarea></label>
+        <label class="field"><span>What was hard / would change next time</span><textarea id="save-week-hard" rows="2"></textarea></label>
+        <button class="btn btn--primary" id="save-week-btn" type="button">Save this week</button>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- RECIPE DETAIL MODAL -->
+<div class="modal-overlay" id="recipe-modal" hidden>
+  <div class="modal" role="dialog" aria-modal="true">
+    <button class="modal__close" id="recipe-modal-close" aria-label="Close">&times;</button>
+    <div class="modal__body" id="recipe-modal-body">
+      <!-- recipe detail injected here -->
+    </div>
+  </div>
+</div>
+
+<!-- ADD A RECIPE MODAL -->
+<div class="modal-overlay" id="importer-modal" hidden>
+  <div class="modal" role="dialog" aria-modal="true">
+    <button class="modal__close" id="importer-modal-close" aria-label="Close">&times;</button>
+    <div class="modal__body">
+      <p class="eyebrow">Add a recipe</p>
+      <h2 class="display-h2">Bring in a new dish</h2>
+      <p class="ai-status-line" id="ai-status-line" hidden></p>
+
+      <div class="importer-tabs" id="importer-tabs">
+        <button class="importer-tab is-active" data-method="paste">Paste text</button>
+        <button class="importer-tab" data-method="url">From a URL</button>
+        <button class="importer-tab" data-method="photo">From a photo</button>
+      </div>
+
+      <div class="importer-pane is-active" data-pane="paste">
+        <p class="importer-hint" id="paste-hint">Paste the recipe as free text and I'll structure it into the app's recipe format for you to review.</p>
+        <input type="text" id="paste-name" placeholder="Recipe name (optional — I'll guess it if you skip this)">
+        <textarea id="paste-textarea" rows="8" placeholder="Paste ingredients and steps here..."></textarea>
+        <button class="btn btn--primary" id="paste-parse">Parse recipe</button>
+      </div>
+
+      <div class="importer-pane" data-pane="url">
+        <p class="importer-hint">Drop a link to a recipe page and I'll pull the ingredients and steps out of it automatically.</p>
+        <p class="importer-note">📌 Instagram links aren't supported yet — that's still coming soon. Paste the caption into the Paste tab instead for now.</p>
+        <input type="text" id="url-input" placeholder="https://...">
+        <button class="btn btn--primary" id="url-parse">Import from URL</button>
+      </div>
+
+      <div class="importer-pane" data-pane="photo">
+        <p class="importer-hint">Upload a photo of a handwritten or printed recipe and I'll transcribe it (Instagram reel import specifically is still coming soon).</p>
+        <input type="file" accept="image/*" id="photo-input">
+        <button class="btn btn--primary" id="photo-parse">Import from photo</button>
+      </div>
+
+      <div class="importer-status" id="importer-status" hidden></div>
+    </div>
+  </div>
+</div>
+
+<!-- RECIPE REVIEW / EDIT MODAL — shown after any import parses successfully -->
+<div class="modal-overlay" id="review-modal" hidden>
+  <div class="modal modal--wide" role="dialog" aria-modal="true">
+    <button class="modal__close" id="review-modal-close" aria-label="Close">&times;</button>
+    <div class="modal__body">
+      <p class="eyebrow">Review before saving</p>
+      <h2 class="display-h2">Check the details</h2>
+      <p class="importer-hint">This was parsed automatically — fix anything that's off, then save it to the database. It'll appear in the grid immediately.</p>
+      <div class="importer-status" id="review-status" hidden></div>
+
+      <form id="review-form">
+        <div class="review-grid">
+          <label class="field">
+            <span>Recipe name</span>
+            <input type="text" id="rf-name" required>
+          </label>
+          <label class="field">
+            <span>Feeds (base ratio)</span>
+            <input type="number" id="rf-feeds" min="1" required>
+          </label>
+          <label class="field">
+            <span>Protein</span>
+            <select id="rf-protein">
+              <option value="beef">Beef</option>
+              <option value="chicken">Chicken</option>
+              <option value="seafood">Seafood</option>
+              <option value="veggie">Veggie</option>
+            </select>
+          </label>
+          <label class="field">
+            <span>Method</span>
+            <select id="rf-method">
+              <option value="air-fryer">Air Fryer</option>
+              <option value="oven">Oven</option>
+              <option value="stovetop">Stovetop</option>
+              <option value="no-cook">No-Cook (fridge/overnight)</option>
+            </select>
+          </label>
+          <label class="field">
+            <span>Meal type</span>
+            <select id="rf-mealtype">
+              <option value="main">Main (lunch/dinner)</option>
+              <option value="breakfast">Breakfast</option>
+              <option value="snack">Snack / side</option>
+            </select>
+          </label>
+        </div>
+
+        <p class="detail-section-title">Macros per serving</p>
+        <div class="review-grid review-grid--4">
+          <label class="field"><span>kcal</span><input type="number" id="rf-kcal" min="0"></label>
+          <label class="field"><span>protein (g)</span><input type="number" id="rf-protein-g" min="0"></label>
+          <label class="field"><span>carbs (g)</span><input type="number" id="rf-carbs" min="0"></label>
+          <label class="field"><span>fat (g)</span><input type="number" id="rf-fat" min="0"></label>
+        </div>
+
+        <div class="meal-fit-advisory" id="meal-fit-advisory" hidden></div>
+
+        <p class="detail-section-title">Ingredients</p>
+        <div id="rf-ingredients" class="ingredient-editor"></div>
+        <button type="button" class="btn btn--ghost btn--small" id="rf-add-ingredient">+ Add ingredient</button>
+
+        <p class="detail-section-title">Method (one step per line)</p>
+        <textarea id="rf-steps" rows="6"></textarea>
+
+        <p class="detail-section-title">Notes (one per line, optional)</p>
+        <textarea id="rf-notes" rows="2"></textarea>
+
+        <p class="detail-section-title">Flags</p>
+        <div class="review-grid">
+          <label class="field">
+            <span>Shelf-life warning (optional)</span>
+            <input type="text" id="rf-shelflife" placeholder="e.g. plan for days 1-3">
+          </label>
+          <label class="field field--checkbox">
+            <input type="checkbox" id="rf-freeze">
+            <span>Freeze-friendly ❄️</span>
+          </label>
+        </div>
+
+        <div class="modal__actions">
+          <button type="submit" class="btn btn--primary">Save to database</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- HOUSEHOLD MEMBER ADD/EDIT MODAL -->
+<div class="modal-overlay" id="member-modal" hidden>
+  <div class="modal modal--wide" role="dialog" aria-modal="true">
+    <button class="modal__close" id="member-modal-close" aria-label="Close">&times;</button>
+    <div class="modal__body">
+      <p class="eyebrow" id="member-modal-eyebrow">Household member</p>
+      <h2 class="display-h2" id="member-modal-title">Add a member</h2>
+
+      <form id="member-form">
+        <label class="field field--checkbox">
+          <input type="checkbox" id="mf-ischild">
+          <span>This is a child — simpler profile (skips goals, activity, and calorie targets)</span>
+        </label>
+
+        <div class="review-grid">
+          <label class="field"><span>Name or alias</span><input type="text" id="mf-name" required></label>
+          <label class="field"><span>Date of birth</span><input type="date" id="mf-dob" required></label>
+        </div>
+
+        <div class="review-grid" id="mf-adult-basics">
+          <label class="field">
+            <span>Gender</span>
+            <select id="mf-gender">
+              <option value="">Prefer not to say</option>
+              <option value="female">Female</option>
+              <option value="male">Male</option>
+            </select>
+          </label>
+          <label class="field"><span>Height (cm)</span><input type="number" id="mf-height" min="0"></label>
+          <label class="field"><span>Weight (kg)</span><input type="number" id="mf-weight" min="0"></label>
+        </div>
+
+        <div id="mf-goals-section">
+          <p class="detail-section-title">Goals (pick all that apply)</p>
+          <div class="toggle-buttons" id="mf-goals"></div>
+        </div>
+
+        <div id="mf-activity-section">
+          <p class="detail-section-title">Activity level</p>
+          <div class="toggle-buttons" id="mf-activity"></div>
+        </div>
+
+        <p class="list-step-hint">Allergies and dislikes go in Individual Rules in the Family Hub — one place, not repeated here.</p>
+
+        <label class="field" id="mf-medical-wrap">
+          <span>Medical conditions</span>
+          <input type="text" id="mf-medical" placeholder="or 'none'">
+        </label>
+        <p class="doctor-note" id="mf-doctor-note" hidden>⚕️ Treat this as general planning, not medical advice — check with a doctor or registered dietitian for anything medical.</p>
+
+        <label class="field field--checkbox" id="mf-cycle-wrap" hidden>
+          <input type="checkbox" id="mf-cycle">
+          <span>Track cycle phase for weekly planning</span>
+        </label>
+
+        <div id="mf-bodycomp-wrap" hidden>
+          <p class="detail-section-title">Body composition (optional, more accurate)</p>
+          <label class="field"><span>Lean mass (kg) — from InBody or similar</span><input type="number" id="mf-leanmass" min="0"></label>
+        </div>
+
+        <div id="mf-calorie-wrap" class="calorie-box" hidden>
+          <p class="detail-section-title">Daily calorie target</p>
+          <p class="calorie-box__estimate" id="mf-calorie-estimate"></p>
+          <div class="calorie-box__row">
+            <input type="number" id="mf-calorie-target" min="0">
+            <button type="button" class="btn btn--ghost btn--small" id="mf-recalculate">Use estimate</button>
+          </div>
+        </div>
+
+        <div class="modal__actions modal__actions--split">
+          <button type="button" class="btn btn--ghost" id="mf-delete" hidden>Remove member</button>
+          <button type="submit" class="btn btn--primary">Save member</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- RECIPE PICKER MODAL — reused for each method slot and for breakfast -->
+<div class="modal-overlay" id="picker-modal" hidden>
+  <div class="modal modal--wide" role="dialog" aria-modal="true">
+    <button class="modal__close" id="picker-modal-close" aria-label="Close">&times;</button>
+    <div class="modal__body">
+      <p class="eyebrow" id="picker-modal-eyebrow">Choose a recipe</p>
+      <h2 class="display-h2" id="picker-modal-title">Pick one</h2>
+      <div class="chips" id="picker-protein-filters" hidden>
+        <button class="chip is-active" data-protein="all">All</button>
+        <button class="chip" data-protein="beef">🥩 Beef</button>
+        <button class="chip" data-protein="chicken">🍗 Chicken</button>
+        <button class="chip" data-protein="seafood">🐟 Seafood</button>
+        <button class="chip" data-protein="veggie">🥦 Veggie</button>
+      </div>
+      <div class="recipe-grid" id="picker-grid"></div>
+      <p class="empty-state" id="picker-empty" hidden>Nothing available here — add one from The Database first.</p>
+    </div>
+  </div>
+</div>
+
+<!-- SAVED WEEK VIEWER MODAL -->
+<div class="modal-overlay" id="saved-week-modal" hidden>
+  <div class="modal modal--wide" role="dialog" aria-modal="true">
+    <button class="modal__close" id="saved-week-modal-close" aria-label="Close">&times;</button>
+    <div class="modal__body">
+      <p class="eyebrow">Saved Week</p>
+      <h2 class="display-h2" id="saved-week-title"></h2>
+      <p class="grocery-output__summary" id="saved-week-summary"></p>
+
+      <div class="saved-week-notes" id="saved-week-notes"></div>
+
+      <p class="detail-section-title">Grocery list</p>
+      <div class="grocery-categories" id="saved-week-categories"></div>
+
+      <div class="ai-advice-section" id="saved-week-ai-advice-section" hidden>
+        <p class="detail-section-title">🧠 AI Advice</p>
+        <div class="ai-advice-list" id="saved-week-ai-advice-list"></div>
+      </div>
+
+      <div class="weigh-pack-section" id="saved-week-weigh-pack-section" hidden>
+        <p class="detail-section-title">⚖️ Weigh &amp; Pack</p>
+        <div class="weigh-pack-list" id="saved-week-weigh-pack-list"></div>
+      </div>
+
+      <div class="modal__actions modal__actions--split">
+        <button class="btn btn--ghost" id="saved-week-delete" type="button">Delete this saved week</button>
+        <button class="btn btn--primary" id="saved-week-copy" type="button">Copy for WhatsApp</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast" hidden></div>
+
+<script src="js/app.js"></script>
+</body>
+</html>

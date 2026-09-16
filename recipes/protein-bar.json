@@ -1,0 +1,33 @@
+{
+  "id": "protein-bar",
+  "name": "Protein Bar",
+  "protein": "veggie",
+  "method": "no-cook",
+  "mealType": "snack",
+  "primaryMacro": "protein",
+  "feeds": 1,
+  "macrosPerServing": {
+    "kcal": 220,
+    "protein": 20,
+    "carbs": 22,
+    "fat": 7
+  },
+  "ingredients": [
+    {
+      "name": "Protein bar",
+      "qty": 1,
+      "unit": "pc",
+      "component": "protein"
+    }
+  ],
+  "steps": [
+    "Portion 1 bar and enjoy. No cooking needed."
+  ],
+  "notes": [
+    "Snack option ~220 kcal. Primary macro: protein. Used by AI Advice to fill a protein gap; portion can be nudged to match the exact gap."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": false
+  }
+}
