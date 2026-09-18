@@ -2,7 +2,7 @@
   "id": "cashews",
   "name": "Cashews",
   "protein": "veggie",
-  "method": "no-cook",
+  "method": "third-spot",
   "mealType": "snack",
   "primaryMacro": "fat",
   "feeds": 1,

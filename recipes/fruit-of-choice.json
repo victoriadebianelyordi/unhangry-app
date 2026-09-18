@@ -2,7 +2,7 @@
   "id": "fruit-of-choice",
   "name": "Fruit of Choice",
   "protein": "veggie",
-  "method": "no-cook",
+  "method": "third-spot",
   "mealType": "snack",
   "primaryMacro": "carb",
   "feeds": 1,

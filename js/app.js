@@ -17,11 +17,14 @@ const MACRO_META = {
   fat: { icon: '🥑', label: 'Fat' },
 };
 
+// Exactly 3 valid method values — every recipe (main, breakfast, or snack) is tagged with
+// one of these. "third-spot" is the catch-all for anything that isn't a literal stovetop
+// pot or an oven bake (air fryer, no-cook, rice cooker, grill, whatever) — see
+// methodMatchesSlot below for how this doubles as a Sunday-batch slot key for mains.
 const METHOD_LABEL = {
-  'air-fryer': 'Air Fryer',
-  'oven': 'Oven',
   'stovetop': 'Stovetop',
-  'no-cook': 'No-Cook',
+  'oven': 'Oven',
+  'third-spot': 'The Third Spot',
 };
 
 let ALL_RECIPES = [];
@@ -726,6 +729,17 @@ let currentActivity = null;
 
 async function loadHousehold() {
   HOUSEHOLD = lsGet(LS_KEYS.household, HOUSEHOLD);
+
+  // Self-heal: a member saved without an id (a bug from before this fix — new members
+  // never got one at all) would silently break every id-keyed feature — Individual
+  // Rules, Weekly Adjustments, Roles, Cycle Phase — since nothing could ever match them.
+  // Backfill on load so any already-saved household repairs itself automatically.
+  let needsSave = false;
+  for (const m of HOUSEHOLD.members) {
+    if (!m.id) { m.id = crypto.randomUUID(); needsSave = true; }
+  }
+  if (needsSave) lsSet(LS_KEYS.household, HOUSEHOLD);
+
   renderFamilyHub();
 }
 
@@ -771,18 +785,224 @@ function calcAge(dobStr) {
   return age;
 }
 
-function calcCalorieEstimate({ dob, gender, heightCm, weightKg, activityLevel, leanMassKg }) {
+// Calculation Engine Spec v2 Part A.1 — the safety floor is measured against BMR, so it
+// needs to be its own value, not buried inside the activity-adjusted estimate below.
+function calcBMR({ dob, gender, heightCm, weightKg, leanMassKg }) {
   const age = calcAge(dob);
-  if (age == null || !heightCm || !weightKg || !activityLevel) return null;
-  let bmr;
+  if (age == null || !heightCm || !weightKg) return null;
   if (leanMassKg) {
-    bmr = 370 + 21.6 * leanMassKg; // Katch-McArdle
-  } else if (gender === 'female') {
-    bmr = 10 * weightKg + 6.25 * heightCm - 5 * age - 161; // Mifflin-St Jeor
-  } else {
-    bmr = 10 * weightKg + 6.25 * heightCm - 5 * age + 5; // Mifflin-St Jeor (male / unspecified)
+    return 370 + 21.6 * leanMassKg; // Katch-McArdle
   }
+  if (gender === 'female') {
+    return 10 * weightKg + 6.25 * heightCm - 5 * age - 161; // Mifflin-St Jeor
+  }
+  return 10 * weightKg + 6.25 * heightCm - 5 * age + 5; // Mifflin-St Jeor (male / unspecified)
+}
+
+function calcCalorieEstimate({ dob, gender, heightCm, weightKg, activityLevel, leanMassKg }) {
+  const bmr = calcBMR({ dob, gender, heightCm, weightKg, leanMassKg });
+  if (bmr == null || !activityLevel) return null;
   return Math.round(bmr * (ACTIVITY_MULTIPLIER[activityLevel] || 1.2));
+}
+
+// Calculation Engine Spec v2 Part A — protein multiplier table (g per kg bodyweight), by
+// activity level x goal. null = no automatic target for that combination (see the sedentary
+// + gain-muscle special case below).
+const PROTEIN_MULTIPLIER = {
+  'not-active':  { 'lose-weight': 1.4, 'gain-muscle': null, 'maintain-weight': 1.0 },
+  'light':       { 'lose-weight': 1.5, 'gain-muscle': 1.6, 'maintain-weight': 1.2 },
+  'moderate':    { 'lose-weight': 1.8, 'gain-muscle': 1.8, 'maintain-weight': 1.5 },
+  'very-active': { 'lose-weight': 2.0, 'gain-muscle': 2.0, 'maintain-weight': 1.8 },
+  // Athlete/event numbers are provisional planning targets needing sport-specific review —
+  // the athleteFlag this returns must be stated explicitly wherever these targets are used.
+  'training':    { 'lose-weight': 2.0, 'gain-muscle': 2.0, 'maintain-weight': 1.8 },
+};
+
+// Picks the protein multiplier for a member's activity level + selected fitness goal(s).
+// When more than one fitness goal is selected, uses the highest qualifying multiplier among
+// them — never under-shoots protein for someone who picked both, say, lose-weight and
+// maintain-weight.
+function pickProteinMultiplier(activityLevel, goals) {
+  const row = PROTEIN_MULTIPLIER[activityLevel];
+  if (!row) return null;
+  const selected = FITNESS_GOALS.filter((g) => goals.includes(g));
+  if (selected.length === 0) return null;
+
+  let sedentaryMuscleGainFlag = false;
+  let multiplier = null;
+  for (const goal of selected) {
+    let m = row[goal];
+    if (m == null && goal === 'gain-muscle' && activityLevel === 'not-active') {
+      // Muscle gain needs a training stimulus — no automatic target for sedentary. Fall
+      // back to maintain protein and flag it, per spec.
+      m = PROTEIN_MULTIPLIER['not-active']['maintain-weight'];
+      sedentaryMuscleGainFlag = true;
+    }
+    if (m != null && (multiplier == null || m > multiplier)) multiplier = m;
+  }
+  return { multiplier, sedentaryMuscleGainFlag, athleteFlag: activityLevel === 'training' };
+}
+
+// Calculation Engine Spec v2 Part A steps 2-4: protein (bodyweight x multiplier, not a
+// percentage), fat (% of daily kcal, by activity), carbs (whatever's left). Returns null
+// when there's no qualifying fitness goal to derive a multiplier from.
+function calcMacroTargets({ activityLevel, goals, weightKg, dailyKcal }) {
+  if (!weightKg || !dailyKcal) return null;
+  const picked = pickProteinMultiplier(activityLevel, goals || []);
+  if (!picked || picked.multiplier == null) return null;
+
+  const proteinG = Math.round(weightKg * picked.multiplier);
+  const proteinKcal = proteinG * 4;
+  const fatPct = (activityLevel === 'very-active' || activityLevel === 'training') ? 0.20 : 0.30;
+  const fatG = Math.round((dailyKcal * fatPct) / 9);
+  const fatKcal = fatG * 9;
+  const carbG = Math.max(0, Math.round((dailyKcal - proteinKcal - fatKcal) / 4));
+
+  return {
+    proteinG, fatG, carbG,
+    sedentaryMuscleGainFlag: picked.sedentaryMuscleGainFlag,
+    athleteFlag: picked.athleteFlag,
+  };
+}
+
+// Calculation Engine Spec v2 Part A.1 — the safety floor. Hard: a target below BMR is
+// refused outright, not overridable. Soft: a target more than 500 kcal under maintenance
+// (but still >= BMR) is allowed but flagged as aggressive.
+function assessSafetyFloor({ calorieTarget, bmr, maintenanceKcal }) {
+  if (!calorieTarget || !bmr) return { status: 'ok' };
+  const roundedBmr = Math.round(bmr);
+  if (calorieTarget < roundedBmr) {
+    return {
+      status: 'refused',
+      message: `${roundedBmr} kcal/day is roughly what their body burns at rest — a target of ${calorieTarget} is below that, and it'll backfire rather than help. Please don't set it this low; message Vic on WhatsApp if you'd like to talk through a safe plan instead.`,
+    };
+  }
+  if (maintenanceKcal && calorieTarget < maintenanceKcal - 500) {
+    return {
+      status: 'aggressive',
+      message: `That's a fairly aggressive deficit — more than 500 kcal below maintenance. It'll work, but it's a harder pace to sustain, so keep an eye on energy and adjust if it's too much.`,
+    };
+  }
+  return { status: 'ok' };
+}
+
+// ---------------------------------------------------------------------------------------
+// Point 1 rebuild — child calorie/macro system.
+//
+// The old approach (a flat 0.5/0.6/0.7 age-banded discount applied to whatever an adult's
+// maintain-weight target or a recipe's serving happened to be) was flagged as "entirely
+// false thinking and borderline dangerous" and scratched entirely. Replaced with the exact
+// Estimated Energy Requirement (EER) equations Health Canada publishes for children and
+// adolescents — coded in, not looked up by an LLM at request time.
+//
+// Source: Health Canada, "Dietary reference intakes tables: Equations to estimate energy
+// requirement", page dated 2025-11-19 —
+// https://www.canada.ca/en/health-canada/services/food-nutrition/healthy-eating/dietary-reference-intakes/tables/equations-estimate-energy-requirement.html
+// (fetched and coefficients transcribed directly from that page; verify against the source
+// if Health Canada revises it).
+//
+// The base age/height/weight coefficients are IDENTICAL across all three bands this app
+// uses (4-<9, 9-<14, 14-<19) — only the "energy deposition for growth" constant differs by
+// band and sex. So one set of 8 equations (4 activity categories x 2 sexes) covers all
+// three bands; only CHILD_GROWTH_KCAL varies.
+const CHILD_EER_COEFFICIENTS = {
+  male: {
+    inactive:   { base: -447.51, age: 3.68, height: 13.01, weight: 13.15 },
+    lowActive:  { base: 19.12,   age: 3.68, height: 8.62,  weight: 20.28 },
+    active:     { base: -388.19, age: 3.68, height: 12.66, weight: 20.46 },
+    veryActive: { base: -671.75, age: 3.68, height: 15.38, weight: 23.25 },
+  },
+  female: {
+    inactive:   { base: 55.59,   age: -22.25, height: 8.43,  weight: 17.07 },
+    lowActive:  { base: -297.54, age: -22.25, height: 12.77, weight: 14.73 },
+    active:     { base: -189.55, age: -22.25, height: 11.74, weight: 18.34 },
+    veryActive: { base: -709.59, age: -22.25, height: 18.22, weight: 14.25 },
+  },
+};
+
+// Growth-energy constant (kcal), added on top of the base equation — varies by age band
+// and sex per Health Canada's table. Ages below 4 are refused entirely (see
+// assessChildAgeGuardrail) — the 3-<4 band's constants aren't needed here.
+function childGrowthKcal(age, gender) {
+  const isFemale = gender === 'female';
+  if (age < 9) return isFemale ? 15 : 15;   // 4 to <9 years
+  if (age < 14) return isFemale ? 30 : 25;  // 9 to <14 years
+  return isFemale ? 20 : 20;                // 14 to <19 years
+}
+
+// This app's 5 activity levels map onto Health Canada's 4 PA CAT buckets — "training"
+// folds into "veryActive" the same way it already does in PROTEIN_MULTIPLIER for adults.
+const CHILD_PA_CAT = {
+  'not-active': 'inactive', 'light': 'lowActive', 'moderate': 'active',
+  'very-active': 'veryActive', 'training': 'veryActive',
+};
+
+// Health Canada / IOM RDA protein-by-age table (screenshot supplied directly, g/day) — the
+// protein side of a child's target, independent of the EER calorie math.
+function childProteinRDA(age, gender) {
+  if (age < 9) return 19;   // 4-8 years
+  if (age < 14) return 34;  // 9-13 years
+  return gender === 'female' ? 46 : 52; // 14-18 years
+}
+
+// Part A.1-equivalent guardrail for children: below age 4, Health Canada's own equations
+// don't apply the way this app would need them to (infant/toddler energy needs are a
+// pediatric matter, not a meal-prep calculation), so the app refuses outright rather than
+// silently computing something. 4 through 18.99 is the EER child system below; 19+ is the
+// existing adult system.
+function assessChildAgeGuardrail(age) {
+  if (age == null) return { status: 'unknown' };
+  if (age < 4) return { status: 'toddler', message: 'Meals for toddlers should only be raised with your pediatrician.' };
+  if (age < 19) return { status: 'child' };
+  return { status: 'adult' };
+}
+
+// Point 1 rebuild: a child's calorie target is Health Canada's own EER equation for their
+// age/sex/activity — not a discount on an adult formula or a recipe serving. Protein comes
+// from the RDA-by-age table; fat is a flat 30% of that EER total; carbs are the remainder.
+// Deliberately "flexible, not exact" per the brief — this is a healthy-caloric-intake
+// check, not a bulking/cutting macro target, so mealEngine.js's protein reallocation (B6)
+// skips children entirely (see the isChild guard there) and only the calorie side (B5)
+// drives their portion scaling.
+function computeChildTarget({ dob, gender, heightCm, weightKg, activityLevel }) {
+  const age = calcAge(dob);
+  const guardrail = assessChildAgeGuardrail(age);
+  if (guardrail.status !== 'child') return { calorieTarget: null, macroTargets: null, guardrail };
+  if (!heightCm || !weightKg || !activityLevel) return { calorieTarget: null, macroTargets: null, guardrail };
+
+  const sexKey = gender === 'female' ? 'female' : 'male'; // same "not specified -> male formula" fallback as calcBMR
+  const paCat = CHILD_PA_CAT[activityLevel] || 'lowActive';
+  const eq = CHILD_EER_COEFFICIENTS[sexKey][paCat];
+  const growth = childGrowthKcal(age, sexKey);
+  const eer = Math.round(eq.base + eq.age * age + eq.height * heightCm + eq.weight * weightKg + growth);
+
+  const proteinG = childProteinRDA(age, sexKey);
+  const fatG = Math.round((eer * 0.30) / 9);
+  const carbG = Math.max(0, Math.round((eer - proteinG * 4 - fatG * 9) / 4));
+
+  return { calorieTarget: eer, macroTargets: { proteinG, fatG, carbG }, guardrail };
+}
+
+// Part B, Point 3 fix (adults) / Point 1 rebuild (children): every member — child or
+// adult, fitness goal or not — gets a real computed target, not just people who explicitly
+// picked a fitness goal. This is what the generate-list engine actually scales portions
+// against for everyone; the Family Hub UI only ever *surfaces* it (the editable calorie
+// box) for fitness-goal adults — for children and convenience-goal adults it's computed
+// and stored silently. Children are routed to the EER system above entirely — never the
+// adult maintain-weight formula.
+function computeBackendTarget({ dob, gender, heightCm, weightKg, activityLevel, leanMassKg, isChild }) {
+  if (isChild) {
+    const child = computeChildTarget({ dob, gender, heightCm, weightKg, activityLevel });
+    return { calorieTarget: child.calorieTarget, macroTargets: child.macroTargets };
+  }
+
+  const estimate = calcCalorieEstimate({ dob, gender, heightCm, weightKg, activityLevel, leanMassKg });
+  if (!estimate || !weightKg) return { calorieTarget: null, macroTargets: null };
+
+  // Uses the "maintain weight" row of the protein table — a convenience-goal adult isn't
+  // cutting or bulking, so maintenance is the sensible default.
+  const macros = calcMacroTargets({ activityLevel, goals: ['maintain-weight'], weightKg, dailyKcal: estimate });
+  return { calorieTarget: estimate, macroTargets: macros || null };
 }
 
 // ---------------- rendering: whole hub ----------------
@@ -855,9 +1075,10 @@ function renderIndividualRules() {
   const list = document.getElementById('individual-rules-list');
   list.innerHTML = HOUSEHOLD.individualRules.map((rule, idx) => {
     const member = HOUSEHOLD.members.find((m) => m.id === rule.memberId);
+    const isHard = rule.type === 'allergy';
     return `
-      <div class="rule-pill">
-        <span><b>${member ? member.name : 'Unknown'}</b> — ${rule.note}</span>
+      <div class="rule-pill${isHard ? ' rule-pill--hard' : ''}">
+        <span>${isHard ? '🚩' : '👎'} <b>${member ? member.name : 'Unknown'}</b> — ${rule.note}</span>
         <button type="button" class="rule-pill__remove" data-idx="${idx}" aria-label="Remove">&times;</button>
       </div>
     `;
@@ -882,11 +1103,12 @@ document.getElementById('family-rules-list').addEventListener('click', async (e)
 
 document.getElementById('individual-rule-add').addEventListener('click', async () => {
   const memberId = document.getElementById('individual-rule-member').value;
+  const type = document.getElementById('individual-rule-type').value === 'allergy' ? 'allergy' : 'dislike';
   const input = document.getElementById('individual-rule-input');
   const note = input.value.trim();
   if (!memberId) { showToast('Add a member first.'); return; }
   if (!note) return;
-  HOUSEHOLD.individualRules.push({ memberId, note });
+  HOUSEHOLD.individualRules.push({ memberId, note, type });
   input.value = '';
   try { await scheduleSave(); } catch (err) { showToast(err.message); }
 });
@@ -973,12 +1195,39 @@ function currentFormValues() {
   };
 }
 
-function updateConditionalSections() {
-  const isChild = document.getElementById('mf-ischild').checked;
+// Point 1 rebuild: "child" is derived live from date of birth — no manual checkbox. Shows
+// the age-status hint (child / toddler-refusal / nothing for adults) and returns whether
+// the rest of the form should treat this member as a child right now.
+function updateAgeStatusAndGetIsChild() {
+  const dobVal = document.getElementById('mf-dob').value;
+  const age = dobVal ? calcAge(dobVal) : null;
+  const guardrail = assessChildAgeGuardrail(age);
+  const el = document.getElementById('mf-age-status');
 
-  document.getElementById('mf-adult-basics').hidden = isChild;
+  if (guardrail.status === 'toddler') {
+    el.hidden = false;
+    el.className = 'field-hint is-toddler';
+    el.textContent = `🛑 ${guardrail.message}`;
+  } else if (guardrail.status === 'child') {
+    el.hidden = false;
+    el.className = 'field-hint';
+    el.textContent = `Age ${age} — using the pediatric calorie/protein guardrail (Health Canada EER + RDA protein). Computed silently; goals, activity-based macros, and calorie targets aren't shown for children.`;
+  } else {
+    el.hidden = true;
+  }
+  return guardrail.status === 'child';
+}
+
+function updateConditionalSections() {
+  const isChild = updateAgeStatusAndGetIsChild();
+
+  // Height/weight/activity are needed for EVERY member's calorie/macro math, children
+  // included — only goals (fitness goals aren't a thing a child picks) and the visible
+  // calorie-target box (children's target is computed silently, never shown — see
+  // mf-calorie-wrap below) stay child-gated.
+  document.getElementById('mf-adult-basics').hidden = false;
   document.getElementById('mf-goals-section').hidden = isChild;
-  document.getElementById('mf-activity-section').hidden = isChild;
+  document.getElementById('mf-activity-section').hidden = false;
   document.getElementById('mf-medical-wrap').hidden = isChild;
 
   const medicalVal = document.getElementById('mf-medical').value.trim().toLowerCase();
@@ -992,14 +1241,18 @@ function updateConditionalSections() {
     && ['moderate', 'very-active', 'training'].includes(currentActivity);
   document.getElementById('mf-bodycomp-wrap').hidden = !bodyCompEligible;
 
+  document.getElementById('mf-training-detail-wrap').hidden = isChild || currentActivity !== 'training';
+
   const calorieWrap = document.getElementById('mf-calorie-wrap');
   calorieWrap.hidden = isChild || !hasFitnessGoal;
   if (!calorieWrap.hidden) {
-    const estimate = calcCalorieEstimate(currentFormValues());
+    const formValues = currentFormValues();
+    const estimate = calcCalorieEstimate(formValues);
+    const bmr = calcBMR(formValues);
     const estimateEl = document.getElementById('mf-calorie-estimate');
     const targetInput = document.getElementById('mf-calorie-target');
     if (estimate) {
-      estimateEl.textContent = `Estimated: ${estimate} kcal/day (Mifflin-St Jeor × activity${currentFormValues().leanMassKg ? ', using lean mass' : ''}). Adjust if you already know their target.`;
+      estimateEl.textContent = `Estimated: ${estimate} kcal/day (Mifflin-St Jeor × activity${formValues.leanMassKg ? ', using lean mass' : ''}). Adjust if you already know their target.`;
       if (!targetInput.value || targetInput.dataset.auto === 'true') {
         targetInput.value = estimate;
         targetInput.dataset.auto = 'true';
@@ -1007,6 +1260,38 @@ function updateConditionalSections() {
     } else {
       estimateEl.textContent = 'Fill in date of birth, height, weight, and activity level for an estimate — or just type a target you already know.';
     }
+
+    updateMacroAndSafetyDisplay({ formValues, bmr, maintenanceKcal: estimate, calorieTarget: Number(targetInput.value) || null });
+  }
+}
+
+// Live protein/fat/carb preview + the Part A.1 safety-floor banner — recomputed on every
+// relevant edit so the shopper sees it before they even try to save.
+function updateMacroAndSafetyDisplay({ formValues, bmr, maintenanceKcal, calorieTarget }) {
+  const macroEl = document.getElementById('mf-macro-summary');
+  const macros = calorieTarget ? calcMacroTargets({
+    activityLevel: currentActivity, goals: currentGoals, weightKg: formValues.weightKg, dailyKcal: calorieTarget,
+  }) : null;
+
+  if (macros) {
+    macroEl.hidden = false;
+    let text = `≈ ${macros.proteinG}g protein · ${macros.fatG}g fat · ${macros.carbG}g carbs / day`;
+    if (macros.sedentaryMuscleGainFlag) text += ' — using maintain-level protein (sedentary, no training stimulus yet).';
+    if (macros.athleteFlag) text += ' ⚠️ Provisional — needs sport-specific review.';
+    macroEl.textContent = text;
+  } else {
+    macroEl.hidden = true;
+  }
+
+  const banner = document.getElementById('mf-safety-floor-banner');
+  const floor = assessSafetyFloor({ calorieTarget, bmr, maintenanceKcal });
+  if (floor.status === 'ok') {
+    banner.hidden = true;
+    banner.className = 'safety-floor-banner';
+  } else {
+    banner.hidden = false;
+    banner.className = `safety-floor-banner is-${floor.status}`;
+    banner.textContent = floor.status === 'refused' ? `🛑 ${floor.message}` : `⚠️ ${floor.message}`;
   }
 }
 
@@ -1017,13 +1302,14 @@ document.getElementById('mf-recalculate').addEventListener('click', () => {
     targetInput.value = estimate;
     targetInput.dataset.auto = 'true';
   }
+  updateConditionalSections();
 });
 
 document.getElementById('mf-calorie-target').addEventListener('input', (e) => {
   e.target.dataset.auto = 'false';
+  updateConditionalSections();
 });
 
-['mf-ischild'].forEach((id) => document.getElementById(id).addEventListener('change', updateConditionalSections));
 ['mf-gender', 'mf-height', 'mf-weight', 'mf-dob', 'mf-leanmass'].forEach((id) =>
   document.getElementById(id).addEventListener('input', updateConditionalSections));
 document.getElementById('mf-medical').addEventListener('input', updateConditionalSections);
@@ -1033,7 +1319,6 @@ function openMemberModal(member) {
   document.getElementById('member-modal-title').textContent = member ? 'Edit member' : 'Add a member';
   document.getElementById('mf-delete').hidden = !member;
 
-  document.getElementById('mf-ischild').checked = member ? Boolean(member.isChild) : false;
   document.getElementById('mf-name').value = member ? member.name : '';
   document.getElementById('mf-dob').value = member ? member.dob : '';
   document.getElementById('mf-gender').value = member ? member.gender || '' : '';
@@ -1042,6 +1327,7 @@ function openMemberModal(member) {
   document.getElementById('mf-medical').value = member ? member.medicalConditions : '';
   document.getElementById('mf-cycle').checked = member ? Boolean(member.cycleTracking) : false;
   document.getElementById('mf-leanmass').value = member && member.bodyComposition ? member.bodyComposition.leanMassKg : '';
+  document.getElementById('mf-training-detail').value = member ? member.trainingDetail || '' : '';
 
   const targetInput = document.getElementById('mf-calorie-target');
   targetInput.value = member && member.calorieTarget ? member.calorieTarget : '';
@@ -1066,10 +1352,52 @@ document.getElementById('member-modal').addEventListener('click', (e) => {
 
 document.getElementById('member-form').addEventListener('submit', async (e) => {
   e.preventDefault();
-  const isChild = document.getElementById('mf-ischild').checked;
+
+  // Point 1 rebuild: age (from DOB) decides child status and the toddler guardrail — not a
+  // checkbox. Recomputed here, not just trusted from the live display, so a fast submit
+  // can't slip past the under-4 refusal.
+  const age = calcAge(document.getElementById('mf-dob').value);
+  const guardrail = assessChildAgeGuardrail(age);
+  if (guardrail.status === 'toddler') {
+    showToast(guardrail.message);
+    return;
+  }
+  const isChild = guardrail.status === 'child';
+  const hasFitnessGoal = !isChild && currentGoals.some((g) => FITNESS_GOALS.includes(g));
+  const formValues = currentFormValues();
+
+  let calorieTarget, macroTargets;
+  if (hasFitnessGoal) {
+    // Fitness-goal adults: the user-entered/estimated target, shown and editable in the
+    // calorie box — Part A.1's safety floor hard-blocks the save (not just a warning).
+    // Recomputed here (not just trusted from the live display) so it can't be bypassed by
+    // submitting fast.
+    calorieTarget = Number(document.getElementById('mf-calorie-target').value) || null;
+    if (calorieTarget) {
+      const bmr = calcBMR(formValues);
+      const maintenanceKcal = calcCalorieEstimate(formValues);
+      const floor = assessSafetyFloor({ calorieTarget, bmr, maintenanceKcal });
+      if (floor.status === 'refused') {
+        showToast(floor.message);
+        return;
+      }
+    }
+    macroTargets = calorieTarget ? calcMacroTargets({
+      activityLevel: currentActivity, goals: currentGoals, weightKg: formValues.weightKg, dailyKcal: calorieTarget,
+    }) : null;
+  } else {
+    // Convenience-goal adults: maintain-weight math, never surfaced as an editable box.
+    // Children: Health Canada's own EER equations + RDA protein (computeChildTarget) —
+    // never the adult formula, never a discount on it. Both computed and stored silently;
+    // nothing for a human to override, so no safety-floor check needed (a maintain-weight
+    // TDEE, and a child's EER, are both >= BMR by construction).
+    const backend = computeBackendTarget({ ...formValues, isChild });
+    calorieTarget = backend.calorieTarget;
+    macroTargets = backend.macroTargets;
+  }
 
   const memberData = {
-    id: editingMemberId || undefined,
+    id: editingMemberId || crypto.randomUUID(),
     name: document.getElementById('mf-name').value.trim(),
     dob: document.getElementById('mf-dob').value,
     isChild,
@@ -1078,12 +1406,14 @@ document.getElementById('member-form').addEventListener('submit', async (e) => {
     weightKg: Number(document.getElementById('mf-weight').value) || null,
     goals: currentGoals,
     activityLevel: currentActivity,
+    trainingDetail: currentActivity === 'training' ? document.getElementById('mf-training-detail').value.trim() : '',
     medicalConditions: document.getElementById('mf-medical').value.trim(),
     cycleTracking: document.getElementById('mf-cycle').checked,
     bodyComposition: document.getElementById('mf-leanmass').value
       ? { leanMassKg: Number(document.getElementById('mf-leanmass').value) }
       : null,
-    calorieTarget: Number(document.getElementById('mf-calorie-target').value) || null,
+    calorieTarget,
+    macroTargets,
   };
 
   if (editingMemberId) {
@@ -1122,7 +1452,19 @@ document.getElementById('mf-delete').addEventListener('click', async () => {
 // SCREEN 3 — THE LIST
 // ==================================================================
 
-const METHODS = ['air-fryer', 'oven', 'stovetop'];
+// The 3 Sunday-batch slots — every recipe's own "method" field is now one of exactly
+// these 3 values (see METHOD_LABEL above), so in practice this is just an equality
+// check. Kept as "anything not stovetop/oven" rather than strict equality only as a
+// safety net for any recipe saved locally before this 3-value lock existed (an old
+// "air-fryer" or "no-cook" tag sitting in someone's browser) — it still lands correctly
+// in The Third Spot instead of quietly becoming unpickable again.
+const METHODS = ['stovetop', 'oven', 'third-spot'];
+
+function methodMatchesSlot(recipeMethod, slotKey) {
+  if (slotKey === 'third-spot') return recipeMethod !== 'stovetop' && recipeMethod !== 'oven';
+  return recipeMethod === slotKey;
+}
+
 const CATEGORY_ICON = {
   'Fresh Produce': '🥬',
   'Proteins and Meat': '🥩',
@@ -1133,11 +1475,12 @@ const CATEGORY_ICON = {
   'Freezer': '❄️',
 };
 
-let selectedMains = { 'air-fryer': null, 'oven': null, 'stovetop': null };
+let selectedMains = { 'stovetop': null, 'oven': null, 'third-spot': null };
 let selectedBreakfast = null;
 let selectedSnacks = [null, null];
 let weeklyAdjustments = {}; // memberId -> { status, daysPresent }
 let buyVsMakeAnswers = {}; // `${recipeId}::${ingredientName}` -> 'buy' | 'make'
+let cyclePhases = {}; // memberId -> 'follicular' | 'ovulation' | 'luteal' | 'menstrual'
 let pickerContext = null; // { type: 'method', method } | { type: 'breakfast' } | { type: 'snack', slotIndex }
 let pickerProteinFilter = 'all';
 let generatedList = null;
@@ -1148,6 +1491,7 @@ function renderListScreen() {
   renderSnackSlots();
   renderWeeklyAdjustments();
   renderBuyVsMakeSection();
+  renderCyclePhaseSection();
   updateGenerateButtonState();
 }
 
@@ -1262,7 +1606,7 @@ function renderPickerGrid() {
   let list;
 
   if (pickerContext.type === 'method') {
-    list = ALL_RECIPES.filter((r) => r.mealType === 'main' && r.method === pickerContext.method);
+    list = ALL_RECIPES.filter((r) => r.mealType === 'main' && methodMatchesSlot(r.method, pickerContext.method));
     if (pickerProteinFilter !== 'all') list = list.filter((r) => r.protein === pickerProteinFilter);
   } else if (pickerContext.type === 'snack') {
     list = ALL_RECIPES.filter((r) => r.mealType === 'snack');
@@ -1347,7 +1691,20 @@ document.getElementById('snack-slots').addEventListener('keydown', (e) => {
   openPickerModal({ type: 'snack', slotIndex: Number(slot.dataset.snackSlot) });
 });
 
-// ---- this week's exceptions (travel / eating out) ----
+// ---- this week's exceptions (Point 2 rework) ----
+// Four independent occasion counters per person — breakfast / lunch / dinner / snack —
+// each preset to the household's cook schedule but freely editable, for every member
+// including children. Setting all four to 0 for someone excludes them from this week's
+// groceries/recipes/scaling entirely (mealEngine.js's memberPresence derives that from the
+// counts directly — no separate "away" toggle needed).
+// Breakfast/lunch/dinner are capped at 7 (can't happen more than once a day) — snacks
+// aren't tied to a single daily occasion the same way, so that counter is uncapped.
+const EXCEPTION_FIELDS = [
+  { field: 'breakfastCount', label: 'Breakfast', defaultKey: 'breakfastDays', maxValue: 7 },
+  { field: 'lunchCount', label: 'Lunch', defaultKey: 'cookDays', maxValue: 7 },
+  { field: 'dinnerCount', label: 'Dinner', defaultKey: 'cookDays', maxValue: 7 },
+  { field: 'snackCount', label: 'Snacks', defaultKey: 'cookDays', maxValue: null },
+];
 
 function renderWeeklyAdjustments() {
   const container = document.getElementById('weekly-adjustments');
@@ -1361,19 +1718,20 @@ function renderWeeklyAdjustments() {
   empty.hidden = true;
 
   container.innerHTML = HOUSEHOLD.members.map((m) => {
-    const adj = weeklyAdjustments[m.id] || { status: 'home', daysPresent: HOUSEHOLD.cookSchedule.cookDays };
+    const adj = weeklyAdjustments[m.id] || {};
+    const counters = EXCEPTION_FIELDS.map(({ field, label, defaultKey, maxValue }) => {
+      const value = adj[field] ?? HOUSEHOLD.cookSchedule[defaultKey] ?? 0;
+      return `
+        <label class="adjustment-count">
+          ${label}
+          <input type="number" min="0" ${maxValue != null ? `max="${maxValue}"` : ''} value="${value}" data-field="${field}">
+        </label>
+      `;
+    }).join('');
     return `
       <div class="adjustment-row" data-member="${m.id}">
         <span class="adjustment-row__name">${m.name}</span>
-        <select data-field="status">
-          <option value="home" ${adj.status === 'home' ? 'selected' : ''}>Home all week</option>
-          <option value="away" ${adj.status === 'away' ? 'selected' : ''}>Away all week — skip entirely</option>
-          <option value="partial" ${adj.status === 'partial' ? 'selected' : ''}>Partial week</option>
-        </select>
-        <label class="adjustment-row__days" ${adj.status !== 'partial' ? 'hidden' : ''}>
-          Days present
-          <input type="number" min="0" max="7" value="${adj.daysPresent ?? HOUSEHOLD.cookSchedule.cookDays}" data-field="daysPresent">
-        </label>
+        <div class="adjustment-row__counts">${counters}</div>
       </div>
     `;
   }).join('');
@@ -1381,13 +1739,13 @@ function renderWeeklyAdjustments() {
 
 document.getElementById('weekly-adjustments').addEventListener('change', (e) => {
   const row = e.target.closest('.adjustment-row');
-  if (!row) return;
+  if (!row || !e.target.dataset.field) return;
   const memberId = row.dataset.member;
-  const existing = weeklyAdjustments[memberId] || { status: 'home', daysPresent: HOUSEHOLD.cookSchedule.cookDays };
-  if (e.target.dataset.field === 'status') existing.status = e.target.value;
-  if (e.target.dataset.field === 'daysPresent') existing.daysPresent = Number(e.target.value);
+  const existing = weeklyAdjustments[memberId] || {};
+  const fieldDef = EXCEPTION_FIELDS.find((f) => f.field === e.target.dataset.field);
+  const raw = Math.max(0, Number(e.target.value) || 0);
+  existing[e.target.dataset.field] = fieldDef && fieldDef.maxValue != null ? Math.min(fieldDef.maxValue, raw) : raw;
   weeklyAdjustments[memberId] = existing;
-  renderWeeklyAdjustments();
 });
 
 // ---- buy vs make (dynamic, from whatever's selected) ----
@@ -1441,6 +1799,51 @@ document.getElementById('buy-vs-make-questions').addEventListener('click', (e) =
   renderBuyVsMakeSection();
 });
 
+// ---- cycle phase (Calculation Engine Spec v2 Part E.1) ----
+// Shown per member who ticked "eat in a cycle-friendly way" (cycleTracking) in their
+// Family Hub profile. Purely data collection this stage — nothing reads it yet.
+
+const CYCLE_PHASES = [
+  { value: 'follicular', label: 'Follicular' },
+  { value: 'ovulation', label: 'Ovulation' },
+  { value: 'luteal', label: 'Luteal' },
+  { value: 'menstrual', label: 'Menstrual' },
+];
+
+function renderCyclePhaseSection() {
+  const section = document.getElementById('cycle-phase-section');
+  const container = document.getElementById('cycle-phase-rows');
+  const eligible = HOUSEHOLD.members.filter((m) => m.cycleTracking);
+
+  if (eligible.length === 0) {
+    section.hidden = true;
+    container.innerHTML = '';
+    return;
+  }
+  section.hidden = false;
+
+  container.innerHTML = eligible.map((m) => {
+    const phase = cyclePhases[m.id] || '';
+    return `
+      <div class="adjustment-row" data-member="${m.id}">
+        <span class="adjustment-row__name">${m.name}</span>
+        <select data-field="phase">
+          <option value="" ${phase === '' ? 'selected' : ''}>Skip this week</option>
+          ${CYCLE_PHASES.map((p) => `<option value="${p.value}" ${phase === p.value ? 'selected' : ''}>${p.label}</option>`).join('')}
+        </select>
+      </div>
+    `;
+  }).join('');
+}
+
+document.getElementById('cycle-phase-rows').addEventListener('change', (e) => {
+  const row = e.target.closest('.adjustment-row');
+  if (!row) return;
+  const memberId = row.dataset.member;
+  if (e.target.value) cyclePhases[memberId] = e.target.value;
+  else delete cyclePhases[memberId];
+});
+
 // ---- generate ----
 
 function isReadyToGenerate() {
@@ -1490,9 +1893,15 @@ function buildWeekPayload() {
       const recipe = allSelected.find((r) => r.id === recipeId);
       return { recipeName: recipe ? recipe.name : recipeId, ingredientName, choice };
     }),
+    // Point 2 — only send overrides that actually differ from the household default, so a
+    // member nobody touched just falls through to mealEngine.js's own defaulting.
     weeklyAdjustments: Object.entries(weeklyAdjustments)
-      .filter(([, adj]) => adj.status !== 'home')
-      .map(([memberId, adj]) => ({ memberId, status: adj.status, daysPresent: adj.daysPresent })),
+      .filter(([, adj]) => Object.keys(adj).length > 0)
+      .map(([memberId, adj]) => ({ memberId, ...adj })),
+    // Part E.1 — only members who set a phase this week are included.
+    cyclePhases: Object.entries(cyclePhases)
+      .filter(([, phase]) => phase)
+      .map(([memberId, phase]) => ({ memberId, phase })),
   };
 }
 
@@ -1828,11 +2237,12 @@ document.getElementById('save-week-btn').addEventListener('click', () => {
 // The Family Hub (household, rules, schedule) is untouched — that's set up
 // once and stays on the shopper's device between weeks.
 function resetListScreenForNewWeek() {
-  selectedMains = { 'air-fryer': null, 'oven': null, 'stovetop': null };
+  selectedMains = { 'stovetop': null, 'oven': null, 'third-spot': null };
   selectedBreakfast = null;
   selectedSnacks = [null, null];
   weeklyAdjustments = {};
   buyVsMakeAnswers = {};
+  cyclePhases = {};
   generatedList = null;
   document.getElementById('grocery-output').hidden = true;
   document.getElementById('generate-status').hidden = true;

@@ -2,18 +2,58 @@
   "id": "vanilla-overnight-oats",
   "name": "Vanilla Overnight Oats",
   "protein": "veggie",
-  "method": "no-cook",
+  "method": "third-spot",
   "mealType": "breakfast",
   "feeds": 6,
-  "macrosPerServing": { "kcal": 320, "protein": 12, "carbs": 48, "fat": 9 },
+  "macrosPerServing": {
+    "kcal": 320,
+    "protein": 12,
+    "carbs": 48,
+    "fat": 9
+  },
   "ingredients": [
-    { "name": "Rolled oats", "qty": 480, "unit": "g", "component": "carb" },
-    { "name": "Milk (or plant milk)", "qty": 1.2, "unit": "L", "component": "other" },
-    { "name": "Greek yogurt", "qty": 360, "unit": "g", "component": "protein" },
-    { "name": "Chia seeds", "qty": 60, "unit": "g", "component": "other" },
-    { "name": "Honey or maple syrup", "qty": 6, "unit": "tbsp", "component": "other" },
-    { "name": "Vanilla extract", "qty": 2, "unit": "tsp", "component": "other" },
-    { "name": "Pinch of salt", "qty": 1, "unit": "pinch", "component": "other" }
+    {
+      "name": "Rolled oats",
+      "qty": 480,
+      "unit": "g",
+      "component": "carb"
+    },
+    {
+      "name": "Milk (or plant milk)",
+      "qty": 1.2,
+      "unit": "L",
+      "component": "other"
+    },
+    {
+      "name": "Greek yogurt",
+      "qty": 360,
+      "unit": "g",
+      "component": "protein"
+    },
+    {
+      "name": "Chia seeds",
+      "qty": 60,
+      "unit": "g",
+      "component": "other"
+    },
+    {
+      "name": "Honey or maple syrup",
+      "qty": 6,
+      "unit": "tbsp",
+      "component": "other"
+    },
+    {
+      "name": "Vanilla extract",
+      "qty": 2,
+      "unit": "tsp",
+      "component": "other"
+    },
+    {
+      "name": "Pinch of salt",
+      "qty": 1,
+      "unit": "pinch",
+      "component": "other"
+    }
   ],
   "steps": [
     "Divide the oats evenly between 6 jars.",

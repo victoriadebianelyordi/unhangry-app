@@ -2,7 +2,7 @@
   "id": "kafta-sandwiches",
   "name": "Kafta Sandwiches",
   "protein": "beef",
-  "method": "air-fryer",
+  "method": "third-spot",
   "mealType": "main",
   "feeds": 6,
   "macrosPerServing": {

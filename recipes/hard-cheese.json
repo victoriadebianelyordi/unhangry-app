@@ -2,7 +2,7 @@
   "id": "hard-cheese",
   "name": "Hard Cheese",
   "protein": "veggie",
-  "method": "no-cook",
+  "method": "third-spot",
   "mealType": "snack",
   "primaryMacro": "fat",
   "feeds": 1,

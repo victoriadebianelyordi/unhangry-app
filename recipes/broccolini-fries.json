@@ -2,7 +2,7 @@
   "id": "broccolini-fries",
   "name": "Broccolini Fries",
   "protein": "veggie",
-  "method": "air-fryer",
+  "method": "third-spot",
   "mealType": "main",
   "feeds": 2,
   "macrosPerServing": {

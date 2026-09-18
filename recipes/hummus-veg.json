@@ -2,7 +2,7 @@
   "id": "hummus-veg",
   "name": "Hummus with Veg Sticks",
   "protein": "veggie",
-  "method": "no-cook",
+  "method": "third-spot",
   "mealType": "snack",
   "primaryMacro": "fat",
   "feeds": 1,

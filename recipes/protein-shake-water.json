@@ -2,7 +2,7 @@
   "id": "protein-shake-water",
   "name": "Protein Powder with Water",
   "protein": "veggie",
-  "method": "no-cook",
+  "method": "third-spot",
   "mealType": "snack",
   "primaryMacro": "protein",
   "feeds": 1,

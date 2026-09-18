@@ -2,7 +2,7 @@
   "id": "crackers-cheese",
   "name": "Crackers with a Little Cheese",
   "protein": "veggie",
-  "method": "no-cook",
+  "method": "third-spot",
   "mealType": "snack",
   "primaryMacro": "carb",
   "feeds": 1,

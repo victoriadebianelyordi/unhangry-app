@@ -2,17 +2,52 @@
   "id": "berry-chia-parfait",
   "name": "Berry Chia Parfait",
   "protein": "veggie",
-  "method": "no-cook",
+  "method": "third-spot",
   "mealType": "breakfast",
   "feeds": 6,
-  "macrosPerServing": { "kcal": 290, "protein": 14, "carbs": 34, "fat": 10 },
+  "macrosPerServing": {
+    "kcal": 290,
+    "protein": 14,
+    "carbs": 34,
+    "fat": 10
+  },
   "ingredients": [
-    { "name": "Chia seeds", "qty": 150, "unit": "g", "component": "protein" },
-    { "name": "Milk (or plant milk)", "qty": 900, "unit": "ml", "component": "other" },
-    { "name": "Greek yogurt", "qty": 480, "unit": "g", "component": "protein" },
-    { "name": "Mixed berries (fresh or frozen)", "qty": 600, "unit": "g", "component": "other" },
-    { "name": "Honey or maple syrup", "qty": 4, "unit": "tbsp", "component": "other" },
-    { "name": "Vanilla extract", "qty": 1, "unit": "tsp", "component": "other" }
+    {
+      "name": "Chia seeds",
+      "qty": 150,
+      "unit": "g",
+      "component": "protein"
+    },
+    {
+      "name": "Milk (or plant milk)",
+      "qty": 900,
+      "unit": "ml",
+      "component": "other"
+    },
+    {
+      "name": "Greek yogurt",
+      "qty": 480,
+      "unit": "g",
+      "component": "protein"
+    },
+    {
+      "name": "Mixed berries (fresh or frozen)",
+      "qty": 600,
+      "unit": "g",
+      "component": "other"
+    },
+    {
+      "name": "Honey or maple syrup",
+      "qty": 4,
+      "unit": "tbsp",
+      "component": "other"
+    },
+    {
+      "name": "Vanilla extract",
+      "qty": 1,
+      "unit": "tsp",
+      "component": "other"
+    }
   ],
   "steps": [
     "Whisk the chia seeds into the milk with the vanilla extract. Let sit 5 minutes, then whisk again to break up any clumps.",

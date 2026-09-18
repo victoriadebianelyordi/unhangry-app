@@ -56,16 +56,50 @@ module.exports = async (req, res) => {
   try {
     const pageRes = await fetchWithTimeout(parsed.toString(), 15000);
     if (!pageRes.ok) {
-      return sendJSON(res, 502, { error: 'fetch-failed', message: `The site responded with ${pageRes.status}.` });
+      // Many recipe sites (especially larger commercial ones) block plain automated
+      // fetches outright — no real browser, no cookies, no JS — sometimes via an odd
+      // status code rather than a normal 403. There's no reliable way around that, so
+      // redirect to the fallbacks that always work instead of surfacing a raw status code.
+      return sendJSON(res, 502, {
+        error: 'fetch-failed',
+        message: "Couldn't read that page — some sites block automated requests like this one just did. Try screenshotting the recipe and uploading the photo, or pasting the text instead.",
+      });
     }
     html = await pageRes.text();
   } catch (err) {
-    return sendJSON(res, 502, { error: 'fetch-failed', message: `Couldn't reach that page (${err.message}).` });
+    return sendJSON(res, 502, {
+      error: 'fetch-failed',
+      message: "Couldn't reach that page. Try screenshotting the recipe and uploading the photo, or pasting the text instead.",
+    });
   }
 
   const ld = findJsonLdRecipe(html);
   if (ld) {
     const recipe = jsonLdToRecipeDraft(ld, parsed.toString());
+
+    // The page's own markup never gives protein/method/ingredient-component tags, and often
+    // no nutrition data — fill in exactly those gaps (never overwrite what the page gave)
+    // so this recipe is just as complete as one that went through the AI paths. If this
+    // fails (no API key, or the call errors), fall back gracefully: return the structured
+    // draft as-is, same as before this existed — never block the import on it.
+    if (claude.hasApiKey() && recipe.ingredients.length > 0) {
+      try {
+        const classified = await claude.classifyRecipeDraft(recipe);
+        recipe.protein = classified.protein ?? recipe.protein;
+        recipe.method = classified.method ?? recipe.method;
+        recipe.mealType = classified.mealType || recipe.mealType || 'main';
+        if (Array.isArray(classified.ingredientComponents) && classified.ingredientComponents.length === recipe.ingredients.length) {
+          recipe.ingredients = recipe.ingredients.map((ing, idx) => ({ ...ing, component: classified.ingredientComponents[idx] || 'other' }));
+        }
+        const hadNoMacros = !recipe.macrosPerServing || (!recipe.macrosPerServing.kcal && !recipe.macrosPerServing.protein);
+        if (hadNoMacros && classified.macrosPerServing) {
+          recipe.macrosPerServing = classified.macrosPerServing;
+        }
+      } catch (err) {
+        console.error('Recipe classification pass failed (using structured data as-is):', err.message);
+      }
+    }
+
     return sendJSON(res, 200, { status: 'structured', recipe });
   }
 

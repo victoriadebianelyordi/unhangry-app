@@ -91,11 +91,15 @@
           </div>
         </div>
         <div class="rules-col">
-          <h3 class="rules-col__title">Individual<span>Flagged, not excluded — creates a prep note for that person's portion only.</span></h3>
+          <h3 class="rules-col__title">Individual<span>Allergy/Medical is hard-replaced everywhere, never left on their plate. Dislike is flagged, not excluded — a prep note for that person's portion only.</span></h3>
           <div class="rules-list" id="individual-rules-list"></div>
-          <div class="rules-add">
+          <div class="rules-add rules-add--individual">
             <select id="individual-rule-member"></select>
-            <input type="text" id="individual-rule-input" placeholder="e.g. hates cucumber, no fish">
+            <select id="individual-rule-type">
+              <option value="dislike">👎 Dislike</option>
+              <option value="allergy">🚩 Allergy/Medical</option>
+            </select>
+            <input type="text" id="individual-rule-input" placeholder="e.g. hates cucumber, no fish / celiac, no gluten">
             <button class="btn btn--ghost btn--small" id="individual-rule-add" type="button">+ Add</button>
           </div>
         </div>
@@ -144,12 +148,12 @@
 
     <div class="hub-section">
       <h2 class="display-h2-sm">This Week's Mains</h2>
-      <p class="list-step-hint">One recipe per method — air fryer, oven, and stovetop all run Sunday.</p>
+      <p class="list-step-hint">One recipe per slot — Stovetop, Oven, and The Third Spot (air fryer, no-cook, rice cooker, grill, whatever fits) all run Sunday.</p>
       <div class="method-slots" id="method-slots">
-        <div class="method-slot" role="button" tabindex="0" data-method="air-fryer">
-          <span class="method-slot__icon">💨</span>
+        <div class="method-slot" role="button" tabindex="0" data-method="stovetop">
+          <span class="method-slot__icon">🍲</span>
           <span class="method-slot__body">
-            <span class="method-slot__label">Air Fryer</span>
+            <span class="method-slot__label">Stovetop</span>
             <span class="method-slot__cta">+ Choose a recipe</span>
           </span>
         </div>
@@ -160,10 +164,10 @@
             <span class="method-slot__cta">+ Choose a recipe</span>
           </span>
         </div>
-        <div class="method-slot" role="button" tabindex="0" data-method="stovetop">
-          <span class="method-slot__icon">🍲</span>
+        <div class="method-slot" role="button" tabindex="0" data-method="third-spot">
+          <span class="method-slot__icon">🔀</span>
           <span class="method-slot__body">
-            <span class="method-slot__label">Stovetop</span>
+            <span class="method-slot__label">The Third Spot</span>
             <span class="method-slot__cta">+ Choose a recipe</span>
           </span>
         </div>
@@ -208,7 +212,7 @@
 
     <div class="hub-section">
       <h2 class="display-h2-sm">This Week's Exceptions <span class="optional-tag">optional</span></h2>
-      <p class="list-step-hint">Anyone away or eating out more than usual? This only affects this week's list — their saved profile in the Family Hub doesn't change.</p>
+      <p class="list-step-hint">Preset to your usual cook days — nudge any of the four counters up or down per person for this week only (skipping a meal for someone, eating out more, an extra snack). Set all four to 0 for someone to skip them entirely this week. This only affects this week's list — their saved profile in the Family Hub doesn't change.</p>
       <div class="weekly-adjustments" id="weekly-adjustments"></div>
       <p class="empty-state" id="weekly-adjustments-empty" hidden>Add household members in the Family Hub first.</p>
     </div>
@@ -217,6 +221,12 @@
       <h2 class="display-h2-sm">Buy or Make?</h2>
       <p class="list-step-hint">Quick calls before we generate the list — this changes what shows up in the grocery list for these ingredients.</p>
       <div class="buy-vs-make-questions" id="buy-vs-make-questions"></div>
+    </div>
+
+    <div class="hub-section" id="cycle-phase-section" hidden>
+      <h2 class="display-h2-sm">Cycle Phase <span class="optional-tag">optional</span></h2>
+      <p class="list-step-hint">For anyone eating cycle-friendly this week — pick their phase so AI Advice can adjust for it.</p>
+      <div class="cycle-phase-rows" id="cycle-phase-rows"></div>
     </div>
 
     <div class="generate-row">
@@ -346,11 +356,11 @@
           <label class="field">
             <span>Method</span>
             <select id="rf-method">
-              <option value="air-fryer">Air Fryer</option>
-              <option value="oven">Oven</option>
               <option value="stovetop">Stovetop</option>
-              <option value="no-cook">No-Cook (fridge/overnight)</option>
+              <option value="oven">Oven</option>
+              <option value="third-spot">The Third Spot</option>
             </select>
+            <span class="list-step-hint">Pick "The Third Spot" for anything that isn't a literal stovetop pot or an oven bake — air fryer, no-cook, rice cooker, grill, whatever fits.</span>
           </label>
           <label class="field">
             <span>Meal type</span>
@@ -411,15 +421,14 @@
       <h2 class="display-h2" id="member-modal-title">Add a member</h2>
 
       <form id="member-form">
-        <label class="field field--checkbox">
-          <input type="checkbox" id="mf-ischild">
-          <span>This is a child — simpler profile (skips goals, activity, and calorie targets)</span>
-        </label>
-
         <div class="review-grid">
           <label class="field"><span>Name or alias</span><input type="text" id="mf-name" required></label>
           <label class="field"><span>Date of birth</span><input type="date" id="mf-dob" required></label>
         </div>
+        <!-- Point 1 rebuild: "child" is derived from date of birth, not a manual toggle —
+             4 to 18.99 years auto-detects as a child (Health Canada EER system, backend-only);
+             under 4 is refused outright (see assessChildAgeGuardrail in app.js). -->
+        <p class="field-hint" id="mf-age-status" hidden></p>
 
         <div class="review-grid" id="mf-adult-basics">
           <label class="field">
@@ -442,6 +451,14 @@
         <div id="mf-activity-section">
           <p class="detail-section-title">Activity level</p>
           <div class="toggle-buttons" id="mf-activity"></div>
+        </div>
+
+        <div id="mf-training-detail-wrap" hidden>
+          <label class="field">
+            <span>Training plan</span>
+            <textarea id="mf-training-detail" rows="2" placeholder="Specify your weekly training plan and what you're training for"></textarea>
+          </label>
+          <p class="list-step-hint">Used to tailor fuelling — protein/carb targets here are provisional planning numbers, not a sport-specific prescription.</p>
         </div>
 
         <p class="list-step-hint">Allergies and dislikes go in Individual Rules in the Family Hub — one place, not repeated here.</p>
@@ -469,6 +486,8 @@
             <input type="number" id="mf-calorie-target" min="0">
             <button type="button" class="btn btn--ghost btn--small" id="mf-recalculate">Use estimate</button>
           </div>
+          <p class="calorie-box__macros" id="mf-macro-summary" hidden></p>
+          <p class="safety-floor-banner" id="mf-safety-floor-banner" hidden></p>
         </div>
 
         <div class="modal__actions modal__actions--split">

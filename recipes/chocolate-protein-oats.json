@@ -2,18 +2,58 @@
   "id": "chocolate-protein-oats",
   "name": "Chocolate Protein Oats",
   "protein": "veggie",
-  "method": "no-cook",
+  "method": "third-spot",
   "mealType": "breakfast",
   "feeds": 6,
-  "macrosPerServing": { "kcal": 380, "protein": 24, "carbs": 45, "fat": 9 },
+  "macrosPerServing": {
+    "kcal": 380,
+    "protein": 24,
+    "carbs": 45,
+    "fat": 9
+  },
   "ingredients": [
-    { "name": "Rolled oats", "qty": 480, "unit": "g", "component": "carb" },
-    { "name": "Milk (or plant milk)", "qty": 1.2, "unit": "L", "component": "other" },
-    { "name": "Chocolate protein powder", "qty": 180, "unit": "g", "component": "protein" },
-    { "name": "Cocoa powder", "qty": 4, "unit": "tbsp", "component": "other" },
-    { "name": "Greek yogurt", "qty": 240, "unit": "g", "component": "protein" },
-    { "name": "Honey or maple syrup", "qty": 4, "unit": "tbsp", "component": "other" },
-    { "name": "Pinch of salt", "qty": 1, "unit": "pinch", "component": "other" }
+    {
+      "name": "Rolled oats",
+      "qty": 480,
+      "unit": "g",
+      "component": "carb"
+    },
+    {
+      "name": "Milk (or plant milk)",
+      "qty": 1.2,
+      "unit": "L",
+      "component": "other"
+    },
+    {
+      "name": "Chocolate protein powder",
+      "qty": 180,
+      "unit": "g",
+      "component": "protein"
+    },
+    {
+      "name": "Cocoa powder",
+      "qty": 4,
+      "unit": "tbsp",
+      "component": "other"
+    },
+    {
+      "name": "Greek yogurt",
+      "qty": 240,
+      "unit": "g",
+      "component": "protein"
+    },
+    {
+      "name": "Honey or maple syrup",
+      "qty": 4,
+      "unit": "tbsp",
+      "component": "other"
+    },
+    {
+      "name": "Pinch of salt",
+      "qty": 1,
+      "unit": "pinch",
+      "component": "other"
+    }
   ],
   "steps": [
     "Divide the oats evenly between 6 jars.",

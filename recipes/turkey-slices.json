@@ -2,7 +2,7 @@
   "id": "turkey-slices",
   "name": "Turkey or Chicken Slices",
   "protein": "veggie",
-  "method": "no-cook",
+  "method": "third-spot",
   "mealType": "snack",
   "primaryMacro": "protein",
   "feeds": 1,

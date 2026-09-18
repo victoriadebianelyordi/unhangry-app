@@ -539,6 +539,13 @@ input, textarea {
   color: var(--burgundy);
 }
 
+/* Allergy/Medical rules are safety-critical — hard-replaced everywhere, never just a
+   prep note — so they're visually distinct from a casual Dislike at a glance. */
+.rule-pill--hard {
+  background: rgba(184,64,45,0.07);
+  border-color: rgba(184,64,45,0.35);
+}
+
 .rule-pill__remove {
   border: none;
   background: transparent;
@@ -564,6 +571,10 @@ input, textarea {
   padding: 9px 11px;
   font-size: 13.5px;
   background: var(--white);
+}
+
+#individual-rule-type {
+  flex: 0 1 170px;
 }
 
 /* Schedule + roles */
@@ -658,6 +669,32 @@ input, textarea {
   font-weight: 700;
   color: var(--burgundy);
   background: var(--white);
+}
+
+.calorie-box__macros {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--sage);
+  margin: 10px 0 0;
+}
+
+.safety-floor-banner {
+  font-size: 13px;
+  line-height: 1.5;
+  border-radius: 10px;
+  padding: 10px 12px;
+  margin: 10px 0 0;
+}
+
+.safety-floor-banner.is-aggressive {
+  background: rgba(217,164,65,0.15);
+  color: #7a5a12;
+}
+
+.safety-floor-banner.is-refused {
+  background: rgba(184,64,45,0.12);
+  color: #8a2f1f;
+  font-weight: 600;
 }
 
 .modal__actions--split {
@@ -789,7 +826,7 @@ input, textarea {
   padding: 11px 14px;
 }
 
-.weekly-adjustments {
+.weekly-adjustments, .cycle-phase-rows {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -812,15 +849,13 @@ input, textarea {
   min-width: 90px;
 }
 
-.adjustment-row select {
-  border: 1px solid var(--stainless);
-  border-radius: 8px;
-  padding: 8px 10px;
-  font-size: 13px;
-  background: var(--cream);
+.adjustment-row__counts {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
 }
 
-.adjustment-row__days {
+.adjustment-count {
   display: flex;
   align-items: center;
   gap: 6px;
@@ -828,8 +863,8 @@ input, textarea {
   color: rgba(23,23,23,0.6);
 }
 
-.adjustment-row__days input {
-  width: 56px;
+.adjustment-count input {
+  width: 48px;
   border: 1px solid var(--stainless);
   border-radius: 8px;
   padding: 7px 8px;
@@ -1525,6 +1560,23 @@ input, textarea {
 .field--checkbox input {
   width: 18px;
   height: 18px;
+}
+
+.field-hint {
+  font-size: 13px;
+  color: rgba(23,23,23,0.65);
+  background: var(--cream);
+  border: 1px solid var(--stainless);
+  border-radius: 8px;
+  padding: 8px 12px;
+  margin: -8px 0 4px;
+}
+
+.field-hint.is-toddler {
+  color: #8a1f11;
+  background: #fdecea;
+  border-color: #f3b7ae;
+  font-weight: 600;
 }
 
 #review-form textarea {

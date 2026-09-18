@@ -2,7 +2,7 @@
   "id": "sweet-potato",
   "name": "Baked Sweet Potato",
   "protein": "veggie",
-  "method": "no-cook",
+  "method": "third-spot",
   "mealType": "snack",
   "primaryMacro": "carb",
   "feeds": 1,

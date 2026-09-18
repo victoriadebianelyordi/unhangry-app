@@ -2,7 +2,7 @@
   "id": "latte",
   "name": "Latte or Cappuccino",
   "protein": "veggie",
-  "method": "no-cook",
+  "method": "third-spot",
   "mealType": "snack",
   "primaryMacro": "fat",
   "feeds": 1,

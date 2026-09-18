@@ -2,7 +2,7 @@
   "id": "protein-shake-milk",
   "name": "Protein Powder with Milk",
   "protein": "veggie",
-  "method": "no-cook",
+  "method": "third-spot",
   "mealType": "snack",
   "primaryMacro": "protein",
   "feeds": 1,
