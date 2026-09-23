@@ -6,80 +6,165 @@
   "mealType": "main",
   "feeds": 5,
   "macrosPerServing": {
-    "kcal": 460,
-    "protein": 42,
-    "carbs": 8,
-    "fat": 28
+    "kcal": 713,
+    "protein": 53,
+    "carbs": 51,
+    "fat": 33
   },
-  "ingredients": [
+  "components": [
     {
-      "name": "Lean beef strips",
-      "qty": 1,
-      "unit": "kg",
-      "component": "protein"
+      "id": "stroganoff",
+      "name": "Beef Stroganoff",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 5,
+      "cookedYieldG": 1590,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 530,
+        "protein": 49,
+        "carbs": 13,
+        "fat": 31
+      },
+      "ingredients": [
+        {
+          "name": "Lean beef strips",
+          "qty": 1,
+          "unit": "kg",
+          "component": "protein"
+        },
+        {
+          "name": "Brown onions (medium)",
+          "qty": 2,
+          "unit": "pc",
+          "component": "aromatic"
+        },
+        {
+          "name": "Garlic cloves",
+          "qty": 6,
+          "unit": "pc",
+          "component": "aromatic"
+        },
+        {
+          "name": "Mushrooms, thickly sliced",
+          "qty": 250,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Green onions",
+          "qty": 3,
+          "unit": "pc",
+          "component": "aromatic"
+        },
+        {
+          "name": "Beef broth or chicken stock",
+          "qty": 300,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Worcestershire sauce",
+          "qty": 2,
+          "unit": "tbsp",
+          "component": "sauce"
+        },
+        {
+          "name": "Cooking cream",
+          "qty": 300,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Mustard",
+          "qty": 4,
+          "unit": "tbsp",
+          "component": "sauce"
+        },
+        {
+          "name": "Paprika",
+          "qty": 1,
+          "unit": "tbsp",
+          "component": "sauce"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 2,
+          "unit": "tbsp",
+          "component": "other"
+        },
+        {
+          "name": "Salt",
+          "qty": 1,
+          "unit": "tsp",
+          "component": "other"
+        },
+        {
+          "name": "Black pepper",
+          "qty": 0.5,
+          "unit": "tsp",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Season the beef strips with the salt and pepper and sear in batches in olive oil over high heat until browned. Set aside.",
+        "In the same pan, cook the sliced brown onions and garlic until softened.",
+        "Add the mushrooms and cook until they release their liquid and start to brown, 5-6 minutes.",
+        "Stir in the paprika and mustard, cook for 1 minute.",
+        "Pour in the broth and Worcestershire sauce and simmer 3-4 minutes to reduce slightly.",
+        "Stir in the cooking cream and bring to a gentle simmer.",
+        "Return the beef to the pan and simmer 5-8 minutes until the sauce thickens and the beef is tender.",
+        "Finish with sliced green onions and serve over the rice."
+      ]
     },
     {
-      "name": "Onion (large)",
-      "qty": 1,
-      "unit": "pc",
-      "component": "aromatic"
-    },
-    {
-      "name": "Garlic cloves",
-      "qty": 6,
-      "unit": "pc",
-      "component": "aromatic"
-    },
-    {
-      "name": "Green onions",
-      "qty": 3,
-      "unit": "pc",
-      "component": "aromatic"
-    },
-    {
-      "name": "Cooking cream",
-      "qty": 300,
-      "unit": "ml",
-      "component": "sauce"
-    },
-    {
-      "name": "Mustard",
-      "qty": 4,
-      "unit": "tbsp",
-      "component": "sauce"
-    },
-    {
-      "name": "Olive oil",
-      "qty": 2,
-      "unit": "tbsp",
-      "component": "other"
-    },
-    {
-      "name": "Paprika",
-      "qty": 1,
-      "unit": "tbsp",
-      "component": "sauce"
-    },
-    {
-      "name": "Salt and pepper",
-      "qty": 1,
-      "unit": "to taste",
-      "component": "other"
-    },
-    {
-      "name": "Butter",
-      "qty": 2,
-      "unit": "tbsp",
-      "component": "sauce"
+      "id": "rice",
+      "name": "White Rice",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 5,
+      "cookedYieldG": 720,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 183,
+        "protein": 3,
+        "carbs": 38,
+        "fat": 1
+      },
+      "ingredients": [
+        {
+          "name": "White basmati rice (dry)",
+          "qty": 240,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Water",
+          "qty": 450,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Salt (or to taste)",
+          "qty": 0.5,
+          "unit": "tsp",
+          "component": "other"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 1,
+          "unit": "tsp",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Rinse the rice in cold water 3-4 times, until the water runs mostly clear. Drain well.",
+        "Add the rice, water, salt and olive oil to a pot.",
+        "Bring to a boil, then immediately reduce to the lowest heat and cover with a tight-fitting lid.",
+        "Cook for 12-15 minutes without lifting the lid or stirring.",
+        "Turn off the heat and leave covered for another 10 minutes. Fluff gently with a fork and serve."
+      ]
     }
-  ],
-  "steps": [
-    "Season the beef strips and sear in batches in olive oil over high heat until browned. Set aside.",
-    "In the same pan, add the butter, diced onion and garlic, cook until softened.",
-    "Stir in the paprika and mustard, cook for 1 minute.",
-    "Pour in the cooking cream, bring to a gentle simmer.",
-    "Return the beef to the pan, simmer for 5-8 minutes until the sauce thickens and the beef is tender.",
-    "Finish with sliced green onions, season to taste, and serve."
   ],
   "notes": [],
   "flags": {

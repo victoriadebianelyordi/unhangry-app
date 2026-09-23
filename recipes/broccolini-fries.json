@@ -3,7 +3,8 @@
   "name": "Broccolini Fries",
   "protein": "veggie",
   "method": "third-spot",
-  "mealType": "main",
+  "mealType": "snack",
+  "primaryMacro": "fat",
   "feeds": 2,
   "macrosPerServing": {
     "kcal": 120,
@@ -54,6 +55,5 @@
   "flags": {
     "shelfLife": null,
     "freezeFriendly": false
-  },
-  "componentScalable": false
+  }
 }

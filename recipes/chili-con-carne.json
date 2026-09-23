@@ -6,119 +6,151 @@
   "mealType": "main",
   "feeds": 8,
   "macrosPerServing": {
-    "kcal": 420,
-    "protein": 38,
-    "carbs": 32,
-    "fat": 14
+    "kcal": 555,
+    "protein": 35,
+    "carbs": 41,
+    "fat": 27
   },
-  "ingredients": [
+  "components": [
     {
-      "name": "Ground beef",
-      "qty": 900,
-      "unit": "g",
-      "component": "protein"
+      "id": "chili",
+      "name": "Chili",
+      "scaling": "ratio",
+      "role": "whole",
+      "servings": 8,
+      "cookedYieldG": 3540,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 451,
+        "protein": 32,
+        "carbs": 38,
+        "fat": 18
+      },
+      "ingredients": [
+        {
+          "name": "Ground beef",
+          "qty": 900,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Onion (large, diced)",
+          "qty": 1,
+          "unit": "pc",
+          "component": "aromatic"
+        },
+        {
+          "name": "Green bell peppers (diced)",
+          "qty": 2,
+          "unit": "pc",
+          "component": "aromatic"
+        },
+        {
+          "name": "Tomato paste",
+          "qty": 2,
+          "unit": "tbsp",
+          "component": "sauce"
+        },
+        {
+          "name": "Taco seasoning",
+          "qty": 2,
+          "unit": "tbsp",
+          "component": "sauce"
+        },
+        {
+          "name": "Black beans (canned, drained)",
+          "qty": 2,
+          "unit": "can",
+          "component": "carb"
+        },
+        {
+          "name": "Kidney beans (canned, drained)",
+          "qty": 2,
+          "unit": "can",
+          "component": "carb"
+        },
+        {
+          "name": "Sweet corn (canned, drained)",
+          "qty": 2,
+          "unit": "can",
+          "component": "carb"
+        },
+        {
+          "name": "Diced tomatoes (canned)",
+          "qty": 2,
+          "unit": "can",
+          "component": "sauce"
+        },
+        {
+          "name": "Water",
+          "qty": 1.5,
+          "unit": "L",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Brown the ground beef in a large pot over medium-high heat, breaking it up as it cooks.",
+        "Add the diced onion and bell pepper, cook until softened, about 5 minutes.",
+        "Stir in the tomato paste and taco seasoning, cook for 1 minute until fragrant.",
+        "Add the diced tomatoes, all the beans, corn, and water.",
+        "Bring to a simmer and cook uncovered for 30-40 minutes, stirring occasionally, until thickened."
+      ]
     },
     {
-      "name": "Onion (large, diced)",
-      "qty": 1,
-      "unit": "pc",
-      "component": "aromatic"
-    },
-    {
-      "name": "Green bell peppers (diced)",
-      "qty": 2,
-      "unit": "pc",
-      "component": "aromatic"
-    },
-    {
-      "name": "Tomato paste",
-      "qty": 2,
-      "unit": "tbsp",
-      "component": "sauce"
-    },
-    {
-      "name": "Taco seasoning",
-      "qty": 2,
-      "unit": "tbsp",
-      "component": "sauce"
-    },
-    {
-      "name": "Black beans (canned, drained)",
-      "qty": 2,
-      "unit": "can",
-      "component": "carb"
-    },
-    {
-      "name": "Kidney beans (canned, drained)",
-      "qty": 2,
-      "unit": "can",
-      "component": "carb"
-    },
-    {
-      "name": "Sweet corn (canned, drained)",
-      "qty": 2,
-      "unit": "can",
-      "component": "carb"
-    },
-    {
-      "name": "Diced tomatoes (canned)",
-      "qty": 2,
-      "unit": "can",
-      "component": "sauce"
-    },
-    {
-      "name": "Diced green chilies (canned)",
-      "qty": 2,
-      "unit": "can",
-      "component": "sauce"
-    },
-    {
-      "name": "Water",
-      "qty": 1.5,
-      "unit": "L",
-      "component": "other"
-    },
-    {
-      "name": "Avocado (optional topping)",
-      "qty": 1,
-      "unit": "pc",
-      "component": "other"
-    },
-    {
-      "name": "Jalapeño (optional topping)",
-      "qty": 1,
-      "unit": "pc",
-      "component": "other"
-    },
-    {
-      "name": "Cilantro (optional topping)",
-      "qty": 1,
-      "unit": "bunch",
-      "component": "other"
-    },
-    {
-      "name": "Cheese (optional topping)",
-      "qty": 100,
-      "unit": "g",
-      "component": "other"
-    },
-    {
-      "name": "Sour cream (optional topping)",
-      "qty": 100,
-      "unit": "g",
-      "component": "other"
+      "id": "toppings",
+      "name": "Toppings",
+      "scaling": "addon",
+      "servings": 8,
+      "cookedYieldG": 410,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 105,
+        "protein": 4,
+        "carbs": 3,
+        "fat": 9
+      },
+      "ingredients": [
+        {
+          "name": "Avocado",
+          "qty": 1,
+          "unit": "pc",
+          "component": "other",
+          "maxPerServing": 1
+        },
+        {
+          "name": "Cheddar (shredded)",
+          "qty": 100,
+          "unit": "g",
+          "component": "other",
+          "maxPerServing": 100
+        },
+        {
+          "name": "Sour cream",
+          "qty": 100,
+          "unit": "g",
+          "component": "sauce",
+          "maxPerServing": 100
+        },
+        {
+          "name": "Jalapeño",
+          "qty": 1,
+          "unit": "pc",
+          "component": "other"
+        },
+        {
+          "name": "Cilantro",
+          "qty": 1,
+          "unit": "bunch",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Serve each bowl topped with sliced avocado, jalapeño, cilantro, cheddar and sour cream."
+      ]
     }
   ],
-  "steps": [
-    "Brown the ground beef in a large pot over medium-high heat, breaking it up as it cooks.",
-    "Add the diced onion and bell pepper, cook until softened, about 5 minutes.",
-    "Stir in the tomato paste and taco seasoning, cook for 1 minute until fragrant.",
-    "Add the diced tomatoes, green chilies, all the beans, corn, and water.",
-    "Bring to a simmer and cook uncovered for 30-40 minutes, stirring occasionally, until thickened.",
-    "Serve with your choice of avocado, jalapeño, cilantro, cheese, or sour cream."
-  ],
   "notes": [
-    "Excellent for batch freezing — portion into containers once cooled."
+    "Excellent for batch freezing — portion into containers once cooled (add the toppings fresh when serving)."
   ],
   "flags": {
     "shelfLife": null,

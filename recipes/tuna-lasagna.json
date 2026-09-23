@@ -4,81 +4,102 @@
   "protein": "seafood",
   "method": "oven",
   "mealType": "main",
-  "feeds": 7,
+  "feeds": 6,
   "macrosPerServing": {
-    "kcal": 480,
-    "protein": 36,
-    "carbs": 42,
-    "fat": 16
+    "kcal": 529,
+    "protein": 54,
+    "carbs": 36,
+    "fat": 18
   },
-  "ingredients": [
+  "components": [
     {
-      "name": "Fresh lasagna sheets",
-      "qty": 1,
-      "unit": "pack",
-      "component": "carb"
-    },
-    {
-      "name": "Tuna (canned, drained)",
-      "qty": 4,
-      "unit": "can",
-      "component": "protein"
-    },
-    {
-      "name": "Spinach",
-      "qty": 200,
-      "unit": "g",
-      "component": "other"
-    },
-    {
-      "name": "Crushed tomatoes (seasoned with garlic/onion/herbs)",
-      "qty": 400,
-      "unit": "g",
-      "component": "sauce"
-    },
-    {
-      "name": "Butter (for bechamel)",
-      "qty": 2,
-      "unit": "tbsp",
-      "component": "sauce"
-    },
-    {
-      "name": "Flour (for bechamel)",
-      "qty": 2,
-      "unit": "tbsp",
-      "component": "sauce"
-    },
-    {
-      "name": "Milk (for bechamel)",
-      "qty": 500,
-      "unit": "ml",
-      "component": "sauce"
-    },
-    {
-      "name": "Salt, pepper, nutmeg (for bechamel)",
-      "qty": 1,
-      "unit": "to taste",
-      "component": "sauce"
-    },
-    {
-      "name": "Mozzarella balls (or 1 large Zanetti)",
-      "qty": 2,
-      "unit": "pc",
-      "component": "sauce"
-    },
-    {
-      "name": "Grated parmesan",
-      "qty": 0.5,
-      "unit": "cup",
-      "component": "sauce"
+      "id": "lasagna",
+      "name": "Tuna Lasagna",
+      "scaling": "ratio",
+      "role": "whole",
+      "servings": 6,
+      "cookedYieldG": 2350,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 529,
+        "protein": 54,
+        "carbs": 36,
+        "fat": 18
+      },
+      "ingredients": [
+        {
+          "name": "Fresh lasagna sheets (250g packs)",
+          "qty": 250,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Canned tuna in water (180g cans, 135g drained each)",
+          "qty": 1080,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Spinach",
+          "qty": 200,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Crushed tomatoes (seasoned with garlic/onion/herbs)",
+          "qty": 400,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Mozzarella balls (125g each)",
+          "qty": 2,
+          "unit": "pc",
+          "component": "sauce"
+        },
+        {
+          "name": "Grated parmesan",
+          "qty": 0.5,
+          "unit": "cup",
+          "component": "sauce"
+        },
+        {
+          "name": "Butter",
+          "qty": 2,
+          "unit": "tbsp",
+          "component": "sauce",
+          "group": "Bechamel sauce"
+        },
+        {
+          "name": "Flour",
+          "qty": 2,
+          "unit": "tbsp",
+          "component": "sauce",
+          "group": "Bechamel sauce"
+        },
+        {
+          "name": "2% milk",
+          "qty": 500,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Bechamel sauce"
+        },
+        {
+          "name": "Salt, pepper, nutmeg",
+          "qty": 1,
+          "unit": "to taste",
+          "component": "sauce",
+          "group": "Bechamel sauce"
+        }
+      ],
+      "steps": [
+        "Make the bechamel (or substitute 500ml cooking cream): melt the butter, whisk in the flour, cook 1 minute, then gradually whisk in the milk until smooth and thickened. Season with salt, pepper, and nutmeg.",
+        "Wilt the spinach briefly and mix it through the drained tuna.",
+        "In a baking dish, layer: crushed tomato sauce, lasagna sheets, tuna-spinach mix, bechamel, repeat until ingredients are used, finishing with a bechamel layer.",
+        "Top with torn mozzarella and grated parmesan.",
+        "Bake at 190°C for 30-35 minutes until golden and bubbling. Rest 10 minutes before slicing."
+      ]
     }
-  ],
-  "steps": [
-    "Make the bechamel (or substitute 500ml cooking cream): melt the butter, whisk in the flour, cook 1 minute, then gradually whisk in the milk until smooth and thickened. Season with salt, pepper, and nutmeg.",
-    "Wilt the spinach briefly and mix it through the drained tuna.",
-    "In a baking dish, layer: crushed tomato sauce, lasagna sheets, tuna-spinach mix, bechamel, repeat until ingredients are used, finishing with a bechamel layer.",
-    "Top with torn mozzarella and grated parmesan.",
-    "Bake at 190°C for 30-35 minutes until golden and bubbling. Rest 10 minutes before slicing."
   ],
   "notes": [
     "Great for batch freezing — assemble a second tray unbaked and freeze half for midweek."

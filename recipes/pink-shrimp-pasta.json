@@ -6,99 +6,135 @@
   "mealType": "main",
   "feeds": 6,
   "macrosPerServing": {
-    "kcal": 540,
-    "protein": 32,
-    "carbs": 58,
-    "fat": 18
+    "kcal": 660,
+    "protein": 38,
+    "carbs": 79,
+    "fat": 21
   },
-  "ingredients": [
+  "components": [
     {
-      "name": "Penne pasta",
-      "qty": 550,
-      "unit": "g",
-      "component": "carb"
+      "id": "shrimp",
+      "name": "Shrimp",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 6,
+      "cookedYieldG": 610,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 168,
+        "protein": 20,
+        "carbs": 2,
+        "fat": 9
+      },
+      "ingredients": [
+        {
+          "name": "Large shrimp, peeled & deveined (~17g each)",
+          "qty": 600,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 2,
+          "unit": "tbsp",
+          "component": "other"
+        },
+        {
+          "name": "Butter",
+          "qty": 2,
+          "unit": "tbsp",
+          "component": "sauce"
+        },
+        {
+          "name": "Onion",
+          "qty": 1,
+          "unit": "pc",
+          "component": "aromatic"
+        },
+        {
+          "name": "Garlic cloves",
+          "qty": 3,
+          "unit": "pc",
+          "component": "aromatic"
+        }
+      ],
+      "steps": [
+        "In a large pan, heat the olive oil and butter and sauté the onion and garlic until fragrant.",
+        "Add the shrimp and cook 2-3 minutes per side until pink, then remove the shrimp and set aside (keep the onion and garlic in the pan for the sauce)."
+      ]
     },
     {
-      "name": "Large shrimp (peeled, deveined)",
-      "qty": 35,
-      "unit": "pc",
-      "component": "protein"
-    },
-    {
-      "name": "Olive oil",
-      "qty": 2,
-      "unit": "tbsp",
-      "component": "other"
-    },
-    {
-      "name": "Butter",
-      "qty": 2,
-      "unit": "tbsp",
-      "component": "sauce"
-    },
-    {
-      "name": "Onion",
-      "qty": 1,
-      "unit": "pc",
-      "component": "aromatic"
-    },
-    {
-      "name": "Garlic cloves",
-      "qty": 3,
-      "unit": "pc",
-      "component": "aromatic"
-    },
-    {
-      "name": "Marinara or tomato passata",
-      "qty": 1.5,
-      "unit": "cup",
-      "component": "sauce"
-    },
-    {
-      "name": "Heavy cream (or Greek yogurt / light cooking cream)",
-      "qty": 1.75,
-      "unit": "cup",
-      "component": "sauce"
-    },
-    {
-      "name": "Grated parmesan",
-      "qty": 0.5,
-      "unit": "cup",
-      "component": "sauce"
-    },
-    {
-      "name": "Salt",
-      "qty": 1,
-      "unit": "to taste",
-      "component": "other"
-    },
-    {
-      "name": "Black pepper",
-      "qty": 1,
-      "unit": "to taste",
-      "component": "other"
-    },
-    {
-      "name": "Red pepper flakes",
-      "qty": 1,
-      "unit": "pinch",
-      "component": "sauce"
-    },
-    {
-      "name": "Fresh parsley",
-      "qty": 1,
-      "unit": "handful",
-      "component": "other"
+      "id": "pasta-sauce",
+      "name": "Pasta & Pink Sauce",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 6,
+      "cookedYieldG": 1910,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 493,
+        "protein": 17,
+        "carbs": 77,
+        "fat": 12
+      },
+      "ingredients": [
+        {
+          "name": "Penne pasta",
+          "qty": 550,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Marinara or tomato passata",
+          "qty": 1.5,
+          "unit": "cup",
+          "component": "sauce"
+        },
+        {
+          "name": "Light cooking cream",
+          "qty": 1.75,
+          "unit": "cup",
+          "component": "sauce"
+        },
+        {
+          "name": "Grated parmesan",
+          "qty": 0.5,
+          "unit": "cup",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 1,
+          "unit": "to taste",
+          "component": "other"
+        },
+        {
+          "name": "Black pepper",
+          "qty": 1,
+          "unit": "to taste",
+          "component": "other"
+        },
+        {
+          "name": "Red pepper flakes",
+          "qty": 1,
+          "unit": "pinch",
+          "component": "sauce"
+        },
+        {
+          "name": "Fresh parsley",
+          "qty": 1,
+          "unit": "handful",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Cook the penne in salted boiling water until al dente. Drain, reserving a cup of pasta water.",
+        "Stir the marinara into the shrimp pan, simmer 3-4 minutes.",
+        "Lower the heat, stir in the light cooking cream and parmesan until you have a smooth pink sauce.",
+        "Add the drained pasta and toss to coat, loosening with pasta water if needed.",
+        "Season with salt, pepper and red pepper flakes, finish with fresh parsley, and top each portion with its shrimp."
+      ]
     }
-  ],
-  "steps": [
-    "Cook the penne in salted boiling water until al dente. Drain, reserving a cup of pasta water.",
-    "In a large pan, heat olive oil and butter, sauté the onion and garlic until fragrant.",
-    "Add the shrimp, cook 2-3 minutes per side until pink, then remove and set aside.",
-    "Stir the marinara into the same pan, simmer 3-4 minutes.",
-    "Lower the heat, stir in the cream and parmesan until you have a smooth pink sauce.",
-    "Return the shrimp and drained pasta to the pan, toss to coat, loosening with pasta water if needed.",
-    "Season with salt, pepper, and red pepper flakes. Finish with fresh parsley."
   ],
   "notes": [
     "Freeze any leftover shrimp raw if not cooking within the shelf-life window."

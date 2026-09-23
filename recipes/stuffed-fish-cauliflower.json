@@ -1,0 +1,165 @@
+{
+  "id": "stuffed-fish-cauliflower",
+  "name": "Stuffed Fish Fillet & Baked Cauliflower",
+  "protein": "seafood",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 4,
+  "macrosPerServing": {
+    "kcal": 632,
+    "protein": 52,
+    "carbs": 33,
+    "fat": 35
+  },
+  "components": [
+    {
+      "id": "stuffed-fish",
+      "name": "Stuffed Fish Fillet",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 820,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 298,
+        "protein": 38,
+        "carbs": 7,
+        "fat": 13
+      },
+      "ingredients": [
+        {
+          "name": "White fish fillets",
+          "qty": 800,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Fresh coriander",
+          "qty": 1,
+          "unit": "bunch",
+          "component": "aromatic"
+        },
+        {
+          "name": "Walnuts (~16 halves)",
+          "qty": 30,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Garlic",
+          "qty": 60,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 2,
+          "unit": "tbsp",
+          "component": "other"
+        },
+        {
+          "name": "Salt",
+          "qty": 1,
+          "unit": "to taste",
+          "component": "other"
+        },
+        {
+          "name": "Black pepper",
+          "qty": 1,
+          "unit": "to taste",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Process the coriander, then the walnuts, then the garlic in the food processor.",
+        "Mix them together and set aside (optionally keep a handful of coriander aside for decoration).",
+        "Season with salt, pepper and olive oil.",
+        "Place the white fish in the center of a piece of aluminum foil.",
+        "Add the mixture on top, leaving the borders of the fish clear (to avoid spilling).",
+        "Cover with another piece of fillet on top.",
+        "Wrap the aluminum foil.",
+        "Bake at 200°C for 45 minutes."
+      ]
+    },
+    {
+      "id": "baked-cauliflower",
+      "name": "Baked Cauliflower",
+      "scaling": "fixed",
+      "servings": 4,
+      "cookedYieldG": 1110,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 334,
+        "protein": 14,
+        "carbs": 26,
+        "fat": 22
+      },
+      "ingredients": [
+        {
+          "name": "Whole cauliflower (~650g)",
+          "qty": 1,
+          "unit": "pc",
+          "component": "other",
+          "gramsPerUnit": 650
+        },
+        {
+          "name": "Olive oil",
+          "qty": 2,
+          "unit": "tbsp",
+          "component": "other"
+        },
+        {
+          "name": "Salt and pepper",
+          "qty": 1,
+          "unit": "to taste",
+          "component": "other"
+        },
+        {
+          "name": "Pine nuts",
+          "qty": 40,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Peeled pomegranate",
+          "qty": 250,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Plain 2% Greek yogurt",
+          "qty": 250,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Tahini",
+          "qty": 3,
+          "unit": "tbsp",
+          "component": "sauce"
+        },
+        {
+          "name": "Garlic cloves, crushed (optional)",
+          "qty": 2,
+          "unit": "clove",
+          "component": "aromatic"
+        }
+      ],
+      "steps": [
+        "Trim the cauliflower and cut into big chunks/florets — OR keep the cauliflower whole and wrap it in aluminum foil (the visually appealing option if you're hosting people).",
+        "Toss with olive oil, salt and pepper.",
+        "Wrap the pine nuts in a small foil pocket.",
+        "Roast the cauliflower and pine nuts at 200°C for 25-30 minutes, turning once, until deeply golden and tender.",
+        "In a bowl, mix the Greek yogurt with the tahini and the optional crushed garlic (2 cloves only).",
+        "Add the pomegranate and mix while slightly pressing, so the sauce turns pinkish and picks up extra flavor.",
+        "Add the pine nuts once golden, then serve the mixture on top of the cauliflower."
+      ]
+    }
+  ],
+  "notes": [],
+  "flags": {
+    "shelfLife": "Fresh fish — plan for days 1-2.",
+    "freezeFriendly": false
+  },
+  "componentScalable": false
+}

@@ -6,150 +6,208 @@
   "mealType": "main",
   "feeds": 5,
   "macrosPerServing": {
-    "kcal": 580,
-    "protein": 44,
-    "carbs": 48,
-    "fat": 22
+    "kcal": 503,
+    "protein": 41,
+    "carbs": 61,
+    "fat": 9
   },
-  "ingredients": [
+  "components": [
     {
-      "name": "Whole chicken",
-      "qty": 1,
-      "unit": "pc",
-      "component": "protein"
+      "id": "chicken",
+      "name": "Spiced Chicken",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 5,
+      "cookedYieldG": 530,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 162,
+        "protein": 28,
+        "carbs": 2,
+        "fat": 4
+      },
+      "ingredients": [
+        {
+          "name": "Whole chicken (~1.3kg)",
+          "qty": 1,
+          "unit": "pc",
+          "component": "protein",
+          "gramsPerUnit": 1300
+        },
+        {
+          "name": "Onion (small)",
+          "qty": 1,
+          "unit": "pc",
+          "component": "aromatic"
+        },
+        {
+          "name": "Bay leaves",
+          "qty": 2,
+          "unit": "pc",
+          "component": "sauce"
+        },
+        {
+          "name": "Galangal",
+          "qty": 1,
+          "unit": "pc",
+          "component": "sauce"
+        },
+        {
+          "name": "Dry lemon",
+          "qty": 1,
+          "unit": "pc",
+          "component": "sauce"
+        },
+        {
+          "name": "Nutmeg",
+          "qty": 1,
+          "unit": "pinch",
+          "component": "sauce"
+        },
+        {
+          "name": "Cloves",
+          "qty": 4,
+          "unit": "pc",
+          "component": "sauce"
+        },
+        {
+          "name": "Dry ginger",
+          "qty": 1,
+          "unit": "tsp",
+          "component": "sauce"
+        },
+        {
+          "name": "Cinnamon sticks",
+          "qty": 2,
+          "unit": "pc",
+          "component": "sauce"
+        },
+        {
+          "name": "Cardamom",
+          "qty": 4,
+          "unit": "pod",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Place the whole chicken in a large pot with the onion and all the whole spices. Cover with water, bring to a boil, then simmer 45-60 minutes until the chicken is fully cooked. Reserve the broth.",
+        "Remove the chicken, let it cool slightly, then shred or joint the meat."
+      ]
     },
     {
-      "name": "Onion (small)",
-      "qty": 1,
-      "unit": "pc",
-      "component": "aromatic"
+      "id": "rice-beef",
+      "name": "Rice with Spiced Beef",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 5,
+      "cookedYieldG": 1250,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 342,
+        "protein": 13,
+        "carbs": 60,
+        "fat": 4
+      },
+      "ingredients": [
+        {
+          "name": "Basmati rice",
+          "qty": 2,
+          "unit": "cup",
+          "component": "carb"
+        },
+        {
+          "name": "Ground lean beef",
+          "qty": 200,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Cinnamon (ground)",
+          "qty": 1,
+          "unit": "tsp",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Brown the ground beef with the ground cinnamon until cooked, then set aside.",
+        "Cook the basmati rice in the reserved chicken broth (about 1.5x rice volume in liquid) until fluffy.",
+        "To serve: layer the rice, top with the shredded chicken and the spiced ground beef. Add the optional toppings to taste."
+      ]
     },
     {
-      "name": "Bay leaves",
-      "qty": 2,
-      "unit": "pc",
-      "component": "sauce"
-    },
-    {
-      "name": "Galangal",
-      "qty": 1,
-      "unit": "pc",
-      "component": "sauce"
-    },
-    {
-      "name": "Dry lemon",
-      "qty": 1,
-      "unit": "pc",
-      "component": "sauce"
-    },
-    {
-      "name": "Nutmeg",
-      "qty": 1,
-      "unit": "pinch",
-      "component": "sauce"
-    },
-    {
-      "name": "Cloves",
-      "qty": 4,
-      "unit": "pc",
-      "component": "sauce"
-    },
-    {
-      "name": "Dry ginger",
-      "qty": 1,
-      "unit": "tsp",
-      "component": "sauce"
-    },
-    {
-      "name": "Cinnamon sticks",
-      "qty": 2,
-      "unit": "pc",
-      "component": "sauce"
-    },
-    {
-      "name": "Cardamom",
-      "qty": 4,
-      "unit": "pod",
-      "component": "sauce"
-    },
-    {
-      "name": "Basmati rice",
-      "qty": 2,
-      "unit": "cup",
-      "component": "carb"
-    },
-    {
-      "name": "Ground lean beef",
-      "qty": 200,
-      "unit": "g",
-      "component": "protein"
-    },
-    {
-      "name": "Cinnamon (ground)",
-      "qty": 1,
-      "unit": "tsp",
-      "component": "sauce"
-    },
-    {
-      "name": "Almonds",
-      "qty": 0.25,
-      "unit": "cup",
-      "component": "other"
-    },
-    {
-      "name": "Cashews",
-      "qty": 0.25,
-      "unit": "cup",
-      "component": "other"
-    },
-    {
-      "name": "Yellow raisins",
-      "qty": 0.25,
-      "unit": "cup",
-      "component": "other"
-    },
-    {
-      "name": "Pine nuts",
-      "qty": 0.25,
-      "unit": "cup",
-      "component": "other"
-    },
-    {
-      "name": "Pistachios",
-      "qty": 0.25,
-      "unit": "cup",
-      "component": "other"
-    },
-    {
-      "name": "Garlic cloves (for sauce)",
-      "qty": 4,
-      "unit": "pc",
-      "component": "sauce"
-    },
-    {
-      "name": "Olive oil (for sauce)",
-      "qty": 0.5,
-      "unit": "cup",
-      "component": "sauce"
-    },
-    {
-      "name": "Lemons (for sauce)",
-      "qty": 1.5,
-      "unit": "pc",
-      "component": "sauce"
+      "id": "toppings",
+      "name": "Optional Toppings",
+      "scaling": "addon",
+      "optional": true,
+      "servings": 5,
+      "cookedYieldG": 370,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 381,
+        "protein": 5,
+        "carbs": 14,
+        "fat": 36
+      },
+      "ingredients": [
+        {
+          "name": "Almonds",
+          "qty": 0.25,
+          "unit": "cup",
+          "component": "other"
+        },
+        {
+          "name": "Cashews",
+          "qty": 0.25,
+          "unit": "cup",
+          "component": "other"
+        },
+        {
+          "name": "Yellow raisins",
+          "qty": 0.25,
+          "unit": "cup",
+          "component": "other"
+        },
+        {
+          "name": "Pine nuts",
+          "qty": 0.25,
+          "unit": "cup",
+          "component": "other"
+        },
+        {
+          "name": "Pistachios",
+          "qty": 0.25,
+          "unit": "cup",
+          "component": "other"
+        },
+        {
+          "name": "Garlic cloves (for sauce)",
+          "qty": 4,
+          "unit": "pc",
+          "component": "sauce"
+        },
+        {
+          "name": "Olive oil (for sauce)",
+          "qty": 0.5,
+          "unit": "cup",
+          "component": "sauce"
+        },
+        {
+          "name": "Lemons (for sauce)",
+          "qty": 1.5,
+          "unit": "pc",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Toast the mixed nuts and raisins in a dry pan or with a touch of oil until golden.",
+        "For the garlic lemon sauce: blend the garlic, olive oil, and lemon juice until emulsified.",
+        "Scatter the nut mix and drizzle the garlic lemon sauce over each plate, to taste."
+      ]
     }
   ],
-  "steps": [
-    "Place the whole chicken in a large pot with the onion and all the whole spices. Cover with water, bring to a boil, then simmer 45-60 minutes until the chicken is fully cooked. Reserve the broth.",
-    "Remove the chicken, let it cool slightly, then shred or joint the meat.",
-    "In a separate pot, brown the ground beef with ground cinnamon until cooked, then set aside.",
-    "Cook the basmati rice in the reserved chicken broth (about 1.5x rice volume in liquid) until fluffy.",
-    "Toast the mixed nuts and raisins in a dry pan or with a touch of oil until golden.",
-    "For the garlic lemon sauce: blend the garlic, olive oil, and lemon juice until emulsified.",
-    "To serve: layer the rice, top with shredded chicken, the spiced ground beef, and the toasted nut mix. Drizzle with garlic lemon sauce."
-  ],
   "notes": [
-    "Whole spices are available at any spice shop or the Carrefour spice section."
+    "Whole spices are available at any spice shop or the Carrefour spice section.",
+    "The toppings (nut mix and garlic lemon sauce) are calorie dense — about 381 kcal per serving if you use the full amount — and are NOT counted in this recipe's calories. If you include them, make sure to count their macros and reduce other snacks/meals accordingly."
   ],
   "flags": {
     "shelfLife": null,

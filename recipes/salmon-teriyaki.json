@@ -4,100 +4,179 @@
   "protein": "seafood",
   "method": "third-spot",
   "mealType": "main",
-  "feeds": 6,
+  "feeds": 4,
   "macrosPerServing": {
-    "kcal": 520,
-    "protein": 42,
-    "carbs": 46,
-    "fat": 16
+    "kcal": 878,
+    "protein": 53,
+    "carbs": 69,
+    "fat": 43
   },
-  "ingredients": [
+  "components": [
     {
-      "name": "Salmon fillets",
-      "qty": 900,
-      "unit": "g",
-      "component": "protein"
+      "id": "salmon-teriyaki",
+      "name": "Salmon Teriyaki",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 770,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 503,
+        "protein": 43,
+        "carbs": 8,
+        "fat": 32
+      },
+      "ingredients": [
+        {
+          "name": "Salmon fillets, skin on or off",
+          "qty": 800,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Soy sauce",
+          "qty": 100,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Brown sugar",
+          "qty": 4,
+          "unit": "tsp",
+          "component": "sauce"
+        },
+        {
+          "name": "Cornflour or cornstarch",
+          "qty": 1,
+          "unit": "tbsp",
+          "component": "sauce"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 1.5,
+          "unit": "tbsp",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Mix the soy sauce, brown sugar and cornstarch with a whisk or fork.",
+        "Pat the salmon dry, and spray olive oil in the air fryer or on the parchment paper.",
+        "Add the mixture on the salmon.",
+        "Air fry at 200°C for 10-12 minutes until just cooked."
+      ]
     },
     {
-      "name": "Olive oil",
-      "qty": 1.5,
-      "unit": "tbsp",
-      "component": "other"
+      "id": "rice",
+      "name": "White Rice",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 720,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 251,
+        "protein": 4,
+        "carbs": 48,
+        "fat": 4
+      },
+      "ingredients": [
+        {
+          "name": "Jasmine rice, washed",
+          "qty": 240,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Cold water",
+          "qty": 450,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Salt",
+          "qty": 1,
+          "unit": "to taste",
+          "component": "other"
+        },
+        {
+          "name": "Peanut oil or olive oil",
+          "qty": 1,
+          "unit": "tbsp",
+          "component": "other"
+        },
+        {
+          "name": "Garlic clove, minced",
+          "qty": 1,
+          "unit": "clove",
+          "component": "aromatic"
+        },
+        {
+          "name": "Ginger, minced",
+          "qty": 5,
+          "unit": "g",
+          "component": "aromatic"
+        }
+      ],
+      "steps": [
+        "Rinse the jasmine rice.",
+        "Add to the pot with the water, oil, garlic, ginger and a pinch of salt.",
+        "Bring to a boil, then immediately reduce to the lowest heat and cover with a tight-fitting lid.",
+        "Cook for 12-15 minutes without lifting the lid or stirring.",
+        "Turn off the heat and leave covered for another 10 minutes. Fluff gently with a fork and serve."
+      ]
     },
     {
-      "name": "Cornflour",
-      "qty": 1,
-      "unit": "tbsp",
-      "component": "sauce"
-    },
-    {
-      "name": "Light soy sauce",
-      "qty": 60,
-      "unit": "ml",
-      "component": "sauce"
-    },
-    {
-      "name": "Dark soy sauce",
-      "qty": 40,
-      "unit": "ml",
-      "component": "sauce"
-    },
-    {
-      "name": "Brown sugar",
-      "qty": 25,
-      "unit": "g",
-      "component": "sauce"
-    },
-    {
-      "name": "Jasmine rice",
-      "qty": 300,
-      "unit": "g",
-      "component": "carb"
-    },
-    {
-      "name": "Cold water (for rice)",
-      "qty": 500,
-      "unit": "ml",
-      "component": "other"
-    },
-    {
-      "name": "Oil (for rice)",
-      "qty": 1,
-      "unit": "tbsp",
-      "component": "other"
-    },
-    {
-      "name": "Garlic clove (for rice)",
-      "qty": 1,
-      "unit": "pc",
-      "component": "aromatic"
-    },
-    {
-      "name": "Ginger (for rice)",
-      "qty": 5,
-      "unit": "g",
-      "component": "aromatic"
-    },
-    {
-      "name": "Salt (for rice)",
-      "qty": 1,
-      "unit": "pinch",
-      "component": "other"
-    },
-    {
-      "name": "Broccoli (optional, air fried)",
-      "qty": 1,
-      "unit": "head",
-      "component": "other"
+      "id": "broccoli",
+      "name": "Broccoli (Air Fried)",
+      "scaling": "fixed",
+      "servings": 4,
+      "cookedYieldG": 530,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 124,
+        "protein": 5,
+        "carbs": 13,
+        "fat": 7
+      },
+      "ingredients": [
+        {
+          "name": "Broccoli heads (~350g each)",
+          "qty": 2,
+          "unit": "pc",
+          "component": "other",
+          "gramsPerUnit": 350
+        },
+        {
+          "name": "Olive oil",
+          "qty": 2,
+          "unit": "tbsp",
+          "component": "other"
+        },
+        {
+          "name": "Salt",
+          "qty": 1,
+          "unit": "tsp",
+          "component": "other"
+        },
+        {
+          "name": "Garlic powder",
+          "qty": 2,
+          "unit": "tsp",
+          "component": "sauce"
+        },
+        {
+          "name": "Black pepper",
+          "qty": 1,
+          "unit": "to taste",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Cut the broccoli into thin, fry-shaped spears including the stem.",
+        "Toss in a ziplock bag with olive oil, salt, garlic powder and pepper. Shake, shake, shake.",
+        "Air fry at 200°C for 10-12 minutes, shaking the basket halfway, until crisp-edged and tender."
+      ]
     }
-  ],
-  "steps": [
-    "Combine the light soy sauce, dark soy sauce, and brown sugar in a small pan, simmer until slightly thickened. Whisk in the cornflour mixed with a little water to thicken further into a teriyaki glaze.",
-    "Pat the salmon dry, brush with olive oil, and air fry at 200°C for 8-10 minutes until just cooked.",
-    "Brush the teriyaki glaze over the salmon in the last 2 minutes of cooking.",
-    "For the rice: rinse the jasmine rice, cook with the water, oil, garlic, ginger and a pinch of salt until fluffy.",
-    "If using broccoli, air fry alongside the salmon with a touch of oil until tender-crisp.",
-    "Serve the glazed salmon over the rice with broccoli on the side."
   ],
   "notes": [
     "Do not add extra salt — the soy sauce is salty enough on its own."

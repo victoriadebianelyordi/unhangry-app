@@ -55,6 +55,29 @@ folder and it will appear in the app automatically the next time the page loads.
 That's the whole format. Keep it simple — if you're not sure about a field, look at how
 the existing recipes use it.
 
+## Recipes with components (lunch & dinner)
+
+A recipe can instead list `components` — sub-recipes that each have their own
+`ingredients` and `steps` (leave out the top-level `ingredients`/`steps`; the app builds
+them). See `beef-stroganoff.json` or `salmon-teriyaki.json`. Each component has:
+
+- `id`, `name` — the sub-section title shown on the recipe card and in "Copy recipes".
+- `scaling` — how it scales per person:
+  - `ratio` — all its ingredients scale together, any size. `role` is `protein` (sized to
+    the person's protein portion), `fill` (fills the remaining calories) or `whole` (the
+    only component — sized to the calorie target).
+  - `fixed` — everyone gets exactly 1 base serving (e.g. a side of broccoli).
+  - `units` — whole units only; `units` gives `label`, `count` (per base recipe), `step`,
+    and optional `min`/`max` (e.g. kafta: ½-sandwich steps, max 2).
+  - `addon` — toppings; each ingredient can carry `maxPerServing`.
+- `servings`, `macrosPerServing` — per base serving of this component.
+- `cookedYieldG` — estimated cooked weight of the whole component (`yieldEstimated: true`
+  until Mirna weighs it), used for Weigh & Pack.
+
+An ingredient can also have `gramsPerUnit` (e.g. a 650g cauliflower counted as 1 pc) and
+`group` (a display-only sub-heading inside a component, e.g. "Bechamel sauce").
+`needsMirnaReview: true` on the recipe marks dishes that only scale as a whole for now.
+
 ## Recipes added through the app
 
 When you use "Add a recipe" in the app (paste text, a URL, or a photo), it parses the

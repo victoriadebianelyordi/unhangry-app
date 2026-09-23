@@ -1307,6 +1307,27 @@ input, textarea {
 
 .detail-section-title:first-of-type { margin-top: 0; }
 
+.detail-subsection-title {
+  font-family: var(--font-body);
+  font-weight: 800;
+  font-size: 15px;
+  color: var(--ink);
+  margin: 18px 0 6px;
+}
+
+.detail-group-title {
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: rgba(23,23,23,0.55);
+  margin: 12px 0 2px;
+}
+
+.recipe-modal-flags { margin-bottom: 16px; }
+.recipe-modal-flags .flag-line:first-child { margin-top: 0; }
+
 .ingredient-list, .steps-list, .notes-list {
   margin: 0;
   padding: 0;

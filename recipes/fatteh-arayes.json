@@ -4,97 +4,166 @@
   "protein": "beef",
   "method": "oven",
   "mealType": "main",
-  "feeds": 7,
+  "feeds": 6,
   "macrosPerServing": {
-    "kcal": 520,
-    "protein": 36,
-    "carbs": 34,
-    "fat": 24
+    "kcal": 737,
+    "protein": 53,
+    "carbs": 56,
+    "fat": 33
   },
-  "ingredients": [
+  "components": [
     {
-      "name": "Large tortilla wraps",
-      "qty": 8,
-      "unit": "pc",
-      "component": "carb"
+      "id": "arayes-rolls",
+      "name": "Beef Arayes Rolls",
+      "scaling": "units",
+      "role": "protein",
+      "units": {
+        "label": "chunk",
+        "count": 32,
+        "step": 1,
+        "sizeBy": "calories",
+        "calorieShare": 0.7
+      },
+      "servings": 6,
+      "macrosPerServing": {
+        "kcal": 536,
+        "protein": 34,
+        "carbs": 43,
+        "fat": 25
+      },
+      "ingredients": [
+        {
+          "name": "Large tortilla wraps",
+          "qty": 8,
+          "unit": "pc",
+          "component": "carb"
+        },
+        {
+          "name": "90% lean ground beef",
+          "qty": 800,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Brown onion (diced)",
+          "qty": 1,
+          "unit": "pc",
+          "component": "aromatic"
+        },
+        {
+          "name": "Paprika",
+          "qty": 1,
+          "unit": "tsp",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt and pepper",
+          "qty": 1,
+          "unit": "to taste",
+          "component": "other"
+        },
+        {
+          "name": "Olive oil (for brushing)",
+          "qty": 2,
+          "unit": "tbsp",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "In a bowl, mix the ground beef with the diced onion, paprika, salt and pepper.",
+        "Divide the beef mixture equally between the tortillas, and press the beef into a thin, even layer on each one.",
+        "Roll each tortilla and cut it into 4 even chunks.",
+        "Place them on parchment paper, brush them with olive oil and bake at 200°C for 20-30 minutes, or until golden roasted (not burnt :P)."
+      ]
     },
     {
-      "name": "Ground beef",
-      "qty": 1,
-      "unit": "kg",
-      "component": "protein"
+      "id": "yogurt-sauce",
+      "name": "Yogurt Tahini Sauce",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 6,
+      "cookedYieldG": 1240,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 201,
+        "protein": 19,
+        "carbs": 13,
+        "fat": 9
+      },
+      "ingredients": [
+        {
+          "name": "Plain 2% Greek yogurt",
+          "qty": 1,
+          "unit": "kg",
+          "component": "sauce"
+        },
+        {
+          "name": "Tahini",
+          "qty": 4,
+          "unit": "tbsp",
+          "component": "sauce"
+        },
+        {
+          "name": "Garlic cloves, crushed",
+          "qty": 4,
+          "unit": "pc",
+          "component": "aromatic"
+        },
+        {
+          "name": "Lemon (juice)",
+          "qty": 0.5,
+          "unit": "pc",
+          "component": "sauce"
+        },
+        {
+          "name": "Pomegranate seeds (garnish)",
+          "qty": 0.5,
+          "unit": "cup",
+          "component": "other"
+        },
+        {
+          "name": "Parsley, chopped (garnish)",
+          "qty": 1,
+          "unit": "bunch",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Whisk the Greek yogurt with the tahini, crushed garlic and lemon juice until smooth.",
+        "Pour the yogurt-tahini sauce into your serving plate or prep containers, and add the beef arayes.",
+        "Garnish with pomegranate seeds and chopped parsley."
+      ]
     },
     {
-      "name": "Brown onion",
-      "qty": 1,
-      "unit": "pc",
-      "component": "aromatic"
-    },
-    {
-      "name": "Paprika",
-      "qty": 1,
-      "unit": "tsp",
-      "component": "sauce"
-    },
-    {
-      "name": "Salt and pepper",
-      "qty": 1,
-      "unit": "to taste",
-      "component": "other"
-    },
-    {
-      "name": "Greek yogurt",
-      "qty": 1,
-      "unit": "kg",
-      "component": "sauce"
-    },
-    {
-      "name": "Tahini",
-      "qty": 4,
-      "unit": "tbsp",
-      "component": "sauce"
-    },
-    {
-      "name": "Garlic cloves",
-      "qty": 4,
-      "unit": "pc",
-      "component": "aromatic"
-    },
-    {
-      "name": "Lemon juice",
-      "qty": 2,
-      "unit": "tbsp",
-      "component": "sauce"
-    },
-    {
-      "name": "Pomegranate seeds (garnish)",
-      "qty": 0.5,
-      "unit": "cup",
-      "component": "other"
-    },
-    {
-      "name": "Pine nuts (garnish)",
-      "qty": 3,
-      "unit": "tbsp",
-      "component": "other"
-    },
-    {
-      "name": "Parsley (garnish)",
-      "qty": 1,
-      "unit": "bunch",
-      "component": "other"
+      "id": "garnish",
+      "name": "Optional Garnish",
+      "scaling": "addon",
+      "optional": true,
+      "servings": 6,
+      "cookedYieldG": 30,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 28,
+        "protein": 1,
+        "carbs": 1,
+        "fat": 3
+      },
+      "ingredients": [
+        {
+          "name": "Pine nuts, toasted",
+          "qty": 3,
+          "unit": "tbsp",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Toast the pine nuts and scatter over each plate, to taste."
+      ]
     }
   ],
-  "steps": [
-    "Cut tortilla wraps into triangles, bake or toast until crisp and golden — this is your fatteh base.",
-    "Cook the ground beef with the diced onion, paprika, salt and pepper until browned and cooked through.",
-    "Whisk the Greek yogurt with tahini, crushed garlic, and lemon juice until smooth to make the sauce.",
-    "Layer the crisp tortilla pieces in a serving dish, spoon the cooked beef over the top.",
-    "Pour the yogurt-tahini sauce generously over the beef and bread.",
-    "Garnish with pomegranate seeds, toasted pine nuts, and chopped parsley. Serve immediately so the bread stays crisp."
-  ],
   "notes": [
-    "Assemble just before serving — the tortilla base loses its crunch if it sits too long under the sauce."
+    "Prep trick: store the yogurt tahini sauce in a separate compartment from the beef rolls, so they stay crisp and can be reheated.",
+    "The pine nut garnish is calorie dense — about 28 kcal per serving if you use the full amount — and is NOT counted in this recipe's calories. If you include it, make sure to count its macros and reduce other snacks/meals accordingly."
   ],
   "flags": {
     "shelfLife": null,

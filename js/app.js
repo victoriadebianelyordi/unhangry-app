@@ -174,27 +174,70 @@ function flagIcons(recipe) {
 
 // ---------------- recipe detail modal ----------------
 
+// A recipe's sub-sections for display: one per component (titled only when there's more
+// than one), or a single untitled section for a flat recipe.
+function recipeSections(recipe) {
+  if (Array.isArray(recipe.components) && recipe.components.length) {
+    const titled = recipe.components.length > 1;
+    return recipe.components.map((c) => ({ id: c.id, title: titled ? c.name : null, ingredients: c.ingredients || [], steps: c.steps || [] }));
+  }
+  return [{ id: null, title: null, ingredients: recipe.ingredients || [], steps: recipe.steps || [] }];
+}
+
+// Ungrouped ingredients first, then each display-only group (e.g. "Bechamel sauce") in order.
+function groupIngredients(items) {
+  const groups = [{ title: null, items: items.filter((i) => !i.group) }];
+  for (const title of [...new Set(items.filter((i) => i.group).map((i) => i.group))]) {
+    groups.push({ title, items: items.filter((i) => i.group === title) });
+  }
+  return groups.filter((g) => g.items.length);
+}
+
+function formatQty(qty, unit) {
+  if (String(unit || '').toLowerCase() === 'to taste') return 'to taste';
+  return `${qty ?? ''} ${unit ?? ''}`.trim();
+}
+
+function recipeFlagLines(recipe) {
+  const flags = recipe.flags || {};
+  return [
+    ...(flags.shelfLife ? [`⚠️ ${flags.shelfLife}`] : []),
+    ...(flags.freezeFriendly ? ['❄️ Freeze-friendly'] : []),
+  ];
+}
+
 function openRecipeModal(recipe) {
   const meta = cardMeta(recipe);
   const m = recipe.macrosPerServing || {};
   const body = document.getElementById('recipe-modal-body');
+  const sections = recipeSections(recipe);
 
-  const ingredientsHTML = (recipe.ingredients || []).map((ing) => `
+  const ingredientRow = (ing) => `
     <li>
       <div>
         <div>${ing.name}</div>
         <div class="ingredient-component">${ing.component || ''}</div>
         ${ing.buyVsMake ? `<div class="buy-vs-make">Buy: ${ing.buyVsMake.buy}<br>Make: ${ing.buyVsMake.make}</div>` : ''}
       </div>
-      <div class="ingredient-qty">${ing.qty ?? ''} ${ing.unit ?? ''}</div>
+      <div class="ingredient-qty">${formatQty(ing.qty, ing.unit)}</div>
     </li>
+  `;
+  const ingredientsHTML = sections.map((s) => `
+    ${s.title ? `<p class="detail-subsection-title">${s.title}</p>` : ''}
+    ${groupIngredients(s.ingredients).map((g) => `
+      ${g.title ? `<p class="detail-group-title">${g.title}</p>` : ''}
+      <ul class="ingredient-list">${g.items.map(ingredientRow).join('')}</ul>
+    `).join('')}
   `).join('');
-
-  const stepsHTML = (recipe.steps || []).map((s) => `<li>${s}</li>`).join('');
+  const stepsHTML = sections.filter((s) => s.steps.length).map((s) => `
+    ${s.title ? `<p class="detail-subsection-title">${s.title}</p>` : ''}
+    <ol class="steps-list">${s.steps.map((step) => `<li>${step}</li>`).join('')}</ol>
+  `).join('');
   const notesHTML = (recipe.notes || []).map((n) => `<li>${n}</li>`).join('');
-  const flags = recipe.flags || {};
+  const flagLinesHTML = recipeFlagLines(recipe).map((line) => `<div class="flag-line ${line.startsWith('❄️') ? 'flag-line--freeze' : 'flag-line--shelf'}">${line}</div>`).join('');
 
   body.innerHTML = `
+    ${flagLinesHTML ? `<div class="recipe-modal-flags">${flagLinesHTML}</div>` : ''}
     <div class="detail-tags">
       <span class="recipe-card__label">${meta.icon} ${meta.label} · ${METHOD_LABEL[recipe.method] || recipe.method}</span>
     </div>
@@ -208,14 +251,11 @@ function openRecipeModal(recipe) {
       <div><b>${m.fat ?? '–'}g</b><span>fat</span></div>
     </div>
 
-    ${flags.shelfLife ? `<div class="flag-line flag-line--shelf">⚠️ ${flags.shelfLife}</div>` : ''}
-    ${flags.freezeFriendly ? `<div class="flag-line flag-line--freeze">❄️ Freeze-friendly</div>` : ''}
-
     <p class="detail-section-title">Ingredients</p>
-    <ul class="ingredient-list">${ingredientsHTML || '<li>No ingredients listed yet.</li>'}</ul>
+    ${ingredientsHTML.trim() ? ingredientsHTML : '<ul class="ingredient-list"><li>No ingredients listed yet.</li></ul>'}
 
     <p class="detail-section-title">Method</p>
-    <ol class="steps-list">${stepsHTML || '<li>Steps coming soon.</li>'}</ol>
+    ${stepsHTML.trim() ? stepsHTML : '<ol class="steps-list"><li>Steps coming soon.</li></ol>'}
 
     ${notesHTML ? `<p class="detail-section-title">Notes</p><ul class="notes-list">${notesHTML}</ul>` : ''}
 
@@ -2115,16 +2155,8 @@ document.getElementById('copy-whatsapp-btn').addEventListener('click', async () 
   }
 });
 
-// Point 5 revision — this used to dump the raw, unscaled base recipe straight from the
-// database (literally the "feeds 6" quantities), completely disconnected from the
-// household and its real targets. It was then wrongly "fixed" to show the per-person
-// Weigh & Pack breakdown instead — but that's a different document (post-cook portioning
-// for the person doing the dividing-up), not what the cook needs while actually cooking.
-// The cook needs each recipe's own ingredient list scaled to the household's real WEEKLY
-// TOTAL for that recipe (same idea as the grocery list's scaling, just grouped by recipe
-// instead of merged across all recipes) — exactly what generatedList.recipeIngredientTotals
-// is (engine-computed, never the AI). Steps stay from the recipe itself, unscaled —
-// cooking instructions don't scale, only quantities do.
+// Same layout as the recipe card, but quantities are the household's weekly totals per
+// recipe (engine-computed recipeIngredientTotals); steps are unscaled.
 document.getElementById('copy-recipes-btn').addEventListener('click', async () => {
   if (!generatedList) { showToast('Generate the list first.'); return; }
   const recipes = [...METHODS.map((m) => selectedMains[m]).filter(Boolean)];
@@ -2132,17 +2164,35 @@ document.getElementById('copy-recipes-btn').addEventListener('click', async () =
   recipes.push(...selectedSnacks.filter(Boolean));
 
   const totalsByRecipe = new Map((generatedList.recipeIngredientTotals || []).map((r) => [r.recipeName, r]));
+  const line = (it) => (formatQty(it.qty, it.unit) === 'to taste' ? `- ${it.name}, to taste` : `- ${formatQty(it.qty, it.unit)} ${it.name}`);
 
   let text = "THIS WEEK'S RECIPES (scaled to your household)\n\n";
   for (const r of recipes) {
-    text += `*${r.name}* (${METHOD_LABEL[r.method] || r.method})\n\n`;
-    const totalsEntry = totalsByRecipe.get(r.name);
-    if (totalsEntry && totalsEntry.items && totalsEntry.items.length) {
-      text += totalsEntry.items.map((it) => `- ${it.qty} ${it.unit} ${it.name}`).join('\n') + '\n\n';
-    } else {
-      text += '(No scaled quantities available for this recipe — generate the list first.)\n\n';
+    const sections = recipeSections(r);
+    const totals = (totalsByRecipe.get(r.name) || {}).items || [];
+
+    const flagLines = recipeFlagLines(r);
+    if (flagLines.length) text += flagLines.join('\n') + '\n';
+    text += `*${r.name}* (${METHOD_LABEL[r.method] || r.method})\n\nIngredients:\n`;
+    if (!totals.length) text += '(No scaled quantities available for this recipe — generate the list first.)\n';
+    for (const s of sections) {
+      const items = totals.filter((it) => (it.componentId || null) === s.id);
+      if (!items.length) continue;
+      if (s.title) text += `${s.title}:\n`;
+      for (const g of groupIngredients(items)) {
+        if (g.title) text += `${g.title}:\n`;
+        text += g.items.map(line).join('\n') + '\n';
+      }
     }
-    text += (r.steps || []).map((s, idx) => `${idx + 1}. ${s}`).join('\n') + '\n\n';
+
+    text += '\nMethod:\n';
+    for (const s of sections.filter((sec) => sec.steps.length)) {
+      if (s.title) text += `${s.title}:\n`;
+      text += s.steps.map((step, idx) => `${idx + 1}. ${step}`).join('\n') + '\n';
+    }
+
+    if ((r.notes || []).length) text += '\nNotes:\n' + r.notes.map((n) => `- ${n}`).join('\n') + '\n';
+    text += '\n';
   }
 
   try {
