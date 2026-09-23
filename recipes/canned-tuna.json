@@ -7,10 +7,10 @@
   "primaryMacro": "protein",
   "feeds": 1,
   "macrosPerServing": {
-    "kcal": 200,
-    "protein": 40,
+    "kcal": 151,
+    "protein": 33,
     "carbs": 0,
-    "fat": 4
+    "fat": 1
   },
   "ingredients": [
     {
@@ -24,10 +24,11 @@
     "Portion 1 can and enjoy. No cooking needed."
   ],
   "notes": [
-    "Snack option ~200 kcal. Primary macro: protein. Used by AI Advice to fill a protein gap; portion can be nudged to match the exact gap."
+    "Snack option ~151 kcal. Primary macro: protein. Used by AI Advice to fill a protein gap; portion can be nudged to match the exact gap."
   ],
   "flags": {
     "shelfLife": null,
     "freezeFriendly": false
-  }
+  },
+  "componentScalable": false
 }

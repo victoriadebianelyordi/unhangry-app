@@ -7,14 +7,14 @@
   "primaryMacro": "fat",
   "feeds": 1,
   "macrosPerServing": {
-    "kcal": 120,
+    "kcal": 125,
     "protein": 8,
     "carbs": 12,
     "fat": 5
   },
   "ingredients": [
     {
-      "name": "Milk",
+      "name": "2% milk",
       "qty": 250,
       "unit": "ml",
       "component": "other"
@@ -24,10 +24,11 @@
     "Portion 1 regular and enjoy. No cooking needed."
   ],
   "notes": [
-    "Snack option ~120 kcal. Primary macro: fat. Used by AI Advice to fill a fat gap; portion can be nudged to match the exact gap."
+    "Snack option ~125 kcal. Primary macro: fat. Used by AI Advice to fill a fat gap; portion can be nudged to match the exact gap."
   ],
   "flags": {
     "shelfLife": null,
     "freezeFriendly": false
-  }
+  },
+  "componentScalable": false
 }

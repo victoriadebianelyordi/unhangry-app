@@ -64,5 +64,6 @@
   "flags": {
     "shelfLife": "Arabic bread doesn't last the week — buy fresh closer to cook day or freeze the remainder.",
     "freezeFriendly": false
-  }
+  },
+  "componentScalable": false
 }

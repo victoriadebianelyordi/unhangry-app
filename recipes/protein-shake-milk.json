@@ -7,27 +7,34 @@
   "primaryMacro": "protein",
   "feeds": 1,
   "macrosPerServing": {
-    "kcal": 250,
-    "protein": 30,
-    "carbs": 16,
-    "fat": 8
+    "kcal": 245,
+    "protein": 32,
+    "carbs": 15,
+    "fat": 7
   },
   "ingredients": [
     {
-      "name": "Protein powder",
+      "name": "Whey protein powder",
       "qty": 1,
       "unit": "scoop",
       "component": "protein"
+    },
+    {
+      "name": "2% milk",
+      "qty": 250,
+      "unit": "ml",
+      "component": "other"
     }
   ],
   "steps": [
     "Portion 1 scoop + 250ml milk and enjoy. No cooking needed."
   ],
   "notes": [
-    "Snack option ~250 kcal. Primary macro: protein. Used by AI Advice to fill a protein gap; portion can be nudged to match the exact gap."
+    "Snack option ~245 kcal. Primary macro: protein. Used by AI Advice to fill a protein gap; portion can be nudged to match the exact gap."
   ],
   "flags": {
     "shelfLife": null,
     "freezeFriendly": false
-  }
+  },
+  "componentScalable": false
 }

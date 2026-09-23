@@ -106,5 +106,6 @@
   "flags": {
     "shelfLife": "Shrimp — plan for days 1-3. Freeze the remainder if buying ahead.",
     "freezeFriendly": false
-  }
+  },
+  "componentScalable": false
 }

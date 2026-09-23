@@ -7,14 +7,14 @@
   "primaryMacro": "protein",
   "feeds": 1,
   "macrosPerServing": {
-    "kcal": 200,
+    "kcal": 146,
     "protein": 20,
-    "carbs": 12,
-    "fat": 5
+    "carbs": 8,
+    "fat": 4
   },
   "ingredients": [
     {
-      "name": "Greek yogurt",
+      "name": "Plain 2% Greek yogurt",
       "qty": 200,
       "unit": "g",
       "component": "protein"
@@ -24,10 +24,11 @@
     "Portion 200g and enjoy. No cooking needed."
   ],
   "notes": [
-    "Snack option ~200 kcal. Primary macro: protein. Used by AI Advice to fill a protein gap; portion can be nudged to match the exact gap."
+    "Snack option ~146 kcal. Primary macro: protein. Used by AI Advice to fill a protein gap; portion can be nudged to match the exact gap."
   ],
   "flags": {
     "shelfLife": null,
     "freezeFriendly": false
-  }
+  },
+  "componentScalable": false
 }

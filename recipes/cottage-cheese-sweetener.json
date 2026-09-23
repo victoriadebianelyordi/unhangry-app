@@ -7,27 +7,34 @@
   "primaryMacro": "protein",
   "feeds": 1,
   "macrosPerServing": {
-    "kcal": 200,
-    "protein": 24,
-    "carbs": 8,
-    "fat": 6
+    "kcal": 168,
+    "protein": 22,
+    "carbs": 9,
+    "fat": 5
   },
   "ingredients": [
     {
-      "name": "Cottage cheese",
+      "name": "2% cottage cheese",
       "qty": 200,
       "unit": "g",
       "component": "protein"
+    },
+    {
+      "name": "Low-calorie sweetener",
+      "qty": 1,
+      "unit": "tsp",
+      "component": "other"
     }
   ],
   "steps": [
     "Portion 200g and enjoy. No cooking needed."
   ],
   "notes": [
-    "Snack option ~200 kcal. Primary macro: protein. Used by AI Advice to fill a protein gap; portion can be nudged to match the exact gap."
+    "Snack option ~168 kcal. Primary macro: protein. Used by AI Advice to fill a protein gap; portion can be nudged to match the exact gap."
   ],
   "flags": {
     "shelfLife": null,
     "freezeFriendly": false
-  }
+  },
+  "componentScalable": false
 }

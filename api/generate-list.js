@@ -63,6 +63,16 @@ module.exports = async (req, res) => {
 
   list.aiAdvice = Array.isArray(list.aiAdvice) ? list.aiAdvice : [];
   list.weighAndPack = Array.isArray(list.weighAndPack) ? list.weighAndPack : [];
+  // Engine-computed, not AI-touched: each recipe's own ingredients scaled to the whole
+  // household's real weekly total — what "Copy recipes for the cook" needs (a batch-cook
+  // ingredient list per recipe), as opposed to weighAndPack's per-person portions.
+  list.recipeIngredientTotals = Array.isArray(engineResult.recipeIngredientTotals) ? engineResult.recipeIngredientTotals : [];
+
+  // Built here, deterministically, from real data — not left for the AI to improvise
+  // (it used to just add this field unprompted, which happened to work but wasn't
+  // guaranteed by anything in its instructions).
+  const childCount = household.members.filter((m) => m.isChild).length;
+  list.summaryLine = `${household.members.length} people${childCount ? ` (${childCount} child${childCount === 1 ? '' : 'ren'})` : ''} · ${household.cookSchedule.cookDays} cook days · ${mains.map((m) => m.recipe.name).join(' / ')}`;
 
   return sendJSON(res, 200, { status: 'ok', list });
 };

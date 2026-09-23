@@ -9,12 +9,12 @@
   "macrosPerServing": {
     "kcal": 180,
     "protein": 36,
-    "carbs": 6,
+    "carbs": 5,
     "fat": 2
   },
   "ingredients": [
     {
-      "name": "Protein powder",
+      "name": "Whey protein powder",
       "qty": 1.5,
       "unit": "scoop",
       "component": "protein"
@@ -29,5 +29,6 @@
   "flags": {
     "shelfLife": null,
     "freezeFriendly": false
-  }
+  },
+  "componentScalable": false
 }

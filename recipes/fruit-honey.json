@@ -7,10 +7,10 @@
   "primaryMacro": "carb",
   "feeds": 1,
   "macrosPerServing": {
-    "kcal": 200,
-    "protein": 2,
-    "carbs": 48,
-    "fat": 1
+    "kcal": 141,
+    "protein": 1,
+    "carbs": 36,
+    "fat": 0
   },
   "ingredients": [
     {
@@ -18,16 +18,23 @@
       "qty": 200,
       "unit": "g",
       "component": "carb"
+    },
+    {
+      "name": "Honey",
+      "qty": 1,
+      "unit": "tsp",
+      "component": "other"
     }
   ],
   "steps": [
     "Portion 1 bowl + 1 tsp and enjoy. No cooking needed."
   ],
   "notes": [
-    "Snack option ~200 kcal. Primary macro: carb. Used by AI Advice to fill a carb gap; portion can be nudged to match the exact gap."
+    "Snack option ~141 kcal. Primary macro: carb. Used by AI Advice to fill a carb gap; portion can be nudged to match the exact gap."
   ],
   "flags": {
     "shelfLife": null,
     "freezeFriendly": false
-  }
+  },
+  "componentScalable": false
 }

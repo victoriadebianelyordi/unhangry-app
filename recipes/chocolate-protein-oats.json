@@ -6,10 +6,10 @@
   "mealType": "breakfast",
   "feeds": 6,
   "macrosPerServing": {
-    "kcal": 380,
-    "protein": 24,
-    "carbs": 45,
-    "fat": 9
+    "kcal": 603,
+    "protein": 46,
+    "carbs": 82,
+    "fat": 12
   },
   "ingredients": [
     {
@@ -19,13 +19,13 @@
       "component": "carb"
     },
     {
-      "name": "Milk (or plant milk)",
+      "name": "2% milk",
       "qty": 1.2,
       "unit": "L",
       "component": "other"
     },
     {
-      "name": "Chocolate protein powder",
+      "name": "Chocolate whey protein powder",
       "qty": 180,
       "unit": "g",
       "component": "protein"
@@ -37,13 +37,13 @@
       "component": "other"
     },
     {
-      "name": "Greek yogurt",
+      "name": "Plain 2% Greek yogurt",
       "qty": 240,
       "unit": "g",
       "component": "protein"
     },
     {
-      "name": "Honey or maple syrup",
+      "name": "Honey",
       "qty": 4,
       "unit": "tbsp",
       "component": "other"
@@ -57,15 +57,17 @@
   ],
   "steps": [
     "Divide the oats evenly between 6 jars.",
-    "Whisk the milk, protein powder, cocoa powder, Greek yogurt, honey, and salt together until smooth.",
+    "Whisk the milk, whey protein powder, cocoa powder, Greek yogurt, honey, and salt together until smooth.",
     "Pour over the oats in each jar and stir well to combine.",
     "Cover and refrigerate overnight (or at least 4 hours). Keeps 4-5 days refrigerated."
   ],
   "notes": [
-    "If the protein powder makes it too thick once set, loosen with a splash of milk before eating."
+    "If the protein powder makes it too thick once set, loosen with a splash of milk before eating.",
+    "Macros assume a whey powder at 120 kcal / 24g protein per 30g scoop (180g = 6 scoops)."
   ],
   "flags": {
     "shelfLife": "Best within 4-5 days refrigerated.",
     "freezeFriendly": false
-  }
+  },
+  "componentScalable": false
 }

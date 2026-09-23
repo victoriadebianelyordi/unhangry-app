@@ -7,27 +7,34 @@
   "primaryMacro": "protein",
   "feeds": 1,
   "macrosPerServing": {
-    "kcal": 130,
-    "protein": 12,
-    "carbs": 10,
-    "fat": 3
+    "kcal": 101,
+    "protein": 11,
+    "carbs": 9,
+    "fat": 2
   },
   "ingredients": [
     {
-      "name": "Cottage cheese",
+      "name": "2% cottage cheese",
       "qty": 100,
       "unit": "g",
       "component": "protein"
+    },
+    {
+      "name": "Maple syrup",
+      "qty": 1,
+      "unit": "tsp",
+      "component": "other"
     }
   ],
   "steps": [
     "Portion 100g + 1 tsp and enjoy. No cooking needed."
   ],
   "notes": [
-    "Snack option ~130 kcal. Primary macro: protein. Used by AI Advice to fill a protein gap; portion can be nudged to match the exact gap."
+    "Snack option ~101 kcal. Primary macro: protein. Used by AI Advice to fill a protein gap; portion can be nudged to match the exact gap."
   ],
   "flags": {
     "shelfLife": null,
     "freezeFriendly": false
-  }
+  },
+  "componentScalable": false
 }

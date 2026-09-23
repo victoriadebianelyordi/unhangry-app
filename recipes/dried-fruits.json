@@ -7,10 +7,10 @@
   "primaryMacro": "carb",
   "feeds": 1,
   "macrosPerServing": {
-    "kcal": 220,
-    "protein": 2,
-    "carbs": 52,
-    "fat": 1
+    "kcal": 122,
+    "protein": 1,
+    "carbs": 32,
+    "fat": 0
   },
   "ingredients": [
     {
@@ -24,10 +24,11 @@
     "Portion 50g and enjoy. No cooking needed."
   ],
   "notes": [
-    "Snack option ~220 kcal. Primary macro: carb. Used by AI Advice to fill a carb gap; portion can be nudged to match the exact gap."
+    "Snack option ~122 kcal. Primary macro: carb. Used by AI Advice to fill a carb gap; portion can be nudged to match the exact gap."
   ],
   "flags": {
     "shelfLife": null,
     "freezeFriendly": false
-  }
+  },
+  "componentScalable": false
 }

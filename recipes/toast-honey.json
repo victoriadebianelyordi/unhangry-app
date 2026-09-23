@@ -7,27 +7,34 @@
   "primaryMacro": "carb",
   "feeds": 1,
   "macrosPerServing": {
-    "kcal": 230,
+    "kcal": 183,
     "protein": 8,
-    "carbs": 42,
-    "fat": 4
+    "carbs": 33,
+    "fat": 2
   },
   "ingredients": [
     {
-      "name": "Whole grain bread",
+      "name": "Whole-wheat bread",
       "qty": 2,
       "unit": "slice",
       "component": "carb"
+    },
+    {
+      "name": "Honey",
+      "qty": 1,
+      "unit": "tsp",
+      "component": "other"
     }
   ],
   "steps": [
     "Portion 2 slices + 1 tsp and enjoy. No cooking needed."
   ],
   "notes": [
-    "Snack option ~230 kcal. Primary macro: carb. Used by AI Advice to fill a carb gap; portion can be nudged to match the exact gap."
+    "Snack option ~183 kcal. Primary macro: carb. Used by AI Advice to fill a carb gap; portion can be nudged to match the exact gap."
   ],
   "flags": {
     "shelfLife": null,
     "freezeFriendly": false
-  }
+  },
+  "componentScalable": false
 }

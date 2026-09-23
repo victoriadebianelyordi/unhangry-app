@@ -5,12 +5,12 @@
   "method": "third-spot",
   "mealType": "snack",
   "primaryMacro": "fat",
-  "feeds": 2,
+  "feeds": 4,
   "macrosPerServing": {
-    "kcal": 189,
-    "protein": 4,
-    "carbs": 13,
-    "fat": 15
+    "kcal": 230,
+    "protein": 3,
+    "carbs": 15,
+    "fat": 20
   },
   "ingredients": [
     {
@@ -69,5 +69,6 @@
     "shelfLife": "Best eaten the same day — avocado browns quickly even with the lime juice.",
     "freezeFriendly": false
   },
-  "sourceUrl": "https://cookieandkate.com/best-guacamole-recipe/"
+  "sourceUrl": "https://cookieandkate.com/best-guacamole-recipe/",
+  "componentScalable": false
 }

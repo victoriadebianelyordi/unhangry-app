@@ -5,23 +5,68 @@
   "method": "oven",
   "mealType": "breakfast",
   "feeds": 6,
-  "macrosPerServing": { "kcal": 220, "protein": 16, "carbs": 6, "fat": 14 },
+  "macrosPerServing": {
+    "kcal": 265,
+    "protein": 18,
+    "carbs": 7,
+    "fat": 18
+  },
   "ingredients": [
-    { "name": "Eggs", "qty": 12, "unit": "pc", "component": "protein" },
-    { "name": "Milk", "qty": 120, "unit": "ml", "component": "other" },
-    { "name": "Bell peppers (diced)", "qty": 2, "unit": "pc", "component": "other" },
-    { "name": "Spinach (chopped)", "qty": 100, "unit": "g", "component": "other" },
-    { "name": "Onion (diced)", "qty": 1, "unit": "pc", "component": "aromatic" },
-    { "name": "Cheese (shredded)", "qty": 100, "unit": "g", "component": "other" },
-    { "name": "Salt and pepper", "qty": 1, "unit": "to taste", "component": "other" },
-    { "name": "Olive oil (for the tin)", "qty": 1, "unit": "tbsp", "component": "other" }
+    {
+      "name": "Eggs",
+      "qty": 12,
+      "unit": "pc",
+      "component": "protein"
+    },
+    {
+      "name": "2% milk",
+      "qty": 120,
+      "unit": "ml",
+      "component": "other"
+    },
+    {
+      "name": "Bell peppers (diced)",
+      "qty": 2,
+      "unit": "pc",
+      "component": "other"
+    },
+    {
+      "name": "Spinach (chopped)",
+      "qty": 100,
+      "unit": "g",
+      "component": "other"
+    },
+    {
+      "name": "Onion (diced)",
+      "qty": 1,
+      "unit": "pc",
+      "component": "aromatic"
+    },
+    {
+      "name": "Cheddar (shredded)",
+      "qty": 100,
+      "unit": "g",
+      "component": "other"
+    },
+    {
+      "name": "Salt and pepper",
+      "qty": 1,
+      "unit": "to taste",
+      "component": "other"
+    },
+    {
+      "name": "Olive oil (for the tin)",
+      "qty": 1,
+      "unit": "tbsp",
+      "component": "other"
+    }
   ],
   "steps": [
     "Preheat the oven to 190°C and grease a 12-cup muffin tin well.",
     "Whisk the eggs and milk together with salt and pepper.",
     "Divide the bell pepper, spinach, and onion evenly between the muffin cups.",
     "Pour the egg mixture over the vegetables in each cup, filling about ¾ full.",
-    "Top with shredded cheese.",
+    "Top with shredded cheddar.",
     "Bake 18-20 minutes until puffed and set. Cool slightly before removing from the tin.",
     "Store in the fridge and reheat 2 at a time each morning (roughly 2 muffins per serving)."
   ],
@@ -31,5 +76,6 @@
   "flags": {
     "shelfLife": null,
     "freezeFriendly": true
-  }
+  },
+  "componentScalable": false
 }

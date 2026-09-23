@@ -7,14 +7,14 @@
   "primaryMacro": "protein",
   "feeds": 1,
   "macrosPerServing": {
-    "kcal": 220,
+    "kcal": 126,
     "protein": 22,
-    "carbs": 16,
-    "fat": 4
+    "carbs": 8,
+    "fat": 0
   },
   "ingredients": [
     {
-      "name": "High-protein yogurt",
+      "name": "Plain high-protein yogurt (skyr)",
       "qty": 200,
       "unit": "g",
       "component": "protein"
@@ -24,10 +24,11 @@
     "Portion 200g and enjoy. No cooking needed."
   ],
   "notes": [
-    "Snack option ~220 kcal. Primary macro: protein. Used by AI Advice to fill a protein gap; portion can be nudged to match the exact gap."
+    "Snack option ~126 kcal. Primary macro: protein. Used by AI Advice to fill a protein gap; portion can be nudged to match the exact gap."
   ],
   "flags": {
     "shelfLife": null,
     "freezeFriendly": false
-  }
+  },
+  "componentScalable": false
 }

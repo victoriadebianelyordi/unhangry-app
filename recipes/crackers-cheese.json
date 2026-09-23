@@ -7,27 +7,34 @@
   "primaryMacro": "carb",
   "feeds": 1,
   "macrosPerServing": {
-    "kcal": 230,
-    "protein": 6,
-    "carbs": 38,
-    "fat": 7
+    "kcal": 201,
+    "protein": 8,
+    "carbs": 21,
+    "fat": 10
   },
   "ingredients": [
     {
-      "name": "Crackers",
+      "name": "Whole-wheat crackers",
       "qty": 6,
       "unit": "pc",
       "component": "carb"
+    },
+    {
+      "name": "Cheddar (cubed or sliced)",
+      "qty": 20,
+      "unit": "g",
+      "component": "protein"
     }
   ],
   "steps": [
-    "Portion 5-6 crackers and enjoy. No cooking needed."
+    "Portion 5-6 crackers with 20g cheese (cubed or sliced) and enjoy. No cooking needed."
   ],
   "notes": [
-    "Snack option ~230 kcal. Primary macro: carb. Used by AI Advice to fill a carb gap; portion can be nudged to match the exact gap."
+    "Snack option ~201 kcal. Primary macro: carb. Used by AI Advice to fill a carb gap; portion can be nudged to match the exact gap."
   ],
   "flags": {
     "shelfLife": null,
     "freezeFriendly": false
-  }
+  },
+  "componentScalable": false
 }

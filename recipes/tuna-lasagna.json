@@ -86,5 +86,6 @@
   "flags": {
     "shelfLife": null,
     "freezeFriendly": true
-  }
+  },
+  "componentScalable": false
 }

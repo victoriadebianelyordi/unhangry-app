@@ -6,10 +6,10 @@
   "mealType": "breakfast",
   "feeds": 6,
   "macrosPerServing": {
-    "kcal": 320,
-    "protein": 12,
-    "carbs": 48,
-    "fat": 9
+    "kcal": 564,
+    "protein": 25,
+    "carbs": 88,
+    "fat": 13
   },
   "ingredients": [
     {
@@ -19,13 +19,13 @@
       "component": "carb"
     },
     {
-      "name": "Milk (or plant milk)",
+      "name": "2% milk",
       "qty": 1.2,
       "unit": "L",
       "component": "other"
     },
     {
-      "name": "Greek yogurt",
+      "name": "Plain 2% Greek yogurt",
       "qty": 360,
       "unit": "g",
       "component": "protein"
@@ -37,7 +37,7 @@
       "component": "other"
     },
     {
-      "name": "Honey or maple syrup",
+      "name": "Honey",
       "qty": 6,
       "unit": "tbsp",
       "component": "other"
@@ -68,5 +68,6 @@
   "flags": {
     "shelfLife": "Best within 4-5 days refrigerated.",
     "freezeFriendly": false
-  }
+  },
+  "componentScalable": false
 }

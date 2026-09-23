@@ -126,6 +126,18 @@ function cardMeta(recipe) {
   return PROTEIN_META[recipe.protein] || { icon: '🍽️', label: recipe.protein };
 }
 
+// A carb or fat snack leads with that macro instead of protein; everything else leads with protein.
+function orderedCardMacros(recipe) {
+  const m = recipe.macrosPerServing || {};
+  const all = [
+    { key: 'protein', label: 'protein', value: m.protein },
+    { key: 'carb', label: 'carbs', value: m.carbs },
+    { key: 'fat', label: 'fat', value: m.fat },
+  ];
+  const lead = recipe.mealType === 'snack' && (recipe.primaryMacro === 'carb' || recipe.primaryMacro === 'fat') ? recipe.primaryMacro : 'protein';
+  return [...all.filter((x) => x.key === lead), ...all.filter((x) => x.key !== lead)];
+}
+
 function renderCard(recipe) {
   const meta = cardMeta(recipe);
   const m = recipe.macrosPerServing || {};
@@ -145,9 +157,7 @@ function renderCard(recipe) {
     <div class="recipe-card__flags">${flagIcons(recipe)}</div>
     <div class="recipe-card__macros">
       <span><b>${m.kcal ?? '–'}</b> kcal</span>
-      <span><b>${m.protein ?? '–'}g</b> protein</span>
-      <span><b>${m.carbs ?? '–'}g</b> carbs</span>
-      <span><b>${m.fat ?? '–'}g</b> fat</span>
+      ${orderedCardMacros(recipe).map((x) => `<span><b>${x.value ?? '–'}g</b> ${x.label}</span>`).join('')}
     </div>
   `;
   card.addEventListener('click', () => openRecipeModal(recipe));
@@ -666,6 +676,11 @@ document.getElementById('review-form').addEventListener('submit', (e) => {
       shelfLife: document.getElementById('rf-shelflife').value.trim() || null,
       freezeFriendly: document.getElementById('rf-freeze').checked,
     },
+    // Whether this dish's protein-tagged ingredient can be scaled independently from its
+    // other components (Beef Stroganoff: yes; a lasagna where everything's baked together:
+    // no). Defaults to false — the household reviews and flips this by hand per recipe,
+    // never guessed by the AI import.
+    componentScalable: false,
   };
 
   try {
@@ -799,10 +814,35 @@ function calcBMR({ dob, gender, heightCm, weightKg, leanMassKg }) {
   return 10 * weightKg + 6.25 * heightCm - 5 * age + 5; // Mifflin-St Jeor (male / unspecified)
 }
 
+// This stays PURE maintenance (BMR x activity, no goal adjustment) — it's used as-is for
+// the Part A.1 safety floor's "more than 500kcal under MAINTENANCE" check, which needs
+// true maintenance to mean anything. The goal-adjusted number shown/pre-filled in the
+// calorie box is a SEPARATE function below (calcGoalAdjustedCalorieEstimate) — never
+// conflate the two, or the safety floor starts comparing an adjusted number to itself.
 function calcCalorieEstimate({ dob, gender, heightCm, weightKg, activityLevel, leanMassKg }) {
   const bmr = calcBMR({ dob, gender, heightCm, weightKg, leanMassKg });
   if (bmr == null || !activityLevel) return null;
   return Math.round(bmr * (ACTIVITY_MULTIPLIER[activityLevel] || 1.2));
+}
+
+// Confirmed: the calorie ESTIMATE itself now reflects the selected fitness goal, not just
+// maintenance. Recomposition (lose-weight AND gain-muscle both selected) is its own case,
+// not a stack of the two individual percentages.
+const GOAL_CALORIE_ADJUSTMENT = { 'lose-weight': -0.15, 'gain-muscle': 0.05 };
+const RECOMP_CALORIE_ADJUSTMENT = -0.10; // lose-weight + gain-muscle together
+const RECOMP_PROTEIN_G_PER_KG = 2.2; // overrides the PROTEIN_MULTIPLIER table for this combo
+
+function calcGoalAdjustedCalorieEstimate(maintenanceKcal, goals) {
+  if (maintenanceKcal == null) return null;
+  const g = goals || [];
+  const hasLose = g.includes('lose-weight');
+  const hasGain = g.includes('gain-muscle');
+  let adjustment = 0;
+  if (hasLose && hasGain) adjustment = RECOMP_CALORIE_ADJUSTMENT;
+  else if (hasLose) adjustment = GOAL_CALORIE_ADJUSTMENT['lose-weight'];
+  else if (hasGain) adjustment = GOAL_CALORIE_ADJUSTMENT['gain-muscle'];
+  // maintain-weight, convenience-only goals, or no goal at all -> 0% (unchanged)
+  return Math.round(maintenanceKcal * (1 + adjustment));
 }
 
 // Calculation Engine Spec v2 Part A — protein multiplier table (g per kg bodyweight), by
@@ -827,6 +867,13 @@ function pickProteinMultiplier(activityLevel, goals) {
   if (!row) return null;
   const selected = FITNESS_GOALS.filter((g) => goals.includes(g));
   if (selected.length === 0) return null;
+
+  // Recomposition (lose-weight + gain-muscle together, confirmed): a fixed 2.2g/kg,
+  // overriding the table entirely — simultaneously cutting fat and building muscle needs
+  // more protein than either goal alone, so this isn't just "the higher of the two."
+  if (selected.includes('lose-weight') && selected.includes('gain-muscle')) {
+    return { multiplier: RECOMP_PROTEIN_G_PER_KG, sedentaryMuscleGainFlag: false, athleteFlag: activityLevel === 'training' };
+  }
 
   let sedentaryMuscleGainFlag = false;
   let multiplier = null;
@@ -1192,6 +1239,7 @@ function currentFormValues() {
     weightKg: Number(document.getElementById('mf-weight').value) || null,
     activityLevel: currentActivity,
     leanMassKg: Number(document.getElementById('mf-leanmass').value) || null,
+    goals: currentGoals,
   };
 }
 
@@ -1211,7 +1259,7 @@ function updateAgeStatusAndGetIsChild() {
   } else if (guardrail.status === 'child') {
     el.hidden = false;
     el.className = 'field-hint';
-    el.textContent = `Age ${age} — using the pediatric calorie/protein guardrail (Health Canada EER + RDA protein). Computed silently; goals, activity-based macros, and calorie targets aren't shown for children.`;
+    el.textContent = `Age ${age} — using the pediatric calorie/protein standards.`;
   } else {
     el.hidden = true;
   }
@@ -1247,12 +1295,18 @@ function updateConditionalSections() {
   calorieWrap.hidden = isChild || !hasFitnessGoal;
   if (!calorieWrap.hidden) {
     const formValues = currentFormValues();
-    const estimate = calcCalorieEstimate(formValues);
+    // maintenanceKcal is the TRUE, unadjusted number — the safety floor needs this to mean
+    // "actual maintenance," not something already shifted by the goal. estimate is what's
+    // shown/pre-filled: maintenance adjusted for the selected fitness goal (confirmed:
+    // -15% lose-weight, +5% gain-muscle, -10% if both selected together).
+    const maintenanceKcal = calcCalorieEstimate(formValues);
+    const estimate = calcGoalAdjustedCalorieEstimate(maintenanceKcal, currentGoals);
     const bmr = calcBMR(formValues);
     const estimateEl = document.getElementById('mf-calorie-estimate');
     const targetInput = document.getElementById('mf-calorie-target');
     if (estimate) {
-      estimateEl.textContent = `Estimated: ${estimate} kcal/day (Mifflin-St Jeor × activity${formValues.leanMassKg ? ', using lean mass' : ''}). Adjust if you already know their target.`;
+      const goalNote = estimate !== maintenanceKcal ? ` — adjusted from ${maintenanceKcal} maintenance for their goal` : '';
+      estimateEl.textContent = `Estimated: ${estimate} kcal/day (Mifflin-St Jeor × activity${formValues.leanMassKg ? ', using lean mass' : ''}${goalNote}). Adjust if you already know their target.`;
       if (!targetInput.value || targetInput.dataset.auto === 'true') {
         targetInput.value = estimate;
         targetInput.dataset.auto = 'true';
@@ -1261,7 +1315,7 @@ function updateConditionalSections() {
       estimateEl.textContent = 'Fill in date of birth, height, weight, and activity level for an estimate — or just type a target you already know.';
     }
 
-    updateMacroAndSafetyDisplay({ formValues, bmr, maintenanceKcal: estimate, calorieTarget: Number(targetInput.value) || null });
+    updateMacroAndSafetyDisplay({ formValues, bmr, maintenanceKcal, calorieTarget: Number(targetInput.value) || null });
   }
 }
 
@@ -1296,7 +1350,7 @@ function updateMacroAndSafetyDisplay({ formValues, bmr, maintenanceKcal, calorie
 }
 
 document.getElementById('mf-recalculate').addEventListener('click', () => {
-  const estimate = calcCalorieEstimate(currentFormValues());
+  const estimate = calcGoalAdjustedCalorieEstimate(calcCalorieEstimate(currentFormValues()), currentGoals);
   if (estimate) {
     const targetInput = document.getElementById('mf-calorie-target');
     targetInput.value = estimate;
@@ -1465,14 +1519,15 @@ function methodMatchesSlot(recipeMethod, slotKey) {
   return recipeMethod === slotKey;
 }
 
+// Point 3 revision: exactly 3 supermarket-shopping categories — see lib/mealEngine.js's
+// classifyCategory for the deterministic rules. Freezer items stay inside "Dairy &
+// Proteins" (that's where chilled/frozen meat, fish, and dairy naturally live) and are
+// distinguished by the existing ❄️ freezeFriendly flag on the item itself, not a separate
+// category.
 const CATEGORY_ICON = {
-  'Fresh Produce': '🥬',
-  'Proteins and Meat': '🥩',
-  'Fish and Seafood': '🐟',
-  'Dry Goods and Pantry': '🥫',
-  'Dairy and Chilled': '🧀',
-  'Canned and Jarred': '🥫',
-  'Freezer': '❄️',
+  'Fresh Produce & Bakery': '🥬',
+  'Dairy & Proteins': '🥩',
+  'Pantry': '🥫',
 };
 
 let selectedMains = { 'stovetop': null, 'oven': null, 'third-spot': null };
@@ -1637,7 +1692,7 @@ function renderPickerCard(recipe) {
     </div>
     <div class="recipe-card__macros">
       <span><b>${m.kcal ?? '–'}</b> kcal</span>
-      <span><b>${m.protein ?? '–'}g</b> protein</span>
+      ${(() => { const x = orderedCardMacros(recipe)[0]; return `<span><b>${x.value ?? '–'}g</b> ${x.label}</span>`; })()}
     </div>
   `;
   card.addEventListener('click', () => {
@@ -1973,13 +2028,23 @@ function renderAiAdviceInto(container, advice) {
   `).join('');
 }
 
+// Point 5 revision: a portion is now always shown as "one serving × how many servings
+// this week", never a bare weekly total — that ambiguity was exactly what produced a
+// "790g of salmon" line that was actually a whole week's worth of servings for one person.
+function weighPackPortionLabel(p) {
+  const servings = Number(p.servingsThisWeek);
+  const servingsText = Number.isFinite(servings) ? `${servings}x this week` : null;
+  if (p.servingSize && servingsText) return `${p.servingSize} · ${servingsText}`;
+  return p.servingSize || p.portionText || '';
+}
+
 function renderWeighAndPack(el, weighAndPack) {
   el.innerHTML = (weighAndPack || []).map((recipe) => `
     <div class="weigh-recipe">
       <p class="weigh-recipe__title">${recipe.recipeName}</p>
       <ul class="weigh-recipe__list">
         ${(recipe.portions || []).map((p) => `
-          <li><b>${p.memberName}</b> — ${p.portionText}${p.note ? ` <span class="weigh-recipe__note">(${p.note})</span>` : ''}</li>
+          <li><b>${p.memberName}</b> — ${weighPackPortionLabel(p)}${p.note ? ` <span class="weigh-recipe__note">(${p.note})</span>` : ''}</li>
         `).join('')}
       </ul>
     </div>
@@ -2050,15 +2115,33 @@ document.getElementById('copy-whatsapp-btn').addEventListener('click', async () 
   }
 });
 
+// Point 5 revision — this used to dump the raw, unscaled base recipe straight from the
+// database (literally the "feeds 6" quantities), completely disconnected from the
+// household and its real targets. It was then wrongly "fixed" to show the per-person
+// Weigh & Pack breakdown instead — but that's a different document (post-cook portioning
+// for the person doing the dividing-up), not what the cook needs while actually cooking.
+// The cook needs each recipe's own ingredient list scaled to the household's real WEEKLY
+// TOTAL for that recipe (same idea as the grocery list's scaling, just grouped by recipe
+// instead of merged across all recipes) — exactly what generatedList.recipeIngredientTotals
+// is (engine-computed, never the AI). Steps stay from the recipe itself, unscaled —
+// cooking instructions don't scale, only quantities do.
 document.getElementById('copy-recipes-btn').addEventListener('click', async () => {
+  if (!generatedList) { showToast('Generate the list first.'); return; }
   const recipes = [...METHODS.map((m) => selectedMains[m]).filter(Boolean)];
   if (selectedBreakfast) recipes.push(selectedBreakfast);
   recipes.push(...selectedSnacks.filter(Boolean));
 
-  let text = "THIS WEEK'S RECIPES\n\n";
+  const totalsByRecipe = new Map((generatedList.recipeIngredientTotals || []).map((r) => [r.recipeName, r]));
+
+  let text = "THIS WEEK'S RECIPES (scaled to your household)\n\n";
   for (const r of recipes) {
-    text += `*${r.name}* (${METHOD_LABEL[r.method] || r.method})\n`;
-    text += (r.ingredients || []).map((i) => `- ${[i.qty, i.unit, i.name].filter(Boolean).join(' ')}`).join('\n') + '\n\n';
+    text += `*${r.name}* (${METHOD_LABEL[r.method] || r.method})\n\n`;
+    const totalsEntry = totalsByRecipe.get(r.name);
+    if (totalsEntry && totalsEntry.items && totalsEntry.items.length) {
+      text += totalsEntry.items.map((it) => `- ${it.qty} ${it.unit} ${it.name}`).join('\n') + '\n\n';
+    } else {
+      text += '(No scaled quantities available for this recipe — generate the list first.)\n\n';
+    }
     text += (r.steps || []).map((s, idx) => `${idx + 1}. ${s}`).join('\n') + '\n\n';
   }
 

@@ -78,5 +78,6 @@
   "flags": {
     "shelfLife": "Fresh fish — plan for days 1-2. Do not leave this one to day 5.",
     "freezeFriendly": false
-  }
+  },
+  "componentScalable": false
 }

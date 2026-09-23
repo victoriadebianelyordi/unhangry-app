@@ -105,5 +105,6 @@
   "flags": {
     "shelfLife": "Salmon doesn't last the full week — plan this for days 1-3 and buy accordingly.",
     "freezeFriendly": false
-  }
+  },
+  "componentScalable": false
 }

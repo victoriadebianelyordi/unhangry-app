@@ -7,10 +7,10 @@
   "primaryMacro": "fat",
   "feeds": 1,
   "macrosPerServing": {
-    "kcal": 230,
-    "protein": 5,
-    "carbs": 28,
-    "fat": 12
+    "kcal": 191,
+    "protein": 4,
+    "carbs": 29,
+    "fat": 9
   },
   "ingredients": [
     {
@@ -18,16 +18,23 @@
       "qty": 1,
       "unit": "pc",
       "component": "other"
+    },
+    {
+      "name": "Peanut butter",
+      "qty": 1,
+      "unit": "tbsp",
+      "component": "other"
     }
   ],
   "steps": [
     "Portion 1 apple + 1 tbsp and enjoy. No cooking needed."
   ],
   "notes": [
-    "Snack option ~230 kcal. Primary macro: fat. Used by AI Advice to fill a fat gap; portion can be nudged to match the exact gap."
+    "Snack option ~191 kcal. Primary macro: fat. Used by AI Advice to fill a fat gap; portion can be nudged to match the exact gap."
   ],
   "flags": {
     "shelfLife": null,
     "freezeFriendly": false
-  }
+  },
+  "componentScalable": false
 }

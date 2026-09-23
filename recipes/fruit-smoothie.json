@@ -9,7 +9,7 @@
   "macrosPerServing": {
     "kcal": 210,
     "protein": 3,
-    "carbs": 50,
+    "carbs": 51,
     "fat": 1
   },
   "ingredients": [
@@ -18,6 +18,12 @@
       "qty": 200,
       "unit": "g",
       "component": "carb"
+    },
+    {
+      "name": "Orange juice",
+      "qty": 200,
+      "unit": "ml",
+      "component": "other"
     }
   ],
   "steps": [
@@ -29,5 +35,6 @@
   "flags": {
     "shelfLife": null,
     "freezeFriendly": false
-  }
+  },
+  "componentScalable": false
 }
