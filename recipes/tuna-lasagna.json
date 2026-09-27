@@ -59,8 +59,8 @@
         },
         {
           "name": "Grated parmesan",
-          "qty": 0.5,
-          "unit": "cup",
+          "qty": 50,
+          "unit": "g",
           "component": "sauce"
         },
         {

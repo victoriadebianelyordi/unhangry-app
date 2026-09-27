@@ -1054,6 +1054,16 @@ input, textarea {
   line-height: 1.5;
 }
 
+.ai-advice-card__tips {
+  margin: 10px 0 0;
+  padding-left: 18px;
+  font-size: 13.5px;
+  line-height: 1.5;
+  color: var(--ink);
+}
+
+.ai-advice-card__tips li + li { margin-top: 4px; }
+
 /* ---------------- WEIGH & PACK ---------------- */
 
 .weigh-pack-section {
@@ -1558,8 +1568,12 @@ input, textarea {
   letter-spacing: 0.04em;
 }
 
+.field { min-width: 0; }
+
 .field input,
 .field select {
+  width: 100%;
+  min-width: 0;
   border: 1px solid var(--stainless);
   border-radius: 8px;
   padding: 10px 12px;
@@ -1718,4 +1732,10 @@ input, textarea {
   #app { padding: 28px 16px 60px; }
   .modal { padding: 26px 20px; }
   .detail-macros { gap: 14px; }
+}
+
+/* iOS Safari zooms the page in on focus when a form field's text is under 16px, and stays
+   zoomed — keep every field at 16px on phones so the app always fits the screen. */
+@media (max-width: 700px) {
+  input, select, textarea { font-size: 16px !important; }
 }

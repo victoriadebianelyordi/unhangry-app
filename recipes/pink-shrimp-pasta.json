@@ -92,14 +92,14 @@
         },
         {
           "name": "Light cooking cream",
-          "qty": 1.75,
-          "unit": "cup",
+          "qty": 420,
+          "unit": "ml",
           "component": "sauce"
         },
         {
           "name": "Grated parmesan",
-          "qty": 0.5,
-          "unit": "cup",
+          "qty": 50,
+          "unit": "g",
           "component": "sauce"
         },
         {

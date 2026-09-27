@@ -359,7 +359,16 @@ async function checkAiStatus() {
   updateGenerateButtonState();
 }
 
+// Every "Add a recipe" starts from a clean sheet — no text, link or photo left over from
+// the previous import.
+function resetImporter() {
+  ['paste-name', 'paste-textarea', 'url-input', 'photo-input'].forEach((id) => { document.getElementById(id).value = ''; });
+  document.querySelectorAll('.importer-tab').forEach((t) => t.classList.toggle('is-active', t.dataset.method === 'paste'));
+  document.querySelectorAll('.importer-pane').forEach((p) => p.classList.toggle('is-active', p.dataset.pane === 'paste'));
+}
+
 document.getElementById('open-importer').addEventListener('click', () => {
+  resetImporter();
   document.getElementById('importer-modal').hidden = false;
   setImporterStatus('');
   if (aiImportEnabled === null) checkAiStatus();
@@ -686,6 +695,21 @@ function inferPrimaryMacro(macrosPerServing) {
   return 'carb';
 }
 
+// Same short-unit rule as lib/mealEngine.js, so saved recipes read "tbsp"/"tsp"/"g".
+const UNIT_LABEL_ALIASES = {
+  tablespoon: 'tbsp', tablespoons: 'tbsp', tbs: 'tbsp', tbsps: 'tbsp', tbl: 'tbsp',
+  teaspoon: 'tsp', teaspoons: 'tsp', tsps: 'tsp',
+  gram: 'g', grams: 'g', gr: 'g', kilogram: 'kg', kilograms: 'kg', kilo: 'kg', kilos: 'kg',
+  milliliter: 'ml', milliliters: 'ml', millilitre: 'ml', millilitres: 'ml',
+  l: 'L', liter: 'L', liters: 'L', litre: 'L', litres: 'L',
+  cups: 'cup', piece: 'pc', pieces: 'pc', pcs: 'pc', cloves: 'clove', cans: 'can',
+};
+function normalizeUnitLabel(unit) {
+  if (unit == null) return unit;
+  const key = String(unit).trim().toLowerCase().replace(/\.$/, '');
+  return UNIT_LABEL_ALIASES[key] || (['tbsp', 'tsp', 'g', 'kg', 'ml'].includes(key) ? key : String(unit).trim());
+}
+
 document.getElementById('review-form').addEventListener('submit', (e) => {
   e.preventDefault();
 
@@ -709,7 +733,7 @@ document.getElementById('review-form').addEventListener('submit', (e) => {
     ...(mealType === 'snack' ? { primaryMacro: inferPrimaryMacro(macrosPerServing) } : {}),
     feeds: Number(document.getElementById('rf-feeds').value) || 4,
     macrosPerServing,
-    ingredients: currentIngredients.filter((i) => i.name && i.name.trim()),
+    ingredients: currentIngredients.filter((i) => i.name && i.name.trim()).map((i) => ({ ...i, unit: normalizeUnitLabel(i.unit) })),
     steps: document.getElementById('rf-steps').value.split('\n').map((s) => s.trim()).filter(Boolean),
     notes: document.getElementById('rf-notes').value.split('\n').map((s) => s.trim()).filter(Boolean),
     flags: {
@@ -2058,14 +2082,21 @@ function renderCategoriesInto(container, categories) {
   `).join('');
 }
 
+// Each person: the gap fix (if any) plus up to 3 short tips. Weeks saved before tips existed
+// carry { summary, recommendation } instead — rendered as the gap-fix part.
 function renderAiAdviceInto(container, advice) {
-  container.innerHTML = (advice || []).map((a) => `
-    <div class="ai-advice-card">
-      <p class="ai-advice-card__name">${a.memberName}</p>
-      <p class="ai-advice-card__summary">${a.summary}</p>
-      ${a.recommendation ? `<p class="ai-advice-card__rec">→ ${a.recommendation}</p>` : ''}
-    </div>
-  `).join('');
+  container.innerHTML = (advice || []).map((a) => {
+    const gapFix = a.gapFix || (a.summary ? { summary: a.summary, recommendation: a.recommendation } : null);
+    const tips = Array.isArray(a.tips) ? a.tips : [];
+    return `
+      <div class="ai-advice-card">
+        <p class="ai-advice-card__name">${a.memberName}</p>
+        ${gapFix ? `<p class="ai-advice-card__summary">${gapFix.summary}</p>` : ''}
+        ${gapFix && gapFix.recommendation ? `<p class="ai-advice-card__rec">→ ${gapFix.recommendation}</p>` : ''}
+        ${tips.length ? `<ul class="ai-advice-card__tips">${tips.map((t) => `<li>${t}</li>`).join('')}</ul>` : ''}
+      </div>
+    `;
+  }).join('');
 }
 
 // Point 5 revision: a portion is now always shown as "one serving × how many servings
