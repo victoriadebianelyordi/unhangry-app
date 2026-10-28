@@ -1,0 +1,190 @@
+{
+  "id": "carne-guisada",
+  "name": "Carne Guisada with Rice",
+  "protein": "red-meat",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 6,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 463,
+    "protein": 39,
+    "carbs": 47,
+    "fat": 12
+  },
+  "components": [
+    {
+      "id": "stew",
+      "name": "Carne Guisada",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 6,
+      "cookedYieldG": 1100,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 268,
+        "protein": 35,
+        "carbs": 4,
+        "fat": 12
+      },
+      "ingredients": [
+        {
+          "name": "Sirloin steak, diced into 2.5 cm cubes",
+          "qty": 900,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Yellow onion, diced",
+          "qty": 0.5,
+          "unit": "pc",
+          "component": "aromatic",
+          "gramsPerUnit": 110
+        },
+        {
+          "name": "Jalapeño (or bell pepper), diced",
+          "qty": 1,
+          "unit": "pc",
+          "component": "aromatic",
+          "gramsPerUnit": 14
+        },
+        {
+          "name": "Garlic cloves, minced",
+          "qty": 3,
+          "unit": "clove",
+          "component": "aromatic"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 2,
+          "unit": "tbsp",
+          "component": "other"
+        },
+        {
+          "name": "Beef broth (2 cups)",
+          "qty": 480,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "All-purpose flour",
+          "qty": 1,
+          "unit": "tbsp",
+          "component": "sauce"
+        },
+        {
+          "name": "Tomato passata (purée)",
+          "qty": 125,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Ground cumin",
+          "qty": 1,
+          "unit": "tsp",
+          "component": "sauce"
+        },
+        {
+          "name": "Mexican oregano",
+          "qty": 0.5,
+          "unit": "tsp",
+          "component": "sauce"
+        },
+        {
+          "name": "Freshly ground black pepper",
+          "qty": 0.5,
+          "unit": "tsp",
+          "component": "other"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": 1.5,
+          "unit": "tsp",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Cut sirloin into bite-sized pieces and season with cumin, oregano, salt and pepper.",
+        "In a deep saucepan, sear beef pieces in oil until brown, working in batches if the pan is small.",
+        "Soften onion and chilli or bell pepper, then add garlic and cook briefly.",
+        "Whisk flour into a little cool beef stock, then add to the pan with remaining stock and tomato; stir until smooth.",
+        "Return the meat, cover and simmer gently around 30–40 minutes or until tender and sauce becomes gravy-like.",
+        "For tougher chuck cuts, lengthen the simmer until tender and add broth as needed."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Rice",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 6,
+      "cookedYieldG": 970,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 195,
+        "protein": 4,
+        "carbs": 43,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Dry rice",
+          "qty": 320,
+          "unit": "g",
+          "component": "carb"
+        }
+      ],
+      "steps": [
+        "Cook rice alongside; portion beef and rice separately across six containers."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; quantities, macros and cooked yields are estimates.",
+    "Freezer: Gravy and beef freeze; rice freezes after prompt cooling.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.isabeleats.com/carne-guisada/",
+  "reference": {
+    "sourceCredit": "Isabel Eats (Isabel Orozco-Moore)",
+    "fileTitle": "Carne Guisada with Rice",
+    "fileRecipeNumber": 19,
+    "proteinTag": "Red meat",
+    "methodTag": "Stovetop",
+    "appliances": "Stovetop only",
+    "freezer": "YES: gravy and beef freeze; rice freezes after prompt cooling.",
+    "preservation": "Refrigerate promptly at <=4 C for up to 3-4 days; freeze portions for later in the week. Use shallow containers and refrigerate within 2 hours, or 1 hour above 32 C ambient. Reheat fully to >=74 C.",
+    "fileMacrosPerServing": {
+      "kcal": 534,
+      "protein": 37.8,
+      "carbs": 55.7,
+      "fat": 17.8
+    },
+    "fileMacroSource": "estimated-from-ingredients",
+    "fileNutritionMethod": "Computed using generic per-100-g raw ingredient averages for all measured ingredients below and divided by 6. Provisional until checked against labels, measured cooked yields and a nutritional database; ingredient variety and loss during cooking can change results. Excludes optional garnish.",
+    "sourcePublishedNutrition": {
+      "servings": 6,
+      "kcal": 268,
+      "protein": 35,
+      "carbs": 4,
+      "fat": 12,
+      "basis": "per serving, stew only"
+    },
+    "fileRecipeNotes": "Isabel Eats original macros apply to beef stew without rice. This version adds rice and tomato purée as a small adaptation.",
+    "cookedYieldEstimates": [
+      "Carne guisada and gravy: ~1,100 g",
+      "Cooked rice: ~970 g"
+    ],
+    "qaStatus": "DRAFT. Not kitchen-tested by UNHANGRY/Mirna. Source-derived starting point with original rewritten instructions and flagged adaptations. Verify recipe-specific food safety, macros and yields before publishing.",
+    "quantitiesFrom": "Creator source page (fetched 2026-10-28) with the Unhangry adaptations listed below.",
+    "adaptations": [
+      "Tomato purée instead of the diced Roma tomatoes; soy sauce left out.",
+      "Rice added (320 g dry, from the ~970 g cooked-rice yield)."
+    ]
+  }
+}

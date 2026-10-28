@@ -1,0 +1,201 @@
+{
+  "id": "thai-basil-beef",
+  "name": "Thai Basil Beef with Rice and Egg",
+  "protein": "red-meat",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 3,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 680,
+    "protein": 34,
+    "carbs": 62,
+    "fat": 32
+  },
+  "components": [
+    {
+      "id": "beef",
+      "name": "Basil Beef",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 3,
+      "cookedYieldG": 570,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 365,
+        "protein": 23,
+        "carbs": 9,
+        "fat": 26
+      },
+      "ingredients": [
+        {
+          "name": "Ground beef",
+          "qty": 340,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Garlic cloves",
+          "qty": 6,
+          "unit": "clove",
+          "component": "aromatic"
+        },
+        {
+          "name": "Thai chillies (adjust heat)",
+          "qty": 3,
+          "unit": "pc",
+          "component": "aromatic"
+        },
+        {
+          "name": "Red capsicum, chopped and julienned",
+          "qty": 75,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Neutral oil",
+          "qty": 2,
+          "unit": "tbsp",
+          "component": "other"
+        },
+        {
+          "name": "Fish sauce (1 tbsp + 2 tsp)",
+          "qty": 25,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Sugar",
+          "qty": 1,
+          "unit": "tbsp",
+          "component": "sauce"
+        },
+        {
+          "name": "Unsalted stock or water",
+          "qty": 125,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Ground black pepper",
+          "qty": 0.5,
+          "unit": "tsp",
+          "component": "other"
+        },
+        {
+          "name": "Holy basil or regular basil leaves (1¼ cups)",
+          "qty": 30,
+          "unit": "g",
+          "component": "aromatic"
+        }
+      ],
+      "steps": [
+        "Pound or finely mince garlic and chilli. Slice the capsicum and remove basil leaves from the stems.",
+        "Heat oil in a hot wok; fry garlic and chillies briefly without browning them too hard.",
+        "Add minced beef and stir-fry until evenly cooked. Add fish sauce, sugar and stock, reducing until glossy.",
+        "Turn off heat and fold in the basil so it remains aromatic."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Jasmine Rice",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 3,
+      "cookedYieldG": 600,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 243,
+        "protein": 5,
+        "carbs": 53,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Dry jasmine rice",
+          "qty": 200,
+          "unit": "g",
+          "component": "carb"
+        }
+      ],
+      "steps": [
+        "Cook the rice and spread it shallowly for rapid cooling before packaging."
+      ]
+    },
+    {
+      "id": "egg",
+      "name": "Egg",
+      "scaling": "units",
+      "units": {
+        "label": "egg",
+        "count": 3,
+        "step": 1,
+        "perServing": 1,
+        "sizeBy": "fixed"
+      },
+      "servings": 3,
+      "macrosPerServing": {
+        "kcal": 72,
+        "protein": 6,
+        "carbs": 0,
+        "fat": 5
+      },
+      "ingredients": [
+        {
+          "name": "Large eggs",
+          "qty": 3,
+          "unit": "pc",
+          "component": "protein"
+        }
+      ],
+      "steps": [
+        "Cook the three eggs separately. For multi-day prep, cook eggs fully rather than packing runny yolks.",
+        "Pack beef, rice and cooked egg. Add basil fresh after reheating where possible."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; quantities, macros and cooked yields are estimates.",
+    "Contains fish sauce — not shellfish/fish-free by default.",
+    "Freezer: Freeze beef; rice freezes if cooled promptly; egg texture suffers.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://hot-thai-kitchen.com/pad-kra-pao-beef/",
+  "reference": {
+    "sourceCredit": "Hot Thai Kitchen (Pailin Chongchitnant)",
+    "fileTitle": "Thai Basil Beef with Rice and Egg",
+    "fileRecipeNumber": 9,
+    "proteinTag": "Red meat",
+    "methodTag": "Stovetop",
+    "appliances": "Stovetop only",
+    "freezer": "CONDITIONAL: freeze beef; rice freezes if cooled promptly; egg texture suffers.",
+    "preservation": "Refrigerate promptly at <=4 C for up to 3-4 days; freeze portions for later in the week. Use shallow containers and refrigerate within 2 hours, or 1 hour above 32 C ambient. Reheat fully to >=74 C.",
+    "fileMacrosPerServing": {
+      "kcal": 654,
+      "protein": 37.5,
+      "carbs": 71.5,
+      "fat": 24.2
+    },
+    "fileMacroSource": "estimated-from-ingredients",
+    "fileNutritionMethod": "Computed using generic per-100-g raw ingredient averages for all measured ingredients below and divided by 3. Provisional until checked against labels, measured cooked yields and a nutritional database; ingredient variety and loss during cooking can change results. Excludes optional garnish.",
+    "sourcePublishedNutrition": null,
+    "fileRecipeNotes": "Source uses holy basil and a fried egg. Fish sauce allergen means this is not shellfish-free by default.",
+    "cookedYieldEstimates": [
+      "Basil beef: ~570 g",
+      "Cooked rice: ~600 g",
+      "Cooked eggs: ~135 g"
+    ],
+    "qaStatus": "DRAFT. Not kitchen-tested by UNHANGRY/Mirna. Source-derived starting point with original rewritten instructions and flagged adaptations. Verify recipe-specific food safety, macros and yields before publishing.",
+    "quantitiesFrom": "Creator source page (fetched 2026-10-28) with the Unhangry adaptations listed below.",
+    "adaptations": [
+      "Red capsicum replaces the mild red chillies.",
+      "Rice quantity (200 g dry) from the ~600 g cooked-rice yield.",
+      "Eggs cooked fully for multi-day prep instead of fried with runny yolks."
+    ]
+  }
+}

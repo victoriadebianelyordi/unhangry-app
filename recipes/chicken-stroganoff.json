@@ -1,7 +1,7 @@
 {
   "id": "chicken-stroganoff",
   "name": "Chicken Stroganoff",
-  "protein": "chicken",
+  "protein": "white-meat",
   "method": "stovetop",
   "mealType": "main",
   "feeds": 5,

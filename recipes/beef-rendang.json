@@ -1,0 +1,245 @@
+{
+  "id": "beef-rendang",
+  "name": "Beef Rendang with Rice",
+  "protein": "red-meat",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 6,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 802,
+    "protein": 38,
+    "carbs": 58,
+    "fat": 47
+  },
+  "components": [
+    {
+      "id": "rendang",
+      "name": "Beef Rendang",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 6,
+      "cookedYieldG": 1100,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 602,
+        "protein": 34,
+        "carbs": 14,
+        "fat": 47
+      },
+      "ingredients": [
+        {
+          "name": "Beef chuck, cut into 4 cm cubes",
+          "qty": 1,
+          "unit": "kg",
+          "component": "protein"
+        },
+        {
+          "name": "Full-fat coconut milk (1 can)",
+          "qty": 400,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Dried chillies, rehydrated (or 12 large fresh)",
+          "qty": 12,
+          "unit": "pc",
+          "component": "aromatic",
+          "group": "Spice paste"
+        },
+        {
+          "name": "Small onion, finely chopped",
+          "qty": 1,
+          "unit": "pc",
+          "component": "aromatic",
+          "gramsPerUnit": 70,
+          "group": "Spice paste"
+        },
+        {
+          "name": "Garlic cloves, minced",
+          "qty": 5,
+          "unit": "clove",
+          "component": "aromatic",
+          "group": "Spice paste"
+        },
+        {
+          "name": "Lemongrass stalks, white part only, sliced",
+          "qty": 3,
+          "unit": "pc",
+          "component": "aromatic",
+          "gramsPerUnit": 15,
+          "group": "Spice paste"
+        },
+        {
+          "name": "Fresh galangal, finely chopped",
+          "qty": 1.5,
+          "unit": "tbsp",
+          "component": "aromatic",
+          "group": "Spice paste"
+        },
+        {
+          "name": "Fresh ginger, minced",
+          "qty": 1.5,
+          "unit": "tbsp",
+          "component": "aromatic",
+          "group": "Spice paste"
+        },
+        {
+          "name": "Neutral oil",
+          "qty": 2,
+          "unit": "tbsp",
+          "component": "other",
+          "group": "Spice paste"
+        },
+        {
+          "name": "Neutral oil (for browning)",
+          "qty": 1,
+          "unit": "tbsp",
+          "component": "other"
+        },
+        {
+          "name": "Cinnamon stick",
+          "qty": 1,
+          "unit": "pc",
+          "component": "sauce"
+        },
+        {
+          "name": "Star anise",
+          "qty": 3,
+          "unit": "pc",
+          "component": "sauce"
+        },
+        {
+          "name": "Ground cloves",
+          "qty": 0.25,
+          "unit": "tsp",
+          "component": "sauce"
+        },
+        {
+          "name": "Ground cardamom",
+          "qty": 0.5,
+          "unit": "tsp",
+          "component": "sauce"
+        },
+        {
+          "name": "Lemongrass stalk, bottom half, smashed",
+          "qty": 1,
+          "unit": "pc",
+          "component": "aromatic"
+        },
+        {
+          "name": "Tamarind paste",
+          "qty": 2,
+          "unit": "tsp",
+          "component": "sauce"
+        },
+        {
+          "name": "Kaffir lime leaves, finely sliced",
+          "qty": 4,
+          "unit": "pc",
+          "component": "aromatic"
+        },
+        {
+          "name": "Desiccated coconut (⅓ cup)",
+          "qty": 28,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Brown sugar (or palm sugar)",
+          "qty": 1,
+          "unit": "tbsp",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 1.5,
+          "unit": "tsp",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "If using dried chillies, soak in hot water until soft. Blitz onion, garlic, ginger, galangal, lemongrass, chillies and some oil into a fine spice paste.",
+        "Brown beef in a heavy pan in two batches and transfer to a bowl.",
+        "Cook spice paste in the pot for several minutes until fragrant and darker in colour.",
+        "Return the beef; add coconut milk, tamarind, lime leaves, whole spices, sugar, coconut and salt.",
+        "Cover and keep at a low simmer for 75–90 minutes; uncover and reduce for another 30–60 minutes until the beef is soft and the sauce coats it rather than pooling."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Rice",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 6,
+      "cookedYieldG": 980,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 201,
+        "protein": 4,
+        "carbs": 44,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Dry jasmine or basmati rice",
+          "qty": 330,
+          "unit": "g",
+          "component": "carb"
+        }
+      ],
+      "steps": [
+        "While finishing, cook the rice using the packet water ratio, then cool promptly after cooking.",
+        "Portion dry-style rendang and rice separately. Because of the long cook, this is an advanced/long-clock Sunday recipe."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; quantities, macros and cooked yields are estimates.",
+    "Long cook: often 2.5–3 hours.",
+    "Freezer: Rendang freezes very well; rice may be frozen promptly in shallow portions.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.recipetineats.com/beef-rendang/",
+  "reference": {
+    "sourceCredit": "RecipeTin Eats (Nagi Maehashi)",
+    "fileTitle": "Beef Rendang with Rice",
+    "fileRecipeNumber": 5,
+    "proteinTag": "Red meat",
+    "methodTag": "Stovetop",
+    "appliances": "Stovetop; long simmer",
+    "freezer": "YES: rendang freezes very well; rice may be frozen promptly in shallow portions.",
+    "preservation": "Refrigerate promptly at <=4 C for up to 3-4 days; freeze portions for later in the week. Use shallow containers and refrigerate within 2 hours, or 1 hour above 32 C ambient. Reheat fully to >=74 C.",
+    "fileMacrosPerServing": {
+      "kcal": 746,
+      "protein": 38.6,
+      "carbs": 60.5,
+      "fat": 38.8
+    },
+    "fileMacroSource": "estimated-from-ingredients",
+    "fileNutritionMethod": "Computed using generic per-100-g raw ingredient averages for all measured ingredients below and divided by 6. Provisional until checked against labels, measured cooked yields and a nutritional database; ingredient variety and loss during cooking can change results. Excludes optional garnish.",
+    "sourcePublishedNutrition": {
+      "servings": 6,
+      "kcal": 675,
+      "protein": 63.4,
+      "carbs": 10.9,
+      "fat": 42.1,
+      "basis": "per serving rendang only, 323 g"
+    },
+    "fileRecipeNotes": "Cook time often exceeds 2.5 to 3 hours. Original base source yields 6; rice is an added meal component.",
+    "cookedYieldEstimates": [
+      "Rendang: ~1,100 g",
+      "Cooked rice: ~980 g"
+    ],
+    "qaStatus": "DRAFT. Not kitchen-tested by UNHANGRY/Mirna. Source-derived starting point with original rewritten instructions and flagged adaptations. Verify recipe-specific food safety, macros and yields before publishing.",
+    "quantitiesFrom": "Creator source page (fetched 2026-10-28) with the Unhangry adaptations listed below.",
+    "adaptations": [
+      "Rice added as a meal component (330 g dry, from the ~980 g cooked-rice yield)."
+    ]
+  }
+}

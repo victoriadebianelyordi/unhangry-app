@@ -1,0 +1,185 @@
+{
+  "id": "beef-stroganoff-egg-noodles",
+  "name": "Beef Stroganoff with Egg Noodles",
+  "protein": "red-meat",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 5,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 590,
+    "protein": 42,
+    "carbs": 59,
+    "fat": 21
+  },
+  "components": [
+    {
+      "id": "stroganoff",
+      "name": "Beef Stroganoff",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 5,
+      "cookedYieldG": 1300,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 321,
+        "protein": 32,
+        "carbs": 9,
+        "fat": 18
+      },
+      "ingredients": [
+        {
+          "name": "Sirloin steak strips",
+          "qty": 600,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Mushrooms, sliced",
+          "qty": 300,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Large onion, sliced",
+          "qty": 1,
+          "unit": "pc",
+          "component": "aromatic",
+          "gramsPerUnit": 150
+        },
+        {
+          "name": "Neutral oil",
+          "qty": 2,
+          "unit": "tbsp",
+          "component": "other"
+        },
+        {
+          "name": "Flour",
+          "qty": 2,
+          "unit": "tbsp",
+          "component": "sauce"
+        },
+        {
+          "name": "Beef stock (2 cups), salt reduced",
+          "qty": 500,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Sour cream (⅔ cup)",
+          "qty": 160,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Dijon mustard",
+          "qty": 1,
+          "unit": "tbsp",
+          "component": "sauce"
+        },
+        {
+          "name": "Garlic cloves, minced",
+          "qty": 2,
+          "unit": "clove",
+          "component": "aromatic"
+        },
+        {
+          "name": "Salt",
+          "qty": 0.5,
+          "unit": "tsp",
+          "component": "other"
+        },
+        {
+          "name": "Black pepper",
+          "qty": 0.25,
+          "unit": "tsp",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Slice tender steak against the grain, season and pat dry. Sear in a very hot pan for about 30 seconds each side in batches, then remove.",
+        "Lower the heat, sauté onion and mushrooms until the mushrooms have released moisture and taken some colour.",
+        "Stir in flour until no dry patches remain. Whisk in beef stock gradually and add mustard; simmer briefly.",
+        "Turn the heat low and whisk sour cream in. Avoid a hard boil after adding it.",
+        "Fold the beef and collected juices into the sauce only long enough to heat through and finish cooking."
+      ]
+    },
+    {
+      "id": "noodles",
+      "name": "Egg Noodles",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 5,
+      "cookedYieldG": 850,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 269,
+        "protein": 10,
+        "carbs": 50,
+        "fat": 3
+      },
+      "ingredients": [
+        {
+          "name": "Dry egg noodles",
+          "qty": 350,
+          "unit": "g",
+          "component": "carb"
+        }
+      ],
+      "steps": [
+        "Boil egg noodles just until al dente, drain and set aside.",
+        "Pack noodles separately from the stroganoff sauce; reheat gently with a spoonful of water."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; quantities, macros and cooked yields are estimates.",
+    "Optional to serve: chopped chives.",
+    "Freezer: Publisher says sauce freezes; the cream sauce can change texture, so reheat gently.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.recipetineats.com/beef-stroganoff/",
+  "reference": {
+    "sourceCredit": "RecipeTin Eats (Nagi Maehashi)",
+    "fileTitle": "Beef Stroganoff with Egg Noodles",
+    "fileRecipeNumber": 10,
+    "proteinTag": "Red meat",
+    "methodTag": "Stovetop",
+    "appliances": "Stovetop only",
+    "freezer": "YES: publisher says sauce freezes; the cream sauce can change texture, so reheat gently.",
+    "preservation": "Refrigerate promptly at <=4 C for up to 3-4 days; freeze portions for later in the week. Use shallow containers and refrigerate within 2 hours, or 1 hour above 32 C ambient. Reheat fully to >=74 C.",
+    "fileMacrosPerServing": {
+      "kcal": 631,
+      "protein": 38.9,
+      "carbs": 61.3,
+      "fat": 25.5
+    },
+    "fileMacroSource": "estimated-from-ingredients",
+    "fileNutritionMethod": "Computed using generic per-100-g raw ingredient averages for all measured ingredients below and divided by 5. Provisional until checked against labels, measured cooked yields and a nutritional database; ingredient variety and loss during cooking can change results. Excludes optional garnish.",
+    "sourcePublishedNutrition": {
+      "servings": "4–5",
+      "kcal": 586,
+      "protein": 37,
+      "carbs": 9,
+      "fat": 44,
+      "basis": "per serving (5), excludes pasta, 243 g"
+    },
+    "fileRecipeNotes": "Publisher nutrition excludes noodles; this UNHANGRY version includes 350 g dry noodles and nutrition is recalculated.",
+    "cookedYieldEstimates": [
+      "Stroganoff beef and mushroom sauce: ~1,300 g",
+      "Cooked noodles: ~850 g"
+    ],
+    "qaStatus": "DRAFT. Not kitchen-tested by UNHANGRY/Mirna. Source-derived starting point with original rewritten instructions and flagged adaptations. Verify recipe-specific food safety, macros and yields before publishing.",
+    "quantitiesFrom": "Creator source page (fetched 2026-10-28) with the Unhangry adaptations listed below.",
+    "adaptations": [
+      "Sirloin instead of scotch fillet.",
+      "Butter left out and garlic added, matching the Unhangry ingredient list.",
+      "350 g dry egg noodles included in the macros."
+    ]
+  }
+}

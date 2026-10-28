@@ -1,0 +1,184 @@
+{
+  "id": "beef-caldereta",
+  "name": "Filipino Beef Caldereta",
+  "protein": "red-meat",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 6,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 567,
+    "protein": 41,
+    "carbs": 34,
+    "fat": 30
+  },
+  "components": [
+    {
+      "id": "caldereta",
+      "name": "Beef Caldereta",
+      "scaling": "ratio",
+      "role": "whole",
+      "servings": 6,
+      "cookedYieldG": 2400,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 567,
+        "protein": 41,
+        "carbs": 34,
+        "fat": 30
+      },
+      "ingredients": [
+        {
+          "name": "Beef bottom round (or chuck), cut into 5 cm cubes",
+          "qty": 900,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Large potatoes, peeled and cubed (~300 g each)",
+          "qty": 2,
+          "unit": "pc",
+          "component": "carb",
+          "gramsPerUnit": 300
+        },
+        {
+          "name": "Large carrots, peeled and cubed (~150 g each)",
+          "qty": 2,
+          "unit": "pc",
+          "component": "other",
+          "gramsPerUnit": 150
+        },
+        {
+          "name": "Onion, chopped",
+          "qty": 1,
+          "unit": "pc",
+          "component": "aromatic",
+          "gramsPerUnit": 150
+        },
+        {
+          "name": "Garlic cloves, minced",
+          "qty": 4,
+          "unit": "clove",
+          "component": "aromatic"
+        },
+        {
+          "name": "Tomato sauce (2 cups)",
+          "qty": 490,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Tomato paste",
+          "qty": 2,
+          "unit": "tbsp",
+          "component": "sauce"
+        },
+        {
+          "name": "Water",
+          "qty": 480,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Green olives, pitted (½ cup)",
+          "qty": 70,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Cheddar cheese, shredded (½ cup)",
+          "qty": 56,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Liver spread (½ cup, optional)",
+          "qty": 120,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Small bell peppers, green and red, cubed (~100 g each)",
+          "qty": 2,
+          "unit": "pc",
+          "component": "other",
+          "gramsPerUnit": 100
+        },
+        {
+          "name": "Canola oil (¼ cup)",
+          "qty": 55,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Thai chillies, minced (about 10; adjust)",
+          "qty": 20,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Salt and pepper",
+          "qty": 1,
+          "unit": "to taste",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Cut beef, potato and carrot into similarly sized chunks to cook evenly.",
+        "Brown the potato and carrot briefly in a little oil, remove them before they soften completely.",
+        "In the same pot soften onion and garlic, then sear the beef on all sides.",
+        "Add tomato sauce, tomato paste, water, chilli and seasoning. Cover and maintain a gentle simmer about 75–100 minutes or until beef is tender.",
+        "Add potato and carrot. Simmer until they are just cooked; stir in liver spread if using and melt the cheese into the sauce.",
+        "Finish with peppers and olives; simmer 3–5 minutes so peppers are not mushy.",
+        "Cool in shallow containers and portion. Serve with rice if desired; rice is not included in these macros."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; quantities, macros and cooked yields are estimates.",
+    "Liver spread and cheddar are part of the source recipe — recalculate the macros if you leave them out.",
+    "Freezer: Potatoes and carrots soften after thawing.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.kawalingpinoy.com/beef-caldereta/",
+  "reference": {
+    "sourceCredit": "Kawaling Pinoy (Lalaine Manalo)",
+    "fileTitle": "Filipino Beef Caldereta",
+    "fileRecipeNumber": 3,
+    "proteinTag": "Red meat",
+    "methodTag": "Stovetop",
+    "appliances": "Stovetop only",
+    "freezer": "YES, with texture caveat: potatoes and carrots soften after thawing.",
+    "preservation": "Refrigerate promptly at <=4 C for up to 3-4 days; freeze portions for later in the week. Use shallow containers and refrigerate within 2 hours, or 1 hour above 32 C ambient. Reheat fully to >=74 C.",
+    "fileMacrosPerServing": {
+      "kcal": 535,
+      "protein": 37.7,
+      "carbs": 27,
+      "fat": 30.6
+    },
+    "fileMacroSource": "estimated-from-ingredients",
+    "fileNutritionMethod": "Computed using generic per-100-g raw ingredient averages for all measured ingredients below and divided by 6. Provisional until checked against labels, measured cooked yields and a nutritional database; ingredient variety and loss during cooking can change results. Excludes optional garnish.",
+    "sourcePublishedNutrition": {
+      "servings": 6,
+      "kcal": 448,
+      "protein": 40,
+      "carbs": 21,
+      "fat": 22,
+      "basis": "per serving"
+    },
+    "fileRecipeNotes": "Source includes liver spread and cheddar; do not remove these without recalculating. Main dish only; rice is an optional separate component.",
+    "cookedYieldEstimates": [
+      "Caldereta stew: ~2,400 g"
+    ],
+    "qaStatus": "DRAFT. Not kitchen-tested by UNHANGRY/Mirna. Source-derived starting point with original rewritten instructions and flagged adaptations. Verify recipe-specific food safety, macros and yields before publishing.",
+    "quantitiesFrom": "Creator source page (fetched 2026-10-28) with the Unhangry adaptations listed below.",
+    "adaptations": [
+      "Main dish only; rice is an optional separate side and not included in the macros."
+    ]
+  }
+}

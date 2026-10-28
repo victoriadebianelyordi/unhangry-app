@@ -1,0 +1,196 @@
+{
+  "id": "beef-picadillo",
+  "name": "Cuban Beef Picadillo with Rice",
+  "protein": "red-meat",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 6,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 390,
+    "protein": 28,
+    "carbs": 47,
+    "fat": 9
+  },
+  "components": [
+    {
+      "id": "picadillo",
+      "name": "Picadillo",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 6,
+      "cookedYieldG": 1000,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 195,
+        "protein": 25,
+        "carbs": 4,
+        "fat": 9
+      },
+      "ingredients": [
+        {
+          "name": "93% lean ground beef",
+          "qty": 680,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Large onion, chopped",
+          "qty": 0.5,
+          "unit": "pc",
+          "component": "aromatic",
+          "gramsPerUnit": 150
+        },
+        {
+          "name": "Red bell pepper, finely chopped",
+          "qty": 0.5,
+          "unit": "pc",
+          "component": "aromatic",
+          "gramsPerUnit": 120
+        },
+        {
+          "name": "Tomato, chopped",
+          "qty": 1,
+          "unit": "pc",
+          "component": "other",
+          "gramsPerUnit": 120
+        },
+        {
+          "name": "Tomato sauce (½ can, 4 oz)",
+          "qty": 113,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Water (¼ cup)",
+          "qty": 60,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Pitted green olives (or alcaparrado)",
+          "qty": 2,
+          "unit": "tbsp",
+          "component": "other"
+        },
+        {
+          "name": "Olive brine (2–4 tbsp)",
+          "qty": 3,
+          "unit": "tbsp",
+          "component": "sauce"
+        },
+        {
+          "name": "Garlic cloves, minced",
+          "qty": 2,
+          "unit": "clove",
+          "component": "aromatic"
+        },
+        {
+          "name": "Ground cumin",
+          "qty": 1,
+          "unit": "tsp",
+          "component": "sauce"
+        },
+        {
+          "name": "Dried bay leaves (1–2)",
+          "qty": 2,
+          "unit": "pc",
+          "component": "sauce"
+        },
+        {
+          "name": "Fresh coriander (cilantro)",
+          "qty": 2,
+          "unit": "tbsp",
+          "component": "aromatic"
+        },
+        {
+          "name": "Salt and pepper",
+          "qty": 1,
+          "unit": "to taste",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Brown minced beef in a hot nonstick or lightly oiled sauté pan. Drain excess rendered fat if necessary.",
+        "Add onion, pepper, garlic and fresh chopped tomato; soften over medium heat.",
+        "Stir in cumin, bay leaves, chopped olives and olive brine, followed by tomato sauce and a splash of water.",
+        "Cover and cook on low for 15–20 minutes to develop the sauce; remove bay leaves."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Rice",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 6,
+      "cookedYieldG": 960,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 195,
+        "protein": 4,
+        "carbs": 43,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Dry rice",
+          "qty": 320,
+          "unit": "g",
+          "component": "carb"
+        }
+      ],
+      "steps": [
+        "Rinse and cook rice using the correct package ratio. Cool promptly when done.",
+        "Divide beef and rice into six meals. Keep the grains and saucy mince as separate components.",
+        "Reheat until steaming hot and add fresh herbs at serving time."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; quantities, macros and cooked yields are estimates.",
+    "Freezer: Picadillo freezes very well. Rice should be cooled quickly and frozen early.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.skinnytaste.com/picadillo-6-ww-pts/",
+  "reference": {
+    "sourceCredit": "Skinnytaste (Gina Homolka)",
+    "fileTitle": "Cuban Beef Picadillo with Rice",
+    "fileRecipeNumber": 12,
+    "proteinTag": "Red meat",
+    "methodTag": "Stovetop",
+    "appliances": "Stovetop only",
+    "freezer": "YES: picadillo freezes very well. Rice should be cooled quickly and frozen early.",
+    "preservation": "Refrigerate promptly at <=4 C for up to 3-4 days; freeze portions for later in the week. Use shallow containers and refrigerate within 2 hours, or 1 hour above 32 C ambient. Reheat fully to >=74 C.",
+    "fileMacrosPerServing": {
+      "kcal": 418,
+      "protein": 28,
+      "carbs": 53.1,
+      "fat": 10.4
+    },
+    "fileMacroSource": "estimated-from-ingredients",
+    "fileNutritionMethod": "Computed using generic per-100-g raw ingredient averages for all measured ingredients below and divided by 6. Provisional until checked against labels, measured cooked yields and a nutritional database; ingredient variety and loss during cooking can change results. Excludes optional garnish.",
+    "sourcePublishedNutrition": {
+      "servings": 6,
+      "kcal": 207,
+      "protein": 25,
+      "carbs": 5,
+      "fat": 8.5,
+      "basis": "per ½-cup serving, picadillo only"
+    },
+    "fileRecipeNotes": "Original source macros cover picadillo only; UNHANGRY adds a rice serving for a complete meal.",
+    "cookedYieldEstimates": [
+      "Picadillo: ~1,000 g",
+      "Cooked rice: ~960 g"
+    ],
+    "qaStatus": "DRAFT. Not kitchen-tested by UNHANGRY/Mirna. Source-derived starting point with original rewritten instructions and flagged adaptations. Verify recipe-specific food safety, macros and yields before publishing.",
+    "quantitiesFrom": "Creator source page (fetched 2026-10-28) with the Unhangry adaptations listed below.",
+    "adaptations": [
+      "Rice added (320 g dry, from the ~960 g cooked-rice yield)."
+    ]
+  }
+}

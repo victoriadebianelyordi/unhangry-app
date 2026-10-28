@@ -1,0 +1,210 @@
+{
+  "id": "sticky-hoisin-beef-bowls",
+  "name": "Sticky Hoisin Beef Bowls",
+  "protein": "red-meat",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 5,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 527,
+    "protein": 43,
+    "carbs": 59,
+    "fat": 12
+  },
+  "components": [
+    {
+      "id": "beef",
+      "name": "Sticky Hoisin Beef",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 5,
+      "cookedYieldG": 900,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 301,
+        "protein": 37,
+        "carbs": 11,
+        "fat": 12
+      },
+      "ingredients": [
+        {
+          "name": "Rump or sirloin steak, sliced",
+          "qty": 800,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Neutral oil",
+          "qty": 15,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Light soy sauce",
+          "qty": 10,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Cornflour / cornstarch",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Bicarbonate of soda",
+          "qty": 1,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Garlic cloves, grated",
+          "qty": 3,
+          "unit": "clove",
+          "component": "aromatic"
+        },
+        {
+          "name": "Ginger, grated",
+          "qty": 15,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Hoisin sauce",
+          "qty": 60,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Sauce"
+        },
+        {
+          "name": "Light soy sauce",
+          "qty": 30,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Sauce"
+        },
+        {
+          "name": "Oyster sauce",
+          "qty": 15,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Sauce"
+        },
+        {
+          "name": "Honey",
+          "qty": 20,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Sauce"
+        },
+        {
+          "name": "Sesame oil",
+          "qty": 5,
+          "unit": "ml",
+          "component": "other",
+          "group": "Sauce"
+        },
+        {
+          "name": "Chicken stock",
+          "qty": 30,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Sauce"
+        },
+        {
+          "name": "Salt and ground white pepper",
+          "qty": 1,
+          "unit": "to taste",
+          "component": "other",
+          "group": "Sauce"
+        }
+      ],
+      "steps": [
+        "Mix sliced beef with small amount of soy, cornstarch, bicarbonate, grated garlic and ginger. Rest for 10–15 minutes.",
+        "Sear meat in a very hot wide pan in batches; use a little oil and avoid stirring constantly.",
+        "Whisk hoisin, remaining soy, oyster sauce, honey, sesame oil and a splash of stock.",
+        "Add sauce to the pan and simmer until just sticky. Toss beef in sauce 2–3 minutes until coated and safely cooked."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Jasmine Rice",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 5,
+      "cookedYieldG": 950,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 227,
+        "protein": 5,
+        "carbs": 48,
+        "fat": 1
+      },
+      "ingredients": [
+        {
+          "name": "Jasmine rice, washed",
+          "qty": 300,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Chicken stock (for the rice)",
+          "qty": 550,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Wash jasmine rice until the water is less cloudy. Cover with measured stock, bring to a boil, cook over low heat approximately 12 minutes and rest off heat 5 minutes.",
+        "Portion rice and beef across five meals; optionally finish with sesame and sliced spring onion stored separately."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; quantities, macros and cooked yields are estimates.",
+    "Optional to serve: sliced spring onion and sesame seeds.",
+    "Freezer: Source states suitable for freezing up to 2 months.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://chefjackovens.com/sticky-hoisin-beef-bowls/",
+  "reference": {
+    "sourceCredit": "Chef Jack Ovens",
+    "fileTitle": "Chef Jack Sticky Hoisin Beef Bowls",
+    "fileRecipeNumber": 8,
+    "proteinTag": "Red meat",
+    "methodTag": "Stovetop",
+    "appliances": "Stovetop only",
+    "freezer": "YES: source states suitable for freezing up to 2 months.",
+    "preservation": "Refrigerate promptly at <=4 C for up to 3-4 days; freeze portions for later in the week. Use shallow containers and refrigerate within 2 hours, or 1 hour above 32 C ambient. Reheat fully to >=74 C.",
+    "fileMacrosPerServing": {
+      "kcal": 556,
+      "protein": 46,
+      "carbs": 62.5,
+      "fat": 13
+    },
+    "fileMacroSource": "source-reported",
+    "fileNutritionMethod": "Published creator nutrition for the original batch amounts. Brand and cut variations still apply.",
+    "sourcePublishedNutrition": {
+      "servings": 5,
+      "kcal": 556,
+      "protein": 46,
+      "carbs": 62.5,
+      "fat": 13,
+      "basis": "per serving, 380 g"
+    },
+    "fileRecipeNotes": "Publisher macros 556 kcal, 46 g protein, 62.5 g carbs, 13 g fat per serving.",
+    "cookedYieldEstimates": [
+      "Hoisin beef with sauce: ~900 g",
+      "Cooked rice: ~900–1,000 g"
+    ],
+    "qaStatus": "DRAFT. Not kitchen-tested by UNHANGRY/Mirna. Source-derived starting point with original rewritten instructions and flagged adaptations. Verify recipe-specific food safety, macros and yields before publishing.",
+    "quantitiesFrom": "Creator source page (fetched 2026-10-28) with the Unhangry adaptations listed below.",
+    "adaptations": []
+  }
+}

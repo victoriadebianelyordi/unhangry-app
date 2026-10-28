@@ -1,7 +1,7 @@
 {
   "id": "chili-con-carne",
   "name": "Chili Con Carne",
-  "protein": "beef",
+  "protein": "red-meat",
   "method": "stovetop",
   "mealType": "main",
   "feeds": 8,

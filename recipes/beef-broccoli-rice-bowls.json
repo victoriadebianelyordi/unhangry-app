@@ -1,0 +1,195 @@
+{
+  "id": "beef-broccoli-rice-bowls",
+  "name": "Chinese Beef and Broccoli Rice Bowls",
+  "protein": "red-meat",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 6,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 447,
+    "protein": 23,
+    "carbs": 56,
+    "fat": 14
+  },
+  "components": [
+    {
+      "id": "beef",
+      "name": "Beef in Sauce",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 6,
+      "cookedYieldG": 820,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 215,
+        "protein": 17,
+        "carbs": 6,
+        "fat": 13
+      },
+      "ingredients": [
+        {
+          "name": "Flank steak, thinly sliced across the grain",
+          "qty": 454,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Light soy sauce (1½ tbsp + 1 tsp)",
+          "qty": 27,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Oyster sauce (1 tbsp + 1 tsp)",
+          "qty": 24,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Cornflour / cornstarch (1½ tsp marinade + 2½ tbsp slurry)",
+          "qty": 25,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Neutral oil (2 tsp marinade + 3 tbsp cooking)",
+          "qty": 3.5,
+          "unit": "tbsp",
+          "component": "other"
+        },
+        {
+          "name": "Sugar",
+          "qty": 1.5,
+          "unit": "tsp",
+          "component": "sauce"
+        },
+        {
+          "name": "Low-sodium chicken stock or water (⅔ cup)",
+          "qty": 160,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Garlic cloves, minced",
+          "qty": 2,
+          "unit": "clove",
+          "component": "aromatic"
+        },
+        {
+          "name": "Ginger, grated (¼ tsp)",
+          "qty": 1,
+          "unit": "g",
+          "component": "aromatic"
+        }
+      ],
+      "steps": [
+        "Slice beef across the grain. Mix it with a spoonful of soy, some cornstarch and a little water; set aside about 15 minutes.",
+        "Stir-fry beef in two batches in a hot wok with a little oil, moving only after it browns on one side.",
+        "Cook garlic and ginger briefly, pour in stock, soy, oyster sauce, sugar and remaining cornstarch slurry; simmer until shiny.",
+        "Return beef and broccoli to the sauce and toss only until evenly coated."
+      ]
+    },
+    {
+      "id": "broccoli",
+      "name": "Broccoli",
+      "scaling": "fixed",
+      "servings": 6,
+      "cookedYieldG": 620,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 20,
+        "protein": 2,
+        "carbs": 4,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Broccoli florets (about 4 cups)",
+          "qty": 350,
+          "unit": "g",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Blanch broccoli in boiling water for 60–90 seconds and drain; it should remain bright green and slightly firm."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Jasmine Rice",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 6,
+      "cookedYieldG": 1040,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 213,
+        "protein": 4,
+        "carbs": 47,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Dry jasmine rice",
+          "qty": 350,
+          "unit": "g",
+          "component": "carb"
+        }
+      ],
+      "steps": [
+        "Rinse and cook jasmine rice. Set aside for rapid portioning.",
+        "Keep rice separate from the sauced beef and broccoli to limit sogginess. For the best texture eat in the first 2–3 days."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; quantities, macros and cooked yields are estimates.",
+    "Freezer: Cooked beef and sauce freeze; broccoli turns soft when thawed.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://thewoksoflife.com/beef-with-broccoli-all-purpose-stir-fry-sauce/",
+  "reference": {
+    "sourceCredit": "The Woks of Life",
+    "fileTitle": "Chinese Beef and Broccoli Rice Bowls",
+    "fileRecipeNumber": 6,
+    "proteinTag": "Red meat",
+    "methodTag": "Stovetop",
+    "appliances": "Stovetop only",
+    "freezer": "CONDITIONAL: cooked beef and sauce freeze; broccoli turns soft when thawed.",
+    "preservation": "Refrigerate promptly at <=4 C for up to 3-4 days; freeze portions for later in the week. Use shallow containers and refrigerate within 2 hours, or 1 hour above 32 C ambient. Reheat fully to >=74 C.",
+    "fileMacrosPerServing": {
+      "kcal": 498,
+      "protein": 31.5,
+      "carbs": 65.6,
+      "fat": 12.2
+    },
+    "fileMacroSource": "estimated-from-ingredients",
+    "fileNutritionMethod": "Computed using generic per-100-g raw ingredient averages for all measured ingredients below and divided by 6. Provisional until checked against labels, measured cooked yields and a nutritional database; ingredient variety and loss during cooking can change results. Excludes optional garnish.",
+    "sourcePublishedNutrition": {
+      "servings": 6,
+      "kcal": 232,
+      "protein": 19,
+      "carbs": 10,
+      "fat": 13,
+      "basis": "per serving, stir-fry only"
+    },
+    "fileRecipeNotes": "Source dish is stir-fry; added rice makes this a complete meal.",
+    "cookedYieldEstimates": [
+      "Beef in sauce: ~820 g",
+      "Broccoli: ~620 g",
+      "Cooked rice: ~1,040 g"
+    ],
+    "qaStatus": "DRAFT. Not kitchen-tested by UNHANGRY/Mirna. Source-derived starting point with original rewritten instructions and flagged adaptations. Verify recipe-specific food safety, macros and yields before publishing.",
+    "quantitiesFrom": "Creator source page (fetched 2026-10-28) with the Unhangry adaptations listed below.",
+    "adaptations": [
+      "Rice added (350 g dry, from the ~1,040 g cooked-rice yield).",
+      "Shaoxing wine, dark soy, sesame oil, white pepper and the optional baking soda left out, matching the Unhangry ingredient list; dark soy folded into the light soy."
+    ]
+  }
+}

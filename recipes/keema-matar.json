@@ -1,0 +1,201 @@
+{
+  "id": "keema-matar",
+  "name": "Keema Matar with Basmati Rice",
+  "protein": "red-meat",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 674,
+    "protein": 33,
+    "carbs": 61,
+    "fat": 33
+  },
+  "components": [
+    {
+      "id": "keema",
+      "name": "Keema Matar",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 1130,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 464,
+        "protein": 29,
+        "carbs": 15,
+        "fat": 32
+      },
+      "ingredients": [
+        {
+          "name": "Lean minced lamb",
+          "qty": 500,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Onions, grated (1 cup)",
+          "qty": 150,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Tomatoes, chopped (2 cups)",
+          "qty": 360,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Frozen green peas (1 cup)",
+          "qty": 145,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Garlic paste",
+          "qty": 1,
+          "unit": "tsp",
+          "component": "aromatic"
+        },
+        {
+          "name": "Ginger paste",
+          "qty": 1,
+          "unit": "tsp",
+          "component": "aromatic"
+        },
+        {
+          "name": "Ghee (⅓ cup)",
+          "qty": 73,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Tomato paste",
+          "qty": 1,
+          "unit": "tbsp",
+          "component": "sauce"
+        },
+        {
+          "name": "Coriander powder",
+          "qty": 1,
+          "unit": "tbsp",
+          "component": "sauce"
+        },
+        {
+          "name": "Cumin seeds",
+          "qty": 2,
+          "unit": "tsp",
+          "component": "sauce"
+        },
+        {
+          "name": "Turmeric",
+          "qty": 0.5,
+          "unit": "tsp",
+          "component": "sauce"
+        },
+        {
+          "name": "Garam masala",
+          "qty": 1,
+          "unit": "tsp",
+          "component": "sauce"
+        },
+        {
+          "name": "Chilli powder",
+          "qty": 0.5,
+          "unit": "tsp",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 1,
+          "unit": "to taste",
+          "component": "other"
+        },
+        {
+          "name": "Fresh coriander leaves, chopped",
+          "qty": 1,
+          "unit": "tbsp",
+          "component": "aromatic"
+        }
+      ],
+      "steps": [
+        "Heat ghee in a heavy skillet and bloom cumin briefly; soften finely chopped onion until the edges colour.",
+        "Add grated garlic and ginger followed by ground spices. Stir briefly so spices do not burn.",
+        "Add lamb mince and break into small pieces, cooking until browned throughout.",
+        "Stir in chopped tomato and tomato paste, simmer 12–15 minutes until the sauce reduces.",
+        "Fold in peas for the final 5–7 minutes until fully heated; adjust seasoning."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Basmati Rice",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 700,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 210,
+        "protein": 4,
+        "carbs": 46,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Dry basmati rice",
+          "qty": 230,
+          "unit": "g",
+          "component": "carb"
+        }
+      ],
+      "steps": [
+        "Rinse rice and cook separately; leave covered to finish steaming.",
+        "Portion four servings of keema and rice. For freezer servings, slightly undercook peas so they retain texture."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; quantities, macros and cooked yields are estimates.",
+    "Freezer: Keema freezes well.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://food.ndtv.com/recipe-keema-matar-99070",
+  "reference": {
+    "sourceCredit": "NDTV Food (Niru Gupta)",
+    "fileTitle": "Keema Matar with Basmati Rice",
+    "fileRecipeNumber": 13,
+    "proteinTag": "Red meat",
+    "methodTag": "Stovetop",
+    "appliances": "Stovetop only",
+    "freezer": "YES: keema freezes well.",
+    "preservation": "Refrigerate promptly at <=4 C for up to 3-4 days; freeze portions for later in the week. Use shallow containers and refrigerate within 2 hours, or 1 hour above 32 C ambient. Reheat fully to >=74 C.",
+    "fileMacrosPerServing": {
+      "kcal": 695,
+      "protein": 35.5,
+      "carbs": 68.2,
+      "fat": 31.1
+    },
+    "fileMacroSource": "estimated-from-ingredients",
+    "fileNutritionMethod": "Computed using generic per-100-g raw ingredient averages for all measured ingredients below and divided by 4. Provisional until checked against labels, measured cooked yields and a nutritional database; ingredient variety and loss during cooking can change results. Excludes optional garnish.",
+    "sourcePublishedNutrition": null,
+    "fileRecipeNotes": "Base ingredients adapted from NDTV keema matar; lean lamb and less ghee than original.",
+    "cookedYieldEstimates": [
+      "Keema with peas: ~1,130 g",
+      "Cooked rice: ~700 g"
+    ],
+    "qaStatus": "DRAFT. Not kitchen-tested by UNHANGRY/Mirna. Source-derived starting point with original rewritten instructions and flagged adaptations. Verify recipe-specific food safety, macros and yields before publishing.",
+    "quantitiesFrom": "Creator source page (fetched 2026-10-28) with the Unhangry adaptations listed below.",
+    "adaptations": [
+      "Lean lamb mince.",
+      "Less ghee than the source: ⅓ cup instead of ½ cup.",
+      "Garam masala replaces the whole cloves, cinnamon, peppercorns, black cardamom and bay; tomato paste added.",
+      "Rice added (230 g dry, from the ~700 g cooked-rice yield)."
+    ]
+  }
+}

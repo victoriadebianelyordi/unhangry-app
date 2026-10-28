@@ -1,0 +1,249 @@
+{
+  "id": "lamb-rogan-josh",
+  "name": "Lamb Rogan Josh with Basmati Rice",
+  "protein": "red-meat",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 6,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 608,
+    "protein": 29,
+    "carbs": 51,
+    "fat": 32
+  },
+  "components": [
+    {
+      "id": "curry",
+      "name": "Rogan Josh",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 6,
+      "cookedYieldG": 1100,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 413,
+        "protein": 25,
+        "carbs": 9,
+        "fat": 31
+      },
+      "ingredients": [
+        {
+          "name": "Boneless lamb shoulder, cut into 3 cm cubes",
+          "qty": 750,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Large onion, finely chopped",
+          "qty": 1,
+          "unit": "pc",
+          "component": "aromatic",
+          "gramsPerUnit": 150
+        },
+        {
+          "name": "Garlic cloves, finely minced",
+          "qty": 3,
+          "unit": "clove",
+          "component": "aromatic"
+        },
+        {
+          "name": "Ginger, finely grated",
+          "qty": 1,
+          "unit": "tbsp",
+          "component": "aromatic"
+        },
+        {
+          "name": "Ghee",
+          "qty": 3.5,
+          "unit": "tbsp",
+          "component": "other"
+        },
+        {
+          "name": "Tomato passata",
+          "qty": 5,
+          "unit": "tbsp",
+          "component": "sauce"
+        },
+        {
+          "name": "Chicken or lamb stock, salt reduced (1½ cups)",
+          "qty": 375,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Plain yogurt (½ cup)",
+          "qty": 125,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Paprika",
+          "qty": 2,
+          "unit": "tbsp",
+          "component": "sauce",
+          "group": "Spices"
+        },
+        {
+          "name": "Ground coriander",
+          "qty": 4,
+          "unit": "tsp",
+          "component": "sauce",
+          "group": "Spices"
+        },
+        {
+          "name": "Ground cumin",
+          "qty": 4,
+          "unit": "tsp",
+          "component": "sauce",
+          "group": "Spices"
+        },
+        {
+          "name": "Turmeric",
+          "qty": 2,
+          "unit": "tsp",
+          "component": "sauce",
+          "group": "Spices"
+        },
+        {
+          "name": "Garam masala (1 tsp + ½ tsp to finish)",
+          "qty": 1.5,
+          "unit": "tsp",
+          "component": "sauce",
+          "group": "Spices"
+        },
+        {
+          "name": "Fennel powder (½ tsp + ½ tsp to finish)",
+          "qty": 1,
+          "unit": "tsp",
+          "component": "sauce",
+          "group": "Spices"
+        },
+        {
+          "name": "Chilli powder, to taste",
+          "qty": 0.75,
+          "unit": "tsp",
+          "component": "sauce",
+          "group": "Spices"
+        },
+        {
+          "name": "Nutmeg",
+          "qty": 0.25,
+          "unit": "tsp",
+          "component": "sauce",
+          "group": "Spices"
+        },
+        {
+          "name": "Cinnamon stick",
+          "qty": 1,
+          "unit": "pc",
+          "component": "sauce",
+          "group": "Spices"
+        },
+        {
+          "name": "Green cardamom pods, lightly bruised",
+          "qty": 6,
+          "unit": "pc",
+          "component": "sauce",
+          "group": "Spices"
+        },
+        {
+          "name": "Whole cloves",
+          "qty": 4,
+          "unit": "pc",
+          "component": "sauce",
+          "group": "Spices"
+        },
+        {
+          "name": "Salt",
+          "qty": 1,
+          "unit": "tsp",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Season and cube lamb shoulder. Set the whole spices and ground spices in separate small dishes.",
+        "Melt ghee in a deep heavy pot, add whole spices and warm for a minute until aromatic.",
+        "Brown onions over moderate heat, then stir in garlic and ginger. Cook ground spices briefly without burning.",
+        "Add tomato, stock and lamb. Bring just to a simmer, cover and cook gently around 1 hour 45 minutes or until tender.",
+        "Uncover for 10–15 minutes if sauce needs thickening. Reduce heat and fold in yogurt carefully without vigorous boiling."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Basmati Rice",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 6,
+      "cookedYieldG": 970,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 195,
+        "protein": 4,
+        "carbs": 43,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Dry basmati rice",
+          "qty": 320,
+          "unit": "g",
+          "component": "carb"
+        }
+      ],
+      "steps": [
+        "Cook rice separately while the lamb finishes; portion immediately after cooking.",
+        "Package lamb curry and rice separately for easy reheating. For a 3-hour cook session, use a pressure cooker alternative if already validated."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; quantities, macros and cooked yields are estimates.",
+    "Optional to serve: chopped coriander, shredded ginger and a spoon of yogurt.",
+    "Freezer: Lamb curry freezes very well; yogurt sauce may need gentle stirring.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.recipetineats.com/rogan-josh/",
+  "reference": {
+    "sourceCredit": "RecipeTin Eats (Nagi Maehashi)",
+    "fileTitle": "Lamb Rogan Josh with Basmati Rice",
+    "fileRecipeNumber": 14,
+    "proteinTag": "Red meat",
+    "methodTag": "Stovetop",
+    "appliances": "Stovetop, long simmer",
+    "freezer": "YES: lamb curry freezes very well; yogurt sauce may need gentle stirring.",
+    "preservation": "Refrigerate promptly at <=4 C for up to 3-4 days; freeze portions for later in the week. Use shallow containers and refrigerate within 2 hours, or 1 hour above 32 C ambient. Reheat fully to >=74 C.",
+    "fileMacrosPerServing": {
+      "kcal": 591,
+      "protein": 29.7,
+      "carbs": 52.2,
+      "fat": 29.3
+    },
+    "fileMacroSource": "estimated-from-ingredients",
+    "fileNutritionMethod": "Computed using generic per-100-g raw ingredient averages for all measured ingredients below and divided by 6. Provisional until checked against labels, measured cooked yields and a nutritional database; ingredient variety and loss during cooking can change results. Excludes optional garnish.",
+    "sourcePublishedNutrition": {
+      "servings": 4,
+      "kcal": 381,
+      "protein": 29,
+      "carbs": 16,
+      "fat": 23,
+      "basis": "curry only; serving size not stated"
+    },
+    "fileRecipeNotes": "Rice is an added component; source nutrition is curry-only.",
+    "cookedYieldEstimates": [
+      "Lamb curry: ~1,100 g",
+      "Cooked basmati rice: ~970 g"
+    ],
+    "qaStatus": "DRAFT. Not kitchen-tested by UNHANGRY/Mirna. Source-derived starting point with original rewritten instructions and flagged adaptations. Verify recipe-specific food safety, macros and yields before publishing.",
+    "quantitiesFrom": "Creator source page (fetched 2026-10-28) with the Unhangry adaptations listed below.",
+    "adaptations": [
+      "The source curry (written for 4) is spread across 6 meal-prep servings with rice, as in the Unhangry file.",
+      "Rice added (320 g dry, from the ~970 g cooked-rice yield)."
+    ]
+  }
+}

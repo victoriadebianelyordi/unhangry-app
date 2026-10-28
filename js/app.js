@@ -3,11 +3,21 @@
 // renders the filterable grid, and drives the recipe detail modal.
 
 const PROTEIN_META = {
-  beef: { icon: '🥩', label: 'Beef' },
-  chicken: { icon: '🍗', label: 'Chicken' },
+  'red-meat': { icon: '🥩', label: 'Red Meat' },
+  'white-meat': { icon: '🍗', label: 'White Meat' },
   seafood: { icon: '🐟', label: 'Seafood' },
-  veggie: { icon: '🥦', label: 'Veggie' },
+  veggie: { icon: '🥦', label: 'Vegetarian' },
 };
+
+// Red meat = beef and lamb; white meat = chicken, turkey and pork. Older recipes saved on a
+// device still say "beef"/"chicken" etc., so map them onto the current four groups.
+const PROTEIN_ALIASES = {
+  beef: 'red-meat', lamb: 'red-meat', chicken: 'white-meat', turkey: 'white-meat', pork: 'white-meat',
+  fish: 'seafood', vegetarian: 'veggie',
+};
+function withProteinGroup(recipe) {
+  return PROTEIN_ALIASES[recipe.protein] ? { ...recipe, protein: PROTEIN_ALIASES[recipe.protein] } : recipe;
+}
 
 // Snacks are filtered/iconed by their primary macro, not protein type —
 // filtering by protein type doesn't make sense for a rice cake or a shake.
@@ -76,7 +86,7 @@ async function loadRecipes() {
       `<p class="empty-state">Couldn't load the built-in recipe database — showing anything saved on this device instead.</p>`;
   }
   const localRecipes = lsGet(LS_KEYS.localRecipes, []);
-  ALL_RECIPES = [...serverRecipes, ...localRecipes];
+  ALL_RECIPES = [...serverRecipes, ...localRecipes].map(withProteinGroup);
   ALL_RECIPES.sort((a, b) => a.name.localeCompare(b.name));
   renderGrid();
 }
@@ -570,7 +580,7 @@ let currentIngredients = [];
 function openReviewModal(recipe, statusMessage) {
   document.getElementById('rf-name').value = recipe.name || '';
   document.getElementById('rf-feeds').value = recipe.feeds || 4;
-  document.getElementById('rf-protein').value = recipe.protein || 'veggie';
+  document.getElementById('rf-protein').value = withProteinGroup(recipe).protein || 'veggie';
   document.getElementById('rf-method').value = recipe.method || 'stovetop';
 
   const m = recipe.macrosPerServing || {};

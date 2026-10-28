@@ -1,7 +1,7 @@
 {
   "id": "beef-stroganoff",
   "name": "Beef Stroganoff",
-  "protein": "beef",
+  "protein": "red-meat",
   "method": "stovetop",
   "mealType": "main",
   "feeds": 5,

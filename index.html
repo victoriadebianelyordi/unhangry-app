@@ -42,10 +42,10 @@
     <div class="filter-row">
       <div class="chips" id="protein-filters">
         <button class="chip is-active" data-protein="all">All</button>
-        <button class="chip" data-protein="beef">🥩 Beef</button>
-        <button class="chip" data-protein="chicken">🍗 Chicken</button>
+        <button class="chip" data-protein="red-meat">🥩 Red Meat</button>
+        <button class="chip" data-protein="white-meat">🍗 White Meat</button>
         <button class="chip" data-protein="seafood">🐟 Seafood</button>
-        <button class="chip" data-protein="veggie">🥦 Veggie</button>
+        <button class="chip" data-protein="veggie">🥦 Vegetarian</button>
       </div>
       <div class="chips" id="macro-filters" hidden>
         <button class="chip is-active" data-macro="all">All</button>
@@ -347,10 +347,10 @@
           <label class="field">
             <span>Protein</span>
             <select id="rf-protein">
-              <option value="beef">Beef</option>
-              <option value="chicken">Chicken</option>
-              <option value="seafood">Seafood</option>
-              <option value="veggie">Veggie</option>
+              <option value="red-meat">Red meat (beef, lamb)</option>
+              <option value="white-meat">White meat (chicken, turkey, pork)</option>
+              <option value="seafood">Seafood (fish, shellfish)</option>
+              <option value="veggie">Vegetarian</option>
             </select>
           </label>
           <label class="field">
@@ -508,10 +508,10 @@
       <h2 class="display-h2" id="picker-modal-title">Pick one</h2>
       <div class="chips" id="picker-protein-filters" hidden>
         <button class="chip is-active" data-protein="all">All</button>
-        <button class="chip" data-protein="beef">🥩 Beef</button>
-        <button class="chip" data-protein="chicken">🍗 Chicken</button>
+        <button class="chip" data-protein="red-meat">🥩 Red Meat</button>
+        <button class="chip" data-protein="white-meat">🍗 White Meat</button>
         <button class="chip" data-protein="seafood">🐟 Seafood</button>
-        <button class="chip" data-protein="veggie">🥦 Veggie</button>
+        <button class="chip" data-protein="veggie">🥦 Vegetarian</button>
       </div>
       <div class="recipe-grid" id="picker-grid"></div>
       <p class="empty-state" id="picker-empty" hidden>Nothing available here — add one from The Database first.</p>

@@ -1,11 +1,16 @@
 {
   "id": "recipe-id-here",
   "name": "Recipe Name Here",
-  "protein": "beef",
+  "protein": "red-meat",
   "method": "stovetop",
   "mealType": "main",
   "feeds": 6,
-  "macrosPerServing": { "kcal": 0, "protein": 0, "carbs": 0, "fat": 0 },
+  "macrosPerServing": {
+    "kcal": 0,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 0
+  },
   "ingredients": [
     {
       "name": "Ingredient name",

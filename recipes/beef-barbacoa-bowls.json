@@ -1,0 +1,229 @@
+{
+  "id": "beef-barbacoa-bowls",
+  "name": "Beef Barbacoa Burrito Bowls",
+  "protein": "red-meat",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 10,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 694,
+    "protein": 46,
+    "carbs": 55,
+    "fat": 31
+  },
+  "components": [
+    {
+      "id": "barbacoa",
+      "name": "Beef Barbacoa",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 10,
+      "cookedYieldG": 1650,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 440,
+        "protein": 39,
+        "carbs": 3,
+        "fat": 30
+      },
+      "ingredients": [
+        {
+          "name": "Beef cheeks or chuck",
+          "qty": 2,
+          "unit": "kg",
+          "component": "protein"
+        },
+        {
+          "name": "Neutral oil (for searing)",
+          "qty": 2,
+          "unit": "tbsp",
+          "component": "other"
+        },
+        {
+          "name": "Salt",
+          "qty": 1,
+          "unit": "tsp",
+          "component": "other"
+        },
+        {
+          "name": "Black pepper",
+          "qty": 1,
+          "unit": "tsp",
+          "component": "other"
+        },
+        {
+          "name": "Bay leaves",
+          "qty": 4,
+          "unit": "pc",
+          "component": "sauce"
+        },
+        {
+          "name": "Chipotle chillies in adobo sauce",
+          "qty": 4,
+          "unit": "pc",
+          "component": "sauce",
+          "group": "Barbacoa sauce"
+        },
+        {
+          "name": "Low-sodium beef broth (¾ cup, instead of dark beer)",
+          "qty": 180,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Barbacoa sauce"
+        },
+        {
+          "name": "Apple cider vinegar (½ cup)",
+          "qty": 120,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Barbacoa sauce"
+        },
+        {
+          "name": "Lime juice (4 tbsp)",
+          "qty": 60,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Barbacoa sauce"
+        },
+        {
+          "name": "Garlic cloves",
+          "qty": 6,
+          "unit": "clove",
+          "component": "aromatic",
+          "group": "Barbacoa sauce"
+        },
+        {
+          "name": "Ground cumin",
+          "qty": 4,
+          "unit": "tsp",
+          "component": "sauce",
+          "group": "Barbacoa sauce"
+        },
+        {
+          "name": "Dried oregano",
+          "qty": 2,
+          "unit": "tsp",
+          "component": "sauce",
+          "group": "Barbacoa sauce"
+        },
+        {
+          "name": "Ground cloves",
+          "qty": 0.5,
+          "unit": "tsp",
+          "component": "sauce",
+          "group": "Barbacoa sauce"
+        }
+      ],
+      "steps": [
+        "Season the beef and brown in batches in a deep heavy pot.",
+        "Blend chipotles with stock, vinegar, lime, garlic, cumin, oregano and ground clove.",
+        "Pour the sauce over beef, add bay leaves, cover and simmer on low for 3–4 hours or until it shreds very easily. Add water if needed.",
+        "Shred beef with two forks, return it to some reduced cooking liquid and mix well."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Rice",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 10,
+      "cookedYieldG": 1600,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 193,
+        "protein": 4,
+        "carbs": 42,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Dry rice",
+          "qty": 530,
+          "unit": "g",
+          "component": "carb"
+        }
+      ],
+      "steps": [
+        "Cook rice and cool promptly."
+      ]
+    },
+    {
+      "id": "beans",
+      "name": "Black Beans",
+      "scaling": "fixed",
+      "servings": 10,
+      "cookedYieldG": 600,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 60,
+        "protein": 4,
+        "carbs": 10,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Black beans, drained",
+          "qty": 600,
+          "unit": "g",
+          "component": "carb"
+        }
+      ],
+      "steps": [
+        "Warm drained beans separately; cool promptly.",
+        "Portion rice, beans and barbacoa into ten bowls. Add lime, lettuce or fresh salsa only when serving.",
+        "This is a long-clock recipe and should be selected only if Sunday scheduling permits it."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; quantities, macros and cooked yields are estimates.",
+    "Long cook: 3–4 hours simmer (a slow cooker also works).",
+    "Freezer: Beef and beans freeze very well; rice requires rapid cooling and freezing.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.recipetineats.com/beef-barbacoa/",
+  "reference": {
+    "sourceCredit": "RecipeTin Eats (Nagi Maehashi)",
+    "fileTitle": "Beef Barbacoa Burrito Bowls",
+    "fileRecipeNumber": 17,
+    "proteinTag": "Red meat",
+    "methodTag": "Stovetop",
+    "appliances": "Primary stovetop long simmer; slow cooker alternative",
+    "freezer": "YES: beef and beans freeze very well; rice requires rapid cooling and freezing.",
+    "preservation": "Refrigerate promptly at <=4 C for up to 3-4 days; freeze portions for later in the week. Use shallow containers and refrigerate within 2 hours, or 1 hour above 32 C ambient. Reheat fully to >=74 C.",
+    "fileMacrosPerServing": {
+      "kcal": 664,
+      "protein": 47.5,
+      "carbs": 60.9,
+      "fat": 25.6
+    },
+    "fileMacroSource": "estimated-from-ingredients",
+    "fileNutritionMethod": "Computed using generic per-100-g raw ingredient averages for all measured ingredients below and divided by 10. Provisional until checked against labels, measured cooked yields and a nutritional database; ingredient variety and loss during cooking can change results. Excludes optional garnish.",
+    "sourcePublishedNutrition": {
+      "servings": 10,
+      "kcal": 372,
+      "protein": 35,
+      "carbs": 3,
+      "fat": 24,
+      "basis": "per serving, meat only"
+    },
+    "fileRecipeNotes": "Source is meat-only; the rice and beans make UNHANGRY a complete meal and macros are recalculated. Beef broth replaces beer.",
+    "cookedYieldEstimates": [
+      "Shredded beef with sauce: ~1,550–1,750 g",
+      "Cooked rice: ~1,600 g",
+      "Cooked beans: ~600 g"
+    ],
+    "qaStatus": "DRAFT. Not kitchen-tested by UNHANGRY/Mirna. Source-derived starting point with original rewritten instructions and flagged adaptations. Verify recipe-specific food safety, macros and yields before publishing.",
+    "quantitiesFrom": "Creator source page (fetched 2026-10-28) with the Unhangry adaptations listed below.",
+    "adaptations": [
+      "Beef broth replaces the dark beer.",
+      "Rice (530 g dry, from the ~1,600 g cooked-rice yield) and black beans (600 g drained) added for complete bowls."
+    ]
+  }
+}

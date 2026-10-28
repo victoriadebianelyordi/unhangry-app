@@ -1,0 +1,217 @@
+{
+  "id": "steak-diane-mash",
+  "name": "Steak Diane with Mashed Potatoes",
+  "protein": "red-meat",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 5,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 628,
+    "protein": 46,
+    "carbs": 42,
+    "fat": 31
+  },
+  "components": [
+    {
+      "id": "steak",
+      "name": "Steak Diane",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 5,
+      "cookedYieldG": 1350,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 407,
+        "protein": 42,
+        "carbs": 7,
+        "fat": 24
+      },
+      "ingredients": [
+        {
+          "name": "Lean steak (rump, scotch or sirloin), diced",
+          "qty": 900,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 15,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Sweet paprika",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Onion powder",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Garlic powder",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt and pepper",
+          "qty": 1,
+          "unit": "to taste",
+          "component": "other"
+        },
+        {
+          "name": "Unsalted butter",
+          "qty": 24,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Diane sauce"
+        },
+        {
+          "name": "Garlic cloves, minced",
+          "qty": 3,
+          "unit": "clove",
+          "component": "aromatic",
+          "group": "Diane sauce"
+        },
+        {
+          "name": "Tomato paste",
+          "qty": 10,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Diane sauce"
+        },
+        {
+          "name": "Beef gravy granules",
+          "qty": 30,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Diane sauce"
+        },
+        {
+          "name": "Boiling water",
+          "qty": 400,
+          "unit": "ml",
+          "component": "other",
+          "group": "Diane sauce"
+        },
+        {
+          "name": "Worcestershire sauce",
+          "qty": 22.5,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Diane sauce"
+        },
+        {
+          "name": "Thickened cream",
+          "qty": 100,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Diane sauce"
+        }
+      ],
+      "steps": [
+        "Toss steak cubes with paprika, garlic and onion powders, pepper and salt.",
+        "Heat olive oil in a large skillet. Sear steak cubes quickly in separate batches; transfer to a dish.",
+        "Melt butter in same pan, add minced garlic and tomato paste and cook briefly.",
+        "Whisk gravy granules into hot water separately, then pour into pan and simmer until glossy. Add Worcestershire and cream.",
+        "Turn off heat, fold steak through the sauce, and divide with mash into five containers."
+      ]
+    },
+    {
+      "id": "mash",
+      "name": "Mashed Potatoes",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 5,
+      "cookedYieldG": 900,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 221,
+        "protein": 5,
+        "carbs": 35,
+        "fat": 7
+      },
+      "ingredients": [
+        {
+          "name": "Potatoes, peeled and chopped",
+          "qty": 1,
+          "unit": "kg",
+          "component": "carb"
+        },
+        {
+          "name": "Unsalted butter",
+          "qty": 40,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "2% milk, warmed",
+          "qty": 100,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Salt",
+          "qty": 1,
+          "unit": "to taste",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Start potatoes in cold salted water. Boil until easily pierced, approximately 15 minutes.",
+        "Drain thoroughly, add butter and warm milk, and mash just until smooth; avoid overmixing."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; quantities, macros and cooked yields are estimates.",
+    "Optional garnish: chopped parsley and cracked black pepper.",
+    "Freezer: Publisher approves freezing. Reheat gently; cream sauce and steak texture may degrade with overheating.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://chefjackovens.com/steak-bites-diane-mash/",
+  "reference": {
+    "sourceCredit": "Chef Jack Ovens",
+    "fileTitle": "Chef Jack Steak Diane with Mashed Potatoes",
+    "fileRecipeNumber": 20,
+    "proteinTag": "Red meat",
+    "methodTag": "Stovetop",
+    "appliances": "Stovetop only",
+    "freezer": "YES: publisher approves freezing. Reheat gently; cream sauce and steak texture may degrade with overheating.",
+    "preservation": "Refrigerate promptly at <=4 C for up to 3-4 days; freeze portions for later in the week. Use shallow containers and refrigerate within 2 hours, or 1 hour above 32 C ambient. Reheat fully to >=74 C.",
+    "fileMacrosPerServing": {
+      "kcal": 628.4,
+      "protein": 50,
+      "carbs": 43,
+      "fat": 30.2
+    },
+    "fileMacroSource": "source-reported",
+    "fileNutritionMethod": "Published creator nutrition for the original batch amounts. Brand and cut variations still apply.",
+    "sourcePublishedNutrition": {
+      "servings": 5,
+      "kcal": 628.4,
+      "protein": 50,
+      "carbs": 43,
+      "fat": 30.2,
+      "basis": "per serving, 450 g"
+    },
+    "fileRecipeNotes": "Publisher gives 628.4 kcal, 50 g protein, 43 g carbs, 30.2 g fat per serving.",
+    "cookedYieldEstimates": [
+      "Diane beef with sauce: ~1,350 g",
+      "Mashed potatoes: ~900 g"
+    ],
+    "qaStatus": "DRAFT. Not kitchen-tested by UNHANGRY/Mirna. Source-derived starting point with original rewritten instructions and flagged adaptations. Verify recipe-specific food safety, macros and yields before publishing.",
+    "quantitiesFrom": "Creator source page (fetched 2026-10-28) with the Unhangry adaptations listed below.",
+    "adaptations": []
+  }
+}

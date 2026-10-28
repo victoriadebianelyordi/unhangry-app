@@ -1,0 +1,201 @@
+{
+  "id": "spaghetti-bolognese",
+  "name": "Spaghetti Bolognese",
+  "protein": "red-meat",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 5,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 599,
+    "protein": 34,
+    "carbs": 79,
+    "fat": 16
+  },
+  "components": [
+    {
+      "id": "sauce",
+      "name": "Bolognese Sauce",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 5,
+      "cookedYieldG": 1350,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 302,
+        "protein": 24,
+        "carbs": 19,
+        "fat": 15
+      },
+      "ingredients": [
+        {
+          "name": "Lean ground beef",
+          "qty": 500,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Crushed tomatoes",
+          "qty": 800,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Onion, finely diced",
+          "qty": 1,
+          "unit": "pc",
+          "component": "aromatic",
+          "gramsPerUnit": 150
+        },
+        {
+          "name": "Garlic cloves, minced",
+          "qty": 2,
+          "unit": "clove",
+          "component": "aromatic"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 1.5,
+          "unit": "tbsp",
+          "component": "other"
+        },
+        {
+          "name": "Tomato paste",
+          "qty": 2,
+          "unit": "tbsp",
+          "component": "sauce"
+        },
+        {
+          "name": "Beef stock (instead of red wine)",
+          "qty": 125,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Worcestershire sauce",
+          "qty": 10,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Sugar, as needed",
+          "qty": 2,
+          "unit": "tsp",
+          "component": "sauce"
+        },
+        {
+          "name": "Beef bouillon cubes, crumbled",
+          "qty": 2,
+          "unit": "pc",
+          "component": "sauce"
+        },
+        {
+          "name": "Bay leaves",
+          "qty": 2,
+          "unit": "pc",
+          "component": "sauce"
+        },
+        {
+          "name": "Fresh thyme sprigs",
+          "qty": 2,
+          "unit": "pc",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 0.75,
+          "unit": "tsp",
+          "component": "other"
+        },
+        {
+          "name": "Black pepper",
+          "qty": 0.5,
+          "unit": "tsp",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Finely dice the onion and garlic; have the canned tomato and stock measured before switching on the heat.",
+        "Heat oil in a deep pan over medium-high. Sweat the onion until translucent, then stir in garlic for about 30 seconds.",
+        "Increase the heat and brown the beef in a thin layer, breaking it into small pieces. If doubling the batch, brown in two rounds.",
+        "Pour in stock and scrape up the savoury bits. Stir in tomatoes, tomato paste, Worcestershire, bouillon, bay, thyme, seasoning and optional sugar.",
+        "Simmer partially uncovered for 25–35 minutes, stirring occasionally, until the sauce is thick but still spoonable. Remove the bay leaves."
+      ]
+    },
+    {
+      "id": "pasta",
+      "name": "Spaghetti",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 5,
+      "cookedYieldG": 950,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 297,
+        "protein": 10,
+        "carbs": 60,
+        "fat": 1
+      },
+      "ingredients": [
+        {
+          "name": "Dry spaghetti",
+          "qty": 400,
+          "unit": "g",
+          "component": "carb"
+        }
+      ],
+      "steps": [
+        "Boil spaghetti until just under al dente. Drain, reserving a little pasta water. Toss pasta with some sauce for meals going into the fridge; for freezer portions pack sauce separately from pasta.",
+        "Portion into five containers. Reheat thoroughly; loosen thick sauce with a splash of water."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; quantities, macros and cooked yields are estimates.",
+    "Optional to serve: grated parmesan and chopped parsley (not included in the macros).",
+    "Freezer: Beef sauce freezes very well; freeze pasta separately if possible.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.recipetineats.com/spaghetti-bolognese/",
+  "reference": {
+    "sourceCredit": "RecipeTin Eats (Nagi Maehashi)",
+    "fileTitle": "Spaghetti Bolognese",
+    "fileRecipeNumber": 1,
+    "proteinTag": "Red meat",
+    "methodTag": "Stovetop",
+    "appliances": "Stovetop only",
+    "freezer": "YES: beef sauce freezes very well; freeze pasta separately if possible.",
+    "preservation": "Refrigerate promptly at <=4 C for up to 3-4 days; freeze portions for later in the week. Use shallow containers and refrigerate within 2 hours, or 1 hour above 32 C ambient. Reheat fully to >=74 C.",
+    "fileMacrosPerServing": {
+      "kcal": 551,
+      "protein": 33,
+      "carbs": 73.1,
+      "fat": 14
+    },
+    "fileMacroSource": "estimated-from-ingredients",
+    "fileNutritionMethod": "Computed using generic per-100-g raw ingredient averages for all measured ingredients below and divided by 5. Provisional until checked against labels, measured cooked yields and a nutritional database; ingredient variety and loss during cooking can change results. Excludes optional garnish.",
+    "sourcePublishedNutrition": {
+      "servings": 5,
+      "kcal": 510,
+      "protein": 40.9,
+      "carbs": 53.2,
+      "fat": 12.6,
+      "basis": "per serving incl. pasta, 396 g"
+    },
+    "fileRecipeNotes": "Adapted with beef stock replacing optional wine. Nutrition is for sauce plus pasta.",
+    "cookedYieldEstimates": [
+      "Bolognese sauce: ~1,350 g",
+      "Cooked spaghetti: ~950 g"
+    ],
+    "qaStatus": "DRAFT. Not kitchen-tested by UNHANGRY/Mirna. Source-derived starting point with original rewritten instructions and flagged adaptations. Verify recipe-specific food safety, macros and yields before publishing.",
+    "quantitiesFrom": "Creator source page (fetched 2026-10-28) with the Unhangry adaptations listed below.",
+    "adaptations": [
+      "Beef stock replaces the optional red wine."
+    ]
+  }
+}

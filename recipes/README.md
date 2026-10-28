@@ -16,7 +16,8 @@ folder and it will appear in the app automatically the next time the page loads.
 
 - **id** — must match the filename (without `.json`). Lowercase, dashes only.
 - **name** — the recipe name as shown to the user.
-- **protein** — one of: `beef`, `chicken`, `seafood`, `veggie`. For `breakfast` and `snack`
+- **protein** — one of: `red-meat` (beef, lamb), `white-meat` (chicken, turkey, pork),
+  `seafood` (any fish or shellfish), `veggie` (vegetarian). For `breakfast` and `snack`
   recipes this is mostly decorative (no protein filter is shown for those sections) — pick
   whichever fits closest.
 - **method** — one of: `air-fryer`, `oven`, `stovetop`, `no-cook` (fridge/overnight prep —
@@ -76,7 +77,9 @@ them). See `beef-stroganoff.json` or `salmon-teriyaki.json`. Each component has:
 
 An ingredient can also have `gramsPerUnit` (e.g. a 650g cauliflower counted as 1 pc) and
 `group` (a display-only sub-heading inside a component, e.g. "Bechamel sauce").
-`needsMirnaReview: true` on the recipe marks dishes that only scale as a whole for now.
+`needsMirnaReview: true` on the recipe marks drafts that Mirna still has to review.
+`sourceUrl` credits the creator, and `reference` keeps the original working data (source
+nutrition, estimated cooked yields, freezer/preservation notes, adaptations, QA status).
 
 ## Recipes added through the app
 

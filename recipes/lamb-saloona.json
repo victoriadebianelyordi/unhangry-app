@@ -1,0 +1,199 @@
+{
+  "id": "lamb-saloona",
+  "name": "Gulf Lamb Saloona with Vegetables",
+  "protein": "red-meat",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 6,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 543,
+    "protein": 25,
+    "carbs": 63,
+    "fat": 21
+  },
+  "components": [
+    {
+      "id": "saloona",
+      "name": "Lamb Saloona",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 6,
+      "cookedYieldG": 2300,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 379,
+        "protein": 22,
+        "carbs": 27,
+        "fat": 21
+      },
+      "ingredients": [
+        {
+          "name": "Lamb pieces",
+          "qty": 600,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Medium onion, finely chopped",
+          "qty": 1,
+          "unit": "pc",
+          "component": "aromatic",
+          "gramsPerUnit": 110
+        },
+        {
+          "name": "Garlic cloves, finely chopped",
+          "qty": 4,
+          "unit": "clove",
+          "component": "aromatic"
+        },
+        {
+          "name": "Sunflower oil",
+          "qty": 1,
+          "unit": "tbsp",
+          "component": "other"
+        },
+        {
+          "name": "Tomato paste",
+          "qty": 2,
+          "unit": "tbsp",
+          "component": "sauce"
+        },
+        {
+          "name": "Medium potatoes, cubed (~170 g each)",
+          "qty": 3,
+          "unit": "pc",
+          "component": "carb",
+          "gramsPerUnit": 170
+        },
+        {
+          "name": "Medium carrots, cut into 5 mm cubes (~60 g each)",
+          "qty": 3,
+          "unit": "pc",
+          "component": "other",
+          "gramsPerUnit": 60
+        },
+        {
+          "name": "Medium zucchini, cubed (~200 g each)",
+          "qty": 3,
+          "unit": "pc",
+          "component": "other",
+          "gramsPerUnit": 200
+        },
+        {
+          "name": "Medium green bell pepper, chopped",
+          "qty": 1,
+          "unit": "pc",
+          "component": "other",
+          "gramsPerUnit": 120
+        },
+        {
+          "name": "Water or beef stock (4 cups)",
+          "qty": 960,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Ginger powder",
+          "qty": 2,
+          "unit": "tbsp",
+          "component": "sauce"
+        },
+        {
+          "name": "Beef bouillon cubes (or bezar spice equivalent)",
+          "qty": 2,
+          "unit": "pc",
+          "component": "sauce"
+        },
+        {
+          "name": "Fresh coriander, chopped",
+          "qty": 3,
+          "unit": "tbsp",
+          "component": "aromatic"
+        }
+      ],
+      "steps": [
+        "Chop lamb and vegetables into even chunks, with potato and carrot larger than the zucchini.",
+        "Sweat onion in oil until softened. Add lamb and brown thoroughly, then stir in garlic and ginger.",
+        "Stir in tomato paste and Gulf spices for about one minute.",
+        "Add stock or water and simmer the lamb covered until tender, roughly 45–70 minutes depending on the cut.",
+        "Add potato and carrot first; cook 10–15 minutes, then add zucchini and pepper for 10–15 minutes more.",
+        "Finish with chopped coriander and check seasoning."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Basmati Rice",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 6,
+      "cookedYieldG": 810,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 164,
+        "protein": 3,
+        "carbs": 36,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Dry basmati rice",
+          "qty": 270,
+          "unit": "g",
+          "component": "carb"
+        }
+      ],
+      "steps": [
+        "Meanwhile steam the basmati rice.",
+        "Pack stew and rice separately; refrigerate earlier servings and freeze portions for later in the week."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; quantities, macros and cooked yields are estimates.",
+    "Freezer: Freeze in portions; zucchini may soften after reheating.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.maggiarabia.com/en/recipes/saudi-salona-lamb-and-vegetable-stew",
+  "reference": {
+    "sourceCredit": "Maggi Arabia",
+    "fileTitle": "Gulf Lamb Saloona with Vegetables",
+    "fileRecipeNumber": 16,
+    "proteinTag": "Red meat",
+    "methodTag": "Stovetop",
+    "appliances": "Stovetop only",
+    "freezer": "YES: freeze in portions; zucchini may soften after reheating.",
+    "preservation": "Refrigerate promptly at <=4 C for up to 3-4 days; freeze portions for later in the week. Use shallow containers and refrigerate within 2 hours, or 1 hour above 32 C ambient. Reheat fully to >=74 C.",
+    "fileMacrosPerServing": {
+      "kcal": 547,
+      "protein": 26.4,
+      "carbs": 63.7,
+      "fat": 20.8
+    },
+    "fileMacroSource": "estimated-from-ingredients",
+    "fileNutritionMethod": "Computed using generic per-100-g raw ingredient averages for all measured ingredients below and divided by 6. Provisional until checked against labels, measured cooked yields and a nutritional database; ingredient variety and loss during cooking can change results. Excludes optional garnish.",
+    "sourcePublishedNutrition": {
+      "servings": 6,
+      "kcal": 424.29,
+      "protein": 35.24,
+      "carbs": 28.34,
+      "fat": 19.9,
+      "basis": "saloona only; serving size not stated"
+    },
+    "fileRecipeNotes": "Gulf Maggi source serves 6 and gives 424 kcal/serving for saloona alone; this version adds rice and adapts the broth.",
+    "cookedYieldEstimates": [
+      "Lamb and vegetable saloona: ~2,300 g",
+      "Cooked rice: ~810 g"
+    ],
+    "qaStatus": "DRAFT. Not kitchen-tested by UNHANGRY/Mirna. Source-derived starting point with original rewritten instructions and flagged adaptations. Verify recipe-specific food safety, macros and yields before publishing.",
+    "quantitiesFrom": "Creator source page (fetched 2026-10-28) with the Unhangry adaptations listed below.",
+    "adaptations": [
+      "Rice added (270 g dry, from the ~810 g cooked-rice yield)."
+    ]
+  }
+}

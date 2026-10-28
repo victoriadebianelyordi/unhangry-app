@@ -1,7 +1,7 @@
 {
   "id": "kafta-sandwiches",
   "name": "Kafta Sandwiches",
-  "protein": "beef",
+  "protein": "red-meat",
   "method": "third-spot",
   "mealType": "main",
   "feeds": 8,

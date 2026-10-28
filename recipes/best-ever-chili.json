@@ -1,0 +1,189 @@
+{
+  "id": "best-ever-chili",
+  "name": "Best Ever Chili (No Bacon)",
+  "protein": "red-meat",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 6,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 374,
+    "protein": 32,
+    "carbs": 26,
+    "fat": 15
+  },
+  "components": [
+    {
+      "id": "chili",
+      "name": "Chili",
+      "scaling": "ratio",
+      "role": "whole",
+      "servings": 6,
+      "cookedYieldG": 2300,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 374,
+        "protein": 32,
+        "carbs": 26,
+        "fat": 15
+      },
+      "ingredients": [
+        {
+          "name": "90% lean beef mince",
+          "qty": 680,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Yellow onion (medium), diced",
+          "qty": 1,
+          "unit": "pc",
+          "component": "aromatic",
+          "gramsPerUnit": 110
+        },
+        {
+          "name": "Green bell pepper, diced",
+          "qty": 1,
+          "unit": "pc",
+          "component": "aromatic",
+          "gramsPerUnit": 120
+        },
+        {
+          "name": "Garlic cloves, minced",
+          "qty": 3,
+          "unit": "clove",
+          "component": "aromatic"
+        },
+        {
+          "name": "Fire-roasted diced tomatoes (28 oz can)",
+          "qty": 794,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Tomato paste",
+          "qty": 2,
+          "unit": "tbsp",
+          "component": "sauce"
+        },
+        {
+          "name": "Black beans, drained and rinsed (15 oz can)",
+          "qty": 250,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Red kidney beans, drained and rinsed (15 oz can)",
+          "qty": 250,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Beef broth (2 cups)",
+          "qty": 480,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Olive oil (replaces bacon fat)",
+          "qty": 1,
+          "unit": "tbsp",
+          "component": "other"
+        },
+        {
+          "name": "Chili powder",
+          "qty": 2,
+          "unit": "tbsp",
+          "component": "sauce"
+        },
+        {
+          "name": "Ground cumin",
+          "qty": 1,
+          "unit": "tbsp",
+          "component": "sauce"
+        },
+        {
+          "name": "Smoked paprika",
+          "qty": 2,
+          "unit": "tsp",
+          "component": "sauce"
+        },
+        {
+          "name": "Dried oregano",
+          "qty": 1,
+          "unit": "tsp",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 1,
+          "unit": "tsp",
+          "component": "other"
+        },
+        {
+          "name": "Bay leaf",
+          "qty": 1,
+          "unit": "pc",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Heat olive oil in a large heavy pot, then soften diced onion and pepper 5–6 minutes. This replaces the original bacon-rendering step.",
+        "Stir in garlic and the minced beef. Break up the beef and cook until no longer pink. Drain excessive fat if needed.",
+        "Cook tomato paste and the cumin, chilli powder, paprika and oregano briefly with the beef until aromatic.",
+        "Add the tomatoes and their juices, both drained beans, stock and bay leaf.",
+        "Bring to a gentle simmer, reduce heat and cook uncovered 30–40 minutes, stirring occasionally, until thick.",
+        "Remove bay leaf and taste for salt and heat. For smoky flavour without bacon, adjust smoked paprika rather than adding cured meat.",
+        "Portion into six bowls; cool quickly and freeze any servings intended for later in the week."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; quantities, macros and cooked yields are estimates.",
+    "Optional garnish: avocado, red onion, shredded cheese or sour cream (not included in the macros).",
+    "Freezer: Freeze in portions for 2–3 months for quality.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://downshiftology.com/recipes/best-chili-recipe/",
+  "reference": {
+    "sourceCredit": "Downshiftology (Lisa Bryan)",
+    "fileTitle": "Downshiftology Best Ever Chili, No Bacon",
+    "fileRecipeNumber": 11,
+    "proteinTag": "Red meat",
+    "methodTag": "Stovetop",
+    "appliances": "Stovetop only",
+    "freezer": "YES: freeze in portions for 2–3 months for quality.",
+    "preservation": "Refrigerate promptly at <=4 C for up to 3-4 days; freeze portions for later in the week. Use shallow containers and refrigerate within 2 hours, or 1 hour above 32 C ambient. Reheat fully to >=74 C.",
+    "fileMacrosPerServing": {
+      "kcal": 362,
+      "protein": 32.5,
+      "carbs": 29.9,
+      "fat": 12.6
+    },
+    "fileMacroSource": "estimated-from-ingredients",
+    "fileNutritionMethod": "Computed using generic per-100-g raw ingredient averages for all measured ingredients below and divided by 6. Provisional until checked against labels, measured cooked yields and a nutritional database; ingredient variety and loss during cooking can change results. Excludes optional garnish.",
+    "sourcePublishedNutrition": {
+      "servings": 6,
+      "kcal": 601,
+      "protein": 37,
+      "carbs": 46,
+      "fat": 30,
+      "basis": "per serving, WITH bacon — does not apply to this version"
+    },
+    "fileRecipeNotes": "Bacon removed as requested; published original nutrition (601 kcal/serving) DOES NOT apply. Our metrics are calculated from the bacon-free ingredient list.",
+    "cookedYieldEstimates": [
+      "Cooked chili: ~2,200–2,400 g; source says about 9 cups for version with bacon"
+    ],
+    "qaStatus": "DRAFT. Not kitchen-tested by UNHANGRY/Mirna. Source-derived starting point with original rewritten instructions and flagged adaptations. Verify recipe-specific food safety, macros and yields before publishing.",
+    "quantitiesFrom": "Creator source page (fetched 2026-10-28) with the Unhangry adaptations listed below.",
+    "adaptations": [
+      "Bacon removed; 1 tbsp olive oil replaces the bacon fat.",
+      "90% lean beef mince."
+    ]
+  }
+}

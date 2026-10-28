@@ -1,0 +1,236 @@
+{
+  "id": "peppercorn-beef-crispy-potatoes",
+  "name": "Peppercorn Beef with Crispy Potatoes",
+  "protein": "red-meat",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 5,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 433,
+    "protein": 45,
+    "carbs": 28,
+    "fat": 16
+  },
+  "components": [
+    {
+      "id": "beef",
+      "name": "Peppercorn Beef & Sauce",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 5,
+      "cookedYieldG": 1000,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 279,
+        "protein": 41,
+        "carbs": 3,
+        "fat": 11
+      },
+      "ingredients": [
+        {
+          "name": "Lean rump or sirloin steak, sliced",
+          "qty": 850,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 15,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Shallot, diced",
+          "qty": 1,
+          "unit": "pc",
+          "component": "aromatic",
+          "gramsPerUnit": 40
+        },
+        {
+          "name": "Garlic cloves, minced",
+          "qty": 2,
+          "unit": "clove",
+          "component": "aromatic"
+        },
+        {
+          "name": "Beef stock",
+          "qty": 125,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Black peppercorns, crushed",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Green peppercorns, drained and crushed",
+          "qty": 10,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "High-protein yogurt",
+          "qty": 100,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Worcestershire sauce",
+          "qty": 5,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt and cracked black pepper",
+          "qty": 1,
+          "unit": "to taste",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Slice and season steak. In a large hot pan, colour the steak quickly in batches without crowding; remove before it overcooks.",
+        "Soften the minced shallot and garlic in the pan. Stir in both peppercorns very briefly until fragrant.",
+        "Deglaze with a splash of stock, scrape the pan, then pour in the rest and simmer until slightly reduced.",
+        "Off the heat, whisk in yogurt and Worcestershire. Fold the steak and juices through the warm sauce without boiling the yogurt."
+      ]
+    },
+    {
+      "id": "potatoes",
+      "name": "Crispy Potatoes",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 5,
+      "cookedYieldG": 570,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 123,
+        "protein": 3,
+        "carbs": 22,
+        "fat": 3
+      },
+      "ingredients": [
+        {
+          "name": "Baby potatoes, halved or quartered",
+          "qty": 700,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 15,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Dried thyme",
+          "qty": 2,
+          "unit": "tsp",
+          "component": "sauce"
+        },
+        {
+          "name": "Dried rosemary",
+          "qty": 0.5,
+          "unit": "tsp",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt and cracked black pepper",
+          "qty": 1,
+          "unit": "to taste",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Cut potatoes evenly and toss with oil, thyme, rosemary and seasoning. Roast at 200°C for approximately 25–30 minutes (or air-fry at 190°C for 18–20 minutes), shaking once."
+      ]
+    },
+    {
+      "id": "kale",
+      "name": "Sautéed Kale",
+      "scaling": "fixed",
+      "servings": 5,
+      "cookedYieldG": 110,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 31,
+        "protein": 1,
+        "carbs": 3,
+        "fat": 2
+      },
+      "ingredients": [
+        {
+          "name": "Kale, stems removed",
+          "qty": 150,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 10,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Lemon juice (optional), salt and pepper",
+          "qty": 1,
+          "unit": "to taste",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Wilt the kale in the beef pan for 1–2 minutes, season and remove.",
+        "Pack beef and sauce, roasted potatoes and kale as separate components. Re-crisp potato in air fryer when eating."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; quantities, macros and cooked yields are estimates.",
+    "Needs a second appliance: the potatoes roast in the oven or air fryer.",
+    "Freezer: Source approves freezing; potato crunch will deteriorate.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://chefjackovens.com/peppercorn-beef-crispy-potatoes-meal-prep/",
+  "reference": {
+    "sourceCredit": "Chef Jack Ovens",
+    "fileTitle": "Chef Jack Peppercorn Beef with Crispy Potatoes",
+    "fileRecipeNumber": 4,
+    "proteinTag": "Red meat",
+    "methodTag": "Stovetop",
+    "appliances": "Primary stovetop; secondary oven or air fryer",
+    "freezer": "YES: source approves freezing; potato crunch will deteriorate.",
+    "preservation": "Refrigerate promptly at <=4 C for up to 3-4 days; freeze portions for later in the week. Use shallow containers and refrigerate within 2 hours, or 1 hour above 32 C ambient. Reheat fully to >=74 C.",
+    "fileMacrosPerServing": {
+      "kcal": 456,
+      "protein": 45,
+      "carbs": 33,
+      "fat": 17
+    },
+    "fileMacroSource": "source-reported",
+    "fileNutritionMethod": "Published creator nutrition for the original batch amounts. Brand and cut variations still apply.",
+    "sourcePublishedNutrition": {
+      "servings": 5,
+      "kcal": 456,
+      "protein": 45,
+      "carbs": 33,
+      "fat": 17,
+      "basis": "per serving, 450 g"
+    },
+    "fileRecipeNotes": "Published nutrition is 456 kcal, 45 g protein, 33 g carbs, 17 g fat per 5 servings. Recipe requires secondary oven OR air fryer, despite stovetop being primary.",
+    "cookedYieldEstimates": [
+      "Peppercorn beef and sauce: ~1,000 g",
+      "Roasted potatoes: ~570 g",
+      "Wilted kale: ~110 g"
+    ],
+    "qaStatus": "DRAFT. Not kitchen-tested by UNHANGRY/Mirna. Source-derived starting point with original rewritten instructions and flagged adaptations. Verify recipe-specific food safety, macros and yields before publishing.",
+    "quantitiesFrom": "Creator source page (fetched 2026-10-28) with the Unhangry adaptations listed below.",
+    "adaptations": []
+  }
+}

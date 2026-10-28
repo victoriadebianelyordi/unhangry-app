@@ -1,0 +1,220 @@
+{
+  "id": "sweet-potato-beef-bowl",
+  "name": "Loaded Sweet Potato Ground Beef Bowl",
+  "protein": "red-meat",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 793,
+    "protein": 66,
+    "carbs": 60,
+    "fat": 32
+  },
+  "components": [
+    {
+      "id": "beef",
+      "name": "Seasoned Ground Beef",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 520,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 270,
+        "protein": 37,
+        "carbs": 1,
+        "fat": 12
+      },
+      "ingredients": [
+        {
+          "name": "93% lean ground beef",
+          "qty": 700,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Garlic powder",
+          "qty": 1,
+          "unit": "tsp",
+          "component": "sauce"
+        },
+        {
+          "name": "Onion powder",
+          "qty": 1,
+          "unit": "tsp",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt and pepper",
+          "qty": 1,
+          "unit": "to taste",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "While potatoes cook, season minced beef with garlic powder, onion powder, salt and pepper.",
+        "Brown beef fully in a hot nonstick pan, breaking it into small pieces. Drain if necessary."
+      ]
+    },
+    {
+      "id": "sweet-potatoes",
+      "name": "Baked Sweet Potatoes",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 850,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 215,
+        "protein": 4,
+        "carbs": 50,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Sweet potatoes, washed",
+          "qty": 1,
+          "unit": "kg",
+          "component": "carb"
+        }
+      ],
+      "steps": [
+        "Bake washed sweet potatoes at 200°C for about 50–65 minutes until the centres are soft. This is a SECONDARY OVEN lane even though beef uses stovetop.",
+        "Cut the baked potatoes and spoon beef over them."
+      ]
+    },
+    {
+      "id": "eggs",
+      "name": "Eggs",
+      "scaling": "units",
+      "units": {
+        "label": "egg",
+        "count": 8,
+        "step": 1,
+        "perServing": 2,
+        "sizeBy": "fixed"
+      },
+      "servings": 4,
+      "macrosPerServing": {
+        "kcal": 144,
+        "protein": 13,
+        "carbs": 1,
+        "fat": 10
+      },
+      "ingredients": [
+        {
+          "name": "Large eggs (about 400 g edible)",
+          "qty": 8,
+          "unit": "pc",
+          "component": "protein"
+        }
+      ],
+      "steps": [
+        "For multi-day meal prep cook eggs all the way through (scrambled or hard-boiled); the original over-easy eggs are only suitable fresh."
+      ]
+    },
+    {
+      "id": "cottage",
+      "name": "Cottage Cheese",
+      "scaling": "fixed",
+      "servings": 4,
+      "cookedYieldG": 400,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 84,
+        "protein": 11,
+        "carbs": 4,
+        "fat": 2
+      },
+      "ingredients": [
+        {
+          "name": "2% cottage cheese",
+          "qty": 400,
+          "unit": "g",
+          "component": "protein"
+        }
+      ],
+      "steps": [
+        "Divide egg and cottage cheese across four bowls."
+      ]
+    },
+    {
+      "id": "avocado",
+      "name": "Avocado",
+      "scaling": "fixed",
+      "servings": 4,
+      "cookedYieldG": 200,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 80,
+        "protein": 1,
+        "carbs": 4,
+        "fat": 7
+      },
+      "ingredients": [
+        {
+          "name": "Avocado",
+          "qty": 200,
+          "unit": "g",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Keep avocado separate and slice close to eating rather than freezing or heating it.",
+        "Heat beef, potato and cooked egg as hot components; serve with cold cottage cheese and avocado."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; quantities, macros and cooked yields are estimates.",
+    "Needs a second appliance: the sweet potatoes bake in the oven.",
+    "Freezer: Freeze beef and baked sweet potato; do not freeze avocado or assembled dairy/egg topping.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://pikory.com/tag/sweet-potato-beef-bowl-meal-prep",
+  "reference": {
+    "sourceCredit": "PrepWithDrew (creator post)",
+    "fileTitle": "PrepWithDrew Loaded Sweet Potato Ground Beef Bowl",
+    "fileRecipeNumber": 21,
+    "proteinTag": "Red meat",
+    "methodTag": "Stovetop",
+    "appliances": "PRIMARY stovetop; SECONDARY oven (sweet potatoes). Must be tagged multi-appliance.",
+    "freezer": "PARTIAL: freeze beef and baked sweet potato; do not freeze avocado or assembled dairy/egg topping.",
+    "preservation": "Refrigerate promptly at <=4 C for up to 3-4 days; freeze portions for later in the week. Use shallow containers and refrigerate within 2 hours, or 1 hour above 32 C ambient. Reheat fully to >=74 C.",
+    "fileMacrosPerServing": {
+      "kcal": 808,
+      "protein": 63,
+      "carbs": 59.5,
+      "fat": 35.4
+    },
+    "fileMacroSource": "estimated-from-ingredients",
+    "fileNutritionMethod": "Computed using generic per-100-g raw ingredient averages for all measured ingredients below and divided by 4. Provisional until checked against labels, measured cooked yields and a nutritional database; ingredient variety and loss during cooking can change results. Excludes optional garnish.",
+    "sourcePublishedNutrition": {
+      "servings": 1,
+      "kcal": 765,
+      "protein": 65,
+      "basis": "creator's own single bowl; no ingredient weights published"
+    },
+    "fileRecipeNotes": "Drew creator post states 765 kcal and 65 g protein for his personal 1-bowl version, but does not disclose exact ingredient weights. These quantities are a clearly labelled UNHANGRY test adaptation, with newly calculated estimates.",
+    "cookedYieldEstimates": [
+      "Cooked ground beef: ~520 g",
+      "Baked sweet potatoes: ~850 g",
+      "Cooked eggs: ~350 g",
+      "Cold cottage cheese: 400 g",
+      "Fresh avocado: 200 g"
+    ],
+    "qaStatus": "DRAFT. Not kitchen-tested by UNHANGRY/Mirna. Source-derived starting point with original rewritten instructions and flagged adaptations. Verify recipe-specific food safety, macros and yields before publishing.",
+    "quantitiesFrom": "Reconstructed from the Unhangry file's cooked yields — the creator doesn't publish ingredient weights and the linked page is behind a bot check.",
+    "adaptations": [
+      "Eggs cooked fully (scrambled or hard-boiled) for multi-day prep.",
+      "Plain 2% cottage cheese."
+    ]
+  }
+}
