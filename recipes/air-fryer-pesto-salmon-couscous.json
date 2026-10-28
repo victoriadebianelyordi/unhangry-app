@@ -1,0 +1,218 @@
+{
+  "id": "air-fryer-pesto-salmon-couscous",
+  "name": "Air Fryer Pesto Salmon with Couscous and Green Beans",
+  "protein": "seafood",
+  "method": "third-spot",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 799,
+    "protein": 49,
+    "carbs": 64,
+    "fat": 39
+  },
+  "components": [
+    {
+      "id": "salmon",
+      "name": "Pesto Salmon",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 585,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 456,
+        "protein": 38,
+        "carbs": 2,
+        "fat": 32
+      },
+      "ingredients": [
+        {
+          "name": "Four raw salmon fillets, approximately 170 g each",
+          "qty": 680,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Prepared basil pesto",
+          "qty": 70,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Grated Parmesan cheese",
+          "qty": 35,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Olive oil to coat air fryer tray",
+          "qty": 4,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Preheat the air fryer to 200 C and lightly grease its basket with the measured oil.",
+        "Dry salmon and coat each upper surface with a portion of pesto, then sprinkle Parmesan evenly across the fillets.",
+        "Air fry in a single layer for approximately 7-11 minutes, checking that the thickest fish centre reaches 63 C; work in batches if needed.",
+        "Portion salmon, couscous and beans into four containers. Pack any extra pesto separately, and prioritize eating salmon in the earlier part of the week."
+      ]
+    },
+    {
+      "id": "couscous",
+      "name": "Lemon Couscous",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 660,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 282,
+        "protein": 9,
+        "carbs": 53,
+        "fat": 4
+      },
+      "ingredients": [
+        {
+          "name": "Dry wholewheat couscous",
+          "qty": 280,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Boiling water for couscous",
+          "qty": 370,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Extra-virgin olive oil",
+          "qty": 15,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Fresh lemon juice",
+          "qty": 30,
+          "unit": "ml",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Place dry couscous in a heatproof bowl with boiling water, cover until absorbed, fluff and toss with the 15 ml oil and lemon juice."
+      ]
+    },
+    {
+      "id": "beans",
+      "name": "Green Beans",
+      "scaling": "fixed",
+      "servings": 4,
+      "cookedYieldG": 440,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 61,
+        "protein": 2,
+        "carbs": 9,
+        "fat": 3
+      },
+      "ingredients": [
+        {
+          "name": "Raw green beans, topped and tailed",
+          "qty": 500,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Olive oil for beans",
+          "qty": 10,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Dried oregano",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Steam green beans until tender-crisp, then toss with their oil and oregano."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Skinnytaste 3-ingredient pesto salmon adapted to complete meals with measured couscous and beans.",
+    "Planning: SECONDARY KETTLE and STOVETOP for couscous and beans.",
+    "Freezer: couscous freezes reasonably well; pesto salmon and beans lose texture on thawing",
+    "Dietary: Fish, wheat, milk; pesto may contain pine nuts.",
+    "Refrigerate within 2 hours (1 hour above 32°C) in shallow containers at 4°C or colder, for 3–4 days at most, and follow the shorter seafood limit above. Cook fish and shellfish to 63°C and reheat leftovers to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": "Salmon — plan for days 1-3; couscous freezes well.",
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.skinnytaste.com/pesto-salmon/",
+  "reference": {
+    "sourceCredit": "Gina Homolka, Skinnytaste",
+    "sourceRecipeUrl": "https://www.skinnytaste.com/pesto-salmon/",
+    "fileTitle": "Air Fryer Pesto Salmon with Couscous and Green Beans",
+    "fileRecipeNumber": 3,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Seafood",
+    "methodTag": "Air fryer",
+    "preparationMethod": "Air frying (see steps for secondary appliance use)",
+    "activePrepTime": "approx 15 minutes",
+    "airFryerCookingTime": "approx 20 minutes (batch counts / secondary work may extend total time)",
+    "freezer": "PARTIAL: couscous freezes reasonably well; pesto salmon and beans lose texture on thawing",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Fish, wheat, milk; pesto may contain pine nuts.",
+    "fileMacrosPerServing": {
+      "kcal": 799,
+      "protein": 48.9,
+      "carbs": 64.1,
+      "fat": 38.5
+    },
+    "fileMacroText": {
+      "kcal": "799 kcal (ESTIMATED)",
+      "protein": "48.9 g (ESTIMATED)",
+      "carbs": "64.1 g (ESTIMATED)",
+      "fat": "38.5 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL measured recipe input ingredients using representative per-100g averages. Not source-published macros, not laboratory-tested. Brands, protein type, shell/bones, discarded coating, uneaten marinade and cooking fats affect accuracy.",
+    "fileNotes": "Skinnytaste 3-ingredient pesto salmon adapted to complete meals with measured couscous and beans.",
+    "planningNotes": "SECONDARY KETTLE and STOVETOP for couscous and beans.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked pesto salmon: approx 585 g",
+      "Hydrated couscous: approx 660 g",
+      "Steamed green beans: approx 440 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; for many fish and shrimp dishes, prioritize eating within 1-2 days for quality and freeze later-week cooked portions promptly.",
+      "Cook fish and crustaceans to 63 C (145 F) or applicable local food-safety standard, and reheat cooked leftovers to 74 C. For crab cakes containing egg binder and purchased cooked crab, reheat to 74 C.",
+      "When recipe includes rice, cool rapidly and refrigerate promptly; do not leave cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Re-crisp breading in an air fryer when possible.",
+      "Do not freeze fresh avocado, uncooked tomato/cucumber/cabbage salad, or mayonnaise/yogurt-based dressing unless kitchen-tested separately.",
+      "Freezer suitability here describes expected eating quality, not laboratory validated shelf life."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, original versus adapted components, ingredient product labels, raw edible weight, cooked yield, serving weight and seafood cooking temperature.",
+      "Macro numbers are preliminary ingredient-input estimates; coatings, unused marinade and measured oil left behind can overstate calories. Recalculate against a verified nutrition database before consumer use.",
+      "Source recipes may be protein-only dishes. App-ready complete meals include separate additions with their own raw weights and provisional cooked yields."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 836,
+      "protein": 50,
+      "carbs": 66,
+      "fat": 41
+    },
+    "quantitiesFrom": "UNHANGRY Seafood Air Fryer file — exact raw quantities as written."
+  }
+}

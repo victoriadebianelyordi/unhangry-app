@@ -1,0 +1,244 @@
+{
+  "id": "air-fryer-greek-tzatziki-fish-tacos",
+  "name": "Air Fryer Greek Tzatziki Fish Tacos",
+  "protein": "seafood",
+  "method": "third-spot",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 646,
+    "protein": 60,
+    "carbs": 73,
+    "fat": 13
+  },
+  "components": [
+    {
+      "id": "fish",
+      "name": "Crispy Fish Strips",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 770,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 327,
+        "protein": 45,
+        "carbs": 22,
+        "fat": 6
+      },
+      "ingredients": [
+        {
+          "name": "Raw boneless cod or firm white fish, cut into taco strips",
+          "qty": 850,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Panko breadcrumbs for coating",
+          "qty": 85,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Plain wheat flour",
+          "qty": 30,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Raw whole egg, beaten, without shell",
+          "qty": 110,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Salt",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Olive oil spray, measured",
+          "qty": 5,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Pat fish strips dry. Set flour, beaten eggs and panko in separate bowls. Coat strips lightly in flour, then egg, then panko; discard any coating left in contact with raw fish.",
+        "Spray the air-fryer basket. Air fry breaded fish at 195 C for 8-12 minutes, turning once until crisp and internal temperature reaches 63 C. Cook batches without stacking.",
+        "Assemble two fish tacos per serving with measured tzatziki and raw vegetables; alternatively pack fish apart from tortillas and sauce for meal prep.",
+        "Reheat fish in the air fryer; add the cold tzatziki, tomato and lettuce only at serving time to avoid sogginess."
+      ]
+    },
+    {
+      "id": "tortillas",
+      "name": "Flour Tortillas",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 320,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 240,
+        "protein": 6,
+        "carbs": 41,
+        "fat": 6
+      },
+      "ingredients": [
+        {
+          "name": "Eight soft flour tortillas, 40 g each",
+          "qty": 320,
+          "unit": "g",
+          "component": "carb"
+        }
+      ],
+      "steps": [
+        "Briefly warm the tortillas, chop lettuce and tomatoes, and portion toppings."
+      ]
+    },
+    {
+      "id": "sides",
+      "name": "Tzatziki & Salad",
+      "scaling": "fixed",
+      "servings": 4,
+      "cookedYieldG": 975,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 79,
+        "protein": 8,
+        "carbs": 10,
+        "fat": 1
+      },
+      "ingredients": [
+        {
+          "name": "Plain strained Greek yogurt",
+          "qty": 250,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Tzatziki"
+        },
+        {
+          "name": "Raw cucumber, grated and squeezed dry",
+          "qty": 220,
+          "unit": "g",
+          "component": "other",
+          "group": "Tzatziki"
+        },
+        {
+          "name": "Fresh crushed garlic",
+          "qty": 12,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Tzatziki"
+        },
+        {
+          "name": "Fresh lemon juice",
+          "qty": 25,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Tzatziki"
+        },
+        {
+          "name": "Fresh dill, finely chopped",
+          "qty": 15,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Tzatziki"
+        },
+        {
+          "name": "Romaine lettuce, chopped",
+          "qty": 240,
+          "unit": "g",
+          "component": "other",
+          "group": "Lettuce & tomato"
+        },
+        {
+          "name": "Fresh tomato, diced",
+          "qty": 240,
+          "unit": "g",
+          "component": "other",
+          "group": "Lettuce & tomato"
+        }
+      ],
+      "steps": [
+        "Mix Greek yogurt, finely squeezed cucumber, garlic, lemon and dill into tzatziki. Refrigerate while preparing the fish."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Skinnytaste Greek fish taco concept and air-fryer technique; quantities scaled for four complete meals.",
+    "Planning: SECONDARY appliance for warming tortillas optional.",
+    "Freezer: breaded fish can freeze, but loses some crispness; tortillas freeze separately; tzatziki and salad NOT freezer-friendly",
+    "Dietary: Fish, egg, wheat, milk; fresh cucumber in tzatziki.",
+    "Refrigerate within 2 hours (1 hour above 32°C) in shallow containers at 4°C or colder, for 3–4 days at most, and follow the shorter seafood limit above. Cook fish and shellfish to 63°C and reheat leftovers to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": "Fish — plan for days 1-3; tzatziki and salad don't freeze.",
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.skinnytaste.com/tzatziki-fish-tacos/",
+  "reference": {
+    "sourceCredit": "Gina Homolka, Skinnytaste",
+    "sourceRecipeUrl": "https://www.skinnytaste.com/tzatziki-fish-tacos/",
+    "fileTitle": "Air Fryer Greek Tzatziki Fish Tacos",
+    "fileRecipeNumber": 8,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Seafood",
+    "methodTag": "Air fryer",
+    "preparationMethod": "Air frying (see steps for secondary appliance use)",
+    "activePrepTime": "approx 25 minutes",
+    "airFryerCookingTime": "approx 30 minutes (batch counts / secondary work may extend total time)",
+    "freezer": "PARTIAL: breaded fish can freeze, but loses some crispness; tortillas freeze separately; tzatziki and salad NOT freezer-friendly",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Fish, egg, wheat, milk; fresh cucumber in tzatziki.",
+    "fileMacrosPerServing": {
+      "kcal": 646,
+      "protein": 60.1,
+      "carbs": 72.9,
+      "fat": 12.7
+    },
+    "fileMacroText": {
+      "kcal": "646 kcal (ESTIMATED)",
+      "protein": "60.1 g (ESTIMATED)",
+      "carbs": "72.9 g (ESTIMATED)",
+      "fat": "12.7 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL measured recipe input ingredients using representative per-100g averages. Not source-published macros, not laboratory-tested. Brands, protein type, shell/bones, discarded coating, uneaten marinade and cooking fats affect accuracy.",
+    "fileNotes": "Skinnytaste Greek fish taco concept and air-fryer technique; quantities scaled for four complete meals.",
+    "planningNotes": "SECONDARY appliance for warming tortillas optional.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Air-fried breaded fish: approx 770 g",
+      "Soft tortillas: approx 320 g",
+      "Cold tzatziki: approx 495 g",
+      "Fresh vegetable topping: approx 480 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; for many fish and shrimp dishes, prioritize eating within 1-2 days for quality and freeze later-week cooked portions promptly.",
+      "Cook fish and crustaceans to 63 C (145 F) or applicable local food-safety standard, and reheat cooked leftovers to 74 C. For crab cakes containing egg binder and purchased cooked crab, reheat to 74 C.",
+      "When recipe includes rice, cool rapidly and refrigerate promptly; do not leave cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Re-crisp breading in an air fryer when possible.",
+      "Do not freeze fresh avocado, uncooked tomato/cucumber/cabbage salad, or mayonnaise/yogurt-based dressing unless kitchen-tested separately.",
+      "Freezer suitability here describes expected eating quality, not laboratory validated shelf life."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, original versus adapted components, ingredient product labels, raw edible weight, cooked yield, serving weight and seafood cooking temperature.",
+      "Macro numbers are preliminary ingredient-input estimates; coatings, unused marinade and measured oil left behind can overstate calories. Recalculate against a verified nutrition database before consumer use.",
+      "Source recipes may be protein-only dishes. App-ready complete meals include separate additions with their own raw weights and provisional cooked yields."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 660,
+      "protein": 59,
+      "carbs": 72,
+      "fat": 14
+    },
+    "quantitiesFrom": "UNHANGRY Seafood Air Fryer file — exact raw quantities as written."
+  }
+}

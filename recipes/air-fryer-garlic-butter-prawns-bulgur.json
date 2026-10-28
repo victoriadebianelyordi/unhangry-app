@@ -1,0 +1,230 @@
+{
+  "id": "air-fryer-garlic-butter-prawns-bulgur",
+  "name": "Air Fryer Garlic Butter Prawns with Bulgur and Peppers",
+  "protein": "seafood",
+  "method": "third-spot",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 721,
+    "protein": 56,
+    "carbs": 71,
+    "fat": 24
+  },
+  "components": [
+    {
+      "id": "prawns",
+      "name": "Garlic Butter Prawns",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 790,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 363,
+        "protein": 45,
+        "carbs": 3,
+        "fat": 18
+      },
+      "ingredients": [
+        {
+          "name": "Raw peeled and deveined large prawns",
+          "qty": 900,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Unsalted butter",
+          "qty": 50,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Minced fresh garlic",
+          "qty": 22,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 25,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Fresh lemon juice",
+          "qty": 35,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Parsley leaves, finely chopped",
+          "qty": 15,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Fine salt",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Black pepper",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Pat shrimp dry and toss with olive oil, grated garlic, lemon, salt and pepper. Set aside in fridge while preparing vegetables.",
+        "Melt measured butter in a small saucepan. Air fry shrimp at 185-190 C in one layer for 5-8 minutes until centre reaches 63 C; work in batches.",
+        "Toss cooked shrimp with melted butter, parsley and any cooked garlic juices. Never pour uncooked shrimp-contact marinade over the cooked shrimp without boiling it.",
+        "Portion shrimp, bulgur and vegetables separately into four containers. Garlic butter can be packed as a separate heated sauce; refrigerate promptly."
+      ]
+    },
+    {
+      "id": "bulgur",
+      "name": "Bulgur Wheat",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 830,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 270,
+        "protein": 9,
+        "carbs": 57,
+        "fat": 1
+      },
+      "ingredients": [
+        {
+          "name": "Raw dry coarse bulgur wheat",
+          "qty": 300,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Water or low-sodium stock for bulgur",
+          "qty": 560,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Rinse bulgur and simmer in 560 ml water until tender, then cover off heat for 10 minutes. For fine bulgur, soak instead using its recommended hydration ratio."
+      ]
+    },
+    {
+      "id": "peppers",
+      "name": "Roasted Peppers & Onion",
+      "scaling": "fixed",
+      "servings": 4,
+      "cookedYieldG": 520,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 87,
+        "protein": 2,
+        "carbs": 11,
+        "fat": 5
+      },
+      "ingredients": [
+        {
+          "name": "Raw mixed bell peppers, sliced",
+          "qty": 450,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Raw red onion wedges",
+          "qty": 170,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Olive oil for vegetables",
+          "qty": 18,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Toss raw pepper and onion with 18 ml oil; air fry at 190 C for 8-12 minutes, shaking halfway."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Air-fryer garlic butter shrimp inspired by published shrimp method, paired with a measured wholegrain bulgur and peppers side.",
+    "Planning: SECONDARY STOVETOP for bulgur and butter.",
+    "Freezer: cooked bulgur freezes; prawns freeze but become rubbery after repeated heating; peppers soften",
+    "Dietary: Shellfish, milk, wheat.",
+    "Refrigerate within 2 hours (1 hour above 32°C) in shallow containers at 4°C or colder, for 3–4 days at most, and follow the shorter seafood limit above. Cook fish and shellfish to 63°C and reheat leftovers to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": "Prawns — plan for days 1-3; avoid reheating more than once.",
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.savorythoughts.com/air-fryer-garlic-butter-shrimp-recipe/",
+  "reference": {
+    "sourceCredit": "Savory Thoughts, method reference; UNHANGRY bulgur meal adaptation",
+    "sourceRecipeUrl": "https://www.savorythoughts.com/air-fryer-garlic-butter-shrimp-recipe/",
+    "fileTitle": "Air Fryer Garlic Butter Prawns with Bulgur and Peppers",
+    "fileRecipeNumber": 7,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Seafood",
+    "methodTag": "Air fryer",
+    "preparationMethod": "Air frying (see steps for secondary appliance use)",
+    "activePrepTime": "approx 25 minutes",
+    "airFryerCookingTime": "approx 35 minutes (batch counts / secondary work may extend total time)",
+    "freezer": "PARTIAL: cooked bulgur freezes; prawns freeze but become rubbery after repeated heating; peppers soften",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Shellfish, milk, wheat.",
+    "fileMacrosPerServing": {
+      "kcal": 721,
+      "protein": 56.1,
+      "carbs": 71,
+      "fat": 23.6
+    },
+    "fileMacroText": {
+      "kcal": "721 kcal (ESTIMATED)",
+      "protein": "56.1 g (ESTIMATED)",
+      "carbs": "71.0 g (ESTIMATED)",
+      "fat": "23.6 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL measured recipe input ingredients using representative per-100g averages. Not source-published macros, not laboratory-tested. Brands, protein type, shell/bones, discarded coating, uneaten marinade and cooking fats affect accuracy.",
+    "fileNotes": "Air-fryer garlic butter shrimp inspired by published shrimp method, paired with a measured wholegrain bulgur and peppers side.",
+    "planningNotes": "SECONDARY STOVETOP for bulgur and butter.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked prawns and garlic butter sauce: approx 790 g",
+      "Cooked bulgur: approx 830 g",
+      "Cooked peppers and onions: approx 520 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; for many fish and shrimp dishes, prioritize eating within 1-2 days for quality and freeze later-week cooked portions promptly.",
+      "Cook fish and crustaceans to 63 C (145 F) or applicable local food-safety standard, and reheat cooked leftovers to 74 C. For crab cakes containing egg binder and purchased cooked crab, reheat to 74 C.",
+      "When recipe includes rice, cool rapidly and refrigerate promptly; do not leave cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Re-crisp breading in an air fryer when possible.",
+      "Do not freeze fresh avocado, uncooked tomato/cucumber/cabbage salad, or mayonnaise/yogurt-based dressing unless kitchen-tested separately.",
+      "Freezer suitability here describes expected eating quality, not laboratory validated shelf life."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, original versus adapted components, ingredient product labels, raw edible weight, cooked yield, serving weight and seafood cooking temperature.",
+      "Macro numbers are preliminary ingredient-input estimates; coatings, unused marinade and measured oil left behind can overstate calories. Recalculate against a verified nutrition database before consumer use.",
+      "Source recipes may be protein-only dishes. App-ready complete meals include separate additions with their own raw weights and provisional cooked yields."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 684,
+      "protein": 57,
+      "carbs": 71,
+      "fat": 22
+    },
+    "quantitiesFrom": "UNHANGRY Seafood Air Fryer file — exact raw quantities as written."
+  }
+}

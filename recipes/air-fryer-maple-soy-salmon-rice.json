@@ -1,0 +1,202 @@
+{
+  "id": "air-fryer-maple-soy-salmon-rice",
+  "name": "Air Fryer Maple-Soy Salmon with Rice and Broccoli",
+  "protein": "seafood",
+  "method": "third-spot",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 701,
+    "protein": 43,
+    "carbs": 71,
+    "fat": 27
+  },
+  "components": [
+    {
+      "id": "salmon",
+      "name": "Maple-Soy Salmon",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 615,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 407,
+        "protein": 35,
+        "carbs": 12,
+        "fat": 23
+      },
+      "ingredients": [
+        {
+          "name": "Raw skinless salmon, four fillets of 170 g",
+          "qty": 680,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Pure maple syrup",
+          "qty": 60,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Maple-soy glaze"
+        },
+        {
+          "name": "Reduced-sodium soy sauce",
+          "qty": 45,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Maple-soy glaze"
+        },
+        {
+          "name": "Sriracha chilli sauce",
+          "qty": 15,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Maple-soy glaze"
+        },
+        {
+          "name": "Fresh garlic, finely crushed",
+          "qty": 8,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Maple-soy glaze"
+        },
+        {
+          "name": "Neutral oil for air fryer basket",
+          "qty": 5,
+          "unit": "ml",
+          "component": "other",
+          "group": "Maple-soy glaze"
+        }
+      ],
+      "steps": [
+        "Pat salmon dry and cut into four 170 g pieces. Stir maple syrup, soy sauce, sriracha and garlic until combined.",
+        "Refrigerate salmon in the maple mixture for 15-20 minutes, then remove and shake off excess glaze. Keep the remaining marinade in a separate saucepan for cooking, not for cold serving.",
+        "Air fry the salmon at 200 C in one layer for about 7-10 minutes, longer if thick, until the centre reaches 63 C. Cook in batches if needed.",
+        "Bring the reserved raw-fish-contact marinade to a full boil, then simmer until slightly syrupy. Steam broccoli until tender and toss with olive oil.",
+        "Divide rice and broccoli into four containers and add one salmon fillet and a measured share of the fully boiled glaze to each. Refrigerate promptly; eat fish early in week or freeze immediately for later use."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Jasmine Rice & Broccoli",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 1170,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 294,
+        "protein": 8,
+        "carbs": 59,
+        "fat": 4
+      },
+      "ingredients": [
+        {
+          "name": "Dry jasmine rice",
+          "qty": 260,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Water for rice",
+          "qty": 440,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Raw broccoli florets",
+          "qty": 500,
+          "unit": "g",
+          "component": "other",
+          "group": "Broccoli"
+        },
+        {
+          "name": "Olive oil for broccoli",
+          "qty": 12,
+          "unit": "ml",
+          "component": "other",
+          "group": "Broccoli"
+        }
+      ],
+      "steps": [
+        "Rinse dry rice and cook in the 440 ml water using a covered saucepan; rest covered for 10 minutes after cooking."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Skinnytaste maple soy salmon method retained; rice and broccoli added as quantified full-meal components.",
+    "Planning: SECONDARY STOVETOP: rice, steamed broccoli, and boiling fish-contact glaze.",
+    "Freezer: cooked salmon can be frozen but dries slightly; rice and broccoli may freeze when promptly cooled",
+    "Dietary: Fish, soy. Check sriracha labels.",
+    "Refrigerate within 2 hours (1 hour above 32°C) in shallow containers at 4°C or colder, for 3–4 days at most, and follow the shorter seafood limit above. Cook fish and shellfish to 63°C and reheat leftovers to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": "Salmon — plan for days 1-3; rice and broccoli freeze if cooled promptly.",
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.skinnytaste.com/air-fryer-salmon-with-maple-soy-glaze/",
+  "reference": {
+    "sourceCredit": "Gina Homolka, Skinnytaste",
+    "sourceRecipeUrl": "https://www.skinnytaste.com/air-fryer-salmon-with-maple-soy-glaze/",
+    "fileTitle": "Air Fryer Maple-Soy Salmon with Rice and Broccoli",
+    "fileRecipeNumber": 1,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Seafood",
+    "methodTag": "Air fryer",
+    "preparationMethod": "Air frying (see steps for secondary appliance use)",
+    "activePrepTime": "approx 20 minutes",
+    "airFryerCookingTime": "approx 25 minutes (batch counts / secondary work may extend total time)",
+    "freezer": "PARTIAL: cooked salmon can be frozen but dries slightly; rice and broccoli may freeze when promptly cooled",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Fish, soy. Check sriracha labels.",
+    "fileMacrosPerServing": {
+      "kcal": 701,
+      "protein": 43.1,
+      "carbs": 71.4,
+      "fat": 27
+    },
+    "fileMacroText": {
+      "kcal": "701 kcal (ESTIMATED)",
+      "protein": "43.1 g (ESTIMATED)",
+      "carbs": "71.4 g (ESTIMATED)",
+      "fat": "27.0 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL measured recipe input ingredients using representative per-100g averages. Not source-published macros, not laboratory-tested. Brands, protein type, shell/bones, discarded coating, uneaten marinade and cooking fats affect accuracy.",
+    "fileNotes": "Skinnytaste maple soy salmon method retained; rice and broccoli added as quantified full-meal components.",
+    "planningNotes": "SECONDARY STOVETOP: rice, steamed broccoli, and boiling fish-contact glaze.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked salmon fillets: approx 550 g",
+      "Boiled maple-soy glaze: approx 65 g",
+      "Cooked jasmine rice: approx 730 g",
+      "Steamed broccoli: approx 440 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; for many fish and shrimp dishes, prioritize eating within 1-2 days for quality and freeze later-week cooked portions promptly.",
+      "Cook fish and crustaceans to 63 C (145 F) or applicable local food-safety standard, and reheat cooked leftovers to 74 C. For crab cakes containing egg binder and purchased cooked crab, reheat to 74 C.",
+      "When recipe includes rice, cool rapidly and refrigerate promptly; do not leave cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Re-crisp breading in an air fryer when possible.",
+      "Do not freeze fresh avocado, uncooked tomato/cucumber/cabbage salad, or mayonnaise/yogurt-based dressing unless kitchen-tested separately.",
+      "Freezer suitability here describes expected eating quality, not laboratory validated shelf life."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, original versus adapted components, ingredient product labels, raw edible weight, cooked yield, serving weight and seafood cooking temperature.",
+      "Macro numbers are preliminary ingredient-input estimates; coatings, unused marinade and measured oil left behind can overstate calories. Recalculate against a verified nutrition database before consumer use.",
+      "Source recipes may be protein-only dishes. App-ready complete meals include separate additions with their own raw weights and provisional cooked yields."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 717,
+      "protein": 44,
+      "carbs": 72,
+      "fat": 28
+    },
+    "quantitiesFrom": "UNHANGRY Seafood Air Fryer file — exact raw quantities as written."
+  }
+}

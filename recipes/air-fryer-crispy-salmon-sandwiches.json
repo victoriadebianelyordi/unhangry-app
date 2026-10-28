@@ -1,0 +1,239 @@
+{
+  "id": "air-fryer-crispy-salmon-sandwiches",
+  "name": "Air Fryer Crispy Salmon Sandwiches with Lemon-Caper Mayo",
+  "protein": "seafood",
+  "method": "third-spot",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 840,
+    "protein": 49,
+    "carbs": 71,
+    "fat": 40
+  },
+  "components": [
+    {
+      "id": "salmon",
+      "name": "Crispy Salmon",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 750,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 503,
+        "protein": 39,
+        "carbs": 23,
+        "fat": 27
+      },
+      "ingredients": [
+        {
+          "name": "Raw skinless salmon, four equal 170 g portions",
+          "qty": 680,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Seasoned panko breadcrumbs, including expected leftover",
+          "qty": 120,
+          "unit": "g",
+          "component": "other",
+          "group": "Coating"
+        },
+        {
+          "name": "Raw egg whites, measured without shell",
+          "qty": 75,
+          "unit": "g",
+          "component": "protein",
+          "group": "Coating"
+        },
+        {
+          "name": "Salt",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Coating"
+        },
+        {
+          "name": "Olive oil spray, measured",
+          "qty": 12,
+          "unit": "ml",
+          "component": "other",
+          "group": "Coating"
+        }
+      ],
+      "steps": [
+        "Pat salmon dry and divide into four pieces. Place measured egg white in a shallow bowl and panko in another. Season fish lightly with salt.",
+        "Dip fish in egg white, then press into panko; shake off excess breadcrumbs, noting the unused amount for final nutrition recalculation.",
+        "Lightly spray with oil and air fry at 200 C for about 8-12 minutes, turning once, until crust is golden and fish reaches 63 C.",
+        "For batch prep, store cooked breaded salmon separately from buns, mayonnaise and raw greens; re-crisp fish in air fryer and assemble when eating."
+      ]
+    },
+    {
+      "id": "buns",
+      "name": "Bun, Salad & Slaw",
+      "scaling": "fixed",
+      "servings": 4,
+      "cookedYieldG": 940,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 233,
+        "protein": 9,
+        "carbs": 44,
+        "fat": 3
+      },
+      "ingredients": [
+        {
+          "name": "Four wholewheat burger buns",
+          "qty": 320,
+          "unit": "g",
+          "component": "carb",
+          "group": "Buns"
+        },
+        {
+          "name": "Fresh butter lettuce leaves",
+          "qty": 120,
+          "unit": "g",
+          "component": "other",
+          "group": "Buns"
+        },
+        {
+          "name": "Fresh raw tomatoes, sliced",
+          "qty": 200,
+          "unit": "g",
+          "component": "other",
+          "group": "Buns"
+        },
+        {
+          "name": "Raw shredded cabbage for crunchy side slaw",
+          "qty": 300,
+          "unit": "g",
+          "component": "other",
+          "group": "Cabbage slaw"
+        },
+        {
+          "name": "Fresh lemon juice for slaw",
+          "qty": 20,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Cabbage slaw"
+        }
+      ],
+      "steps": [
+        "Mix shredded cabbage with lemon just before serving. Prepare bread buns with lettuce and tomatoes, then add one cooked breaded salmon piece and a quarter of caper mayo to each."
+      ]
+    },
+    {
+      "id": "mayo",
+      "name": "Lemon-Caper Mayo",
+      "scaling": "fixed",
+      "servings": 4,
+      "cookedYieldG": 180,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 104,
+        "protein": 1,
+        "carbs": 4,
+        "fat": 10
+      },
+      "ingredients": [
+        {
+          "name": "Light mayonnaise",
+          "qty": 135,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Capers, drained and minced",
+          "qty": 30,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Fresh lemon juice",
+          "qty": 20,
+          "unit": "ml",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Mix light mayonnaise, chopped capers and lemon into a sauce; refrigerate until ready to assemble sandwiches."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Skinnytaste lemon-caper salmon sandwich; added tomato and cabbage side and increased salmon raw weight for complete-meal recipe. Unused panko and egg white mean nutrition may overestimate coating eaten.",
+    "Planning: AIR FRYER ONLY for main, toast buns optional.",
+    "Freezer: breaded salmon may freeze but loses crispness; buns can freeze alone; salad and mayo fresh",
+    "Dietary: Fish, egg, wheat; mayonnaise contains egg.",
+    "Refrigerate within 2 hours (1 hour above 32°C) in shallow containers at 4°C or colder, for 3–4 days at most, and follow the shorter seafood limit above. Cook fish and shellfish to 63°C and reheat leftovers to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": "Salmon — plan for days 1-3; salad and mayo fresh only.",
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.skinnytaste.com/air-fryer-salmon-sandwich/",
+  "reference": {
+    "sourceCredit": "Gina Homolka, Skinnytaste",
+    "sourceRecipeUrl": "https://www.skinnytaste.com/air-fryer-salmon-sandwich/",
+    "fileTitle": "Air Fryer Crispy Salmon Sandwiches with Lemon-Caper Mayo",
+    "fileRecipeNumber": 15,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Seafood",
+    "methodTag": "Air fryer",
+    "preparationMethod": "Air frying (see steps for secondary appliance use)",
+    "activePrepTime": "approx 20 minutes",
+    "airFryerCookingTime": "approx 25 minutes (batch counts / secondary work may extend total time)",
+    "freezer": "PARTIAL: breaded salmon may freeze but loses crispness; buns can freeze alone; salad and mayo fresh",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Fish, egg, wheat; mayonnaise contains egg.",
+    "fileMacrosPerServing": {
+      "kcal": 840,
+      "protein": 49.3,
+      "carbs": 71.1,
+      "fat": 39.8
+    },
+    "fileMacroText": {
+      "kcal": "840 kcal (ESTIMATED)",
+      "protein": "49.3 g (ESTIMATED)",
+      "carbs": "71.1 g (ESTIMATED)",
+      "fat": "39.8 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL measured recipe input ingredients using representative per-100g averages. Not source-published macros, not laboratory-tested. Brands, protein type, shell/bones, discarded coating, uneaten marinade and cooking fats affect accuracy.",
+    "fileNotes": "Skinnytaste lemon-caper salmon sandwich; added tomato and cabbage side and increased salmon raw weight for complete-meal recipe. Unused panko and egg white mean nutrition may overestimate coating eaten.",
+    "planningNotes": "AIR FRYER ONLY for main, toast buns optional.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked breaded salmon: approx 750 g",
+      "Wholewheat burger buns: approx 320 g",
+      "Lemon caper mayo: approx 180 g",
+      "Fresh lettuce tomato and cabbage slaw: approx 620 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; for many fish and shrimp dishes, prioritize eating within 1-2 days for quality and freeze later-week cooked portions promptly.",
+      "Cook fish and crustaceans to 63 C (145 F) or applicable local food-safety standard, and reheat cooked leftovers to 74 C. For crab cakes containing egg binder and purchased cooked crab, reheat to 74 C.",
+      "When recipe includes rice, cool rapidly and refrigerate promptly; do not leave cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Re-crisp breading in an air fryer when possible.",
+      "Do not freeze fresh avocado, uncooked tomato/cucumber/cabbage salad, or mayonnaise/yogurt-based dressing unless kitchen-tested separately.",
+      "Freezer suitability here describes expected eating quality, not laboratory validated shelf life."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, original versus adapted components, ingredient product labels, raw edible weight, cooked yield, serving weight and seafood cooking temperature.",
+      "Macro numbers are preliminary ingredient-input estimates; coatings, unused marinade and measured oil left behind can overstate calories. Recalculate against a verified nutrition database before consumer use.",
+      "Source recipes may be protein-only dishes. App-ready complete meals include separate additions with their own raw weights and provisional cooked yields."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 842,
+      "protein": 51,
+      "carbs": 68,
+      "fat": 40
+    },
+    "quantitiesFrom": "UNHANGRY Seafood Air Fryer file — exact raw quantities as written."
+  }
+}

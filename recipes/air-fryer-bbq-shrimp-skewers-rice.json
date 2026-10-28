@@ -1,0 +1,224 @@
+{
+  "id": "air-fryer-bbq-shrimp-skewers-rice",
+  "name": "Air Fryer BBQ Shrimp Skewers with Rice and Sweetcorn",
+  "protein": "seafood",
+  "method": "third-spot",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 681,
+    "protein": 54,
+    "carbs": 98,
+    "fat": 8
+  },
+  "components": [
+    {
+      "id": "shrimp",
+      "name": "BBQ Shrimp Skewers",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 780,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 302,
+        "protein": 46,
+        "carbs": 16,
+        "fat": 6
+      },
+      "ingredients": [
+        {
+          "name": "Raw large shrimp peeled and deveined, shells discarded",
+          "qty": 900,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Prepared honey barbecue sauce, no alcohol",
+          "qty": 150,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Olive oil to prevent sticking",
+          "qty": 15,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Smoked paprika",
+          "qty": 10,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt, if barbecue sauce unsalted",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Toss shrimp with measured oil, paprika and salt. Thread shrimp onto air-fryer-safe metal skewers, or cook loose in a basket when skewers cannot fit.",
+        "Brush half of the measured barbecue sauce over shrimp and set the other half aside clean before it touches raw seafood.",
+        "Air fry at 190 C for 6-10 minutes, turning once and applying a little of the reserved CLEAN sauce, until shrimp reach 63 C. If any sauce has touched raw shrimp, cook it thoroughly before serving.",
+        "Serve or pack four portions of rice, shrimp and corn salad. Keep salad cool, and reheat shrimp only briefly to prevent rubbery texture."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Basmati Rice",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 830,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 277,
+        "protein": 5,
+        "carbs": 59,
+        "fat": 1
+      },
+      "ingredients": [
+        {
+          "name": "Dry basmati rice",
+          "qty": 300,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Water for rice",
+          "qty": 510,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Rinse the rice and cook covered using 510 ml of water. Rest off heat, then cool rapidly for meal prep."
+      ]
+    },
+    {
+      "id": "salad",
+      "name": "Sweetcorn & Pepper Salad",
+      "scaling": "fixed",
+      "servings": 4,
+      "cookedYieldG": 710,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 102,
+        "protein": 4,
+        "carbs": 22,
+        "fat": 2
+      },
+      "ingredients": [
+        {
+          "name": "Sweetcorn kernels, thawed from frozen",
+          "qty": 320,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Raw red bell pepper, diced",
+          "qty": 260,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Raw red onion, finely diced",
+          "qty": 110,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Fresh lime juice",
+          "qty": 25,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Fresh chopped coriander",
+          "qty": 20,
+          "unit": "g",
+          "component": "aromatic"
+        }
+      ],
+      "steps": [
+        "Combine sweetcorn, diced peppers, onion, lime and coriander into a separate salad."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Published H-E-B air-fried barbecue shrimp skewers used for core technique. Rice and corn salad are quantified UNHANGRY sides.",
+    "Planning: SECONDARY STOVETOP rice. Do not use wooden skewers that exceed air fryer capacity.",
+    "Freezer: cooked shrimp and rice can freeze, but corn and pepper salad is better fresh",
+    "Dietary: Shellfish; verify BBQ sauce is halal/alcohol-free and does not contain wheat/soy allergens.",
+    "Refrigerate within 2 hours (1 hour above 32°C) in shallow containers at 4°C or colder, for 3–4 days at most, and follow the shorter seafood limit above. Cook fish and shellfish to 63°C and reheat leftovers to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": "Shrimp — plan for days 1-3; the corn salad is better fresh.",
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.heb.com/recipe/recipe-detail/air-fryer-bbq-shrimp-skewers",
+  "reference": {
+    "sourceCredit": "H-E-B Recipe Kitchen",
+    "sourceRecipeUrl": "https://www.heb.com/recipe/recipe-detail/air-fryer-bbq-shrimp-skewers",
+    "fileTitle": "Air Fryer BBQ Shrimp Skewers with Rice and Sweetcorn",
+    "fileRecipeNumber": 11,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Seafood",
+    "methodTag": "Air fryer",
+    "preparationMethod": "Air frying (see steps for secondary appliance use)",
+    "activePrepTime": "approx 20 minutes",
+    "airFryerCookingTime": "approx 25 minutes (batch counts / secondary work may extend total time)",
+    "freezer": "PARTIAL: cooked shrimp and rice can freeze, but corn and pepper salad is better fresh",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Shellfish; verify BBQ sauce is halal/alcohol-free and does not contain wheat/soy allergens.",
+    "fileMacrosPerServing": {
+      "kcal": 681,
+      "protein": 54.3,
+      "carbs": 98.2,
+      "fat": 7.9
+    },
+    "fileMacroText": {
+      "kcal": "681 kcal (ESTIMATED)",
+      "protein": "54.3 g (ESTIMATED)",
+      "carbs": "98.2 g (ESTIMATED)",
+      "fat": "7.9 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL measured recipe input ingredients using representative per-100g averages. Not source-published macros, not laboratory-tested. Brands, protein type, shell/bones, discarded coating, uneaten marinade and cooking fats affect accuracy.",
+    "fileNotes": "Published H-E-B air-fried barbecue shrimp skewers used for core technique. Rice and corn salad are quantified UNHANGRY sides.",
+    "planningNotes": "SECONDARY STOVETOP rice. Do not use wooden skewers that exceed air fryer capacity.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked BBQ shrimp with adhering sauce: approx 780 g",
+      "Cooked basmati rice: approx 830 g",
+      "Sweetcorn and pepper salad: approx 710 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; for many fish and shrimp dishes, prioritize eating within 1-2 days for quality and freeze later-week cooked portions promptly.",
+      "Cook fish and crustaceans to 63 C (145 F) or applicable local food-safety standard, and reheat cooked leftovers to 74 C. For crab cakes containing egg binder and purchased cooked crab, reheat to 74 C.",
+      "When recipe includes rice, cool rapidly and refrigerate promptly; do not leave cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Re-crisp breading in an air fryer when possible.",
+      "Do not freeze fresh avocado, uncooked tomato/cucumber/cabbage salad, or mayonnaise/yogurt-based dressing unless kitchen-tested separately.",
+      "Freezer suitability here describes expected eating quality, not laboratory validated shelf life."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, original versus adapted components, ingredient product labels, raw edible weight, cooked yield, serving weight and seafood cooking temperature.",
+      "Macro numbers are preliminary ingredient-input estimates; coatings, unused marinade and measured oil left behind can overstate calories. Recalculate against a verified nutrition database before consumer use.",
+      "Source recipes may be protein-only dishes. App-ready complete meals include separate additions with their own raw weights and provisional cooked yields."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 665,
+      "protein": 55,
+      "carbs": 98,
+      "fat": 7
+    },
+    "quantitiesFrom": "UNHANGRY Seafood Air Fryer file — exact raw quantities as written."
+  }
+}

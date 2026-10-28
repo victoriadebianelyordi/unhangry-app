@@ -1,0 +1,266 @@
+{
+  "id": "air-fryer-fish-cakes-sweet-potato",
+  "name": "Air Fryer Fish Cakes with Roasted Pepper Sauce and Sweet Potato",
+  "protein": "seafood",
+  "method": "third-spot",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 739,
+    "protein": 48,
+    "carbs": 80,
+    "fat": 25
+  },
+  "components": [
+    {
+      "id": "cakes",
+      "name": "Fish Cakes",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 875,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 404,
+        "protein": 42,
+        "carbs": 31,
+        "fat": 11
+      },
+      "ingredients": [
+        {
+          "name": "Raw skinless boneless cod fillets, finely chopped",
+          "qty": 750,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Dry seasoned panko crumbs, divided between mixture and coating",
+          "qty": 140,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Whole egg without shell, beaten",
+          "qty": 110,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Raw onion, finely minced",
+          "qty": 120,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Raw celery, finely minced",
+          "qty": 90,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Chopped fresh parsley",
+          "qty": 18,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Light mayonnaise to bind fish cakes",
+          "qty": 35,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Dijon mustard to bind fish cakes",
+          "qty": 15,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Fresh lemon juice mixed into fish cakes",
+          "qty": 20,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Olive oil spray, weighed for air-frying",
+          "qty": 15,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Pat fish dry and air fry the raw cod at 200 C for about 6-9 minutes until fish reaches 63 C. Cool briefly, then flake into coarse pieces.",
+        "Mix flaked COOKED fish with finely diced onion, celery, one half of the beaten eggs, mayonnaise, Dijon, lemon juice, parsley, salt and 80 g of the panko. Shape into eight patties. Dip patties into remaining egg and press into remaining 60 g panko. Chill for 15-20 minutes to set.",
+        "Spray fish cakes with 15 ml oil and air fry in a single layer at 200 C for about 8-11 minutes, turning once, until browned and reheated thoroughly to 74 C. All raw egg binder must be cooked through.",
+        "Pack two fish cakes per person with sweet potato, spinach and sauce separately. Reheat cakes in air fryer; leave spinach and sauce cold."
+      ]
+    },
+    {
+      "id": "sweet-potato",
+      "name": "Sweet Potato Wedges",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 700,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 232,
+        "protein": 3,
+        "carbs": 42,
+        "fat": 6
+      },
+      "ingredients": [
+        {
+          "name": "Raw sweet potato cut into small wedges",
+          "qty": 850,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Olive oil for sweet potato",
+          "qty": 25,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Toss sweet potato wedges with 25 ml olive oil and air fry at 195 C for 15-22 minutes, shaking partway until tender and golden."
+      ]
+    },
+    {
+      "id": "sides",
+      "name": "Pepper Sauce & Spinach",
+      "scaling": "fixed",
+      "servings": 4,
+      "cookedYieldG": 515,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 103,
+        "protein": 3,
+        "carbs": 7,
+        "fat": 8
+      },
+      "ingredients": [
+        {
+          "name": "Jarred roasted red peppers, drained",
+          "qty": 150,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Roasted pepper sauce"
+        },
+        {
+          "name": "Light mayonnaise",
+          "qty": 100,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Roasted pepper sauce"
+        },
+        {
+          "name": "Fresh lemon juice",
+          "qty": 15,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Roasted pepper sauce"
+        },
+        {
+          "name": "Smoked paprika",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Roasted pepper sauce"
+        },
+        {
+          "name": "Raw baby spinach leaves",
+          "qty": 250,
+          "unit": "g",
+          "component": "other",
+          "group": "Baby spinach"
+        }
+      ],
+      "steps": [
+        "Blend roasted peppers, light mayonnaise, lemon juice and paprika into a dipping sauce."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Skinnytaste fish cakes with roasted pepper sauce; sweet potatoes and spinach added to meet complete-meal requirements.",
+    "Planning: AIR FRYER sequential potato and fish cakes.",
+    "Freezer: cooked fish cakes can freeze, although crumb softens; cooked sweet potato may soften; pepper mayo and spinach fresh",
+    "Dietary: Fish, wheat, egg, mustard; mayonnaise contains egg.",
+    "Refrigerate within 2 hours (1 hour above 32°C) in shallow containers at 4°C or colder, for 3–4 days at most, and follow the shorter seafood limit above. Cook fish and shellfish to 63°C and reheat leftovers to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": "Fish cakes — plan for days 1-3; pepper sauce and spinach fresh only.",
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.skinnytaste.com/fish-cakes/",
+  "reference": {
+    "sourceCredit": "Gina Homolka, Skinnytaste",
+    "sourceRecipeUrl": "https://www.skinnytaste.com/fish-cakes/",
+    "fileTitle": "Air Fryer Fish Cakes with Roasted Pepper Sauce and Sweet Potato",
+    "fileRecipeNumber": 12,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Seafood",
+    "methodTag": "Air fryer",
+    "preparationMethod": "Air frying (see steps for secondary appliance use)",
+    "activePrepTime": "approx 30 minutes",
+    "airFryerCookingTime": "approx 45 minutes (batch counts / secondary work may extend total time)",
+    "freezer": "PARTIAL: cooked fish cakes can freeze, although crumb softens; cooked sweet potato may soften; pepper mayo and spinach fresh",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Fish, wheat, egg, mustard; mayonnaise contains egg.",
+    "fileMacrosPerServing": {
+      "kcal": 739,
+      "protein": 48.4,
+      "carbs": 80.2,
+      "fat": 24.9
+    },
+    "fileMacroText": {
+      "kcal": "739 kcal (ESTIMATED)",
+      "protein": "48.4 g (ESTIMATED)",
+      "carbs": "80.2 g (ESTIMATED)",
+      "fat": "24.9 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL measured recipe input ingredients using representative per-100g averages. Not source-published macros, not laboratory-tested. Brands, protein type, shell/bones, discarded coating, uneaten marinade and cooking fats affect accuracy.",
+    "fileNotes": "Skinnytaste fish cakes with roasted pepper sauce; sweet potatoes and spinach added to meet complete-meal requirements.",
+    "planningNotes": "AIR FRYER sequential potato and fish cakes.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked fish cakes, 8 patties: approx 875 g",
+      "Air-fried sweet potatoes: approx 700 g",
+      "Cold roasted pepper sauce: approx 265 g",
+      "Fresh baby spinach: approx 250 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; for many fish and shrimp dishes, prioritize eating within 1-2 days for quality and freeze later-week cooked portions promptly.",
+      "Cook fish and crustaceans to 63 C (145 F) or applicable local food-safety standard, and reheat cooked leftovers to 74 C. For crab cakes containing egg binder and purchased cooked crab, reheat to 74 C.",
+      "When recipe includes rice, cool rapidly and refrigerate promptly; do not leave cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Re-crisp breading in an air fryer when possible.",
+      "Do not freeze fresh avocado, uncooked tomato/cucumber/cabbage salad, or mayonnaise/yogurt-based dressing unless kitchen-tested separately.",
+      "Freezer suitability here describes expected eating quality, not laboratory validated shelf life."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, original versus adapted components, ingredient product labels, raw edible weight, cooked yield, serving weight and seafood cooking temperature.",
+      "Macro numbers are preliminary ingredient-input estimates; coatings, unused marinade and measured oil left behind can overstate calories. Recalculate against a verified nutrition database before consumer use.",
+      "Source recipes may be protein-only dishes. App-ready complete meals include separate additions with their own raw weights and provisional cooked yields."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 745,
+      "protein": 48,
+      "carbs": 81,
+      "fat": 26
+    },
+    "quantitiesFrom": "UNHANGRY Seafood Air Fryer file — exact raw quantities as written."
+  }
+}

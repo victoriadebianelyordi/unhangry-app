@@ -1,0 +1,254 @@
+{
+  "id": "air-fryer-crab-cake-sandwiches",
+  "name": "Air Fryer Crab Cake Sandwiches with Chipotle Pepper Sauce",
+  "protein": "seafood",
+  "method": "third-spot",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 755,
+    "protein": 49,
+    "carbs": 72,
+    "fat": 30
+  },
+  "components": [
+    {
+      "id": "cakes",
+      "name": "Crab Cakes",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 950,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 393,
+        "protein": 39,
+        "carbs": 26,
+        "fat": 14
+      },
+      "ingredients": [
+        {
+          "name": "Chilled PASTEURIZED COOKED lump crab meat, drained and picked free of shells, as purchased",
+          "qty": 700,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Crushed plain crackers",
+          "qty": 110,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Raw whole egg without shell",
+          "qty": 110,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Raw scallions, finely chopped",
+          "qty": 80,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Raw red bell pepper, minced",
+          "qty": 80,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Light mayonnaise",
+          "qty": 45,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Fresh chopped coriander",
+          "qty": 20,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Fresh lime juice",
+          "qty": 25,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Fine salt",
+          "qty": 4,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Neutral oil spray, measured",
+          "qty": 10,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Drain pasteurized cooked crab well, inspect for shell fragments, and keep cold. Mix crushed crackers, egg, spring onions, finely diced pepper, mayonnaise, coriander, lime and salt.",
+        "Gently fold cooked crab into binder without mashing lumps. Form four large patties or eight smaller patties; chill for at least 30 minutes so they hold together.",
+        "Lightly spray crab cakes and air fry in a single layer at about 188 C for 9-12 minutes, turning gently halfway, until the egg binder is thoroughly cooked and centre reaches 74 C.",
+        "For meal prep, keep cooked crab cakes separate from buns and vegetables. Reheat crab cakes thoroughly, then assemble freshly; avoid freezing sauce and lettuce."
+      ]
+    },
+    {
+      "id": "buns",
+      "name": "Bun, Lettuce & Tomato",
+      "scaling": "fixed",
+      "servings": 4,
+      "cookedYieldG": 770,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 232,
+        "protein": 9,
+        "carbs": 41,
+        "fat": 3
+      },
+      "ingredients": [
+        {
+          "name": "Four wholewheat sandwich buns, about 80 g each",
+          "qty": 320,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Fresh lettuce leaves",
+          "qty": 200,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Raw tomato, sliced",
+          "qty": 250,
+          "unit": "g",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Lightly toast buns if desired, then add one large crab cake or two small ones, lettuce, tomato and a quarter of pepper sauce per sandwich."
+      ]
+    },
+    {
+      "id": "sauce",
+      "name": "Chipotle Pepper Sauce",
+      "scaling": "fixed",
+      "servings": 4,
+      "cookedYieldG": 270,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 130,
+        "protein": 1,
+        "carbs": 5,
+        "fat": 13
+      },
+      "ingredients": [
+        {
+          "name": "Light mayonnaise",
+          "qty": 150,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Jarred roasted red peppers, drained",
+          "qty": 100,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Chipotle chilli paste, no alcohol",
+          "qty": 12,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Fresh lime juice",
+          "qty": 15,
+          "unit": "ml",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Blend light mayonnaise, roasted peppers, chipotle and lime into sauce, then refrigerate."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Skinnytaste published crab cakes and air-fryer guidance adapted into full sandwiches with measured buns and salads. CRAB MEAT IS PURCHASED COOKED; this quantity is a pre-cooking recipe input, not raw crab purchase weight.",
+    "Planning: ADVANCE: 30-minute chilling for patty binding.",
+    "Freezer: cooked crab cakes can freeze with texture decline; buns may freeze separately; mayonnaise sauce and raw greens are NOT suitable for freezing",
+    "Dietary: Crustaceans, egg, wheat; pre-cooked crab requirement clearly stated.",
+    "Refrigerate within 2 hours (1 hour above 32°C) in shallow containers at 4°C or colder, for 3–4 days at most, and follow the shorter seafood limit above. Cook fish and shellfish to 63°C and reheat leftovers to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": "Crab cakes — plan for days 1-3; sauce and greens don't freeze.",
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.skinnytaste.com/baked-lump-crab-cakes-with-red-pepper/",
+  "reference": {
+    "sourceCredit": "Gina Homolka, Skinnytaste",
+    "sourceRecipeUrl": "https://www.skinnytaste.com/baked-lump-crab-cakes-with-red-pepper/",
+    "fileTitle": "Air Fryer Crab Cake Sandwiches with Chipotle Pepper Sauce",
+    "fileRecipeNumber": 14,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Seafood",
+    "methodTag": "Air fryer",
+    "preparationMethod": "Air frying (see steps for secondary appliance use)",
+    "activePrepTime": "approx 30 minutes",
+    "airFryerCookingTime": "approx 45 minutes (batch counts / secondary work may extend total time)",
+    "freezer": "PARTIAL: cooked crab cakes can freeze with texture decline; buns may freeze separately; mayonnaise sauce and raw greens are NOT suitable for freezing",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Crustaceans, egg, wheat; pre-cooked crab requirement clearly stated.",
+    "fileMacrosPerServing": {
+      "kcal": 755,
+      "protein": 49.1,
+      "carbs": 72.3,
+      "fat": 29.9
+    },
+    "fileMacroText": {
+      "kcal": "755 kcal (ESTIMATED)",
+      "protein": "49.1 g (ESTIMATED)",
+      "carbs": "72.3 g (ESTIMATED)",
+      "fat": "29.9 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL measured recipe input ingredients using representative per-100g averages. Not source-published macros, not laboratory-tested. Brands, protein type, shell/bones, discarded coating, uneaten marinade and cooking fats affect accuracy.",
+    "fileNotes": "Skinnytaste published crab cakes and air-fryer guidance adapted into full sandwiches with measured buns and salads. CRAB MEAT IS PURCHASED COOKED; this quantity is a pre-cooking recipe input, not raw crab purchase weight.",
+    "planningNotes": "ADVANCE: 30-minute chilling for patty binding.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked crab cakes: approx 950 g",
+      "Four wholewheat bread buns: approx 320 g",
+      "Fresh lettuce and tomato: approx 450 g",
+      "Chipotle pepper sauce: approx 270 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; for many fish and shrimp dishes, prioritize eating within 1-2 days for quality and freeze later-week cooked portions promptly.",
+      "Cook fish and crustaceans to 63 C (145 F) or applicable local food-safety standard, and reheat cooked leftovers to 74 C. For crab cakes containing egg binder and purchased cooked crab, reheat to 74 C.",
+      "When recipe includes rice, cool rapidly and refrigerate promptly; do not leave cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Re-crisp breading in an air fryer when possible.",
+      "Do not freeze fresh avocado, uncooked tomato/cucumber/cabbage salad, or mayonnaise/yogurt-based dressing unless kitchen-tested separately.",
+      "Freezer suitability here describes expected eating quality, not laboratory validated shelf life."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, original versus adapted components, ingredient product labels, raw edible weight, cooked yield, serving weight and seafood cooking temperature.",
+      "Macro numbers are preliminary ingredient-input estimates; coatings, unused marinade and measured oil left behind can overstate calories. Recalculate against a verified nutrition database before consumer use.",
+      "Source recipes may be protein-only dishes. App-ready complete meals include separate additions with their own raw weights and provisional cooked yields."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 713,
+      "protein": 48,
+      "carbs": 67,
+      "fat": 27
+    },
+    "quantitiesFrom": "UNHANGRY Seafood Air Fryer file — exact raw quantities as written."
+  }
+}

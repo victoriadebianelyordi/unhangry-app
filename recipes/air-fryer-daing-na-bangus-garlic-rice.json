@@ -1,0 +1,241 @@
+{
+  "id": "air-fryer-daing-na-bangus-garlic-rice",
+  "name": "Air Fryer Filipino Daing na Bangus with Garlic Rice and Tomato Salad",
+  "protein": "seafood",
+  "method": "third-spot",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 743,
+    "protein": 54,
+    "carbs": 72,
+    "fat": 27
+  },
+  "components": [
+    {
+      "id": "fish",
+      "name": "Daing na Bangus",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 720,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 400,
+        "protein": 47,
+        "carbs": 5,
+        "fat": 22
+      },
+      "ingredients": [
+        {
+          "name": "Raw DEBONED butterflied milkfish, edible fish weight excluding head and large bones",
+          "qty": 880,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "White vinegar for bangus marinade",
+          "qty": 100,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Marinade"
+        },
+        {
+          "name": "Fresh crushed garlic",
+          "qty": 30,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Marinade"
+        },
+        {
+          "name": "Raw onion, thinly sliced",
+          "qty": 100,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Marinade"
+        },
+        {
+          "name": "Salt",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Marinade"
+        },
+        {
+          "name": "Ground black pepper",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Marinade"
+        },
+        {
+          "name": "Neutral oil for fish, measured",
+          "qty": 20,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "For accurate scaling buy boneless cleaned bangus and weigh 880 g of edible fish, excluding head, spine and large bones. The number of whole milkfish needed depends on supplier yield.",
+        "Mix vinegar, 30 g garlic, sliced onion, salt and pepper. Refrigerate fish in marinade for at least 3 hours, preferably overnight. Discard marinade after use.",
+        "Drain and dry the fish. Brush with 20 ml oil. Air fry at 180 C for about 9-12 minutes per side depending on fish thickness and basket fit, until fish reaches 63 C. Large butterflied pieces may need portioning.",
+        "Pack four portions of fish and garlic rice. Make salad fresh for best quality. Watch closely for small pin bones even when sold deboned."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Garlic Rice",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 850,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 313,
+        "protein": 5,
+        "carbs": 60,
+        "fat": 4
+      },
+      "ingredients": [
+        {
+          "name": "Dry jasmine rice",
+          "qty": 300,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Water for rice",
+          "qty": 510,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Oil for toasted rice garlic",
+          "qty": 15,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Fresh garlic, thinly sliced",
+          "qty": 22,
+          "unit": "g",
+          "component": "aromatic"
+        }
+      ],
+      "steps": [
+        "Cook the measured dry rice in water and rest covered. In a pan warm the 15 ml oil and gently toast the 22 g sliced garlic until aromatic; mix through the cooked rice."
+      ]
+    },
+    {
+      "id": "salad",
+      "name": "Tomato-Onion Salad",
+      "scaling": "fixed",
+      "servings": 4,
+      "cookedYieldG": 500,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 30,
+        "protein": 1,
+        "carbs": 7,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Raw ripe tomatoes, diced",
+          "qty": 400,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Raw red onions, finely sliced",
+          "qty": 100,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Fresh calamansi or lime juice",
+          "qty": 25,
+          "unit": "ml",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Toss fresh tomatoes and onions with calamansi juice, storing salad apart from fish and rice."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Filipino air-fryer daing na bangus adapted from published vinegar-garlic marinade, with a measured garlic-rice and tomato side.",
+    "Planning: ADVANCE PREP: marinate 3 hours or overnight. SECONDARY STOVETOP garlic rice.",
+    "Freezer: garlic rice freezes if chilled promptly; cooked bangus can freeze but dry out; fresh salad NOT suitable",
+    "Dietary: Fish, possible residual pin bones; no pork.",
+    "Refrigerate within 2 hours (1 hour above 32°C) in shallow containers at 4°C or colder, for 3–4 days at most, and follow the shorter seafood limit above. Cook fish and shellfish to 63°C and reheat leftovers to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": "Fish — plan for days 1-3; make the tomato salad fresh.",
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://pinoyfamilyrecipes.com/how-to-cook-daing-na-bangus-in-an-air-fryer/",
+  "reference": {
+    "sourceCredit": "Pinoy Family Recipes",
+    "sourceRecipeUrl": "https://pinoyfamilyrecipes.com/how-to-cook-daing-na-bangus-in-an-air-fryer/",
+    "fileTitle": "Air Fryer Filipino Daing na Bangus with Garlic Rice and Tomato Salad",
+    "fileRecipeNumber": 5,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Seafood",
+    "methodTag": "Air fryer",
+    "preparationMethod": "Air frying (see steps for secondary appliance use)",
+    "activePrepTime": "approx 30 minutes",
+    "airFryerCookingTime": "approx 45 minutes (batch counts / secondary work may extend total time)",
+    "freezer": "PARTIAL: garlic rice freezes if chilled promptly; cooked bangus can freeze but dry out; fresh salad NOT suitable",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Fish, possible residual pin bones; no pork.",
+    "fileMacrosPerServing": {
+      "kcal": 743,
+      "protein": 53.8,
+      "carbs": 72.2,
+      "fat": 26.5
+    },
+    "fileMacroText": {
+      "kcal": "743 kcal (ESTIMATED)",
+      "protein": "53.8 g (ESTIMATED)",
+      "carbs": "72.2 g (ESTIMATED)",
+      "fat": "26.5 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL measured recipe input ingredients using representative per-100g averages. Not source-published macros, not laboratory-tested. Brands, protein type, shell/bones, discarded coating, uneaten marinade and cooking fats affect accuracy.",
+    "fileNotes": "Filipino air-fryer daing na bangus adapted from published vinegar-garlic marinade, with a measured garlic-rice and tomato side.",
+    "planningNotes": "ADVANCE PREP: marinate 3 hours or overnight. SECONDARY STOVETOP garlic rice.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked edible bangus: approx 720 g",
+      "Cooked garlic rice: approx 850 g",
+      "Fresh tomato onion salad: approx 500 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; for many fish and shrimp dishes, prioritize eating within 1-2 days for quality and freeze later-week cooked portions promptly.",
+      "Cook fish and crustaceans to 63 C (145 F) or applicable local food-safety standard, and reheat cooked leftovers to 74 C. For crab cakes containing egg binder and purchased cooked crab, reheat to 74 C.",
+      "When recipe includes rice, cool rapidly and refrigerate promptly; do not leave cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Re-crisp breading in an air fryer when possible.",
+      "Do not freeze fresh avocado, uncooked tomato/cucumber/cabbage salad, or mayonnaise/yogurt-based dressing unless kitchen-tested separately.",
+      "Freezer suitability here describes expected eating quality, not laboratory validated shelf life."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, original versus adapted components, ingredient product labels, raw edible weight, cooked yield, serving weight and seafood cooking temperature.",
+      "Macro numbers are preliminary ingredient-input estimates; coatings, unused marinade and measured oil left behind can overstate calories. Recalculate against a verified nutrition database before consumer use.",
+      "Source recipes may be protein-only dishes. App-ready complete meals include separate additions with their own raw weights and provisional cooked yields."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 733,
+      "protein": 52,
+      "carbs": 73,
+      "fat": 24
+    },
+    "quantitiesFrom": "UNHANGRY Seafood Air Fryer file — exact raw quantities as written."
+  }
+}

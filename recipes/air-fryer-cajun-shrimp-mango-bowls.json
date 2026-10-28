@@ -1,0 +1,259 @@
+{
+  "id": "air-fryer-cajun-shrimp-mango-bowls",
+  "name": "Air Fryer Cajun Shrimp Mango Avocado Rice Bowls",
+  "protein": "seafood",
+  "method": "third-spot",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 753,
+    "protein": 62,
+    "carbs": 81,
+    "fat": 20
+  },
+  "components": [
+    {
+      "id": "shrimp",
+      "name": "Cajun Shrimp",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 790,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 298,
+        "protein": 51,
+        "carbs": 2,
+        "fat": 9
+      },
+      "ingredients": [
+        {
+          "name": "Raw peeled and deveined shrimp, without shells or tail",
+          "qty": 1000,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Olive oil for seasoning shrimp",
+          "qty": 30,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Cajun spice mix",
+          "qty": 14,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Garlic, freshly grated",
+          "qty": 8,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Salt, only if Cajun blend is salt-free",
+          "qty": 4,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Dry raw peeled shrimp well. Combine with olive oil, Cajun seasoning, garlic and optional salt; refrigerate until ready to air fry.",
+        "Air fry the shrimp at 190 C in a single layer for approximately 5-8 minutes depending on size, shaking once and checking they reach 63 C throughout. Cook large batch in several rounds."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Basmati Rice",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 750,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 251,
+        "protein": 4,
+        "carbs": 53,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Dry basmati rice",
+          "qty": 270,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Water for rice",
+          "qty": 460,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Rinse rice and cook with the measured water. Keep covered for 10 minutes after cooking, then cool rapidly for meal prep."
+      ]
+    },
+    {
+      "id": "sides",
+      "name": "Mango-Avocado Salsa & Yogurt Sauce",
+      "scaling": "fixed",
+      "servings": 4,
+      "cookedYieldG": 1040,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 205,
+        "protein": 7,
+        "carbs": 25,
+        "fat": 11
+      },
+      "ingredients": [
+        {
+          "name": "Fresh mango flesh, diced",
+          "qty": 320,
+          "unit": "g",
+          "component": "other",
+          "group": "Mango-avocado topping"
+        },
+        {
+          "name": "Fresh ripe avocado flesh, cubed",
+          "qty": 250,
+          "unit": "g",
+          "component": "other",
+          "group": "Mango-avocado topping"
+        },
+        {
+          "name": "Raw red onion, finely diced",
+          "qty": 100,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Mango-avocado topping"
+        },
+        {
+          "name": "Raw red pepper, diced",
+          "qty": 160,
+          "unit": "g",
+          "component": "other",
+          "group": "Mango-avocado topping"
+        },
+        {
+          "name": "Fresh lime juice",
+          "qty": 30,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Mango-avocado topping"
+        },
+        {
+          "name": "Fresh coriander",
+          "qty": 15,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Mango-avocado topping"
+        },
+        {
+          "name": "Plain nonfat Greek yogurt",
+          "qty": 160,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Yogurt sauce"
+        },
+        {
+          "name": "Fresh lime juice",
+          "qty": 20,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Yogurt sauce"
+        },
+        {
+          "name": "Ground Cajun spice mix",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Yogurt sauce"
+        }
+      ],
+      "steps": [
+        "Mix diced mango, bell pepper, red onion, coriander and lime juice. Cut avocado only when serving to avoid browning.",
+        "Whisk yogurt, lime juice and Cajun seasoning into a separate sauce. Divide rice and cooked shrimp into four containers.",
+        "Pack mango salsa, avocado and yogurt sauce apart from the hot components. Eat fresh items in the first days or portion them on serving day; do not freeze the mango/avocado mixture."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Drew publicly identifies this Cajun shrimp mango avocado rice bowl and advertises ~640 kcal and 62 g protein. His exact ingredient weights are not public in the accessible post. THIS IS AN UNHANGRY FORMULATION, not Drew’s complete recipe or macros.",
+    "Planning: SECONDARY STOVETOP rice. Fresh avocado should be cut when eating.",
+    "Freezer: shrimp and rice can freeze; mango, avocado and yogurt sauce are NOT good freezer components",
+    "Dietary: Crustaceans, milk; Cajun mix may contain celery and added salt.",
+    "Refrigerate within 2 hours (1 hour above 32°C) in shallow containers at 4°C or colder, for 3–4 days at most, and follow the shorter seafood limit above. Cook fish and shellfish to 63°C and reheat leftovers to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": "Shrimp — plan for days 1-3; mango, avocado and yogurt sauce don't freeze.",
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://pictame.com/en/discover/hashtag/high-protein-bowl-recipe",
+  "reference": {
+    "sourceCredit": "PrepWithDrew (dish concept), UNHANGRY quantified adaptation",
+    "sourceRecipeUrl": "https://pictame.com/en/discover/hashtag/high-protein-bowl-recipe",
+    "fileTitle": "Air Fryer Cajun Shrimp Mango Avocado Rice Bowls",
+    "fileRecipeNumber": 6,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Seafood",
+    "methodTag": "Air fryer",
+    "preparationMethod": "Air frying (see steps for secondary appliance use)",
+    "activePrepTime": "approx 25 minutes",
+    "airFryerCookingTime": "approx 25 minutes (batch counts / secondary work may extend total time)",
+    "freezer": "PARTIAL: shrimp and rice can freeze; mango, avocado and yogurt sauce are NOT good freezer components",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Crustaceans, milk; Cajun mix may contain celery and added salt.",
+    "fileMacrosPerServing": {
+      "kcal": 753,
+      "protein": 61.9,
+      "carbs": 81,
+      "fat": 20.1
+    },
+    "fileMacroText": {
+      "kcal": "753 kcal (ESTIMATED)",
+      "protein": "61.9 g (ESTIMATED)",
+      "carbs": "81.0 g (ESTIMATED)",
+      "fat": "20.1 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL measured recipe input ingredients using representative per-100g averages. Not source-published macros, not laboratory-tested. Brands, protein type, shell/bones, discarded coating, uneaten marinade and cooking fats affect accuracy.",
+    "fileNotes": "Drew publicly identifies this Cajun shrimp mango avocado rice bowl and advertises ~640 kcal and 62 g protein. His exact ingredient weights are not public in the accessible post. THIS IS AN UNHANGRY FORMULATION, not Drew’s complete recipe or macros.",
+    "planningNotes": "SECONDARY STOVETOP rice. Fresh avocado should be cut when eating.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked Cajun shrimp: approx 790 g",
+      "Cooked basmati rice: approx 750 g",
+      "Mango pepper onion salsa: approx 615 g",
+      "Fresh avocado flesh: approx 250 g",
+      "Cold spiced yogurt sauce: approx 175 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; for many fish and shrimp dishes, prioritize eating within 1-2 days for quality and freeze later-week cooked portions promptly.",
+      "Cook fish and crustaceans to 63 C (145 F) or applicable local food-safety standard, and reheat cooked leftovers to 74 C. For crab cakes containing egg binder and purchased cooked crab, reheat to 74 C.",
+      "When recipe includes rice, cool rapidly and refrigerate promptly; do not leave cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Re-crisp breading in an air fryer when possible.",
+      "Do not freeze fresh avocado, uncooked tomato/cucumber/cabbage salad, or mayonnaise/yogurt-based dressing unless kitchen-tested separately.",
+      "Freezer suitability here describes expected eating quality, not laboratory validated shelf life."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, original versus adapted components, ingredient product labels, raw edible weight, cooked yield, serving weight and seafood cooking temperature.",
+      "Macro numbers are preliminary ingredient-input estimates; coatings, unused marinade and measured oil left behind can overstate calories. Recalculate against a verified nutrition database before consumer use.",
+      "Source recipes may be protein-only dishes. App-ready complete meals include separate additions with their own raw weights and provisional cooked yields."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 730,
+      "protein": 62,
+      "carbs": 81,
+      "fat": 19
+    },
+    "quantitiesFrom": "UNHANGRY Seafood Air Fryer file — exact raw quantities as written."
+  }
+}
