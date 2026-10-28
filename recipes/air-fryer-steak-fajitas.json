@@ -1,0 +1,241 @@
+{
+  "id": "air-fryer-steak-fajitas",
+  "name": "Air Fryer Steak Fajitas with Tortillas and Guacamole",
+  "protein": "red-meat",
+  "method": "third-spot",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 805,
+    "protein": 52,
+    "carbs": 63,
+    "fat": 38
+  },
+  "components": [
+    {
+      "id": "steak",
+      "name": "Steak & Fajita Vegetables",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 1130,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 456,
+        "protein": 44,
+        "carbs": 15,
+        "fat": 23
+      },
+      "ingredients": [
+        {
+          "name": "Raw trimmed flank steak sliced thinly across grain",
+          "qty": 800,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Vegetable oil for steak",
+          "qty": 20,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Chili-lime seasoning",
+          "qty": 13,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Ground cumin",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Ground coriander",
+          "qty": 4,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Ground black pepper",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Raw red and green bell peppers, thin strips",
+          "qty": 360,
+          "unit": "g",
+          "component": "other",
+          "group": "Fajita vegetables"
+        },
+        {
+          "name": "Raw red onions, thin strips",
+          "qty": 220,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Fajita vegetables"
+        },
+        {
+          "name": "Vegetable oil for vegetables",
+          "qty": 15,
+          "unit": "ml",
+          "component": "other",
+          "group": "Fajita vegetables"
+        },
+        {
+          "name": "Fresh lime juice",
+          "qty": 20,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Fajita vegetables"
+        }
+      ],
+      "steps": [
+        "Slice steak across the grain into even strips. Mix steak with 20 ml oil, chili-lime seasoning, cumin, coriander, pepper and salt; refrigerate 20-30 minutes.",
+        "Slice peppers and onions. Toss vegetables with 15 ml oil and 20 ml lime juice.",
+        "Preheat air fryer to approximately 195 C. Spread vegetables in one layer, air fry about 6-9 minutes, shaking. Transfer out before they soften fully.",
+        "Cook steak strips in two or more air-fryer batches for around 6-10 minutes until desired doneness. Check doneness using a probe; do not stack raw meat thickly.",
+        "Freeze cooked steak and pepper mixture if necessary; fresh avocado and tortillas should be packed separately. Reheat meat gently to avoid dryness."
+      ]
+    },
+    {
+      "id": "wraps",
+      "name": "Tortillas, Guacamole & Salsa",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 705,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 349,
+        "protein": 8,
+        "carbs": 49,
+        "fat": 15
+      },
+      "ingredients": [
+        {
+          "name": "Eight flour tortillas at 40 g each",
+          "qty": 320,
+          "unit": "g",
+          "component": "carb",
+          "group": "Tortillas"
+        },
+        {
+          "name": "Raw avocado flesh",
+          "qty": 260,
+          "unit": "g",
+          "component": "other",
+          "group": "Guacamole"
+        },
+        {
+          "name": "Lime juice for avocado",
+          "qty": 25,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Guacamole"
+        },
+        {
+          "name": "Fresh coriander leaves",
+          "qty": 10,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Guacamole"
+        },
+        {
+          "name": "Fresh tomato salsa",
+          "qty": 100,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Salsa"
+        }
+      ],
+      "steps": [
+        "Mash avocado with its lime juice and coriander. Portion steak, peppers and onions with two flour tortillas per serving; keep guacamole, tortillas and salsa separate until eating."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Based on Whirlpool air-fryer flank steak fajitas; full quantified guacamole and tortillas are UNHANGRY additions/adjustments.",
+    "Planning: Vegetables and steak need several air-fryer loads; pack avocado fresh on serving day.",
+    "Freezer: cooked fajita meat and peppers freeze; guacamole browns and separates",
+    "Dietary: Wheat in tortillas. No pork.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.whirlpool.com/blog/recipes/air-fryer-flank-steak-fajitas.html",
+  "reference": {
+    "sourceCredit": "Whirlpool Test Kitchen",
+    "sourceRecipeUrl": "https://www.whirlpool.com/blog/recipes/air-fryer-flank-steak-fajitas.html",
+    "fileTitle": "Air Fryer Steak Fajitas with Tortillas and Guacamole",
+    "fileRecipeNumber": 6,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Red meat",
+    "methodTag": "Air fryer",
+    "preparationMethod": "Air frying (see steps for secondary appliance use)",
+    "activePrepTime": "approx 25 minutes",
+    "airFryerCookingTime": "approx 45 minutes (batch counts / secondary work may extend total time)",
+    "freezer": "PARTIAL: cooked fajita meat and peppers freeze; guacamole browns and separates",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Wheat in tortillas. No pork.",
+    "fileMacrosPerServing": {
+      "kcal": 805,
+      "protein": 52.3,
+      "carbs": 63.2,
+      "fat": 38.1
+    },
+    "fileMacroText": {
+      "kcal": "805 kcal (ESTIMATED)",
+      "protein": "52.3 g (ESTIMATED)",
+      "carbs": "63.2 g (ESTIMATED)",
+      "fat": "38.1 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL raw listed ingredients using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "Based on Whirlpool air-fryer flank steak fajitas; full quantified guacamole and tortillas are UNHANGRY additions/adjustments.",
+    "planningNotes": "Vegetables and steak need several air-fryer loads; pack avocado fresh on serving day.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked steak strips: approx 640 g",
+      "Air-fried peppers and onion: approx 490 g",
+      "Flour tortillas: approx 320 g",
+      "Guacamole: approx 285 g",
+      "Salsa: approx 100 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook ground beef and ground lamb to 71 C. For whole intact beef and lamb cuts, cook to at least 63 C with a 3-minute rest.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven or air fryer when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "Source recipes may use a different base yield, protein-only serving or cooking method; app-ready complete meals are distinctly marked as UNHANGRY adaptations."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 830,
+      "protein": 52,
+      "carbs": 62,
+      "fat": 41
+    },
+    "quantitiesFrom": "UNHANGRY Red Meat Air Fryer file — exact raw quantities as written."
+  }
+}

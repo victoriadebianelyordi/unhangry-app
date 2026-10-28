@@ -1,0 +1,245 @@
+{
+  "id": "air-fryer-beef-meatball-subs",
+  "name": "Air Fryer Beef Meatball Subs with Marinara",
+  "protein": "red-meat",
+  "method": "third-spot",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 903,
+    "protein": 66,
+    "carbs": 66,
+    "fat": 42
+  },
+  "components": [
+    {
+      "id": "meatballs",
+      "name": "Meatballs in Marinara",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 1290,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 593,
+        "protein": 52,
+        "carbs": 26,
+        "fat": 31
+      },
+      "ingredients": [
+        {
+          "name": "Raw ground beef about 10% fat",
+          "qty": 850,
+          "unit": "g",
+          "component": "protein",
+          "group": "Meatballs"
+        },
+        {
+          "name": "Plain dry breadcrumbs",
+          "qty": 60,
+          "unit": "g",
+          "component": "other",
+          "group": "Meatballs"
+        },
+        {
+          "name": "Low-sodium beef stock",
+          "qty": 100,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Meatballs"
+        },
+        {
+          "name": "Finely grated Parmesan cheese",
+          "qty": 50,
+          "unit": "g",
+          "component": "other",
+          "group": "Meatballs"
+        },
+        {
+          "name": "Fresh parsley, minced",
+          "qty": 20,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Meatballs"
+        },
+        {
+          "name": "Garlic, minced",
+          "qty": 15,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Meatballs"
+        },
+        {
+          "name": "Salt",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Meatballs"
+        },
+        {
+          "name": "Black pepper",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Meatballs"
+        },
+        {
+          "name": "Crushed canned tomatoes",
+          "qty": 500,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Marinara"
+        },
+        {
+          "name": "Raw onion, diced",
+          "qty": 100,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Marinara"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 15,
+          "unit": "ml",
+          "component": "other",
+          "group": "Marinara"
+        },
+        {
+          "name": "Tomato paste",
+          "qty": 20,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Marinara"
+        },
+        {
+          "name": "Garlic, minced",
+          "qty": 8,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Marinara"
+        }
+      ],
+      "steps": [
+        "Mix raw beef with breadcrumbs, beef stock, Parmesan, parsley, garlic, salt and pepper until evenly incorporated. Shape into 16 equal meatballs, using 4 per sub.",
+        "Preheat the air fryer to 195 C. Arrange meatballs in a single layer and cook in batches for about 10-14 minutes, turning or shaking midway, until all centres reach 71 C.",
+        "While the meatballs cook, soften onion in olive oil in a saucepan, add garlic and tomato paste, then pour in crushed tomatoes. Simmer gently until thick enough to coat the meatballs.",
+        "For meal prep, keep cooked meatballs in sauce separate from rolls until serving. Freeze meatballs and sauce if desired; do not freeze raw greens."
+      ]
+    },
+    {
+      "id": "subs",
+      "name": "Rolls, Cheese & Greens",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 615,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 310,
+        "protein": 14,
+        "carbs": 40,
+        "fat": 10
+      },
+      "ingredients": [
+        {
+          "name": "Four sandwich bread rolls at 80 g each",
+          "qty": 320,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Grated mozzarella or Cheddar",
+          "qty": 100,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Fresh lettuce or salad greens for the side",
+          "qty": 200,
+          "unit": "g",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Combine cooked meatballs with the warm marinara. Split the four rolls, add four meatballs and sauce to each, and top with the measured cheese.",
+        "Air fry filled rolls for 2-3 minutes until cheese has melted and bread is lightly toasted. Serve with a measured portion of raw greens."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Source Skinnytaste meatball subs uses chicken mince; beef is an explicit UNHANGRY substitution with recalculated nutrition.",
+    "Planning: Secondary saucepan for marinara. Short air-fryer finishing toast for assembled subs; keep bread apart for storage.",
+    "Freezer: cooked meatballs and marinara freeze well; assemble bread and fresh salad later",
+    "Dietary: Milk, wheat; check stock and breadcrumbs for allergens.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.skinnytaste.com/air-fryer-meatball-subs/",
+  "reference": {
+    "sourceCredit": "Gina Homolka, Skinnytaste",
+    "sourceRecipeUrl": "https://www.skinnytaste.com/air-fryer-meatball-subs/",
+    "fileTitle": "Air Fryer Beef Meatball Subs with Marinara",
+    "fileRecipeNumber": 5,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Red meat",
+    "methodTag": "Air fryer",
+    "preparationMethod": "Air frying (see steps for secondary appliance use)",
+    "activePrepTime": "approx 30 minutes",
+    "airFryerCookingTime": "approx 45 minutes (batch counts / secondary work may extend total time)",
+    "freezer": "YES: cooked meatballs and marinara freeze well; assemble bread and fresh salad later",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Milk, wheat; check stock and breadcrumbs for allergens.",
+    "fileMacrosPerServing": {
+      "kcal": 903,
+      "protein": 66,
+      "carbs": 65.6,
+      "fat": 41.8
+    },
+    "fileMacroText": {
+      "kcal": "903 kcal (ESTIMATED)",
+      "protein": "66.0 g (ESTIMATED)",
+      "carbs": "65.6 g (ESTIMATED)",
+      "fat": "41.8 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL raw listed ingredients using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "Source Skinnytaste meatball subs uses chicken mince; beef is an explicit UNHANGRY substitution with recalculated nutrition.",
+    "planningNotes": "Secondary saucepan for marinara. Short air-fryer finishing toast for assembled subs; keep bread apart for storage.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked beef meatballs: approx 710 g",
+      "Cooked marinara sauce: approx 580 g",
+      "Bread rolls: approx 320 g",
+      "Melted cheese: approx 95 g",
+      "Raw side greens: approx 200 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook ground beef and ground lamb to 71 C. For whole intact beef and lamb cuts, cook to at least 63 C with a 3-minute rest.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven or air fryer when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "Source recipes may use a different base yield, protein-only serving or cooking method; app-ready complete meals are distinctly marked as UNHANGRY adaptations."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 890,
+      "protein": 65,
+      "carbs": 68,
+      "fat": 39
+    },
+    "quantitiesFrom": "UNHANGRY Red Meat Air Fryer file — exact raw quantities as written."
+  }
+}

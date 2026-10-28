@@ -1,0 +1,268 @@
+{
+  "id": "air-fryer-beef-empanadas-bean-corn-salad",
+  "name": "Air Fryer Beef Empanadas with Black Bean and Corn Salad",
+  "protein": "red-meat",
+  "method": "third-spot",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 976,
+    "protein": 53,
+    "carbs": 99,
+    "fat": 41
+  },
+  "components": [
+    {
+      "id": "empanadas",
+      "name": "Beef Empanadas",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 1260,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 827,
+        "protein": 46,
+        "carbs": 68,
+        "fat": 40
+      },
+      "ingredients": [
+        {
+          "name": "Raw 10% lean ground beef",
+          "qty": 650,
+          "unit": "g",
+          "component": "protein",
+          "group": "Picadillo filling"
+        },
+        {
+          "name": "Raw onion, finely diced",
+          "qty": 170,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Picadillo filling"
+        },
+        {
+          "name": "Fresh bell pepper, diced",
+          "qty": 120,
+          "unit": "g",
+          "component": "other",
+          "group": "Picadillo filling"
+        },
+        {
+          "name": "Fresh garlic, minced",
+          "qty": 16,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Picadillo filling"
+        },
+        {
+          "name": "Crushed canned tomatoes",
+          "qty": 230,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Picadillo filling"
+        },
+        {
+          "name": "Tomato paste",
+          "qty": 30,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Picadillo filling"
+        },
+        {
+          "name": "Pitted green olives, chopped",
+          "qty": 40,
+          "unit": "g",
+          "component": "other",
+          "group": "Picadillo filling"
+        },
+        {
+          "name": "Olive oil for filling",
+          "qty": 15,
+          "unit": "ml",
+          "component": "other",
+          "group": "Picadillo filling"
+        },
+        {
+          "name": "Ground cumin",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Picadillo filling"
+        },
+        {
+          "name": "Smoked paprika",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Picadillo filling"
+        },
+        {
+          "name": "Salt",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Picadillo filling"
+        },
+        {
+          "name": "Eight raw empanada dough discs, approximately 50 g each",
+          "qty": 400,
+          "unit": "g",
+          "component": "carb",
+          "group": "Pastry"
+        },
+        {
+          "name": "Beaten egg for sealing and glaze",
+          "qty": 35,
+          "unit": "g",
+          "component": "protein",
+          "group": "Pastry"
+        },
+        {
+          "name": "Olive oil spray, measured equivalent",
+          "qty": 10,
+          "unit": "ml",
+          "component": "other",
+          "group": "Pastry"
+        }
+      ],
+      "steps": [
+        "Cook the measured beef in a skillet until browned, breaking it into small pieces. Add onion, pepper and garlic and cook until softened.",
+        "Stir in tomatoes, tomato paste, olives, cumin, paprika and salt. Simmer until the filling is reduced and no longer watery, then cool fully before filling dough.",
+        "Lay out eight empanada discs. Divide filling evenly among them, fold into half-moons and seal edges with a fork. Brush with measured beaten egg and a light spray of oil.",
+        "Preheat air fryer to 180 C. Air fry empanadas in spaced batches for approximately 9-13 minutes, turning if required, until pastry is golden and beef filling is steaming hot.",
+        "Pack two empanadas per serving plus one quarter of the bean-corn salad. The source calls for cooked picadillo; this adaptation includes the FULL raw filling recipe. For the best texture, freeze unbaked empanadas and cook directly from frozen with a longer time as needed. Keep salad refrigerated only."
+      ]
+    },
+    {
+      "id": "salad",
+      "name": "Black Bean & Corn Salad",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 920,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 149,
+        "protein": 8,
+        "carbs": 31,
+        "fat": 1
+      },
+      "ingredients": [
+        {
+          "name": "Cooked, drained black beans, weighed ready to use",
+          "qty": 320,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Drained canned sweetcorn, weighed ready to use",
+          "qty": 230,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Fresh tomato, diced",
+          "qty": 230,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Raw red onion, diced",
+          "qty": 100,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Lime juice",
+          "qty": 30,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Fresh coriander leaves",
+          "qty": 12,
+          "unit": "g",
+          "component": "aromatic"
+        }
+      ],
+      "steps": [
+        "Combine the ready-cooked, drained black beans with drained sweetcorn, diced tomato, onion, lime and coriander. Do not cook the salad."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Skinnytaste supplies air fryer directions using previously prepared picadillo. UNHANGRY gives a fully quantified from-raw beef filling and increases the serving unit to two empanadas with a measured bean salad per person.",
+    "Planning: Secondary stovetop for beef picadillo. Source originally serves 8 with one smaller empanada each; UNHANGRY complete meal base is 4, with two empanadas each.",
+    "Freezer: unbaked empanadas freeze especially well; salad is for fresh chilled use",
+    "Dietary: Wheat and egg in pastry; check dough ingredients. No pork.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.skinnytaste.com/air-fryer-beef-empanadas/",
+  "reference": {
+    "sourceCredit": "Gina Homolka, Skinnytaste",
+    "sourceRecipeUrl": "https://www.skinnytaste.com/air-fryer-beef-empanadas/",
+    "fileTitle": "Air Fryer Beef Empanadas with Black Bean and Corn Salad",
+    "fileRecipeNumber": 9,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Red meat",
+    "methodTag": "Air fryer",
+    "preparationMethod": "Air frying (see steps for secondary appliance use)",
+    "activePrepTime": "approx 40 minutes",
+    "airFryerCookingTime": "approx 60 minutes (batch counts / secondary work may extend total time)",
+    "freezer": "PARTIAL: unbaked empanadas freeze especially well; salad is for fresh chilled use",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Wheat and egg in pastry; check dough ingredients. No pork.",
+    "fileMacrosPerServing": {
+      "kcal": 976,
+      "protein": 53.1,
+      "carbs": 98.9,
+      "fat": 40.8
+    },
+    "fileMacroText": {
+      "kcal": "976 kcal (ESTIMATED)",
+      "protein": "53.1 g (ESTIMATED)",
+      "carbs": "98.9 g (ESTIMATED)",
+      "fat": "40.8 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL raw listed ingredients using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "Skinnytaste supplies air fryer directions using previously prepared picadillo. UNHANGRY gives a fully quantified from-raw beef filling and increases the serving unit to two empanadas with a measured bean salad per person.",
+    "planningNotes": "Secondary stovetop for beef picadillo. Source originally serves 8 with one smaller empanada each; UNHANGRY complete meal base is 4, with two empanadas each.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked picadillo filling, before stuffing: approx 970 g",
+      "Cooked empanadas including pastry and filling: approx 1260 g",
+      "Cold black bean and corn salad: approx 920 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook ground beef and ground lamb to 71 C. For whole intact beef and lamb cuts, cook to at least 63 C with a 3-minute rest.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven or air fryer when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "Source recipes may use a different base yield, protein-only serving or cooking method; app-ready complete meals are distinctly marked as UNHANGRY adaptations."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 895,
+      "protein": 50,
+      "carbs": 86,
+      "fat": 39
+    },
+    "quantitiesFrom": "UNHANGRY Red Meat Air Fryer file — exact raw quantities as written."
+  }
+}

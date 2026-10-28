@@ -1,0 +1,236 @@
+{
+  "id": "air-fryer-pepper-crusted-steak-wedges",
+  "name": "Air Fryer Pepper-Crusted Steak with Potato Wedges and Asparagus",
+  "protein": "red-meat",
+  "method": "third-spot",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 708,
+    "protein": 55,
+    "carbs": 46,
+    "fat": 34
+  },
+  "components": [
+    {
+      "id": "steak",
+      "name": "Pepper-Crusted Steak",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 710,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 380,
+        "protein": 48,
+        "carbs": 1,
+        "fat": 19
+      },
+      "ingredients": [
+        {
+          "name": "Raw boneless sirloin or strip steaks, 4 steaks of 225 g",
+          "qty": 900,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Olive oil for steaks",
+          "qty": 15,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Freshly cracked black pepper",
+          "qty": 8,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Coarse salt",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Pat steaks dry. Rub with 15 ml oil, black pepper and salt. Use steaks of equal thickness to simplify cooking.",
+        "Air fry steaks at 200 C for approximately 7-12 minutes, flipping midway, checking temperature with a probe and cooking to the desired doneness; avoid overcrowding. Rest 5-10 minutes before slicing.",
+        "Split wedges and asparagus into four containers. Add sliced steak and pack mustard dressing separately. Serve steak early in the week for best eating quality and reheat carefully to avoid toughening."
+      ]
+    },
+    {
+      "id": "wedges",
+      "name": "Potato Wedges",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 740,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 236,
+        "protein": 4,
+        "carbs": 39,
+        "fat": 7
+      },
+      "ingredients": [
+        {
+          "name": "Raw red potatoes, washed and cut into wedges",
+          "qty": 900,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Olive oil for potatoes",
+          "qty": 30,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Paprika",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt for potatoes",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Wash, cut and dry potato wedges thoroughly; toss with 30 ml olive oil, paprika and 5 g salt.",
+        "Air fry wedges at 195 C for about 19-24 minutes in batches, shaking several times, until crisp and tender; hold in a warm dish."
+      ]
+    },
+    {
+      "id": "asparagus",
+      "name": "Asparagus & Mustard Dressing",
+      "scaling": "fixed",
+      "servings": 4,
+      "cookedYieldG": 510,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 92,
+        "protein": 3,
+        "carbs": 6,
+        "fat": 7
+      },
+      "ingredients": [
+        {
+          "name": "Fresh asparagus, trimmed",
+          "qty": 500,
+          "unit": "g",
+          "component": "other",
+          "group": "Asparagus"
+        },
+        {
+          "name": "Olive oil for asparagus",
+          "qty": 15,
+          "unit": "ml",
+          "component": "other",
+          "group": "Asparagus"
+        },
+        {
+          "name": "Dijon mustard",
+          "qty": 35,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Mustard dressing"
+        },
+        {
+          "name": "Lemon juice",
+          "qty": 25,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Mustard dressing"
+        },
+        {
+          "name": "Olive oil for dressing",
+          "qty": 15,
+          "unit": "ml",
+          "component": "other",
+          "group": "Mustard dressing"
+        }
+      ],
+      "steps": [
+        "Toss trimmed asparagus with 15 ml oil; air fry at 190 C for 5-8 minutes until just tender. Whisk mustard, lemon and remaining olive oil."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "UNHANGRY measured complete-meal air-fryer adaptation of Breville pepper-crusted steak salad, using potato wedges and asparagus. Original salad/dressing formulation differs.",
+    "Planning: Air fryer requires consecutive steak, potato and asparagus batches; total time depends on basket capacity. Steak is less freezer-stable than braised beef.",
+    "Freezer: cooked steak can be frozen, but texture and juiciness decline; wedges soften; asparagus best fresh",
+    "Dietary: Mustard. No pork.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.breville.com/inspiration/en-au/recipes/ovens-air-fryers-microwaves/grilled-pepper-crusted-steak-salad",
+  "reference": {
+    "sourceCredit": "Breville Test Kitchen",
+    "sourceRecipeUrl": "https://www.breville.com/inspiration/en-au/recipes/ovens-air-fryers-microwaves/grilled-pepper-crusted-steak-salad",
+    "fileTitle": "Air Fryer Pepper-Crusted Steak with Potato Wedges and Asparagus",
+    "fileRecipeNumber": 1,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Red meat",
+    "methodTag": "Air fryer",
+    "preparationMethod": "Air frying (see steps for secondary appliance use)",
+    "activePrepTime": "approx 25 minutes",
+    "airFryerCookingTime": "approx 65 minutes (batch counts / secondary work may extend total time)",
+    "freezer": "PARTIAL: cooked steak can be frozen, but texture and juiciness decline; wedges soften; asparagus best fresh",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Mustard. No pork.",
+    "fileMacrosPerServing": {
+      "kcal": 708,
+      "protein": 55.2,
+      "carbs": 45.8,
+      "fat": 33.8
+    },
+    "fileMacroText": {
+      "kcal": "708 kcal (ESTIMATED)",
+      "protein": "55.2 g (ESTIMATED)",
+      "carbs": "45.8 g (ESTIMATED)",
+      "fat": "33.8 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL raw listed ingredients using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "UNHANGRY measured complete-meal air-fryer adaptation of Breville pepper-crusted steak salad, using potato wedges and asparagus. Original salad/dressing formulation differs.",
+    "planningNotes": "Air fryer requires consecutive steak, potato and asparagus batches; total time depends on basket capacity. Steak is less freezer-stable than braised beef.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked steak after rest: approx 710 g",
+      "Cooked potato wedges: approx 740 g",
+      "Cooked asparagus: approx 440 g",
+      "Mustard dressing: approx 70 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook ground beef and ground lamb to 71 C. For whole intact beef and lamb cuts, cook to at least 63 C with a 3-minute rest.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven or air fryer when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "Source recipes may use a different base yield, protein-only serving or cooking method; app-ready complete meals are distinctly marked as UNHANGRY adaptations."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 716,
+      "protein": 58,
+      "carbs": 46,
+      "fat": 34
+    },
+    "quantitiesFrom": "UNHANGRY Red Meat Air Fryer file — exact raw quantities as written."
+  }
+}

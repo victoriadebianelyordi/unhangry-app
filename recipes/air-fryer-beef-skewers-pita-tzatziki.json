@@ -1,0 +1,231 @@
+{
+  "id": "air-fryer-beef-skewers-pita-tzatziki",
+  "name": "Air Fryer Beef and Vegetable Skewers with Pita and Tzatziki",
+  "protein": "red-meat",
+  "method": "third-spot",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 752,
+    "protein": 65,
+    "carbs": 60,
+    "fat": 28
+  },
+  "components": [
+    {
+      "id": "skewers",
+      "name": "Beef & Vegetable Skewers",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 1180,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 471,
+        "protein": 50,
+        "carbs": 12,
+        "fat": 25
+      },
+      "ingredients": [
+        {
+          "name": "Raw sirloin steak cut into 2.5 cm cubes",
+          "qty": 900,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Fresh red bell pepper, cubed",
+          "qty": 320,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Raw red onion, cubed",
+          "qty": 260,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Extra virgin olive oil",
+          "qty": 40,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Shawarma spice blend",
+          "qty": 12,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Ground black pepper",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Cut steak, peppers and red onion into evenly sized pieces; pat steak dry.",
+        "Combine olive oil, shawarma spice blend, salt and black pepper. Toss steak and vegetables to coat, then thread onto short skewers that fit inside the air fryer.",
+        "Preheat air fryer to 200 C. Cook skewers in one layer in batches, turning once, approximately 8-12 minutes depending on steak cube size and desired doneness. Use a thermometer to check meat.",
+        "Chill leftovers promptly. Freeze cooked skewers only if necessary; yogurt sauce and fresh vegetables lose their texture after freezing."
+      ]
+    },
+    {
+      "id": "pita",
+      "name": "Pita Bread",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 320,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 212,
+        "protein": 7,
+        "carbs": 41,
+        "fat": 1
+      },
+      "ingredients": [
+        {
+          "name": "Four pita breads at 80 g each",
+          "qty": 320,
+          "unit": "g",
+          "component": "carb"
+        }
+      ],
+      "steps": [
+        "Briefly warm the four pita breads. Split the skewers and bread evenly across four meals; pack tzatziki separately."
+      ]
+    },
+    {
+      "id": "tzatziki",
+      "name": "Tzatziki",
+      "scaling": "fixed",
+      "servings": 4,
+      "cookedYieldG": 510,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 69,
+        "protein": 8,
+        "carbs": 6,
+        "fat": 2
+      },
+      "ingredients": [
+        {
+          "name": "Plain Greek yogurt",
+          "qty": 320,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Raw cucumber, grated and squeezed dry",
+          "qty": 180,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Fresh garlic, crushed",
+          "qty": 12,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Fresh lemon juice",
+          "qty": 25,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Chopped dill or mint",
+          "qty": 10,
+          "unit": "g",
+          "component": "aromatic"
+        }
+      ],
+      "steps": [
+        "Grate cucumber, squeeze out excess liquid and mix it with Greek yogurt, crushed garlic, lemon and dill or mint. Chill the tzatziki until serving."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Measured full-meal expansion of the SharkNinja original single-serving beef and vegetable air-fryer skewers.",
+    "Planning: Must choose skewers approved for the air fryer and short enough for the basket; batches extend time.",
+    "Freezer: cooked beef skewers can freeze; cucumber tzatziki should not be frozen",
+    "Dietary: Wheat in pita and milk in Greek yogurt. No pork.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://sharkninja.sg/blogs/ninja-kitchen-recipes/beef-vegetable-skewers",
+  "reference": {
+    "sourceCredit": "SharkNinja Singapore Test Kitchen",
+    "sourceRecipeUrl": "https://sharkninja.sg/blogs/ninja-kitchen-recipes/beef-vegetable-skewers",
+    "fileTitle": "Air Fryer Beef and Vegetable Skewers with Pita and Tzatziki",
+    "fileRecipeNumber": 7,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Red meat",
+    "methodTag": "Air fryer",
+    "preparationMethod": "Air frying (see steps for secondary appliance use)",
+    "activePrepTime": "approx 25 minutes",
+    "airFryerCookingTime": "approx 40 minutes (batch counts / secondary work may extend total time)",
+    "freezer": "PARTIAL: cooked beef skewers can freeze; cucumber tzatziki should not be frozen",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Wheat in pita and milk in Greek yogurt. No pork.",
+    "fileMacrosPerServing": {
+      "kcal": 752,
+      "protein": 65.1,
+      "carbs": 59.6,
+      "fat": 28.1
+    },
+    "fileMacroText": {
+      "kcal": "752 kcal (ESTIMATED)",
+      "protein": "65.1 g (ESTIMATED)",
+      "carbs": "59.6 g (ESTIMATED)",
+      "fat": "28.1 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL raw listed ingredients using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "Measured full-meal expansion of the SharkNinja original single-serving beef and vegetable air-fryer skewers.",
+    "planningNotes": "Must choose skewers approved for the air fryer and short enough for the basket; batches extend time.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked beef cubes: approx 710 g",
+      "Cooked skewered peppers and onions: approx 470 g",
+      "Pita bread: approx 320 g",
+      "Cold tzatziki: approx 510 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook ground beef and ground lamb to 71 C. For whole intact beef and lamb cuts, cook to at least 63 C with a 3-minute rest.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven or air fryer when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "Source recipes may use a different base yield, protein-only serving or cooking method; app-ready complete meals are distinctly marked as UNHANGRY adaptations."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 781,
+      "protein": 67,
+      "carbs": 63,
+      "fat": 28
+    },
+    "quantitiesFrom": "UNHANGRY Red Meat Air Fryer file — exact raw quantities as written."
+  }
+}

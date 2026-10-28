@@ -1,0 +1,225 @@
+{
+  "id": "air-fryer-cheeseburger-quesadillas",
+  "name": "Air Fryer Cheeseburger Beef Quesadillas with Tomato Salad",
+  "protein": "red-meat",
+  "method": "third-spot",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 775,
+    "protein": 50,
+    "carbs": 63,
+    "fat": 36
+  },
+  "components": [
+    {
+      "id": "quesadillas",
+      "name": "Cheeseburger Quesadillas",
+      "scaling": "ratio",
+      "role": "whole",
+      "servings": 4,
+      "cookedYieldG": 1060,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 711,
+        "protein": 46,
+        "carbs": 51,
+        "fat": 35
+      },
+      "ingredients": [
+        {
+          "name": "Raw 10% fat ground beef",
+          "qty": 600,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Flour tortillas, eight 50 g rounds",
+          "qty": 400,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Grated Cheddar cheese",
+          "qty": 130,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Fine salt for beef",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Ground black pepper",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Oil spray, measured equivalent for basket",
+          "qty": 10,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Divide 600 g raw minced beef into eight equal portions; season with salt and black pepper. Make a very thin even beef layer across one side of each tortilla.",
+        "Preheat the air fryer to 180 C. Air fry each mince-topped tortilla until the mince is fully cooked; check the centre of the ground beef reaches 71 C. Cook in batches.",
+        "Scatter cheese evenly across the cooked-beef halves; briefly return to air fryer until melted. Fold tortillas over the filling and crisp for approximately 2-3 additional minutes.",
+        "Pack two quesadillas per serving, with salad and burger sauce in separate containers. Reheat quesadillas in the air fryer for best texture; avoid freezing salad."
+      ]
+    },
+    {
+      "id": "sides",
+      "name": "Burger Sauce & Tomato Salad",
+      "scaling": "fixed",
+      "servings": 4,
+      "cookedYieldG": 835,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 64,
+        "protein": 4,
+        "carbs": 12,
+        "fat": 1
+      },
+      "ingredients": [
+        {
+          "name": "Plain Greek yogurt",
+          "qty": 75,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Burger sauce"
+        },
+        {
+          "name": "Tomato ketchup",
+          "qty": 45,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Burger sauce"
+        },
+        {
+          "name": "Yellow mustard",
+          "qty": 20,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Burger sauce"
+        },
+        {
+          "name": "Gherkins, chopped",
+          "qty": 50,
+          "unit": "g",
+          "component": "other",
+          "group": "Burger sauce"
+        },
+        {
+          "name": "Fresh tomatoes, chopped",
+          "qty": 300,
+          "unit": "g",
+          "component": "other",
+          "group": "Tomato salad"
+        },
+        {
+          "name": "Romaine lettuce, washed and chopped",
+          "qty": 200,
+          "unit": "g",
+          "component": "other",
+          "group": "Tomato salad"
+        },
+        {
+          "name": "Raw red onion, finely sliced",
+          "qty": 130,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Tomato salad"
+        },
+        {
+          "name": "Lemon juice",
+          "qty": 20,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Tomato salad"
+        }
+      ],
+      "steps": [
+        "Mix yogurt, ketchup, mustard and chopped gherkins as a separate burger-style sauce.",
+        "Chop and combine tomatoes, lettuce and onion. Toss with lemon juice only when serving."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Adaptation of M&S cheeseburger quesadillas; exact batch weights adjusted for four full lunch portions. Beef must be cooked through before consuming.",
+    "Planning: Main dish is air-fryer based; one or two quesadillas per batch depending on fryer. Fresh vegetables stay separate.",
+    "Freezer: cooked beef quesadillas freeze, but tortilla softens; sauce and salad fresh",
+    "Dietary: Wheat, milk, mustard. No bacon/pork in UNHANGRY version.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.marksandspencer.com/c/food-and-wine/cooking/recipes/223258/air-fryer-cheeseburger-quesadillas-recipe/",
+  "reference": {
+    "sourceCredit": "Flo Bischoff, Marks & Spencer",
+    "sourceRecipeUrl": "https://www.marksandspencer.com/c/food-and-wine/cooking/recipes/223258/air-fryer-cheeseburger-quesadillas-recipe/",
+    "fileTitle": "Air Fryer Cheeseburger Beef Quesadillas with Tomato Salad",
+    "fileRecipeNumber": 3,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Red meat",
+    "methodTag": "Air fryer",
+    "preparationMethod": "Air frying (see steps for secondary appliance use)",
+    "activePrepTime": "approx 25 minutes",
+    "airFryerCookingTime": "approx 40 minutes (batch counts / secondary work may extend total time)",
+    "freezer": "PARTIAL: cooked beef quesadillas freeze, but tortilla softens; sauce and salad fresh",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Wheat, milk, mustard. No bacon/pork in UNHANGRY version.",
+    "fileMacrosPerServing": {
+      "kcal": 775,
+      "protein": 50.3,
+      "carbs": 63.1,
+      "fat": 35.7
+    },
+    "fileMacroText": {
+      "kcal": "775 kcal (ESTIMATED)",
+      "protein": "50.3 g (ESTIMATED)",
+      "carbs": "63.1 g (ESTIMATED)",
+      "fat": "35.7 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL raw listed ingredients using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "Adaptation of M&S cheeseburger quesadillas; exact batch weights adjusted for four full lunch portions. Beef must be cooked through before consuming.",
+    "planningNotes": "Main dish is air-fryer based; one or two quesadillas per batch depending on fryer. Fresh vegetables stay separate.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked cheeseburger quesadillas, including tortillas: approx 1060 g",
+      "Cold burger sauce: approx 185 g",
+      "Fresh tomato lettuce salad: approx 650 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook ground beef and ground lamb to 71 C. For whole intact beef and lamb cuts, cook to at least 63 C with a 3-minute rest.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven or air fryer when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "Source recipes may use a different base yield, protein-only serving or cooking method; app-ready complete meals are distinctly marked as UNHANGRY adaptations."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 789,
+      "protein": 50,
+      "carbs": 63,
+      "fat": 37
+    },
+    "quantitiesFrom": "UNHANGRY Red Meat Air Fryer file — exact raw quantities as written."
+  }
+}

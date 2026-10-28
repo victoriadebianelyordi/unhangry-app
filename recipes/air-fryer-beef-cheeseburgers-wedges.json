@@ -1,0 +1,237 @@
+{
+  "id": "air-fryer-beef-cheeseburgers-wedges",
+  "name": "Air Fryer Beef Cheeseburgers with Potato Wedges",
+  "protein": "red-meat",
+  "method": "third-spot",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 858,
+    "protein": 58,
+    "carbs": 73,
+    "fat": 37
+  },
+  "components": [
+    {
+      "id": "patties",
+      "name": "Cheeseburger Patties",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 720,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 453,
+        "protein": 46,
+        "carbs": 1,
+        "fat": 29
+      },
+      "ingredients": [
+        {
+          "name": "Raw ground beef, approximately 10% fat",
+          "qty": 800,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Salt for patties",
+          "qty": 7,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Black pepper for patties",
+          "qty": 4,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Cheddar cheese, four 25 g slices",
+          "qty": 100,
+          "unit": "g",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Divide beef into four 200 g raw portions, shape into flat patties with shallow centre indentations; season both sides with the listed salt and black pepper.",
+        "Air fry burgers at 200 C in batches, turning once. Check that the centres reach at least 71 C for ground beef. Top each patty with one cheese slice for the final minute.",
+        "Pack burgers, buns, wedges and cold toppings separately for four meals. Freeze cooked patties and wedges if necessary; add buns and salads fresh."
+      ]
+    },
+    {
+      "id": "wedges",
+      "name": "Potato Wedges",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 620,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 188,
+        "protein": 4,
+        "carbs": 32,
+        "fat": 5
+      },
+      "ingredients": [
+        {
+          "name": "Raw potatoes cut into wedges",
+          "qty": 750,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 20,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Smoked paprika",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Wash and cut potatoes into even wedges; dry and toss with measured oil, smoked paprika and salt.",
+        "Air fry potato wedges at 195 C for 18-24 minutes, shaking halfway through, until browned and cooked inside. Hold warm."
+      ]
+    },
+    {
+      "id": "buns",
+      "name": "Bun & Toppings",
+      "scaling": "fixed",
+      "servings": 4,
+      "cookedYieldG": 690,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 217,
+        "protein": 8,
+        "carbs": 40,
+        "fat": 3
+      },
+      "ingredients": [
+        {
+          "name": "Four burger buns at 70 g each",
+          "qty": 280,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Raw tomato slices",
+          "qty": 160,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Fresh lettuce leaves",
+          "qty": 100,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Pickled gherkins",
+          "qty": 80,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Tomato ketchup",
+          "qty": 40,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Mustard",
+          "qty": 30,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Lightly toast buns separately. Wash and dry lettuce; slice tomatoes and gherkins. Spread measured ketchup and mustard on buns when serving."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Source air-fryer smash burger originally includes bacon. UNHANGRY omits all bacon, changes beef quantity and adds measured potato wedges; this is an adaptation, not the source recipe.",
+    "Planning: Source page is premium content; method is described in accessible preview. Air fryer burgers must reach 71 C as ground meat.",
+    "Freezer: beef patties freeze well, wedges soften; buns and vegetables better separate",
+    "Dietary: Wheat, milk, mustard. UNHANGRY batch has NO pork or bacon.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.bbcgoodfood.com/premium/air-fryer-smash-burgers-with-cheese-bacon",
+  "reference": {
+    "sourceCredit": "Silvana Franco, BBC Good Food",
+    "sourceRecipeUrl": "https://www.bbcgoodfood.com/premium/air-fryer-smash-burgers-with-cheese-bacon",
+    "fileTitle": "Air Fryer Beef Cheeseburgers with Potato Wedges",
+    "fileRecipeNumber": 4,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Red meat",
+    "methodTag": "Air fryer",
+    "preparationMethod": "Air frying (see steps for secondary appliance use)",
+    "activePrepTime": "approx 20 minutes",
+    "airFryerCookingTime": "approx 55 minutes (batch counts / secondary work may extend total time)",
+    "freezer": "PARTIAL: beef patties freeze well, wedges soften; buns and vegetables better separate",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Wheat, milk, mustard. UNHANGRY batch has NO pork or bacon.",
+    "fileMacrosPerServing": {
+      "kcal": 858,
+      "protein": 57.8,
+      "carbs": 73.1,
+      "fat": 37.2
+    },
+    "fileMacroText": {
+      "kcal": "858 kcal (ESTIMATED)",
+      "protein": "57.8 g (ESTIMATED)",
+      "carbs": "73.1 g (ESTIMATED)",
+      "fat": "37.2 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL raw listed ingredients using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "Source air-fryer smash burger originally includes bacon. UNHANGRY omits all bacon, changes beef quantity and adds measured potato wedges; this is an adaptation, not the source recipe.",
+    "planningNotes": "Source page is premium content; method is described in accessible preview. Air fryer burgers must reach 71 C as ground meat.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked burger patties and melted cheese: approx 720 g",
+      "Cooked potato wedges: approx 620 g",
+      "Bread buns: approx 280 g",
+      "Cold toppings and sauces: approx 410 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook ground beef and ground lamb to 71 C. For whole intact beef and lamb cuts, cook to at least 63 C with a 3-minute rest.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven or air fryer when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "Source recipes may use a different base yield, protein-only serving or cooking method; app-ready complete meals are distinctly marked as UNHANGRY adaptations."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 862,
+      "protein": 58,
+      "carbs": 74,
+      "fat": 36
+    },
+    "quantitiesFrom": "UNHANGRY Red Meat Air Fryer file — exact raw quantities as written."
+  }
+}

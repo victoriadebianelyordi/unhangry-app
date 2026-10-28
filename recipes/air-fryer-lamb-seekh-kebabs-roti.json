@@ -1,0 +1,260 @@
+{
+  "id": "air-fryer-lamb-seekh-kebabs-roti",
+  "name": "Air Fryer Lamb Seekh Kebabs with Roti and Mint Yogurt",
+  "protein": "red-meat",
+  "method": "third-spot",
+  "mealType": "main",
+  "feeds": 6,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 764,
+    "protein": 46,
+    "carbs": 58,
+    "fat": 38
+  },
+  "components": [
+    {
+      "id": "kebabs",
+      "name": "Lamb Seekh Kebabs",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 6,
+      "cookedYieldG": 820,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 485,
+        "protein": 31,
+        "carbs": 8,
+        "fat": 33
+      },
+      "ingredients": [
+        {
+          "name": "Raw minced lamb, around 15-20% fat",
+          "qty": 1000,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Raw onion, grated and squeezed dry",
+          "qty": 180,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Fresh ginger, grated",
+          "qty": 25,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Garlic, minced",
+          "qty": 25,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Green chilli, finely chopped",
+          "qty": 15,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Fresh coriander leaves and stems, chopped",
+          "qty": 20,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Ground cumin",
+          "qty": 10,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Ground coriander",
+          "qty": 10,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Garam masala",
+          "qty": 10,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 7,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Oil spray for cooking",
+          "qty": 10,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Grate onion finely and squeeze out as much liquid as possible. Finely chop ginger, garlic, chilli and fresh coriander.",
+        "Mix the onion mixture into minced lamb with cumin, ground coriander, garam masala and salt. Knead several minutes until sticky and cohesive; refrigerate at least 1 hour.",
+        "Shape lamb into 12 even sausage-shaped seekh kebabs, approximately two per portion. Wooden skewers are optional; if used, verify that they fit the basket and are air-fryer safe.",
+        "Preheat air fryer to 200 C. Arrange kebabs with air space between; oil lightly and air fry about 10-14 minutes per batch, turning halfway, until ground lamb reaches 71 C in the centre."
+      ]
+    },
+    {
+      "id": "roti",
+      "name": "Wholewheat Roti",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 6,
+      "cookedYieldG": 480,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 222,
+        "protein": 8,
+        "carbs": 43,
+        "fat": 4
+      },
+      "ingredients": [
+        {
+          "name": "Six large ready-made wholewheat roti or flatbreads",
+          "qty": 480,
+          "unit": "g",
+          "component": "carb"
+        }
+      ],
+      "steps": [
+        "Portion two cooked kebabs and one roti per serving. Keep chilled yogurt and tomato-cucumber salad in separate containers; freeze only kebabs and bread if needed."
+      ]
+    },
+    {
+      "id": "sides",
+      "name": "Mint Yogurt & Salad",
+      "scaling": "fixed",
+      "servings": 6,
+      "cookedYieldG": 965,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 57,
+        "protein": 7,
+        "carbs": 7,
+        "fat": 1
+      },
+      "ingredients": [
+        {
+          "name": "Plain Greek yogurt",
+          "qty": 360,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Mint yogurt"
+        },
+        {
+          "name": "Fresh mint leaves",
+          "qty": 30,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Mint yogurt"
+        },
+        {
+          "name": "Fresh lemon juice",
+          "qty": 30,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Mint yogurt"
+        },
+        {
+          "name": "Raw tomato, diced",
+          "qty": 300,
+          "unit": "g",
+          "component": "other",
+          "group": "Tomato-cucumber salad"
+        },
+        {
+          "name": "Raw cucumber, diced",
+          "qty": 260,
+          "unit": "g",
+          "component": "other",
+          "group": "Tomato-cucumber salad"
+        }
+      ],
+      "steps": [
+        "Combine Greek yogurt with finely chopped mint and lemon. Dice tomato and cucumber for fresh salad. Warm roti only when ready to eat."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Original Kenny McGovern seekh kebab uses 500 g lamb. UNHANGRY doubles lamb and adds a measured roti, salad and mint-yogurt meal for six portions.",
+    "Planning: Refrigeration minimum 1 hour before cooking; air fryer needs at least two batches. Ground lamb cooked to 71 C.",
+    "Freezer: kebabs freeze very well, roti freezes; fresh salad and yogurt better made separately",
+    "Dietary: Wheat in roti; milk in yogurt. No pork.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://kennymcgovern.com/lamb-seekh-kebab",
+  "reference": {
+    "sourceCredit": "Kenny McGovern, The Indian Takeaway Secret",
+    "sourceRecipeUrl": "https://kennymcgovern.com/lamb-seekh-kebab",
+    "fileTitle": "Air Fryer Lamb Seekh Kebabs with Roti and Mint Yogurt",
+    "fileRecipeNumber": 8,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Red meat",
+    "methodTag": "Air fryer",
+    "preparationMethod": "Air frying (see steps for secondary appliance use)",
+    "activePrepTime": "approx 30 minutes",
+    "airFryerCookingTime": "approx 55 minutes (batch counts / secondary work may extend total time)",
+    "freezer": "PARTIAL: kebabs freeze very well, roti freezes; fresh salad and yogurt better made separately",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Wheat in roti; milk in yogurt. No pork.",
+    "fileMacrosPerServing": {
+      "kcal": 764,
+      "protein": 46.2,
+      "carbs": 58.4,
+      "fat": 38.3
+    },
+    "fileMacroText": {
+      "kcal": "764 kcal (ESTIMATED)",
+      "protein": "46.2 g (ESTIMATED)",
+      "carbs": "58.4 g (ESTIMATED)",
+      "fat": "38.3 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL raw listed ingredients using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "Original Kenny McGovern seekh kebab uses 500 g lamb. UNHANGRY doubles lamb and adds a measured roti, salad and mint-yogurt meal for six portions.",
+    "planningNotes": "Refrigeration minimum 1 hour before cooking; air fryer needs at least two batches. Ground lamb cooked to 71 C.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked lamb seekh kebabs: approx 820 g",
+      "Ready-made roti: approx 480 g",
+      "Mint yogurt: approx 405 g",
+      "Fresh tomato and cucumber: approx 560 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook ground beef and ground lamb to 71 C. For whole intact beef and lamb cuts, cook to at least 63 C with a 3-minute rest.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven or air fryer when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "Source recipes may use a different base yield, protein-only serving or cooking method; app-ready complete meals are distinctly marked as UNHANGRY adaptations."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 827,
+      "protein": 43,
+      "carbs": 54,
+      "fat": 48
+    },
+    "quantitiesFrom": "UNHANGRY Red Meat Air Fryer file — exact raw quantities as written."
+  }
+}

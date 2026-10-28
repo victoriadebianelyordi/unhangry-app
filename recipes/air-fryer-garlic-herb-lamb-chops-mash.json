@@ -1,0 +1,230 @@
+{
+  "id": "air-fryer-garlic-herb-lamb-chops-mash",
+  "name": "Air Fryer Garlic-Herb Lamb Chops with Mashed Potatoes and Green Beans",
+  "protein": "red-meat",
+  "method": "third-spot",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 882,
+    "protein": 51,
+    "carbs": 52,
+    "fat": 52
+  },
+  "components": [
+    {
+      "id": "lamb",
+      "name": "Garlic-Herb Lamb Chops",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 670,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 527,
+        "protein": 43,
+        "carbs": 2,
+        "fat": 38
+      },
+      "ingredients": [
+        {
+          "name": "Raw boneless lamb loin chops, roughly 8 pieces",
+          "qty": 850,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Olive oil for lamb",
+          "qty": 25,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Fresh garlic, grated",
+          "qty": 18,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Mixed fresh rosemary and thyme, finely chopped",
+          "qty": 12,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Salt",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Black pepper",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Mix 25 ml olive oil, grated garlic, fresh herbs, salt and pepper; rub over the lamb chops. Keep refrigerated until ready to cook.",
+        "Preheat air fryer to 190 C. Arrange lamb chops in one layer and cook for around 10-14 minutes in batches, turning at the halfway point. Check the thickest piece with a thermometer; whole lamb cuts should reach at least 63 C with a 3-minute rest.",
+        "Rest the cooked chops for at least 3 minutes, then divide with mashed potatoes and green beans into four portions. Store lamb and mash separately where practical.",
+        "Freeze lamb portions if necessary; mashed potatoes can be frozen but may need reheating with extra milk. Green beans are best eaten early."
+      ]
+    },
+    {
+      "id": "mash",
+      "name": "Mashed Potatoes",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 980,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 289,
+        "protein": 6,
+        "carbs": 41,
+        "fat": 11
+      },
+      "ingredients": [
+        {
+          "name": "Raw floury potatoes, peeled and cubed",
+          "qty": 900,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Whole milk",
+          "qty": 140,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Unsalted butter",
+          "qty": 40,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Peel and cube potatoes, simmer in water until tender, and drain thoroughly; mash with warm milk, butter and the listed salt."
+      ]
+    },
+    {
+      "id": "beans",
+      "name": "Lemon Green Beans",
+      "scaling": "fixed",
+      "servings": 4,
+      "cookedYieldG": 430,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 65,
+        "protein": 2,
+        "carbs": 9,
+        "fat": 3
+      },
+      "ingredients": [
+        {
+          "name": "Raw green beans, topped and tailed",
+          "qty": 500,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Fresh lemon juice",
+          "qty": 15,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 10,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Steam or boil the green beans until barely tender, then toss with lemon juice and 10 ml oil."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Original BBC Good Food recipe provides herbed lamb chops; mashed potato and green bean weights are UNHANGRY additions for a full dinner.",
+    "Planning: Secondary stovetop for mash and beans. Chops intended boneless for nutrition calculations; swap bone-in only after adjusting edible raw weight.",
+    "Freezer: cooked lamb and potato mash can freeze; green beans turn soft",
+    "Dietary: Contains milk. No pork.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.bbcgoodfood.com/recipes/air-fryer-lamb-chops",
+  "reference": {
+    "sourceCredit": "Samuel Goldsmith, BBC Good Food",
+    "sourceRecipeUrl": "https://www.bbcgoodfood.com/recipes/air-fryer-lamb-chops",
+    "fileTitle": "Air Fryer Garlic-Herb Lamb Chops with Mashed Potatoes and Green Beans",
+    "fileRecipeNumber": 2,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Red meat",
+    "methodTag": "Air fryer",
+    "preparationMethod": "Air frying (see steps for secondary appliance use)",
+    "activePrepTime": "approx 25 minutes",
+    "airFryerCookingTime": "approx 40 minutes (batch counts / secondary work may extend total time)",
+    "freezer": "PARTIAL: cooked lamb and potato mash can freeze; green beans turn soft",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Contains milk. No pork.",
+    "fileMacrosPerServing": {
+      "kcal": 882,
+      "protein": 51.3,
+      "carbs": 52.3,
+      "fat": 51.9
+    },
+    "fileMacroText": {
+      "kcal": "882 kcal (ESTIMATED)",
+      "protein": "51.3 g (ESTIMATED)",
+      "carbs": "52.3 g (ESTIMATED)",
+      "fat": "51.9 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL raw listed ingredients using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "Original BBC Good Food recipe provides herbed lamb chops; mashed potato and green bean weights are UNHANGRY additions for a full dinner.",
+    "planningNotes": "Secondary stovetop for mash and beans. Chops intended boneless for nutrition calculations; swap bone-in only after adjusting edible raw weight.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked lamb chops, edible boneless weight: approx 670 g",
+      "Mashed potatoes: approx 980 g",
+      "Cooked green beans: approx 430 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook ground beef and ground lamb to 71 C. For whole intact beef and lamb cuts, cook to at least 63 C with a 3-minute rest.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven or air fryer when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "Source recipes may use a different base yield, protein-only serving or cooking method; app-ready complete meals are distinctly marked as UNHANGRY adaptations."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 812,
+      "protein": 51,
+      "carbs": 51,
+      "fat": 45
+    },
+    "quantitiesFrom": "UNHANGRY Red Meat Air Fryer file — exact raw quantities as written."
+  }
+}
