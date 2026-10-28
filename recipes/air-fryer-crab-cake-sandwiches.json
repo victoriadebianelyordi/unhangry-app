@@ -99,7 +99,7 @@
     {
       "id": "buns",
       "name": "Bun, Lettuce & Tomato",
-      "scaling": "fixed",
+      "scaling": "units",
       "servings": 4,
       "cookedYieldG": 770,
       "yieldEstimated": true,
@@ -111,10 +111,11 @@
       },
       "ingredients": [
         {
-          "name": "Four wholewheat sandwich buns, about 80 g each",
-          "qty": 320,
-          "unit": "g",
-          "component": "carb"
+          "name": "Wholewheat sandwich buns (80 g each)",
+          "qty": 4,
+          "unit": "pc",
+          "component": "carb",
+          "gramsPerUnit": 80
         },
         {
           "name": "Fresh lettuce leaves",
@@ -131,7 +132,16 @@
       ],
       "steps": [
         "Lightly toast buns if desired, then add one large crab cake or two small ones, lettuce, tomato and a quarter of pepper sauce per sandwich."
-      ]
+      ],
+      "units": {
+        "label": "bun",
+        "count": 4,
+        "step": 0.5,
+        "min": 1,
+        "max": 2,
+        "sizeBy": "calories",
+        "calorieShare": 0.31
+      }
     },
     {
       "id": "sauce",
@@ -249,6 +259,9 @@
       "carbs": 67,
       "fat": 27
     },
-    "quantitiesFrom": "UNHANGRY Seafood Air Fryer file — exact raw quantities as written."
+    "quantitiesFrom": "UNHANGRY Seafood Air Fryer file — exact raw quantities as written.",
+    "adaptations": [
+      "Buns counted as whole pieces (file: \"Four wholewheat sandwich buns, about 80 g each\", 320 g); each person gets 1, 1½ or 2 buns."
+    ]
   }
 }

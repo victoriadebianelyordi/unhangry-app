@@ -107,7 +107,7 @@
     {
       "id": "buns",
       "name": "Bun & Toppings",
-      "scaling": "fixed",
+      "scaling": "units",
       "servings": 4,
       "cookedYieldG": 690,
       "yieldEstimated": true,
@@ -119,10 +119,11 @@
       },
       "ingredients": [
         {
-          "name": "Four burger buns at 70 g each",
-          "qty": 280,
-          "unit": "g",
-          "component": "carb"
+          "name": "Burger buns (70 g each)",
+          "qty": 4,
+          "unit": "pc",
+          "component": "carb",
+          "gramsPerUnit": 70
         },
         {
           "name": "Raw tomato slices",
@@ -157,7 +158,16 @@
       ],
       "steps": [
         "Lightly toast buns separately. Wash and dry lettuce; slice tomatoes and gherkins. Spread measured ketchup and mustard on buns when serving."
-      ]
+      ],
+      "units": {
+        "label": "bun",
+        "count": 4,
+        "step": 0.5,
+        "min": 1,
+        "max": 2,
+        "sizeBy": "calories",
+        "calorieShare": 0.25
+      }
     }
   ],
   "notes": [
@@ -232,6 +242,9 @@
       "carbs": 74,
       "fat": 36
     },
-    "quantitiesFrom": "UNHANGRY Red Meat Air Fryer file — exact raw quantities as written."
+    "quantitiesFrom": "UNHANGRY Red Meat Air Fryer file — exact raw quantities as written.",
+    "adaptations": [
+      "Buns counted as whole pieces (file: \"Four burger buns at 70 g each\", 280 g); each person gets 1, 1½ or 2 buns."
+    ]
   }
 }

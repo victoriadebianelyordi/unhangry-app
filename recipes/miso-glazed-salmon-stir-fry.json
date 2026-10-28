@@ -159,11 +159,13 @@
     "Storing & reheating: Source recommends 3 days refrigerated or 2 months frozen. Freeze as soon as cool if intended for later week. For safety, cook to 63 C and reheat thoroughly.",
     "Freezer: with softened texture",
     "Allergens: Fish, Soy or soy-containing sauce, Sesame, May contain alcohol",
-    "Refrigerate within 2 hours (1 hour above 32°C) in shallow containers at 4°C or colder and follow the shorter seafood limit above. Cook fish to 63°C, shrimp and shellfish until opaque and firm (mussels must open), and reheat to at least 74°C."
+    "Refrigerate within 2 hours (1 hour above 32°C) in shallow containers at 4°C or colder and follow the shorter seafood limit above. Cook fish to 63°C, shrimp and shellfish until opaque and firm (mussels must open), and reheat to at least 74°C.",
+    "Alcohol-free swap: Mirin → the same amount of rice vinegar plus 1 tsp sugar per tbsp (or apple juice with a squeeze of lemon)."
   ],
   "flags": {
     "shelfLife": "Salmon — fridge up to 3 days; freeze later-week portions.",
-    "freezeFriendly": true
+    "freezeFriendly": true,
+    "dietaryWarning": "Contains cooking alcohol (mirin) — not halal as written."
   },
   "componentScalable": false,
   "sourceUrl": "https://chefjackovens.com/miso-glazed-salmon-meal-prep/",

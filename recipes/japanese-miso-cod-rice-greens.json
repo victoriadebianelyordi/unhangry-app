@@ -29,7 +29,7 @@
       },
       "ingredients": [
         {
-          "name": "Raw boneless black cod fillets",
+          "name": "Raw boneless cod fillets",
           "qty": 800,
           "unit": "g",
           "component": "protein"
@@ -146,7 +146,8 @@
     "Planning: ADVANCE PREP: source requires 2-3 days of marination, meaning Tuesday planning and Friday/Saturday prep. SECONDARY STOVETOP rice/greens.",
     "Freezer: BETTER FREEZE RAW MARINATED fish before cooking where appropriate; cooked cod less freezer-friendly",
     "Dietary: Contains fish, soy and cooking ALCOHOL (sake/mirin); NOT halal-friendly as written.",
-    "Refrigerate within 2 hours (1 hour above 32°C) in shallow containers at 4°C or colder, for 3–4 days at most, and follow the shorter seafood limit above. Cook fish and shellfish to 63°C and reheat leftovers to at least 74°C."
+    "Refrigerate within 2 hours (1 hour above 32°C) in shallow containers at 4°C or colder, for 3–4 days at most, and follow the shorter seafood limit above. Cook fish and shellfish to 63°C and reheat leftovers to at least 74°C.",
+    "Alcohol-free swap: Sake → the same amount of water or low-sodium vegetable stock with a squeeze of lemon. Mirin → the same amount of rice vinegar plus 1 tsp sugar per tbsp (or apple juice with a squeeze of lemon)."
   ],
   "flags": {
     "shelfLife": "Cod — plan for days 1-3; freeze the fish raw in its marinade, not cooked.",
@@ -212,6 +213,9 @@
       "carbs": 97,
       "fat": 37
     },
-    "quantitiesFrom": "UNHANGRY Seafood Oven file — exact raw quantities as written."
+    "quantitiesFrom": "UNHANGRY Seafood Oven file — exact raw quantities as written.",
+    "adaptations": [
+      "Regular cod instead of black cod (sablefish) — matches the file's macros."
+    ]
   }
 }

@@ -71,10 +71,24 @@
           "group": "Rice"
         },
         {
-          "name": "Almond, garlic and parsley picada",
-          "qty": 35,
+          "name": "Toasted almonds (for picada)",
+          "qty": 25,
           "unit": "g",
           "component": "sauce",
+          "group": "Rice"
+        },
+        {
+          "name": "Garlic (for picada)",
+          "qty": 5,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Rice"
+        },
+        {
+          "name": "Fresh parsley (for picada)",
+          "qty": 5,
+          "unit": "g",
+          "component": "aromatic",
           "group": "Rice"
         },
         {
@@ -131,7 +145,7 @@
         "Cut monkfish into bite-size pieces. Use 450 g peeled prawns, reserving shells for stock only if supplied separately.",
         "Heat 35 ml olive oil in a broad shallow pot and sear monkfish and prawns very briefly, then lift to a plate.",
         "Cook 110 g grated onion and 180 g tomato in the same pot until the sofrito thickens. Stir in paprika and saffron.",
-        "Mix in the 35 g almond-based picada, 10 g garlic and 15 g parsley, then add 320 g rice and coat in sofrito.",
+        "Pound 25 g toasted almonds with 5 g garlic and 5 g parsley into a picada; mix it in, 10 g garlic and 15 g parsley, then add 320 g rice and coat in sofrito.",
         "Add roughly 1200 ml hot stock; stir frequently and simmer, adding more up to 1400 ml if needed, until rice becomes creamy and just tender.",
         "Return monkfish and prawns only for final minutes to cook thoroughly. Finish with lemon; serve immediately rather than freezing."
       ]
@@ -203,6 +217,9 @@
       "carbs": 71,
       "fat": 15
     },
-    "quantitiesFrom": "UNHANGRY Seafood Stovetop file — exact raw quantities as written."
+    "quantitiesFrom": "UNHANGRY Seafood Stovetop file — exact raw quantities as written.",
+    "adaptations": [
+      "Picada split into its parts (file: 35 g almond, garlic and parsley picada)."
+    ]
   }
 }

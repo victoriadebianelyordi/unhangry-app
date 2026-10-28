@@ -73,7 +73,7 @@
     {
       "id": "buns",
       "name": "Bun, Salad & Slaw",
-      "scaling": "fixed",
+      "scaling": "units",
       "servings": 4,
       "cookedYieldG": 940,
       "yieldEstimated": true,
@@ -85,11 +85,12 @@
       },
       "ingredients": [
         {
-          "name": "Four wholewheat burger buns",
-          "qty": 320,
-          "unit": "g",
+          "name": "Wholewheat burger buns (80 g each)",
+          "qty": 4,
+          "unit": "pc",
           "component": "carb",
-          "group": "Buns"
+          "group": "Buns",
+          "gramsPerUnit": 80
         },
         {
           "name": "Fresh butter lettuce leaves",
@@ -122,7 +123,16 @@
       ],
       "steps": [
         "Mix shredded cabbage with lemon just before serving. Prepare bread buns with lettuce and tomatoes, then add one cooked breaded salmon piece and a quarter of caper mayo to each."
-      ]
+      ],
+      "units": {
+        "label": "bun",
+        "count": 4,
+        "step": 0.5,
+        "min": 1,
+        "max": 2,
+        "sizeBy": "calories",
+        "calorieShare": 0.28
+      }
     },
     {
       "id": "mayo",
@@ -234,6 +244,9 @@
       "carbs": 68,
       "fat": 40
     },
-    "quantitiesFrom": "UNHANGRY Seafood Air Fryer file — exact raw quantities as written."
+    "quantitiesFrom": "UNHANGRY Seafood Air Fryer file — exact raw quantities as written.",
+    "adaptations": [
+      "Buns counted as whole pieces (file: \"Four wholewheat burger buns\", 320 g); each person gets 1, 1½ or 2 buns."
+    ]
   }
 }

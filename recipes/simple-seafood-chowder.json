@@ -7,10 +7,10 @@
   "feeds": 4,
   "needsMirnaReview": true,
   "macrosPerServing": {
-    "kcal": 656,
+    "kcal": 608,
     "protein": 49,
     "carbs": 50,
-    "fat": 29
+    "fat": 23
   },
   "components": [
     {
@@ -22,10 +22,10 @@
       "cookedYieldG": 1850,
       "yieldEstimated": true,
       "macrosPerServing": {
-        "kcal": 547,
-        "protein": 44,
+        "kcal": 499,
+        "protein": 45,
         "carbs": 30,
-        "fat": 27
+        "fat": 21
       },
       "ingredients": [
         {
@@ -41,7 +41,7 @@
           "component": "protein"
         },
         {
-          "name": "Streaky bacon",
+          "name": "Smoked turkey bacon (halal)",
           "qty": 100,
           "unit": "g",
           "component": "protein"
@@ -114,7 +114,7 @@
         }
       ],
       "steps": [
-        "Heat 15 ml oil in a deep pot and sauté diced bacon and onion until bacon is cooked and onion softens.",
+        "Heat 15 ml oil in a deep pot and sauté diced turkey bacon and onion until the bacon is cooked and onion softens.",
         "Add 15 g flour and stir for 2 minutes to coat the vegetables; slowly add 600 ml fish stock.",
         "Put in the diced potatoes and simmer until they are almost tender, around 10-12 minutes.",
         "Add milk, mace, cayenne and a little of the measured salt; lower the heat to avoid boiling the dairy.",
@@ -152,13 +152,13 @@
     "Source includes bacon, salmon, smoked haddock, precooked mixed shellfish and potatoes; UNHANGRY uses 280 g raw shellfish, adjusting weight and cooking time, and adds 160 g bread as a complete meal.",
     "Storing & reheating: Published recipe advises refrigerated leftovers for up to 2 days. Do not freeze assembled cream, fish and potatoes if texture matters.",
     "Freezer: milk and fish chowder changes texture",
-    "Allergens: Fish, Shellfish / molluscs, Dairy, Wheat / gluten, CONTAINS PORK / NON-HALAL",
-    "Refrigerate within 2 hours (1 hour above 32°C) in shallow containers at 4°C or colder and follow the shorter seafood limit above. Cook fish to 63°C, shrimp and shellfish until opaque and firm (mussels must open), and reheat to at least 74°C."
+    "Allergens: Fish, Shellfish / molluscs, Dairy, Wheat / gluten",
+    "Refrigerate within 2 hours (1 hour above 32°C) in shallow containers at 4°C or colder and follow the shorter seafood limit above. Cook fish to 63°C, shrimp and shellfish until opaque and firm (mussels must open), and reheat to at least 74°C.",
+    "Halal adaptation: smoked turkey bacon replaces the streaky pork bacon (macros adjusted by ~-48 kcal and -6 g fat per serving)."
   ],
   "flags": {
     "shelfLife": "Chowder — eat within 2 days; don't freeze.",
-    "freezeFriendly": false,
-    "dietaryWarning": "Contains pork — not halal."
+    "freezeFriendly": false
   },
   "componentScalable": false,
   "sourceUrl": "https://www.bbcgoodfood.com/recipes/simple-seafood-chowder",
@@ -213,6 +213,9 @@
       "carbs": 43,
       "fat": 27
     },
-    "quantitiesFrom": "UNHANGRY Seafood Stovetop file — exact raw quantities as written."
+    "quantitiesFrom": "UNHANGRY Seafood Stovetop file — exact raw quantities as written.",
+    "adaptations": [
+      "Pork removed (file: 100 g streaky bacon)."
+    ]
   }
 }

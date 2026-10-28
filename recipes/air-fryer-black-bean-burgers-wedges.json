@@ -131,7 +131,7 @@
     {
       "id": "buns",
       "name": "Bun & Toppings",
-      "scaling": "fixed",
+      "scaling": "units",
       "servings": 6,
       "cookedYieldG": 910,
       "yieldEstimated": true,
@@ -143,11 +143,12 @@
       },
       "ingredients": [
         {
-          "name": "Six wholewheat burger buns, packaged",
-          "qty": 480,
-          "unit": "g",
+          "name": "Wholewheat burger buns (80 g each)",
+          "qty": 6,
+          "unit": "pc",
           "component": "carb",
-          "group": "Buns"
+          "group": "Buns",
+          "gramsPerUnit": 80
         },
         {
           "name": "Fresh tomato sliced",
@@ -166,7 +167,16 @@
       ],
       "steps": [
         "Warm burger buns, then assemble with tomato and lettuce only at serving time."
-      ]
+      ],
+      "units": {
+        "label": "bun",
+        "count": 6,
+        "step": 0.5,
+        "min": 1,
+        "max": 2,
+        "sizeBy": "calories",
+        "calorieShare": 0.29
+      }
     }
   ],
   "notes": [
@@ -242,6 +252,9 @@
       "carbs": 118,
       "fat": 16
     },
-    "quantitiesFrom": "UNHANGRY Veggie All Methods file — exact raw quantities as written."
+    "quantitiesFrom": "UNHANGRY Veggie All Methods file — exact raw quantities as written.",
+    "adaptations": [
+      "Buns counted as whole pieces (file: \"Six wholewheat burger buns, packaged\", 480 g); each person gets 1, 1½ or 2 buns."
+    ]
   }
 }

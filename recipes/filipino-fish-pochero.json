@@ -7,10 +7,10 @@
   "feeds": 4,
   "needsMirnaReview": true,
   "macrosPerServing": {
-    "kcal": 738,
+    "kcal": 718,
     "protein": 50,
-    "carbs": 68,
-    "fat": 30
+    "carbs": 65,
+    "fat": 29
   },
   "components": [
     {
@@ -22,10 +22,10 @@
       "cookedYieldG": 2390,
       "yieldEstimated": true,
       "macrosPerServing": {
-        "kcal": 738,
+        "kcal": 718,
         "protein": 50,
-        "carbs": 68,
-        "fat": 30
+        "carbs": 65,
+        "fat": 29
       },
       "ingredients": [
         {
@@ -35,13 +35,13 @@
           "component": "protein"
         },
         {
-          "name": "Pork fat, diced",
-          "qty": 28,
-          "unit": "g",
-          "component": "protein"
+          "name": "Neutral oil",
+          "qty": 20,
+          "unit": "ml",
+          "component": "other"
         },
         {
-          "name": "Chinese pork sausage, sliced",
+          "name": "Halal beef sausage, sliced",
           "qty": 80,
           "unit": "g",
           "component": "protein"
@@ -133,7 +133,7 @@
       ],
       "steps": [
         "Dry tilapia fillets, season with measured salt and pan-sear in 40 ml oil until lightly golden; remove before they flake apart.",
-        "In a deep pot, render 28 g pork fat, then add 80 g Chinese sausage, garlic and onion and cook until aromatic.",
+        "In a deep pot, heat 20 ml neutral oil, then add 80 g sliced halal beef sausage, garlic and onion and cook until aromatic.",
         "Add 220 g tomatoes and 65 g tomato paste and cook 3 minutes. Pour in 950 ml water and bring to a simmer.",
         "Add diced potato, saba banana and drained chickpeas, cooking until potatoes begin to soften.",
         "Add green beans, fish sauce and pepper. Return tilapia gently and simmer to 63 C without stirring vigorously.",
@@ -146,13 +146,13 @@
     "IMPORTANT: Original published Fish Pochero includes pork fat and Chinese sausage. Seafood is primary, but pork-containing dietary tag is mandatory. Measured fish here is boneless edible tilapia rather than whole fish.",
     "Storing & reheating: Source recommends leftovers refrigerated only 2 days. Fried fish and bananas do not freeze/reheat well.",
     "Freezer: best eaten within 2 days",
-    "Allergens: Fish, CONTAINS PORK / NON-HALAL",
-    "Refrigerate within 2 hours (1 hour above 32°C) in shallow containers at 4°C or colder and follow the shorter seafood limit above. Cook fish to 63°C, shrimp and shellfish until opaque and firm (mussels must open), and reheat to at least 74°C."
+    "Allergens: Fish",
+    "Refrigerate within 2 hours (1 hour above 32°C) in shallow containers at 4°C or colder and follow the shorter seafood limit above. Cook fish to 63°C, shrimp and shellfish until opaque and firm (mussels must open), and reheat to at least 74°C.",
+    "Halal adaptation: neutral oil replaces the 28 g pork fat and halal beef sausage replaces the Chinese pork sausage (macros adjusted by ~-20 kcal per serving)."
   ],
   "flags": {
     "shelfLife": "Fish pochero — eat within 2 days; doesn't freeze.",
-    "freezeFriendly": false,
-    "dietaryWarning": "Contains pork — not halal."
+    "freezeFriendly": false
   },
   "componentScalable": false,
   "sourceUrl": "https://panlasangpinoy.com/fish-pochero-filipino-fish-and-vegetable-stew/",
@@ -207,6 +207,9 @@
       "carbs": 71,
       "fat": 26
     },
-    "quantitiesFrom": "UNHANGRY Seafood Stovetop file — exact raw quantities as written."
+    "quantitiesFrom": "UNHANGRY Seafood Stovetop file — exact raw quantities as written.",
+    "adaptations": [
+      "Pork removed (file: 28 g pork fat, 80 g Chinese pork sausage)."
+    ]
   }
 }
