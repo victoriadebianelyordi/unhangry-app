@@ -1,0 +1,259 @@
+{
+  "id": "baked-beef-empanadas-bean-salad",
+  "name": "Baked Beef Empanadas with Bean Salad",
+  "protein": "red-meat",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 6,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 903,
+    "protein": 44,
+    "carbs": 70,
+    "fat": 50
+  },
+  "components": [
+    {
+      "id": "empanadas",
+      "name": "Beef Empanadas",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 6,
+      "cookedYieldG": 1740,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 787,
+        "protein": 39,
+        "carbs": 54,
+        "fat": 46
+      },
+      "ingredients": [
+        {
+          "name": "Raw lean beef mince",
+          "qty": 780,
+          "unit": "g",
+          "component": "protein",
+          "group": "Filling"
+        },
+        {
+          "name": "Raw white onions diced",
+          "qty": 160,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Filling"
+        },
+        {
+          "name": "Raw bell pepper diced",
+          "qty": 130,
+          "unit": "g",
+          "component": "other",
+          "group": "Filling"
+        },
+        {
+          "name": "Fresh garlic",
+          "qty": 18,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Filling"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 35,
+          "unit": "ml",
+          "component": "other",
+          "group": "Filling"
+        },
+        {
+          "name": "Tomato paste",
+          "qty": 45,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Filling"
+        },
+        {
+          "name": "Ground cumin",
+          "qty": 7,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Filling"
+        },
+        {
+          "name": "Smoked paprika",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Filling"
+        },
+        {
+          "name": "Salt",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Filling"
+        },
+        {
+          "name": "Green olives chopped",
+          "qty": 90,
+          "unit": "g",
+          "component": "other",
+          "group": "Filling"
+        },
+        {
+          "name": "Hard-boiled egg, purchased raw weight edible egg (boil before filling)",
+          "qty": 120,
+          "unit": "g",
+          "component": "protein",
+          "group": "Filling"
+        },
+        {
+          "name": "Twelve purchased empanada pastry discs raw",
+          "qty": 630,
+          "unit": "g",
+          "component": "carb",
+          "group": "Pastry"
+        },
+        {
+          "name": "Raw beaten egg wash no shell",
+          "qty": 55,
+          "unit": "g",
+          "component": "protein",
+          "group": "Pastry"
+        }
+      ],
+      "steps": [
+        "Hard boil filling eggs, cool, peel and chop. Heat oven to 200 C.",
+        "Sauté onion, pepper and garlic with oil. Brown the beef, stir through paste, cumin, paprika and salt, and simmer until filling is almost dry.",
+        "Cool filling thoroughly, then fold in chopped hard-boiled egg and olives.",
+        "Lay out twelve pastry discs, divide filling evenly, fold into half-moons and seal edges firmly using a fork or crimps; brush with beaten raw egg wash.",
+        "Divide two empanadas and one sixth of bean salad per lunch. Freeze empanadas alone; add fresh bean salad after reheating."
+      ]
+    },
+    {
+      "id": "salad",
+      "name": "Black Bean Salad",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 6,
+      "cookedYieldG": 840,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 116,
+        "protein": 5,
+        "carbs": 16,
+        "fat": 3
+      },
+      "ingredients": [
+        {
+          "name": "Canned black beans drained",
+          "qty": 480,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Raw tomatoes diced",
+          "qty": 170,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Raw diced bell pepper",
+          "qty": 130,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Fresh lime juice",
+          "qty": 35,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 15,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Fresh coriander",
+          "qty": 20,
+          "unit": "g",
+          "component": "aromatic"
+        }
+      ],
+      "steps": [
+        "Bake 20-30 minutes until pastry is cooked through and golden. In parallel, toss drained beans, tomato, pepper, lime, oil and coriander for the cold side."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Original Argentinian baked empanada technique plus UNHANGRY measured bean salad to make a full dinner. Dough is store-bought to shorten prep.",
+    "Planning: SECONDARY STOVETOP: make filling and boil eggs. Store bean salad cold separately.",
+    "Freezer: baked empanadas freeze well; salad better fresh for 1-3 days",
+    "Dietary: Contains wheat, eggs; pastry may contain dairy.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.bonappetit.com/recipe/argentinian-beef-empanadas",
+  "reference": {
+    "sourceCredit": "Gaby Melian, Bon Appétit",
+    "fileTitle": "Baked Beef Empanadas with Bean Salad",
+    "fileRecipeNumber": 13,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Red meat",
+    "methodTag": "Oven",
+    "preparationMethod": "Oven roasting / baking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 45 minutes",
+    "ovenCookingTime": "approx 30 minutes (can overlap with other components)",
+    "freezer": "PARTIAL: baked empanadas freeze well; salad better fresh for 1-3 days",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Contains wheat, eggs; pastry may contain dairy.",
+    "fileMacrosPerServing": {
+      "kcal": 903,
+      "protein": 44.3,
+      "carbs": 69.8,
+      "fat": 49.6
+    },
+    "fileMacroText": {
+      "kcal": "903 kcal (ESTIMATED)",
+      "protein": "44.3 g (ESTIMATED)",
+      "carbs": "69.8 g (ESTIMATED)",
+      "fat": "49.6 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL raw listed ingredients using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "Original Argentinian baked empanada technique plus UNHANGRY measured bean salad to make a full dinner. Dough is store-bought to shorten prep.",
+    "planningNotes": "SECONDARY STOVETOP: make filling and boil eggs. Store bean salad cold separately.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Twelve baked beef empanadas total: approx 1740 g",
+      "Fresh black bean salad: approx 840 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook ground beef and lamb to 71 C. Whole-cut lamb and beef should reach at least 63 C and rest 3 minutes; use a food thermometer.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "For bone-in lamb recipes, nutrition and purchased RAW weight are not interchangeable with the edible cooked yield; measure edible meat before publishing."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 826,
+      "protein": 44,
+      "carbs": 72,
+      "fat": 40
+    },
+    "quantitiesFrom": "UNHANGRY Red Meat Oven file — exact raw quantities as written."
+  }
+}

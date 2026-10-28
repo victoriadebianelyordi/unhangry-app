@@ -1,0 +1,240 @@
+{
+  "id": "greek-beef-moussaka",
+  "name": "Greek Beef Moussaka with Eggplant and Béchamel",
+  "protein": "red-meat",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 6,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 690,
+    "protein": 40,
+    "carbs": 40,
+    "fat": 41
+  },
+  "components": [
+    {
+      "id": "moussaka",
+      "name": "Beef Moussaka",
+      "scaling": "ratio",
+      "role": "whole",
+      "servings": 6,
+      "cookedYieldG": 2940,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 690,
+        "protein": 40,
+        "carbs": 40,
+        "fat": 41
+      },
+      "ingredients": [
+        {
+          "name": "Raw globe eggplant sliced",
+          "qty": 1200,
+          "unit": "g",
+          "component": "other",
+          "group": "Eggplant layer"
+        },
+        {
+          "name": "Olive oil to roast eggplant",
+          "qty": 40,
+          "unit": "ml",
+          "component": "other",
+          "group": "Eggplant layer"
+        },
+        {
+          "name": "Salt",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Eggplant layer"
+        },
+        {
+          "name": "Raw ground beef",
+          "qty": 800,
+          "unit": "g",
+          "component": "protein",
+          "group": "Beef sauce"
+        },
+        {
+          "name": "Raw diced onion",
+          "qty": 200,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Beef sauce"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 30,
+          "unit": "ml",
+          "component": "other",
+          "group": "Beef sauce"
+        },
+        {
+          "name": "Canned diced tomatoes",
+          "qty": 450,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Beef sauce"
+        },
+        {
+          "name": "Beef stock instead of red wine",
+          "qty": 160,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Beef sauce"
+        },
+        {
+          "name": "Dried oregano",
+          "qty": 9,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Beef sauce"
+        },
+        {
+          "name": "Cinnamon and paprika",
+          "qty": 4,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Beef sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Beef sauce"
+        },
+        {
+          "name": "Plain flour",
+          "qty": 65,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Béchamel"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 65,
+          "unit": "ml",
+          "component": "other",
+          "group": "Béchamel"
+        },
+        {
+          "name": "Reduced-fat milk",
+          "qty": 750,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Béchamel"
+        },
+        {
+          "name": "Raw whole eggs without shells",
+          "qty": 110,
+          "unit": "g",
+          "component": "protein",
+          "group": "Béchamel"
+        },
+        {
+          "name": "Nutmeg",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Béchamel"
+        },
+        {
+          "name": "Salt",
+          "qty": 4,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Béchamel"
+        },
+        {
+          "name": "Dry breadcrumbs",
+          "qty": 45,
+          "unit": "g",
+          "component": "other",
+          "group": "Topping"
+        }
+      ],
+      "steps": [
+        "Cut eggplant into 6 mm slices, sprinkle lightly with measured salt and rest briefly. Pat dry, brush with olive oil and roast at 205 C until softened and lightly coloured.",
+        "While the eggplant cooks, soften onion in oil, brown beef, then add tomato, stock and warm spices. Simmer until the filling is thick rather than watery.",
+        "To make béchamel whisk flour into warm olive oil, then gradually add milk; whisk constantly until thick. Remove from heat and gradually temper in the beaten eggs with the nutmeg and salt.",
+        "Layer half the eggplant, then the meat sauce, then remaining eggplant in a baking dish. Spread béchamel over the top and finish with measured breadcrumbs.",
+        "Bake at 180 C about 35-45 minutes until golden and set. Rest 15 minutes before slicing.",
+        "Cut into six lunch-size portions; refrigerate promptly, or freeze fully cooled squares."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Adapted full-size moussaka inspired by The Mediterranean Dish. The original recipe uses a large pan and 12 pieces; UNHANGRY portions into six complete meals with recipe quantities adjusted.",
+    "Planning: SECONDARY STOVETOP: cook meat sauce and béchamel.",
+    "Freezer: freezes particularly well in individual slices",
+    "Dietary: Contains dairy, eggs and wheat. No wine in UNHANGRY batch.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.themediterraneandish.com/moussaka-recipe-eggplant-casserole/",
+  "reference": {
+    "sourceCredit": "Suzy Karadsheh, The Mediterranean Dish",
+    "fileTitle": "Greek Beef Moussaka with Eggplant and Béchamel",
+    "fileRecipeNumber": 6,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Red meat",
+    "methodTag": "Oven",
+    "preparationMethod": "Oven roasting / baking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 40 minutes",
+    "ovenCookingTime": "approx 60 minutes (can overlap with other components)",
+    "freezer": "YES: freezes particularly well in individual slices",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Contains dairy, eggs and wheat. No wine in UNHANGRY batch.",
+    "fileMacrosPerServing": {
+      "kcal": 690,
+      "protein": 39.5,
+      "carbs": 40.3,
+      "fat": 41.2
+    },
+    "fileMacroText": {
+      "kcal": "690 kcal (ESTIMATED)",
+      "protein": "39.5 g (ESTIMATED)",
+      "carbs": "40.3 g (ESTIMATED)",
+      "fat": "41.2 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL raw listed ingredients using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "Adapted full-size moussaka inspired by The Mediterranean Dish. The original recipe uses a large pan and 12 pieces; UNHANGRY portions into six complete meals with recipe quantities adjusted.",
+    "planningNotes": "SECONDARY STOVETOP: cook meat sauce and béchamel.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Roasted eggplant layer: approx 900 g",
+      "Cooked beef and tomato sauce: approx 1180 g",
+      "Béchamel topping: approx 860 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook ground beef and lamb to 71 C. Whole-cut lamb and beef should reach at least 63 C and rest 3 minutes; use a food thermometer.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "For bone-in lamb recipes, nutrition and purchased RAW weight are not interchangeable with the edible cooked yield; measure edible meat before publishing."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 769,
+      "protein": 35,
+      "carbs": 40,
+      "fat": 53
+    },
+    "quantitiesFrom": "UNHANGRY Red Meat Oven file — exact raw quantities as written."
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "id": "karniyarik-stuffed-eggplants-rice",
+  "name": "Turkish Karnıyarık Beef-Stuffed Eggplants with Rice",
+  "protein": "red-meat",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 6,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 669,
+    "protein": 38,
+    "carbs": 74,
+    "fat": 25
+  },
+  "components": [
+    {
+      "id": "eggplants",
+      "name": "Beef-Stuffed Eggplants",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 6,
+      "cookedYieldG": 2740,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 452,
+        "protein": 34,
+        "carbs": 27,
+        "fat": 24
+      },
+      "ingredients": [
+        {
+          "name": "Six raw medium eggplants",
+          "qty": 1350,
+          "unit": "g",
+          "component": "other",
+          "group": "Eggplants"
+        },
+        {
+          "name": "Olive oil for roasting",
+          "qty": 40,
+          "unit": "ml",
+          "component": "other",
+          "group": "Eggplants"
+        },
+        {
+          "name": "Salt",
+          "qty": 8,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Eggplants"
+        },
+        {
+          "name": "Raw lean ground beef",
+          "qty": 850,
+          "unit": "g",
+          "component": "protein",
+          "group": "Beef stuffing"
+        },
+        {
+          "name": "Raw diced onion",
+          "qty": 240,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Beef stuffing"
+        },
+        {
+          "name": "Raw chopped bell peppers",
+          "qty": 200,
+          "unit": "g",
+          "component": "other",
+          "group": "Beef stuffing"
+        },
+        {
+          "name": "Raw diced tomatoes",
+          "qty": 500,
+          "unit": "g",
+          "component": "other",
+          "group": "Beef stuffing"
+        },
+        {
+          "name": "Fresh garlic minced",
+          "qty": 25,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Beef stuffing"
+        },
+        {
+          "name": "Tomato paste",
+          "qty": 35,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Beef stuffing"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 20,
+          "unit": "ml",
+          "component": "other",
+          "group": "Beef stuffing"
+        },
+        {
+          "name": "Smoked paprika",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Beef stuffing"
+        },
+        {
+          "name": "Ground cumin",
+          "qty": 4,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Beef stuffing"
+        },
+        {
+          "name": "Salt",
+          "qty": 8,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Beef stuffing"
+        },
+        {
+          "name": "Hot water for baking",
+          "qty": 250,
+          "unit": "ml",
+          "component": "other",
+          "group": "Oven sauce"
+        },
+        {
+          "name": "Tomato paste for sauce",
+          "qty": 35,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Oven sauce"
+        },
+        {
+          "name": "Fresh parsley",
+          "qty": 25,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Garnish"
+        }
+      ],
+      "steps": [
+        "Preheat oven to 205 C. Peel eggplants in alternating stripes, slit lengthwise almost to each end and brush with olive oil and a pinch of salt. Roast about 25-30 minutes until soft enough to open.",
+        "Meanwhile sauté onion, garlic and peppers in oil, then add beef and brown, breaking up the mince. Add chopped tomatoes, tomato paste, cumin, paprika and salt and reduce to a moist filling.",
+        "Gently open the slit in each eggplant and spoon an equal amount of the beef mixture into the cavity.",
+        "Whisk the additional tomato paste with hot water. Pour around eggplants and bake another 20-25 minutes so sauce reduces and flavours meld.",
+        "Serve each stuffed eggplant with one sixth of rice and spooned baking sauce; finish with parsley."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Basmati Rice",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 6,
+      "cookedYieldG": 970,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 217,
+        "protein": 4,
+        "carbs": 47,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Raw uncooked basmati rice",
+          "qty": 360,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Water for rice",
+          "qty": 650,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Salt for rice",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Rinse and cook the dry rice separately with measured water, then allow to rest, covered, before fluffing."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Turkish karnıyarık with an UNHANGRY rice side; oven technique follows verified recipe.",
+    "Planning: SECONDARY STOVETOP: meat stuffing and rice.",
+    "Freezer: cooked eggplant and beef freeze; texture becomes softer",
+    "Dietary: No pork; can omit rice for lower-carb household adjustments but then recalculate macros.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.kitchenstories.com/en/recipes/karniyarik-turkish-ground-beef-stuffed-eggplant",
+  "reference": {
+    "sourceCredit": "Sandra Schumann, Kitchen Stories",
+    "fileTitle": "Turkish Karnıyarık Beef-Stuffed Eggplants with Rice",
+    "fileRecipeNumber": 15,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Red meat",
+    "methodTag": "Oven",
+    "preparationMethod": "Oven roasting / baking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 40 minutes",
+    "ovenCookingTime": "approx 55 minutes (can overlap with other components)",
+    "freezer": "YES: cooked eggplant and beef freeze; texture becomes softer",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | No pork; can omit rice for lower-carb household adjustments but then recalculate macros.",
+    "fileMacrosPerServing": {
+      "kcal": 669,
+      "protein": 38.1,
+      "carbs": 73.8,
+      "fat": 24.7
+    },
+    "fileMacroText": {
+      "kcal": "669 kcal (ESTIMATED)",
+      "protein": "38.1 g (ESTIMATED)",
+      "carbs": "73.8 g (ESTIMATED)",
+      "fat": "24.7 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL raw listed ingredients using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "Turkish karnıyarık with an UNHANGRY rice side; oven technique follows verified recipe.",
+    "planningNotes": "SECONDARY STOVETOP: meat stuffing and rice.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Six baked stuffed eggplants including meat filling: approx 2500 g",
+      "Cooked rice: approx 970 g",
+      "Tomato pan sauce: approx 240 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook ground beef and lamb to 71 C. Whole-cut lamb and beef should reach at least 63 C and rest 3 minutes; use a food thermometer.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "For bone-in lamb recipes, nutrition and purchased RAW weight are not interchangeable with the edible cooked yield; measure edible meat before publishing."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 665,
+      "protein": 37,
+      "carbs": 74,
+      "fat": 25
+    },
+    "quantitiesFrom": "UNHANGRY Red Meat Oven file — exact raw quantities as written."
+  }
+}

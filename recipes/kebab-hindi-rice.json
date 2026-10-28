@@ -1,0 +1,249 @@
+{
+  "id": "kebab-hindi-rice",
+  "name": "Kebab Hindi (Syrian Baked Meatballs in Tomato Sauce) with Rice",
+  "protein": "red-meat",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 6,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 629,
+    "protein": 42,
+    "carbs": 64,
+    "fat": 23
+  },
+  "components": [
+    {
+      "id": "kebab",
+      "name": "Kebab Hindi in Tomato Sauce",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 6,
+      "cookedYieldG": 1880,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 415,
+        "protein": 38,
+        "carbs": 17,
+        "fat": 23
+      },
+      "ingredients": [
+        {
+          "name": "Raw lean beef mince",
+          "qty": 1000,
+          "unit": "g",
+          "component": "protein",
+          "group": "Kebabs"
+        },
+        {
+          "name": "Raw grated onion",
+          "qty": 170,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Kebabs"
+        },
+        {
+          "name": "Raw minced garlic",
+          "qty": 22,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Kebabs"
+        },
+        {
+          "name": "Chopped fresh parsley",
+          "qty": 35,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Kebabs"
+        },
+        {
+          "name": "Ground allspice and seven spice blend",
+          "qty": 7,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Kebabs"
+        },
+        {
+          "name": "Salt",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Kebabs"
+        },
+        {
+          "name": "Black pepper",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Kebabs"
+        },
+        {
+          "name": "Raw ripe tomatoes grated or crushed",
+          "qty": 900,
+          "unit": "g",
+          "component": "other",
+          "group": "Tomato sauce"
+        },
+        {
+          "name": "Raw onions thinly sliced",
+          "qty": 250,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Tomato sauce"
+        },
+        {
+          "name": "Tomato paste",
+          "qty": 35,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Tomato sauce"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 35,
+          "unit": "ml",
+          "component": "other",
+          "group": "Tomato sauce"
+        },
+        {
+          "name": "Fresh garlic",
+          "qty": 25,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Tomato sauce"
+        },
+        {
+          "name": "Water",
+          "qty": 230,
+          "unit": "ml",
+          "component": "other",
+          "group": "Tomato sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Tomato sauce"
+        }
+      ],
+      "steps": [
+        "Heat oven to 200 C. Mix ground beef with grated onion, chopped garlic, parsley, allspice, salt and pepper. Shape into about 18 short oval kebabs.",
+        "Spread kebabs on a shallow oven tray and roast 10-12 minutes to brown. Drain excess rendered fat if necessary.",
+        "Meanwhile soften onions and garlic in oil in a saucepan; stir in chopped tomatoes, paste, water and salt and simmer until thickened.",
+        "Transfer browned kebabs to a baking dish, cover with the tomato-onion sauce and bake another 20-25 minutes until mince reaches 71 C internally.",
+        "Portion three kebabs with tomato sauce and cooked rice into each of six containers."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Basmati Rice",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 6,
+      "cookedYieldG": 970,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 214,
+        "protein": 4,
+        "carbs": 47,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Uncooked basmati rice",
+          "qty": 360,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Water for rice",
+          "qty": 650,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Salt for rice",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Rinse and cook uncooked rice with measured water until tender, then cover and rest."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Grounded in Syrian/Lebanese Kebab Hindi source; measured rice side supplied by UNHANGRY.",
+    "Planning: SECONDARY STOVETOP: thick tomato sauce and cooked rice.",
+    "Freezer: baked meatballs and tomato sauce freeze very well; rice freeze promptly",
+    "Dietary: No pork in this version; check spice premixes.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://cookpad.com/eng/recipes/355629",
+  "reference": {
+    "sourceCredit": "Noor Bitar, Cookpad",
+    "fileTitle": "Kebab Hindi (Syrian Baked Meatballs in Tomato Sauce) with Rice",
+    "fileRecipeNumber": 10,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Red meat",
+    "methodTag": "Oven",
+    "preparationMethod": "Oven roasting / baking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 30 minutes",
+    "ovenCookingTime": "approx 35 minutes (can overlap with other components)",
+    "freezer": "YES: baked meatballs and tomato sauce freeze very well; rice freeze promptly",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | No pork in this version; check spice premixes.",
+    "fileMacrosPerServing": {
+      "kcal": 629,
+      "protein": 41.6,
+      "carbs": 63.9,
+      "fat": 23
+    },
+    "fileMacroText": {
+      "kcal": "629 kcal (ESTIMATED)",
+      "protein": "41.6 g (ESTIMATED)",
+      "carbs": "63.9 g (ESTIMATED)",
+      "fat": "23.0 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL raw listed ingredients using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "Grounded in Syrian/Lebanese Kebab Hindi source; measured rice side supplied by UNHANGRY.",
+    "planningNotes": "SECONDARY STOVETOP: thick tomato sauce and cooked rice.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked oval kebabs: approx 800 g",
+      "Cooked tomato-onion sauce: approx 1080 g",
+      "Cooked basmati rice: approx 970 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook ground beef and lamb to 71 C. Whole-cut lamb and beef should reach at least 63 C and rest 3 minutes; use a food thermometer.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "For bone-in lamb recipes, nutrition and purchased RAW weight are not interchangeable with the edible cooked yield; measure edible meat before publishing."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 635,
+      "protein": 41,
+      "carbs": 65,
+      "fat": 23
+    },
+    "quantitiesFrom": "UNHANGRY Red Meat Oven file — exact raw quantities as written."
+  }
+}

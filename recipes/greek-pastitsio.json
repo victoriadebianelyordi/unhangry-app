@@ -1,0 +1,254 @@
+{
+  "id": "greek-pastitsio",
+  "name": "Greek Pastitsio Beef Pasta Bake",
+  "protein": "red-meat",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 8,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 707,
+    "protein": 42,
+    "carbs": 59,
+    "fat": 34
+  },
+  "components": [
+    {
+      "id": "pastitsio",
+      "name": "Beef Pastitsio",
+      "scaling": "ratio",
+      "role": "whole",
+      "servings": 8,
+      "cookedYieldG": 3400,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 707,
+        "protein": 42,
+        "carbs": 59,
+        "fat": 34
+      },
+      "ingredients": [
+        {
+          "name": "Raw ground beef",
+          "qty": 900,
+          "unit": "g",
+          "component": "protein",
+          "group": "Meat sauce"
+        },
+        {
+          "name": "Raw red onions finely diced",
+          "qty": 210,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Meat sauce"
+        },
+        {
+          "name": "Raw minced garlic",
+          "qty": 20,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Meat sauce"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 30,
+          "unit": "ml",
+          "component": "other",
+          "group": "Meat sauce"
+        },
+        {
+          "name": "Crushed canned tomatoes",
+          "qty": 720,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Meat sauce"
+        },
+        {
+          "name": "Beef stock instead of wine",
+          "qty": 200,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Meat sauce"
+        },
+        {
+          "name": "Tomato paste",
+          "qty": 55,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Meat sauce"
+        },
+        {
+          "name": "Ground cinnamon and clove",
+          "qty": 4,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Meat sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Meat sauce"
+        },
+        {
+          "name": "Raw dry thick macaroni or penne",
+          "qty": 400,
+          "unit": "g",
+          "component": "carb",
+          "group": "Pasta layer"
+        },
+        {
+          "name": "Water for boiling pasta, discarded",
+          "qty": 1600,
+          "unit": "ml",
+          "component": "other",
+          "group": "Pasta layer"
+        },
+        {
+          "name": "Feta cheese",
+          "qty": 120,
+          "unit": "g",
+          "component": "other",
+          "group": "Pasta layer"
+        },
+        {
+          "name": "Egg whites, raw, no shells",
+          "qty": 65,
+          "unit": "g",
+          "component": "protein",
+          "group": "Pasta layer"
+        },
+        {
+          "name": "Butter",
+          "qty": 75,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Cheese sauce"
+        },
+        {
+          "name": "Plain flour",
+          "qty": 80,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Cheese sauce"
+        },
+        {
+          "name": "Milk",
+          "qty": 750,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Cheese sauce"
+        },
+        {
+          "name": "Grated parmesan",
+          "qty": 70,
+          "unit": "g",
+          "component": "other",
+          "group": "Cheese sauce"
+        },
+        {
+          "name": "Egg yolks, raw",
+          "qty": 35,
+          "unit": "g",
+          "component": "protein",
+          "group": "Cheese sauce"
+        },
+        {
+          "name": "Nutmeg",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Cheese sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Cheese sauce"
+        }
+      ],
+      "steps": [
+        "Cook diced red onions and garlic in oil, then brown minced beef thoroughly. Add tomato paste, canned tomatoes, beef stock and spices; simmer until filling is dense and spoonable.",
+        "Boil pasta in measured water until slightly firmer than al dente; drain the water completely. Fold feta and egg whites into the cooled pasta.",
+        "In another saucepan prepare the cheese topping: melt butter, stir in flour, whisk in milk and cook until thick; turn off heat and mix in parmesan and nutmeg.",
+        "When the sauce cools slightly, temper egg yolks into it so they do not scramble.",
+        "Heat oven to 180 C. Place pasta at base of a deep dish, add the beef mixture, level it, then cover with the béchamel.",
+        "Bake roughly 30-40 minutes until well browned. Rest 15-20 minutes for clean slices, then cut eight portions."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Uses stock instead of wine and fixed raw weights. Creator source is classic Pastitsio with layered pasta and cheese topping.",
+    "Planning: SECONDARY STOVETOP: requires pasta, beef sauce and béchamel first.",
+    "Freezer: freezes well as complete slices",
+    "Dietary: Contains dairy, wheat and eggs.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.recipetineats.com/pastitsio-greek-beef-pasta-bake/",
+  "reference": {
+    "sourceCredit": "Nagi Maehashi, RecipeTin Eats",
+    "fileTitle": "Greek Pastitsio Beef Pasta Bake",
+    "fileRecipeNumber": 7,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Red meat",
+    "methodTag": "Oven",
+    "preparationMethod": "Oven roasting / baking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 45 minutes",
+    "ovenCookingTime": "approx 40 minutes (can overlap with other components)",
+    "freezer": "YES: freezes well as complete slices",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Contains dairy, wheat and eggs.",
+    "fileMacrosPerServing": {
+      "kcal": 707,
+      "protein": 42.1,
+      "carbs": 59,
+      "fat": 33.7
+    },
+    "fileMacroText": {
+      "kcal": "707 kcal (ESTIMATED)",
+      "protein": "42.1 g (ESTIMATED)",
+      "carbs": "59.0 g (ESTIMATED)",
+      "fat": "33.7 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL raw listed ingredients using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "Uses stock instead of wine and fixed raw weights. Creator source is classic Pastitsio with layered pasta and cheese topping.",
+    "planningNotes": "SECONDARY STOVETOP: requires pasta, beef sauce and béchamel first.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked pasta and feta layer: approx 1030 g",
+      "Beef meat sauce: approx 1450 g",
+      "Cheese béchamel topping: approx 920 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook ground beef and lamb to 71 C. Whole-cut lamb and beef should reach at least 63 C and rest 3 minutes; use a food thermometer.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "For bone-in lamb recipes, nutrition and purchased RAW weight are not interchangeable with the edible cooked yield; measure edible meat before publishing."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 797,
+      "protein": 39,
+      "carbs": 63,
+      "fat": 43
+    },
+    "quantitiesFrom": "UNHANGRY Red Meat Oven file — exact raw quantities as written."
+  }
+}

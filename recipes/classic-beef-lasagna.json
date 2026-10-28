@@ -1,0 +1,252 @@
+{
+  "id": "classic-beef-lasagna",
+  "name": "Classic Beef Lasagna",
+  "protein": "red-meat",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 8,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 718,
+    "protein": 45,
+    "carbs": 57,
+    "fat": 34
+  },
+  "components": [
+    {
+      "id": "lasagna",
+      "name": "Beef Lasagna",
+      "scaling": "ratio",
+      "role": "whole",
+      "servings": 8,
+      "cookedYieldG": 3300,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 718,
+        "protein": 45,
+        "carbs": 57,
+        "fat": 34
+      },
+      "ingredients": [
+        {
+          "name": "Raw lean ground beef",
+          "qty": 850,
+          "unit": "g",
+          "component": "protein",
+          "group": "Beef ragù"
+        },
+        {
+          "name": "Raw onion finely diced",
+          "qty": 200,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Beef ragù"
+        },
+        {
+          "name": "Raw carrot finely diced",
+          "qty": 160,
+          "unit": "g",
+          "component": "other",
+          "group": "Beef ragù"
+        },
+        {
+          "name": "Raw celery finely diced",
+          "qty": 130,
+          "unit": "g",
+          "component": "other",
+          "group": "Beef ragù"
+        },
+        {
+          "name": "Minced fresh garlic",
+          "qty": 24,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Beef ragù"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 30,
+          "unit": "ml",
+          "component": "other",
+          "group": "Beef ragù"
+        },
+        {
+          "name": "Canned crushed tomato",
+          "qty": 900,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Beef ragù"
+        },
+        {
+          "name": "Tomato paste",
+          "qty": 65,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Beef ragù"
+        },
+        {
+          "name": "Low-sodium beef stock instead of wine",
+          "qty": 320,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Beef ragù"
+        },
+        {
+          "name": "Dried oregano",
+          "qty": 8,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Beef ragù"
+        },
+        {
+          "name": "Salt",
+          "qty": 8,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Beef ragù"
+        },
+        {
+          "name": "Black pepper",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Beef ragù"
+        },
+        {
+          "name": "Butter",
+          "qty": 65,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Béchamel"
+        },
+        {
+          "name": "Plain flour",
+          "qty": 65,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Béchamel"
+        },
+        {
+          "name": "Milk",
+          "qty": 750,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Béchamel"
+        },
+        {
+          "name": "Salt",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Béchamel"
+        },
+        {
+          "name": "Ground nutmeg",
+          "qty": 1,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Béchamel"
+        },
+        {
+          "name": "Dry lasagna sheets",
+          "qty": 350,
+          "unit": "g",
+          "component": "carb",
+          "group": "Assembly"
+        },
+        {
+          "name": "Shredded mozzarella",
+          "qty": 270,
+          "unit": "g",
+          "component": "other",
+          "group": "Assembly"
+        },
+        {
+          "name": "Parmesan grated",
+          "qty": 70,
+          "unit": "g",
+          "component": "other",
+          "group": "Assembly"
+        }
+      ],
+      "steps": [
+        "Sauté onion, carrot, celery and garlic in olive oil until softened. Brown the beef, breaking up lumps; drain substantial excess fat if produced.",
+        "Add tomato, tomato paste, stock, oregano and seasoning. Simmer uncovered until thick enough to layer without leaking excess liquid.",
+        "For béchamel melt butter in a saucepan, whisk in flour, then gradually whisk in milk and cook until smooth and lightly thickened. Add nutmeg and salt.",
+        "Preheat oven to 180 C. Spread a thin layer of ragù in a deep baking dish, then layer pasta sheets, ragù, béchamel and cheese; repeat until ingredients are used.",
+        "Cover loosely with foil and bake about 30 minutes, uncover and bake another 15-20 minutes until bubbling and pasta tender.",
+        "Let rest for at least 20 minutes before cutting into eight substantial squares; cool quickly before portioning."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "UNHANGRY fixed batch inspired by RecipeTin Eats lasagna, omits wine and uses specified raw ingredient weights.",
+    "Planning: SECONDARY STOVETOP: ragù and béchamel must be cooked before oven assembly.",
+    "Freezer: fully baked lasagna is suitable for freezing in portions",
+    "Dietary: Contains wheat, dairy. Stock substitutions change source flavour.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.recipetineats.com/lasagna/",
+  "reference": {
+    "sourceCredit": "Nagi Maehashi, RecipeTin Eats",
+    "fileTitle": "Classic Beef Lasagna",
+    "fileRecipeNumber": 3,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Red meat",
+    "methodTag": "Oven",
+    "preparationMethod": "Oven roasting / baking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 45 minutes",
+    "ovenCookingTime": "approx 50 minutes (can overlap with other components)",
+    "freezer": "YES: fully baked lasagna is suitable for freezing in portions",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Contains wheat, dairy. Stock substitutions change source flavour.",
+    "fileMacrosPerServing": {
+      "kcal": 718,
+      "protein": 45.4,
+      "carbs": 57.4,
+      "fat": 34.1
+    },
+    "fileMacroText": {
+      "kcal": "718 kcal (ESTIMATED)",
+      "protein": "45.4 g (ESTIMATED)",
+      "carbs": "57.4 g (ESTIMATED)",
+      "fat": "34.1 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL raw listed ingredients using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "UNHANGRY fixed batch inspired by RecipeTin Eats lasagna, omits wine and uses specified raw ingredient weights.",
+    "planningNotes": "SECONDARY STOVETOP: ragù and béchamel must be cooked before oven assembly.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Finished lasagna in baking dish: approx 3300 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook ground beef and lamb to 71 C. Whole-cut lamb and beef should reach at least 63 C and rest 3 minutes; use a food thermometer.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "For bone-in lamb recipes, nutrition and purchased RAW weight are not interchangeable with the edible cooked yield; measure edible meat before publishing."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 717,
+      "protein": 44,
+      "carbs": 61,
+      "fat": 33
+    },
+    "quantitiesFrom": "UNHANGRY Red Meat Oven file — exact raw quantities as written."
+  }
+}

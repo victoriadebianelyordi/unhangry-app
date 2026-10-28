@@ -1,0 +1,274 @@
+{
+  "id": "beef-meatloaf-mash-green-beans",
+  "name": "Beef Meatloaf with Mashed Potatoes and Green Beans",
+  "protein": "red-meat",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 6,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 767,
+    "protein": 51,
+    "carbs": 67,
+    "fat": 33
+  },
+  "components": [
+    {
+      "id": "meatloaf",
+      "name": "Glazed Beef Meatloaf",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 6,
+      "cookedYieldG": 1080,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 487,
+        "protein": 44,
+        "carbs": 28,
+        "fat": 21
+      },
+      "ingredients": [
+        {
+          "name": "Raw lean ground beef",
+          "qty": 1050,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Raw onion finely diced",
+          "qty": 170,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Raw garlic",
+          "qty": 25,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Raw beaten egg no shell",
+          "qty": 120,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Panko breadcrumbs",
+          "qty": 115,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Milk",
+          "qty": 130,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Tomato paste",
+          "qty": 30,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Worcestershire sauce",
+          "qty": 30,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Dried thyme",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 8,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Ground black pepper",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Tomato ketchup",
+          "qty": 95,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Glaze"
+        },
+        {
+          "name": "Vinegar",
+          "qty": 20,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Glaze"
+        },
+        {
+          "name": "Brown sugar or honey",
+          "qty": 15,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Glaze"
+        }
+      ],
+      "steps": [
+        "Heat oven to 185 C. Sauté onion and garlic briefly to soften, then cool so the egg in the meat mixture does not heat early.",
+        "Combine beef, egg, breadcrumbs, milk, cooked onion and seasonings. Shape into a compact loaf on a parchment-lined tray.",
+        "Stir ketchup, vinegar and honey together; brush the glaze over the loaf. Bake 55-70 minutes, applying glaze again halfway through, until centre reaches 71 C.",
+        "Rest meatloaf 10 minutes, cut into six slices, and pack one slice with potatoes and beans per meal."
+      ]
+    },
+    {
+      "id": "mash",
+      "name": "Mashed Potatoes",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 6,
+      "cookedYieldG": 1120,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 218,
+        "protein": 5,
+        "carbs": 30,
+        "fat": 8
+      },
+      "ingredients": [
+        {
+          "name": "Raw potatoes peeled",
+          "qty": 1050,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Milk",
+          "qty": 160,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Butter",
+          "qty": 55,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "While it bakes, boil peeled potatoes until tender, drain, mash with milk, butter and salt."
+      ]
+    },
+    {
+      "id": "beans",
+      "name": "Roasted Green Beans",
+      "scaling": "fixed",
+      "servings": 6,
+      "cookedYieldG": 570,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 62,
+        "protein": 2,
+        "carbs": 8,
+        "fat": 3
+      },
+      "ingredients": [
+        {
+          "name": "Raw green beans",
+          "qty": 700,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 18,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Roast trimmed green beans on another tray with measured oil for 10-15 minutes until lightly blistered, or steam if oven slots are full."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Classic beef meatloaf from RecipeTin Eats adapted to include full dinner sides and measured raw amounts.",
+    "Planning: SECONDARY STOVETOP: mashed potatoes; oven beans can share oven after roast.",
+    "Freezer: meatloaf and mash freeze; green beans soften when frozen",
+    "Dietary: Contains wheat, dairy, egg. Worcestershire may contain fish.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.recipetineats.com/meatloaf-recipe/",
+  "reference": {
+    "sourceCredit": "Nagi Maehashi, RecipeTin Eats",
+    "fileTitle": "Beef Meatloaf with Mashed Potatoes and Green Beans",
+    "fileRecipeNumber": 9,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Red meat",
+    "methodTag": "Oven",
+    "preparationMethod": "Oven roasting / baking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 30 minutes",
+    "ovenCookingTime": "approx 70 minutes (can overlap with other components)",
+    "freezer": "PARTIAL: meatloaf and mash freeze; green beans soften when frozen",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Contains wheat, dairy, egg. Worcestershire may contain fish.",
+    "fileMacrosPerServing": {
+      "kcal": 767,
+      "protein": 50.5,
+      "carbs": 66.9,
+      "fat": 33
+    },
+    "fileMacroText": {
+      "kcal": "767 kcal (ESTIMATED)",
+      "protein": "50.5 g (ESTIMATED)",
+      "carbs": "66.9 g (ESTIMATED)",
+      "fat": "33.0 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL raw listed ingredients using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "Classic beef meatloaf from RecipeTin Eats adapted to include full dinner sides and measured raw amounts.",
+    "planningNotes": "SECONDARY STOVETOP: mashed potatoes; oven beans can share oven after roast.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked beef meatloaf with glaze: approx 1080 g",
+      "Mashed potatoes: approx 1120 g",
+      "Cooked green beans: approx 570 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook ground beef and lamb to 71 C. Whole-cut lamb and beef should reach at least 63 C and rest 3 minutes; use a food thermometer.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "For bone-in lamb recipes, nutrition and purchased RAW weight are not interchangeable with the edible cooked yield; measure edible meat before publishing."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 751,
+      "protein": 48,
+      "carbs": 68,
+      "fat": 32
+    },
+    "quantitiesFrom": "UNHANGRY Red Meat Oven file — exact raw quantities as written."
+  }
+}

@@ -1,0 +1,247 @@
+{
+  "id": "baked-beef-enchiladas",
+  "name": "Baked Beef Enchiladas with Red Sauce and Cheese",
+  "protein": "red-meat",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 8,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 638,
+    "protein": 38,
+    "carbs": 53,
+    "fat": 30
+  },
+  "components": [
+    {
+      "id": "enchiladas",
+      "name": "Beef Enchiladas",
+      "scaling": "ratio",
+      "role": "whole",
+      "servings": 8,
+      "cookedYieldG": 3070,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 638,
+        "protein": 38,
+        "carbs": 53,
+        "fat": 30
+      },
+      "ingredients": [
+        {
+          "name": "Raw lean ground beef",
+          "qty": 800,
+          "unit": "g",
+          "component": "protein",
+          "group": "Beef filling"
+        },
+        {
+          "name": "Raw onion diced",
+          "qty": 150,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Beef filling"
+        },
+        {
+          "name": "Raw bell pepper diced",
+          "qty": 220,
+          "unit": "g",
+          "component": "other",
+          "group": "Beef filling"
+        },
+        {
+          "name": "Fresh garlic minced",
+          "qty": 15,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Beef filling"
+        },
+        {
+          "name": "Cooked canned black beans, drained",
+          "qty": 250,
+          "unit": "g",
+          "component": "carb",
+          "group": "Beef filling"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 25,
+          "unit": "ml",
+          "component": "other",
+          "group": "Beef filling"
+        },
+        {
+          "name": "Ground cumin",
+          "qty": 8,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Beef filling"
+        },
+        {
+          "name": "Smoked paprika",
+          "qty": 7,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Beef filling"
+        },
+        {
+          "name": "Dried oregano",
+          "qty": 4,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Beef filling"
+        },
+        {
+          "name": "Salt",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Beef filling"
+        },
+        {
+          "name": "Tomato passata",
+          "qty": 650,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Enchilada sauce"
+        },
+        {
+          "name": "Beef stock",
+          "qty": 250,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Enchilada sauce"
+        },
+        {
+          "name": "Plain flour",
+          "qty": 30,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Enchilada sauce"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 20,
+          "unit": "ml",
+          "component": "other",
+          "group": "Enchilada sauce"
+        },
+        {
+          "name": "Chilli powder",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Enchilada sauce"
+        },
+        {
+          "name": "Ground cumin",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Enchilada sauce"
+        },
+        {
+          "name": "Eight wheat tortillas of 65 g each",
+          "qty": 520,
+          "unit": "g",
+          "component": "carb",
+          "group": "Assembly"
+        },
+        {
+          "name": "Shredded cheddar",
+          "qty": 240,
+          "unit": "g",
+          "component": "other",
+          "group": "Assembly"
+        },
+        {
+          "name": "Fresh coriander leaves",
+          "qty": 30,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Assembly"
+        }
+      ],
+      "steps": [
+        "In a saucepan make the sauce by warming oil, whisking in flour, then slowly adding stock and passata with chilli and cumin. Simmer until lightly thickened.",
+        "In a skillet sauté onion, pepper and garlic with oil; add beef and cook until browned throughout. Stir in black beans and the dry seasonings.",
+        "Preheat oven to 185 C. Spread a little sauce over the bottom of a baking dish. Fill each tortilla with one eighth of the meat mixture and a little cheese.",
+        "Roll tightly and arrange seam side down in the dish. Pour remaining sauce over rolled enchiladas, then scatter the cheese evenly.",
+        "Bake for 20-30 minutes until the sauce bubbles and cheese melts. Rest 10 minutes.",
+        "Divide into eight complete one-wrap portions and garnish with coriander after reheating."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "UNHANGRY fixed version of RecipeTin Eats beef enchiladas; black beans added for fibre and meal completeness; macros recalculated.",
+    "Planning: SECONDARY STOVETOP: filling and enchilada sauce.",
+    "Freezer: freezes well in sauce; tortilla may soften",
+    "Dietary: Contains wheat, dairy, legumes.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.recipetineats.com/beef-enchiladas/",
+  "reference": {
+    "sourceCredit": "Nagi Maehashi, RecipeTin Eats",
+    "fileTitle": "Baked Beef Enchiladas with Red Sauce and Cheese",
+    "fileRecipeNumber": 8,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Red meat",
+    "methodTag": "Oven",
+    "preparationMethod": "Oven roasting / baking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 30 minutes",
+    "ovenCookingTime": "approx 30 minutes (can overlap with other components)",
+    "freezer": "YES: freezes well in sauce; tortilla may soften",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Contains wheat, dairy, legumes.",
+    "fileMacrosPerServing": {
+      "kcal": 638,
+      "protein": 38.3,
+      "carbs": 52.7,
+      "fat": 30.4
+    },
+    "fileMacroText": {
+      "kcal": "638 kcal (ESTIMATED)",
+      "protein": "38.3 g (ESTIMATED)",
+      "carbs": "52.7 g (ESTIMATED)",
+      "fat": "30.4 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL raw listed ingredients using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "UNHANGRY fixed version of RecipeTin Eats beef enchiladas; black beans added for fibre and meal completeness; macros recalculated.",
+    "planningNotes": "SECONDARY STOVETOP: filling and enchilada sauce.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Beef and bean filling: approx 1360 g",
+      "Red enchilada sauce: approx 900 g",
+      "Tortillas with cheese after baking: approx 810 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook ground beef and lamb to 71 C. Whole-cut lamb and beef should reach at least 63 C and rest 3 minutes; use a food thermometer.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "For bone-in lamb recipes, nutrition and purchased RAW weight are not interchangeable with the edible cooked yield; measure edible meat before publishing."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 644,
+      "protein": 37,
+      "carbs": 52,
+      "fat": 31
+    },
+    "quantitiesFrom": "UNHANGRY Red Meat Oven file — exact raw quantities as written."
+  }
+}

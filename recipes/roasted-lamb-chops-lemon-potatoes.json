@@ -1,0 +1,247 @@
+{
+  "id": "roasted-lamb-chops-lemon-potatoes",
+  "name": "Roasted Lamb Chops with Lemon Potatoes and Peas",
+  "protein": "red-meat",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 6,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 815,
+    "protein": 44,
+    "carbs": 49,
+    "fat": 49
+  },
+  "components": [
+    {
+      "id": "lamb",
+      "name": "Roasted Lamb Chops",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 6,
+      "cookedYieldG": 820,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 517,
+        "protein": 34,
+        "carbs": 1,
+        "fat": 41
+      },
+      "ingredients": [
+        {
+          "name": "Raw lamb loin chops bone-in (include bones in purchased weight)",
+          "qty": 1400,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 30,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Dried oregano",
+          "qty": 8,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Black pepper",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Raw garlic chopped",
+          "qty": 15,
+          "unit": "g",
+          "component": "aromatic"
+        }
+      ],
+      "steps": [
+        "Season lamb chops with olive oil, garlic, oregano, salt and pepper. Arrange on a separate hot baking sheet without crowding.",
+        "Remove the edible lamb meat from bones when calculating actual final cooked yield, and divide lamb, potatoes and peas into six portions.",
+        "For meal prep, chill promptly. Keep peas separate from roast lamb to avoid overcooking on reheating."
+      ]
+    },
+    {
+      "id": "potatoes",
+      "name": "Lemon Potatoes",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 6,
+      "cookedYieldG": 1020,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 203,
+        "protein": 6,
+        "carbs": 37,
+        "fat": 5
+      },
+      "ingredients": [
+        {
+          "name": "Raw potatoes cut in 3 cm chunks",
+          "qty": 1200,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Fresh lemon juice",
+          "qty": 55,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Chicken stock",
+          "qty": 350,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 30,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Dried oregano",
+          "qty": 8,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 7,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Heat oven to 205 C. Toss potato chunks with olive oil, lemon, oregano, salt and stock in a deep tray; cover loosely and roast 25 minutes.",
+        "Uncover potatoes and finish roasting another 20-25 minutes until tender with browned edges. Roast lamb chops separately to the desired safe degree of doneness, checking with a thermometer and resting after removing from oven."
+      ]
+    },
+    {
+      "id": "peas",
+      "name": "Minted Peas",
+      "scaling": "fixed",
+      "servings": 6,
+      "cookedYieldG": 460,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 95,
+        "protein": 5,
+        "carbs": 11,
+        "fat": 4
+      },
+      "ingredients": [
+        {
+          "name": "Frozen green peas",
+          "qty": 450,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Butter",
+          "qty": 30,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Fresh mint",
+          "qty": 12,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Salt",
+          "qty": 4,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "While the oven finishes, sauté or microwave peas with butter until hot; stir in finely chopped fresh mint and salt."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Adapted to oven lamb from Food Network’s potato/pea pairing, whose source pan-sears chops. Bone-in purchased weight is not all edible.",
+    "Planning: OVEN ADAPTATION: original chops are cooked on stovetop; do not present oven method as source method.",
+    "Freezer: roast lamb freezes but may dry on reheating; potatoes soften; peas freeze well",
+    "Dietary: Contains dairy; lamb weight includes bones, so macros require meat-only yield measurement.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.foodnetwork.com/recipes/food-network-kitchen/lamb-chops-with-lemon-potatoes-and-minty-peas-12544963",
+  "reference": {
+    "sourceCredit": "Food Network Kitchen",
+    "fileTitle": "Roasted Lamb Chops with Lemon Potatoes and Peas",
+    "fileRecipeNumber": 14,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Red meat",
+    "methodTag": "Oven",
+    "preparationMethod": "Oven roasting / baking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 20 minutes",
+    "ovenCookingTime": "approx 55 minutes (can overlap with other components)",
+    "freezer": "PARTIAL: roast lamb freezes but may dry on reheating; potatoes soften; peas freeze well",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Contains dairy; lamb weight includes bones, so macros require meat-only yield measurement.",
+    "fileMacrosPerServing": {
+      "kcal": 815,
+      "protein": 44,
+      "carbs": 48.9,
+      "fat": 49.2
+    },
+    "fileMacroText": {
+      "kcal": "815 kcal (ESTIMATED)",
+      "protein": "44.0 g (ESTIMATED)",
+      "carbs": "48.9 g (ESTIMATED)",
+      "fat": "49.2 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL raw listed ingredients using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "Adapted to oven lamb from Food Network’s potato/pea pairing, whose source pan-sears chops. Bone-in purchased weight is not all edible.",
+    "planningNotes": "OVEN ADAPTATION: original chops are cooked on stovetop; do not present oven method as source method.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked edible lamb after deboning: approx 820 g",
+      "Roasted lemon potatoes: approx 1020 g",
+      "Minted peas: approx 460 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook ground beef and lamb to 71 C. Whole-cut lamb and beef should reach at least 63 C and rest 3 minutes; use a food thermometer.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "For bone-in lamb recipes, nutrition and purchased RAW weight are not interchangeable with the edible cooked yield; measure edible meat before publishing."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 808,
+      "protein": 37,
+      "carbs": 46,
+      "fat": 54
+    },
+    "quantitiesFrom": "UNHANGRY Red Meat Oven file — exact raw quantities as written."
+  }
+}

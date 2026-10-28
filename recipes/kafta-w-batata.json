@@ -1,0 +1,226 @@
+{
+  "id": "kafta-w-batata",
+  "name": "Kafta w Batata (Baked Kafta, Potatoes and Tomato)",
+  "protein": "red-meat",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 614,
+    "protein": 46,
+    "carbs": 50,
+    "fat": 26
+  },
+  "components": [
+    {
+      "id": "kafta",
+      "name": "Kafta w Batata",
+      "scaling": "ratio",
+      "role": "whole",
+      "servings": 4,
+      "cookedYieldG": 2050,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 614,
+        "protein": 46,
+        "carbs": 50,
+        "fat": 26
+      },
+      "ingredients": [
+        {
+          "name": "Raw lean minced beef",
+          "qty": 750,
+          "unit": "g",
+          "component": "protein",
+          "group": "Kafta"
+        },
+        {
+          "name": "Raw onion finely grated",
+          "qty": 160,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Kafta"
+        },
+        {
+          "name": "Fresh parsley chopped",
+          "qty": 40,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Kafta"
+        },
+        {
+          "name": "Ground Arabic seven spice",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Kafta"
+        },
+        {
+          "name": "Ground cinnamon",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Kafta"
+        },
+        {
+          "name": "Salt",
+          "qty": 7,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Kafta"
+        },
+        {
+          "name": "Black pepper",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Kafta"
+        },
+        {
+          "name": "Raw peeled potatoes sliced 5 mm",
+          "qty": 700,
+          "unit": "g",
+          "component": "carb",
+          "group": "Potato and tomato layer"
+        },
+        {
+          "name": "Raw tomatoes, sliced",
+          "qty": 520,
+          "unit": "g",
+          "component": "other",
+          "group": "Potato and tomato layer"
+        },
+        {
+          "name": "Raw onion, sliced",
+          "qty": 120,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Potato and tomato layer"
+        },
+        {
+          "name": "Olive oil to grease dish",
+          "qty": 25,
+          "unit": "ml",
+          "component": "other",
+          "group": "Potato and tomato layer"
+        },
+        {
+          "name": "Plain tomato passata",
+          "qty": 350,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Tomato sauce"
+        },
+        {
+          "name": "Water for sauce",
+          "qty": 250,
+          "unit": "ml",
+          "component": "other",
+          "group": "Tomato sauce"
+        },
+        {
+          "name": "Tomato paste",
+          "qty": 30,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Tomato sauce"
+        },
+        {
+          "name": "Salt for sauce",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Tomato sauce"
+        },
+        {
+          "name": "Ground black pepper",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Tomato sauce"
+        }
+      ],
+      "steps": [
+        "Preheat oven to 195 C. Mix minced beef with grated onion, parsley, seven-spice, cinnamon, salt and pepper until cohesive, without overworking.",
+        "Oil a medium baking dish and flatten the kafta mixture into one even layer or form medium flattened patties.",
+        "Arrange thin potato slices, sliced tomato and the additional onion over and around the meat.",
+        "Whisk passata, tomato paste, measured water and remaining seasonings; pour over the layers, leaving tops partially exposed.",
+        "Cover tightly with foil and bake about 40 minutes. Remove foil and cook another 20-25 minutes until potatoes are completely tender and beef is cooked to 71 C throughout.",
+        "Rest 10 minutes, divide into four portions and spoon cooking sauce over each serving."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Complete Lebanese oven tray meal based on baked kafta technique; measured quantities are an UNHANGRY fixed-batch adaptation.",
+    "Planning: Main method Oven only; no mandatory stovetop side.",
+    "Freezer: cooked saucy kafta and potatoes freeze reasonably; potatoes may soften",
+    "Dietary: No pork; check seven-spice blend.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://dinas-kitchen.com/2025/09/29/kafta-bil-saniyeh/",
+  "reference": {
+    "sourceCredit": "Dina Bayoud Kohl, Dina’s Kitchen",
+    "fileTitle": "Kafta w Batata (Baked Kafta, Potatoes and Tomato)",
+    "fileRecipeNumber": 2,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Red meat",
+    "methodTag": "Oven",
+    "preparationMethod": "Oven roasting / baking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 25 minutes",
+    "ovenCookingTime": "approx 65 minutes (can overlap with other components)",
+    "freezer": "YES: cooked saucy kafta and potatoes freeze reasonably; potatoes may soften",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | No pork; check seven-spice blend.",
+    "fileMacrosPerServing": {
+      "kcal": 614,
+      "protein": 46.1,
+      "carbs": 50,
+      "fat": 25.5
+    },
+    "fileMacroText": {
+      "kcal": "614 kcal (ESTIMATED)",
+      "protein": "46.1 g (ESTIMATED)",
+      "carbs": "50.0 g (ESTIMATED)",
+      "fat": "25.5 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL raw listed ingredients using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "Complete Lebanese oven tray meal based on baked kafta technique; measured quantities are an UNHANGRY fixed-batch adaptation.",
+    "planningNotes": "Main method Oven only; no mandatory stovetop side.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Baked beef kafta: approx 640 g",
+      "Tender potatoes and vegetables: approx 1040 g",
+      "Tomato cooking sauce: approx 370 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook ground beef and lamb to 71 C. Whole-cut lamb and beef should reach at least 63 C and rest 3 minutes; use a food thermometer.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "For bone-in lamb recipes, nutrition and purchased RAW weight are not interchangeable with the edible cooked yield; measure edible meat before publishing."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 614,
+      "protein": 45,
+      "carbs": 50,
+      "fat": 25
+    },
+    "quantitiesFrom": "UNHANGRY Red Meat Oven file — exact raw quantities as written."
+  }
+}

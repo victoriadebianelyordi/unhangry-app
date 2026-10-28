@@ -1,0 +1,232 @@
+{
+  "id": "slow-roasted-lamb-shoulder-potatoes",
+  "name": "Slow Roasted Lamb Shoulder with Rosemary Potatoes",
+  "protein": "red-meat",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 6,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 882,
+    "protein": 41,
+    "carbs": 45,
+    "fat": 60
+  },
+  "components": [
+    {
+      "id": "lamb",
+      "name": "Slow-Roasted Lamb & Gravy",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 6,
+      "cookedYieldG": 1350,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 668,
+        "protein": 37,
+        "carbs": 10,
+        "fat": 53
+      },
+      "ingredients": [
+        {
+          "name": "Raw bone-in lamb shoulder, including bone weight",
+          "qty": 1900,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 30,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Raw garlic divided cloves",
+          "qty": 35,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Fresh rosemary leaves",
+          "qty": 12,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Salt",
+          "qty": 10,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Black pepper",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Raw onion quarters in roasting pan",
+          "qty": 250,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Water for roast",
+          "qty": 350,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Low-sodium beef stock",
+          "qty": 280,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Pan gravy"
+        },
+        {
+          "name": "Plain flour",
+          "qty": 22,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Pan gravy"
+        },
+        {
+          "name": "Fresh lemon juice",
+          "qty": 15,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Pan gravy"
+        }
+      ],
+      "steps": [
+        "Heat oven to 220 C. Cut small slits into the lamb shoulder and press garlic and rosemary into the slits; rub with oil, salt and pepper.",
+        "Place onion quarters and water into a deep tray, set lamb over them and cover tightly. Lower oven temperature to 165-170 C and roast for roughly 3-3.5 hours until fork tender.",
+        "Uncover and raise heat to 220 C for 15-20 minutes so the exterior browns. Rest lamb before pulling the edible meat away from bones and excess cartilage.",
+        "Strain pan drippings, skim excess fat, mix measured stock and flour to form a light gravy over medium heat and add lemon.",
+        "Weigh only the separated edible cooked lamb for the final yield test, then portion lamb, potatoes and gravy into six meals."
+      ]
+    },
+    {
+      "id": "potatoes",
+      "name": "Rosemary Roast Potatoes",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 6,
+      "cookedYieldG": 960,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 214,
+        "protein": 4,
+        "carbs": 36,
+        "fat": 7
+      },
+      "ingredients": [
+        {
+          "name": "Raw potatoes quartered",
+          "qty": 1200,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Olive oil for potatoes",
+          "qty": 45,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Garlic powder",
+          "qty": 8,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Dried rosemary",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "When the lamb has about 45 minutes left, toss potatoes with olive oil, garlic powder, rosemary and salt, then roast on a separate tray until tender and browned."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "This recipe exceeds a strict 3-hour cooking window. Original slow roasted lamb recipe is a long passive oven occupation, so mark ADVANCED/EXTENDED SUNDAY.",
+    "Planning: PRIMARY OVEN 3.5-4 HOURS: incompatible with a strict 3-hour timeline; stovetop briefly for gravy.",
+    "Freezer: pulled lamb freezes especially well with pan gravy; potatoes may soften",
+    "Dietary: Bone-in lamb: macro and yield estimates need edible yield verification.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.recipetineats.com/slow-roasted-rosemary-garlic-lamb-shoulder/",
+  "reference": {
+    "sourceCredit": "Nagi Maehashi, RecipeTin Eats",
+    "fileTitle": "Slow Roasted Lamb Shoulder with Rosemary Potatoes",
+    "fileRecipeNumber": 11,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Red meat",
+    "methodTag": "Oven",
+    "preparationMethod": "Oven roasting / baking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 30 minutes",
+    "ovenCookingTime": "approx 230 minutes (can overlap with other components)",
+    "freezer": "YES: pulled lamb freezes especially well with pan gravy; potatoes may soften",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Bone-in lamb: macro and yield estimates need edible yield verification.",
+    "fileMacrosPerServing": {
+      "kcal": 882,
+      "protein": 40.9,
+      "carbs": 45.4,
+      "fat": 59.6
+    },
+    "fileMacroText": {
+      "kcal": "882 kcal (ESTIMATED)",
+      "protein": "40.9 g (ESTIMATED)",
+      "carbs": "45.4 g (ESTIMATED)",
+      "fat": "59.6 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL raw listed ingredients using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "This recipe exceeds a strict 3-hour cooking window. Original slow roasted lamb recipe is a long passive oven occupation, so mark ADVANCED/EXTENDED SUNDAY.",
+    "planningNotes": "PRIMARY OVEN 3.5-4 HOURS: incompatible with a strict 3-hour timeline; stovetop briefly for gravy.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Pulled cooked edible lamb excluding bones and trimmings: approx 1050 g",
+      "Roasted potatoes: approx 960 g",
+      "Finished gravy: approx 300 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook ground beef and lamb to 71 C. Whole-cut lamb and beef should reach at least 63 C and rest 3 minutes; use a food thermometer.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "For bone-in lamb recipes, nutrition and purchased RAW weight are not interchangeable with the edible cooked yield; measure edible meat before publishing."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 906,
+      "protein": 46,
+      "carbs": 44,
+      "fat": 61
+    },
+    "quantitiesFrom": "UNHANGRY Red Meat Oven file — exact raw quantities as written."
+  }
+}

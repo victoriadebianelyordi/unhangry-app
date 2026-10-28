@@ -1,0 +1,254 @@
+{
+  "id": "oven-beef-shawarma",
+  "name": "Oven Beef Shawarma with Pita and Tahini Sauce",
+  "protein": "red-meat",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 8,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 593,
+    "protein": 40,
+    "carbs": 45,
+    "fat": 28
+  },
+  "components": [
+    {
+      "id": "beef",
+      "name": "Beef Shawarma",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 8,
+      "cookedYieldG": 1020,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 295,
+        "protein": 30,
+        "carbs": 5,
+        "fat": 17
+      },
+      "ingredients": [
+        {
+          "name": "Raw lean flank steak, thinly cut across grain",
+          "qty": 1100,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Olive oil for beef marinade",
+          "qty": 50,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Vinegar for marinade",
+          "qty": 55,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Fresh lemon juice",
+          "qty": 40,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Fresh minced garlic",
+          "qty": 20,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Raw sliced onion",
+          "qty": 260,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Shawarma spice blend",
+          "qty": 14,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Ground cinnamon",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 8,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Cut beef into narrow even strips and combine with oil, vinegar, lemon, garlic, onion and spices; refrigerate covered for at least 1 hour.",
+        "Heat oven to 225 C. Spread the meat across two preheated baking sheets without crowding so it roasts rather than steams.",
+        "Roast in short batches, turning at least once; monitor thick pieces with a thermometer, since thin beef strips overcook quickly. Use fully cooked beef for future reheating.",
+        "Cool and portion the beef and onions into eight containers. Store wraps, sliced vegetables and tahini separately so diners can assemble after reheating."
+      ]
+    },
+    {
+      "id": "bread",
+      "name": "Flatbread & Fresh Vegetables",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 8,
+      "cookedYieldG": 920,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 184,
+        "protein": 6,
+        "carbs": 35,
+        "fat": 1
+      },
+      "ingredients": [
+        {
+          "name": "Eight flatbreads, raw/purchased as packaged",
+          "qty": 520,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Fresh sliced tomato",
+          "qty": 250,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Shredded cabbage or raw pepper strips",
+          "qty": 150,
+          "unit": "g",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Reheat beef until steaming hot throughout, then fill bread with measured sauce and vegetables."
+      ]
+    },
+    {
+      "id": "tahini",
+      "name": "Tahini Sauce",
+      "scaling": "fixed",
+      "servings": 8,
+      "cookedYieldG": 320,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 113,
+        "protein": 3,
+        "carbs": 5,
+        "fat": 10
+      },
+      "ingredients": [
+        {
+          "name": "Tahini paste",
+          "qty": 150,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Fresh lemon juice",
+          "qty": 65,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Fresh garlic",
+          "qty": 15,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Cold water",
+          "qty": 100,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Salt",
+          "qty": 4,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Whisk tahini with lemon and garlic, adding water a little at a time until it becomes spoonable, then season."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Oven adaptation of Feel Good Foodie stovetop beef shawarma; original method differs. Includes measured bread and tahini to form complete meal.",
+    "Planning: Oven may be used for beef; cold assembly needed. Grill or pan remains an optional alternative.",
+    "Freezer: freeze cooked beef; tahini may change texture; fresh vegetables added later",
+    "Dietary: Contains sesame and wheat. Check shawarma spice additives.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://feelgoodfoodie.net/recipe/beef-shawarma/",
+  "reference": {
+    "sourceCredit": "Yumna Jawad, Feel Good Foodie",
+    "fileTitle": "Oven Beef Shawarma with Pita and Tahini Sauce",
+    "fileRecipeNumber": 1,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Red meat",
+    "methodTag": "Oven",
+    "preparationMethod": "Oven roasting / baking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 25 minutes",
+    "ovenCookingTime": "approx 20 minutes (can overlap with other components)",
+    "freezer": "PARTIAL: freeze cooked beef; tahini may change texture; fresh vegetables added later",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Contains sesame and wheat. Check shawarma spice additives.",
+    "fileMacrosPerServing": {
+      "kcal": 593,
+      "protein": 40,
+      "carbs": 44.5,
+      "fat": 28.3
+    },
+    "fileMacroText": {
+      "kcal": "593 kcal (ESTIMATED)",
+      "protein": "40.0 g (ESTIMATED)",
+      "carbs": "44.5 g (ESTIMATED)",
+      "fat": "28.3 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL raw listed ingredients using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "Oven adaptation of Feel Good Foodie stovetop beef shawarma; original method differs. Includes measured bread and tahini to form complete meal.",
+    "planningNotes": "Oven may be used for beef; cold assembly needed. Grill or pan remains an optional alternative.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked beef and onions: approx 1020 g",
+      "Tahini sauce: approx 320 g",
+      "Flatbread purchased weight: approx 520 g",
+      "Cold vegetables: approx 400 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook ground beef and lamb to 71 C. Whole-cut lamb and beef should reach at least 63 C and rest 3 minutes; use a food thermometer.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "For bone-in lamb recipes, nutrition and purchased RAW weight are not interchangeable with the edible cooked yield; measure edible meat before publishing."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 609,
+      "protein": 39,
+      "carbs": 49,
+      "fat": 28
+    },
+    "quantitiesFrom": "UNHANGRY Red Meat Oven file — exact raw quantities as written."
+  }
+}

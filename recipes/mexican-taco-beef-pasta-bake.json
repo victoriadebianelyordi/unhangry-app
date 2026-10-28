@@ -1,0 +1,166 @@
+{
+  "id": "mexican-taco-beef-pasta-bake",
+  "name": "Mexican Taco Beef Pasta Bake",
+  "protein": "red-meat",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 585,
+    "protein": 45,
+    "carbs": 58,
+    "fat": 19
+  },
+  "components": [
+    {
+      "id": "bake",
+      "name": "Taco Beef Pasta Bake",
+      "scaling": "ratio",
+      "role": "whole",
+      "servings": 4,
+      "cookedYieldG": 1780,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 585,
+        "protein": 45,
+        "carbs": 58,
+        "fat": 19
+      },
+      "ingredients": [
+        {
+          "name": "Raw 5-percent-fat lean beef mince",
+          "qty": 500,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Raw mixed bell peppers chopped",
+          "qty": 375,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Raw medium onions diced",
+          "qty": 180,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Italian canned crushed tomatoes with herbs",
+          "qty": 400,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Taco seasoning base",
+          "qty": 30,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Light spreadable cream cheese",
+          "qty": 160,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Light mozzarella grated",
+          "qty": 80,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Dry bowtie pasta",
+          "qty": 200,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Water to help uncooked pasta soften in the oven",
+          "qty": 100,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Preheat oven to 180 C and prepare a deep baking dish large enough for pasta to sit below the liquid level.",
+        "Combine raw lean beef mince with chopped peppers, onion, crushed tomatoes, taco seasoning, light cream cheese, mozzarella and uncooked bowtie pasta; use a sturdy spoon to separate the mince evenly.",
+        "Add 100 ml water if the mixture seems dry, particularly if the canned tomato has little juice. Stir so pasta is largely coated and can hydrate evenly.",
+        "Cover dish very tightly with foil to trap steam and bake about 45 minutes.",
+        "Remove foil, stir carefully and check pasta tenderness and beef doneness, cooking longer if necessary until every section reaches 71 C. Bake uncovered another 5 minutes to brown the top.",
+        "Rest 5 minutes, then split into four large portions. Cool rapidly, refrigerate or freeze soon after cooking."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Based on Hadrian-reviewed recipe credited to @reform.nutrition.training and @davefellfitness. Original published batch reports 4 portions and approximately 554 kcal, 46.1g protein, 56.2g carbs and 16.3g fat. UNHANGRY adds an optional fixed 100 ml water and recalculates from its ingredient averages.",
+    "Planning: PRIMARY OVEN with no pre-cooked meat or pasta; ensure deep covered baking dish and meat temperature.",
+    "Freezer: freezer-friendly, but dairy texture and pasta firmness may change",
+    "Dietary: Contains dairy, wheat; taco mix allergen ingredients depend on brand.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://pikory.com/tag/sheet-pan-taco-bake-recipe",
+  "reference": {
+    "sourceCredit": "Original: @reform.nutrition.training and @davefellfitness; reviewed by @firsttakehadrian",
+    "fileTitle": "Mexican Taco Beef Pasta Bake (Hadrian-Reviewed)",
+    "fileRecipeNumber": 16,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Red meat",
+    "methodTag": "Oven",
+    "preparationMethod": "Oven roasting / baking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 15 minutes",
+    "ovenCookingTime": "approx 50 minutes (can overlap with other components)",
+    "freezer": "YES: freezer-friendly, but dairy texture and pasta firmness may change",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Contains dairy, wheat; taco mix allergen ingredients depend on brand.",
+    "fileMacrosPerServing": {
+      "kcal": 585,
+      "protein": 45,
+      "carbs": 57.6,
+      "fat": 19.4
+    },
+    "fileMacroText": {
+      "kcal": "585 kcal (ESTIMATED)",
+      "protein": "45.0 g (ESTIMATED)",
+      "carbs": "57.6 g (ESTIMATED)",
+      "fat": "19.4 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL raw listed ingredients using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "Based on Hadrian-reviewed recipe credited to @reform.nutrition.training and @davefellfitness. Original published batch reports 4 portions and approximately 554 kcal, 46.1g protein, 56.2g carbs and 16.3g fat. UNHANGRY adds an optional fixed 100 ml water and recalculates from its ingredient averages.",
+    "planningNotes": "PRIMARY OVEN with no pre-cooked meat or pasta; ensure deep covered baking dish and meat temperature.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Finished taco beef pasta casserole: approx 1780 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook ground beef and lamb to 71 C. Whole-cut lamb and beef should reach at least 63 C and rest 3 minutes; use a food thermometer.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "For bone-in lamb recipes, nutrition and purchased RAW weight are not interchangeable with the edible cooked yield; measure edible meat before publishing."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 588,
+      "protein": 45,
+      "carbs": 61,
+      "fat": 18
+    },
+    "quantitiesFrom": "UNHANGRY Red Meat Oven file — exact raw quantities as written."
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "id": "beef-rice-stuffed-peppers",
+  "name": "Beef and Rice Stuffed Bell Peppers",
+  "protein": "red-meat",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 6,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 648,
+    "protein": 44,
+    "carbs": 62,
+    "fat": 25
+  },
+  "components": [
+    {
+      "id": "peppers",
+      "name": "Beef and Rice Stuffed Peppers",
+      "scaling": "ratio",
+      "role": "whole",
+      "servings": 6,
+      "cookedYieldG": 2870,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 648,
+        "protein": 44,
+        "carbs": 62,
+        "fat": 25
+      },
+      "ingredients": [
+        {
+          "name": "Six raw large bell peppers, trimmed and seeded",
+          "qty": 1150,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Raw lean ground beef",
+          "qty": 850,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Raw onion diced",
+          "qty": 160,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Fresh garlic minced",
+          "qty": 20,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Dry white rice",
+          "qty": 300,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Water to cook raw rice",
+          "qty": 530,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Tomato passata",
+          "qty": 600,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Beef broth",
+          "qty": 150,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Mozzarella grated",
+          "qty": 180,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 25,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Dried Italian herb mix",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 8,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Black pepper",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Rinse uncooked rice and cook in 530 ml water until almost tender, then let the steam escape so stuffing is not soggy.",
+        "Preheat oven to 190 C. Slice the tops off six large peppers, remove seeds and place upright in a lightly oiled baking dish.",
+        "Sauté onion and garlic in measured oil, add raw beef and brown thoroughly. Add one third of the passata, the nearly cooked rice and dry seasonings and stir to combine.",
+        "Fill each pepper with one sixth of the mixture. Pour remaining passata and broth around the peppers, cover dish tightly with foil.",
+        "Bake covered for 35-40 minutes, uncover, sprinkle mozzarella on each pepper and bake another 10-15 minutes until peppers soften and centre of stuffing reaches 74 C.",
+        "Pack one generous stuffed pepper and some surrounding sauce per person; cool quickly before freezing."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Source recipe uses cooked rice; UNHANGRY specifies the RAW dry rice quantity and its cooking water for grocery scaling.",
+    "Planning: SECONDARY STOVETOP: pre-cook rice and beef filling.",
+    "Freezer: freezes well, peppers become softer on reheating",
+    "Dietary: Contains dairy; no pork.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://onthedinnerplate.com/recipes/classic-stuffed-peppers/",
+  "reference": {
+    "sourceCredit": "Lukasz Jagiello, On the Dinner Plate",
+    "fileTitle": "Beef and Rice Stuffed Bell Peppers",
+    "fileRecipeNumber": 12,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Red meat",
+    "methodTag": "Oven",
+    "preparationMethod": "Oven roasting / baking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 30 minutes",
+    "ovenCookingTime": "approx 55 minutes (can overlap with other components)",
+    "freezer": "YES: freezes well, peppers become softer on reheating",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Contains dairy; no pork.",
+    "fileMacrosPerServing": {
+      "kcal": 648,
+      "protein": 44.3,
+      "carbs": 61.6,
+      "fat": 25
+    },
+    "fileMacroText": {
+      "kcal": "648 kcal (ESTIMATED)",
+      "protein": "44.3 g (ESTIMATED)",
+      "carbs": "61.6 g (ESTIMATED)",
+      "fat": "25.0 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL raw listed ingredients using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "Source recipe uses cooked rice; UNHANGRY specifies the RAW dry rice quantity and its cooking water for grocery scaling.",
+    "planningNotes": "SECONDARY STOVETOP: pre-cook rice and beef filling.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Six stuffed peppers excluding braising sauce: approx 2400 g",
+      "Tomato braising sauce: approx 470 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook ground beef and lamb to 71 C. Whole-cut lamb and beef should reach at least 63 C and rest 3 minutes; use a food thermometer.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "For bone-in lamb recipes, nutrition and purchased RAW weight are not interchangeable with the edible cooked yield; measure edible meat before publishing."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 651,
+      "protein": 42,
+      "carbs": 62,
+      "fat": 25
+    },
+    "quantitiesFrom": "UNHANGRY Red Meat Oven file — exact raw quantities as written."
+  }
+}
