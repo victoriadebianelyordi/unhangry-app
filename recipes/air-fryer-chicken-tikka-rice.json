@@ -1,0 +1,254 @@
+{
+  "id": "air-fryer-chicken-tikka-rice",
+  "name": "Air Fryer Chicken Tikka with Basmati Rice and Yogurt Sauce",
+  "protein": "white-meat",
+  "method": "third-spot",
+  "mealType": "main",
+  "feeds": 5,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 582,
+    "protein": 58,
+    "carbs": 62,
+    "fat": 11
+  },
+  "components": [
+    {
+      "id": "chicken",
+      "name": "Chicken Tikka",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 5,
+      "cookedYieldG": 850,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 331,
+        "protein": 50,
+        "carbs": 9,
+        "fat": 10
+      },
+      "ingredients": [
+        {
+          "name": "Raw boneless skinless chicken breast, large cubes",
+          "qty": 1000,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Plain Greek yogurt",
+          "qty": 180,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Fresh lemon juice",
+          "qty": 35,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 25,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Garlic, minced",
+          "qty": 20,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Fresh ginger, grated",
+          "qty": 15,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Tikka or garam masala spice blend",
+          "qty": 12,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Ground cumin",
+          "qty": 4,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Turmeric",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 8,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Raw onion chunks",
+          "qty": 180,
+          "unit": "g",
+          "component": "aromatic"
+        }
+      ],
+      "steps": [
+        "Combine yogurt, lemon, oil, garlic, ginger, spices and salt. Coat raw cubed chicken and onion; refrigerate at least 1 hour.",
+        "Preheat air fryer to 200 C. Arrange chicken and onion loosely in the basket, leaving room between pieces; work in batches.",
+        "Cook approximately 12-16 minutes per batch, shaking halfway, until the thickest chicken pieces are at least 74 C.",
+        "Cool promptly, freeze later-week chicken-and-rice portions, and add chilled yogurt only at serving."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Basmati Rice",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 5,
+      "cookedYieldG": 900,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 221,
+        "protein": 4,
+        "carbs": 51,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Dry basmati rice",
+          "qty": 320,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Water for rice",
+          "qty": 540,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Salt for rice",
+          "qty": 4,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Rinse and simmer the 320 g dry basmati with 540 ml water and salt; leave covered to steam, then fluff."
+      ]
+    },
+    {
+      "id": "sauce",
+      "name": "Yogurt Sauce",
+      "scaling": "fixed",
+      "servings": 5,
+      "cookedYieldG": 250,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 31,
+        "protein": 4,
+        "carbs": 2,
+        "fat": 1
+      },
+      "ingredients": [
+        {
+          "name": "Plain Greek yogurt",
+          "qty": 200,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Lemon juice",
+          "qty": 35,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Coriander leaves",
+          "qty": 15,
+          "unit": "g",
+          "component": "aromatic"
+        }
+      ],
+      "steps": [
+        "Stir Greek yogurt, lemon and coriander together without heating. Portion cooked chicken and rice into five containers, keeping cold sauce separate."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Measured UNHANGRY complete-meal adaptation of Skinnytaste chicken tikka; source demonstrates air-fryer alternative.",
+    "Planning: Secondary stovetop for rice. Marination minimum 1 hour. Air fryer needs multiple batches.",
+    "Freezer: chicken and rice; keep cold yogurt sauce separate",
+    "Dietary: Dairy; check spice mix.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.skinnytaste.com/chicken-tikka-kebab/",
+  "reference": {
+    "sourceCredit": "Gina Homolka, Skinnytaste",
+    "sourceRecipeUrl": "https://www.skinnytaste.com/chicken-tikka-kebab/",
+    "fileTitle": "Air Fryer Chicken Tikka with Basmati Rice and Yogurt Sauce",
+    "fileRecipeNumber": 1,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "White meat",
+    "methodTag": "Air fryer",
+    "preparationMethod": "Air frying (see steps for secondary appliance use)",
+    "activePrepTime": "approx 25 minutes",
+    "airFryerCookingTime": "approx 35 minutes (batch counts / secondary work may extend total time)",
+    "freezer": "YES: chicken and rice; keep cold yogurt sauce separate",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Dairy; check spice mix.",
+    "fileMacrosPerServing": {
+      "kcal": 582,
+      "protein": 58.4,
+      "carbs": 62.3,
+      "fat": 11
+    },
+    "fileMacroText": {
+      "kcal": "582 kcal (ESTIMATED)",
+      "protein": "58.4 g (ESTIMATED)",
+      "carbs": "62.3 g (ESTIMATED)",
+      "fat": "11.0 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL raw listed ingredients using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "Measured UNHANGRY complete-meal adaptation of Skinnytaste chicken tikka; source demonstrates air-fryer alternative.",
+    "planningNotes": "Secondary stovetop for rice. Marination minimum 1 hour. Air fryer needs multiple batches.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Air-fried cooked chicken and onions: approx 850 g",
+      "Cooked rice: approx 900 g",
+      "Cold yogurt sauce: approx 250 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook poultry and ground turkey to 74 C. For whole pork cuts, cook to at least 63 C with a 3-minute rest.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven or air fryer when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "Source recipes may use a different base yield, protein-only serving or cooking method; app-ready complete meals are distinctly marked as UNHANGRY adaptations."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 607,
+      "protein": 58,
+      "carbs": 62,
+      "fat": 12
+    },
+    "quantitiesFrom": "UNHANGRY White Meat Air Fryer file — exact raw quantities as written."
+  }
+}

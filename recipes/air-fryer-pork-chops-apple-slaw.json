@@ -1,0 +1,231 @@
+{
+  "id": "air-fryer-pork-chops-apple-slaw",
+  "name": "Air Fryer Pork Chops with Apple Slaw and Potatoes",
+  "protein": "white-meat",
+  "method": "third-spot",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 721,
+    "protein": 55,
+    "carbs": 71,
+    "fat": 24
+  },
+  "components": [
+    {
+      "id": "pork",
+      "name": "Honey Mustard Pork Chops",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 750,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 450,
+        "protein": 47,
+        "carbs": 23,
+        "fat": 18
+      },
+      "ingredients": [
+        {
+          "name": "Raw boneless pork loin chops, trimmed",
+          "qty": 820,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Dijon mustard",
+          "qty": 80,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Honey",
+          "qty": 25,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Panko breadcrumbs",
+          "qty": 95,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Olive oil spray equivalent",
+          "qty": 12,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Salt",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Coat raw pork with Dijon and honey mixture and refrigerate at least four hours or overnight.",
+        "Press marinated chops into the weighed panko and mist lightly with measured oil. Air fry in a single layer at 200 C, turning, for about 10-14 minutes or until 63 C plus a three-minute rest for whole pork chops.",
+        "Serve each cooked chop with potatoes and dressed apple slaw. Freeze pork and cooked potatoes only; store slaw fresh."
+      ]
+    },
+    {
+      "id": "potatoes",
+      "name": "Air-Fried Potatoes",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 665,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 199,
+        "protein": 4,
+        "carbs": 34,
+        "fat": 5
+      },
+      "ingredients": [
+        {
+          "name": "Raw baby potatoes, halved",
+          "qty": 800,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Olive oil for potatoes",
+          "qty": 20,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Air fry halved potatoes separately with the measured oil until tender and browned, around 15-20 minutes depending on size."
+      ]
+    },
+    {
+      "id": "slaw",
+      "name": "Apple Slaw",
+      "scaling": "fixed",
+      "servings": 4,
+      "cookedYieldG": 670,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 73,
+        "protein": 4,
+        "carbs": 13,
+        "fat": 1
+      },
+      "ingredients": [
+        {
+          "name": "Raw shredded cabbage",
+          "qty": 300,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Raw apples, cored and thinly sliced",
+          "qty": 220,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Plain Greek yogurt",
+          "qty": 110,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Apple cider vinegar",
+          "qty": 25,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Dijon mustard",
+          "qty": 15,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Thinly slice cabbage and apple. Keep slaw vegetables, Greek yogurt, vinegar and dressing mustard chilled in separate containers until ready to eat."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Inspired by Skinnytaste honey-mustard pork chop recipe with original UNHANGRY potato and apple slaw sides.",
+    "Planning: Pork 63 C plus rest; marination 4 hours. Air fryer multiple stages.",
+    "Freezer: pork and cooked potatoes can freeze; slaw must be fresh",
+    "Dietary: NON-HALAL: CONTAINS PORK. Wheat, dairy, mustard.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true,
+    "dietaryWarning": "Contains pork — not halal."
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.skinnytaste.com/honey-mustard-air-fryer-pork-chops/",
+  "reference": {
+    "sourceCredit": "Gina Homolka, Skinnytaste, inspired by Honey-Mustard Air Fryer Pork Chops",
+    "sourceRecipeUrl": "https://www.skinnytaste.com/honey-mustard-air-fryer-pork-chops/",
+    "fileTitle": "Air Fryer Pork Chops with Apple Slaw and Potatoes",
+    "fileRecipeNumber": 13,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "White meat",
+    "methodTag": "Air fryer",
+    "preparationMethod": "Air frying (see steps for secondary appliance use)",
+    "activePrepTime": "approx 20 minutes",
+    "airFryerCookingTime": "approx 55 minutes (batch counts / secondary work may extend total time)",
+    "freezer": "PARTIAL: pork and cooked potatoes can freeze; slaw must be fresh",
+    "dietaryHalalTag": "NON-HALAL: CONTAINS PORK | NON-HALAL: CONTAINS PORK. Wheat, dairy, mustard.",
+    "fileMacrosPerServing": {
+      "kcal": 721,
+      "protein": 54.9,
+      "carbs": 70.7,
+      "fat": 24.3
+    },
+    "fileMacroText": {
+      "kcal": "721 kcal (ESTIMATED)",
+      "protein": "54.9 g (ESTIMATED)",
+      "carbs": "70.7 g (ESTIMATED)",
+      "fat": "24.3 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL raw listed ingredients using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "Inspired by Skinnytaste honey-mustard pork chop recipe with original UNHANGRY potato and apple slaw sides.",
+    "planningNotes": "Pork 63 C plus rest; marination 4 hours. Air fryer multiple stages.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked pork chops and coating: approx 750 g",
+      "Cooked potatoes: approx 665 g",
+      "Raw apple cabbage slaw: approx 520 g",
+      "Yogurt dressing: approx 150 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook poultry and ground turkey to 74 C. For whole pork cuts, cook to at least 63 C with a 3-minute rest.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven or air fryer when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "Source recipes may use a different base yield, protein-only serving or cooking method; app-ready complete meals are distinctly marked as UNHANGRY adaptations."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 707,
+      "protein": 55,
+      "carbs": 71,
+      "fat": 23
+    },
+    "quantitiesFrom": "UNHANGRY White Meat Air Fryer file — exact raw quantities as written."
+  }
+}

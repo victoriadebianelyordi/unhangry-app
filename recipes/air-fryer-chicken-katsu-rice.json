@@ -1,0 +1,248 @@
+{
+  "id": "air-fryer-chicken-katsu-rice",
+  "name": "Air Fryer Chicken Katsu with Rice and Katsu Sauce",
+  "protein": "white-meat",
+  "method": "third-spot",
+  "mealType": "main",
+  "feeds": 5,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 763,
+    "protein": 58,
+    "carbs": 102,
+    "fat": 14
+  },
+  "components": [
+    {
+      "id": "katsu",
+      "name": "Chicken Katsu",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 5,
+      "cookedYieldG": 920,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 473,
+        "protein": 52,
+        "carbs": 36,
+        "fat": 13
+      },
+      "ingredients": [
+        {
+          "name": "Raw chicken breast, sliced into even cutlets",
+          "qty": 950,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Plain wheat flour",
+          "qty": 90,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Whole eggs without shells, beaten",
+          "qty": 120,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Panko breadcrumbs",
+          "qty": 150,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Neutral oil for browning crumbs and spray",
+          "qty": 25,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Salt",
+          "qty": 7,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Black pepper",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Lightly toast panko in a skillet with some measured oil until golden; let cool. This follows the original baked-katsu technique, adapted for air frying.",
+        "Flatten chicken cutlets to a similar thickness, season, dust in flour, dip in egg, then firmly coat with golden panko.",
+        "Preheat air fryer to 190 C. Place cutlets in a single layer with a little remaining oil spray; cook approximately 12-15 minutes, flipping halfway, until 74 C in the centre."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Short Grain Rice",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 5,
+      "cookedYieldG": 850,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 225,
+        "protein": 4,
+        "carbs": 50,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Dry white short grain rice",
+          "qty": 320,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Water for rice",
+          "qty": 420,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Cook rice with the listed water and rest it covered. Whisk ketchup, Worcestershire, soy and honey into a dipping sauce."
+      ]
+    },
+    {
+      "id": "sides",
+      "name": "Katsu Sauce & Slaw",
+      "scaling": "fixed",
+      "servings": 5,
+      "cookedYieldG": 640,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 65,
+        "protein": 2,
+        "carbs": 16,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Tomato ketchup",
+          "qty": 100,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Katsu sauce"
+        },
+        {
+          "name": "Worcestershire sauce",
+          "qty": 30,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Katsu sauce"
+        },
+        {
+          "name": "Soy sauce",
+          "qty": 20,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Katsu sauce"
+        },
+        {
+          "name": "Honey",
+          "qty": 15,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Katsu sauce"
+        },
+        {
+          "name": "Fresh cabbage for shredding",
+          "qty": 300,
+          "unit": "g",
+          "component": "other",
+          "group": "Slaw"
+        },
+        {
+          "name": "Carrots for slaw",
+          "qty": 180,
+          "unit": "g",
+          "component": "other",
+          "group": "Slaw"
+        }
+      ],
+      "steps": [
+        "Finely shred cabbage and carrot and store separately. Divide katsu and rice across five meals; re-crisp chicken in air fryer before eating and add raw slaw and sauce cold."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Air fryer variation supported by Just One Cookbook guidance for its baked katsu; source is not an original dedicated air fryer formula.",
+    "Planning: Secondary skillet for toasting crumbs and stovetop for rice. Sauce is measured UNHANGRY formulation.",
+    "Freezer: cooked crumbed chicken and rice freeze; crust softens; slaw fresh",
+    "Dietary: Wheat, egg, soy; Worcestershire may contain fish.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.justonecookbook.com/crispy-baked-chicken/",
+  "reference": {
+    "sourceCredit": "Nami, Just One Cookbook",
+    "sourceRecipeUrl": "https://www.justonecookbook.com/crispy-baked-chicken/",
+    "fileTitle": "Air Fryer Chicken Katsu with Rice and Katsu Sauce",
+    "fileRecipeNumber": 2,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "White meat",
+    "methodTag": "Air fryer",
+    "preparationMethod": "Air frying (see steps for secondary appliance use)",
+    "activePrepTime": "approx 35 minutes",
+    "airFryerCookingTime": "approx 45 minutes (batch counts / secondary work may extend total time)",
+    "freezer": "PARTIAL: cooked crumbed chicken and rice freeze; crust softens; slaw fresh",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Wheat, egg, soy; Worcestershire may contain fish.",
+    "fileMacrosPerServing": {
+      "kcal": 763,
+      "protein": 57.6,
+      "carbs": 101.7,
+      "fat": 14
+    },
+    "fileMacroText": {
+      "kcal": "763 kcal (ESTIMATED)",
+      "protein": "57.6 g (ESTIMATED)",
+      "carbs": "101.7 g (ESTIMATED)",
+      "fat": "14.0 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL raw listed ingredients using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "Air fryer variation supported by Just One Cookbook guidance for its baked katsu; source is not an original dedicated air fryer formula.",
+    "planningNotes": "Secondary skillet for toasting crumbs and stovetop for rice. Sauce is measured UNHANGRY formulation.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked chicken katsu cutlets: approx 920 g",
+      "Cooked rice: approx 850 g",
+      "Katsu sauce: approx 160 g",
+      "Raw slaw: approx 480 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook poultry and ground turkey to 74 C. For whole pork cuts, cook to at least 63 C with a 3-minute rest.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven or air fryer when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "Source recipes may use a different base yield, protein-only serving or cooking method; app-ready complete meals are distinctly marked as UNHANGRY adaptations."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 782,
+      "protein": 58,
+      "carbs": 103,
+      "fat": 14
+    },
+    "quantitiesFrom": "UNHANGRY White Meat Air Fryer file — exact raw quantities as written."
+  }
+}

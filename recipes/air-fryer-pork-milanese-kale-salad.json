@@ -1,0 +1,238 @@
+{
+  "id": "air-fryer-pork-milanese-kale-salad",
+  "name": "Air Fryer Pork Milanese with Kale and Apple Salad",
+  "protein": "white-meat",
+  "method": "third-spot",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 633,
+    "protein": 44,
+    "carbs": 62,
+    "fat": 24
+  },
+  "components": [
+    {
+      "id": "pork",
+      "name": "Pork Milanese",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 620,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 376,
+        "protein": 37,
+        "carbs": 18,
+        "fat": 16
+      },
+      "ingredients": [
+        {
+          "name": "Raw boneless pork loin cutlets, pounded thin",
+          "qty": 600,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Whole egg without shell",
+          "qty": 90,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Wholewheat breadcrumbs",
+          "qty": 90,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Dijon mustard",
+          "qty": 30,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Wholegrain mustard",
+          "qty": 30,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Olive oil spray measured equivalent",
+          "qty": 10,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Garlic powder",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Season and marinate pounded pork cutlets with mustard, garlic powder and salt for at least one hour.",
+        "Prepare shallow egg and breadcrumb trays. Dip pork into egg and then firmly into breadcrumbs; lightly mist with measured oil.",
+        "Air fry at 200 C in batches approximately 10-14 minutes, turning halfway, until 63 C internal and a three-minute rest for whole cuts.",
+        "Portion warm pork with potato side; assemble kale-and-apple salad cold at serving. Freeze only the pork and potatoes if necessary."
+      ]
+    },
+    {
+      "id": "potatoes",
+      "name": "Air-Fried Potatoes",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 490,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 118,
+        "protein": 3,
+        "carbs": 25,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Raw potatoes cut into cubes",
+          "qty": 600,
+          "unit": "g",
+          "component": "carb"
+        }
+      ],
+      "steps": [
+        "Cook cubed potatoes in the air fryer separately, shaking several times, until browned and tender."
+      ]
+    },
+    {
+      "id": "salad",
+      "name": "Kale & Apple Salad",
+      "scaling": "fixed",
+      "servings": 4,
+      "cookedYieldG": 640,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 139,
+        "protein": 4,
+        "carbs": 18,
+        "fat": 7
+      },
+      "ingredients": [
+        {
+          "name": "Raw Tuscan kale shredded",
+          "qty": 360,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Raw Granny Smith apple strips",
+          "qty": 200,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 25,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Apple cider vinegar",
+          "qty": 35,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Maple syrup",
+          "qty": 20,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Mix cider vinegar, olive oil and maple syrup as dressing. Massage kale briefly and keep chopped apples in a separate container until eating."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Source salad and Milanese retained; measured potato side added for a full meal.",
+    "Planning: Skinnytaste notes salad storage shorter than pork; keep apple separate. Marinade 1 hour.",
+    "Freezer: Skinnytaste suggests freezing raw breaded cutlets; fresh kale-apple salad no freezing",
+    "Dietary: NON-HALAL: CONTAINS PORK. Egg, wheat.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true,
+    "dietaryWarning": "Contains pork — not halal."
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.skinnytaste.com/pork-milanese-with-kale-and-apple-salad/",
+  "reference": {
+    "sourceCredit": "Gina Homolka, Skinnytaste",
+    "sourceRecipeUrl": "https://www.skinnytaste.com/pork-milanese-with-kale-and-apple-salad/",
+    "fileTitle": "Air Fryer Pork Milanese with Kale and Apple Salad",
+    "fileRecipeNumber": 14,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "White meat",
+    "methodTag": "Air fryer",
+    "preparationMethod": "Air frying (see steps for secondary appliance use)",
+    "activePrepTime": "approx 25 minutes",
+    "airFryerCookingTime": "approx 60 minutes (batch counts / secondary work may extend total time)",
+    "freezer": "PARTIAL: Skinnytaste suggests freezing raw breaded cutlets; fresh kale-apple salad no freezing",
+    "dietaryHalalTag": "NON-HALAL: CONTAINS PORK | NON-HALAL: CONTAINS PORK. Egg, wheat.",
+    "fileMacrosPerServing": {
+      "kcal": 633,
+      "protein": 43.7,
+      "carbs": 61.6,
+      "fat": 23.5
+    },
+    "fileMacroText": {
+      "kcal": "633 kcal (ESTIMATED)",
+      "protein": "43.7 g (ESTIMATED)",
+      "carbs": "61.6 g (ESTIMATED)",
+      "fat": "23.5 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL raw listed ingredients using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "Source salad and Milanese retained; measured potato side added for a full meal.",
+    "planningNotes": "Skinnytaste notes salad storage shorter than pork; keep apple separate. Marinade 1 hour.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked breaded pork cutlets: approx 620 g",
+      "Cooked potatoes: approx 490 g",
+      "Chilled kale and apple: approx 560 g",
+      "Salad dressing: approx 80 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook poultry and ground turkey to 74 C. For whole pork cuts, cook to at least 63 C with a 3-minute rest.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven or air fryer when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "Source recipes may use a different base yield, protein-only serving or cooking method; app-ready complete meals are distinctly marked as UNHANGRY adaptations."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 620,
+      "protein": 45,
+      "carbs": 62,
+      "fat": 22
+    },
+    "quantitiesFrom": "UNHANGRY White Meat Air Fryer file — exact raw quantities as written."
+  }
+}

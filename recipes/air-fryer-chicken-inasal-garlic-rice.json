@@ -1,0 +1,222 @@
+{
+  "id": "air-fryer-chicken-inasal-garlic-rice",
+  "name": "Air Fryer Filipino Chicken Inasal with Garlic Rice",
+  "protein": "white-meat",
+  "method": "third-spot",
+  "mealType": "main",
+  "feeds": 5,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 755,
+    "protein": 46,
+    "carbs": 72,
+    "fat": 32
+  },
+  "components": [
+    {
+      "id": "chicken",
+      "name": "Chicken Inasal",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 5,
+      "cookedYieldG": 880,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 420,
+        "protein": 41,
+        "carbs": 12,
+        "fat": 24
+      },
+      "ingredients": [
+        {
+          "name": "Raw boneless chicken thigh pieces",
+          "qty": 1100,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Calamansi or lime juice",
+          "qty": 110,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Coconut vinegar",
+          "qty": 80,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Raw garlic minced",
+          "qty": 45,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Ginger grated",
+          "qty": 35,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Fresh lemongrass bruised for marinade",
+          "qty": 45,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Brown sugar",
+          "qty": 12,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 8,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Butter for annatto basting",
+          "qty": 50,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Annatto powder or ground seeds",
+          "qty": 7,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Whisk calamansi/lime, vinegar, garlic, ginger, bruised lemongrass, sugar and salt. Marinate chicken covered in the refrigerator overnight if practical.",
+        "Discard raw-poultry-contact marinade. Warm butter with annatto in a clean saucepan; brush onto chicken during air frying using a clean brush.",
+        "Air fry in spaced batches at 190 C approximately 18-22 minutes, turning and basting, until all pieces reach 74 C.",
+        "Portion cooked chicken and garlic rice equally into five containers, cool promptly and freeze later-week portions."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Garlic Rice",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 5,
+      "cookedYieldG": 1050,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 335,
+        "protein": 5,
+        "carbs": 60,
+        "fat": 7
+      },
+      "ingredients": [
+        {
+          "name": "Dry jasmine rice",
+          "qty": 360,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Water for rice",
+          "qty": 590,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Neutral oil for garlic rice",
+          "qty": 25,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Fresh garlic for rice",
+          "qty": 35,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Salt for rice",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Cook jasmine rice with its measured water, then cool briefly. Warm neutral oil in a pan, fry the listed fresh garlic until fragrant, fold in cooked rice and salt."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Adapted from Pepper.ph air fryer inasal; exact ingredient weights are fixed UNHANGRY batch version.",
+    "Planning: Overnight marinade ideal. Stovetop for garlic rice and annatto butter. Source marination about 24 hours.",
+    "Freezer: chicken and rice freeze; prefer separate portions",
+    "Dietary: Contains dairy from annatto butter; no pork.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.pepper.ph/recipes/air-fryer-chicken-inasal",
+  "reference": {
+    "sourceCredit": "Pepper.ph, Air Fryer Chicken Inasal",
+    "sourceRecipeUrl": "https://www.pepper.ph/recipes/air-fryer-chicken-inasal",
+    "fileTitle": "Air Fryer Filipino Chicken Inasal with Garlic Rice",
+    "fileRecipeNumber": 11,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "White meat",
+    "methodTag": "Air fryer",
+    "preparationMethod": "Air frying (see steps for secondary appliance use)",
+    "activePrepTime": "approx 30 minutes",
+    "airFryerCookingTime": "approx 45 minutes (batch counts / secondary work may extend total time)",
+    "freezer": "YES: chicken and rice freeze; prefer separate portions",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Contains dairy from annatto butter; no pork.",
+    "fileMacrosPerServing": {
+      "kcal": 755,
+      "protein": 46.3,
+      "carbs": 71.7,
+      "fat": 31.5
+    },
+    "fileMacroText": {
+      "kcal": "755 kcal (ESTIMATED)",
+      "protein": "46.3 g (ESTIMATED)",
+      "carbs": "71.7 g (ESTIMATED)",
+      "fat": "31.5 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL raw listed ingredients using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "Adapted from Pepper.ph air fryer inasal; exact ingredient weights are fixed UNHANGRY batch version.",
+    "planningNotes": "Overnight marinade ideal. Stovetop for garlic rice and annatto butter. Source marination about 24 hours.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked chicken inasal: approx 880 g",
+      "Cooked garlic rice: approx 1050 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook poultry and ground turkey to 74 C. For whole pork cuts, cook to at least 63 C with a 3-minute rest.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven or air fryer when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "Source recipes may use a different base yield, protein-only serving or cooking method; app-ready complete meals are distinctly marked as UNHANGRY adaptations."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 699,
+      "protein": 50,
+      "carbs": 71,
+      "fat": 23
+    },
+    "quantitiesFrom": "UNHANGRY White Meat Air Fryer file — exact raw quantities as written."
+  }
+}

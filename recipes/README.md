@@ -20,9 +20,9 @@ folder and it will appear in the app automatically the next time the page loads.
   `seafood` (any fish or shellfish), `veggie` (vegetarian). For `breakfast` and `snack`
   recipes this is mostly decorative (no protein filter is shown for those sections) — pick
   whichever fits closest.
-- **method** — one of: `air-fryer`, `oven`, `stovetop`, `no-cook` (fridge/overnight prep —
-  no active cooking, e.g. overnight oats, chia parfait). The weekly 3-method rule (one of
-  each: air fryer/oven/stovetop) only applies to `mealType: "main"` recipes.
+- **method** — one of: `stovetop`, `oven`, `third-spot` (everything else — air fryer,
+  no-cook/overnight prep, rice cooker, grill). The weekly 3-method rule (one of each:
+  stovetop/oven/third spot) only applies to `mealType: "main"` recipes.
 - **mealType** — which section of The Database this belongs to, and how it's used:
   - `main` — a full lunch/dinner. This is what gets offered when picking the week's 3
     mains (one per cooking method).

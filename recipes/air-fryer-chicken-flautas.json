@@ -1,0 +1,220 @@
+{
+  "id": "air-fryer-chicken-flautas",
+  "name": "Air Fryer Chicken Flautas with Pico de Gallo",
+  "protein": "white-meat",
+  "method": "third-spot",
+  "mealType": "main",
+  "feeds": 6,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 439,
+    "protein": 28,
+    "carbs": 43,
+    "fat": 17
+  },
+  "components": [
+    {
+      "id": "flautas",
+      "name": "Chicken Flautas",
+      "scaling": "ratio",
+      "role": "whole",
+      "servings": 6,
+      "cookedYieldG": 920,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 422,
+        "protein": 28,
+        "carbs": 39,
+        "fat": 17
+      },
+      "ingredients": [
+        {
+          "name": "RAW boneless chicken breast to produce approx 340 g cooked shredded chicken",
+          "qty": 450,
+          "unit": "g",
+          "component": "protein",
+          "group": "Cook the chicken first"
+        },
+        {
+          "name": "Olive oil to cook initial chicken",
+          "qty": 12,
+          "unit": "ml",
+          "component": "other",
+          "group": "Cook the chicken first"
+        },
+        {
+          "name": "Twelve small flour tortillas, purchased weight",
+          "qty": 430,
+          "unit": "g",
+          "component": "carb",
+          "group": "Flautas"
+        },
+        {
+          "name": "Pepper jack cheese grated",
+          "qty": 110,
+          "unit": "g",
+          "component": "other",
+          "group": "Flautas"
+        },
+        {
+          "name": "Drained canned mild green chilies",
+          "qty": 115,
+          "unit": "g",
+          "component": "other",
+          "group": "Flautas"
+        },
+        {
+          "name": "Lime juice",
+          "qty": 20,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Flautas"
+        },
+        {
+          "name": "Garlic, minced",
+          "qty": 10,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Flautas"
+        },
+        {
+          "name": "Ground cumin",
+          "qty": 4,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Flautas"
+        },
+        {
+          "name": "Oil spray for tortillas",
+          "qty": 12,
+          "unit": "ml",
+          "component": "other",
+          "group": "Flautas"
+        }
+      ],
+      "steps": [
+        "Important: Skinnytaste's published flautas recipe starts with already-cooked shredded chicken. Our 450 g RAW chicken breast is an estimated input to yield 340 g cooked; weigh after cooking.",
+        "Cook raw chicken separately in the air fryer at 190 C until 74 C in the centre; rest and shred finely.",
+        "Stir shredded cooked chicken with diced green chilies, lime, garlic, cumin and cheese. Divide filling across 12 small tortillas and roll tightly.",
+        "Arrange flautas seam-down in a single layer in an oiled air fryer basket, spraying lightly; cook around 8-9 minutes per batch at 200 C, turning once, until crisp.",
+        "Freeze cooked flautas in separated layers if desired and re-crisp from thawed; refrigerate pico and do not freeze it."
+      ]
+    },
+    {
+      "id": "pico",
+      "name": "Pico de Gallo",
+      "scaling": "fixed",
+      "servings": 6,
+      "cookedYieldG": 420,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 17,
+        "protein": 1,
+        "carbs": 4,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Raw diced tomatoes",
+          "qty": 300,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Raw chopped onion",
+          "qty": 90,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Coriander leaves",
+          "qty": 15,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Lime juice for pico",
+          "qty": 35,
+          "unit": "ml",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Mix tomato, onion, coriander and lime for a separate chilled pico. Divide two flautas per meal for six servings; add pico at eating time."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Explicit raw-to-cooked conversion added because source calls for 12 oz COOKED chicken; cooked yields estimated.",
+    "Planning: Air fryer two stages: first chicken, then rolled flautas; may be a long multi-batch session.",
+    "Freezer: for flautas: uncooked or cooked; pico de gallo fresh only",
+    "Dietary: Wheat, dairy.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.skinnytaste.com/air-fryer-chicken-flautas/",
+  "reference": {
+    "sourceCredit": "Gina Homolka, Skinnytaste",
+    "sourceRecipeUrl": "https://www.skinnytaste.com/air-fryer-chicken-flautas/",
+    "fileTitle": "Air Fryer Chicken Flautas with Pico de Gallo",
+    "fileRecipeNumber": 9,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "White meat",
+    "methodTag": "Air fryer",
+    "preparationMethod": "Air frying (see steps for secondary appliance use)",
+    "activePrepTime": "approx 25 minutes",
+    "airFryerCookingTime": "approx 45 minutes (batch counts / secondary work may extend total time)",
+    "freezer": "YES for flautas: uncooked or cooked; pico de gallo fresh only",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Wheat, dairy.",
+    "fileMacrosPerServing": {
+      "kcal": 439,
+      "protein": 28.4,
+      "carbs": 43.2,
+      "fat": 16.9
+    },
+    "fileMacroText": {
+      "kcal": "439 kcal (ESTIMATED)",
+      "protein": "28.4 g (ESTIMATED)",
+      "carbs": "43.2 g (ESTIMATED)",
+      "fat": "16.9 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL raw listed ingredients using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "Explicit raw-to-cooked conversion added because source calls for 12 oz COOKED chicken; cooked yields estimated.",
+    "planningNotes": "Air fryer two stages: first chicken, then rolled flautas; may be a long multi-batch session.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked and shredded chicken before assembly: approx 340 g",
+      "Cooked filled flautas: approx 920 g",
+      "Fresh pico de gallo: approx 420 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook poultry and ground turkey to 74 C. For whole pork cuts, cook to at least 63 C with a 3-minute rest.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven or air fryer when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "Source recipes may use a different base yield, protein-only serving or cooking method; app-ready complete meals are distinctly marked as UNHANGRY adaptations."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 436,
+      "protein": 28,
+      "carbs": 42,
+      "fat": 17
+    },
+    "quantitiesFrom": "UNHANGRY White Meat Air Fryer file — exact raw quantities as written."
+  }
+}

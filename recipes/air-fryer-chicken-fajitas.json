@@ -1,0 +1,236 @@
+{
+  "id": "air-fryer-chicken-fajitas",
+  "name": "Air Fryer Chicken Fajitas with Tortillas and Guacamole",
+  "protein": "white-meat",
+  "method": "third-spot",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 866,
+    "protein": 68,
+    "carbs": 72,
+    "fat": 34
+  },
+  "components": [
+    {
+      "id": "filling",
+      "name": "Chicken Fajita Filling",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 1320,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 412,
+        "protein": 58,
+        "carbs": 14,
+        "fat": 13
+      },
+      "ingredients": [
+        {
+          "name": "Raw boneless chicken breast, strips",
+          "qty": 1000,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Raw red bell pepper, strips",
+          "qty": 240,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Raw yellow pepper, strips",
+          "qty": 240,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Raw onion strips",
+          "qty": 180,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Neutral oil",
+          "qty": 25,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Paprika",
+          "qty": 7,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Ground cumin",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Garlic granules",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Ground coriander",
+          "qty": 4,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Combine raw chicken, pepper strips and onions with oil and all measured spices.",
+        "Heat the air fryer to 200 C and spread a portion of the fajita mix evenly without crowding; air fry approximately 15-18 minutes, shaking twice, until chicken reaches 74 C. Repeat for remaining filling.",
+        "Reheat fajita filling thoroughly and assemble in tortillas with the cold toppings just before eating."
+      ]
+    },
+    {
+      "id": "wraps",
+      "name": "Flour Tortillas",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 400,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 301,
+        "protein": 8,
+        "carbs": 50,
+        "fat": 8
+      },
+      "ingredients": [
+        {
+          "name": "Four large purchased flour tortillas",
+          "qty": 400,
+          "unit": "g",
+          "component": "carb"
+        }
+      ],
+      "steps": [
+        "Warm tortillas briefly only when ready to eat so they do not become wet in storage."
+      ]
+    },
+    {
+      "id": "toppings",
+      "name": "Guacamole & Sour Cream",
+      "scaling": "fixed",
+      "servings": 4,
+      "cookedYieldG": 395,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 152,
+        "protein": 2,
+        "carbs": 7,
+        "fat": 14
+      },
+      "ingredients": [
+        {
+          "name": "Prepared guacamole",
+          "qty": 240,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Sour cream",
+          "qty": 120,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Lime juice",
+          "qty": 35,
+          "unit": "ml",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Divide cooked chicken and vegetable filling into four containers. Keep measured guacamole, sour cream and lime separately, chilled."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "BBC Air Fryer Chicken Fajitas scaled to four adult meals; raw weights and quantities are fixed UNHANGRY adaptation.",
+    "Planning: Source makes 2; scaled/adjusted to 4 fixed servings. Guacamole must be kept cold.",
+    "Freezer: fajita chicken filling freezes; guacamole and sour cream not recommended for freezing",
+    "Dietary: Wheat, dairy.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.bbc.co.uk/food/recipes/air_fryer_chicken_fajita_38892",
+  "reference": {
+    "sourceCredit": "Nathan Anthony, BBC Food",
+    "sourceRecipeUrl": "https://www.bbc.co.uk/food/recipes/air_fryer_chicken_fajita_38892",
+    "fileTitle": "Air Fryer Chicken Fajitas with Tortillas and Guacamole",
+    "fileRecipeNumber": 7,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "White meat",
+    "methodTag": "Air fryer",
+    "preparationMethod": "Air frying (see steps for secondary appliance use)",
+    "activePrepTime": "approx 20 minutes",
+    "airFryerCookingTime": "approx 40 minutes (batch counts / secondary work may extend total time)",
+    "freezer": "PARTIAL: fajita chicken filling freezes; guacamole and sour cream not recommended for freezing",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Wheat, dairy.",
+    "fileMacrosPerServing": {
+      "kcal": 866,
+      "protein": 68.3,
+      "carbs": 71.5,
+      "fat": 34.1
+    },
+    "fileMacroText": {
+      "kcal": "866 kcal (ESTIMATED)",
+      "protein": "68.3 g (ESTIMATED)",
+      "carbs": "71.5 g (ESTIMATED)",
+      "fat": "34.1 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL raw listed ingredients using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "BBC Air Fryer Chicken Fajitas scaled to four adult meals; raw weights and quantities are fixed UNHANGRY adaptation.",
+    "planningNotes": "Source makes 2; scaled/adjusted to 4 fixed servings. Guacamole must be kept cold.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked fajita chicken and vegetables: approx 1320 g",
+      "Purchased tortillas: approx 400 g",
+      "Fresh guacamole: approx 240 g",
+      "Sour cream: approx 120 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook poultry and ground turkey to 74 C. For whole pork cuts, cook to at least 63 C with a 3-minute rest.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven or air fryer when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "Source recipes may use a different base yield, protein-only serving or cooking method; app-ready complete meals are distinctly marked as UNHANGRY adaptations."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 879,
+      "protein": 69,
+      "carbs": 71,
+      "fat": 35
+    },
+    "quantitiesFrom": "UNHANGRY White Meat Air Fryer file — exact raw quantities as written."
+  }
+}

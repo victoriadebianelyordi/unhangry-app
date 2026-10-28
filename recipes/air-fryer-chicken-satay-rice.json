@@ -1,0 +1,262 @@
+{
+  "id": "air-fryer-chicken-satay-rice",
+  "name": "Air Fryer Chicken Satay with Peanut Sauce and Rice",
+  "protein": "white-meat",
+  "method": "third-spot",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 731,
+    "protein": 62,
+    "carbs": 71,
+    "fat": 22
+  },
+  "components": [
+    {
+      "id": "chicken",
+      "name": "Satay Chicken",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 680,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 308,
+        "protein": 49,
+        "carbs": 4,
+        "fat": 10
+      },
+      "ingredients": [
+        {
+          "name": "Raw boneless chicken breast, long strips",
+          "qty": 850,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Coconut or neutral oil",
+          "qty": 20,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Soy sauce",
+          "qty": 35,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Fresh ginger grated",
+          "qty": 12,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Garlic minced",
+          "qty": 16,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Turmeric powder",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Chili flakes",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Lime juice",
+          "qty": 30,
+          "unit": "ml",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Combine chicken strips with measured oil, soy, ginger, garlic, turmeric, chili flakes and lime. Cover and marinate refrigerated for at least one hour.",
+        "Air fry chicken at approximately 195 C in spaced batches for 12-16 minutes, turning, until it reaches 74 C internally.",
+        "Portion cooked chicken, rice and broccoli into four containers. Keep peanut sauce separate for drizzling after reheating; thin with water if needed.",
+        "Cool promptly and freeze meal components if required, but sauce may separate after thawing and should be stirred vigorously."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Jasmine Rice & Broccoli",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 1070,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 270,
+        "protein": 7,
+        "carbs": 59,
+        "fat": 1
+      },
+      "ingredients": [
+        {
+          "name": "Dry jasmine rice",
+          "qty": 270,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Water for rice",
+          "qty": 440,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Fresh or frozen broccoli florets",
+          "qty": 400,
+          "unit": "g",
+          "component": "other",
+          "group": "Broccoli"
+        }
+      ],
+      "steps": [
+        "Cook jasmine rice with its measured water; lightly steam broccoli."
+      ]
+    },
+    {
+      "id": "sauce",
+      "name": "Peanut Sauce",
+      "scaling": "fixed",
+      "servings": 4,
+      "cookedYieldG": 245,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 153,
+        "protein": 6,
+        "carbs": 8,
+        "fat": 12
+      },
+      "ingredients": [
+        {
+          "name": "Smooth peanut butter",
+          "qty": 75,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Coconut cream",
+          "qty": 35,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Soy sauce",
+          "qty": 25,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Lime juice",
+          "qty": 20,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Maple syrup",
+          "qty": 15,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Curry powder",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Water to thin peanut sauce",
+          "qty": 80,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Mix peanut butter, coconut cream, soy, lime, maple syrup and curry powder with enough measured water to achieve a pourable sauce; keep separate from the raw chicken."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "SharkNinja air fryer satay adapted to complete rice bowl; primary protein quantities and side weights fixed for UNHANGRY.",
+    "Planning: Secondary stovetop for rice and vegetables; marinate at least 1 hour.",
+    "Freezer: chicken and rice freeze; coconut peanut sauce may separate",
+    "Dietary: Peanuts, soy, coconut; wheat in regular soy sauce.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://sharkninja.sg/blogs/ninja-kitchen-recipes/chicken-satay-with-peanut-sauce-1",
+  "reference": {
+    "sourceCredit": "SharkNinja Singapore, Chicken Satay with Peanut Sauce",
+    "sourceRecipeUrl": "https://sharkninja.sg/blogs/ninja-kitchen-recipes/chicken-satay-with-peanut-sauce-1",
+    "fileTitle": "Air Fryer Chicken Satay with Peanut Sauce and Rice",
+    "fileRecipeNumber": 16,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "White meat",
+    "methodTag": "Air fryer",
+    "preparationMethod": "Air frying (see steps for secondary appliance use)",
+    "activePrepTime": "approx 25 minutes",
+    "airFryerCookingTime": "approx 40 minutes (batch counts / secondary work may extend total time)",
+    "freezer": "PARTIAL: chicken and rice freeze; coconut peanut sauce may separate",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Peanuts, soy, coconut; wheat in regular soy sauce.",
+    "fileMacrosPerServing": {
+      "kcal": 731,
+      "protein": 62.2,
+      "carbs": 70.9,
+      "fat": 22
+    },
+    "fileMacroText": {
+      "kcal": "731 kcal (ESTIMATED)",
+      "protein": "62.2 g (ESTIMATED)",
+      "carbs": "70.9 g (ESTIMATED)",
+      "fat": "22.0 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL raw listed ingredients using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "SharkNinja air fryer satay adapted to complete rice bowl; primary protein quantities and side weights fixed for UNHANGRY.",
+    "planningNotes": "Secondary stovetop for rice and vegetables; marinate at least 1 hour.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked satay chicken: approx 680 g",
+      "Cooked jasmine rice: approx 740 g",
+      "Cooked broccoli: approx 330 g",
+      "Peanut sauce: approx 245 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook poultry and ground turkey to 74 C. For whole pork cuts, cook to at least 63 C with a 3-minute rest.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven or air fryer when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "Source recipes may use a different base yield, protein-only serving or cooking method; app-ready complete meals are distinctly marked as UNHANGRY adaptations."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 750,
+      "protein": 62,
+      "carbs": 72,
+      "fat": 24
+    },
+    "quantitiesFrom": "UNHANGRY White Meat Air Fryer file — exact raw quantities as written."
+  }
+}

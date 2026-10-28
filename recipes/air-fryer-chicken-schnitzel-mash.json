@@ -1,0 +1,212 @@
+{
+  "id": "air-fryer-chicken-schnitzel-mash",
+  "name": "Air Fryer Chicken Schnitzel with Mashed Potatoes",
+  "protein": "white-meat",
+  "method": "third-spot",
+  "mealType": "main",
+  "feeds": 5,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 703,
+    "protein": 60,
+    "carbs": 71,
+    "fat": 20
+  },
+  "components": [
+    {
+      "id": "schnitzel",
+      "name": "Chicken Schnitzel",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 5,
+      "cookedYieldG": 990,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 468,
+        "protein": 53,
+        "carbs": 31,
+        "fat": 14
+      },
+      "ingredients": [
+        {
+          "name": "Raw boneless chicken breast, thin cutlets",
+          "qty": 950,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Plain flour",
+          "qty": 70,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Whole egg beaten, without shell",
+          "qty": 100,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Panko breadcrumbs",
+          "qty": 130,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Finely grated Parmesan",
+          "qty": 35,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Lemon pepper seasoning",
+          "qty": 7,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Olive oil spray equivalent",
+          "qty": 20,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Salt",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Cut chicken into evenly thin schnitzel portions and season lightly. Prepare flour, beaten egg and panko mixed with parmesan and lemon pepper in separate shallow bowls.",
+        "Coat cutlets in flour, egg, then the crumb mixture. Rest chilled for 15 minutes so coating adheres.",
+        "Preheat air fryer to 180 C. Spray the cutlets with measured oil, air fry in batches approximately 14-17 minutes until golden and 74 C inside.",
+        "Portion schnitzel, mash and greens equally; keep any fresh lemon on the side. Reheat the chicken in the air fryer for crunch."
+      ]
+    },
+    {
+      "id": "mash",
+      "name": "Mashed Potatoes & Greens",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 5,
+      "cookedYieldG": 1390,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 235,
+        "protein": 7,
+        "carbs": 40,
+        "fat": 6
+      },
+      "ingredients": [
+        {
+          "name": "Raw potatoes, peeled",
+          "qty": 1000,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Whole milk",
+          "qty": 110,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Butter",
+          "qty": 30,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 4,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Raw green beans or broccoli",
+          "qty": 400,
+          "unit": "g",
+          "component": "other",
+          "group": "Greens"
+        }
+      ],
+      "steps": [
+        "Simmer potatoes until tender, drain and mash with warm milk, butter and salt. Steam green beans or broccoli separately."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Measured UNHANGRY meal built from Coles air fryer chicken schnitzel plus quantified mash and vegetables.",
+    "Planning: Secondary stovetop for mashed potatoes and greens; air fryer small baskets require batches.",
+    "Freezer: cooked schnitzel freezes but loses crispness; mash freezes with possible texture change",
+    "Dietary: Wheat, egg, dairy.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.coles.com.au/recipes-inspiration/recipes/air-fryer-chicken-schnitzel",
+  "reference": {
+    "sourceCredit": "Coles Australia, Air Fryer Chicken Schnitzel",
+    "sourceRecipeUrl": "https://www.coles.com.au/recipes-inspiration/recipes/air-fryer-chicken-schnitzel",
+    "fileTitle": "Air Fryer Chicken Schnitzel with Mashed Potatoes",
+    "fileRecipeNumber": 6,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "White meat",
+    "methodTag": "Air fryer",
+    "preparationMethod": "Air frying (see steps for secondary appliance use)",
+    "activePrepTime": "approx 30 minutes",
+    "airFryerCookingTime": "approx 45 minutes (batch counts / secondary work may extend total time)",
+    "freezer": "PARTIAL: cooked schnitzel freezes but loses crispness; mash freezes with possible texture change",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Wheat, egg, dairy.",
+    "fileMacrosPerServing": {
+      "kcal": 703,
+      "protein": 59.7,
+      "carbs": 71,
+      "fat": 20
+    },
+    "fileMacroText": {
+      "kcal": "703 kcal (ESTIMATED)",
+      "protein": "59.7 g (ESTIMATED)",
+      "carbs": "71.0 g (ESTIMATED)",
+      "fat": "20.0 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL raw listed ingredients using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "Measured UNHANGRY meal built from Coles air fryer chicken schnitzel plus quantified mash and vegetables.",
+    "planningNotes": "Secondary stovetop for mashed potatoes and greens; air fryer small baskets require batches.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked breaded schnitzels: approx 990 g",
+      "Mashed potatoes: approx 1040 g",
+      "Steamed greens: approx 350 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook poultry and ground turkey to 74 C. For whole pork cuts, cook to at least 63 C with a 3-minute rest.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven or air fryer when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "Source recipes may use a different base yield, protein-only serving or cooking method; app-ready complete meals are distinctly marked as UNHANGRY adaptations."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 712,
+      "protein": 59,
+      "carbs": 72,
+      "fat": 20
+    },
+    "quantitiesFrom": "UNHANGRY White Meat Air Fryer file — exact raw quantities as written."
+  }
+}

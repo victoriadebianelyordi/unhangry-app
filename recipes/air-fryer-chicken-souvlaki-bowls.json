@@ -1,0 +1,241 @@
+{
+  "id": "air-fryer-chicken-souvlaki-bowls",
+  "name": "Air Fryer Greek Chicken Souvlaki Bowls",
+  "protein": "white-meat",
+  "method": "third-spot",
+  "mealType": "main",
+  "feeds": 5,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 664,
+    "protein": 51,
+    "carbs": 63,
+    "fat": 23
+  },
+  "components": [
+    {
+      "id": "chicken",
+      "name": "Chicken Souvlaki",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 5,
+      "cookedYieldG": 800,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 328,
+        "protein": 37,
+        "carbs": 3,
+        "fat": 21
+      },
+      "ingredients": [
+        {
+          "name": "Raw boneless skinless chicken thighs, medium chunks",
+          "qty": 1000,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Lemon juice",
+          "qty": 45,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 35,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Fresh garlic, crushed",
+          "qty": 24,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Dried oregano",
+          "qty": 10,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Black pepper",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Stir lemon, olive oil, garlic, oregano, salt and pepper and coat the raw chicken. Marinate covered for at least 20 minutes.",
+        "Preheat air fryer to 200 C. Thread chicken onto short food-safe skewers that fit the basket or leave loose.",
+        "Air fry in separate batches around 12-16 minutes, turning halfway and checking all chicken reaches 74 C."
+      ]
+    },
+    {
+      "id": "couscous",
+      "name": "Couscous",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 5,
+      "cookedYieldG": 830,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 279,
+        "protein": 8,
+        "carbs": 54,
+        "fat": 1
+      },
+      "ingredients": [
+        {
+          "name": "Dry couscous",
+          "qty": 350,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Water or hot stock for couscous",
+          "qty": 470,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Make the measured couscous using just-boiled water, cover and fluff. In a small bowl, mix yogurt, lemon and mint for the chilled sauce."
+      ]
+    },
+    {
+      "id": "sides",
+      "name": "Yogurt Sauce & Salad",
+      "scaling": "fixed",
+      "servings": 5,
+      "cookedYieldG": 785,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 58,
+        "protein": 5,
+        "carbs": 6,
+        "fat": 2
+      },
+      "ingredients": [
+        {
+          "name": "Plain Greek yogurt",
+          "qty": 240,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Yogurt sauce"
+        },
+        {
+          "name": "Lemon juice",
+          "qty": 40,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Yogurt sauce"
+        },
+        {
+          "name": "Mint, chopped",
+          "qty": 10,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Yogurt sauce"
+        },
+        {
+          "name": "Raw tomatoes",
+          "qty": 300,
+          "unit": "g",
+          "component": "other",
+          "group": "Salad"
+        },
+        {
+          "name": "Raw cucumber",
+          "qty": 200,
+          "unit": "g",
+          "component": "other",
+          "group": "Salad"
+        }
+      ],
+      "steps": [
+        "Chop tomato and cucumber and store in a separate sealed container. Portion chicken and couscous for five meals, serve with cold sauce and salad."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "UNHANGRY complete-meal variation of source lemon oregano chicken; couscous nutritional data provisional.",
+    "Planning: Source recipe cooks chicken only. Cold salad and yogurt required.",
+    "Freezer: cooked chicken and couscous can be frozen; yogurt and fresh salad separate",
+    "Dietary: Dairy, wheat in couscous.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://georgepurton.com/recipes/mediterranean/air-fryer-greek-chicken",
+  "reference": {
+    "sourceCredit": "George Purton, Air Fryer Greek Chicken",
+    "sourceRecipeUrl": "https://georgepurton.com/recipes/mediterranean/air-fryer-greek-chicken",
+    "fileTitle": "Air Fryer Greek Chicken Souvlaki Bowls",
+    "fileRecipeNumber": 5,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "White meat",
+    "methodTag": "Air fryer",
+    "preparationMethod": "Air frying (see steps for secondary appliance use)",
+    "activePrepTime": "approx 25 minutes",
+    "airFryerCookingTime": "approx 40 minutes (batch counts / secondary work may extend total time)",
+    "freezer": "PARTIAL: cooked chicken and couscous can be frozen; yogurt and fresh salad separate",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Dairy, wheat in couscous.",
+    "fileMacrosPerServing": {
+      "kcal": 664,
+      "protein": 50.5,
+      "carbs": 62.8,
+      "fat": 23.4
+    },
+    "fileMacroText": {
+      "kcal": "664 kcal (ESTIMATED)",
+      "protein": "50.5 g (ESTIMATED)",
+      "carbs": "62.8 g (ESTIMATED)",
+      "fat": "23.4 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL raw listed ingredients using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "UNHANGRY complete-meal variation of source lemon oregano chicken; couscous nutritional data provisional.",
+    "planningNotes": "Source recipe cooks chicken only. Cold salad and yogurt required.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked Greek chicken: approx 800 g",
+      "Cooked couscous: approx 830 g",
+      "Cold yogurt sauce: approx 285 g",
+      "Raw salad: approx 500 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook poultry and ground turkey to 74 C. For whole pork cuts, cook to at least 63 C with a 3-minute rest.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven or air fryer when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "Source recipes may use a different base yield, protein-only serving or cooking method; app-ready complete meals are distinctly marked as UNHANGRY adaptations."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 627,
+      "protein": 54,
+      "carbs": 63,
+      "fat": 16
+    },
+    "quantitiesFrom": "UNHANGRY White Meat Air Fryer file — exact raw quantities as written."
+  }
+}

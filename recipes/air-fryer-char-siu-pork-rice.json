@@ -1,0 +1,234 @@
+{
+  "id": "air-fryer-char-siu-pork-rice",
+  "name": "Air Fryer Char Siu Pork with Rice and Greens",
+  "protein": "white-meat",
+  "method": "third-spot",
+  "mealType": "main",
+  "feeds": 8,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 727,
+    "protein": 38,
+    "carbs": 68,
+    "fat": 34
+  },
+  "components": [
+    {
+      "id": "pork",
+      "name": "Char Siu Pork",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 8,
+      "cookedYieldG": 1040,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 454,
+        "protein": 32,
+        "carbs": 13,
+        "fat": 33
+      },
+      "ingredients": [
+        {
+          "name": "Raw pork shoulder, cut into large thick strips",
+          "qty": 1360,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Granulated white sugar",
+          "qty": 50,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Fine salt",
+          "qty": 12,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Chinese five-spice powder",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Ground white pepper",
+          "qty": 1,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Toasted sesame oil",
+          "qty": 3,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Shaoxing cooking wine",
+          "qty": 15,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Light soy sauce",
+          "qty": 15,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Hoisin sauce",
+          "qty": 16,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Molasses",
+          "qty": 14,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Fresh garlic, minced",
+          "qty": 12,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Maltose or honey",
+          "qty": 30,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Basting"
+        },
+        {
+          "name": "Hot water for humidifying fryer and basting",
+          "qty": 90,
+          "unit": "ml",
+          "component": "other",
+          "group": "Basting"
+        }
+      ],
+      "steps": [
+        "Mix sugar, salt, five spice, pepper, sesame oil, Shaoxing wine, soy, hoisin, molasses and garlic. Reserve a small portion of marinade BEFORE it touches pork for safe basting.",
+        "Cover pork strips in the remaining marinade and refrigerate a minimum of eight hours, preferably overnight.",
+        "Cook a few thick pork strips at a time in an air fryer around 190 C, using a small amount of hot water beneath the rack if your model permits it and checking your appliance instructions. Brush with reserved clean basting liquid.",
+        "Turn and baste every 5-6 minutes; internal temperature must reach at least 63 C and rest three minutes for whole cuts. Larger or fatty pieces may need longer for tenderness.",
+        "Cool quickly, freeze surplus cooked char siu and rice promptly. Never recommend leaving raw marinating pork out on the counter for hours."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Jasmine Rice & Greens",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 8,
+      "cookedYieldG": 2050,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 273,
+        "protein": 6,
+        "carbs": 55,
+        "fat": 1
+      },
+      "ingredients": [
+        {
+          "name": "Dry jasmine rice",
+          "qty": 500,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Water for rice",
+          "qty": 820,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Raw choy sum, bok choy or broccoli",
+          "qty": 800,
+          "unit": "g",
+          "component": "other",
+          "group": "Greens"
+        }
+      ],
+      "steps": [
+        "Cook jasmine rice and steam or blanch greens separately. Rest and slice char siu, then portion into eight rice bowls with greens."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Source char siu technique; complete meal adds measured rice and greens. Source recipe provides 8 servings pork alone.",
+    "Planning: Overnight marination; small air fryer may require 4+ batches. Original source also uses wine and sugar. Alcohol-free adaptation requires separate approval.",
+    "Freezer: cooked char siu and rice freeze well; greens may soften",
+    "Dietary: NON-HALAL: CONTAINS PORK and Shaoxing cooking wine/alcohol; soy, sesame, wheat possible.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true,
+    "dietaryWarning": "Contains pork and Shaoxing wine — not halal."
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://thewoksoflife.com/air-fryer-char-siu/",
+  "reference": {
+    "sourceCredit": "Bill Leung, The Woks of Life",
+    "sourceRecipeUrl": "https://thewoksoflife.com/air-fryer-char-siu/",
+    "fileTitle": "Air Fryer Char Siu Pork with Rice and Greens",
+    "fileRecipeNumber": 15,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "White meat",
+    "methodTag": "Air fryer",
+    "preparationMethod": "Air frying (see steps for secondary appliance use)",
+    "activePrepTime": "approx 30 minutes",
+    "airFryerCookingTime": "approx 70 minutes (batch counts / secondary work may extend total time)",
+    "freezer": "YES: cooked char siu and rice freeze well; greens may soften",
+    "dietaryHalalTag": "NON-HALAL: CONTAINS PORK | NON-HALAL: CONTAINS PORK and Shaoxing cooking wine/alcohol; soy, sesame, wheat possible.",
+    "fileMacrosPerServing": {
+      "kcal": 727,
+      "protein": 38.3,
+      "carbs": 68,
+      "fat": 33.6
+    },
+    "fileMacroText": {
+      "kcal": "727 kcal (ESTIMATED)",
+      "protein": "38.3 g (ESTIMATED)",
+      "carbs": "68.0 g (ESTIMATED)",
+      "fat": "33.6 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL raw listed ingredients using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "Source char siu technique; complete meal adds measured rice and greens. Source recipe provides 8 servings pork alone.",
+    "planningNotes": "Overnight marination; small air fryer may require 4+ batches. Original source also uses wine and sugar. Alcohol-free adaptation requires separate approval.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked char siu pork: approx 1040 g",
+      "Cooked jasmine rice: approx 1350 g",
+      "Cooked greens: approx 700 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook poultry and ground turkey to 74 C. For whole pork cuts, cook to at least 63 C with a 3-minute rest.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven or air fryer when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "Source recipes may use a different base yield, protein-only serving or cooking method; app-ready complete meals are distinctly marked as UNHANGRY adaptations."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 633,
+      "protein": 35,
+      "carbs": 64,
+      "fat": 25
+    },
+    "quantitiesFrom": "UNHANGRY White Meat Air Fryer file — exact raw quantities as written."
+  }
+}

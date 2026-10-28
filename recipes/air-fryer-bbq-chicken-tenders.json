@@ -1,0 +1,242 @@
+{
+  "id": "air-fryer-bbq-chicken-tenders",
+  "name": "Air Fryer BBQ Chicken Tenders with Slaw and Potato Wedges",
+  "protein": "white-meat",
+  "method": "third-spot",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 723,
+    "protein": 63,
+    "carbs": 78,
+    "fat": 18
+  },
+  "components": [
+    {
+      "id": "tenders",
+      "name": "BBQ Chicken Tenders",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 1000,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 468,
+        "protein": 53,
+        "carbs": 35,
+        "fat": 12
+      },
+      "ingredients": [
+        {
+          "name": "Raw chicken breast tenderloins",
+          "qty": 800,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Whole eggs without shells",
+          "qty": 100,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Seasoned panko breadcrumbs",
+          "qty": 75,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Seasoned bread crumbs",
+          "qty": 65,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Barbecue sauce",
+          "qty": 100,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Olive oil spray measured equivalent",
+          "qty": 15,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Cayenne pepper",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Set up beaten egg and panko-breadcrumb stations. Season raw tenders, coat in egg, then press into breadcrumb mix.",
+        "Preheat air fryer to 200 C. Spray coated chicken and air fry in batches, turning after approximately 5-6 minutes; check 74 C and brush with barbecue sauce only once cooked.",
+        "Divide cooked chicken and wedges into four meals; combine with dressed slaw when ready to eat and re-crisp chicken in air fryer if possible."
+      ]
+    },
+    {
+      "id": "wedges",
+      "name": "Potato Wedges",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 660,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 191,
+        "protein": 4,
+        "carbs": 34,
+        "fat": 5
+      },
+      "ingredients": [
+        {
+          "name": "Raw potato wedges",
+          "qty": 800,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 20,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Paprika",
+          "qty": 4,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Coat potato wedges with their oil and paprika. Air fry after chicken or on a second batch for approximately 18-23 minutes, turning."
+      ]
+    },
+    {
+      "id": "slaw",
+      "name": "Yogurt Slaw",
+      "scaling": "fixed",
+      "servings": 4,
+      "cookedYieldG": 655,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 64,
+        "protein": 6,
+        "carbs": 9,
+        "fat": 1
+      },
+      "ingredients": [
+        {
+          "name": "Raw shredded cabbage",
+          "qty": 350,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Grated carrots",
+          "qty": 100,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Plain Greek yogurt for slaw",
+          "qty": 180,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Apple cider vinegar",
+          "qty": 25,
+          "unit": "ml",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Combine raw cabbage and carrot and pack separately; mix Greek yogurt and vinegar into a slaw dressing, also chilled separately."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Complete-meal UNHANGRY adaptation of Skinnytaste breaded BBQ tenders, adding wedges and chilled slaw.",
+    "Planning: Multiple air fryer rounds can extend cooking time; slaw stored separately.",
+    "Freezer: breaded tenders and potatoes freeze; slaw fresh",
+    "Dietary: Egg, wheat, dairy.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.skinnytaste.com/bbq-chicken-tenders-in-air-fryer/",
+  "reference": {
+    "sourceCredit": "Gina Homolka, Skinnytaste",
+    "sourceRecipeUrl": "https://www.skinnytaste.com/bbq-chicken-tenders-in-air-fryer/",
+    "fileTitle": "Air Fryer BBQ Chicken Tenders with Slaw and Potato Wedges",
+    "fileRecipeNumber": 8,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "White meat",
+    "methodTag": "Air fryer",
+    "preparationMethod": "Air frying (see steps for secondary appliance use)",
+    "activePrepTime": "approx 30 minutes",
+    "airFryerCookingTime": "approx 70 minutes (batch counts / secondary work may extend total time)",
+    "freezer": "PARTIAL: breaded tenders and potatoes freeze; slaw fresh",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Egg, wheat, dairy.",
+    "fileMacrosPerServing": {
+      "kcal": 723,
+      "protein": 62.8,
+      "carbs": 78.1,
+      "fat": 17.7
+    },
+    "fileMacroText": {
+      "kcal": "723 kcal (ESTIMATED)",
+      "protein": "62.8 g (ESTIMATED)",
+      "carbs": "78.1 g (ESTIMATED)",
+      "fat": "17.7 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL raw listed ingredients using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "Complete-meal UNHANGRY adaptation of Skinnytaste breaded BBQ tenders, adding wedges and chilled slaw.",
+    "planningNotes": "Multiple air fryer rounds can extend cooking time; slaw stored separately.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked BBQ breaded tenders: approx 1000 g",
+      "Cooked potato wedges: approx 660 g",
+      "Raw undressed slaw: approx 450 g",
+      "Yogurt slaw dressing: approx 205 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook poultry and ground turkey to 74 C. For whole pork cuts, cook to at least 63 C with a 3-minute rest.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven or air fryer when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "Source recipes may use a different base yield, protein-only serving or cooking method; app-ready complete meals are distinctly marked as UNHANGRY adaptations."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 750,
+      "protein": 63,
+      "carbs": 80,
+      "fat": 19
+    },
+    "quantitiesFrom": "UNHANGRY White Meat Air Fryer file — exact raw quantities as written."
+  }
+}

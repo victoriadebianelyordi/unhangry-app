@@ -1,0 +1,195 @@
+{
+  "id": "air-fryer-buffalo-chicken-wraps",
+  "name": "Air Fryer Buffalo Chicken Wraps",
+  "protein": "white-meat",
+  "method": "third-spot",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 746,
+    "protein": 62,
+    "carbs": 54,
+    "fat": 32
+  },
+  "components": [
+    {
+      "id": "chicken",
+      "name": "Buffalo Chicken",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 660,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 249,
+        "protein": 45,
+        "carbs": 1,
+        "fat": 7
+      },
+      "ingredients": [
+        {
+          "name": "Raw boneless chicken breast, diced",
+          "qty": 800,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Buffalo hot sauce",
+          "qty": 110,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Garlic powder",
+          "qty": 8,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 12,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Toss raw diced chicken with measured buffalo sauce, garlic powder and a little oil; chill for 15-30 minutes.",
+        "Air fry chicken in batches at 195 C for around 9-13 minutes, shaking, until 74 C in the centre."
+      ]
+    },
+    {
+      "id": "wraps",
+      "name": "Wraps, Cheese & Salad",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 1100,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 497,
+        "protein": 16,
+        "carbs": 53,
+        "fat": 25
+      },
+      "ingredients": [
+        {
+          "name": "Four large wheat tortillas",
+          "qty": 340,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Grated cheddar",
+          "qty": 130,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Shredded iceberg lettuce, raw",
+          "qty": 200,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Shredded raw carrot",
+          "qty": 160,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Ranch dressing",
+          "qty": 120,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Raw sliced tomatoes",
+          "qty": 150,
+          "unit": "g",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Measure cheddar and tortillas into four portions. Keep lettuce, carrot, tomato and ranch refrigerated in their own containers, never touching raw chicken.",
+        "For immediate serving, fill tortillas with hot cooked buffalo chicken, cheese and cold fresh vegetables and sauce.",
+        "For Sunday prep, pack chicken and tortillas separately; warm chicken, assemble with cold toppings, and crisp the closed wrap for 2-3 minutes in the air fryer if desired."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Measured 4-meal adaptation of Fabulessly Frugal air fried buffalo wraps.",
+    "Planning: Fresh assembly recommended; secondary air fryer crisp is optional.",
+    "Freezer: cooked chicken freezes well; assembled wraps with lettuce/dressing do not",
+    "Dietary: Wheat, milk, possible egg and soy in ranch.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://fabulesslyfrugal.com/recipes/air-fryer-buffalo-chicken-wraps/",
+  "reference": {
+    "sourceCredit": "Fabulessly Frugal, Air Fryer Buffalo Chicken Wraps",
+    "sourceRecipeUrl": "https://fabulesslyfrugal.com/recipes/air-fryer-buffalo-chicken-wraps/",
+    "fileTitle": "Air Fryer Buffalo Chicken Wraps",
+    "fileRecipeNumber": 10,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "White meat",
+    "methodTag": "Air fryer",
+    "preparationMethod": "Air frying (see steps for secondary appliance use)",
+    "activePrepTime": "approx 15 minutes",
+    "airFryerCookingTime": "approx 30 minutes (batch counts / secondary work may extend total time)",
+    "freezer": "PARTIAL: cooked chicken freezes well; assembled wraps with lettuce/dressing do not",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Wheat, milk, possible egg and soy in ranch.",
+    "fileMacrosPerServing": {
+      "kcal": 746,
+      "protein": 61.7,
+      "carbs": 54,
+      "fat": 31.5
+    },
+    "fileMacroText": {
+      "kcal": "746 kcal (ESTIMATED)",
+      "protein": "61.7 g (ESTIMATED)",
+      "carbs": "54.0 g (ESTIMATED)",
+      "fat": "31.5 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL raw listed ingredients using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "Measured 4-meal adaptation of Fabulessly Frugal air fried buffalo wraps.",
+    "planningNotes": "Fresh assembly recommended; secondary air fryer crisp is optional.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked buffalo chicken: approx 660 g",
+      "Purchased tortillas: approx 340 g",
+      "Shredded cheese: approx 130 g",
+      "Chilled vegetables: approx 510 g",
+      "Ranch dressing: approx 120 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook poultry and ground turkey to 74 C. For whole pork cuts, cook to at least 63 C with a 3-minute rest.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven or air fryer when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "Source recipes may use a different base yield, protein-only serving or cooking method; app-ready complete meals are distinctly marked as UNHANGRY adaptations."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 826,
+      "protein": 62,
+      "carbs": 53,
+      "fat": 40
+    },
+    "quantitiesFrom": "UNHANGRY White Meat Air Fryer file — exact raw quantities as written."
+  }
+}

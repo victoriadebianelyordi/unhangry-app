@@ -1,0 +1,236 @@
+{
+  "id": "air-fryer-turkey-burgers-wedges",
+  "name": "Air Fryer Turkey Burgers with Potato Wedges",
+  "protein": "white-meat",
+  "method": "third-spot",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 763,
+    "protein": 51,
+    "carbs": 80,
+    "fat": 27
+  },
+  "components": [
+    {
+      "id": "patties",
+      "name": "Turkey Patties",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 640,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 326,
+        "protein": 39,
+        "carbs": 4,
+        "fat": 17
+      },
+      "ingredients": [
+        {
+          "name": "Raw 93 percent lean ground turkey",
+          "qty": 800,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Raw onion grated finely",
+          "qty": 100,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Dijon mustard",
+          "qty": 18,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Fresh parsley",
+          "qty": 10,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Garlic, minced",
+          "qty": 8,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Onion powder",
+          "qty": 4,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Mix raw turkey, grated onion, mustard, garlic, parsley, onion powder and salt. Divide into four patties without compacting too tightly.",
+        "Heat air fryer to 180 C. Air fry turkey patties for approximately 12-15 minutes, flipping once, until 74 C inside.",
+        "Reheat patty and wedges thoroughly, then assemble in bun with raw vegetables at the time of eating."
+      ]
+    },
+    {
+      "id": "wedges",
+      "name": "Potato Wedges",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 690,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 223,
+        "protein": 4,
+        "carbs": 37,
+        "fat": 6
+      },
+      "ingredients": [
+        {
+          "name": "Raw potatoes cut into wedges",
+          "qty": 850,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 25,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Smoked paprika",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 4,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Toss raw potato wedges in oil, paprika and salt and air fry in two batches if needed at 200 C, shaking periodically, until tender and golden."
+      ]
+    },
+    {
+      "id": "buns",
+      "name": "Bun & Salad",
+      "scaling": "fixed",
+      "servings": 4,
+      "cookedYieldG": 490,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 214,
+        "protein": 7,
+        "carbs": 39,
+        "fat": 3
+      },
+      "ingredients": [
+        {
+          "name": "Four burger buns, purchased weight",
+          "qty": 300,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Raw tomato slices",
+          "qty": 120,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Fresh lettuce",
+          "qty": 70,
+          "unit": "g",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Cool patties and wedges and store away from fresh buns, tomato and lettuce."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Air fryer turkey burger source supplemented with measured complete-meal potato side.",
+    "Planning: Two air fryer stages; main cooking method air fryer.",
+    "Freezer: patties and wedges freeze; fresh bun/vegetables packed separately",
+    "Dietary: Wheat in buns; check mustard ingredients.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://healthfulblondie.com/air-fryer-turkey-burgers/",
+  "reference": {
+    "sourceCredit": "Tati Chermayeff, Healthful Blondie",
+    "sourceRecipeUrl": "https://healthfulblondie.com/air-fryer-turkey-burgers/",
+    "fileTitle": "Air Fryer Turkey Burgers with Potato Wedges",
+    "fileRecipeNumber": 12,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "White meat",
+    "methodTag": "Air fryer",
+    "preparationMethod": "Air frying (see steps for secondary appliance use)",
+    "activePrepTime": "approx 20 minutes",
+    "airFryerCookingTime": "approx 50 minutes (batch counts / secondary work may extend total time)",
+    "freezer": "PARTIAL: patties and wedges freeze; fresh bun/vegetables packed separately",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Wheat in buns; check mustard ingredients.",
+    "fileMacrosPerServing": {
+      "kcal": 763,
+      "protein": 50.5,
+      "carbs": 80.2,
+      "fat": 26.7
+    },
+    "fileMacroText": {
+      "kcal": "763 kcal (ESTIMATED)",
+      "protein": "50.5 g (ESTIMATED)",
+      "carbs": "80.2 g (ESTIMATED)",
+      "fat": "26.7 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL raw listed ingredients using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "Air fryer turkey burger source supplemented with measured complete-meal potato side.",
+    "planningNotes": "Two air fryer stages; main cooking method air fryer.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked turkey patties: approx 640 g",
+      "Air-fried potato wedges: approx 690 g",
+      "Burger buns: approx 300 g",
+      "Raw garnish: approx 190 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook poultry and ground turkey to 74 C. For whole pork cuts, cook to at least 63 C with a 3-minute rest.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven or air fryer when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "Source recipes may use a different base yield, protein-only serving or cooking method; app-ready complete meals are distinctly marked as UNHANGRY adaptations."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 750,
+      "protein": 50,
+      "carbs": 79,
+      "fat": 26
+    },
+    "quantitiesFrom": "UNHANGRY White Meat Air Fryer file — exact raw quantities as written."
+  }
+}
