@@ -1,0 +1,223 @@
+{
+  "id": "creamy-mushroom-chicken-mash",
+  "name": "Creamy Mushroom Chicken Bake with Mashed Potatoes",
+  "protein": "white-meat",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 623,
+    "protein": 51,
+    "carbs": 42,
+    "fat": 28
+  },
+  "components": [
+    {
+      "id": "chicken",
+      "name": "Creamy Mushroom Chicken",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 1100,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 412,
+        "protein": 46,
+        "carbs": 7,
+        "fat": 22
+      },
+      "ingredients": [
+        {
+          "name": "Raw boneless skinless chicken breast",
+          "qty": 750,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Fresh mushrooms, sliced",
+          "qty": 250,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Raw onion, finely diced",
+          "qty": 120,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Garlic, minced",
+          "qty": 12,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Chicken stock",
+          "qty": 240,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Heavy cream",
+          "qty": 120,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Unsalted butter",
+          "qty": 25,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Dried thyme",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Black pepper",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Heat oven to 190 C. Season the chicken evenly with measured salt, pepper and thyme.",
+        "Melt butter in an oven-safe pan, briefly sear chicken both sides and transfer to a plate. Sauté onions and mushrooms in the same pan until softened, then add garlic.",
+        "Add chicken stock and cream, simmer briefly, and return chicken to the pan.",
+        "Transfer to oven and roast 20-30 minutes until thickest chicken portions reach 74 C and sauce is bubbling.",
+        "Divide chicken, mushroom sauce and mashed potatoes evenly across four containers; store sauce near chicken to retain moisture."
+      ]
+    },
+    {
+      "id": "mash",
+      "name": "Mashed Potatoes",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 780,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 211,
+        "protein": 5,
+        "carbs": 35,
+        "fat": 6
+      },
+      "ingredients": [
+        {
+          "name": "Raw potatoes peeled, diced",
+          "qty": 750,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Milk",
+          "qty": 150,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Unsalted butter",
+          "qty": 25,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 4,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Parsley chopped",
+          "qty": 5,
+          "unit": "g",
+          "component": "aromatic"
+        }
+      ],
+      "steps": [
+        "In a separate pot, simmer diced raw potatoes in water until tender; drain well and mash with measured milk, butter and salt."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Reference dish with UNHANGRY-added measured mashed potato component. Nutrition calculated for our finished plate, not copied from reference.",
+    "Planning: Secondary stovetop for mushroom sear and mashed potatoes.",
+    "Freezer: mashed potato and cream sauce may separate; stir gently after thawing",
+    "Dietary: Contains dairy.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://littlehealthylife.com/creamy-mushroom-chicken-bake-1001/",
+  "reference": {
+    "sourceCredit": "Creamy Mushroom Chicken Bake, Little Healthy Life (reference)",
+    "fileTitle": "Creamy Mushroom Chicken Bake with Mashed Potatoes",
+    "fileRecipeNumber": 12,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "White meat",
+    "methodTag": "Oven",
+    "preparationMethod": "Oven roasting / baking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 25 minutes",
+    "ovenCookingTime": "approx 30 minutes (can overlap with other components)",
+    "freezer": "YES WITH TEXTURE CHANGE: mashed potato and cream sauce may separate; stir gently after thawing",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Contains dairy.",
+    "fileMacrosPerServing": {
+      "kcal": 623,
+      "protein": 51,
+      "carbs": 42.2,
+      "fat": 27.8
+    },
+    "fileMacroText": {
+      "kcal": "623 kcal (ESTIMATED)",
+      "protein": "51.0 g (ESTIMATED)",
+      "carbs": "42.2 g (ESTIMATED)",
+      "fat": "27.8 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL raw listed ingredients using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "Reference dish with UNHANGRY-added measured mashed potato component. Nutrition calculated for our finished plate, not copied from reference.",
+    "planningNotes": "Secondary stovetop for mushroom sear and mashed potatoes.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked chicken: approx 560 g",
+      "Reduced mushroom cream sauce: approx 540 g",
+      "Cooked mashed potatoes: approx 780 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook all poultry and ground turkey to 74 C. For whole pork tenderloin, cook to at least 63 C with a 3-minute rest.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "Nutrition for bone-in poultry assumes a generic edible-part conversion and MUST be checked after deboning and weighing."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 616,
+      "protein": 51,
+      "carbs": 41,
+      "fat": 27
+    },
+    "quantitiesFrom": "UNHANGRY White Meat Oven file — exact raw quantities as written."
+  }
+}

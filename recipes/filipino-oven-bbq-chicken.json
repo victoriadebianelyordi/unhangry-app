@@ -1,0 +1,215 @@
+{
+  "id": "filipino-oven-bbq-chicken",
+  "name": "Filipino Oven BBQ Chicken with Garlic Rice",
+  "protein": "white-meat",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 859,
+    "protein": 47,
+    "carbs": 79,
+    "fat": 39
+  },
+  "components": [
+    {
+      "id": "chicken",
+      "name": "Filipino BBQ Chicken",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 780,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 596,
+        "protein": 43,
+        "carbs": 25,
+        "fat": 35
+      },
+      "ingredients": [
+        {
+          "name": "Raw whole chicken quartered, bone-in and skin-on",
+          "qty": 1400,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Light soy sauce",
+          "qty": 60,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Filipino-style barbecue sauce",
+          "qty": 240,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Lemon or calamansi juice",
+          "qty": 15,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Canola oil",
+          "qty": 28,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Garlic powder",
+          "qty": 4,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Paprika",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Ground black pepper",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Whisk soy sauce, half the barbecue sauce, oil, citrus juice, garlic powder, paprika, salt and pepper. Coat raw quartered chicken and marinate covered in fridge for 12-16 hours.",
+        "Heat oven to 190 C. Place chicken on a lined tray. Roast approximately 20 minutes, brush with half the remaining BBQ sauce and roast another 15 minutes.",
+        "Brush with the last measured sauce, return to oven and check thickest part reaches at least 74 C without touching bone. Total roast time depends on chicken size.",
+        "Separate edible chicken meat and rice for precise serving weights. Portion into four meals and chill promptly."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Garlic Rice",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 780,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 263,
+        "protein": 5,
+        "carbs": 54,
+        "fat": 4
+      },
+      "ingredients": [
+        {
+          "name": "Uncooked jasmine rice",
+          "qty": 280,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Water for rice",
+          "qty": 470,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Fresh garlic minced",
+          "qty": 18,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Neutral oil",
+          "qty": 18,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Salt",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Cook jasmine rice with 470 ml water until tender, covered. In a separate small pan, briefly fry minced garlic in measured oil until golden, then stir into rice."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Based on published Filipino oven BBQ chicken with explicitly measured garlic rice side. Source advises an overnight marinade.",
+    "Planning: Overnight marinade. Secondary stovetop garlic rice.",
+    "Freezer: skin loses some crispness after freezing",
+    "Dietary: Contains soy, wheat possible in sauces; no pork.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://panlasangpinoy.com/oven-roasted-bbq-chicken-recipe/",
+  "reference": {
+    "sourceCredit": "Vanjo Merano, Panlasang Pinoy",
+    "fileTitle": "Filipino Oven BBQ Chicken with Garlic Rice",
+    "fileRecipeNumber": 15,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "White meat",
+    "methodTag": "Oven",
+    "preparationMethod": "Oven roasting / baking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 20 minutes",
+    "ovenCookingTime": "approx 45 minutes (can overlap with other components)",
+    "freezer": "YES; skin loses some crispness after freezing",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Contains soy, wheat possible in sauces; no pork.",
+    "fileMacrosPerServing": {
+      "kcal": 859,
+      "protein": 47.2,
+      "carbs": 79.2,
+      "fat": 39.3
+    },
+    "fileMacroText": {
+      "kcal": "859 kcal (ESTIMATED)",
+      "protein": "47.2 g (ESTIMATED)",
+      "carbs": "79.2 g (ESTIMATED)",
+      "fat": "39.3 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL raw listed ingredients using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "Based on published Filipino oven BBQ chicken with explicitly measured garlic rice side. Source advises an overnight marinade.",
+    "planningNotes": "Overnight marinade. Secondary stovetop garlic rice.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked edible BBQ chicken with glaze: approx 780 g",
+      "Cooked garlic rice: approx 780 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook all poultry and ground turkey to 74 C. For whole pork tenderloin, cook to at least 63 C with a 3-minute rest.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "Nutrition for bone-in poultry assumes a generic edible-part conversion and MUST be checked after deboning and weighing."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 963,
+      "protein": 51,
+      "carbs": 83,
+      "fat": 47
+    },
+    "quantitiesFrom": "UNHANGRY White Meat Oven file — exact raw quantities as written."
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "id": "greek-sheet-pan-chicken",
+  "name": "Greek Sheet-Pan Chicken with Vegetables and Feta",
+  "protein": "white-meat",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 6,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 686,
+    "protein": 43,
+    "carbs": 56,
+    "fat": 33
+  },
+  "components": [
+    {
+      "id": "chicken",
+      "name": "Chicken, Vegetables & Feta",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 6,
+      "cookedYieldG": 1510,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 447,
+        "protein": 36,
+        "carbs": 10,
+        "fat": 32
+      },
+      "ingredients": [
+        {
+          "name": "Raw boneless skinless chicken thighs",
+          "qty": 1050,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Red onion, wedges",
+          "qty": 200,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Zucchini, raw slices",
+          "qty": 200,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Orange pepper, strips",
+          "qty": 200,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Raw tomatoes, wedges",
+          "qty": 200,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Feta cheese, cubed",
+          "qty": 110,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Pitted olives",
+          "qty": 45,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Extra virgin olive oil, UNHANGRY reduced amount",
+          "qty": 85,
+          "unit": "ml",
+          "component": "other",
+          "group": "Dressing"
+        },
+        {
+          "name": "Lemon juice",
+          "qty": 60,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Dressing"
+        },
+        {
+          "name": "Garlic, minced",
+          "qty": 10,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Dressing"
+        },
+        {
+          "name": "Oregano",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Dressing"
+        },
+        {
+          "name": "Salt",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Dressing"
+        },
+        {
+          "name": "Ground black pepper",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Dressing"
+        }
+      ],
+      "steps": [
+        "Heat oven to 220 C. Stir together olive oil, lemon, garlic, oregano, salt and pepper.",
+        "Toss sliced vegetables in half the dressing. Coat the raw chicken in the other half and arrange everything in a single layer on two trays as needed.",
+        "Roast 25-35 minutes, checking chicken is 74 C, then add feta and olives for the last 5 minutes to warm without drying.",
+        "Divide cooked grain, chicken and roasted vegetables into six containers. Keep any extra fresh garnish separate."
+      ]
+    },
+    {
+      "id": "couscous",
+      "name": "Couscous",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 6,
+      "cookedYieldG": 950,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 239,
+        "protein": 7,
+        "carbs": 45,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Dry couscous",
+          "qty": 360,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Water for grain",
+          "qty": 540,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Chopped parsley",
+          "qty": 10,
+          "unit": "g",
+          "component": "aromatic"
+        }
+      ],
+      "steps": [
+        "Cook the dry grain separately with measured water according to package instructions, then fluff and fold in parsley."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Inspired by source sheet-pan meal; added measured grain and used lower oil amount, so source macros are not applicable.",
+    "Planning: Secondary method stovetop for grain. Correct cooking time for chosen grain per packet; dry bulgur has different nutrient profile from rice.",
+    "Freezer: freeze chicken and grain; roasted zucchini and feta lose texture",
+    "Dietary: Dairy, olive.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.themediterraneandish.com/greek-sheet-pan-chicken/",
+  "reference": {
+    "sourceCredit": "Suzy Karadsheh, The Mediterranean Dish",
+    "fileTitle": "Greek Sheet-Pan Chicken with Vegetables and Feta",
+    "fileRecipeNumber": 3,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "White meat",
+    "methodTag": "Oven",
+    "preparationMethod": "Oven roasting / baking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 20 minutes",
+    "ovenCookingTime": "approx 35 minutes (can overlap with other components)",
+    "freezer": "PARTIAL: freeze chicken and grain; roasted zucchini and feta lose texture",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Dairy, olive.",
+    "fileMacrosPerServing": {
+      "kcal": 686,
+      "protein": 42.6,
+      "carbs": 55.5,
+      "fat": 32.6
+    },
+    "fileMacroText": {
+      "kcal": "686 kcal (ESTIMATED)",
+      "protein": "42.6 g (ESTIMATED)",
+      "carbs": "55.5 g (ESTIMATED)",
+      "fat": "32.6 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL raw listed ingredients using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "Inspired by source sheet-pan meal; added measured grain and used lower oil amount, so source macros are not applicable.",
+    "planningNotes": "Secondary method stovetop for grain. Correct cooking time for chosen grain per packet; dry bulgur has different nutrient profile from rice.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked chicken: approx 790 g",
+      "Roasted vegetables, feta and olives: approx 720 g",
+      "Cooked grain: approx 950 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook all poultry and ground turkey to 74 C. For whole pork tenderloin, cook to at least 63 C with a 3-minute rest.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "Nutrition for bone-in poultry assumes a generic edible-part conversion and MUST be checked after deboning and weighing."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 650,
+      "protein": 46,
+      "carbs": 57,
+      "fat": 26
+    },
+    "quantitiesFrom": "UNHANGRY White Meat Oven file — exact raw quantities as written."
+  }
+}

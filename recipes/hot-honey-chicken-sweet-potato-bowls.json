@@ -1,0 +1,279 @@
+{
+  "id": "hot-honey-chicken-sweet-potato-bowls",
+  "name": "Hot Honey Chicken Sweet Potato Bowls",
+  "protein": "white-meat",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 912,
+    "protein": 87,
+    "carbs": 91,
+    "fat": 22
+  },
+  "components": [
+    {
+      "id": "chicken",
+      "name": "Hot Honey Chicken",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 920,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 439,
+        "protein": 70,
+        "carbs": 8,
+        "fat": 13
+      },
+      "ingredients": [
+        {
+          "name": "Raw boneless skinless chicken breast (target about 920 g cooked)",
+          "qty": 1230,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Olive oil for roasting",
+          "qty": 20,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Hot honey in chicken marinade",
+          "qty": 25,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Garlic powder",
+          "qty": 7,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Onion powder",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Paprika",
+          "qty": 7,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Chili flakes",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 7,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Slice raw chicken into equal strips, coat with olive oil, part of the hot honey and measured seasonings.",
+        "Arrange chicken on a second lined tray and roast until golden and its thickest pieces reach 74 C, typically 18-28 minutes."
+      ]
+    },
+    {
+      "id": "sweet-potato",
+      "name": "Roasted Sweet Potatoes",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 1200,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 325,
+        "protein": 6,
+        "carbs": 69,
+        "fat": 4
+      },
+      "ingredients": [
+        {
+          "name": "Raw sweet potatoes (target about 1200 g cooked)",
+          "qty": 1400,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Olive oil to roast",
+          "qty": 15,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Heat oven to 205 C. Scrub sweet potatoes, cut in half lengthwise and coat lightly in 15 ml oil. Place cut sides down on a baking tray and roast 40-55 minutes until tender, depending on size.",
+        "Cool sweet potatoes enough to handle and portion around 300 g cooked per meal if actual yield allows; add roughly 230 g cooked chicken per portion."
+      ]
+    },
+    {
+      "id": "toppings",
+      "name": "Toppings",
+      "scaling": "fixed",
+      "servings": 4,
+      "cookedYieldG": 265,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 106,
+        "protein": 7,
+        "carbs": 10,
+        "fat": 4
+      },
+      "ingredients": [
+        {
+          "name": "Reduced-fat grated mozzarella",
+          "qty": 110,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Pickled red onions, drained",
+          "qty": 120,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Hot honey drizzle",
+          "qty": 35,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Top each portion with mozzarella, but pack yogurt sauce, pickled onions and honey drizzle separately for fresh assembly after reheating."
+      ]
+    },
+    {
+      "id": "sauce",
+      "name": "Yogurt Sauce",
+      "scaling": "fixed",
+      "servings": 4,
+      "cookedYieldG": 258,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 41,
+        "protein": 5,
+        "carbs": 4,
+        "fat": 1
+      },
+      "ingredients": [
+        {
+          "name": "Nonfat Greek yogurt",
+          "qty": 180,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Lemon juice",
+          "qty": 60,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Garlic powder",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Parsley flakes or fresh parsley",
+          "qty": 10,
+          "unit": "g",
+          "component": "aromatic"
+        }
+      ],
+      "steps": [
+        "For sauce, combine yogurt with lemon juice, garlic powder, salt and parsley; keep refrigerated."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Creator post lists 230 g COOKED chicken and approx 300 g COOKED sweet potato per bowl. Raw quantities (1230 g chicken, 1400 g potato) are UNHANGRY estimated raw equivalents, not published raw weights; weigh after cooking and revise. Published creator macros ~600 kcal, 65 g protein, 50 g carbs, 13 g fat, but our ingredients differ and per-serving nutrition is recalculated.",
+    "Planning: Original creator pan-cooks chicken; this is UNHANGRY OVEN ADAPTATION, not a claimed original oven method. Fresh finishing required.",
+    "Freezer: chicken and sweet potatoes freeze; chilled yogurt and pickled onions should be packed separately",
+    "Dietary: Dairy.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://pikory.com/tag/chicken-sweet-potato-meal-prep-bowl",
+  "reference": {
+    "sourceCredit": "@prepwithdrew, public social recipe post",
+    "fileTitle": "PrepWithDrew Hot Honey Chicken Sweet Potato Bowls",
+    "fileRecipeNumber": 19,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "White meat",
+    "methodTag": "Oven",
+    "preparationMethod": "Oven roasting / baking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 25 minutes",
+    "ovenCookingTime": "approx 50 minutes (can overlap with other components)",
+    "freezer": "PARTIAL: chicken and sweet potatoes freeze; chilled yogurt and pickled onions should be packed separately",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Dairy.",
+    "fileMacrosPerServing": {
+      "kcal": 912,
+      "protein": 87.2,
+      "carbs": 91,
+      "fat": 22.1
+    },
+    "fileMacroText": {
+      "kcal": "912 kcal (ESTIMATED)",
+      "protein": "87.2 g (ESTIMATED)",
+      "carbs": "91.0 g (ESTIMATED)",
+      "fat": "22.1 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL raw listed ingredients using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "Creator post lists 230 g COOKED chicken and approx 300 g COOKED sweet potato per bowl. Raw quantities (1230 g chicken, 1400 g potato) are UNHANGRY estimated raw equivalents, not published raw weights; weigh after cooking and revise. Published creator macros ~600 kcal, 65 g protein, 50 g carbs, 13 g fat, but our ingredients differ and per-serving nutrition is recalculated.",
+    "planningNotes": "Original creator pan-cooks chicken; this is UNHANGRY OVEN ADAPTATION, not a claimed original oven method. Fresh finishing required.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked chicken strips: approx 920 g",
+      "Roasted sweet potatoes: approx 1200 g",
+      "Grated mozzarella: approx 110 g",
+      "Yogurt sauce: approx 258 g",
+      "Pickled onions: approx 120 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook all poultry and ground turkey to 74 C. For whole pork tenderloin, cook to at least 63 C with a 3-minute rest.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "Nutrition for bone-in poultry assumes a generic edible-part conversion and MUST be checked after deboning and weighing."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 930,
+      "protein": 87,
+      "carbs": 93,
+      "fat": 23
+    },
+    "quantitiesFrom": "UNHANGRY White Meat Oven file — exact raw quantities as written."
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "id": "creamy-chicken-fajita-pasta-bake",
+  "name": "One-Tray Creamy Chicken Fajita Pasta Bake",
+  "protein": "white-meat",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 602,
+    "protein": 56,
+    "carbs": 59,
+    "fat": 16
+  },
+  "components": [
+    {
+      "id": "bake",
+      "name": "Chicken Fajita Pasta Bake",
+      "scaling": "ratio",
+      "role": "whole",
+      "servings": 4,
+      "cookedYieldG": 1790,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 602,
+        "protein": 56,
+        "carbs": 59,
+        "fat": 16
+      },
+      "ingredients": [
+        {
+          "name": "Raw boneless chicken breast, diced",
+          "qty": 650,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Dry short pasta",
+          "qty": 200,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Raw onion, finely diced",
+          "qty": 130,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Raw mixed bell peppers, diced",
+          "qty": 300,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Low-fat cream cheese",
+          "qty": 200,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Canned diced tomatoes",
+          "qty": 400,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Grated mozzarella",
+          "qty": 80,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Garlic minced (fresh alternative to lazy garlic)",
+          "qty": 20,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Fajita seasoning mix",
+          "qty": 30,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Water",
+          "qty": 100,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Salt",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Black pepper",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Preheat oven to 190 C. Cut raw chicken, onions and bell peppers into evenly sized pieces.",
+        "In a deep ovenproof baking dish mix dry pasta, diced chicken, vegetables, cream cheese, canned tomato, garlic, fajita spice, salt, pepper and measured water until evenly coated.",
+        "Spread mixture level, scatter mozzarella across the top and seal the dish tightly with foil.",
+        "Bake covered around 45 minutes, then uncover and bake a further five minutes or until pasta is tender, sauce thick and chicken reaches 74 C.",
+        "Rest covered 5-10 minutes so pasta absorbs the last moisture. Stir to distribute the creamy sauce and portion into four large servings.",
+        "Cool quickly in shallow containers. Reheat gently with a splash of water if the pasta has tightened in storage."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Source is a public structured version of a recipe reviewed by Hadrian (his review stated ~551 kcal, 57 g protein, 55 g carbs, 13 g fat). UNHANGRY used 130 g onion and 300 g peppers as fixed converted raw quantities; recalculate before publication.",
+    "Planning: Oven-only until plating; source original developer attribution still needs confirmation.",
+    "Freezer: creamy texture may change after freeze-thaw",
+    "Dietary: Dairy, wheat.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://social-spork.com/recipes/697c99f7b4ae4984a8ba3139",
+  "reference": {
+    "sourceCredit": "Original creator not conclusively verified; reviewed by @firsttakehadrian",
+    "fileTitle": "One-Tray Creamy Chicken Fajita Pasta Bake",
+    "fileRecipeNumber": 20,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "White meat",
+    "methodTag": "Oven",
+    "preparationMethod": "Oven roasting / baking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 15 minutes",
+    "ovenCookingTime": "approx 50 minutes (can overlap with other components)",
+    "freezer": "YES, creamy texture may change after freeze-thaw",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Dairy, wheat.",
+    "fileMacrosPerServing": {
+      "kcal": 602,
+      "protein": 56.2,
+      "carbs": 59,
+      "fat": 15.7
+    },
+    "fileMacroText": {
+      "kcal": "602 kcal (ESTIMATED)",
+      "protein": "56.2 g (ESTIMATED)",
+      "carbs": "59.0 g (ESTIMATED)",
+      "fat": "15.7 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL raw listed ingredients using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "Source is a public structured version of a recipe reviewed by Hadrian (his review stated ~551 kcal, 57 g protein, 55 g carbs, 13 g fat). UNHANGRY used 130 g onion and 300 g peppers as fixed converted raw quantities; recalculate before publication.",
+    "planningNotes": "Oven-only until plating; source original developer attribution still needs confirmation.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Finished chicken fajita pasta casserole: approx 1790 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook all poultry and ground turkey to 74 C. For whole pork tenderloin, cook to at least 63 C with a 3-minute rest.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "Nutrition for bone-in poultry assumes a generic edible-part conversion and MUST be checked after deboning and weighing."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 622,
+      "protein": 55,
+      "carbs": 59,
+      "fat": 18
+    },
+    "quantitiesFrom": "UNHANGRY White Meat Oven file — exact raw quantities as written."
+  }
+}

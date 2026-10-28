@@ -1,0 +1,262 @@
+{
+  "id": "baked-chicken-enchiladas",
+  "name": "Saucy Baked Chicken Enchiladas with Beans and Corn",
+  "protein": "white-meat",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 8,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 540,
+    "protein": 37,
+    "carbs": 51,
+    "fat": 21
+  },
+  "components": [
+    {
+      "id": "enchiladas",
+      "name": "Chicken Enchiladas",
+      "scaling": "ratio",
+      "role": "whole",
+      "servings": 8,
+      "cookedYieldG": 2960,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 540,
+        "protein": 37,
+        "carbs": 51,
+        "fat": 21
+      },
+      "ingredients": [
+        {
+          "name": "Raw boneless chicken breast",
+          "qty": 700,
+          "unit": "g",
+          "component": "protein",
+          "group": "Filling"
+        },
+        {
+          "name": "Onion, chopped",
+          "qty": 160,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Filling"
+        },
+        {
+          "name": "Red bell pepper, chopped",
+          "qty": 200,
+          "unit": "g",
+          "component": "other",
+          "group": "Filling"
+        },
+        {
+          "name": "Refried beans",
+          "qty": 250,
+          "unit": "g",
+          "component": "other",
+          "group": "Filling"
+        },
+        {
+          "name": "Frozen sweet corn",
+          "qty": 150,
+          "unit": "g",
+          "component": "other",
+          "group": "Filling"
+        },
+        {
+          "name": "Garlic, chopped",
+          "qty": 16,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Filling"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 25,
+          "unit": "ml",
+          "component": "other",
+          "group": "Filling"
+        },
+        {
+          "name": "Water for filling",
+          "qty": 60,
+          "unit": "ml",
+          "component": "other",
+          "group": "Filling"
+        },
+        {
+          "name": "Paprika",
+          "qty": 10,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Spice blend"
+        },
+        {
+          "name": "Ground cumin",
+          "qty": 8,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Spice blend"
+        },
+        {
+          "name": "Oregano",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Spice blend"
+        },
+        {
+          "name": "Garlic powder",
+          "qty": 4,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Spice blend"
+        },
+        {
+          "name": "Onion powder",
+          "qty": 4,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Spice blend"
+        },
+        {
+          "name": "Salt",
+          "qty": 7,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Spice blend"
+        },
+        {
+          "name": "Black pepper",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Spice blend"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 35,
+          "unit": "ml",
+          "component": "other",
+          "group": "Enchilada sauce"
+        },
+        {
+          "name": "Plain flour",
+          "qty": 25,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Enchilada sauce"
+        },
+        {
+          "name": "Chicken stock",
+          "qty": 500,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Enchilada sauce"
+        },
+        {
+          "name": "Tomato passata",
+          "qty": 375,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Enchilada sauce"
+        },
+        {
+          "name": "Eight wheat tortillas (60 g each)",
+          "qty": 480,
+          "unit": "g",
+          "component": "carb",
+          "group": "Assembly"
+        },
+        {
+          "name": "Shredded mozzarella or cheddar blend",
+          "qty": 250,
+          "unit": "g",
+          "component": "other",
+          "group": "Assembly"
+        }
+      ],
+      "steps": [
+        "Mix paprika, cumin, oregano, garlic and onion powder, salt and pepper. Set a small portion aside for sauce.",
+        "In a saucepan, whisk olive oil and flour briefly, stir in passata and stock, then add reserved seasoning; simmer until the sauce coats a spoon.",
+        "Toss raw chicken with the remaining spice mix and sear in olive oil until browned and at least 74 C; rest and dice.",
+        "Soften onion, garlic and bell pepper in the same pan. Fold in chicken, beans, corn and 60 ml water; cook until thick but moist.",
+        "Heat oven to 180 C. Fill eight tortillas evenly with chicken mixture and a little grated cheese. Roll and arrange in a baking dish over a little sauce.",
+        "Cover with remaining sauce and cheese, bake about 20 minutes until bubbling and completely hot.",
+        "Cool in shallow portions; freeze whole enchiladas in sauce for future meals."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "RecipeTin Eats inspired version with fixed base quantities and a single full-dinner serving defined as one generously filled enchilada.",
+    "Planning: Secondary stovetop to cook sauce and filling.",
+    "Freezer: baked enchiladas tolerate freezing, tortillas soften after reheating",
+    "Dietary: Contains wheat, dairy, legumes.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.recipetineats.com/chicken-enchiladas/",
+  "reference": {
+    "sourceCredit": "Nagi Maehashi, RecipeTin Eats",
+    "fileTitle": "Saucy Baked Chicken Enchiladas with Beans and Corn",
+    "fileRecipeNumber": 7,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "White meat",
+    "methodTag": "Oven",
+    "preparationMethod": "Oven roasting / baking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 30 minutes",
+    "ovenCookingTime": "approx 25 minutes (can overlap with other components)",
+    "freezer": "YES; baked enchiladas tolerate freezing, tortillas soften after reheating",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Contains wheat, dairy, legumes.",
+    "fileMacrosPerServing": {
+      "kcal": 540,
+      "protein": 37.3,
+      "carbs": 51.3,
+      "fat": 20.6
+    },
+    "fileMacroText": {
+      "kcal": "540 kcal (ESTIMATED)",
+      "protein": "37.3 g (ESTIMATED)",
+      "carbs": "51.3 g (ESTIMATED)",
+      "fat": "20.6 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL raw listed ingredients using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "RecipeTin Eats inspired version with fixed base quantities and a single full-dinner serving defined as one generously filled enchilada.",
+    "planningNotes": "Secondary stovetop to cook sauce and filling.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked chicken bean and corn filling: approx 1410 g",
+      "Finished enchilada sauce: approx 820 g",
+      "Tortillas and cheese assembled: approx 730 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook all poultry and ground turkey to 74 C. For whole pork tenderloin, cook to at least 63 C with a 3-minute rest.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "Nutrition for bone-in poultry assumes a generic edible-part conversion and MUST be checked after deboning and weighing."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 559,
+      "protein": 37,
+      "carbs": 50,
+      "fat": 23
+    },
+    "quantitiesFrom": "UNHANGRY White Meat Oven file — exact raw quantities as written."
+  }
+}

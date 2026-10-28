@@ -1,0 +1,181 @@
+{
+  "id": "lebanese-lemon-garlic-chicken-traybake",
+  "name": "Lebanese Lemon Garlic Chicken and Potato Traybake",
+  "protein": "white-meat",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 604,
+    "protein": 36,
+    "carbs": 34,
+    "fat": 36
+  },
+  "components": [
+    {
+      "id": "traybake",
+      "name": "Chicken and Potato Traybake",
+      "scaling": "ratio",
+      "role": "whole",
+      "servings": 4,
+      "cookedYieldG": 1195,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 604,
+        "protein": 36,
+        "carbs": 34,
+        "fat": 36
+      },
+      "ingredients": [
+        {
+          "name": "Raw bone-in chicken thighs and drumsticks",
+          "qty": 1100,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Raw baby potatoes halved",
+          "qty": 680,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 60,
+          "unit": "ml",
+          "component": "other",
+          "group": "Lemon garlic sauce"
+        },
+        {
+          "name": "Fresh lemon juice",
+          "qty": 60,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Lemon garlic sauce"
+        },
+        {
+          "name": "Garlic, minced",
+          "qty": 30,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Lemon garlic sauce"
+        },
+        {
+          "name": "Lebanese seven spice",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Lemon garlic sauce"
+        },
+        {
+          "name": "Paprika",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Lemon garlic sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 9,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Lemon garlic sauce"
+        },
+        {
+          "name": "Black pepper",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Lemon garlic sauce"
+        },
+        {
+          "name": "Fresh parsley",
+          "qty": 20,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "To finish"
+        }
+      ],
+      "steps": [
+        "Heat oven to 200 C. Dry raw chicken with paper towels and pat potatoes dry for browning.",
+        "Whisk lemon juice, olive oil, minced garlic, seven-spice, paprika, salt and pepper in a small bowl.",
+        "Arrange chicken and halved potatoes in a large baking pan, then coat thoroughly with the lemon-garlic mixture.",
+        "Roast uncovered for 55-65 minutes. Check potatoes are tender and every chicken portion is at least 74 C at the thickest part.",
+        "Rest 5 minutes, then garnish with measured parsley. Divide cooked potato and edible chicken across four containers; bones should be discarded before accurate yield weighing."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Directly based on the published one-pan chicken and potatoes. Raw bone-in chicken weight is not the edible nutrition weight.",
+    "Planning: This differs from Greek lemon chicken by its Lebanese seven-spice seasoning.",
+    "Freezer: potato texture may soften after freezing",
+    "Dietary: No pork; contains poultry.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://feelgoodfoodie.net/recipe/one-pan-chicken-potatoes/",
+  "reference": {
+    "sourceCredit": "Yumna Jawad, Feel Good Foodie",
+    "fileTitle": "Lebanese Lemon Garlic Chicken and Potato Traybake",
+    "fileRecipeNumber": 5,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "White meat",
+    "methodTag": "Oven",
+    "preparationMethod": "Oven roasting / baking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 10 minutes",
+    "ovenCookingTime": "approx 65 minutes (can overlap with other components)",
+    "freezer": "YES, potato texture may soften after freezing",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | No pork; contains poultry.",
+    "fileMacrosPerServing": {
+      "kcal": 604,
+      "protein": 36,
+      "carbs": 34,
+      "fat": 36
+    },
+    "fileMacroText": {
+      "kcal": "604 kcal (ESTIMATED)",
+      "protein": "36.0 g (ESTIMATED)",
+      "carbs": "34.0 g (ESTIMATED)",
+      "fat": "36.0 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL raw listed ingredients using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "Directly based on the published one-pan chicken and potatoes. Raw bone-in chicken weight is not the edible nutrition weight.",
+    "planningNotes": "This differs from Greek lemon chicken by its Lebanese seven-spice seasoning.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked edible chicken: approx 560 g",
+      "Roasted potatoes: approx 560 g",
+      "Reduced lemon pan juices: approx 75 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook all poultry and ground turkey to 74 C. For whole pork tenderloin, cook to at least 63 C with a 3-minute rest.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "Nutrition for bone-in poultry assumes a generic edible-part conversion and MUST be checked after deboning and weighing."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 690,
+      "protein": 41,
+      "carbs": 34,
+      "fat": 43
+    },
+    "quantitiesFrom": "UNHANGRY White Meat Oven file — exact raw quantities as written."
+  }
+}

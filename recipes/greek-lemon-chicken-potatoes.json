@@ -1,0 +1,229 @@
+{
+  "id": "greek-lemon-chicken-potatoes",
+  "name": "Greek Lemon Chicken with Roasted Potatoes",
+  "protein": "white-meat",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 5,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 582,
+    "protein": 36,
+    "carbs": 38,
+    "fat": 32
+  },
+  "components": [
+    {
+      "id": "chicken",
+      "name": "Greek Lemon Chicken",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 5,
+      "cookedYieldG": 610,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 418,
+        "protein": 32,
+        "carbs": 6,
+        "fat": 28
+      },
+      "ingredients": [
+        {
+          "name": "Raw bone-in chicken thighs and drumsticks",
+          "qty": 1250,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Plain Greek yogurt",
+          "qty": 190,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Marinade"
+        },
+        {
+          "name": "Fresh lemon juice",
+          "qty": 125,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Marinade"
+        },
+        {
+          "name": "Extra virgin olive oil",
+          "qty": 28,
+          "unit": "ml",
+          "component": "other",
+          "group": "Marinade"
+        },
+        {
+          "name": "Garlic, minced",
+          "qty": 30,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Marinade"
+        },
+        {
+          "name": "Dried oregano",
+          "qty": 8,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Marinade"
+        },
+        {
+          "name": "Apple cider vinegar",
+          "qty": 30,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Marinade"
+        },
+        {
+          "name": "Salt",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Marinade"
+        },
+        {
+          "name": "Ground black pepper",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Marinade"
+        }
+      ],
+      "steps": [
+        "Mix yogurt, lemon, oil, vinegar, oregano, garlic, salt and pepper; coat chicken and refrigerate at least three hours, preferably overnight.",
+        "Arrange marinated chicken on a separate tray to avoid raw poultry juices contaminating potatoes after cooking.",
+        "Roast the chicken until the skin browns and the centre reaches 74 C, typically 45-60 minutes for bone-in portions; turn the potatoes halfway through their 40-50 minute roasting time.",
+        "Rest chicken 5-10 minutes. Divide edible meat and potato wedges equally into five portions. Keep additional lemon for serving if desired."
+      ]
+    },
+    {
+      "id": "potatoes",
+      "name": "Roasted Potato Wedges",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 5,
+      "cookedYieldG": 730,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 164,
+        "protein": 3,
+        "carbs": 32,
+        "fat": 4
+      },
+      "ingredients": [
+        {
+          "name": "Raw waxy potatoes cut into wedges",
+          "qty": 900,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 25,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Lemon juice",
+          "qty": 40,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Oregano",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Garlic powder",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Heat oven to 200 C. Toss raw wedges with their olive oil, lemon, oregano, garlic powder and salt; spread over a large tray."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "UNHANGRY complete-meal pairing of published Greek yogurt chicken with lemon roast potatoes. Bone weight excluded from edible-yield estimate.",
+    "Planning: Marination at least 3 hours, ideally overnight.",
+    "Freezer: though roast potatoes soften after thawing",
+    "Dietary: Contains dairy; chicken bone-in.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.recipetineats.com/greek-chicken/",
+  "reference": {
+    "sourceCredit": "Nagi Maehashi, RecipeTin Eats",
+    "fileTitle": "Greek Lemon Chicken with Roasted Potatoes",
+    "fileRecipeNumber": 2,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "White meat",
+    "methodTag": "Oven",
+    "preparationMethod": "Oven roasting / baking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 20 minutes",
+    "ovenCookingTime": "approx 60 minutes (can overlap with other components)",
+    "freezer": "YES, though roast potatoes soften after thawing",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Contains dairy; chicken bone-in.",
+    "fileMacrosPerServing": {
+      "kcal": 582,
+      "protein": 35.5,
+      "carbs": 38.2,
+      "fat": 31.9
+    },
+    "fileMacroText": {
+      "kcal": "582 kcal (ESTIMATED)",
+      "protein": "35.5 g (ESTIMATED)",
+      "carbs": "38.2 g (ESTIMATED)",
+      "fat": "31.9 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL raw listed ingredients using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "UNHANGRY complete-meal pairing of published Greek yogurt chicken with lemon roast potatoes. Bone weight excluded from edible-yield estimate.",
+    "planningNotes": "Marination at least 3 hours, ideally overnight.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked bone-in chicken: edible meat and skin only: approx 610 g",
+      "Roasted potato wedges: approx 730 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook all poultry and ground turkey to 74 C. For whole pork tenderloin, cook to at least 63 C with a 3-minute rest.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "Nutrition for bone-in poultry assumes a generic edible-part conversion and MUST be checked after deboning and weighing."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 649,
+      "protein": 42,
+      "carbs": 37,
+      "fat": 37
+    },
+    "quantitiesFrom": "UNHANGRY White Meat Oven file — exact raw quantities as written."
+  }
+}

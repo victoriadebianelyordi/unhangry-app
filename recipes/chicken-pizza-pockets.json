@@ -1,0 +1,242 @@
+{
+  "id": "chicken-pizza-pockets",
+  "name": "Chicken Pizza Pockets with Roast Potato Wedges",
+  "protein": "white-meat",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 934,
+    "protein": 71,
+    "carbs": 60,
+    "fat": 46
+  },
+  "components": [
+    {
+      "id": "pockets",
+      "name": "Chicken Pizza Pockets",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 1220,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 584,
+        "protein": 64,
+        "carbs": 10,
+        "fat": 32
+      },
+      "ingredients": [
+        {
+          "name": "Raw ground chicken breast",
+          "qty": 900,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Tomato passata",
+          "qty": 240,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Reduced-fat mozzarella",
+          "qty": 140,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Grated parmesan",
+          "qty": 100,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Garlic powder",
+          "qty": 12,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Dried Italian herbs",
+          "qty": 8,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 8,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Black pepper",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Olive oil spray equivalent for lining pan",
+          "qty": 10,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Mix ground chicken with garlic powder, dried herbs, salt and pepper; portion into four equal raw mounds.",
+        "On separate pieces of baking parchment, flatten each portion into an even oval approximately 1 cm thick.",
+        "Spread passata across half of each oval, then add a quarter of the mozzarella; fold the other side of the chicken over and press edges closed.",
+        "Top with parmesan and a tiny amount of olive oil. Transfer carefully to a hot oven tray and bake until golden and chicken is at least 74 C throughout, about 20-25 minutes depending on thickness."
+      ]
+    },
+    {
+      "id": "potatoes",
+      "name": "Roast Potato Wedges",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 810,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 280,
+        "protein": 5,
+        "carbs": 42,
+        "fat": 9
+      },
+      "ingredients": [
+        {
+          "name": "Raw potatoes, scrubbed and cut into wedges",
+          "qty": 1000,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 25,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Paprika",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Preheat oven to 200 C. Toss potato wedges with their oil, paprika and salt, and roast in a single layer around 30-40 minutes, turning once.",
+        "Keep the potato side separate if you want to crisp wedges again during reheating."
+      ]
+    },
+    {
+      "id": "veg",
+      "name": "Green Vegetables",
+      "scaling": "fixed",
+      "servings": 4,
+      "cookedYieldG": 390,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 69,
+        "protein": 2,
+        "carbs": 8,
+        "fat": 5
+      },
+      "ingredients": [
+        {
+          "name": "Raw green beans or broccoli florets",
+          "qty": 480,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 12,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Roast or steam broccoli/green beans until just tender and portion with cooked pockets and potato wedges."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Original viral Bikini Bod Pizza Pocket is a LOW-CARB chicken-filled pocket, credited by Hadrian to @madelainerascan. UNHANGRY includes weighed potato and vegetable sides to qualify as a full meal; do NOT reuse original pocket-only creator macros.",
+    "Planning: Chicken pocket is made from RAW ground chicken (no pizza dough). Source post gives approx 455 kcal per pocket BEFORE our side dishes; cooked yield estimated.",
+    "Freezer: frozen cooked pockets are feasible, coating softens; potato wedges lose crispness",
+    "Dietary: Contains dairy.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://pikory.com/tag/ground-chicken-hot-pocket-recipe",
+  "reference": {
+    "sourceCredit": "@madelainerascan, reviewed by @firsttakehadrian",
+    "fileTitle": "Chicken Pizza Pockets with Roast Potato Wedges",
+    "fileRecipeNumber": 21,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "White meat",
+    "methodTag": "Oven",
+    "preparationMethod": "Oven roasting / baking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 30 minutes",
+    "ovenCookingTime": "approx 40 minutes (can overlap with other components)",
+    "freezer": "PARTIAL: frozen cooked pockets are feasible, coating softens; potato wedges lose crispness",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Contains dairy.",
+    "fileMacrosPerServing": {
+      "kcal": 934,
+      "protein": 70.7,
+      "carbs": 59.7,
+      "fat": 45.8
+    },
+    "fileMacroText": {
+      "kcal": "934 kcal (ESTIMATED)",
+      "protein": "70.7 g (ESTIMATED)",
+      "carbs": "59.7 g (ESTIMATED)",
+      "fat": "45.8 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL raw listed ingredients using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "Original viral Bikini Bod Pizza Pocket is a LOW-CARB chicken-filled pocket, credited by Hadrian to @madelainerascan. UNHANGRY includes weighed potato and vegetable sides to qualify as a full meal; do NOT reuse original pocket-only creator macros.",
+    "planningNotes": "Chicken pocket is made from RAW ground chicken (no pizza dough). Source post gives approx 455 kcal per pocket BEFORE our side dishes; cooked yield estimated.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked cheese-filled chicken pockets: approx 1220 g",
+      "Roasted potato wedges: approx 810 g",
+      "Cooked green vegetables: approx 390 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook all poultry and ground turkey to 74 C. For whole pork tenderloin, cook to at least 63 C with a 3-minute rest.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "Nutrition for bone-in poultry assumes a generic edible-part conversion and MUST be checked after deboning and weighing."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 828,
+      "protein": 76,
+      "carbs": 62,
+      "fat": 30
+    },
+    "quantitiesFrom": "UNHANGRY White Meat Oven file — exact raw quantities as written."
+  }
+}

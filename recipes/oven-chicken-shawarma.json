@@ -1,0 +1,271 @@
+{
+  "id": "oven-chicken-shawarma",
+  "name": "Oven Chicken Shawarma with Rice and Garlic Yogurt Sauce",
+  "protein": "white-meat",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 5,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 611,
+    "protein": 44,
+    "carbs": 58,
+    "fat": 23
+  },
+  "components": [
+    {
+      "id": "chicken",
+      "name": "Chicken Shawarma",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 5,
+      "cookedYieldG": 890,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 341,
+        "protein": 36,
+        "carbs": 8,
+        "fat": 21
+      },
+      "ingredients": [
+        {
+          "name": "Raw boneless skinless chicken thighs",
+          "qty": 950,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Raw red onion, sliced",
+          "qty": 180,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Extra virgin olive oil",
+          "qty": 35,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Fresh lemon juice",
+          "qty": 45,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Garlic, grated",
+          "qty": 20,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Ground cumin",
+          "qty": 8,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Smoked paprika",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Ground coriander",
+          "qty": 4,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Turmeric",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Ground cinnamon",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 7,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Ground black pepper",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Combine lemon, oil, garlic and shawarma spices with the sliced onion. Coat the raw chicken thoroughly and chill for 30 minutes or longer if time allows.",
+        "Heat oven to 220 C. Spread chicken and onion in a single layer across a lined roasting tray, avoiding overlap.",
+        "Roast for about 25-35 minutes depending on thickness, checking 74 C in the thickest thigh. Rest briefly and slice against the grain.",
+        "Portion chicken and rice into five meals. Add chilled yogurt sauce after reheating rather than heating the sauce."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Basmati Rice",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 5,
+      "cookedYieldG": 820,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 227,
+        "protein": 4,
+        "carbs": 47,
+        "fat": 1
+      },
+      "ingredients": [
+        {
+          "name": "Uncooked basmati rice",
+          "qty": 300,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Water for rice",
+          "qty": 500,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Salt for rice",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Meanwhile, rinse the rice and cook with 500 ml water and salt in a covered saucepan; let it stand covered 10 minutes and fluff."
+      ]
+    },
+    {
+      "id": "sauce",
+      "name": "Garlic Yogurt Sauce",
+      "scaling": "fixed",
+      "servings": 5,
+      "cookedYieldG": 285,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 43,
+        "protein": 5,
+        "carbs": 3,
+        "fat": 1
+      },
+      "ingredients": [
+        {
+          "name": "Plain Greek yogurt",
+          "qty": 250,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Garlic, crushed",
+          "qty": 10,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Lemon juice",
+          "qty": 20,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Fresh parsley",
+          "qty": 10,
+          "unit": "g",
+          "component": "aromatic"
+        }
+      ],
+      "steps": [
+        "Stir yogurt with garlic, lemon, salt and parsley. Keep the cold sauce in its own sealed container."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "UNHANGRY adaptation of oven shawarma, including a measured rice side and yogurt sauce. Source recipe serves as the shawarma technique reference.",
+    "Planning: Secondary method: stovetop for rice; sauce cold. Sauce may separate when frozen.",
+    "Freezer: for chicken and rice; freeze sauce separately only if acceptable texture",
+    "Dietary: Contains dairy; no pork.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.themediterraneandish.com/chicken-shawarma-recipe/",
+  "reference": {
+    "sourceCredit": "Suzy Karadsheh, The Mediterranean Dish",
+    "fileTitle": "Oven Chicken Shawarma with Rice and Garlic Yogurt Sauce",
+    "fileRecipeNumber": 1,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "White meat",
+    "methodTag": "Oven",
+    "preparationMethod": "Oven roasting / baking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 25 minutes",
+    "ovenCookingTime": "approx 35 minutes (can overlap with other components)",
+    "freezer": "YES for chicken and rice; freeze sauce separately only if acceptable texture",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Contains dairy; no pork.",
+    "fileMacrosPerServing": {
+      "kcal": 611,
+      "protein": 44.3,
+      "carbs": 57.5,
+      "fat": 22.6
+    },
+    "fileMacroText": {
+      "kcal": "611 kcal (ESTIMATED)",
+      "protein": "44.3 g (ESTIMATED)",
+      "carbs": "57.5 g (ESTIMATED)",
+      "fat": "22.6 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL raw listed ingredients using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "UNHANGRY adaptation of oven shawarma, including a measured rice side and yogurt sauce. Source recipe serves as the shawarma technique reference.",
+    "planningNotes": "Secondary method: stovetop for rice; sauce cold. Sauce may separate when frozen.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked boneless chicken and onions: approx 890 g",
+      "Cooked rice: approx 820 g",
+      "Cold garlic yogurt sauce: approx 285 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook all poultry and ground turkey to 74 C. For whole pork tenderloin, cook to at least 63 C with a 3-minute rest.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "Nutrition for bone-in poultry assumes a generic edible-part conversion and MUST be checked after deboning and weighing."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 582,
+      "protein": 48,
+      "carbs": 58,
+      "fat": 16
+    },
+    "quantitiesFrom": "UNHANGRY White Meat Oven file — exact raw quantities as written."
+  }
+}

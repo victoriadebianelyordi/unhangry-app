@@ -1,0 +1,238 @@
+{
+  "id": "roasted-pork-tenderloin-mustard-potatoes",
+  "name": "Roasted Pork Tenderloin with Mustard Potatoes",
+  "protein": "white-meat",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 5,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 660,
+    "protein": 49,
+    "carbs": 48,
+    "fat": 31
+  },
+  "components": [
+    {
+      "id": "pork",
+      "name": "Pork Tenderloin & Mustard Sauce",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 5,
+      "cookedYieldG": 980,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 375,
+        "protein": 42,
+        "carbs": 2,
+        "fat": 21
+      },
+      "ingredients": [
+        {
+          "name": "Raw pork tenderloin, trimmed",
+          "qty": 950,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Olive oil for searing",
+          "qty": 20,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Salt",
+          "qty": 7,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Black pepper",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Chicken stock",
+          "qty": 150,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Mustard sauce"
+        },
+        {
+          "name": "Heavy cream",
+          "qty": 110,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Mustard sauce"
+        },
+        {
+          "name": "Dijon mustard",
+          "qty": 50,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Mustard sauce"
+        },
+        {
+          "name": "Dried tarragon",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Mustard sauce"
+        },
+        {
+          "name": "Unsalted butter",
+          "qty": 12,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Mustard sauce"
+        }
+      ],
+      "steps": [
+        "Season raw pork tenderloin and briefly sear in 20 ml oil in an oven-safe pan until browned on each side.",
+        "Move the pan with pork into the oven. Roast until the thickest part reaches 63 C (145 F), followed by a rest of at least three minutes, or to a higher household preference.",
+        "Remove the pork to rest. In its pan combine stock, Dijon, cream, butter and tarragon; reduce gently to a spoon-coating sauce.",
+        "Slice tenderloin and divide with potatoes, beans and measured sauce across five meals. Refrigerate promptly."
+      ]
+    },
+    {
+      "id": "potatoes",
+      "name": "Roasted Potatoes & Green Beans",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 5,
+      "cookedYieldG": 1320,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 285,
+        "protein": 6,
+        "carbs": 46,
+        "fat": 9
+      },
+      "ingredients": [
+        {
+          "name": "Raw baby potatoes, halved",
+          "qty": 1100,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 30,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Salt",
+          "qty": 7,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Garlic powder",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Thyme",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Raw green beans, trimmed",
+          "qty": 500,
+          "unit": "g",
+          "component": "other",
+          "group": "Green beans"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 15,
+          "unit": "ml",
+          "component": "other",
+          "group": "Green beans"
+        }
+      ],
+      "steps": [
+        "Heat oven to 210 C. Toss halved potatoes with their oil, salt and thyme and place cut side down on a roasting tray.",
+        "Roast potatoes around 30-40 minutes until golden; add green beans tossed with oil to a separate tray for the final 12-15 minutes."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "NON-HALAL. Reference recipe is pan-seared pork tenderloin with creamy mustard sauce; UNHANGRY adds roast potatoes and beans and explicitly uses an oven finish.",
+    "Planning: Secondary stovetop for pan-searing and mustard sauce. Pork whole cut minimum internal 63 C plus 3 minute rest per USDA; leftovers reheat to 74 C.",
+    "Freezer: for pork and potatoes; cream sauce may separate after freezing",
+    "Dietary: NON-HALAL / CONTAINS PORK. Dairy, mustard.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true,
+    "dietaryWarning": "Contains pork — not halal."
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.recipetineats.com/pork-tenderloin-with-creamy-mustard-sauce/",
+  "reference": {
+    "sourceCredit": "Nagi Maehashi, RecipeTin Eats",
+    "fileTitle": "Roasted Pork Tenderloin with Mustard Potatoes",
+    "fileRecipeNumber": 16,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "White meat",
+    "methodTag": "Oven",
+    "preparationMethod": "Oven roasting / baking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 25 minutes",
+    "ovenCookingTime": "approx 40 minutes (can overlap with other components)",
+    "freezer": "YES for pork and potatoes; cream sauce may separate after freezing",
+    "dietaryHalalTag": "NON-HALAL: CONTAINS PORK | NON-HALAL / CONTAINS PORK. Dairy, mustard.",
+    "fileMacrosPerServing": {
+      "kcal": 660,
+      "protein": 48.7,
+      "carbs": 47.6,
+      "fat": 30.5
+    },
+    "fileMacroText": {
+      "kcal": "660 kcal (ESTIMATED)",
+      "protein": "48.7 g (ESTIMATED)",
+      "carbs": "47.6 g (ESTIMATED)",
+      "fat": "30.5 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL raw listed ingredients using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "NON-HALAL. Reference recipe is pan-seared pork tenderloin with creamy mustard sauce; UNHANGRY adds roast potatoes and beans and explicitly uses an oven finish.",
+    "planningNotes": "Secondary stovetop for pan-searing and mustard sauce. Pork whole cut minimum internal 63 C plus 3 minute rest per USDA; leftovers reheat to 74 C.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Roasted sliced pork tenderloin: approx 710 g",
+      "Roasted potatoes: approx 920 g",
+      "Cooked green beans: approx 400 g",
+      "Reduced mustard cream sauce: approx 270 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook all poultry and ground turkey to 74 C. For whole pork tenderloin, cook to at least 63 C with a 3-minute rest.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "Nutrition for bone-in poultry assumes a generic edible-part conversion and MUST be checked after deboning and weighing."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 638,
+      "protein": 48,
+      "carbs": 46,
+      "fat": 29
+    },
+    "quantitiesFrom": "UNHANGRY White Meat Oven file — exact raw quantities as written."
+  }
+}

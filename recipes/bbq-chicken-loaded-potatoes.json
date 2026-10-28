@@ -1,0 +1,271 @@
+{
+  "id": "bbq-chicken-loaded-potatoes",
+  "name": "BBQ Chicken Loaded Potatoes",
+  "protein": "white-meat",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 5,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 575,
+    "protein": 53,
+    "carbs": 47,
+    "fat": 19
+  },
+  "components": [
+    {
+      "id": "chicken",
+      "name": "BBQ Chicken",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 5,
+      "cookedYieldG": 785,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 307,
+        "protein": 42,
+        "carbs": 14,
+        "fat": 9
+      },
+      "ingredients": [
+        {
+          "name": "Raw chicken breast diced",
+          "qty": 900,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Olive oil for chicken",
+          "qty": 22.5,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "BBQ sauce",
+          "qty": 125,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Onion powder",
+          "qty": 8,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Smoked paprika",
+          "qty": 8,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Dried oregano",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Dried thyme",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Fresh garlic, grated",
+          "qty": 30,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Salt for chicken",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Black pepper",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Meanwhile, coat diced chicken breast in seasonings and minced garlic, reserving barbecue sauce until chicken browns.",
+        "Heat chicken oil in a pan and sauté seasoned chicken in batches until golden and fully cooked to 74 C. Stir in BBQ sauce and coat pieces.",
+        "Divide into five equal servings with the parsley garnish. Refrigerate promptly, and crisp in an oven after reheating if desired."
+      ]
+    },
+    {
+      "id": "potatoes",
+      "name": "Roast Potatoes",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 5,
+      "cookedYieldG": 750,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 186,
+        "protein": 4,
+        "carbs": 32,
+        "fat": 5
+      },
+      "ingredients": [
+        {
+          "name": "Raw all-purpose potatoes diced",
+          "qty": 900,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Olive oil for potatoes",
+          "qty": 22.5,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Onion powder",
+          "qty": 8,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Garlic powder",
+          "qty": 8,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Smoked paprika",
+          "qty": 8,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Dried oregano",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Dried thyme",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt for potatoes",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Preheat oven to 200 C. Toss diced raw potatoes with their oil, onion and garlic powders, smoked paprika, oregano, thyme and salt.",
+        "Spread potatoes evenly on a lined baking tray and roast for roughly 25-30 minutes until cooked through and edges turn crisp."
+      ]
+    },
+    {
+      "id": "topping",
+      "name": "Mozzarella & Parsley",
+      "scaling": "fixed",
+      "servings": 5,
+      "cookedYieldG": 162,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 82,
+        "protein": 7,
+        "carbs": 1,
+        "fat": 6
+      },
+      "ingredients": [
+        {
+          "name": "Shredded mozzarella",
+          "qty": 150,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Flat-leaf parsley",
+          "qty": 12,
+          "unit": "g",
+          "component": "aromatic"
+        }
+      ],
+      "steps": [
+        "Combine roast potatoes with sauce-coated chicken, scatter mozzarella over the top, and finish under a hot oven grill just until melted."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Recipe is published by Chef Jack with source macros 503 kcal, protein 51.3 g, carbs 37.3 g, fat 16.3 g per serving. UNHANGRY ingredients include numeric values for seasonings and parsley originally listed without quantities, so recalculated macros are used.",
+    "Planning: SECONDARY STOVETOP: raw chicken is pan-seared while potatoes oven-roast, so this is not a pure oven-only recipe.",
+    "Freezer: Chef Jack explicitly recommends freezing for up to 3 months",
+    "Dietary: Contains dairy; BBQ sauces may have brand-specific allergens.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://chefjackovens.com/bbq-chicken-loaded-potatoes/",
+  "reference": {
+    "sourceCredit": "Chef Jack Ovens",
+    "fileTitle": "Chef Jack BBQ Chicken Loaded Potatoes",
+    "fileRecipeNumber": 18,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "White meat",
+    "methodTag": "Oven",
+    "preparationMethod": "Oven roasting / baking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 15 minutes",
+    "ovenCookingTime": "approx 30 minutes (can overlap with other components)",
+    "freezer": "YES, Chef Jack explicitly recommends freezing for up to 3 months",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Contains dairy; BBQ sauces may have brand-specific allergens.",
+    "fileMacrosPerServing": {
+      "kcal": 575,
+      "protein": 53.2,
+      "carbs": 47,
+      "fat": 19.3
+    },
+    "fileMacroText": {
+      "kcal": "575 kcal (ESTIMATED)",
+      "protein": "53.2 g (ESTIMATED)",
+      "carbs": "47.0 g (ESTIMATED)",
+      "fat": "19.3 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL raw listed ingredients using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "Recipe is published by Chef Jack with source macros 503 kcal, protein 51.3 g, carbs 37.3 g, fat 16.3 g per serving. UNHANGRY ingredients include numeric values for seasonings and parsley originally listed without quantities, so recalculated macros are used.",
+    "planningNotes": "SECONDARY STOVETOP: raw chicken is pan-seared while potatoes oven-roast, so this is not a pure oven-only recipe.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked BBQ chicken in sauce: approx 785 g",
+      "Roasted potatoes: approx 750 g",
+      "Melted mozzarella topping: approx 150 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook all poultry and ground turkey to 74 C. For whole pork tenderloin, cook to at least 63 C with a 3-minute rest.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "Nutrition for bone-in poultry assumes a generic edible-part conversion and MUST be checked after deboning and weighing."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 593,
+      "protein": 52,
+      "carbs": 48,
+      "fat": 20
+    },
+    "quantitiesFrom": "UNHANGRY White Meat Oven file — exact raw quantities as written."
+  }
+}

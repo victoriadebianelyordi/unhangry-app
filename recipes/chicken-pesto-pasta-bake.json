@@ -1,0 +1,217 @@
+{
+  "id": "chicken-pesto-pasta-bake",
+  "name": "Chicken Pesto Pasta Bake",
+  "protein": "white-meat",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 5,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 588,
+    "protein": 55,
+    "carbs": 51,
+    "fat": 18
+  },
+  "components": [
+    {
+      "id": "bake",
+      "name": "Chicken Pesto Pasta Bake",
+      "scaling": "ratio",
+      "role": "whole",
+      "servings": 5,
+      "cookedYieldG": 2460,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 588,
+        "protein": 55,
+        "carbs": 51,
+        "fat": 18
+      },
+      "ingredients": [
+        {
+          "name": "Raw skinless chicken breast, diced",
+          "qty": 800,
+          "unit": "g",
+          "component": "protein",
+          "group": "Chicken and pasta"
+        },
+        {
+          "name": "Dry penne or rigatoni",
+          "qty": 300,
+          "unit": "g",
+          "component": "carb",
+          "group": "Chicken and pasta"
+        },
+        {
+          "name": "Extra virgin olive oil",
+          "qty": 15,
+          "unit": "ml",
+          "component": "other",
+          "group": "Chicken and pasta"
+        },
+        {
+          "name": "Raw yellow onion, diced",
+          "qty": 130,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Chicken and pasta"
+        },
+        {
+          "name": "Garlic, minced",
+          "qty": 15,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Chicken and pasta"
+        },
+        {
+          "name": "Chicken stock",
+          "qty": 250,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Sauce"
+        },
+        {
+          "name": "High-protein plain Greek yogurt",
+          "qty": 125,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Sauce"
+        },
+        {
+          "name": "High-protein cottage cheese",
+          "qty": 150,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Sauce"
+        },
+        {
+          "name": "Basil pesto",
+          "qty": 70,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Sauce"
+        },
+        {
+          "name": "Lemon juice",
+          "qty": 20,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Sauce"
+        },
+        {
+          "name": "Black pepper",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Sauce"
+        },
+        {
+          "name": "Mozzarella, grated",
+          "qty": 60,
+          "unit": "g",
+          "component": "other",
+          "group": "Topping"
+        },
+        {
+          "name": "Parmesan, grated (fixed UNHANGRY amount)",
+          "qty": 20,
+          "unit": "g",
+          "component": "other",
+          "group": "Topping"
+        },
+        {
+          "name": "Water for boiling pasta, drained",
+          "qty": 1800,
+          "unit": "ml",
+          "component": "other",
+          "group": "Pasta water"
+        }
+      ],
+      "steps": [
+        "Heat oven to 200 C. Bring a pot of water to the boil and cook penne one minute less than the packet recommendation; drain.",
+        "In a skillet, heat 15 ml olive oil and cook diced chicken until lightly golden, then transfer to a clean bowl.",
+        "Sauté diced onion and garlic briefly in the same pan. Add stock and bring to a simmer; return chicken and ensure it is fully cooked to 74 C.",
+        "Turn heat off, then stir in yogurt, cottage cheese, pesto, lemon and seasonings to avoid splitting dairy.",
+        "Combine with drained pasta and transfer to a casserole dish. Top with mozzarella and parmesan.",
+        "Bake 15-20 minutes until the topping has melted and the centre is hot; rest, divide into five containers and chill promptly."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Source-referenced recipe closely follows Chef Jack ingredient quantities except for fixed parmesan, lemon and salt amounts not numerically specified on source page. UNHANGRY estimate macros reflect those fixed additions.",
+    "Planning: Secondary stovetop cooking needed to boil pasta and sauté chicken; source reports 570 kcal, 60 g protein, 53 g carbs, 14 g fat, but UNHANGRY numbers are recalculated due to fixed ingredient additions.",
+    "Freezer: published source recommends freezer storage",
+    "Dietary: Contains dairy, wheat, pine nuts may be present in pesto.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://chefjackovens.com/high-protein-chicken-pesto-pasta-bake/",
+  "reference": {
+    "sourceCredit": "Chef Jack Ovens",
+    "fileTitle": "Chef Jack Chicken Pesto Pasta Bake",
+    "fileRecipeNumber": 8,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "White meat",
+    "methodTag": "Oven",
+    "preparationMethod": "Oven roasting / baking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 15 minutes",
+    "ovenCookingTime": "approx 20 minutes (can overlap with other components)",
+    "freezer": "YES; published source recommends freezer storage",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Contains dairy, wheat, pine nuts may be present in pesto.",
+    "fileMacrosPerServing": {
+      "kcal": 588,
+      "protein": 55.3,
+      "carbs": 50.9,
+      "fat": 18.1
+    },
+    "fileMacroText": {
+      "kcal": "588 kcal (ESTIMATED)",
+      "protein": "55.3 g (ESTIMATED)",
+      "carbs": "50.9 g (ESTIMATED)",
+      "fat": "18.1 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL raw listed ingredients using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "Source-referenced recipe closely follows Chef Jack ingredient quantities except for fixed parmesan, lemon and salt amounts not numerically specified on source page. UNHANGRY estimate macros reflect those fixed additions.",
+    "planningNotes": "Secondary stovetop cooking needed to boil pasta and sauté chicken; source reports 570 kcal, 60 g protein, 53 g carbs, 14 g fat, but UNHANGRY numbers are recalculated due to fixed ingredient additions.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Finished chicken and pasta bake: approx 2460 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook all poultry and ground turkey to 74 C. For whole pork tenderloin, cook to at least 63 C with a 3-minute rest.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "Nutrition for bone-in poultry assumes a generic edible-part conversion and MUST be checked after deboning and weighing."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 615,
+      "protein": 55,
+      "carbs": 53,
+      "fat": 19
+    },
+    "quantitiesFrom": "UNHANGRY White Meat Oven file — exact raw quantities as written."
+  }
+}

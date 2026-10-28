@@ -1,0 +1,227 @@
+{
+  "id": "chicken-musakhan",
+  "name": "Palestinian Chicken Musakhan with Sumac Onions and Flatbread",
+  "protein": "white-meat",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 926,
+    "protein": 47,
+    "carbs": 62,
+    "fat": 55
+  },
+  "components": [
+    {
+      "id": "chicken",
+      "name": "Roast Sumac Chicken",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 590,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 471,
+        "protein": 36,
+        "carbs": 3,
+        "fat": 34
+      },
+      "ingredients": [
+        {
+          "name": "Raw bone-in chicken legs, skin on",
+          "qty": 1200,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Seven-spice mix",
+          "qty": 16,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Ground sumac",
+          "qty": 12,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 7,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 25,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Season chicken with salt, sumac and seven-spice, coat in oil and arrange on a lined tray.",
+        "Roast at 205 C for roughly 40-50 minutes until the thickest meat reaches 74 C.",
+        "For meal prep, store chicken and onion mixture together and wrap bread separately. Do not store an assembled bread base for several days."
+      ]
+    },
+    {
+      "id": "bread",
+      "name": "Flatbread with Sumac Onions & Pine Nuts",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 910,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 455,
+        "protein": 10,
+        "carbs": 59,
+        "fat": 21
+      },
+      "ingredients": [
+        {
+          "name": "Raw yellow onions, sliced",
+          "qty": 650,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Sumac onions"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 55,
+          "unit": "ml",
+          "component": "other",
+          "group": "Sumac onions"
+        },
+        {
+          "name": "Ground sumac",
+          "qty": 12,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Sumac onions"
+        },
+        {
+          "name": "Seven-spice mix",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Sumac onions"
+        },
+        {
+          "name": "Salt",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Sumac onions"
+        },
+        {
+          "name": "Plain Arabic flatbread or taboon bread",
+          "qty": 320,
+          "unit": "g",
+          "component": "carb",
+          "group": "Flatbread & finish"
+        },
+        {
+          "name": "Raw pine nuts",
+          "qty": 55,
+          "unit": "g",
+          "component": "other",
+          "group": "Flatbread & finish"
+        },
+        {
+          "name": "Fresh lemon juice",
+          "qty": 20,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Flatbread & finish"
+        },
+        {
+          "name": "Fresh parsley",
+          "qty": 15,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Flatbread & finish"
+        }
+      ],
+      "steps": [
+        "Meanwhile, slowly sauté the sliced onions with olive oil over medium-low heat until softened and lightly caramelized; season with sumac, seven-spice and salt.",
+        "Lightly toast the pine nuts separately, watching closely so they do not burn.",
+        "For immediate eating, warm the flatbread briefly, spread with onions, then add chicken, pine nuts, lemon and parsley."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Source-style musakhan converted into separately packed components to prevent soggy bread. Original source includes a brief final broil when assembling fresh.",
+    "Planning: Secondary stovetop for slow-cooked onions and pine nuts.",
+    "Freezer: for chicken and onions; bread should be frozen or stored separately",
+    "Dietary: Contains tree nuts, wheat.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://feelgoodfoodie.net/recipe/musakhan/",
+  "reference": {
+    "sourceCredit": "Yumna Jawad, Feel Good Foodie",
+    "fileTitle": "Palestinian Chicken Musakhan with Sumac Onions and Flatbread",
+    "fileRecipeNumber": 4,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "White meat",
+    "methodTag": "Oven",
+    "preparationMethod": "Oven roasting / baking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 25 minutes",
+    "ovenCookingTime": "approx 50 minutes (can overlap with other components)",
+    "freezer": "YES for chicken and onions; bread should be frozen or stored separately",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Contains tree nuts, wheat.",
+    "fileMacrosPerServing": {
+      "kcal": 926,
+      "protein": 46.5,
+      "carbs": 61.8,
+      "fat": 54.7
+    },
+    "fileMacroText": {
+      "kcal": "926 kcal (ESTIMATED)",
+      "protein": "46.5 g (ESTIMATED)",
+      "carbs": "61.8 g (ESTIMATED)",
+      "fat": "54.7 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL raw listed ingredients using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "Source-style musakhan converted into separately packed components to prevent soggy bread. Original source includes a brief final broil when assembling fresh.",
+    "planningNotes": "Secondary stovetop for slow-cooked onions and pine nuts.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked bone-in chicken edible portion: approx 590 g",
+      "Cooked sumac onion mixture: approx 505 g",
+      "Flatbread: approx 320 g",
+      "Toasted pine nuts: approx 52 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook all poultry and ground turkey to 74 C. For whole pork tenderloin, cook to at least 63 C with a 3-minute rest.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "Nutrition for bone-in poultry assumes a generic edible-part conversion and MUST be checked after deboning and weighing."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 1032,
+      "protein": 53,
+      "carbs": 67,
+      "fat": 62
+    },
+    "quantitiesFrom": "UNHANGRY White Meat Oven file — exact raw quantities as written."
+  }
+}

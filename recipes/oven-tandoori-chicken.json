@@ -1,0 +1,277 @@
+{
+  "id": "oven-tandoori-chicken",
+  "name": "Oven Tandoori Chicken with Basmati Rice and Mint Yogurt",
+  "protein": "white-meat",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 5,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 686,
+    "protein": 41,
+    "carbs": 60,
+    "fat": 32
+  },
+  "components": [
+    {
+      "id": "chicken",
+      "name": "Tandoori Chicken",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 5,
+      "cookedYieldG": 590,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 454,
+        "protein": 35,
+        "carbs": 9,
+        "fat": 30
+      },
+      "ingredients": [
+        {
+          "name": "Raw bone-in chicken drumsticks",
+          "qty": 1200,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Plain full-fat yogurt",
+          "qty": 375,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Marinade"
+        },
+        {
+          "name": "Neutral oil",
+          "qty": 28,
+          "unit": "ml",
+          "component": "other",
+          "group": "Marinade"
+        },
+        {
+          "name": "Lemon juice",
+          "qty": 22,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Marinade"
+        },
+        {
+          "name": "Fresh grated ginger",
+          "qty": 10,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Marinade"
+        },
+        {
+          "name": "Minced garlic",
+          "qty": 25,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Marinade"
+        },
+        {
+          "name": "Garam masala",
+          "qty": 9,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Marinade"
+        },
+        {
+          "name": "Kashmiri chili powder",
+          "qty": 10,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Marinade"
+        },
+        {
+          "name": "Turmeric",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Marinade"
+        },
+        {
+          "name": "Ground cumin",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Marinade"
+        },
+        {
+          "name": "Ground coriander",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Marinade"
+        },
+        {
+          "name": "Salt",
+          "qty": 7,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Marinade"
+        },
+        {
+          "name": "Hot chili powder",
+          "qty": 1.5,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Marinade"
+        }
+      ],
+      "steps": [
+        "Blend yogurt with oil, lemon, ginger, garlic, tandoori spices and salt. Coat raw drumsticks and marinate refrigerated 12-24 hours.",
+        "Heat oven to 180 C. Position chicken on a rack over a lined sheet pan, leaving a gap between pieces.",
+        "Roast roughly 20 minutes, brush with reserved marinade that has not been contaminated by cooked food, then roast another 15-20 minutes. Discard remaining raw-chicken marinade.",
+        "Increase heat to 220 C for the last 8-12 minutes to char the edges, ensuring chicken reaches 74 C internally."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Basmati Rice",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 5,
+      "cookedYieldG": 820,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 202,
+        "protein": 4,
+        "carbs": 47,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Uncooked basmati rice",
+          "qty": 300,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Water for rice",
+          "qty": 520,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Meanwhile, cook 300 g dry basmati with 520 ml water, covered, then rest for 10 minutes."
+      ]
+    },
+    {
+      "id": "yogurt",
+      "name": "Mint Yogurt",
+      "scaling": "fixed",
+      "servings": 5,
+      "cookedYieldG": 290,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 31,
+        "protein": 2,
+        "carbs": 3,
+        "fat": 1
+      },
+      "ingredients": [
+        {
+          "name": "Plain yogurt",
+          "qty": 250,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Fresh mint, finely chopped",
+          "qty": 20,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Fresh lemon juice",
+          "qty": 20,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Mix mint yogurt from yogurt, chopped mint, lemon and salt. Pack separately cold. Portion rice and chicken across five meals, counting only edible chicken meat in served yields."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Source tandoori chicken with added raw rice and mint-yogurt sauce measured to make complete UNHANGRY meal.",
+    "Planning: Needs 12-24 hour advance marinade. Secondary stovetop rice; sauce stored cold.",
+    "Freezer: for cooked chicken and rice; keep mint yogurt refrigerated for earlier week",
+    "Dietary: Dairy.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.recipetineats.com/oven-baked-tandoori-chicken/",
+  "reference": {
+    "sourceCredit": "Nagi Maehashi, RecipeTin Eats",
+    "fileTitle": "Oven Tandoori Chicken with Basmati Rice and Mint Yogurt",
+    "fileRecipeNumber": 11,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "White meat",
+    "methodTag": "Oven",
+    "preparationMethod": "Oven roasting / baking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 25 minutes",
+    "ovenCookingTime": "approx 55 minutes (can overlap with other components)",
+    "freezer": "YES for cooked chicken and rice; keep mint yogurt refrigerated for earlier week",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Dairy.",
+    "fileMacrosPerServing": {
+      "kcal": 686,
+      "protein": 40.7,
+      "carbs": 59.7,
+      "fat": 31.6
+    },
+    "fileMacroText": {
+      "kcal": "686 kcal (ESTIMATED)",
+      "protein": "40.7 g (ESTIMATED)",
+      "carbs": "59.7 g (ESTIMATED)",
+      "fat": "31.6 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL raw listed ingredients using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "Source tandoori chicken with added raw rice and mint-yogurt sauce measured to make complete UNHANGRY meal.",
+    "planningNotes": "Needs 12-24 hour advance marinade. Secondary stovetop rice; sauce stored cold.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked edible tandoori chicken: approx 590 g",
+      "Cooked basmati rice: approx 820 g",
+      "Mint yogurt sauce: approx 290 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook all poultry and ground turkey to 74 C. For whole pork tenderloin, cook to at least 63 C with a 3-minute rest.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "Nutrition for bone-in poultry assumes a generic edible-part conversion and MUST be checked after deboning and weighing."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 735,
+      "protein": 42,
+      "carbs": 60,
+      "fat": 36
+    },
+    "quantitiesFrom": "UNHANGRY White Meat Oven file — exact raw quantities as written."
+  }
+}

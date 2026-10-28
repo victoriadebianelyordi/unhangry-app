@@ -1,0 +1,211 @@
+{
+  "id": "sheet-pan-turkey-meatloaf",
+  "name": "Sheet-Pan Turkey Meatloaf with Roasted Broccoli and Potatoes",
+  "protein": "white-meat",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 572,
+    "protein": 39,
+    "carbs": 53,
+    "fat": 23
+  },
+  "components": [
+    {
+      "id": "meatloaf",
+      "name": "Turkey Mini Meatloaves",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 710,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 320,
+        "protein": 31,
+        "carbs": 14,
+        "fat": 15
+      },
+      "ingredients": [
+        {
+          "name": "Raw ground turkey (93% lean)",
+          "qty": 590,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Quick oats",
+          "qty": 35,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Ketchup, divided",
+          "qty": 95,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Raw onion, minced",
+          "qty": 55,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Egg without shell",
+          "qty": 50,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Dried thyme",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Worcestershire sauce",
+          "qty": 10,
+          "unit": "ml",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "In a mixing bowl combine ground turkey, oats, minced onion, egg, thyme, Worcestershire, salt and most of ketchup without compacting the mixture.",
+        "Shape into four thick mini loaves, brush remaining ketchup over the top and arrange on a separate lined tray.",
+        "Roast turkey and broccoli about 25-30 minutes, checking turkey reaches 74 C, while potatoes finish until browned and tender.",
+        "Cool and portion one meatloaf, roasted broccoli and potatoes per container. Leave lids ajar only while rapidly chilling and then seal."
+      ]
+    },
+    {
+      "id": "veg",
+      "name": "Roasted Potatoes & Broccoli",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 990,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 252,
+        "protein": 8,
+        "carbs": 38,
+        "fat": 8
+      },
+      "ingredients": [
+        {
+          "name": "Broccoli florets, raw",
+          "qty": 600,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Raw potatoes, diced into 2 cm pieces",
+          "qty": 650,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 30,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Salt",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Smoked paprika",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Heat oven to 220 C. Toss diced potatoes with half the olive oil and season, and roast alone for 10-15 minutes first.",
+        "Toss broccoli with the remaining oil and paprika; arrange around meatloaves without overcrowding."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "UNHANGRY complete meal expands published Skinnytaste mini turkey meatloaf and broccoli with a measured potato side.",
+    "Planning: Two oven trays used during same oven lane.",
+    "Freezer: broccoli and potatoes soften when frozen, reheat in oven",
+    "Dietary: Contains egg, oats/gluten check, Worcestershire may contain fish.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.skinnytaste.com/sheet-pan-turkey-meatloaf-and-broccoli/",
+  "reference": {
+    "sourceCredit": "Gina Homolka, Skinnytaste",
+    "fileTitle": "Sheet-Pan Turkey Meatloaf with Roasted Broccoli and Potatoes",
+    "fileRecipeNumber": 13,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "White meat",
+    "methodTag": "Oven",
+    "preparationMethod": "Oven roasting / baking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 20 minutes",
+    "ovenCookingTime": "approx 35 minutes (can overlap with other components)",
+    "freezer": "YES; broccoli and potatoes soften when frozen, reheat in oven",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Contains egg, oats/gluten check, Worcestershire may contain fish.",
+    "fileMacrosPerServing": {
+      "kcal": 572,
+      "protein": 39,
+      "carbs": 52.6,
+      "fat": 22.9
+    },
+    "fileMacroText": {
+      "kcal": "572 kcal (ESTIMATED)",
+      "protein": "39.0 g (ESTIMATED)",
+      "carbs": "52.6 g (ESTIMATED)",
+      "fat": "22.9 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL raw listed ingredients using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "UNHANGRY complete meal expands published Skinnytaste mini turkey meatloaf and broccoli with a measured potato side.",
+    "planningNotes": "Two oven trays used during same oven lane.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked turkey mini loaves: approx 710 g",
+      "Roasted broccoli: approx 470 g",
+      "Roasted potatoes: approx 520 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook all poultry and ground turkey to 74 C. For whole pork tenderloin, cook to at least 63 C with a 3-minute rest.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "Nutrition for bone-in poultry assumes a generic edible-part conversion and MUST be checked after deboning and weighing."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 544,
+      "protein": 38,
+      "carbs": 52,
+      "fat": 22
+    },
+    "quantitiesFrom": "UNHANGRY White Meat Oven file — exact raw quantities as written."
+  }
+}
