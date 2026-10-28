@@ -1,0 +1,250 @@
+{
+  "id": "cilantro-lime-shrimp-rice-bowl",
+  "name": "Cilantro-Lime Shrimp and Avocado Cucumber Rice Bowl",
+  "protein": "seafood",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 603,
+    "protein": 47,
+    "carbs": 69,
+    "fat": 15
+  },
+  "components": [
+    {
+      "id": "shrimp",
+      "name": "Cilantro-Lime Shrimp",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 640,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 233,
+        "protein": 41,
+        "carbs": 3,
+        "fat": 6
+      },
+      "ingredients": [
+        {
+          "name": "Peeled raw shrimp",
+          "qty": 800,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 20,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Garlic, minced",
+          "qty": 12,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Ground cumin",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Paprika",
+          "qty": 4,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Lime juice",
+          "qty": 30,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 4,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Dry the 800 g peeled shrimp. Toss with 20 ml oil, 12 g garlic, 3 g cumin, 4 g paprika and 4 g salt.",
+        "Sear shrimp in a preheated wide non-stick pan in batches, until opaque and just firm; finish with 30 ml lime juice.",
+        "Portion rice and shrimp for refrigeration or freezing; package the fresh cucumber and avocado components separately."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Cilantro-Lime Rice",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 790,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 266,
+        "protein": 5,
+        "carbs": 57,
+        "fat": 1
+      },
+      "ingredients": [
+        {
+          "name": "Dry basmati rice",
+          "qty": 280,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Water",
+          "qty": 470,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Cilantro, chopped",
+          "qty": 18,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Lime juice",
+          "qty": 30,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Rinse the 280 g dry rice and simmer with 470 ml water and 3 g salt until cooked. Rest covered, then mix with 18 g cilantro and 30 ml lime juice."
+      ]
+    },
+    {
+      "id": "topping",
+      "name": "Avocado-Cucumber Topping",
+      "scaling": "fixed",
+      "servings": 4,
+      "cookedYieldG": 550,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 104,
+        "protein": 2,
+        "carbs": 9,
+        "fat": 8
+      },
+      "ingredients": [
+        {
+          "name": "Ripe avocado, edible flesh",
+          "qty": 200,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Cucumber, diced",
+          "qty": 240,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Cilantro",
+          "qty": 15,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Lime juice",
+          "qty": 20,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Red onion, finely chopped",
+          "qty": 80,
+          "unit": "g",
+          "component": "aromatic"
+        }
+      ],
+      "steps": [
+        "For the fresh salad, combine 240 g diced cucumber, 80 g red onion, 15 g cilantro and 20 ml lime juice.",
+        "Cut 200 g avocado flesh just before serving or pack with lemon/lime and use early in the week."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "PrepWithDrew post was verified as a dish concept, but its full original recipe was not available. These ingredient quantities are an UNHANGRY working adaptation and do not reproduce the creator's claimed macros.",
+    "Storing & reheating: Store shrimp and rice refrigerated up to 2 days or freeze them promptly; keep avocado and cucumber freshly cut and refrigerated separately. Do not freeze fresh toppings.",
+    "Freezer: shrimp and plain rice only",
+    "Allergens: Shellfish / molluscs",
+    "Refrigerate within 2 hours (1 hour above 32°C) in shallow containers at 4°C or colder and follow the shorter seafood limit above. Cook fish to 63°C, shrimp and shellfish until opaque and firm (mussels must open), and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": "Shrimp and rice — fridge up to 2 days or freeze; cut the avocado fresh.",
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://eleatnutrition.com/recipes/cilantro-lime-shrimp",
+  "reference": {
+    "sourceCredit": "PrepWithDrew concept, UNHANGRY quantified adaptation; quantitative baseline inspired by Eleat Sports Nutrition",
+    "sourceBasis": "Recipe adapted from the cited published concept; raw amounts standardised by UNHANGRY.",
+    "additionalConceptSource": "PrepWithDrew creator concept: https://www.instagram.com/prepwithdrew/",
+    "fileTitle": "Cilantro-Lime Shrimp and Avocado Cucumber Rice Bowl",
+    "fileRecipeNumber": 4,
+    "proteinTag": "Seafood",
+    "methodTag": "Stovetop",
+    "preparationMethod": "STOVETOP",
+    "activePrepTime": "22 minutes",
+    "cookingTime": "24 minutes",
+    "allergenDietaryTags": "Shellfish / molluscs; None declared; check exact packaged ingredients and cross-contact.",
+    "freezer": "PARTIAL: shrimp and plain rice only",
+    "preservation": "Store shrimp and rice refrigerated up to 2 days or freeze them promptly; keep avocado and cucumber freshly cut and refrigerated separately. Do not freeze fresh toppings.",
+    "fileMacrosPerServing": {
+      "kcal": 603,
+      "protein": 47.3,
+      "carbs": 69.1,
+      "fat": 15.3
+    },
+    "fileMacroText": {
+      "kcal": "603 kcal (ingredient-based estimate)",
+      "protein": "47.3 g (estimate)",
+      "carbs": "69.1 g (estimate)",
+      "fat": "15.3 g (estimate)"
+    },
+    "nutritionBasis": "Calculated from standardised approximate per-100g raw ingredient profiles; NOT author-published nutrition and NOT lab-tested. Liquid ml treated as equivalent to grams in this provisional calculation. Ingredient brands, cooking loss, fish skin/bones and oil retention are important error sources. Recalculate in verified nutrition tool before publication.",
+    "fileNotes": "PrepWithDrew post was verified as a dish concept, but its full original recipe was not available. These ingredient quantities are an UNHANGRY working adaptation and do not reproduce the creator's claimed macros.",
+    "rawQuantityNote": "All quantities below are FIXED NUMERIC AMOUNTS in g or ml. Dry rice/pasta are dry weights; seafood is raw edible prepared weight unless stated. Water for boiling or steaming is preparation water and does not enter nutrition totals.",
+    "stepsNote": "PREPARATION STEPS (UNHANGRY-ORIGINAL WRITING; REVIEW AGAINST SOURCE + KITCHEN TEST)",
+    "cookedYieldEstimates": [
+      "Cooked cilantro-lime rice: ~790 g",
+      "Cooked shrimp: ~640 g",
+      "Cucumber and onion topping: ~350 g",
+      "Fresh avocado: ~200 g"
+    ],
+    "cookedYieldNote": "Weigh each cooked component after preparing it. These predicted yields must NOT be used for precise member-level portion calculations before kitchen testing.",
+    "foodSafety": [
+      "Refrigerate perishables promptly in shallow containers: within 2 hours after cooking, or within 1 hour if the air temperature is above 32 C.",
+      "Store at 4 C or colder. General cooked-leftover limit: 3-4 days; for delicate seafood recipes follow any shorter specific limit above.",
+      "Freeze later-week portions promptly, if this recipe is flagged freezer-suitable; thaw in refrigerator, not on a kitchen counter.",
+      "For fish, target a safe cooked internal temperature of 63 C; shrimp and shellfish should be cooked until opaque / firm, and mussels must open during cooking.",
+      "Reheat leftovers thoroughly to 74 C, avoiding repeated reheating and cooling cycles.",
+      "Cooked rice requires rapid chilling, appropriate cold storage and thorough reheating. Rice left warm for a prolonged period is not made safe by reheating.",
+      "Shellfish, fish, soy, dairy, wheat, egg, nuts and pork vary by recipe; verify allergens and dietary restrictions before importing.",
+      "All raw ingredients and exact steps in this file constitute a DRAFT FOR MIRNA REVIEW. Source links document inspiration and recipe provenance, not publisher endorsement."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 578,
+      "protein": 47,
+      "carbs": 67,
+      "fat": 14
+    },
+    "quantitiesFrom": "UNHANGRY Seafood Stovetop file — exact raw quantities as written."
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "id": "spanish-seafood-paella",
+  "name": "Spanish Seafood Paella",
+  "protein": "seafood",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 610,
+    "protein": 44,
+    "carbs": 73,
+    "fat": 16
+  },
+  "components": [
+    {
+      "id": "paella",
+      "name": "Seafood Paella",
+      "scaling": "ratio",
+      "role": "whole",
+      "servings": 4,
+      "cookedYieldG": 1750,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 610,
+        "protein": 44,
+        "carbs": 73,
+        "fat": 16
+      },
+      "ingredients": [
+        {
+          "name": "Raw peeled shrimp",
+          "qty": 350,
+          "unit": "g",
+          "component": "protein",
+          "group": "Seafood"
+        },
+        {
+          "name": "Raw cleaned squid",
+          "qty": 300,
+          "unit": "g",
+          "component": "protein",
+          "group": "Seafood"
+        },
+        {
+          "name": "Fresh live mussels in shells",
+          "qty": 600,
+          "unit": "g",
+          "component": "protein",
+          "group": "Seafood"
+        },
+        {
+          "name": "Dry bomba rice",
+          "qty": 320,
+          "unit": "g",
+          "component": "carb",
+          "group": "Rice and sofrito"
+        },
+        {
+          "name": "Fresh grated tomato",
+          "qty": 200,
+          "unit": "g",
+          "component": "other",
+          "group": "Rice and sofrito"
+        },
+        {
+          "name": "Garlic, minced",
+          "qty": 10,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Rice and sofrito"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 45,
+          "unit": "ml",
+          "component": "other",
+          "group": "Rice and sofrito"
+        },
+        {
+          "name": "Saffron",
+          "qty": 0.2,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Rice and sofrito"
+        },
+        {
+          "name": "Sweet paprika",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Rice and sofrito"
+        },
+        {
+          "name": "Fish stock",
+          "qty": 1200,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Rice and sofrito"
+        },
+        {
+          "name": "Fine salt",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Rice and sofrito"
+        },
+        {
+          "name": "Lemon wedges, edible juice",
+          "qty": 40,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "To serve"
+        },
+        {
+          "name": "Fresh parsley",
+          "qty": 10,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "To serve"
+        }
+      ],
+      "steps": [
+        "Check live mussels; discard cracked ones that do not close when tapped. Clean and debeard before cooking.",
+        "Warm fish stock and infuse 0.2 g saffron. Heat 45 ml oil in a broad paella pan and briefly sauté 300 g squid.",
+        "Add grated tomato, 10 g minced garlic and 2 g paprika; cook until the sofrito thickens.",
+        "Stir in 320 g dry rice to coat. Pour in approximately 1000 ml hot stock; reserve the remainder to adjust according to pan and rice.",
+        "Cook uncovered at a steady simmer. After rice has begun to absorb liquid, position peeled shrimp and mussels across the top.",
+        "Cook until rice is tender, shrimp opaque and mussels open. Discard unopened mussels; rest 5 minutes.",
+        "Garnish with parsley and lemon. This dish is best served fresh; do not promise ideal paella texture after freezing."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Seafood-only version without chorizo or chicken. The source supplies precisely weighed shrimp, squid, mussels and rice. Mussel weight includes shells and is not counted as 100% edible in estimates.",
+    "Storing & reheating: Paella is best on cooking day; rice texture and shellfish quality decline after refrigeration. If prepped, refrigerate up to 1-2 days and reheat thoroughly.",
+    "Freezer: T RECOMMENDED: texture loses quality",
+    "Allergens: Shellfish / molluscs",
+    "Refrigerate within 2 hours (1 hour above 32°C) in shallow containers at 4°C or colder and follow the shorter seafood limit above. Cook fish to 63°C, shrimp and shellfish until opaque and firm (mussels must open), and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": "Paella — best on cooking day; fridge 1-2 days at most, don't freeze.",
+    "freezeFriendly": false
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://recipheon.com/en/recipes/main-dishes/seafood-paella",
+  "reference": {
+    "sourceCredit": "Seafood paella, Recipheon culinary recipe",
+    "sourceBasis": "Recipe adapted from the cited published concept; raw amounts standardised by UNHANGRY.",
+    "additionalConceptSource": "None",
+    "fileTitle": "Spanish Seafood Paella",
+    "fileRecipeNumber": 6,
+    "proteinTag": "Seafood",
+    "methodTag": "Stovetop",
+    "preparationMethod": "STOVETOP",
+    "activePrepTime": "30 minutes",
+    "cookingTime": "40 minutes",
+    "allergenDietaryTags": "Shellfish / molluscs; None declared; check exact packaged ingredients and cross-contact.",
+    "freezer": "NOT RECOMMENDED: texture loses quality",
+    "preservation": "Paella is best on cooking day; rice texture and shellfish quality decline after refrigeration. If prepped, refrigerate up to 1-2 days and reheat thoroughly.",
+    "fileMacrosPerServing": {
+      "kcal": 610,
+      "protein": 44.2,
+      "carbs": 73.2,
+      "fat": 15.6
+    },
+    "fileMacroText": {
+      "kcal": "610 kcal (ingredient-based estimate)",
+      "protein": "44.2 g (estimate)",
+      "carbs": "73.2 g (estimate)",
+      "fat": "15.6 g (estimate)"
+    },
+    "nutritionBasis": "Calculated from standardised approximate per-100g raw ingredient profiles; NOT author-published nutrition and NOT lab-tested. Liquid ml treated as equivalent to grams in this provisional calculation. Ingredient brands, cooking loss, fish skin/bones and oil retention are important error sources. Recalculate in verified nutrition tool before publication.",
+    "fileNotes": "Seafood-only version without chorizo or chicken. The source supplies precisely weighed shrimp, squid, mussels and rice. Mussel weight includes shells and is not counted as 100% edible in estimates.",
+    "rawQuantityNote": "All quantities below are FIXED NUMERIC AMOUNTS in g or ml. Dry rice/pasta are dry weights; seafood is raw edible prepared weight unless stated. Water for boiling or steaming is preparation water and does not enter nutrition totals.",
+    "stepsNote": "PREPARATION STEPS (UNHANGRY-ORIGINAL WRITING; REVIEW AGAINST SOURCE + KITCHEN TEST)",
+    "cookedYieldEstimates": [
+      "Cooked paella rice and sofrito: ~1110 g",
+      "Cooked edible shrimp and squid: ~510 g",
+      "Cooked mussel meat, out of shells: ~130 g"
+    ],
+    "cookedYieldNote": "Weigh each cooked component after preparing it. These predicted yields must NOT be used for precise member-level portion calculations before kitchen testing.",
+    "foodSafety": [
+      "Refrigerate perishables promptly in shallow containers: within 2 hours after cooking, or within 1 hour if the air temperature is above 32 C.",
+      "Store at 4 C or colder. General cooked-leftover limit: 3-4 days; for delicate seafood recipes follow any shorter specific limit above.",
+      "Freeze later-week portions promptly, if this recipe is flagged freezer-suitable; thaw in refrigerator, not on a kitchen counter.",
+      "For fish, target a safe cooked internal temperature of 63 C; shrimp and shellfish should be cooked until opaque / firm, and mussels must open during cooking.",
+      "Reheat leftovers thoroughly to 74 C, avoiding repeated reheating and cooling cycles.",
+      "Cooked rice requires rapid chilling, appropriate cold storage and thorough reheating. Rice left warm for a prolonged period is not made safe by reheating.",
+      "Shellfish, fish, soy, dairy, wheat, egg, nuts and pork vary by recipe; verify allergens and dietary restrictions before importing.",
+      "All raw ingredients and exact steps in this file constitute a DRAFT FOR MIRNA REVIEW. Source links document inspiration and recipe provenance, not publisher endorsement."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 595,
+      "protein": 43,
+      "carbs": 71,
+      "fat": 14
+    },
+    "quantitiesFrom": "UNHANGRY Seafood Stovetop file — exact raw quantities as written."
+  }
+}

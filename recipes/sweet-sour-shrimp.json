@@ -1,0 +1,267 @@
+{
+  "id": "sweet-sour-shrimp",
+  "name": "Chinese Sweet and Sour Shrimp with Rice",
+  "protein": "seafood",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 696,
+    "protein": 41,
+    "carbs": 101,
+    "fat": 14
+  },
+  "components": [
+    {
+      "id": "shrimp",
+      "name": "Sweet and Sour Shrimp",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 1140,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 439,
+        "protein": 37,
+        "carbs": 46,
+        "fat": 13
+      },
+      "ingredients": [
+        {
+          "name": "Raw peeled shrimp",
+          "qty": 680,
+          "unit": "g",
+          "component": "protein",
+          "group": "Coated shrimp"
+        },
+        {
+          "name": "Plain flour",
+          "qty": 55,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Coated shrimp"
+        },
+        {
+          "name": "Cornflour for coating",
+          "qty": 25,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Coated shrimp"
+        },
+        {
+          "name": "Baking powder, counted as seasoning",
+          "qty": 1,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Coated shrimp"
+        },
+        {
+          "name": "Salt",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Coated shrimp"
+        },
+        {
+          "name": "White pepper",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Coated shrimp"
+        },
+        {
+          "name": "Neutral cooking oil retained",
+          "qty": 45,
+          "unit": "ml",
+          "component": "other",
+          "group": "Coated shrimp"
+        },
+        {
+          "name": "Red onion",
+          "qty": 75,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Sweet and sour sauce"
+        },
+        {
+          "name": "Red pepper",
+          "qty": 90,
+          "unit": "g",
+          "component": "other",
+          "group": "Sweet and sour sauce"
+        },
+        {
+          "name": "Green pepper",
+          "qty": 90,
+          "unit": "g",
+          "component": "other",
+          "group": "Sweet and sour sauce"
+        },
+        {
+          "name": "Ketchup",
+          "qty": 40,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Sweet and sour sauce"
+        },
+        {
+          "name": "Canned pineapple chunks",
+          "qty": 140,
+          "unit": "g",
+          "component": "other",
+          "group": "Sweet and sour sauce"
+        },
+        {
+          "name": "Pineapple juice",
+          "qty": 125,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Sweet and sour sauce"
+        },
+        {
+          "name": "Water",
+          "qty": 75,
+          "unit": "ml",
+          "component": "other",
+          "group": "Sweet and sour sauce"
+        },
+        {
+          "name": "Red wine vinegar",
+          "qty": 40,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Sweet and sour sauce"
+        },
+        {
+          "name": "Sugar",
+          "qty": 38,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Sweet and sour sauce"
+        },
+        {
+          "name": "Cornflour for slurry",
+          "qty": 15,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Sweet and sour sauce"
+        },
+        {
+          "name": "Water for slurry",
+          "qty": 30,
+          "unit": "ml",
+          "component": "other",
+          "group": "Sweet and sour sauce"
+        }
+      ],
+      "steps": [
+        "Mix 55 g flour, 25 g cornflour, baking powder, salt and white pepper; lightly dust dry shrimp in this coating.",
+        "Heat 45 ml oil in a wide skillet and shallow-cook shrimp in batches, turning until opaque and lightly crisp. Set on a rack.",
+        "Stir-fry sliced red onion and peppers in the pan. Add ketchup, pineapple, juice, vinegar and sugar.",
+        "Simmer sauce 2-3 minutes, then add the 15 g cornflour combined with 30 ml water until the sauce coats a spoon.",
+        "Just before eating, fold shrimp into sauce or keep apart for reheating. Portion with cooked rice."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Jasmine Rice",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 790,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 257,
+        "protein": 5,
+        "carbs": 55,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Dry jasmine rice",
+          "qty": 280,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Water",
+          "qty": 470,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Cook 280 g dry rice in 470 ml water; cover until tender and rest."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "UNHANGRY uses a shallow-pan crisping technique, not the publisher's deep-fried and refried technique, to standardise retained oil for rough macros. Nutrition is an adaptation.",
+    "Storing & reheating: Best fresh. If kept, refrigerate up to 2 days with sauce separately; freeze neither battered shrimp nor assembled dish when crispness is important.",
+    "Freezer: deep-fried batter goes soft",
+    "Allergens: Shellfish / molluscs, Wheat / gluten",
+    "Refrigerate within 2 hours (1 hour above 32°C) in shallow containers at 4°C or colder and follow the shorter seafood limit above. Cook fish to 63°C, shrimp and shellfish until opaque and firm (mussels must open), and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": "Best fresh — fridge up to 2 days with the sauce kept apart; don't freeze.",
+    "freezeFriendly": false
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://thewoksoflife.com/sweet-and-sour-shrimp/",
+  "reference": {
+    "sourceCredit": "Bill Leung, The Woks of Life",
+    "sourceBasis": "Recipe adapted from the cited published concept; raw amounts standardised by UNHANGRY.",
+    "additionalConceptSource": "None",
+    "fileTitle": "Chinese Sweet and Sour Shrimp with Rice",
+    "fileRecipeNumber": 17,
+    "proteinTag": "Seafood",
+    "methodTag": "Stovetop",
+    "preparationMethod": "STOVETOP",
+    "activePrepTime": "25 minutes",
+    "cookingTime": "30 minutes",
+    "allergenDietaryTags": "Shellfish / molluscs, Wheat / gluten; None declared; check exact packaged ingredients and cross-contact.",
+    "freezer": "NO, deep-fried batter goes soft",
+    "preservation": "Best fresh. If kept, refrigerate up to 2 days with sauce separately; freeze neither battered shrimp nor assembled dish when crispness is important.",
+    "fileMacrosPerServing": {
+      "kcal": 696,
+      "protein": 41.4,
+      "carbs": 101.3,
+      "fat": 13.9
+    },
+    "fileMacroText": {
+      "kcal": "696 kcal (ingredient-based estimate)",
+      "protein": "41.4 g (estimate)",
+      "carbs": "101.3 g (estimate)",
+      "fat": "13.9 g (estimate)"
+    },
+    "nutritionBasis": "Calculated from standardised approximate per-100g raw ingredient profiles; NOT author-published nutrition and NOT lab-tested. Liquid ml treated as equivalent to grams in this provisional calculation. Ingredient brands, cooking loss, fish skin/bones and oil retention are important error sources. Recalculate in verified nutrition tool before publication.",
+    "fileNotes": "UNHANGRY uses a shallow-pan crisping technique, not the publisher's deep-fried and refried technique, to standardise retained oil for rough macros. Nutrition is an adaptation.",
+    "rawQuantityNote": "All quantities below are FIXED NUMERIC AMOUNTS in g or ml. Dry rice/pasta are dry weights; seafood is raw edible prepared weight unless stated. Water for boiling or steaming is preparation water and does not enter nutrition totals.",
+    "stepsNote": "PREPARATION STEPS (UNHANGRY-ORIGINAL WRITING; REVIEW AGAINST SOURCE + KITCHEN TEST)",
+    "cookedYieldEstimates": [
+      "Cooked rice: ~790 g",
+      "Cooked coated shrimp: ~650 g",
+      "Sweet and sour sauce with vegetables: ~490 g"
+    ],
+    "cookedYieldNote": "Weigh each cooked component after preparing it. These predicted yields must NOT be used for precise member-level portion calculations before kitchen testing.",
+    "foodSafety": [
+      "Refrigerate perishables promptly in shallow containers: within 2 hours after cooking, or within 1 hour if the air temperature is above 32 C.",
+      "Store at 4 C or colder. General cooked-leftover limit: 3-4 days; for delicate seafood recipes follow any shorter specific limit above.",
+      "Freeze later-week portions promptly, if this recipe is flagged freezer-suitable; thaw in refrigerator, not on a kitchen counter.",
+      "For fish, target a safe cooked internal temperature of 63 C; shrimp and shellfish should be cooked until opaque / firm, and mussels must open during cooking.",
+      "Reheat leftovers thoroughly to 74 C, avoiding repeated reheating and cooling cycles.",
+      "Cooked rice requires rapid chilling, appropriate cold storage and thorough reheating. Rice left warm for a prolonged period is not made safe by reheating.",
+      "Shellfish, fish, soy, dairy, wheat, egg, nuts and pork vary by recipe; verify allergens and dietary restrictions before importing.",
+      "All raw ingredients and exact steps in this file constitute a DRAFT FOR MIRNA REVIEW. Source links document inspiration and recipe provenance, not publisher endorsement."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 683,
+      "protein": 41,
+      "carbs": 101,
+      "fat": 12
+    },
+    "quantitiesFrom": "UNHANGRY Seafood Stovetop file — exact raw quantities as written."
+  }
+}

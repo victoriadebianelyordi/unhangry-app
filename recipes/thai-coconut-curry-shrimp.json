@@ -1,0 +1,206 @@
+{
+  "id": "thai-coconut-curry-shrimp",
+  "name": "Thai Coconut Curry Shrimp with Jasmine Rice",
+  "protein": "seafood",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 644,
+    "protein": 33,
+    "carbs": 65,
+    "fat": 28
+  },
+  "components": [
+    {
+      "id": "curry",
+      "name": "Red Curry Shrimp",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 1020,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 413,
+        "protein": 28,
+        "carbs": 14,
+        "fat": 28
+      },
+      "ingredients": [
+        {
+          "name": "Peeled raw shrimp",
+          "qty": 500,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Neutral oil",
+          "qty": 30,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Thai red curry paste",
+          "qty": 60,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Garlic",
+          "qty": 10,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Ginger",
+          "qty": 10,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Onion",
+          "qty": 130,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Red bell pepper",
+          "qty": 100,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Coconut milk",
+          "qty": 400,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Brown sugar",
+          "qty": 9,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Fresh cilantro",
+          "qty": 15,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Salt",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Heat 15 ml of the neutral oil in a wide pan, quickly sear the peeled shrimp until nearly opaque, then lift out.",
+        "Add remaining oil, garlic and ginger; fry briefly. Stir in 60 g Thai red curry paste and 9 g brown sugar.",
+        "Add the onion and pepper. Cook 2 minutes; then add 400 ml coconut milk and simmer gently until vegetables soften.",
+        "Return shrimp to sauce for 1-2 minutes until cooked through; adjust with measured salt and sprinkle cilantro.",
+        "Portion curry and rice separately. Cool rapidly and freeze any portions scheduled beyond early week."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Jasmine Rice",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 730,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 231,
+        "protein": 4,
+        "carbs": 52,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Dry jasmine rice",
+          "qty": 260,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Water",
+          "qty": 420,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Cook 260 g dry jasmine rice with 420 ml water covered, resting 10 minutes after cooking."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Based on published 4-serving curry. UNHANGRY adds measured rice as part of complete meal.",
+    "Storing & reheating: Refrigerate 2-3 days; freeze curry/rice in separate shallow portions. Thaw and reheat gently, avoiding overcooked shrimp.",
+    "Freezer: but shrimp and sauce texture may change",
+    "Allergens: Shellfish / molluscs",
+    "Refrigerate within 2 hours (1 hour above 32°C) in shallow containers at 4°C or colder and follow the shorter seafood limit above. Cook fish to 63°C, shrimp and shellfish until opaque and firm (mussels must open), and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": "Shrimp curry — fridge 2-3 days; freeze later-week portions.",
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://thewoksoflife.com/coconut-curry-shrimp/",
+  "reference": {
+    "sourceCredit": "Sarah Leung, The Woks of Life",
+    "sourceBasis": "Recipe adapted from the cited published concept; raw amounts standardised by UNHANGRY.",
+    "additionalConceptSource": "None",
+    "fileTitle": "Thai Coconut Curry Shrimp with Jasmine Rice",
+    "fileRecipeNumber": 5,
+    "proteinTag": "Seafood",
+    "methodTag": "Stovetop",
+    "preparationMethod": "STOVETOP",
+    "activePrepTime": "15 minutes",
+    "cookingTime": "25 minutes",
+    "allergenDietaryTags": "Shellfish / molluscs; None declared; check exact packaged ingredients and cross-contact.",
+    "freezer": "YES, but shrimp and sauce texture may change",
+    "preservation": "Refrigerate 2-3 days; freeze curry/rice in separate shallow portions. Thaw and reheat gently, avoiding overcooked shrimp.",
+    "fileMacrosPerServing": {
+      "kcal": 644,
+      "protein": 32.7,
+      "carbs": 65.3,
+      "fat": 28
+    },
+    "fileMacroText": {
+      "kcal": "644 kcal (ingredient-based estimate)",
+      "protein": "32.7 g (estimate)",
+      "carbs": "65.3 g (estimate)",
+      "fat": "28.0 g (estimate)"
+    },
+    "nutritionBasis": "Calculated from standardised approximate per-100g raw ingredient profiles; NOT author-published nutrition and NOT lab-tested. Liquid ml treated as equivalent to grams in this provisional calculation. Ingredient brands, cooking loss, fish skin/bones and oil retention are important error sources. Recalculate in verified nutrition tool before publication.",
+    "fileNotes": "Based on published 4-serving curry. UNHANGRY adds measured rice as part of complete meal.",
+    "rawQuantityNote": "All quantities below are FIXED NUMERIC AMOUNTS in g or ml. Dry rice/pasta are dry weights; seafood is raw edible prepared weight unless stated. Water for boiling or steaming is preparation water and does not enter nutrition totals.",
+    "stepsNote": "PREPARATION STEPS (UNHANGRY-ORIGINAL WRITING; REVIEW AGAINST SOURCE + KITCHEN TEST)",
+    "cookedYieldEstimates": [
+      "Cooked shrimp and coconut curry: ~1020 g",
+      "Cooked jasmine rice: ~730 g"
+    ],
+    "cookedYieldNote": "Weigh each cooked component after preparing it. These predicted yields must NOT be used for precise member-level portion calculations before kitchen testing.",
+    "foodSafety": [
+      "Refrigerate perishables promptly in shallow containers: within 2 hours after cooking, or within 1 hour if the air temperature is above 32 C.",
+      "Store at 4 C or colder. General cooked-leftover limit: 3-4 days; for delicate seafood recipes follow any shorter specific limit above.",
+      "Freeze later-week portions promptly, if this recipe is flagged freezer-suitable; thaw in refrigerator, not on a kitchen counter.",
+      "For fish, target a safe cooked internal temperature of 63 C; shrimp and shellfish should be cooked until opaque / firm, and mussels must open during cooking.",
+      "Reheat leftovers thoroughly to 74 C, avoiding repeated reheating and cooling cycles.",
+      "Cooked rice requires rapid chilling, appropriate cold storage and thorough reheating. Rice left warm for a prolonged period is not made safe by reheating.",
+      "Shellfish, fish, soy, dairy, wheat, egg, nuts and pork vary by recipe; verify allergens and dietary restrictions before importing.",
+      "All raw ingredients and exact steps in this file constitute a DRAFT FOR MIRNA REVIEW. Source links document inspiration and recipe provenance, not publisher endorsement."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 653,
+      "protein": 33,
+      "carbs": 65,
+      "fat": 30
+    },
+    "quantitiesFrom": "UNHANGRY Seafood Stovetop file — exact raw quantities as written."
+  }
+}

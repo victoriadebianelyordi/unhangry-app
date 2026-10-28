@@ -1,0 +1,252 @@
+{
+  "id": "spanish-zarzuela",
+  "name": "Spanish Zarzuela de Pescado y Marisco with Potatoes",
+  "protein": "seafood",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 555,
+    "protein": 64,
+    "carbs": 41,
+    "fat": 15
+  },
+  "components": [
+    {
+      "id": "zarzuela",
+      "name": "Seafood Zarzuela",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 1900,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 439,
+        "protein": 60,
+        "carbs": 16,
+        "fat": 15
+      },
+      "ingredients": [
+        {
+          "name": "Raw monkfish, boneless",
+          "qty": 280,
+          "unit": "g",
+          "component": "protein",
+          "group": "Seafood"
+        },
+        {
+          "name": "Raw hake, boneless",
+          "qty": 280,
+          "unit": "g",
+          "component": "protein",
+          "group": "Seafood"
+        },
+        {
+          "name": "Peeled raw prawns",
+          "qty": 280,
+          "unit": "g",
+          "component": "protein",
+          "group": "Seafood"
+        },
+        {
+          "name": "Cleaned squid rings",
+          "qty": 250,
+          "unit": "g",
+          "component": "protein",
+          "group": "Seafood"
+        },
+        {
+          "name": "Raw shucked mussel meat",
+          "qty": 180,
+          "unit": "g",
+          "component": "protein",
+          "group": "Seafood"
+        },
+        {
+          "name": "Onion, chopped",
+          "qty": 150,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Tomato broth"
+        },
+        {
+          "name": "Garlic, minced",
+          "qty": 15,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Tomato broth"
+        },
+        {
+          "name": "Chopped tomatoes",
+          "qty": 450,
+          "unit": "g",
+          "component": "other",
+          "group": "Tomato broth"
+        },
+        {
+          "name": "Tomato paste",
+          "qty": 30,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Tomato broth"
+        },
+        {
+          "name": "Fish stock",
+          "qty": 400,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Tomato broth"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 35,
+          "unit": "ml",
+          "component": "other",
+          "group": "Tomato broth"
+        },
+        {
+          "name": "Paprika",
+          "qty": 4,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Tomato broth"
+        },
+        {
+          "name": "Bay leaf",
+          "qty": 1,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Tomato broth"
+        },
+        {
+          "name": "Salt",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Tomato broth"
+        },
+        {
+          "name": "Parsley",
+          "qty": 20,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Tomato broth"
+        }
+      ],
+      "steps": [
+        "In a broad casserole soften 150 g onion and 15 g garlic in olive oil; add tomatoes, tomato paste, paprika and bay leaf.",
+        "Cook the tomato base for about 8 minutes, then pour in 400 ml fish stock and simmer.",
+        "Add 250 g squid rings first, followed by monkfish and hake pieces. Keep the broth at a gentle simmer to protect the fish.",
+        "Add prawns and raw mussel meat near the end, gently simmering until all seafood is fully cooked.",
+        "Discard bay leaf and fold in parsley. Portion the fish stew with boiled potatoes; cool and refrigerate promptly."
+      ]
+    },
+    {
+      "id": "potatoes",
+      "name": "Boiled Potatoes",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 540,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 116,
+        "protein": 3,
+        "carbs": 25,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Raw peeled potatoes, diced",
+          "qty": 550,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Water for boiling",
+          "qty": 1200,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Salt",
+          "qty": 4,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Boil diced 550 g potatoes in 1200 ml salted water until just tender and drain."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Original published zarzuela includes wine, mussels, prawns, monkfish, hake and squid. This fixed-quantity adaptation replaces wine with fish stock, adds potatoes to make a complete meal, and uses measured edible fish and mussel meat.",
+    "Storing & reheating: Refrigerate 1-2 days for best quality; freeze base tomato broth separately and add freshly cooked fish and shellfish at serving for ideal texture.",
+    "Freezer: seafood becomes delicate",
+    "Allergens: Fish, Shellfish / molluscs",
+    "Refrigerate within 2 hours (1 hour above 32°C) in shallow containers at 4°C or colder and follow the shorter seafood limit above. Cook fish to 63°C, shrimp and shellfish until opaque and firm (mussels must open), and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": "Seafood — fridge 1-2 days; freeze only the tomato broth.",
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://canalcocina.es/receta/zarzuela-de-pescado-y-marisco",
+  "reference": {
+    "sourceCredit": "Alejandro Vega and Carlos Montes, Canal Cocina",
+    "sourceBasis": "Recipe adapted from the cited published concept; raw amounts standardised by UNHANGRY.",
+    "additionalConceptSource": "None",
+    "fileTitle": "Spanish Zarzuela de Pescado y Marisco with Potatoes",
+    "fileRecipeNumber": 21,
+    "proteinTag": "Seafood",
+    "methodTag": "Stovetop",
+    "preparationMethod": "STOVETOP",
+    "activePrepTime": "35 minutes",
+    "cookingTime": "40 minutes",
+    "allergenDietaryTags": "Fish, Shellfish / molluscs; Contains fish and shellfish. Published source contains white wine; UNHANGRY adaptation substitutes stock for alcohol.; check exact packaged ingredients and cross-contact.",
+    "freezer": "PARTIAL, seafood becomes delicate",
+    "preservation": "Refrigerate 1-2 days for best quality; freeze base tomato broth separately and add freshly cooked fish and shellfish at serving for ideal texture.",
+    "fileMacrosPerServing": {
+      "kcal": 555,
+      "protein": 63.5,
+      "carbs": 41.4,
+      "fat": 15.1
+    },
+    "fileMacroText": {
+      "kcal": "555 kcal (ingredient-based estimate)",
+      "protein": "63.5 g (estimate)",
+      "carbs": "41.4 g (estimate)",
+      "fat": "15.1 g (estimate)"
+    },
+    "nutritionBasis": "Calculated from standardised approximate per-100g raw ingredient profiles; NOT author-published nutrition and NOT lab-tested. Liquid ml treated as equivalent to grams in this provisional calculation. Ingredient brands, cooking loss, fish skin/bones and oil retention are important error sources. Recalculate in verified nutrition tool before publication.",
+    "fileNotes": "Original published zarzuela includes wine, mussels, prawns, monkfish, hake and squid. This fixed-quantity adaptation replaces wine with fish stock, adds potatoes to make a complete meal, and uses measured edible fish and mussel meat.",
+    "rawQuantityNote": "All quantities below are FIXED NUMERIC AMOUNTS in g or ml. Dry rice/pasta are dry weights; seafood is raw edible prepared weight unless stated. Water for boiling or steaming is preparation water and does not enter nutrition totals.",
+    "stepsNote": "PREPARATION STEPS (UNHANGRY-ORIGINAL WRITING; REVIEW AGAINST SOURCE + KITCHEN TEST)",
+    "cookedYieldEstimates": [
+      "Cooked fish and shellfish, edible: ~1010 g",
+      "Tomato and fish-stock broth: ~890 g",
+      "Cooked potatoes: ~540 g"
+    ],
+    "cookedYieldNote": "Weigh each cooked component after preparing it. These predicted yields must NOT be used for precise member-level portion calculations before kitchen testing.",
+    "foodSafety": [
+      "Refrigerate perishables promptly in shallow containers: within 2 hours after cooking, or within 1 hour if the air temperature is above 32 C.",
+      "Store at 4 C or colder. General cooked-leftover limit: 3-4 days; for delicate seafood recipes follow any shorter specific limit above.",
+      "Freeze later-week portions promptly, if this recipe is flagged freezer-suitable; thaw in refrigerator, not on a kitchen counter.",
+      "For fish, target a safe cooked internal temperature of 63 C; shrimp and shellfish should be cooked until opaque / firm, and mussels must open during cooking.",
+      "Reheat leftovers thoroughly to 74 C, avoiding repeated reheating and cooling cycles.",
+      "Cooked rice requires rapid chilling, appropriate cold storage and thorough reheating. Rice left warm for a prolonged period is not made safe by reheating.",
+      "Shellfish, fish, soy, dairy, wheat, egg, nuts and pork vary by recipe; verify allergens and dietary restrictions before importing.",
+      "All raw ingredients and exact steps in this file constitute a DRAFT FOR MIRNA REVIEW. Source links document inspiration and recipe provenance, not publisher endorsement."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 508,
+      "protein": 58,
+      "carbs": 38,
+      "fat": 14
+    },
+    "quantitiesFrom": "UNHANGRY Seafood Stovetop file — exact raw quantities as written."
+  }
+}

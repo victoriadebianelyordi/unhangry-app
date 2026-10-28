@@ -1,0 +1,278 @@
+{
+  "id": "goan-fish-curry",
+  "name": "Goan Fish Curry with Basmati Rice",
+  "protein": "seafood",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 810,
+    "protein": 45,
+    "carbs": 83,
+    "fat": 33
+  },
+  "components": [
+    {
+      "id": "curry",
+      "name": "Goan Fish Curry",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 1520,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 537,
+        "protein": 40,
+        "carbs": 25,
+        "fat": 32
+      },
+      "ingredients": [
+        {
+          "name": "Raw boneless white fish",
+          "qty": 700,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Kashmiri chilli powder",
+          "qty": 12,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Ground coriander",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Ground cumin",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Turmeric",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Ground fenugreek",
+          "qty": 1,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Ground cloves",
+          "qty": 1,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Garlic",
+          "qty": 25,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Fresh ginger",
+          "qty": 15,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Tamarind puree",
+          "qty": 30,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Red onion",
+          "qty": 150,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Water for spice paste",
+          "qty": 90,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Vegetable oil",
+          "qty": 40,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Mustard seeds",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Tomato paste",
+          "qty": 20,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Tomato passata",
+          "qty": 170,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Water for sauce",
+          "qty": 170,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Coconut milk",
+          "qty": 400,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Fresh tomato wedges",
+          "qty": 150,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Green chilli",
+          "qty": 18,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Sugar",
+          "qty": 8,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 7,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Fresh cilantro",
+          "qty": 20,
+          "unit": "g",
+          "component": "aromatic"
+        }
+      ],
+      "steps": [
+        "Blend dry curry spices, half the onion, garlic, ginger, tamarind and 90 ml water into a smooth spice paste.",
+        "Heat the vegetable oil; toast mustard seeds, cook remaining sliced onion and stir in tomato paste.",
+        "Cook the blended paste until aromatic. Add passata, 170 ml water and 400 ml coconut milk and simmer gently.",
+        "Add tomato wedges and green chilli. Lower the heat, then carefully add 700 g fish cubes; simmer until opaque and cooked through.",
+        "Finish with sugar, salt and cilantro. Portion fish curry separately from rice and cool quickly."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Basmati Rice",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 840,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 273,
+        "protein": 5,
+        "carbs": 58,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Dry basmati rice",
+          "qty": 300,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Water",
+          "qty": 500,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Cook basmati rice with the measured 500 ml water; cover and rest before separating into four portions."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "The original fish curry does not provide a fixed dry-rice quantity. UNHANGRY adds 300 g raw basmati and has fixed the spices and omitted optional alcohol.",
+    "Storing & reheating: Freeze fish curry and rice separately. Fish can flake and coconut sauce may show slight separation; stir gently after thawing.",
+    "Freezer: with gentle thaw/reheat",
+    "Allergens: Fish",
+    "Refrigerate within 2 hours (1 hour above 32°C) in shallow containers at 4°C or colder and follow the shorter seafood limit above. Cook fish to 63°C, shrimp and shellfish until opaque and firm (mussels must open), and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": "Fish curry — plan for days 1-3; freeze later-week portions.",
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.recipetineats.com/goan-fish-curry-indian/",
+  "reference": {
+    "sourceCredit": "Nagi Maehashi, RecipeTin Eats",
+    "sourceBasis": "Recipe adapted from the cited published concept; raw amounts standardised by UNHANGRY.",
+    "additionalConceptSource": "None",
+    "fileTitle": "Goan Fish Curry with Basmati Rice",
+    "fileRecipeNumber": 12,
+    "proteinTag": "Seafood",
+    "methodTag": "Stovetop",
+    "preparationMethod": "STOVETOP",
+    "activePrepTime": "30 minutes",
+    "cookingTime": "30 minutes",
+    "allergenDietaryTags": "Fish; None declared; check exact packaged ingredients and cross-contact.",
+    "freezer": "YES, with gentle thaw/reheat",
+    "preservation": "Freeze fish curry and rice separately. Fish can flake and coconut sauce may show slight separation; stir gently after thawing.",
+    "fileMacrosPerServing": {
+      "kcal": 810,
+      "protein": 45.3,
+      "carbs": 83.3,
+      "fat": 32.9
+    },
+    "fileMacroText": {
+      "kcal": "810 kcal (ingredient-based estimate)",
+      "protein": "45.3 g (estimate)",
+      "carbs": "83.3 g (estimate)",
+      "fat": "32.9 g (estimate)"
+    },
+    "nutritionBasis": "Calculated from standardised approximate per-100g raw ingredient profiles; NOT author-published nutrition and NOT lab-tested. Liquid ml treated as equivalent to grams in this provisional calculation. Ingredient brands, cooking loss, fish skin/bones and oil retention are important error sources. Recalculate in verified nutrition tool before publication.",
+    "fileNotes": "The original fish curry does not provide a fixed dry-rice quantity. UNHANGRY adds 300 g raw basmati and has fixed the spices and omitted optional alcohol.",
+    "rawQuantityNote": "All quantities below are FIXED NUMERIC AMOUNTS in g or ml. Dry rice/pasta are dry weights; seafood is raw edible prepared weight unless stated. Water for boiling or steaming is preparation water and does not enter nutrition totals.",
+    "stepsNote": "PREPARATION STEPS (UNHANGRY-ORIGINAL WRITING; REVIEW AGAINST SOURCE + KITCHEN TEST)",
+    "cookedYieldEstimates": [
+      "Cooked rice: ~840 g",
+      "Fish curry, including sauce: ~1520 g"
+    ],
+    "cookedYieldNote": "Weigh each cooked component after preparing it. These predicted yields must NOT be used for precise member-level portion calculations before kitchen testing.",
+    "foodSafety": [
+      "Refrigerate perishables promptly in shallow containers: within 2 hours after cooking, or within 1 hour if the air temperature is above 32 C.",
+      "Store at 4 C or colder. General cooked-leftover limit: 3-4 days; for delicate seafood recipes follow any shorter specific limit above.",
+      "Freeze later-week portions promptly, if this recipe is flagged freezer-suitable; thaw in refrigerator, not on a kitchen counter.",
+      "For fish, target a safe cooked internal temperature of 63 C; shrimp and shellfish should be cooked until opaque / firm, and mussels must open during cooking.",
+      "Reheat leftovers thoroughly to 74 C, avoiding repeated reheating and cooling cycles.",
+      "Cooked rice requires rapid chilling, appropriate cold storage and thorough reheating. Rice left warm for a prolonged period is not made safe by reheating.",
+      "Shellfish, fish, soy, dairy, wheat, egg, nuts and pork vary by recipe; verify allergens and dietary restrictions before importing.",
+      "All raw ingredients and exact steps in this file constitute a DRAFT FOR MIRNA REVIEW. Source links document inspiration and recipe provenance, not publisher endorsement."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 802,
+      "protein": 41,
+      "carbs": 85,
+      "fat": 33
+    },
+    "quantitiesFrom": "UNHANGRY Seafood Stovetop file — exact raw quantities as written."
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "id": "shrimp-pad-thai",
+  "name": "Shrimp Pad Thai",
+  "protein": "seafood",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 722,
+    "protein": 49,
+    "carbs": 78,
+    "fat": 24
+  },
+  "components": [
+    {
+      "id": "padthai",
+      "name": "Shrimp Pad Thai",
+      "scaling": "ratio",
+      "role": "whole",
+      "servings": 4,
+      "cookedYieldG": 1760,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 722,
+        "protein": 49,
+        "carbs": 78,
+        "fat": 24
+      },
+      "ingredients": [
+        {
+          "name": "Dry rice noodles",
+          "qty": 260,
+          "unit": "g",
+          "component": "carb",
+          "group": "Noodles"
+        },
+        {
+          "name": "Water for soaking",
+          "qty": 1500,
+          "unit": "ml",
+          "component": "other",
+          "group": "Noodles"
+        },
+        {
+          "name": "Peeled raw shrimp",
+          "qty": 620,
+          "unit": "g",
+          "component": "protein",
+          "group": "Shrimp and vegetables"
+        },
+        {
+          "name": "Firm tofu",
+          "qty": 150,
+          "unit": "g",
+          "component": "protein",
+          "group": "Shrimp and vegetables"
+        },
+        {
+          "name": "Shallot",
+          "qty": 70,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Shrimp and vegetables"
+        },
+        {
+          "name": "Garlic",
+          "qty": 15,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Shrimp and vegetables"
+        },
+        {
+          "name": "Chinese garlic chives",
+          "qty": 110,
+          "unit": "g",
+          "component": "other",
+          "group": "Shrimp and vegetables"
+        },
+        {
+          "name": "Fresh bean sprouts",
+          "qty": 170,
+          "unit": "g",
+          "component": "other",
+          "group": "Shrimp and vegetables"
+        },
+        {
+          "name": "Egg, edible raw",
+          "qty": 150,
+          "unit": "g",
+          "component": "protein",
+          "group": "Shrimp and vegetables"
+        },
+        {
+          "name": "Peanut or canola oil",
+          "qty": 45,
+          "unit": "ml",
+          "component": "other",
+          "group": "Shrimp and vegetables"
+        },
+        {
+          "name": "Tamarind concentrate",
+          "qty": 30,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Sauce and finish"
+        },
+        {
+          "name": "Fish sauce",
+          "qty": 45,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Sauce and finish"
+        },
+        {
+          "name": "Brown sugar",
+          "qty": 35,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Sauce and finish"
+        },
+        {
+          "name": "Seafood stock",
+          "qty": 120,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Sauce and finish"
+        },
+        {
+          "name": "White pepper",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Sauce and finish"
+        },
+        {
+          "name": "Roasted peanuts, crushed",
+          "qty": 30,
+          "unit": "g",
+          "component": "other",
+          "group": "Sauce and finish"
+        },
+        {
+          "name": "Fresh cilantro",
+          "qty": 15,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Sauce and finish"
+        },
+        {
+          "name": "Lime juice",
+          "qty": 30,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Sauce and finish"
+        }
+      ],
+      "steps": [
+        "Soak 260 g rice noodles in room-temperature water until pliable, then drain; do not fully cook at this stage.",
+        "Whisk tamarind, fish sauce, 35 g brown sugar and 120 ml fish stock into a sauce.",
+        "Heat half the oil in a wok and quickly sear the peeled shrimp. Transfer out before they overcook.",
+        "Add remaining oil, then shallot, garlic and firm tofu. Stir-fry until fragrant and lightly browned.",
+        "Add drained noodles and sauce; move briskly until noodles soften. Push aside, add beaten eggs, then fold together.",
+        "Return shrimp, bean sprouts and chives; heat until seafood is cooked. Finish with peanuts, cilantro and lime. Serve fresh."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "The original recipe uses whole shrimp shells to make a stock and tofu as well. UNHANGRY uses cleaned shrimp plus seafood stock and increases shrimp to make a balanced main meal.",
+    "Storing & reheating: Noodles, bean sprouts and shrimp lose texture after freezing. For prep, keep tamarind sauce separately and cook or toss on the day.",
+    "Freezer: fresh-assembly only",
+    "Allergens: Shellfish / molluscs, Soy or soy-containing sauce, Egg, Tree nuts",
+    "Refrigerate within 2 hours (1 hour above 32°C) in shallow containers at 4°C or colder and follow the shorter seafood limit above. Cook fish to 63°C, shrimp and shellfish until opaque and firm (mussels must open), and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": "Pad thai — best fresh; plan for days 1-2, don't freeze.",
+    "freezeFriendly": false
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://thewoksoflife.com/shrimp-pad-thai/",
+  "reference": {
+    "sourceCredit": "Bill Leung, The Woks of Life",
+    "sourceBasis": "Recipe adapted from the cited published concept; raw amounts standardised by UNHANGRY.",
+    "additionalConceptSource": "None",
+    "fileTitle": "Shrimp Pad Thai",
+    "fileRecipeNumber": 9,
+    "proteinTag": "Seafood",
+    "methodTag": "Stovetop",
+    "preparationMethod": "STOVETOP",
+    "activePrepTime": "35 minutes",
+    "cookingTime": "25 minutes",
+    "allergenDietaryTags": "Shellfish / molluscs, Soy or soy-containing sauce, Egg, Tree nuts; None declared; check exact packaged ingredients and cross-contact.",
+    "freezer": "NO, fresh-assembly only",
+    "preservation": "Noodles, bean sprouts and shrimp lose texture after freezing. For prep, keep tamarind sauce separately and cook or toss on the day.",
+    "fileMacrosPerServing": {
+      "kcal": 722,
+      "protein": 48.6,
+      "carbs": 78.3,
+      "fat": 23.8
+    },
+    "fileMacroText": {
+      "kcal": "722 kcal (ingredient-based estimate)",
+      "protein": "48.6 g (estimate)",
+      "carbs": "78.3 g (estimate)",
+      "fat": "23.8 g (estimate)"
+    },
+    "nutritionBasis": "Calculated from standardised approximate per-100g raw ingredient profiles; NOT author-published nutrition and NOT lab-tested. Liquid ml treated as equivalent to grams in this provisional calculation. Ingredient brands, cooking loss, fish skin/bones and oil retention are important error sources. Recalculate in verified nutrition tool before publication.",
+    "fileNotes": "The original recipe uses whole shrimp shells to make a stock and tofu as well. UNHANGRY uses cleaned shrimp plus seafood stock and increases shrimp to make a balanced main meal.",
+    "rawQuantityNote": "All quantities below are FIXED NUMERIC AMOUNTS in g or ml. Dry rice/pasta are dry weights; seafood is raw edible prepared weight unless stated. Water for boiling or steaming is preparation water and does not enter nutrition totals.",
+    "stepsNote": "PREPARATION STEPS (UNHANGRY-ORIGINAL WRITING; REVIEW AGAINST SOURCE + KITCHEN TEST)",
+    "cookedYieldEstimates": [
+      "Cooked noodles with sauce: ~750 g",
+      "Cooked shrimp: ~505 g",
+      "Egg, tofu and vegetable mixture: ~475 g",
+      "Peanut garnish: ~30 g"
+    ],
+    "cookedYieldNote": "Weigh each cooked component after preparing it. These predicted yields must NOT be used for precise member-level portion calculations before kitchen testing.",
+    "foodSafety": [
+      "Refrigerate perishables promptly in shallow containers: within 2 hours after cooking, or within 1 hour if the air temperature is above 32 C.",
+      "Store at 4 C or colder. General cooked-leftover limit: 3-4 days; for delicate seafood recipes follow any shorter specific limit above.",
+      "Freeze later-week portions promptly, if this recipe is flagged freezer-suitable; thaw in refrigerator, not on a kitchen counter.",
+      "For fish, target a safe cooked internal temperature of 63 C; shrimp and shellfish should be cooked until opaque / firm, and mussels must open during cooking.",
+      "Reheat leftovers thoroughly to 74 C, avoiding repeated reheating and cooling cycles.",
+      "Cooked rice requires rapid chilling, appropriate cold storage and thorough reheating. Rice left warm for a prolonged period is not made safe by reheating.",
+      "Shellfish, fish, soy, dairy, wheat, egg, nuts and pork vary by recipe; verify allergens and dietary restrictions before importing.",
+      "All raw ingredients and exact steps in this file constitute a DRAFT FOR MIRNA REVIEW. Source links document inspiration and recipe provenance, not publisher endorsement."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 713,
+      "protein": 52,
+      "carbs": 78,
+      "fat": 23
+    },
+    "quantitiesFrom": "UNHANGRY Seafood Stovetop file — exact raw quantities as written."
+  }
+}

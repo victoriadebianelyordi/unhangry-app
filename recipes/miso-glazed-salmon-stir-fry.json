@@ -1,0 +1,224 @@
+{
+  "id": "miso-glazed-salmon-stir-fry",
+  "name": "Miso Glazed Salmon with Stir-Fried Vegetables",
+  "protein": "seafood",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 5,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 659,
+    "protein": 49,
+    "carbs": 35,
+    "fat": 36
+  },
+  "components": [
+    {
+      "id": "salmon",
+      "name": "Miso-Glazed Salmon",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 5,
+      "cookedYieldG": 1030,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 542,
+        "protein": 44,
+        "carbs": 18,
+        "fat": 31
+      },
+      "ingredients": [
+        {
+          "name": "Raw salmon fillets, edible",
+          "qty": 1000,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Peanut oil",
+          "qty": 15,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "White miso paste",
+          "qty": 120,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Mirin",
+          "qty": 80,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Soy sauce",
+          "qty": 60,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Ginger paste",
+          "qty": 15,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Brown sugar",
+          "qty": 20,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "White pepper",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Mix 120 g white miso, 80 ml mirin, 60 ml soy, 15 g ginger paste, 20 g brown sugar and white pepper. Coat salmon and chill for 30 minutes.",
+        "Wipe excess wet glaze from salmon. Heat remaining peanut oil in a heavy skillet and place salmon skin-side down.",
+        "Sear until nicely coloured, turn gently and finish to a safe core temperature of 63 C for make-ahead service.",
+        "Bring any marinade that contacted raw fish to a full boil before reducing it to a glaze; alternatively reserve a clean portion before marinating.",
+        "Portion five servings of salmon and vegetables; chill quickly and use early-week or freeze later-week containers."
+      ]
+    },
+    {
+      "id": "veg",
+      "name": "Stir-Fried Vegetables",
+      "scaling": "fixed",
+      "servings": 5,
+      "cookedYieldG": 880,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 117,
+        "protein": 5,
+        "carbs": 16,
+        "fat": 5
+      },
+      "ingredients": [
+        {
+          "name": "Peanut oil",
+          "qty": 15,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Broccoli, trimmed",
+          "qty": 500,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Green beans, trimmed",
+          "qty": 350,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Carrots, sliced",
+          "qty": 240,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Sesame oil",
+          "qty": 10,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Sesame seeds",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Ground pepper",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Warm 15 ml peanut oil in a wok, stir-fry trimmed broccoli, beans and carrots for 5-7 minutes. Finish with sesame oil, sesame seeds and measured salt; transfer out."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Jack publishes 464 kcal, 45.8 g protein, 31 g carbs, 19 g fat per portion. UNHANGRY fixes unspecified weights for salmon and vegetables, so nutrition is recalculated and is NOT Jack's published result.",
+    "Storing & reheating: Source recommends 3 days refrigerated or 2 months frozen. Freeze as soon as cool if intended for later week. For safety, cook to 63 C and reheat thoroughly.",
+    "Freezer: with softened texture",
+    "Allergens: Fish, Soy or soy-containing sauce, Sesame, May contain alcohol",
+    "Refrigerate within 2 hours (1 hour above 32°C) in shallow containers at 4°C or colder and follow the shorter seafood limit above. Cook fish to 63°C, shrimp and shellfish until opaque and firm (mussels must open), and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": "Salmon — fridge up to 3 days; freeze later-week portions.",
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://chefjackovens.com/miso-glazed-salmon-meal-prep/",
+  "reference": {
+    "sourceCredit": "Chef Jack Ovens",
+    "sourceBasis": "Recipe adapted from the cited published concept; raw amounts standardised by UNHANGRY.",
+    "additionalConceptSource": "None",
+    "fileTitle": "Chef Jack Ovens Miso Glazed Salmon with Stir-Fried Vegetables",
+    "fileRecipeNumber": 8,
+    "proteinTag": "Seafood",
+    "methodTag": "Stovetop",
+    "preparationMethod": "STOVETOP",
+    "activePrepTime": "20 minutes",
+    "cookingTime": "20 minutes",
+    "allergenDietaryTags": "Fish, Soy or soy-containing sauce, Sesame, May contain alcohol; Contains fish, soy, sesame. Mirin may contain alcohol: check product and apply dietary filters.; check exact packaged ingredients and cross-contact.",
+    "freezer": "YES with softened texture",
+    "preservation": "Source recommends 3 days refrigerated or 2 months frozen. Freeze as soon as cool if intended for later week. For safety, cook to 63 C and reheat thoroughly.",
+    "fileMacrosPerServing": {
+      "kcal": 659,
+      "protein": 48.9,
+      "carbs": 34.7,
+      "fat": 36.1
+    },
+    "fileMacroText": {
+      "kcal": "659 kcal (ingredient-based estimate)",
+      "protein": "48.9 g (estimate)",
+      "carbs": "34.7 g (estimate)",
+      "fat": "36.1 g (estimate)"
+    },
+    "nutritionBasis": "Calculated from standardised approximate per-100g raw ingredient profiles; NOT author-published nutrition and NOT lab-tested. Liquid ml treated as equivalent to grams in this provisional calculation. Ingredient brands, cooking loss, fish skin/bones and oil retention are important error sources. Recalculate in verified nutrition tool before publication.",
+    "fileNotes": "Jack publishes 464 kcal, 45.8 g protein, 31 g carbs, 19 g fat per portion. UNHANGRY fixes unspecified weights for salmon and vegetables, so nutrition is recalculated and is NOT Jack's published result.",
+    "rawQuantityNote": "All quantities below are FIXED NUMERIC AMOUNTS in g or ml. Dry rice/pasta are dry weights; seafood is raw edible prepared weight unless stated. Water for boiling or steaming is preparation water and does not enter nutrition totals.",
+    "stepsNote": "PREPARATION STEPS (UNHANGRY-ORIGINAL WRITING; REVIEW AGAINST SOURCE + KITCHEN TEST)",
+    "cookedYieldEstimates": [
+      "Cooked salmon: ~820 g",
+      "Miso glaze retained: ~210 g",
+      "Stir-fried vegetables: ~880 g"
+    ],
+    "cookedYieldNote": "Weigh each cooked component after preparing it. These predicted yields must NOT be used for precise member-level portion calculations before kitchen testing.",
+    "foodSafety": [
+      "Refrigerate perishables promptly in shallow containers: within 2 hours after cooking, or within 1 hour if the air temperature is above 32 C.",
+      "Store at 4 C or colder. General cooked-leftover limit: 3-4 days; for delicate seafood recipes follow any shorter specific limit above.",
+      "Freeze later-week portions promptly, if this recipe is flagged freezer-suitable; thaw in refrigerator, not on a kitchen counter.",
+      "For fish, target a safe cooked internal temperature of 63 C; shrimp and shellfish should be cooked until opaque / firm, and mussels must open during cooking.",
+      "Reheat leftovers thoroughly to 74 C, avoiding repeated reheating and cooling cycles.",
+      "Cooked rice requires rapid chilling, appropriate cold storage and thorough reheating. Rice left warm for a prolonged period is not made safe by reheating.",
+      "Shellfish, fish, soy, dairy, wheat, egg, nuts and pork vary by recipe; verify allergens and dietary restrictions before importing.",
+      "All raw ingredients and exact steps in this file constitute a DRAFT FOR MIRNA REVIEW. Source links document inspiration and recipe provenance, not publisher endorsement."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 672,
+      "protein": 50,
+      "carbs": 35,
+      "fat": 37
+    },
+    "quantitiesFrom": "UNHANGRY Seafood Stovetop file — exact raw quantities as written."
+  }
+}

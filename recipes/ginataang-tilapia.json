@@ -1,0 +1,207 @@
+{
+  "id": "ginataang-tilapia",
+  "name": "Filipino Ginataang Tilapia with Spinach and Rice",
+  "protein": "seafood",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 731,
+    "protein": 45,
+    "carbs": 71,
+    "fat": 30
+  },
+  "components": [
+    {
+      "id": "stew",
+      "name": "Tilapia in Coconut Sauce",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 1390,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 466,
+        "protein": 40,
+        "carbs": 12,
+        "fat": 29
+      },
+      "ingredients": [
+        {
+          "name": "Tilapia fillets",
+          "qty": 700,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Coconut milk",
+          "qty": 400,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Garlic",
+          "qty": 16,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Onion",
+          "qty": 160,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Ginger",
+          "qty": 22,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Long green pepper",
+          "qty": 70,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Thai red chilli",
+          "qty": 10,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Fish sauce",
+          "qty": 30,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Ground black pepper",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Fresh spinach",
+          "qty": 160,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Cooking oil",
+          "qty": 30,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Heat oil in a deep skillet. Sauté onion, garlic and ginger until fragrant and lightly softened.",
+        "Pour coconut milk into the skillet and simmer gently for 5 minutes.",
+        "Add chilli and long green pepper. Nestle the raw tilapia fillets into the sauce and cover.",
+        "Cook at a gentle simmer until tilapia is fully cooked to 63 C, then add fish sauce, pepper and spinach.",
+        "Wilt spinach briefly, gently lift fish into portions and pack with rice in separate sections."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Jasmine Rice",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 840,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 265,
+        "protein": 5,
+        "carbs": 59,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Dry jasmine rice",
+          "qty": 300,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Water",
+          "qty": 500,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Cook the jasmine rice with the measured water and rest covered before portioning."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Adaptation uses 700 g raw edible fish fillets in place of whole tilapia, and includes measured dry rice. Seafood remains the primary protein.",
+    "Storing & reheating: Fish and coconut curry may be frozen but softens and separates slightly; rice can be frozen separately. For best quality, refrigerate and eat within 2 days.",
+    "Freezer: coconut sauce can separate",
+    "Allergens: Fish",
+    "Refrigerate within 2 hours (1 hour above 32°C) in shallow containers at 4°C or colder and follow the shorter seafood limit above. Cook fish to 63°C, shrimp and shellfish until opaque and firm (mussels must open), and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": "Fish — eat within 2 days for best quality.",
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://panlasangpinoy.com/ginataang-tilapia/",
+  "reference": {
+    "sourceCredit": "Vanjo Merano, Panlasang Pinoy",
+    "sourceBasis": "Recipe adapted from the cited published concept; raw amounts standardised by UNHANGRY.",
+    "additionalConceptSource": "None",
+    "fileTitle": "Filipino Ginataang Tilapia with Spinach and Rice",
+    "fileRecipeNumber": 16,
+    "proteinTag": "Seafood",
+    "methodTag": "Stovetop",
+    "preparationMethod": "STOVETOP",
+    "activePrepTime": "20 minutes",
+    "cookingTime": "30 minutes",
+    "allergenDietaryTags": "Fish; None declared; check exact packaged ingredients and cross-contact.",
+    "freezer": "PARTIAL, coconut sauce can separate",
+    "preservation": "Fish and coconut curry may be frozen but softens and separates slightly; rice can be frozen separately. For best quality, refrigerate and eat within 2 days.",
+    "fileMacrosPerServing": {
+      "kcal": 731,
+      "protein": 44.6,
+      "carbs": 70.8,
+      "fat": 29.9
+    },
+    "fileMacroText": {
+      "kcal": "731 kcal (ingredient-based estimate)",
+      "protein": "44.6 g (estimate)",
+      "carbs": "70.8 g (estimate)",
+      "fat": "29.9 g (estimate)"
+    },
+    "nutritionBasis": "Calculated from standardised approximate per-100g raw ingredient profiles; NOT author-published nutrition and NOT lab-tested. Liquid ml treated as equivalent to grams in this provisional calculation. Ingredient brands, cooking loss, fish skin/bones and oil retention are important error sources. Recalculate in verified nutrition tool before publication.",
+    "fileNotes": "Adaptation uses 700 g raw edible fish fillets in place of whole tilapia, and includes measured dry rice. Seafood remains the primary protein.",
+    "rawQuantityNote": "All quantities below are FIXED NUMERIC AMOUNTS in g or ml. Dry rice/pasta are dry weights; seafood is raw edible prepared weight unless stated. Water for boiling or steaming is preparation water and does not enter nutrition totals.",
+    "stepsNote": "PREPARATION STEPS (UNHANGRY-ORIGINAL WRITING; REVIEW AGAINST SOURCE + KITCHEN TEST)",
+    "cookedYieldEstimates": [
+      "Cooked tilapia: ~580 g",
+      "Coconut sauce and spinach: ~810 g",
+      "Cooked jasmine rice: ~840 g"
+    ],
+    "cookedYieldNote": "Weigh each cooked component after preparing it. These predicted yields must NOT be used for precise member-level portion calculations before kitchen testing.",
+    "foodSafety": [
+      "Refrigerate perishables promptly in shallow containers: within 2 hours after cooking, or within 1 hour if the air temperature is above 32 C.",
+      "Store at 4 C or colder. General cooked-leftover limit: 3-4 days; for delicate seafood recipes follow any shorter specific limit above.",
+      "Freeze later-week portions promptly, if this recipe is flagged freezer-suitable; thaw in refrigerator, not on a kitchen counter.",
+      "For fish, target a safe cooked internal temperature of 63 C; shrimp and shellfish should be cooked until opaque / firm, and mussels must open during cooking.",
+      "Reheat leftovers thoroughly to 74 C, avoiding repeated reheating and cooling cycles.",
+      "Cooked rice requires rapid chilling, appropriate cold storage and thorough reheating. Rice left warm for a prolonged period is not made safe by reheating.",
+      "Shellfish, fish, soy, dairy, wheat, egg, nuts and pork vary by recipe; verify allergens and dietary restrictions before importing.",
+      "All raw ingredients and exact steps in this file constitute a DRAFT FOR MIRNA REVIEW. Source links document inspiration and recipe provenance, not publisher endorsement."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 744,
+      "protein": 45,
+      "carbs": 72,
+      "fat": 32
+    },
+    "quantitiesFrom": "UNHANGRY Seafood Stovetop file — exact raw quantities as written."
+  }
+}

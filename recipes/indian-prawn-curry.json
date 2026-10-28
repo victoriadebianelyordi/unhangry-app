@@ -1,0 +1,236 @@
+{
+  "id": "indian-prawn-curry",
+  "name": "Indian Prawn Curry with Basmati Rice",
+  "protein": "seafood",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 614,
+    "protein": 38,
+    "carbs": 76,
+    "fat": 18
+  },
+  "components": [
+    {
+      "id": "curry",
+      "name": "Prawn Curry",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 1130,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 337,
+        "protein": 33,
+        "carbs": 15,
+        "fat": 17
+      },
+      "ingredients": [
+        {
+          "name": "Peeled raw prawns",
+          "qty": 600,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Onion",
+          "qty": 180,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Tomato",
+          "qty": 240,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Ginger-garlic paste",
+          "qty": 24,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Fresh grated coconut",
+          "qty": 80,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Neutral oil",
+          "qty": 45,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Water for masala",
+          "qty": 350,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Cumin seeds",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Curry leaves",
+          "qty": 8,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Kashmiri chilli powder",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Turmeric",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Ground coriander",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Garam masala",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Tamarind paste",
+          "qty": 10,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Cilantro",
+          "qty": 20,
+          "unit": "g",
+          "component": "aromatic"
+        }
+      ],
+      "steps": [
+        "Warm half the oil and soften onion, ginger-garlic paste and tomatoes; add chilli, turmeric, coriander and garam masala.",
+        "Blend the softened mixture with 80 g grated coconut and some of the 350 ml water to form a smooth curry base.",
+        "Heat the remaining oil; toast cumin seeds and curry leaves briefly, then add the curry paste and remaining water.",
+        "Simmer until sauce thickens. Stir in 600 g peeled prawns and cook only until opaque and fully cooked.",
+        "Add tamarind and measured salt, scatter cilantro and portion curry separately from the cooked basmati."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Basmati Rice",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 890,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 277,
+        "protein": 5,
+        "carbs": 62,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Dry basmati rice",
+          "qty": 320,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Water",
+          "qty": 540,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Cook 320 g basmati rice with 540 ml water, covered on low heat; fluff and cool promptly."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Original published recipe serves 2 with 250 g prawns. This adaptation doubles most ingredients and adds 320 g dry rice for 4 complete meals.",
+    "Storing & reheating: Cool promptly; freeze curry and rice separately. Gently heat to avoid tough prawns; rice must be refrigerated quickly.",
+    "Freezer: sauce freezes better than prawns",
+    "Allergens: Shellfish / molluscs",
+    "Refrigerate within 2 hours (1 hour above 32°C) in shallow containers at 4°C or colder and follow the shorter seafood limit above. Cook fish to 63°C, shrimp and shellfish until opaque and firm (mussels must open), and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": "Prawn curry — plan for days 1-3; freeze later-week portions.",
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.indianhealthyrecipes.com/prawn-curry-prawn-masala/",
+  "reference": {
+    "sourceCredit": "Swasthi Shreekanth, Swasthi's Recipes",
+    "sourceBasis": "Recipe adapted from the cited published concept; raw amounts standardised by UNHANGRY.",
+    "additionalConceptSource": "None",
+    "fileTitle": "Indian Prawn Curry with Basmati Rice",
+    "fileRecipeNumber": 11,
+    "proteinTag": "Seafood",
+    "methodTag": "Stovetop",
+    "preparationMethod": "STOVETOP",
+    "activePrepTime": "25 minutes",
+    "cookingTime": "35 minutes",
+    "allergenDietaryTags": "Shellfish / molluscs; None declared; check exact packaged ingredients and cross-contact.",
+    "freezer": "YES, sauce freezes better than prawns",
+    "preservation": "Cool promptly; freeze curry and rice separately. Gently heat to avoid tough prawns; rice must be refrigerated quickly.",
+    "fileMacrosPerServing": {
+      "kcal": 614,
+      "protein": 37.9,
+      "carbs": 76.2,
+      "fat": 17.5
+    },
+    "fileMacroText": {
+      "kcal": "614 kcal (ingredient-based estimate)",
+      "protein": "37.9 g (estimate)",
+      "carbs": "76.2 g (estimate)",
+      "fat": "17.5 g (estimate)"
+    },
+    "nutritionBasis": "Calculated from standardised approximate per-100g raw ingredient profiles; NOT author-published nutrition and NOT lab-tested. Liquid ml treated as equivalent to grams in this provisional calculation. Ingredient brands, cooking loss, fish skin/bones and oil retention are important error sources. Recalculate in verified nutrition tool before publication.",
+    "fileNotes": "Original published recipe serves 2 with 250 g prawns. This adaptation doubles most ingredients and adds 320 g dry rice for 4 complete meals.",
+    "rawQuantityNote": "All quantities below are FIXED NUMERIC AMOUNTS in g or ml. Dry rice/pasta are dry weights; seafood is raw edible prepared weight unless stated. Water for boiling or steaming is preparation water and does not enter nutrition totals.",
+    "stepsNote": "PREPARATION STEPS (UNHANGRY-ORIGINAL WRITING; REVIEW AGAINST SOURCE + KITCHEN TEST)",
+    "cookedYieldEstimates": [
+      "Cooked basmati rice: ~890 g",
+      "Cooked prawn curry: ~1130 g"
+    ],
+    "cookedYieldNote": "Weigh each cooked component after preparing it. These predicted yields must NOT be used for precise member-level portion calculations before kitchen testing.",
+    "foodSafety": [
+      "Refrigerate perishables promptly in shallow containers: within 2 hours after cooking, or within 1 hour if the air temperature is above 32 C.",
+      "Store at 4 C or colder. General cooked-leftover limit: 3-4 days; for delicate seafood recipes follow any shorter specific limit above.",
+      "Freeze later-week portions promptly, if this recipe is flagged freezer-suitable; thaw in refrigerator, not on a kitchen counter.",
+      "For fish, target a safe cooked internal temperature of 63 C; shrimp and shellfish should be cooked until opaque / firm, and mussels must open during cooking.",
+      "Reheat leftovers thoroughly to 74 C, avoiding repeated reheating and cooling cycles.",
+      "Cooked rice requires rapid chilling, appropriate cold storage and thorough reheating. Rice left warm for a prolonged period is not made safe by reheating.",
+      "Shellfish, fish, soy, dairy, wheat, egg, nuts and pork vary by recipe; verify allergens and dietary restrictions before importing.",
+      "All raw ingredients and exact steps in this file constitute a DRAFT FOR MIRNA REVIEW. Source links document inspiration and recipe provenance, not publisher endorsement."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 637,
+      "protein": 38,
+      "carbs": 78,
+      "fat": 19
+    },
+    "quantitiesFrom": "UNHANGRY Seafood Stovetop file — exact raw quantities as written."
+  }
+}

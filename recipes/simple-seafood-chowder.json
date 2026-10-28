@@ -1,0 +1,218 @@
+{
+  "id": "simple-seafood-chowder",
+  "name": "Simple Seafood Chowder with Potatoes and Bread",
+  "protein": "seafood",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 656,
+    "protein": 49,
+    "carbs": 50,
+    "fat": 29
+  },
+  "components": [
+    {
+      "id": "chowder",
+      "name": "Seafood Chowder",
+      "scaling": "ratio",
+      "role": "whole",
+      "servings": 4,
+      "cookedYieldG": 1850,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 547,
+        "protein": 44,
+        "carbs": 30,
+        "fat": 27
+      },
+      "ingredients": [
+        {
+          "name": "Mixed raw fish (salmon, haddock, smoked haddock)",
+          "qty": 440,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Raw shucked mixed shellfish meat",
+          "qty": 280,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Streaky bacon",
+          "qty": 100,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Onion",
+          "qty": 150,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Neutral oil",
+          "qty": 15,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Plain flour",
+          "qty": 15,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Fish stock",
+          "qty": 600,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Raw new potatoes",
+          "qty": 300,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Milk",
+          "qty": 300,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Single cream",
+          "qty": 60,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Ground mace",
+          "qty": 1,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Cayenne pepper",
+          "qty": 1,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Parsley",
+          "qty": 25,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Salt",
+          "qty": 4,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Heat 15 ml oil in a deep pot and sauté diced bacon and onion until bacon is cooked and onion softens.",
+        "Add 15 g flour and stir for 2 minutes to coat the vegetables; slowly add 600 ml fish stock.",
+        "Put in the diced potatoes and simmer until they are almost tender, around 10-12 minutes.",
+        "Add milk, mace, cayenne and a little of the measured salt; lower the heat to avoid boiling the dairy.",
+        "Add raw mixed fish and gently poach until cooked through. Stir in the raw shucked shellfish and 60 ml single cream and gently simmer until all seafood is fully cooked."
+      ]
+    },
+    {
+      "id": "bread",
+      "name": "Wholegrain Bread",
+      "scaling": "fixed",
+      "servings": 4,
+      "cookedYieldG": 160,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 109,
+        "protein": 4,
+        "carbs": 20,
+        "fat": 2
+      },
+      "ingredients": [
+        {
+          "name": "Wholegrain bread",
+          "qty": 160,
+          "unit": "g",
+          "component": "carb"
+        }
+      ],
+      "steps": [
+        "Sprinkle parsley and portion chowder with 40 g bread per serving. Chill and consume early in the week."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Source includes bacon, salmon, smoked haddock, precooked mixed shellfish and potatoes; UNHANGRY uses 280 g raw shellfish, adjusting weight and cooking time, and adds 160 g bread as a complete meal.",
+    "Storing & reheating: Published recipe advises refrigerated leftovers for up to 2 days. Do not freeze assembled cream, fish and potatoes if texture matters.",
+    "Freezer: milk and fish chowder changes texture",
+    "Allergens: Fish, Shellfish / molluscs, Dairy, Wheat / gluten, CONTAINS PORK / NON-HALAL",
+    "Refrigerate within 2 hours (1 hour above 32°C) in shallow containers at 4°C or colder and follow the shorter seafood limit above. Cook fish to 63°C, shrimp and shellfish until opaque and firm (mussels must open), and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": "Chowder — eat within 2 days; don't freeze.",
+    "freezeFriendly": false,
+    "dietaryWarning": "Contains pork — not halal."
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.bbcgoodfood.com/recipes/simple-seafood-chowder",
+  "reference": {
+    "sourceCredit": "Lulu Grimes, Good Food",
+    "sourceBasis": "Recipe adapted from the cited published concept; raw amounts standardised by UNHANGRY.",
+    "additionalConceptSource": "None",
+    "fileTitle": "Simple Seafood Chowder with Potatoes and Bread",
+    "fileRecipeNumber": 22,
+    "proteinTag": "Seafood",
+    "methodTag": "Stovetop",
+    "preparationMethod": "STOVETOP",
+    "activePrepTime": "20 minutes",
+    "cookingTime": "30 minutes",
+    "allergenDietaryTags": "Fish, Shellfish / molluscs, Dairy, Wheat / gluten, CONTAINS PORK / NON-HALAL; NON-HALAL: contains pork bacon. Contains fish, shellfish, dairy, wheat/gluten.; check exact packaged ingredients and cross-contact.",
+    "freezer": "NO: milk and fish chowder changes texture",
+    "preservation": "Published recipe advises refrigerated leftovers for up to 2 days. Do not freeze assembled cream, fish and potatoes if texture matters.",
+    "fileMacrosPerServing": {
+      "kcal": 656,
+      "protein": 48.7,
+      "carbs": 50.4,
+      "fat": 28.9
+    },
+    "fileMacroText": {
+      "kcal": "656 kcal (ingredient-based estimate)",
+      "protein": "48.7 g (estimate)",
+      "carbs": "50.4 g (estimate)",
+      "fat": "28.9 g (estimate)"
+    },
+    "nutritionBasis": "Calculated from standardised approximate per-100g raw ingredient profiles; NOT author-published nutrition and NOT lab-tested. Liquid ml treated as equivalent to grams in this provisional calculation. Ingredient brands, cooking loss, fish skin/bones and oil retention are important error sources. Recalculate in verified nutrition tool before publication.",
+    "fileNotes": "Source includes bacon, salmon, smoked haddock, precooked mixed shellfish and potatoes; UNHANGRY uses 280 g raw shellfish, adjusting weight and cooking time, and adds 160 g bread as a complete meal.",
+    "rawQuantityNote": "All quantities below are FIXED NUMERIC AMOUNTS in g or ml. Dry rice/pasta are dry weights; seafood is raw edible prepared weight unless stated. Water for boiling or steaming is preparation water and does not enter nutrition totals.",
+    "stepsNote": "PREPARATION STEPS (UNHANGRY-ORIGINAL WRITING; REVIEW AGAINST SOURCE + KITCHEN TEST)",
+    "cookedYieldEstimates": [
+      "Chowder, including fish and broth: ~1850 g",
+      "Bread, ready to serve: ~160 g"
+    ],
+    "cookedYieldNote": "Weigh each cooked component after preparing it. These predicted yields must NOT be used for precise member-level portion calculations before kitchen testing.",
+    "foodSafety": [
+      "Refrigerate perishables promptly in shallow containers: within 2 hours after cooking, or within 1 hour if the air temperature is above 32 C.",
+      "Store at 4 C or colder. General cooked-leftover limit: 3-4 days; for delicate seafood recipes follow any shorter specific limit above.",
+      "Freeze later-week portions promptly, if this recipe is flagged freezer-suitable; thaw in refrigerator, not on a kitchen counter.",
+      "For fish, target a safe cooked internal temperature of 63 C; shrimp and shellfish should be cooked until opaque / firm, and mussels must open during cooking.",
+      "Reheat leftovers thoroughly to 74 C, avoiding repeated reheating and cooling cycles.",
+      "Cooked rice requires rapid chilling, appropriate cold storage and thorough reheating. Rice left warm for a prolonged period is not made safe by reheating.",
+      "Shellfish, fish, soy, dairy, wheat, egg, nuts and pork vary by recipe; verify allergens and dietary restrictions before importing.",
+      "All raw ingredients and exact steps in this file constitute a DRAFT FOR MIRNA REVIEW. Source links document inspiration and recipe provenance, not publisher endorsement."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 601,
+      "protein": 45,
+      "carbs": 43,
+      "fat": 27
+    },
+    "quantitiesFrom": "UNHANGRY Seafood Stovetop file — exact raw quantities as written."
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "id": "creamy-prawn-pea-risotto",
+  "name": "Creamy Prawn and Pea Risotto",
+  "protein": "seafood",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 617,
+    "protein": 40,
+    "carbs": 67,
+    "fat": 21
+  },
+  "components": [
+    {
+      "id": "risotto",
+      "name": "Prawn and Pea Risotto",
+      "scaling": "ratio",
+      "role": "whole",
+      "servings": 4,
+      "cookedYieldG": 1835,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 617,
+        "protein": 40,
+        "carbs": 67,
+        "fat": 21
+      },
+      "ingredients": [
+        {
+          "name": "Peeled raw prawns",
+          "qty": 500,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Dry arborio rice",
+          "qty": 270,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 20,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Butter for base",
+          "qty": 20,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Butter for finish",
+          "qty": 20,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Onion",
+          "qty": 90,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Garlic",
+          "qty": 10,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Fish or chicken stock",
+          "qty": 835,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Milk",
+          "qty": 250,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Frozen peas",
+          "qty": 150,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Parmesan",
+          "qty": 40,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 4,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Black pepper",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Sear the 500 g peeled prawns in 10 ml oil in a large deep pan just until coloured. Transfer them to a plate, reserving juices.",
+        "Warm remaining oil and 20 g butter in the pan. Soften 90 g onion, then stir in 10 g garlic.",
+        "Add 270 g arborio rice and toss until grains are glossy.",
+        "Gradually add 835 ml stock and 250 ml milk while stirring, allowing liquid to absorb. Simmer until rice is tender with a little bite.",
+        "Stir in 150 g peas and return the prawns to heat through. Do not overcook the seafood.",
+        "Off heat, add 20 g finishing butter and 40 g parmesan. Divide into four bowls and record actual cooked risotto yield."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "UNHANGRY uses 500 g shrimp, the higher end of the published 400-500 g range, and replaces wine with equal fish stock. 4 fixed servings.",
+    "Storing & reheating: Risotto becomes thick in refrigeration and loses its original consistency on freezing. Early-week at most; warm with stock and stir vigorously.",
+    "Freezer: premium fresh-finish meal",
+    "Allergens: Shellfish / molluscs, Dairy",
+    "Refrigerate within 2 hours (1 hour above 32°C) in shallow containers at 4°C or colder and follow the shorter seafood limit above. Cook fish to 63°C, shrimp and shellfish until opaque and firm (mussels must open), and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": "Risotto — early-week only (days 1-2); doesn't freeze well.",
+    "freezeFriendly": false
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.recipetineats.com/prawn-risotto-shrimp/",
+  "reference": {
+    "sourceCredit": "Nagi Maehashi, RecipeTin Eats",
+    "sourceBasis": "Recipe adapted from the cited published concept; raw amounts standardised by UNHANGRY.",
+    "additionalConceptSource": "None",
+    "fileTitle": "Creamy Prawn and Pea Risotto",
+    "fileRecipeNumber": 7,
+    "proteinTag": "Seafood",
+    "methodTag": "Stovetop",
+    "preparationMethod": "STOVETOP",
+    "activePrepTime": "20 minutes",
+    "cookingTime": "30 minutes",
+    "allergenDietaryTags": "Shellfish / molluscs, Dairy; None declared; check exact packaged ingredients and cross-contact.",
+    "freezer": "NO, premium fresh-finish meal",
+    "preservation": "Risotto becomes thick in refrigeration and loses its original consistency on freezing. Early-week at most; warm with stock and stir vigorously.",
+    "fileMacrosPerServing": {
+      "kcal": 617,
+      "protein": 39.8,
+      "carbs": 67.2,
+      "fat": 20.9
+    },
+    "fileMacroText": {
+      "kcal": "617 kcal (ingredient-based estimate)",
+      "protein": "39.8 g (estimate)",
+      "carbs": "67.2 g (estimate)",
+      "fat": "20.9 g (estimate)"
+    },
+    "nutritionBasis": "Calculated from standardised approximate per-100g raw ingredient profiles; NOT author-published nutrition and NOT lab-tested. Liquid ml treated as equivalent to grams in this provisional calculation. Ingredient brands, cooking loss, fish skin/bones and oil retention are important error sources. Recalculate in verified nutrition tool before publication.",
+    "fileNotes": "UNHANGRY uses 500 g shrimp, the higher end of the published 400-500 g range, and replaces wine with equal fish stock. 4 fixed servings.",
+    "rawQuantityNote": "All quantities below are FIXED NUMERIC AMOUNTS in g or ml. Dry rice/pasta are dry weights; seafood is raw edible prepared weight unless stated. Water for boiling or steaming is preparation water and does not enter nutrition totals.",
+    "stepsNote": "PREPARATION STEPS (UNHANGRY-ORIGINAL WRITING; REVIEW AGAINST SOURCE + KITCHEN TEST)",
+    "cookedYieldEstimates": [
+      "Cooked risotto rice, peas and sauce: ~1430 g",
+      "Cooked prawns: ~405 g"
+    ],
+    "cookedYieldNote": "Weigh each cooked component after preparing it. These predicted yields must NOT be used for precise member-level portion calculations before kitchen testing.",
+    "foodSafety": [
+      "Refrigerate perishables promptly in shallow containers: within 2 hours after cooking, or within 1 hour if the air temperature is above 32 C.",
+      "Store at 4 C or colder. General cooked-leftover limit: 3-4 days; for delicate seafood recipes follow any shorter specific limit above.",
+      "Freeze later-week portions promptly, if this recipe is flagged freezer-suitable; thaw in refrigerator, not on a kitchen counter.",
+      "For fish, target a safe cooked internal temperature of 63 C; shrimp and shellfish should be cooked until opaque / firm, and mussels must open during cooking.",
+      "Reheat leftovers thoroughly to 74 C, avoiding repeated reheating and cooling cycles.",
+      "Cooked rice requires rapid chilling, appropriate cold storage and thorough reheating. Rice left warm for a prolonged period is not made safe by reheating.",
+      "Shellfish, fish, soy, dairy, wheat, egg, nuts and pork vary by recipe; verify allergens and dietary restrictions before importing.",
+      "All raw ingredients and exact steps in this file constitute a DRAFT FOR MIRNA REVIEW. Source links document inspiration and recipe provenance, not publisher endorsement."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 592,
+      "protein": 39,
+      "carbs": 66,
+      "fat": 18
+    },
+    "quantitiesFrom": "UNHANGRY Seafood Stovetop file — exact raw quantities as written."
+  }
+}

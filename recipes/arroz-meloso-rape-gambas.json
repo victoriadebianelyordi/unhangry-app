@@ -1,0 +1,208 @@
+{
+  "id": "arroz-meloso-rape-gambas",
+  "name": "Spanish Arroz Meloso de Rape y Gambas",
+  "protein": "seafood",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 657,
+    "protein": 51,
+    "carbs": 74,
+    "fat": 17
+  },
+  "components": [
+    {
+      "id": "arroz",
+      "name": "Arroz Meloso with Monkfish and Prawns",
+      "scaling": "ratio",
+      "role": "whole",
+      "servings": 4,
+      "cookedYieldG": 2375,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 657,
+        "protein": 51,
+        "carbs": 74,
+        "fat": 17
+      },
+      "ingredients": [
+        {
+          "name": "Monkfish, boneless edible pieces",
+          "qty": 450,
+          "unit": "g",
+          "component": "protein",
+          "group": "Seafood"
+        },
+        {
+          "name": "Peeled raw prawns",
+          "qty": 450,
+          "unit": "g",
+          "component": "protein",
+          "group": "Seafood"
+        },
+        {
+          "name": "Dry carnaroli or bomba rice",
+          "qty": 320,
+          "unit": "g",
+          "component": "carb",
+          "group": "Rice"
+        },
+        {
+          "name": "Fish and shellfish stock",
+          "qty": 1400,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Rice"
+        },
+        {
+          "name": "Fresh ripe tomato grated",
+          "qty": 180,
+          "unit": "g",
+          "component": "other",
+          "group": "Rice"
+        },
+        {
+          "name": "Onion grated",
+          "qty": 110,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Rice"
+        },
+        {
+          "name": "Almond, garlic and parsley picada",
+          "qty": 35,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Rice"
+        },
+        {
+          "name": "Sweet paprika",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Rice"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 35,
+          "unit": "ml",
+          "component": "other",
+          "group": "Rice"
+        },
+        {
+          "name": "Saffron",
+          "qty": 0.2,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Rice"
+        },
+        {
+          "name": "Salt",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Rice"
+        },
+        {
+          "name": "Garlic for picada",
+          "qty": 10,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Rice"
+        },
+        {
+          "name": "Parsley",
+          "qty": 15,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Rice"
+        },
+        {
+          "name": "Lemon juice",
+          "qty": 25,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Rice"
+        }
+      ],
+      "steps": [
+        "Cut monkfish into bite-size pieces. Use 450 g peeled prawns, reserving shells for stock only if supplied separately.",
+        "Heat 35 ml olive oil in a broad shallow pot and sear monkfish and prawns very briefly, then lift to a plate.",
+        "Cook 110 g grated onion and 180 g tomato in the same pot until the sofrito thickens. Stir in paprika and saffron.",
+        "Mix in the 35 g almond-based picada, 10 g garlic and 15 g parsley, then add 320 g rice and coat in sofrito.",
+        "Add roughly 1200 ml hot stock; stir frequently and simmer, adding more up to 1400 ml if needed, until rice becomes creamy and just tender.",
+        "Return monkfish and prawns only for final minutes to cook thoroughly. Finish with lemon; serve immediately rather than freezing."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Benicàssim source includes 250 g monkfish, 12 prawns, 200 g rice and 1200 g stock, but does not state a base serving number. UNHANGRY scales the core dish to 4 substantial servings using original technique; quantities are an adaptation.",
+    "Storing & reheating: Meloso rice must be served soon after cooking for the intended texture; refrigeration causes thickening. Prepare seafood stock and sofrito in advance; cook rice closer to serving.",
+    "Freezer: fresh-finish risotto-style rice",
+    "Allergens: Fish, Shellfish / molluscs, Tree nuts",
+    "Refrigerate within 2 hours (1 hour above 32°C) in shallow containers at 4°C or colder and follow the shorter seafood limit above. Cook fish to 63°C, shrimp and shellfish until opaque and firm (mussels must open), and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": "Best on cooking day — cook the rice close to serving.",
+    "freezeFriendly": false
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://turismo.benicassim.es/plato/arroz-meloso-de-rape-y-gambas/",
+  "reference": {
+    "sourceCredit": "Restaurante Selma Junior, Benicàssim Turismo",
+    "sourceBasis": "Recipe adapted from the cited published concept; raw amounts standardised by UNHANGRY.",
+    "additionalConceptSource": "None",
+    "fileTitle": "Spanish Arroz Meloso de Rape y Gambas",
+    "fileRecipeNumber": 19,
+    "proteinTag": "Seafood",
+    "methodTag": "Stovetop",
+    "preparationMethod": "STOVETOP",
+    "activePrepTime": "25 minutes",
+    "cookingTime": "25 minutes",
+    "allergenDietaryTags": "Fish, Shellfish / molluscs, Tree nuts; None declared; check exact packaged ingredients and cross-contact.",
+    "freezer": "NO, fresh-finish risotto-style rice",
+    "preservation": "Meloso rice must be served soon after cooking for the intended texture; refrigeration causes thickening. Prepare seafood stock and sofrito in advance; cook rice closer to serving.",
+    "fileMacrosPerServing": {
+      "kcal": 657,
+      "protein": 51.3,
+      "carbs": 74.2,
+      "fat": 17.3
+    },
+    "fileMacroText": {
+      "kcal": "657 kcal (ingredient-based estimate)",
+      "protein": "51.3 g (estimate)",
+      "carbs": "74.2 g (estimate)",
+      "fat": "17.3 g (estimate)"
+    },
+    "nutritionBasis": "Calculated from standardised approximate per-100g raw ingredient profiles; NOT author-published nutrition and NOT lab-tested. Liquid ml treated as equivalent to grams in this provisional calculation. Ingredient brands, cooking loss, fish skin/bones and oil retention are important error sources. Recalculate in verified nutrition tool before publication.",
+    "fileNotes": "Benicàssim source includes 250 g monkfish, 12 prawns, 200 g rice and 1200 g stock, but does not state a base serving number. UNHANGRY scales the core dish to 4 substantial servings using original technique; quantities are an adaptation.",
+    "rawQuantityNote": "All quantities below are FIXED NUMERIC AMOUNTS in g or ml. Dry rice/pasta are dry weights; seafood is raw edible prepared weight unless stated. Water for boiling or steaming is preparation water and does not enter nutrition totals.",
+    "stepsNote": "PREPARATION STEPS (UNHANGRY-ORIGINAL WRITING; REVIEW AGAINST SOURCE + KITCHEN TEST)",
+    "cookedYieldEstimates": [
+      "Cooked meloso rice and stock sauce: ~1630 g",
+      "Cooked monkfish: ~380 g",
+      "Cooked prawns: ~365 g"
+    ],
+    "cookedYieldNote": "Weigh each cooked component after preparing it. These predicted yields must NOT be used for precise member-level portion calculations before kitchen testing.",
+    "foodSafety": [
+      "Refrigerate perishables promptly in shallow containers: within 2 hours after cooking, or within 1 hour if the air temperature is above 32 C.",
+      "Store at 4 C or colder. General cooked-leftover limit: 3-4 days; for delicate seafood recipes follow any shorter specific limit above.",
+      "Freeze later-week portions promptly, if this recipe is flagged freezer-suitable; thaw in refrigerator, not on a kitchen counter.",
+      "For fish, target a safe cooked internal temperature of 63 C; shrimp and shellfish should be cooked until opaque / firm, and mussels must open during cooking.",
+      "Reheat leftovers thoroughly to 74 C, avoiding repeated reheating and cooling cycles.",
+      "Cooked rice requires rapid chilling, appropriate cold storage and thorough reheating. Rice left warm for a prolonged period is not made safe by reheating.",
+      "Shellfish, fish, soy, dairy, wheat, egg, nuts and pork vary by recipe; verify allergens and dietary restrictions before importing.",
+      "All raw ingredients and exact steps in this file constitute a DRAFT FOR MIRNA REVIEW. Source links document inspiration and recipe provenance, not publisher endorsement."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 634,
+      "protein": 50,
+      "carbs": 71,
+      "fat": 15
+    },
+    "quantitiesFrom": "UNHANGRY Seafood Stovetop file — exact raw quantities as written."
+  }
+}

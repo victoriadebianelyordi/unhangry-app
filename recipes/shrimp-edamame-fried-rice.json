@@ -1,0 +1,208 @@
+{
+  "id": "shrimp-edamame-fried-rice",
+  "name": "Shrimp and Edamame Fried Rice",
+  "protein": "seafood",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 639,
+    "protein": 47,
+    "carbs": 75,
+    "fat": 17
+  },
+  "components": [
+    {
+      "id": "friedrice",
+      "name": "Shrimp and Edamame Fried Rice",
+      "scaling": "ratio",
+      "role": "whole",
+      "servings": 4,
+      "cookedYieldG": 1730,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 639,
+        "protein": 47,
+        "carbs": 74,
+        "fat": 17
+      },
+      "ingredients": [
+        {
+          "name": "Dry jasmine rice",
+          "qty": 310,
+          "unit": "g",
+          "component": "carb",
+          "group": "Rice"
+        },
+        {
+          "name": "Water for cooking rice",
+          "qty": 490,
+          "unit": "ml",
+          "component": "other",
+          "group": "Rice"
+        },
+        {
+          "name": "Peeled raw shrimp",
+          "qty": 600,
+          "unit": "g",
+          "component": "protein",
+          "group": "Fried rice"
+        },
+        {
+          "name": "Shelled frozen edamame",
+          "qty": 180,
+          "unit": "g",
+          "component": "other",
+          "group": "Fried rice"
+        },
+        {
+          "name": "Egg, raw edible",
+          "qty": 100,
+          "unit": "g",
+          "component": "protein",
+          "group": "Fried rice"
+        },
+        {
+          "name": "Onion, chopped",
+          "qty": 110,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Fried rice"
+        },
+        {
+          "name": "Snow peas, sliced",
+          "qty": 130,
+          "unit": "g",
+          "component": "other",
+          "group": "Fried rice"
+        },
+        {
+          "name": "Scallion",
+          "qty": 30,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Fried rice"
+        },
+        {
+          "name": "Canola oil",
+          "qty": 35,
+          "unit": "ml",
+          "component": "other",
+          "group": "Fried rice"
+        },
+        {
+          "name": "Light soy sauce",
+          "qty": 25,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Fried rice"
+        },
+        {
+          "name": "Dark soy sauce",
+          "qty": 10,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Fried rice"
+        },
+        {
+          "name": "Toasted sesame oil",
+          "qty": 5,
+          "unit": "ml",
+          "component": "other",
+          "group": "Fried rice"
+        },
+        {
+          "name": "Salt",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Fried rice"
+        },
+        {
+          "name": "White pepper",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Fried rice"
+        }
+      ],
+      "steps": [
+        "Cook 310 g dry rice with 490 ml water. Spread cooked rice in a shallow tray and cool rapidly in the refrigerator before stir-frying.",
+        "Heat a wok; scramble 100 g beaten egg in a little of the measured oil and remove.",
+        "Add more oil and cook the 600 g shrimp just until opaque. Transfer to a bowl.",
+        "Stir-fry chopped onion, edamame and sliced snow peas until hot and tender.",
+        "Add cold cooked rice, light soy, dark soy, salt and white pepper; toss vigorously until evenly heated.",
+        "Return shrimp and egg, finish with 5 ml sesame oil and scallion. Divide into four containers and chill quickly."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Edamame is an UNHANGRY addition to the source fried rice; dry-rice equivalent is standardised for scaling.",
+    "Storing & reheating: Cool rice immediately, refrigerate rapidly and freeze later-week portions. Reheat once until piping hot. Shrimp firms on reheating.",
+    "Freezer: with texture changes",
+    "Allergens: Shellfish / molluscs, Soy or soy-containing sauce, Egg, Sesame",
+    "Refrigerate within 2 hours (1 hour above 32°C) in shallow containers at 4°C or colder and follow the shorter seafood limit above. Cook fish to 63°C, shrimp and shellfish until opaque and firm (mussels must open), and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": "Fried rice — plan for days 1-3; freeze later-week portions and reheat once only.",
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://thewoksoflife.com/shrimp-fried-rice/",
+  "reference": {
+    "sourceCredit": "Bill Leung, The Woks of Life, shrimp fried rice, adapted with edamame",
+    "sourceBasis": "Recipe adapted from the cited published concept; raw amounts standardised by UNHANGRY.",
+    "additionalConceptSource": "None",
+    "fileTitle": "Shrimp and Edamame Fried Rice",
+    "fileRecipeNumber": 10,
+    "proteinTag": "Seafood",
+    "methodTag": "Stovetop",
+    "preparationMethod": "STOVETOP",
+    "activePrepTime": "25 minutes",
+    "cookingTime": "20 minutes",
+    "allergenDietaryTags": "Shellfish / molluscs, Soy or soy-containing sauce, Egg, Sesame; None declared; check exact packaged ingredients and cross-contact.",
+    "freezer": "YES, with texture changes",
+    "preservation": "Cool rice immediately, refrigerate rapidly and freeze later-week portions. Reheat once until piping hot. Shrimp firms on reheating.",
+    "fileMacrosPerServing": {
+      "kcal": 639,
+      "protein": 46.9,
+      "carbs": 74.5,
+      "fat": 17.1
+    },
+    "fileMacroText": {
+      "kcal": "639 kcal (ingredient-based estimate)",
+      "protein": "46.9 g (estimate)",
+      "carbs": "74.5 g (estimate)",
+      "fat": "17.1 g (estimate)"
+    },
+    "nutritionBasis": "Calculated from standardised approximate per-100g raw ingredient profiles; NOT author-published nutrition and NOT lab-tested. Liquid ml treated as equivalent to grams in this provisional calculation. Ingredient brands, cooking loss, fish skin/bones and oil retention are important error sources. Recalculate in verified nutrition tool before publication.",
+    "fileNotes": "Edamame is an UNHANGRY addition to the source fried rice; dry-rice equivalent is standardised for scaling.",
+    "rawQuantityNote": "All quantities below are FIXED NUMERIC AMOUNTS in g or ml. Dry rice/pasta are dry weights; seafood is raw edible prepared weight unless stated. Water for boiling or steaming is preparation water and does not enter nutrition totals.",
+    "stepsNote": "PREPARATION STEPS (UNHANGRY-ORIGINAL WRITING; REVIEW AGAINST SOURCE + KITCHEN TEST)",
+    "cookedYieldEstimates": [
+      "Cooked fried rice and egg: ~900 g",
+      "Cooked shrimp: ~500 g",
+      "Edamame and vegetables: ~330 g"
+    ],
+    "cookedYieldNote": "Weigh each cooked component after preparing it. These predicted yields must NOT be used for precise member-level portion calculations before kitchen testing.",
+    "foodSafety": [
+      "Refrigerate perishables promptly in shallow containers: within 2 hours after cooking, or within 1 hour if the air temperature is above 32 C.",
+      "Store at 4 C or colder. General cooked-leftover limit: 3-4 days; for delicate seafood recipes follow any shorter specific limit above.",
+      "Freeze later-week portions promptly, if this recipe is flagged freezer-suitable; thaw in refrigerator, not on a kitchen counter.",
+      "For fish, target a safe cooked internal temperature of 63 C; shrimp and shellfish should be cooked until opaque / firm, and mussels must open during cooking.",
+      "Reheat leftovers thoroughly to 74 C, avoiding repeated reheating and cooling cycles.",
+      "Cooked rice requires rapid chilling, appropriate cold storage and thorough reheating. Rice left warm for a prolonged period is not made safe by reheating.",
+      "Shellfish, fish, soy, dairy, wheat, egg, nuts and pork vary by recipe; verify allergens and dietary restrictions before importing.",
+      "All raw ingredients and exact steps in this file constitute a DRAFT FOR MIRNA REVIEW. Source links document inspiration and recipe provenance, not publisher endorsement."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 612,
+      "protein": 46,
+      "carbs": 72,
+      "fat": 15
+    },
+    "quantitiesFrom": "UNHANGRY Seafood Stovetop file — exact raw quantities as written."
+  }
+}

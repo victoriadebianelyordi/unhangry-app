@@ -1,0 +1,208 @@
+{
+  "id": "japanese-salmon-egg-fried-rice",
+  "name": "Japanese Salmon and Egg Fried Rice",
+  "protein": "seafood",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 750,
+    "protein": 40,
+    "carbs": 68,
+    "fat": 35
+  },
+  "components": [
+    {
+      "id": "friedrice",
+      "name": "Salmon and Egg Fried Rice",
+      "scaling": "ratio",
+      "role": "whole",
+      "servings": 4,
+      "cookedYieldG": 1580,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 750,
+        "protein": 40,
+        "carbs": 68,
+        "fat": 35
+      },
+      "ingredients": [
+        {
+          "name": "Fresh raw salmon fillets",
+          "qty": 540,
+          "unit": "g",
+          "component": "protein",
+          "group": "Salmon"
+        },
+        {
+          "name": "Salt for salmon",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Salmon"
+        },
+        {
+          "name": "Neutral oil for salmon",
+          "qty": 10,
+          "unit": "ml",
+          "component": "other",
+          "group": "Salmon"
+        },
+        {
+          "name": "Dry Japanese short-grain rice",
+          "qty": 310,
+          "unit": "g",
+          "component": "carb",
+          "group": "Rice and eggs"
+        },
+        {
+          "name": "Water for rice",
+          "qty": 430,
+          "unit": "ml",
+          "component": "other",
+          "group": "Rice and eggs"
+        },
+        {
+          "name": "Egg, raw edible",
+          "qty": 150,
+          "unit": "g",
+          "component": "protein",
+          "group": "Rice and eggs"
+        },
+        {
+          "name": "Scallions",
+          "qty": 65,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Rice and eggs"
+        },
+        {
+          "name": "Neutral oil",
+          "qty": 30,
+          "unit": "ml",
+          "component": "other",
+          "group": "Rice and eggs"
+        },
+        {
+          "name": "Toasted sesame oil",
+          "qty": 12,
+          "unit": "ml",
+          "component": "other",
+          "group": "Rice and eggs"
+        },
+        {
+          "name": "Soy sauce",
+          "qty": 20,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Rice and eggs"
+        },
+        {
+          "name": "White pepper",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Rice and eggs"
+        },
+        {
+          "name": "Black pepper",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Rice and eggs"
+        },
+        {
+          "name": "Salt",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Rice and eggs"
+        },
+        {
+          "name": "Frozen green peas",
+          "qty": 160,
+          "unit": "g",
+          "component": "other",
+          "group": "Vegetables"
+        }
+      ],
+      "steps": [
+        "Cook 310 g raw short-grain rice with 430 ml water. Spread in a shallow container and chill quickly before stir-frying.",
+        "Pan-sear 540 g salmon in 10 ml oil, with 2 g salt, until it reaches 63 C. Remove skin and flake into chunks.",
+        "Heat half the remaining oil in a wok and softly scramble the 150 g beaten egg; set aside.",
+        "Stir-fry scallion and 160 g peas, then add the cold cooked rice. Toss to warm and loosen the grains.",
+        "Season with soy sauce, sesame oil, salt, white pepper and black pepper. Stir in salmon and cooked egg.",
+        "Pack in four shallow containers and cool quickly; freeze portions intended for later-week use."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Source makes 2 smaller rice portions from cooked rice. UNHANGRY increases salmon and egg and specifies raw-rice equivalents to provide 4 complete seafood lunches.",
+    "Storing & reheating: Source notes up to 3 days refrigerated or one month frozen. Cool cooked rice very quickly; freeze later-week portions.",
+    "Freezer: but cook rice safely",
+    "Allergens: Fish, Soy or soy-containing sauce, Egg, Sesame",
+    "Refrigerate within 2 hours (1 hour above 32°C) in shallow containers at 4°C or colder and follow the shorter seafood limit above. Cook fish to 63°C, shrimp and shellfish until opaque and firm (mussels must open), and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": "Salmon fried rice — fridge up to 3 days; freeze later-week portions.",
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.justonecookbook.com/salmon-fried-rice-recipe/",
+  "reference": {
+    "sourceCredit": "Namiko Hirasawa Chen, Just One Cookbook",
+    "sourceBasis": "Recipe adapted from the cited published concept; raw amounts standardised by UNHANGRY.",
+    "additionalConceptSource": "None",
+    "fileTitle": "Japanese Salmon and Egg Fried Rice",
+    "fileRecipeNumber": 23,
+    "proteinTag": "Seafood",
+    "methodTag": "Stovetop",
+    "preparationMethod": "STOVETOP",
+    "activePrepTime": "20 minutes",
+    "cookingTime": "30 minutes",
+    "allergenDietaryTags": "Fish, Soy or soy-containing sauce, Egg, Sesame; None declared; check exact packaged ingredients and cross-contact.",
+    "freezer": "YES, but cook rice safely",
+    "preservation": "Source notes up to 3 days refrigerated or one month frozen. Cool cooked rice very quickly; freeze later-week portions.",
+    "fileMacrosPerServing": {
+      "kcal": 750,
+      "protein": 40.1,
+      "carbs": 68.3,
+      "fat": 35.2
+    },
+    "fileMacroText": {
+      "kcal": "750 kcal (ingredient-based estimate)",
+      "protein": "40.1 g (estimate)",
+      "carbs": "68.3 g (estimate)",
+      "fat": "35.2 g (estimate)"
+    },
+    "nutritionBasis": "Calculated from standardised approximate per-100g raw ingredient profiles; NOT author-published nutrition and NOT lab-tested. Liquid ml treated as equivalent to grams in this provisional calculation. Ingredient brands, cooking loss, fish skin/bones and oil retention are important error sources. Recalculate in verified nutrition tool before publication.",
+    "fileNotes": "Source makes 2 smaller rice portions from cooked rice. UNHANGRY increases salmon and egg and specifies raw-rice equivalents to provide 4 complete seafood lunches.",
+    "rawQuantityNote": "All quantities below are FIXED NUMERIC AMOUNTS in g or ml. Dry rice/pasta are dry weights; seafood is raw edible prepared weight unless stated. Water for boiling or steaming is preparation water and does not enter nutrition totals.",
+    "stepsNote": "PREPARATION STEPS (UNHANGRY-ORIGINAL WRITING; REVIEW AGAINST SOURCE + KITCHEN TEST)",
+    "cookedYieldEstimates": [
+      "Cooked fried rice and eggs: ~980 g",
+      "Cooked salmon: ~445 g",
+      "Vegetables included in rice: ~155 g"
+    ],
+    "cookedYieldNote": "Weigh each cooked component after preparing it. These predicted yields must NOT be used for precise member-level portion calculations before kitchen testing.",
+    "foodSafety": [
+      "Refrigerate perishables promptly in shallow containers: within 2 hours after cooking, or within 1 hour if the air temperature is above 32 C.",
+      "Store at 4 C or colder. General cooked-leftover limit: 3-4 days; for delicate seafood recipes follow any shorter specific limit above.",
+      "Freeze later-week portions promptly, if this recipe is flagged freezer-suitable; thaw in refrigerator, not on a kitchen counter.",
+      "For fish, target a safe cooked internal temperature of 63 C; shrimp and shellfish should be cooked until opaque / firm, and mussels must open during cooking.",
+      "Reheat leftovers thoroughly to 74 C, avoiding repeated reheating and cooling cycles.",
+      "Cooked rice requires rapid chilling, appropriate cold storage and thorough reheating. Rice left warm for a prolonged period is not made safe by reheating.",
+      "Shellfish, fish, soy, dairy, wheat, egg, nuts and pork vary by recipe; verify allergens and dietary restrictions before importing.",
+      "All raw ingredients and exact steps in this file constitute a DRAFT FOR MIRNA REVIEW. Source links document inspiration and recipe provenance, not publisher endorsement."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 761,
+      "protein": 40,
+      "carbs": 69,
+      "fat": 34
+    },
+    "quantitiesFrom": "UNHANGRY Seafood Stovetop file — exact raw quantities as written."
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "id": "lemony-salmon-spinach-tagliatelle",
+  "name": "Lemony Salmon and Spinach Tagliatelle",
+  "protein": "seafood",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 780,
+    "protein": 32,
+    "carbs": 80,
+    "fat": 37
+  },
+  "components": [
+    {
+      "id": "sauce",
+      "name": "Smoked Salmon & Spinach Sauce",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 880,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 408,
+        "protein": 19,
+        "carbs": 8,
+        "fat": 35
+      },
+      "ingredients": [
+        {
+          "name": "Smoked salmon, sliced",
+          "qty": 300,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Fresh spinach",
+          "qty": 200,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Cream cheese",
+          "qty": 300,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 20,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Garlic, minced",
+          "qty": 12,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Lemon juice and finely grated zest",
+          "qty": 60,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Fresh basil",
+          "qty": 20,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Black pepper",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "While pasta cooks, warm the 20 ml oil over medium-low heat and soften the 12 g garlic without colouring.",
+        "Add 200 g spinach and cook until wilted; mix in 300 g cream cheese and stir until the sauce begins to loosen.",
+        "Add 60 ml lemon juice/zest mixture, black pepper and a splash of reserved hot pasta water to make a coating sauce.",
+        "Fold in the drained pasta, then the 300 g smoked salmon and chopped basil. Warm thoroughly but do not hard-boil.",
+        "Portion promptly; this recipe is better as an early-week meal than a deep-freeze batch."
+      ]
+    },
+    {
+      "id": "pasta",
+      "name": "Tagliatelle",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 960,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 372,
+        "protein": 13,
+        "carbs": 72,
+        "fat": 2
+      },
+      "ingredients": [
+        {
+          "name": "Dry tagliatelle",
+          "qty": 400,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Water for boiling",
+          "qty": 2400,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Salt for boiling",
+          "qty": 8,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Boil 2400 ml water with 8 g salt and cook the tagliatelle to just below al dente. Reserve about 100 ml cooking water before draining."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Smoked salmon recipe, scaled from 1 to 4 servings. Ready-to-eat smoked fish requires extra care; fully reheat as appropriate and avoid prolonged storage.",
+    "Storing & reheating: Smoked salmon and cream cheese pasta is best eaten in 1-2 days. Avoid freezing complete assembled pasta for quality.",
+    "Freezer: prefer fresh or early-week fridge",
+    "Allergens: Fish, Dairy, Wheat / gluten",
+    "Refrigerate within 2 hours (1 hour above 32°C) in shallow containers at 4°C or colder and follow the shorter seafood limit above. Cook fish to 63°C, shrimp and shellfish until opaque and firm (mussels must open), and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": "Smoked salmon pasta — eat on days 1-2; doesn't freeze well.",
+    "freezeFriendly": false
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.bbcgoodfoodme.com/recipes/lemony-smoked-salmon-spinach-tagliatelle/",
+  "reference": {
+    "sourceCredit": "Good Food Middle East / Rachel May",
+    "sourceBasis": "Recipe adapted from the cited published concept; raw amounts standardised by UNHANGRY.",
+    "additionalConceptSource": "None",
+    "fileTitle": "Lemony Salmon and Spinach Tagliatelle",
+    "fileRecipeNumber": 2,
+    "proteinTag": "Seafood",
+    "methodTag": "Stovetop",
+    "preparationMethod": "STOVETOP",
+    "activePrepTime": "15 minutes",
+    "cookingTime": "18 minutes",
+    "allergenDietaryTags": "Fish, Dairy, Wheat / gluten; None declared; check exact packaged ingredients and cross-contact.",
+    "freezer": "NO, prefer fresh or early-week fridge",
+    "preservation": "Smoked salmon and cream cheese pasta is best eaten in 1-2 days. Avoid freezing complete assembled pasta for quality.",
+    "fileMacrosPerServing": {
+      "kcal": 780,
+      "protein": 32,
+      "carbs": 80.3,
+      "fat": 36.8
+    },
+    "fileMacroText": {
+      "kcal": "780 kcal (ingredient-based estimate)",
+      "protein": "32.0 g (estimate)",
+      "carbs": "80.3 g (estimate)",
+      "fat": "36.8 g (estimate)"
+    },
+    "nutritionBasis": "Calculated from standardised approximate per-100g raw ingredient profiles; NOT author-published nutrition and NOT lab-tested. Liquid ml treated as equivalent to grams in this provisional calculation. Ingredient brands, cooking loss, fish skin/bones and oil retention are important error sources. Recalculate in verified nutrition tool before publication.",
+    "fileNotes": "Smoked salmon recipe, scaled from 1 to 4 servings. Ready-to-eat smoked fish requires extra care; fully reheat as appropriate and avoid prolonged storage.",
+    "rawQuantityNote": "All quantities below are FIXED NUMERIC AMOUNTS in g or ml. Dry rice/pasta are dry weights; seafood is raw edible prepared weight unless stated. Water for boiling or steaming is preparation water and does not enter nutrition totals.",
+    "stepsNote": "PREPARATION STEPS (UNHANGRY-ORIGINAL WRITING; REVIEW AGAINST SOURCE + KITCHEN TEST)",
+    "cookedYieldEstimates": [
+      "Cooked tagliatelle: ~960 g",
+      "Salmon, spinach and cheese sauce: ~880 g"
+    ],
+    "cookedYieldNote": "Weigh each cooked component after preparing it. These predicted yields must NOT be used for precise member-level portion calculations before kitchen testing.",
+    "foodSafety": [
+      "Refrigerate perishables promptly in shallow containers: within 2 hours after cooking, or within 1 hour if the air temperature is above 32 C.",
+      "Store at 4 C or colder. General cooked-leftover limit: 3-4 days; for delicate seafood recipes follow any shorter specific limit above.",
+      "Freeze later-week portions promptly, if this recipe is flagged freezer-suitable; thaw in refrigerator, not on a kitchen counter.",
+      "For fish, target a safe cooked internal temperature of 63 C; shrimp and shellfish should be cooked until opaque / firm, and mussels must open during cooking.",
+      "Reheat leftovers thoroughly to 74 C, avoiding repeated reheating and cooling cycles.",
+      "Cooked rice requires rapid chilling, appropriate cold storage and thorough reheating. Rice left warm for a prolonged period is not made safe by reheating.",
+      "Shellfish, fish, soy, dairy, wheat, egg, nuts and pork vary by recipe; verify allergens and dietary restrictions before importing.",
+      "All raw ingredients and exact steps in this file constitute a DRAFT FOR MIRNA REVIEW. Source links document inspiration and recipe provenance, not publisher endorsement."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 778,
+      "protein": 33,
+      "carbs": 84,
+      "fat": 35
+    },
+    "quantitiesFrom": "UNHANGRY Seafood Stovetop file — exact raw quantities as written."
+  }
+}

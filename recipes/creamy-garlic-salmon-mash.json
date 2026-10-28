@@ -1,0 +1,213 @@
+{
+  "id": "creamy-garlic-salmon-mash",
+  "name": "Creamy Garlic Salmon and Spinach with Mashed Potatoes",
+  "protein": "seafood",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 781,
+    "protein": 48,
+    "carbs": 41,
+    "fat": 47
+  },
+  "components": [
+    {
+      "id": "salmon",
+      "name": "Creamy Garlic Salmon & Spinach",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 1085,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 564,
+        "protein": 43,
+        "carbs": 7,
+        "fat": 40
+      },
+      "ingredients": [
+        {
+          "name": "Raw salmon fillets",
+          "qty": 720,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 20,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Garlic",
+          "qty": 18,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Fresh spinach",
+          "qty": 200,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Light cooking cream",
+          "qty": 180,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Fish stock",
+          "qty": 120,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Fresh lemon juice",
+          "qty": 30,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Grated parmesan",
+          "qty": 35,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 4,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Black pepper",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Pat dry salmon and season with the measured remaining salt and black pepper.",
+        "Heat 20 ml olive oil in a skillet and cook salmon until golden; move to a plate while preparing sauce.",
+        "Gently sauté minced garlic in the pan, add 120 ml stock and 180 ml cream, and simmer until slightly reduced.",
+        "Add 200 g spinach and 35 g parmesan; wilt the spinach and stir until combined.",
+        "Return salmon and cook thoroughly to 63 C. Divide salmon with garlic sauce and mashed potatoes, separately where possible."
+      ]
+    },
+    {
+      "id": "mash",
+      "name": "Mashed Potatoes",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 860,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 217,
+        "protein": 5,
+        "carbs": 34,
+        "fat": 7
+      },
+      "ingredients": [
+        {
+          "name": "Raw peeled potatoes",
+          "qty": 750,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Milk",
+          "qty": 150,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Butter",
+          "qty": 30,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 4,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Boil the 750 g peeled potatoes in water until tender, drain, then mash with 150 ml warm milk, 30 g butter and 4 g salt."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Source publishes a creamy garlic salmon and spinach skillet with tomatoes; this UNHANGRY version omits the tomatoes and wine, uses light cream and adds mashed potatoes as a complete meal.",
+    "Storing & reheating: Refrigerate 2 days for quality. Freeze plain salmon and mash separately if needed; cream sauce may separate on thawing.",
+    "Freezer: potatoes freeze, cream sauce less reliably",
+    "Allergens: Fish, Dairy",
+    "Refrigerate within 2 hours (1 hour above 32°C) in shallow containers at 4°C or colder and follow the shorter seafood limit above. Cook fish to 63°C, shrimp and shellfish until opaque and firm (mussels must open), and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": "Salmon — fridge 2 days; freeze plain salmon and mash separately.",
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://kitchenfeasts.com/2021/09/18/creamy-garlic-spinach-tomato-salmon-skillet/",
+  "reference": {
+    "sourceCredit": "UNHANGRY salmon skillet adaptation inspired by Kitchen Feasts",
+    "sourceBasis": "Recipe adapted from the cited published concept; raw amounts standardised by UNHANGRY.",
+    "additionalConceptSource": "None",
+    "fileTitle": "Creamy Garlic Salmon and Spinach with Mashed Potatoes",
+    "fileRecipeNumber": 18,
+    "proteinTag": "Seafood",
+    "methodTag": "Stovetop",
+    "preparationMethod": "STOVETOP",
+    "activePrepTime": "25 minutes",
+    "cookingTime": "30 minutes",
+    "allergenDietaryTags": "Fish, Dairy; None declared; check exact packaged ingredients and cross-contact.",
+    "freezer": "PARTIAL: potatoes freeze, cream sauce less reliably",
+    "preservation": "Refrigerate 2 days for quality. Freeze plain salmon and mash separately if needed; cream sauce may separate on thawing.",
+    "fileMacrosPerServing": {
+      "kcal": 781,
+      "protein": 47.7,
+      "carbs": 40.9,
+      "fat": 47.4
+    },
+    "fileMacroText": {
+      "kcal": "781 kcal (ingredient-based estimate)",
+      "protein": "47.7 g (estimate)",
+      "carbs": "40.9 g (estimate)",
+      "fat": "47.4 g (estimate)"
+    },
+    "nutritionBasis": "Calculated from standardised approximate per-100g raw ingredient profiles; NOT author-published nutrition and NOT lab-tested. Liquid ml treated as equivalent to grams in this provisional calculation. Ingredient brands, cooking loss, fish skin/bones and oil retention are important error sources. Recalculate in verified nutrition tool before publication.",
+    "fileNotes": "Source publishes a creamy garlic salmon and spinach skillet with tomatoes; this UNHANGRY version omits the tomatoes and wine, uses light cream and adds mashed potatoes as a complete meal.",
+    "rawQuantityNote": "All quantities below are FIXED NUMERIC AMOUNTS in g or ml. Dry rice/pasta are dry weights; seafood is raw edible prepared weight unless stated. Water for boiling or steaming is preparation water and does not enter nutrition totals.",
+    "stepsNote": "PREPARATION STEPS (UNHANGRY-ORIGINAL WRITING; REVIEW AGAINST SOURCE + KITCHEN TEST)",
+    "cookedYieldEstimates": [
+      "Cooked salmon: ~595 g",
+      "Garlic cream and spinach sauce: ~490 g",
+      "Mashed potato: ~860 g"
+    ],
+    "cookedYieldNote": "Weigh each cooked component after preparing it. These predicted yields must NOT be used for precise member-level portion calculations before kitchen testing.",
+    "foodSafety": [
+      "Refrigerate perishables promptly in shallow containers: within 2 hours after cooking, or within 1 hour if the air temperature is above 32 C.",
+      "Store at 4 C or colder. General cooked-leftover limit: 3-4 days; for delicate seafood recipes follow any shorter specific limit above.",
+      "Freeze later-week portions promptly, if this recipe is flagged freezer-suitable; thaw in refrigerator, not on a kitchen counter.",
+      "For fish, target a safe cooked internal temperature of 63 C; shrimp and shellfish should be cooked until opaque / firm, and mussels must open during cooking.",
+      "Reheat leftovers thoroughly to 74 C, avoiding repeated reheating and cooling cycles.",
+      "Cooked rice requires rapid chilling, appropriate cold storage and thorough reheating. Rice left warm for a prolonged period is not made safe by reheating.",
+      "Shellfish, fish, soy, dairy, wheat, egg, nuts and pork vary by recipe; verify allergens and dietary restrictions before importing.",
+      "All raw ingredients and exact steps in this file constitute a DRAFT FOR MIRNA REVIEW. Source links document inspiration and recipe provenance, not publisher endorsement."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 780,
+      "protein": 48,
+      "carbs": 41,
+      "fat": 47
+    },
+    "quantitiesFrom": "UNHANGRY Seafood Stovetop file — exact raw quantities as written."
+  }
+}

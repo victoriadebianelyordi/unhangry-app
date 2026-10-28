@@ -1,0 +1,207 @@
+{
+  "id": "shrimp-scampi-linguine",
+  "name": "Shrimp Scampi Linguine with Lemon",
+  "protein": "seafood",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 620,
+    "protein": 42,
+    "carbs": 72,
+    "fat": 18
+  },
+  "components": [
+    {
+      "id": "shrimp",
+      "name": "Shrimp Scampi",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 920,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 283,
+        "protein": 31,
+        "carbs": 6,
+        "fat": 16
+      },
+      "ingredients": [
+        {
+          "name": "Raw peeled shrimp",
+          "qty": 600,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 30,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Butter",
+          "qty": 35,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Garlic, chopped",
+          "qty": 20,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Fish stock",
+          "qty": 150,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Fresh lemon juice",
+          "qty": 55,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Cherry tomatoes, halved",
+          "qty": 220,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Parsley, chopped",
+          "qty": 25,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Red chilli flakes",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Black pepper",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Season 600 g raw peeled shrimp lightly with black pepper. Heat 15 ml olive oil and sear shrimp in a wide pan, 1-2 minutes per side; reserve.",
+        "Add the remaining 15 ml olive oil, 35 g butter and 20 g garlic. Stir gently until garlic is fragrant.",
+        "Add 220 g halved tomatoes, 150 ml fish stock, 55 ml lemon juice and chilli flakes; simmer 3-4 minutes.",
+        "Add linguine and a small amount of cooking water; toss until glossy. Return shrimp and warm until fully cooked.",
+        "Finish with 25 g parsley and pack in shallow containers for short-term refrigeration."
+      ]
+    },
+    {
+      "id": "pasta",
+      "name": "Linguine",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 850,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 337,
+        "protein": 11,
+        "carbs": 67,
+        "fat": 1
+      },
+      "ingredients": [
+        {
+          "name": "Dry linguine",
+          "qty": 360,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Boiling water",
+          "qty": 2200,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Salt for water",
+          "qty": 8,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Cook 360 g linguine in 2200 ml salted water until just before al dente. Reserve some cooking water and drain."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "UNHANGRY simplified version uses peeled shrimp and fish stock rather than shell-stock/wine. This is an original scampi-style variation, not a direct transcript of the source.",
+    "Storing & reheating: Refrigerate up to 2 days; shrimp becomes rubbery and pasta dries out if repeatedly reheated. Not prioritised for freezing.",
+    "Freezer: best fresh",
+    "Allergens: Shellfish / molluscs, Dairy, Wheat / gluten",
+    "Refrigerate within 2 hours (1 hour above 32°C) in shallow containers at 4°C or colder and follow the shorter seafood limit above. Cook fish to 63°C, shrimp and shellfish until opaque and firm (mussels must open), and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": "Shrimp — fridge up to 2 days; best fresh, not for freezing.",
+    "freezeFriendly": false
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.recipetineats.com/lemon-prawn-shrimp-pasta-restaurant-style/",
+  "reference": {
+    "sourceCredit": "RecipeTin Eats shrimp/prawn pasta with lemon, adapted to scampi-style",
+    "sourceBasis": "Recipe adapted from the cited published concept; raw amounts standardised by UNHANGRY.",
+    "additionalConceptSource": "None",
+    "fileTitle": "Shrimp Scampi Linguine with Lemon",
+    "fileRecipeNumber": 3,
+    "proteinTag": "Seafood",
+    "methodTag": "Stovetop",
+    "preparationMethod": "STOVETOP",
+    "activePrepTime": "20 minutes",
+    "cookingTime": "25 minutes",
+    "allergenDietaryTags": "Shellfish / molluscs, Dairy, Wheat / gluten; None declared; check exact packaged ingredients and cross-contact.",
+    "freezer": "NO, best fresh",
+    "preservation": "Refrigerate up to 2 days; shrimp becomes rubbery and pasta dries out if repeatedly reheated. Not prioritised for freezing.",
+    "fileMacrosPerServing": {
+      "kcal": 620,
+      "protein": 42.4,
+      "carbs": 72.4,
+      "fat": 17.9
+    },
+    "fileMacroText": {
+      "kcal": "620 kcal (ingredient-based estimate)",
+      "protein": "42.4 g (estimate)",
+      "carbs": "72.4 g (estimate)",
+      "fat": "17.9 g (estimate)"
+    },
+    "nutritionBasis": "Calculated from standardised approximate per-100g raw ingredient profiles; NOT author-published nutrition and NOT lab-tested. Liquid ml treated as equivalent to grams in this provisional calculation. Ingredient brands, cooking loss, fish skin/bones and oil retention are important error sources. Recalculate in verified nutrition tool before publication.",
+    "fileNotes": "UNHANGRY simplified version uses peeled shrimp and fish stock rather than shell-stock/wine. This is an original scampi-style variation, not a direct transcript of the source.",
+    "rawQuantityNote": "All quantities below are FIXED NUMERIC AMOUNTS in g or ml. Dry rice/pasta are dry weights; seafood is raw edible prepared weight unless stated. Water for boiling or steaming is preparation water and does not enter nutrition totals.",
+    "stepsNote": "PREPARATION STEPS (UNHANGRY-ORIGINAL WRITING; REVIEW AGAINST SOURCE + KITCHEN TEST)",
+    "cookedYieldEstimates": [
+      "Cooked linguine: ~850 g",
+      "Shrimp: ~490 g",
+      "Scampi sauce and tomatoes: ~430 g"
+    ],
+    "cookedYieldNote": "Weigh each cooked component after preparing it. These predicted yields must NOT be used for precise member-level portion calculations before kitchen testing.",
+    "foodSafety": [
+      "Refrigerate perishables promptly in shallow containers: within 2 hours after cooking, or within 1 hour if the air temperature is above 32 C.",
+      "Store at 4 C or colder. General cooked-leftover limit: 3-4 days; for delicate seafood recipes follow any shorter specific limit above.",
+      "Freeze later-week portions promptly, if this recipe is flagged freezer-suitable; thaw in refrigerator, not on a kitchen counter.",
+      "For fish, target a safe cooked internal temperature of 63 C; shrimp and shellfish should be cooked until opaque / firm, and mussels must open during cooking.",
+      "Reheat leftovers thoroughly to 74 C, avoiding repeated reheating and cooling cycles.",
+      "Cooked rice requires rapid chilling, appropriate cold storage and thorough reheating. Rice left warm for a prolonged period is not made safe by reheating.",
+      "Shellfish, fish, soy, dairy, wheat, egg, nuts and pork vary by recipe; verify allergens and dietary restrictions before importing.",
+      "All raw ingredients and exact steps in this file constitute a DRAFT FOR MIRNA REVIEW. Source links document inspiration and recipe provenance, not publisher endorsement."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 613,
+      "protein": 43,
+      "carbs": 73,
+      "fat": 16
+    },
+    "quantitiesFrom": "UNHANGRY Seafood Stovetop file — exact raw quantities as written."
+  }
+}

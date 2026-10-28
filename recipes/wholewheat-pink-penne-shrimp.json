@@ -1,0 +1,217 @@
+{
+  "id": "wholewheat-pink-penne-shrimp",
+  "name": "Wholewheat Pink Penne with Shrimp",
+  "protein": "seafood",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 651,
+    "protein": 50,
+    "carbs": 67,
+    "fat": 20
+  },
+  "components": [
+    {
+      "id": "shrimp",
+      "name": "Shrimp in Pink Sauce",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 1070,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 363,
+        "protein": 39,
+        "carbs": 12,
+        "fat": 18
+      },
+      "ingredients": [
+        {
+          "name": "Peeled raw shrimp",
+          "qty": 640,
+          "unit": "g",
+          "component": "protein",
+          "group": "Shrimp"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 20,
+          "unit": "ml",
+          "component": "other",
+          "group": "Shrimp"
+        },
+        {
+          "name": "Garlic, minced",
+          "qty": 15,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Shrimp"
+        },
+        {
+          "name": "Black pepper",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Shrimp"
+        },
+        {
+          "name": "Tomato passata",
+          "qty": 420,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Pink sauce"
+        },
+        {
+          "name": "Light cooking cream",
+          "qty": 180,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Pink sauce"
+        },
+        {
+          "name": "Fresh spinach",
+          "qty": 160,
+          "unit": "g",
+          "component": "other",
+          "group": "Pink sauce"
+        },
+        {
+          "name": "Chopped basil",
+          "qty": 15,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Pink sauce"
+        },
+        {
+          "name": "Parmesan, grated",
+          "qty": 35,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Pink sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 4,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Pink sauce"
+        }
+      ],
+      "steps": [
+        "Pat dry 640 g peeled shrimp and season with the measured black pepper. Heat 20 ml olive oil in a wide pan and sear shrimp briefly in two batches until just opaque; move to a plate.",
+        "Lower the heat; soften 15 g minced garlic in the same pan for 30 seconds.",
+        "Add 420 g passata and simmer 5 minutes to reduce. Stir in 180 ml cream and heat gently without a hard boil.",
+        "Fold in 160 g spinach, cooked penne and shrimp. Stir until spinach wilts and seafood is fully cooked.",
+        "Finish with 35 g parmesan and 15 g basil. Divide evenly, cool promptly and store sealed."
+      ]
+    },
+    {
+      "id": "pasta",
+      "name": "Wholewheat Penne",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 780,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 288,
+        "protein": 11,
+        "carbs": 55,
+        "fat": 2
+      },
+      "ingredients": [
+        {
+          "name": "Dry wholewheat penne",
+          "qty": 320,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Water for boiling pasta",
+          "qty": 2000,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Salt for pasta water",
+          "qty": 8,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Bring 2000 ml water with 8 g salt to a boil, add 320 g dry penne, and cook just short of al dente. Drain, reserving a small amount of pasta water if desired."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Original source is tomato/feta shrimp pasta. UNHANGRY adds light cream for a pink sauce and standardises quantities; macros are recalculated.",
+    "Storing & reheating: Refrigerate up to 3 days. Freeze extra portions promptly; pasta softens when thawed, and cream sauce may separate. Reheat with a little water.",
+    "Freezer: texture may soften",
+    "Allergens: Shellfish / molluscs, Dairy, Wheat / gluten",
+    "Refrigerate within 2 hours (1 hour above 32°C) in shallow containers at 4°C or colder and follow the shorter seafood limit above. Cook fish to 63°C, shrimp and shellfish until opaque and firm (mussels must open), and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": "Shrimp — fridge up to 3 days; freeze later-week portions.",
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://extension.okstate.edu/programs/oklahoma-gardening/recipes/shrimp-tomato-pasta",
+  "reference": {
+    "sourceCredit": "UNHANGRY adaptation, using Oklahoma State University Extension whole-wheat shrimp pasta",
+    "sourceBasis": "Recipe adapted from the cited published concept; raw amounts standardised by UNHANGRY.",
+    "additionalConceptSource": "None",
+    "fileTitle": "Wholewheat Pink Penne with Shrimp",
+    "fileRecipeNumber": 1,
+    "proteinTag": "Seafood",
+    "methodTag": "Stovetop",
+    "preparationMethod": "STOVETOP",
+    "activePrepTime": "20 minutes",
+    "cookingTime": "25 minutes",
+    "allergenDietaryTags": "Shellfish / molluscs, Dairy, Wheat / gluten; None declared; check exact packaged ingredients and cross-contact.",
+    "freezer": "YES, texture may soften",
+    "preservation": "Refrigerate up to 3 days. Freeze extra portions promptly; pasta softens when thawed, and cream sauce may separate. Reheat with a little water.",
+    "fileMacrosPerServing": {
+      "kcal": 651,
+      "protein": 50.1,
+      "carbs": 67.4,
+      "fat": 20.1
+    },
+    "fileMacroText": {
+      "kcal": "651 kcal (ingredient-based estimate)",
+      "protein": "50.1 g (estimate)",
+      "carbs": "67.4 g (estimate)",
+      "fat": "20.1 g (estimate)"
+    },
+    "nutritionBasis": "Calculated from standardised approximate per-100g raw ingredient profiles; NOT author-published nutrition and NOT lab-tested. Liquid ml treated as equivalent to grams in this provisional calculation. Ingredient brands, cooking loss, fish skin/bones and oil retention are important error sources. Recalculate in verified nutrition tool before publication.",
+    "fileNotes": "Original source is tomato/feta shrimp pasta. UNHANGRY adds light cream for a pink sauce and standardises quantities; macros are recalculated.",
+    "rawQuantityNote": "All quantities below are FIXED NUMERIC AMOUNTS in g or ml. Dry rice/pasta are dry weights; seafood is raw edible prepared weight unless stated. Water for boiling or steaming is preparation water and does not enter nutrition totals.",
+    "stepsNote": "PREPARATION STEPS (UNHANGRY-ORIGINAL WRITING; REVIEW AGAINST SOURCE + KITCHEN TEST)",
+    "cookedYieldEstimates": [
+      "Cooked wholewheat penne: ~780 g",
+      "Cooked shrimp: ~500 g",
+      "Pink sauce with spinach: ~570 g"
+    ],
+    "cookedYieldNote": "Weigh each cooked component after preparing it. These predicted yields must NOT be used for precise member-level portion calculations before kitchen testing.",
+    "foodSafety": [
+      "Refrigerate perishables promptly in shallow containers: within 2 hours after cooking, or within 1 hour if the air temperature is above 32 C.",
+      "Store at 4 C or colder. General cooked-leftover limit: 3-4 days; for delicate seafood recipes follow any shorter specific limit above.",
+      "Freeze later-week portions promptly, if this recipe is flagged freezer-suitable; thaw in refrigerator, not on a kitchen counter.",
+      "For fish, target a safe cooked internal temperature of 63 C; shrimp and shellfish should be cooked until opaque / firm, and mussels must open during cooking.",
+      "Reheat leftovers thoroughly to 74 C, avoiding repeated reheating and cooling cycles.",
+      "Cooked rice requires rapid chilling, appropriate cold storage and thorough reheating. Rice left warm for a prolonged period is not made safe by reheating.",
+      "Shellfish, fish, soy, dairy, wheat, egg, nuts and pork vary by recipe; verify allergens and dietary restrictions before importing.",
+      "All raw ingredients and exact steps in this file constitute a DRAFT FOR MIRNA REVIEW. Source links document inspiration and recipe provenance, not publisher endorsement."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 637,
+      "protein": 50,
+      "carbs": 71,
+      "fat": 18
+    },
+    "quantitiesFrom": "UNHANGRY Seafood Stovetop file — exact raw quantities as written."
+  }
+}

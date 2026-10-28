@@ -1,0 +1,212 @@
+{
+  "id": "filipino-fish-pochero",
+  "name": "Filipino Fish Pochero with Chickpeas and Potatoes",
+  "protein": "seafood",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 738,
+    "protein": 50,
+    "carbs": 68,
+    "fat": 30
+  },
+  "components": [
+    {
+      "id": "pochero",
+      "name": "Fish Pochero",
+      "scaling": "ratio",
+      "role": "whole",
+      "servings": 4,
+      "cookedYieldG": 2390,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 738,
+        "protein": 50,
+        "carbs": 68,
+        "fat": 30
+      },
+      "ingredients": [
+        {
+          "name": "Raw tilapia fillets",
+          "qty": 680,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Pork fat, diced",
+          "qty": 28,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Chinese pork sausage, sliced",
+          "qty": 80,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Potato cubes",
+          "qty": 260,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Saba cooking banana, peeled",
+          "qty": 260,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Green beans",
+          "qty": 150,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Canned chickpeas, drained",
+          "qty": 380,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Pechay or bok choy",
+          "qty": 160,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Garlic",
+          "qty": 18,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Onion",
+          "qty": 150,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Tomato",
+          "qty": 220,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Tomato paste",
+          "qty": 65,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Neutral oil actually retained",
+          "qty": 40,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Water",
+          "qty": 950,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Fish sauce",
+          "qty": 20,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Black pepper",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Dry tilapia fillets, season with measured salt and pan-sear in 40 ml oil until lightly golden; remove before they flake apart.",
+        "In a deep pot, render 28 g pork fat, then add 80 g Chinese sausage, garlic and onion and cook until aromatic.",
+        "Add 220 g tomatoes and 65 g tomato paste and cook 3 minutes. Pour in 950 ml water and bring to a simmer.",
+        "Add diced potato, saba banana and drained chickpeas, cooking until potatoes begin to soften.",
+        "Add green beans, fish sauce and pepper. Return tilapia gently and simmer to 63 C without stirring vigorously.",
+        "Add pechay at the end and wilt for 1-2 minutes. Refrigerate promptly and eat within two days."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "IMPORTANT: Original published Fish Pochero includes pork fat and Chinese sausage. Seafood is primary, but pork-containing dietary tag is mandatory. Measured fish here is boneless edible tilapia rather than whole fish.",
+    "Storing & reheating: Source recommends leftovers refrigerated only 2 days. Fried fish and bananas do not freeze/reheat well.",
+    "Freezer: best eaten within 2 days",
+    "Allergens: Fish, CONTAINS PORK / NON-HALAL",
+    "Refrigerate within 2 hours (1 hour above 32°C) in shallow containers at 4°C or colder and follow the shorter seafood limit above. Cook fish to 63°C, shrimp and shellfish until opaque and firm (mussels must open), and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": "Fish pochero — eat within 2 days; doesn't freeze.",
+    "freezeFriendly": false,
+    "dietaryWarning": "Contains pork — not halal."
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://panlasangpinoy.com/fish-pochero-filipino-fish-and-vegetable-stew/",
+  "reference": {
+    "sourceCredit": "Vanjo Merano, Panlasang Pinoy",
+    "sourceBasis": "Recipe adapted from the cited published concept; raw amounts standardised by UNHANGRY.",
+    "additionalConceptSource": "None",
+    "fileTitle": "Filipino Fish Pochero with Chickpeas and Potatoes",
+    "fileRecipeNumber": 15,
+    "proteinTag": "Seafood",
+    "methodTag": "Stovetop",
+    "preparationMethod": "STOVETOP",
+    "activePrepTime": "25 minutes",
+    "cookingTime": "45 minutes",
+    "allergenDietaryTags": "Fish, CONTAINS PORK / NON-HALAL; NON-HALAL: contains pork fat and Chinese pork sausage. Contains fish; check fish sauce for fish allergen.; check exact packaged ingredients and cross-contact.",
+    "freezer": "NO, best eaten within 2 days",
+    "preservation": "Source recommends leftovers refrigerated only 2 days. Fried fish and bananas do not freeze/reheat well.",
+    "fileMacrosPerServing": {
+      "kcal": 738,
+      "protein": 49.8,
+      "carbs": 68.3,
+      "fat": 29.5
+    },
+    "fileMacroText": {
+      "kcal": "738 kcal (ingredient-based estimate)",
+      "protein": "49.8 g (estimate)",
+      "carbs": "68.3 g (estimate)",
+      "fat": "29.5 g (estimate)"
+    },
+    "nutritionBasis": "Calculated from standardised approximate per-100g raw ingredient profiles; NOT author-published nutrition and NOT lab-tested. Liquid ml treated as equivalent to grams in this provisional calculation. Ingredient brands, cooking loss, fish skin/bones and oil retention are important error sources. Recalculate in verified nutrition tool before publication.",
+    "fileNotes": "IMPORTANT: Original published Fish Pochero includes pork fat and Chinese sausage. Seafood is primary, but pork-containing dietary tag is mandatory. Measured fish here is boneless edible tilapia rather than whole fish.",
+    "rawQuantityNote": "All quantities below are FIXED NUMERIC AMOUNTS in g or ml. Dry rice/pasta are dry weights; seafood is raw edible prepared weight unless stated. Water for boiling or steaming is preparation water and does not enter nutrition totals.",
+    "stepsNote": "PREPARATION STEPS (UNHANGRY-ORIGINAL WRITING; REVIEW AGAINST SOURCE + KITCHEN TEST)",
+    "cookedYieldEstimates": [
+      "Cooked tilapia fillet: ~570 g",
+      "Pochero vegetables, pork and broth: ~1820 g"
+    ],
+    "cookedYieldNote": "Weigh each cooked component after preparing it. These predicted yields must NOT be used for precise member-level portion calculations before kitchen testing.",
+    "foodSafety": [
+      "Refrigerate perishables promptly in shallow containers: within 2 hours after cooking, or within 1 hour if the air temperature is above 32 C.",
+      "Store at 4 C or colder. General cooked-leftover limit: 3-4 days; for delicate seafood recipes follow any shorter specific limit above.",
+      "Freeze later-week portions promptly, if this recipe is flagged freezer-suitable; thaw in refrigerator, not on a kitchen counter.",
+      "For fish, target a safe cooked internal temperature of 63 C; shrimp and shellfish should be cooked until opaque / firm, and mussels must open during cooking.",
+      "Reheat leftovers thoroughly to 74 C, avoiding repeated reheating and cooling cycles.",
+      "Cooked rice requires rapid chilling, appropriate cold storage and thorough reheating. Rice left warm for a prolonged period is not made safe by reheating.",
+      "Shellfish, fish, soy, dairy, wheat, egg, nuts and pork vary by recipe; verify allergens and dietary restrictions before importing.",
+      "All raw ingredients and exact steps in this file constitute a DRAFT FOR MIRNA REVIEW. Source links document inspiration and recipe provenance, not publisher endorsement."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 695,
+      "protein": 50,
+      "carbs": 71,
+      "fat": 26
+    },
+    "quantitiesFrom": "UNHANGRY Seafood Stovetop file — exact raw quantities as written."
+  }
+}
