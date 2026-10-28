@@ -1,0 +1,225 @@
+{
+  "id": "roasted-halloumi-lentil-traybake",
+  "name": "Roasted Halloumi, Lentils and Sweet Potato Traybake",
+  "protein": "veggie",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 862,
+    "protein": 46,
+    "carbs": 89,
+    "fat": 36
+  },
+  "components": [
+    {
+      "id": "tray",
+      "name": "Halloumi & Sweet Potato Traybake",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 1510,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 614,
+        "protein": 27,
+        "carbs": 50,
+        "fat": 34
+      },
+      "ingredients": [
+        {
+          "name": "Raw sweet potatoes peeled and cubed",
+          "qty": 700,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Packaged halloumi with vegetarian rennet, diced",
+          "qty": 420,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Raw bell pepper strips",
+          "qty": 500,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Raw red onion wedges",
+          "qty": 230,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Extra virgin olive oil",
+          "qty": 30,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Smoked paprika and cumin blend",
+          "qty": 8,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Toss peeled sweet potatoes, peppers and red onion with oil and spices, spread on a large tray and roast for 20-25 minutes.",
+        "Add diced halloumi to the tray and roast a further 12-15 minutes until cheese takes colour and vegetables are tender.",
+        "Portion lentils under roasted vegetables and halloumi into four containers, with sauce packed separately.",
+        "Freeze the lentils and sweet potatoes if desired; halloumi can become tough after freezing and reheating, and yogurt dressing should remain chilled."
+      ]
+    },
+    {
+      "id": "lentils",
+      "name": "Lentils",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 620,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 212,
+        "protein": 15,
+        "carbs": 37,
+        "fat": 1
+      },
+      "ingredients": [
+        {
+          "name": "Dry brown or green lentils",
+          "qty": 240,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Fresh water for lentils",
+          "qty": 700,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Heat oven to 210 C. Rinse dry lentils and simmer in water until tender but intact, about 25-35 minutes; drain remaining water."
+      ]
+    },
+    {
+      "id": "dressing",
+      "name": "Yogurt Dressing",
+      "scaling": "fixed",
+      "servings": 4,
+      "cookedYieldG": 225,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 36,
+        "protein": 5,
+        "carbs": 3,
+        "fat": 1
+      },
+      "ingredients": [
+        {
+          "name": "Plain Greek yogurt",
+          "qty": 180,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Fresh lemon juice",
+          "qty": 30,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Fresh chopped mint or parsley",
+          "qty": 15,
+          "unit": "g",
+          "component": "aromatic"
+        }
+      ],
+      "steps": [
+        "Mix yogurt, lemon and herbs into a cold dressing; keep refrigerated."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Original quantified complete meal, with stovetop dried lentils as secondary component. Source handling: UNHANGRY original working formulation.",
+    "Planning: SECONDARY STOVETOP lentils.",
+    "Freezer: lentils/sweet potatoes freeze, halloumi texture changes, yogurt sauce NO",
+    "Dietary: Dairy and legumes; halloumi MUST be vegetarian-labelled.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.tesco.com/recipes/en-GB/recipe/halloumi-and-vegetable-lentil-traybake",
+  "reference": {
+    "sourceCredit": "Tesco Recipes team (halloumi lentil traybake technique reference)",
+    "sourceRecipeUrl": "https://www.tesco.com/recipes/en-GB/recipe/halloumi-and-vegetable-lentil-traybake",
+    "fileTitle": "Roasted Halloumi, Lentils and Sweet Potato Traybake",
+    "fileRecipeNumber": "OV-09",
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Veggie",
+    "methodTag": "Oven",
+    "preparationMethod": "Oven roasting / baking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 25 minutes",
+    "cookingTime": "approx 45 minutes (some components or batch counts extend total time)",
+    "freezer": "PARTIAL: lentils/sweet potatoes freeze, halloumi texture changes, yogurt sauce NO",
+    "dietaryHalalTag": "Dairy and legumes; halloumi MUST be vegetarian-labelled.",
+    "fileMacrosPerServing": {
+      "kcal": 862,
+      "protein": 45.9,
+      "carbs": 89.3,
+      "fat": 35.7
+    },
+    "fileMacroText": {
+      "kcal": "862 kcal (ESTIMATED)",
+      "protein": "45.9 g (ESTIMATED)",
+      "carbs": "89.3 g (ESTIMATED)",
+      "fat": "35.7 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL measured recipe input ingredients using representative per-100g values. Not source-published macros; not lab tested. Product brand, draining, unused coating, oil retention and cooked-versus-dry weight assumptions affect accuracy. Confirm against actual labels before release.",
+    "fileNotes": "Original quantified complete meal, with stovetop dried lentils as secondary component. Source handling: UNHANGRY original working formulation.",
+    "planningNotes": "SECONDARY STOVETOP lentils.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Roasted sweet potatoes peppers onions and halloumi: approx 1510 g",
+      "Cooked lentils: approx 620 g",
+      "Cold yogurt dressing: approx 225 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or within 1 hour if ambient temperatures exceed 32 C.",
+      "Refrigerate at 4 C or colder for up to 3-4 days; freeze later-week portions promptly. If freshly prepared salad is included, prepare and store separately.",
+      "Reheat previously cooked leftovers to 74 C, stirring and checking the centre. For egg dishes, ensure eggs are completely set before portioning.",
+      "Cool cooked rice rapidly and keep refrigerated; avoid leaving rice at room temperature. Reheat rice thoroughly once.",
+      "Defrost frozen portions in the refrigerator. Re-crisp pastries, breaded vegetables and air-fried items in an oven or air fryer.",
+      "Keep delicate avocado, fresh salad, cold yogurt sauce and unbaked crisp toppings separate. They are generally not freezer-friendly.",
+      "Freezer designation describes likely quality, not independently established safety or shelf life."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify original source and substitutions, packaged ingredients and vegetarian status, exact raw edible weights, yields and portion size.",
+      "Protein, calorie, carbs and fat values are approximate. Nutrition is calculated from the ENTIRE listed meal, including sides; verify with USDA/brand labels before public use.",
+      "Canned beans are ALREADY COOKED purchased inputs; their listed drained weight is NOT a dry-legume purchase amount. Packaged tofu, paneer, phyllo and bread are purchased inputs.",
+      "Flag eggs/dairy as VEGETARIAN but not vegan; check animal rennet in cheese, fish sauce/shrimp paste in Thai and Filipino condiments, and anchovy in Worcestershire."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 858,
+      "protein": 46,
+      "carbs": 92,
+      "fat": 35
+    },
+    "quantitiesFrom": "UNHANGRY Veggie All Methods file — exact raw quantities as written."
+  }
+}

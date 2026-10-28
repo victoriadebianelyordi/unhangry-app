@@ -1,0 +1,206 @@
+{
+  "id": "lentil-couscous-stuffed-peppers",
+  "name": "Vegetarian Lentil Couscous Stuffed Peppers",
+  "protein": "veggie",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 728,
+    "protein": 32,
+    "carbs": 100,
+    "fat": 23
+  },
+  "components": [
+    {
+      "id": "peppers",
+      "name": "Lentil Couscous Stuffed Peppers",
+      "scaling": "ratio",
+      "role": "whole",
+      "servings": 4,
+      "cookedYieldG": 2100,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 728,
+        "protein": 32,
+        "carbs": 100,
+        "fat": 23
+      },
+      "ingredients": [
+        {
+          "name": "Raw sweet bell peppers, approx four large halved and deseeded",
+          "qty": 950,
+          "unit": "g",
+          "component": "other",
+          "group": "Peppers"
+        },
+        {
+          "name": "Olive oil for pepper shells",
+          "qty": 25,
+          "unit": "ml",
+          "component": "other",
+          "group": "Peppers"
+        },
+        {
+          "name": "Dry green lentils, rinsed",
+          "qty": 240,
+          "unit": "g",
+          "component": "protein",
+          "group": "Lentil couscous filling"
+        },
+        {
+          "name": "Water for lentils",
+          "qty": 670,
+          "unit": "ml",
+          "component": "other",
+          "group": "Lentil couscous filling"
+        },
+        {
+          "name": "Dry wholewheat couscous",
+          "qty": 210,
+          "unit": "g",
+          "component": "carb",
+          "group": "Lentil couscous filling"
+        },
+        {
+          "name": "Hot water for couscous",
+          "qty": 270,
+          "unit": "ml",
+          "component": "other",
+          "group": "Lentil couscous filling"
+        },
+        {
+          "name": "Raw onion chopped",
+          "qty": 190,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Lentil couscous filling"
+        },
+        {
+          "name": "Raw tomato diced",
+          "qty": 260,
+          "unit": "g",
+          "component": "other",
+          "group": "Lentil couscous filling"
+        },
+        {
+          "name": "Olive oil for filling",
+          "qty": 20,
+          "unit": "ml",
+          "component": "other",
+          "group": "Lentil couscous filling"
+        },
+        {
+          "name": "Dried oregano",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Lentil couscous filling"
+        },
+        {
+          "name": "Lemon juice",
+          "qty": 18,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Lentil couscous filling"
+        },
+        {
+          "name": "Feta cheese with vegetarian rennet",
+          "qty": 200,
+          "unit": "g",
+          "component": "other",
+          "group": "Topping"
+        },
+        {
+          "name": "Fresh basil",
+          "qty": 25,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Topping"
+        }
+      ],
+      "steps": [
+        "Preheat oven to 195 C. Halve and core the peppers, brush lightly with oil and pre-bake cut-side up for 10 minutes.",
+        "Rinse and cook dry green lentils in water until tender, 20-30 minutes, and drain excess liquid if needed.",
+        "Hydrate dry couscous in measured hot water and fluff; stir through cooked lentils, chopped onion, tomatoes, olive oil, lemon and oregano.",
+        "Fill pepper halves with the couscous-lentil mixture, packing evenly; scatter feta over each.",
+        "Bake another 20-25 minutes until peppers soften and filling is piping hot.",
+        "Finish with fresh basil and portion as two halves per serving; freeze without fresh basil if desired."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Source stuffed pepper recipe extended with measured dried lentil and couscous inputs. Source handling: Source technique/reference; measured UNHANGRY complete-meal adaptation.",
+    "Planning: SECONDARY STOVETOP: simmer lentils, hydrate couscous.",
+    "Freezer: cooked lentil and couscous filling freezes; peppers soften on thawing",
+    "Dietary: Wheat and dairy; certified vegetarian feta.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://cookieandkate.com/lentil-couscous-stuffed-peppers-recipe/",
+  "reference": {
+    "sourceCredit": "Kathryne Taylor, Cookie and Kate",
+    "sourceRecipeUrl": "https://cookieandkate.com/lentil-couscous-stuffed-peppers-recipe/",
+    "fileTitle": "Vegetarian Lentil Couscous Stuffed Peppers",
+    "fileRecipeNumber": "OV-02",
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Veggie",
+    "methodTag": "Oven",
+    "preparationMethod": "Oven roasting / baking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 30 minutes",
+    "cookingTime": "approx 35 minutes (some components or batch counts extend total time)",
+    "freezer": "YES: cooked lentil and couscous filling freezes; peppers soften on thawing",
+    "dietaryHalalTag": "Wheat and dairy; certified vegetarian feta.",
+    "fileMacrosPerServing": {
+      "kcal": 728,
+      "protein": 31.5,
+      "carbs": 99.7,
+      "fat": 22.5
+    },
+    "fileMacroText": {
+      "kcal": "728 kcal (ESTIMATED)",
+      "protein": "31.5 g (ESTIMATED)",
+      "carbs": "99.7 g (ESTIMATED)",
+      "fat": "22.5 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL measured recipe input ingredients using representative per-100g values. Not source-published macros; not lab tested. Product brand, draining, unused coating, oil retention and cooked-versus-dry weight assumptions affect accuracy. Confirm against actual labels before release.",
+    "fileNotes": "Source stuffed pepper recipe extended with measured dried lentil and couscous inputs. Source handling: Source technique/reference; measured UNHANGRY complete-meal adaptation.",
+    "planningNotes": "SECONDARY STOVETOP: simmer lentils, hydrate couscous.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Baked stuffed peppers: approx 1900 g",
+      "Feta topping: approx 200 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or within 1 hour if ambient temperatures exceed 32 C.",
+      "Refrigerate at 4 C or colder for up to 3-4 days; freeze later-week portions promptly. If freshly prepared salad is included, prepare and store separately.",
+      "Reheat previously cooked leftovers to 74 C, stirring and checking the centre. For egg dishes, ensure eggs are completely set before portioning.",
+      "Cool cooked rice rapidly and keep refrigerated; avoid leaving rice at room temperature. Reheat rice thoroughly once.",
+      "Defrost frozen portions in the refrigerator. Re-crisp pastries, breaded vegetables and air-fried items in an oven or air fryer.",
+      "Keep delicate avocado, fresh salad, cold yogurt sauce and unbaked crisp toppings separate. They are generally not freezer-friendly.",
+      "Freezer designation describes likely quality, not independently established safety or shelf life."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify original source and substitutions, packaged ingredients and vegetarian status, exact raw edible weights, yields and portion size.",
+      "Protein, calorie, carbs and fat values are approximate. Nutrition is calculated from the ENTIRE listed meal, including sides; verify with USDA/brand labels before public use.",
+      "Canned beans are ALREADY COOKED purchased inputs; their listed drained weight is NOT a dry-legume purchase amount. Packaged tofu, paneer, phyllo and bread are purchased inputs.",
+      "Flag eggs/dairy as VEGETARIAN but not vegan; check animal rennet in cheese, fish sauce/shrimp paste in Thai and Filipino condiments, and anchovy in Worcestershire."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 733,
+      "protein": 32,
+      "carbs": 103,
+      "fat": 23
+    },
+    "quantitiesFrom": "UNHANGRY Veggie All Methods file — exact raw quantities as written."
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "id": "rajma-masala-basmati-rice",
+  "name": "Rajma Masala with Basmati Rice",
+  "protein": "veggie",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 730,
+    "protein": 30,
+    "carbs": 130,
+    "fat": 10
+  },
+  "components": [
+    {
+      "id": "main",
+      "name": "Rajma Masala",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 1750,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 448,
+        "protein": 24,
+        "carbs": 67,
+        "fat": 10
+      },
+      "ingredients": [
+        {
+          "name": "Canned red kidney beans, drained and rinsed weight",
+          "qty": 1000,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Raw finely chopped onions",
+          "qty": 220,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Raw ripe tomatoes",
+          "qty": 400,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Fresh ginger grated",
+          "qty": 20,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Raw crushed garlic",
+          "qty": 24,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Neutral cooking oil",
+          "qty": 35,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Coriander powder",
+          "qty": 8,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Garam masala powder",
+          "qty": 7,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Turmeric and cumin blend",
+          "qty": 4,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Fine salt",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Water for curry",
+          "qty": 350,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Drain the canned cooked kidney beans; this is a pre-cooked input. If using dry kidney beans, thoroughly boil until safe; do not put undercooked dried kidney beans into the sauce.",
+        "Saute onion with oil until light golden; add ginger, garlic and ground spices briefly.",
+        "Add tomatoes and cook until they have broken down and the oil begins to separate.",
+        "Stir in drained beans and water; simmer covered 15-20 minutes, crushing some beans to thicken gravy.",
+        "Pack rajma and rice separately. Reheat rajma thoroughly and loosen with a measured splash of water if needed."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Basmati Rice",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 840,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 282,
+        "protein": 6,
+        "carbs": 62,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Dry basmati rice",
+          "qty": 300,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Water for basmati rice",
+          "qty": 500,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Cook rinsed basmati rice in measured water and rest covered."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Canned kidney bean version of the sourced classic; dry rice makes it a complete-meal entry. Source handling: Source technique/reference; measured UNHANGRY complete-meal adaptation.",
+    "Planning: Two stovetop burners.",
+    "Freezer: beans and rice freeze well",
+    "Dietary: Vegan, verify canned ingredients.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.indianhealthyrecipes.com/rajma-recipe-rajma-masala-recipe/",
+  "reference": {
+    "sourceCredit": "Swasthi Shreekanth, Swasthi’s Recipes",
+    "sourceRecipeUrl": "https://www.indianhealthyrecipes.com/rajma-recipe-rajma-masala-recipe/",
+    "fileTitle": "Rajma Masala with Basmati Rice",
+    "fileRecipeNumber": "ST-04",
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Veggie",
+    "methodTag": "Stovetop",
+    "preparationMethod": "Stovetop cooking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 20 minutes",
+    "cookingTime": "approx 40 minutes (some components or batch counts extend total time)",
+    "freezer": "YES: beans and rice freeze well",
+    "dietaryHalalTag": "Vegan, verify canned ingredients.",
+    "fileMacrosPerServing": {
+      "kcal": 730,
+      "protein": 29.5,
+      "carbs": 129.7,
+      "fat": 10.4
+    },
+    "fileMacroText": {
+      "kcal": "730 kcal (ESTIMATED)",
+      "protein": "29.5 g (ESTIMATED)",
+      "carbs": "129.7 g (ESTIMATED)",
+      "fat": "10.4 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL measured recipe input ingredients using representative per-100g values. Not source-published macros; not lab tested. Product brand, draining, unused coating, oil retention and cooked-versus-dry weight assumptions affect accuracy. Confirm against actual labels before release.",
+    "fileNotes": "Canned kidney bean version of the sourced classic; dry rice makes it a complete-meal entry. Source handling: Source technique/reference; measured UNHANGRY complete-meal adaptation.",
+    "planningNotes": "Two stovetop burners.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked rajma masala: approx 1750 g",
+      "Cooked basmati rice: approx 840 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or within 1 hour if ambient temperatures exceed 32 C.",
+      "Refrigerate at 4 C or colder for up to 3-4 days; freeze later-week portions promptly. If freshly prepared salad is included, prepare and store separately.",
+      "Reheat previously cooked leftovers to 74 C, stirring and checking the centre. For egg dishes, ensure eggs are completely set before portioning.",
+      "Cool cooked rice rapidly and keep refrigerated; avoid leaving rice at room temperature. Reheat rice thoroughly once.",
+      "Defrost frozen portions in the refrigerator. Re-crisp pastries, breaded vegetables and air-fried items in an oven or air fryer.",
+      "Keep delicate avocado, fresh salad, cold yogurt sauce and unbaked crisp toppings separate. They are generally not freezer-friendly.",
+      "Freezer designation describes likely quality, not independently established safety or shelf life."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify original source and substitutions, packaged ingredients and vegetarian status, exact raw edible weights, yields and portion size.",
+      "Protein, calorie, carbs and fat values are approximate. Nutrition is calculated from the ENTIRE listed meal, including sides; verify with USDA/brand labels before public use.",
+      "Canned beans are ALREADY COOKED purchased inputs; their listed drained weight is NOT a dry-legume purchase amount. Packaged tofu, paneer, phyllo and bread are purchased inputs.",
+      "Flag eggs/dairy as VEGETARIAN but not vegan; check animal rennet in cheese, fish sauce/shrimp paste in Thai and Filipino condiments, and anchovy in Worcestershire."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 698,
+      "protein": 26,
+      "carbs": 124,
+      "fat": 11
+    },
+    "quantitiesFrom": "UNHANGRY Veggie All Methods file — exact raw quantities as written."
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "id": "gigantes-plaki-feta-bread",
+  "name": "Gigantes Plaki Greek Baked Beans with Feta and Bread",
+  "protein": "veggie",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 858,
+    "protein": 38,
+    "carbs": 119,
+    "fat": 26
+  },
+  "components": [
+    {
+      "id": "main",
+      "name": "Gigantes Plaki",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 2260,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 639,
+        "protein": 29,
+        "carbs": 79,
+        "fat": 23
+      },
+      "ingredients": [
+        {
+          "name": "Canned butter beans drained and rinsed",
+          "qty": 1100,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Canned diced tomatoes with juice",
+          "qty": 570,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Raw onion diced",
+          "qty": 220,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Raw carrot diced",
+          "qty": 160,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Raw celery diced",
+          "qty": 120,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Raw garlic minced",
+          "qty": 25,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Extra virgin olive oil",
+          "qty": 55,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Fresh parsley and thyme",
+          "qty": 12,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Dried oregano and cinnamon blend",
+          "qty": 8,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Water",
+          "qty": 200,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Vegetarian feta crumbled",
+          "qty": 160,
+          "unit": "g",
+          "component": "other",
+          "group": "Feta topping"
+        }
+      ],
+      "steps": [
+        "Heat oven to 190 C and choose a covered oven-safe skillet.",
+        "Cook onion, carrot and celery in measured olive oil over medium heat 6-8 minutes; add garlic.",
+        "Add tomatoes, water, dried herbs and drained cooked butter beans; simmer 5 minutes to start sauce thickening.",
+        "Transfer skillet to the preheated oven, uncovered, for 25-35 minutes until the tomato sauce is thick and beans tender.",
+        "Freeze beans and sauce without fresh cheese topping if possible; feta may be added when reheating."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Wholegrain Bread",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 320,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 219,
+        "protein": 8,
+        "carbs": 40,
+        "fat": 3
+      },
+      "ingredients": [
+        {
+          "name": "Wholegrain rustic bread, four slices",
+          "qty": 320,
+          "unit": "g",
+          "component": "carb"
+        }
+      ],
+      "steps": [
+        "Top with feta and parsley after baking, and serve with one measured slice of wholegrain bread per portion."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Source includes beans, tomato sauce and feta. Quantities scaled into four complete meals with bread. Source handling: Source technique/reference; measured UNHANGRY complete-meal adaptation.",
+    "Planning: SECONDARY STOVETOP to soften vegetables before baking.",
+    "Freezer: for tomato beans; freeze bread separately; feta best fresh",
+    "Dietary: Wheat and dairy; vegetarian feta only.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.themediterraneandish.com/gigantes-plaki-greek-giant-beans/",
+  "reference": {
+    "sourceCredit": "Suzy Karadsheh, The Mediterranean Dish",
+    "sourceRecipeUrl": "https://www.themediterraneandish.com/gigantes-plaki-greek-giant-beans/",
+    "fileTitle": "Gigantes Plaki Greek Baked Beans with Feta and Bread",
+    "fileRecipeNumber": "OV-07",
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Veggie",
+    "methodTag": "Oven",
+    "preparationMethod": "Oven roasting / baking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 20 minutes",
+    "cookingTime": "approx 35 minutes (some components or batch counts extend total time)",
+    "freezer": "YES for tomato beans; freeze bread separately; feta best fresh",
+    "dietaryHalalTag": "Wheat and dairy; vegetarian feta only.",
+    "fileMacrosPerServing": {
+      "kcal": 858,
+      "protein": 37.7,
+      "carbs": 118.7,
+      "fat": 25.8
+    },
+    "fileMacroText": {
+      "kcal": "858 kcal (ESTIMATED)",
+      "protein": "37.7 g (ESTIMATED)",
+      "carbs": "118.7 g (ESTIMATED)",
+      "fat": "25.8 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL measured recipe input ingredients using representative per-100g values. Not source-published macros; not lab tested. Product brand, draining, unused coating, oil retention and cooked-versus-dry weight assumptions affect accuracy. Confirm against actual labels before release.",
+    "fileNotes": "Source includes beans, tomato sauce and feta. Quantities scaled into four complete meals with bread. Source handling: Source technique/reference; measured UNHANGRY complete-meal adaptation.",
+    "planningNotes": "SECONDARY STOVETOP to soften vegetables before baking.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Baked gigante-style butter beans: approx 2100 g",
+      "Feta garnish: approx 160 g",
+      "Bread: approx 320 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or within 1 hour if ambient temperatures exceed 32 C.",
+      "Refrigerate at 4 C or colder for up to 3-4 days; freeze later-week portions promptly. If freshly prepared salad is included, prepare and store separately.",
+      "Reheat previously cooked leftovers to 74 C, stirring and checking the centre. For egg dishes, ensure eggs are completely set before portioning.",
+      "Cool cooked rice rapidly and keep refrigerated; avoid leaving rice at room temperature. Reheat rice thoroughly once.",
+      "Defrost frozen portions in the refrigerator. Re-crisp pastries, breaded vegetables and air-fried items in an oven or air fryer.",
+      "Keep delicate avocado, fresh salad, cold yogurt sauce and unbaked crisp toppings separate. They are generally not freezer-friendly.",
+      "Freezer designation describes likely quality, not independently established safety or shelf life."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify original source and substitutions, packaged ingredients and vegetarian status, exact raw edible weights, yields and portion size.",
+      "Protein, calorie, carbs and fat values are approximate. Nutrition is calculated from the ENTIRE listed meal, including sides; verify with USDA/brand labels before public use.",
+      "Canned beans are ALREADY COOKED purchased inputs; their listed drained weight is NOT a dry-legume purchase amount. Packaged tofu, paneer, phyllo and bread are purchased inputs.",
+      "Flag eggs/dairy as VEGETARIAN but not vegan; check animal rennet in cheese, fish sauce/shrimp paste in Thai and Filipino condiments, and anchovy in Worcestershire."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 785,
+      "protein": 36,
+      "carbs": 103,
+      "fat": 26
+    },
+    "quantitiesFrom": "UNHANGRY Veggie All Methods file — exact raw quantities as written."
+  }
+}

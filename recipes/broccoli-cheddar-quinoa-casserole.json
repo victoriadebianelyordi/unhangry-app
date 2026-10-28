@@ -1,0 +1,198 @@
+{
+  "id": "broccoli-cheddar-quinoa-casserole",
+  "name": "Broccoli Cheddar Quinoa Casserole",
+  "protein": "veggie",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 6,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 698,
+    "protein": 34,
+    "carbs": 71,
+    "fat": 31
+  },
+  "components": [
+    {
+      "id": "casserole",
+      "name": "Broccoli Cheddar Quinoa Casserole",
+      "scaling": "ratio",
+      "role": "whole",
+      "servings": 6,
+      "cookedYieldG": 2600,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 698,
+        "protein": 34,
+        "carbs": 71,
+        "fat": 31
+      },
+      "ingredients": [
+        {
+          "name": "Dry quinoa, rinsed",
+          "qty": 390,
+          "unit": "g",
+          "component": "carb",
+          "group": "Quinoa"
+        },
+        {
+          "name": "Vegetable stock or water for quinoa",
+          "qty": 770,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Quinoa"
+        },
+        {
+          "name": "Raw broccoli florets",
+          "qty": 850,
+          "unit": "g",
+          "component": "other",
+          "group": "Broccoli"
+        },
+        {
+          "name": "Extra virgin olive oil for broccoli",
+          "qty": 35,
+          "unit": "ml",
+          "component": "other",
+          "group": "Broccoli"
+        },
+        {
+          "name": "Cheddar with vegetarian rennet, shredded",
+          "qty": 270,
+          "unit": "g",
+          "component": "other",
+          "group": "Cheese sauce"
+        },
+        {
+          "name": "Plain strained Greek yogurt",
+          "qty": 300,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Cheese sauce"
+        },
+        {
+          "name": "Milk",
+          "qty": 210,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Cheese sauce"
+        },
+        {
+          "name": "Plain flour to thicken",
+          "qty": 30,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Cheese sauce"
+        },
+        {
+          "name": "Fine salt",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Cheese sauce"
+        },
+        {
+          "name": "Wholegrain breadcrumbs",
+          "qty": 80,
+          "unit": "g",
+          "component": "other",
+          "group": "Crumb topping"
+        },
+        {
+          "name": "Olive oil for topping",
+          "qty": 22,
+          "unit": "ml",
+          "component": "other",
+          "group": "Crumb topping"
+        },
+        {
+          "name": "Fresh garlic",
+          "qty": 15,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Crumb topping"
+        }
+      ],
+      "steps": [
+        "Heat oven to 200 C. Rinse dry quinoa and cook in measured vegetable stock until grains open and liquid absorbs, about 15 minutes.",
+        "Toss raw broccoli with measured oil and roast on a tray for 12-15 minutes until bright and tender.",
+        "In a pan heat milk and whisk in flour until thickened; turn off heat and mix in cheese and Greek yogurt.",
+        "Combine cooked quinoa, roasted broccoli and cheese sauce in a large baking dish and distribute evenly.",
+        "Mix breadcrumbs, garlic and measured oil, scatter on the casserole and bake 15-20 minutes until crisp and bubbling.",
+        "Rest before dividing into six portions. Freeze casserole in single-serving containers, noting yogurt sauce may look slightly grainy on thawing."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Quantified modification of Cookie and Kate casserole with additional yogurt protein. Source handling: Source technique/reference; measured UNHANGRY complete-meal adaptation.",
+    "Planning: SECONDARY STOVETOP: quinoa and cheese sauce.",
+    "Freezer: quinoa/broccoli freeze; yogurt cheddar mixture may change texture",
+    "Dietary: Milk, wheat, cheese; vegetarian rennet in cheddar.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://cookieandkate.com/better-broccoli-casserole-recipe/",
+  "reference": {
+    "sourceCredit": "Kathryne Taylor, Cookie and Kate",
+    "sourceRecipeUrl": "https://cookieandkate.com/better-broccoli-casserole-recipe/",
+    "fileTitle": "Broccoli Cheddar Quinoa Casserole",
+    "fileRecipeNumber": "OV-08",
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Veggie",
+    "methodTag": "Oven",
+    "preparationMethod": "Oven roasting / baking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 25 minutes",
+    "cookingTime": "approx 40 minutes (some components or batch counts extend total time)",
+    "freezer": "PARTIAL: quinoa/broccoli freeze; yogurt cheddar mixture may change texture",
+    "dietaryHalalTag": "Milk, wheat, cheese; vegetarian rennet in cheddar.",
+    "fileMacrosPerServing": {
+      "kcal": 698,
+      "protein": 34.3,
+      "carbs": 71.1,
+      "fat": 30.7
+    },
+    "fileMacroText": {
+      "kcal": "698 kcal (ESTIMATED)",
+      "protein": "34.3 g (ESTIMATED)",
+      "carbs": "71.1 g (ESTIMATED)",
+      "fat": "30.7 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL measured recipe input ingredients using representative per-100g values. Not source-published macros; not lab tested. Product brand, draining, unused coating, oil retention and cooked-versus-dry weight assumptions affect accuracy. Confirm against actual labels before release.",
+    "fileNotes": "Quantified modification of Cookie and Kate casserole with additional yogurt protein. Source handling: Source technique/reference; measured UNHANGRY complete-meal adaptation.",
+    "planningNotes": "SECONDARY STOVETOP: quinoa and cheese sauce.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked broccoli cheddar quinoa bake: approx 2600 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or within 1 hour if ambient temperatures exceed 32 C.",
+      "Refrigerate at 4 C or colder for up to 3-4 days; freeze later-week portions promptly. If freshly prepared salad is included, prepare and store separately.",
+      "Reheat previously cooked leftovers to 74 C, stirring and checking the centre. For egg dishes, ensure eggs are completely set before portioning.",
+      "Cool cooked rice rapidly and keep refrigerated; avoid leaving rice at room temperature. Reheat rice thoroughly once.",
+      "Defrost frozen portions in the refrigerator. Re-crisp pastries, breaded vegetables and air-fried items in an oven or air fryer.",
+      "Keep delicate avocado, fresh salad, cold yogurt sauce and unbaked crisp toppings separate. They are generally not freezer-friendly.",
+      "Freezer designation describes likely quality, not independently established safety or shelf life."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify original source and substitutions, packaged ingredients and vegetarian status, exact raw edible weights, yields and portion size.",
+      "Protein, calorie, carbs and fat values are approximate. Nutrition is calculated from the ENTIRE listed meal, including sides; verify with USDA/brand labels before public use.",
+      "Canned beans are ALREADY COOKED purchased inputs; their listed drained weight is NOT a dry-legume purchase amount. Packaged tofu, paneer, phyllo and bread are purchased inputs.",
+      "Flag eggs/dairy as VEGETARIAN but not vegan; check animal rennet in cheese, fish sauce/shrimp paste in Thai and Filipino condiments, and anchovy in Worcestershire."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 683,
+      "protein": 34,
+      "carbs": 70,
+      "fat": 31
+    },
+    "quantitiesFrom": "UNHANGRY Veggie All Methods file — exact raw quantities as written."
+  }
+}

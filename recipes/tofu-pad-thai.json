@@ -1,0 +1,205 @@
+{
+  "id": "tofu-pad-thai",
+  "name": "Tofu Pad Thai with Rice Noodles and Peanuts",
+  "protein": "veggie",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 931,
+    "protein": 46,
+    "carbs": 106,
+    "fat": 36
+  },
+  "components": [
+    {
+      "id": "padthai",
+      "name": "Tofu Pad Thai",
+      "scaling": "ratio",
+      "role": "whole",
+      "servings": 4,
+      "cookedYieldG": 2070,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 931,
+        "protein": 46,
+        "carbs": 106,
+        "fat": 36
+      },
+      "ingredients": [
+        {
+          "name": "Dry flat rice noodles",
+          "qty": 320,
+          "unit": "g",
+          "component": "carb",
+          "group": "Noodles"
+        },
+        {
+          "name": "Extra-firm tofu from package, drained",
+          "qty": 800,
+          "unit": "g",
+          "component": "protein",
+          "group": "Tofu"
+        },
+        {
+          "name": "Neutral oil for wok",
+          "qty": 35,
+          "unit": "ml",
+          "component": "other",
+          "group": "Tofu"
+        },
+        {
+          "name": "Tamarind concentrate, vegetarian",
+          "qty": 65,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Sauce"
+        },
+        {
+          "name": "Soy sauce, replacing fish sauce",
+          "qty": 60,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Sauce"
+        },
+        {
+          "name": "Brown sugar",
+          "qty": 40,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Sauce"
+        },
+        {
+          "name": "Fresh lime juice",
+          "qty": 35,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Sauce"
+        },
+        {
+          "name": "Fresh bean sprouts",
+          "qty": 280,
+          "unit": "g",
+          "component": "other",
+          "group": "Vegetables & egg"
+        },
+        {
+          "name": "Raw carrots, julienned",
+          "qty": 150,
+          "unit": "g",
+          "component": "other",
+          "group": "Vegetables & egg"
+        },
+        {
+          "name": "Raw spring onions sliced",
+          "qty": 120,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Vegetables & egg"
+        },
+        {
+          "name": "Raw egg beaten (without shell)",
+          "qty": 190,
+          "unit": "g",
+          "component": "protein",
+          "group": "Vegetables & egg"
+        },
+        {
+          "name": "Dry roasted unsalted peanuts crushed",
+          "qty": 70,
+          "unit": "g",
+          "component": "other",
+          "group": "Topping"
+        },
+        {
+          "name": "Fresh coriander leaves",
+          "qty": 15,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Topping"
+        }
+      ],
+      "steps": [
+        "Soak dry rice noodles in warm water until flexible but not soft; drain thoroughly.",
+        "Whisk vegetarian tamarind concentrate, soy sauce, sugar and lime into an even sauce.",
+        "Drain and cube tofu, then fry in half the oil over medium-high heat until browned and firm. Remove to a plate.",
+        "Add remaining oil, cook carrot and scallions briefly, push aside and scramble the beaten egg until fully set.",
+        "Add softened noodles, sauce and tofu, tossing over high heat until noodles soften and absorb sauce; fold in sprouts last.",
+        "Portion into four containers and pack crushed peanuts and coriander separately; this recipe uses soy sauce in place of nonvegetarian fish sauce."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "New vegetarian adaptation; published Pad Thai sometimes includes shrimp and fish sauce, neither is used here. Source handling: Source technique/reference; measured UNHANGRY complete-meal adaptation.",
+    "Planning: Wok cooking plus pre-soaking noodles.",
+    "Freezer: noodles can soften after freezing; toppings fresh; better chilled for 2-3 days",
+    "Dietary: Soy, peanut and egg; check tamarind sauce has no fish.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "reference": {
+    "sourceCredit": "UNHANGRY vegetarian Pad Thai formulation",
+    "sourceRecipeUrl": "NO DIRECT SINGLE-RECIPE SOURCE VERIFIED",
+    "fileTitle": "Tofu Pad Thai with Rice Noodles and Peanuts",
+    "fileRecipeNumber": "ST-13",
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Veggie",
+    "methodTag": "Stovetop",
+    "preparationMethod": "Stovetop cooking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 30 minutes",
+    "cookingTime": "approx 20 minutes (some components or batch counts extend total time)",
+    "freezer": "PARTIAL: noodles can soften after freezing; toppings fresh; better chilled for 2-3 days",
+    "dietaryHalalTag": "Soy, peanut and egg; check tamarind sauce has no fish.",
+    "fileMacrosPerServing": {
+      "kcal": 931,
+      "protein": 46.1,
+      "carbs": 105.5,
+      "fat": 36.1
+    },
+    "fileMacroText": {
+      "kcal": "931 kcal (ESTIMATED)",
+      "protein": "46.1 g (ESTIMATED)",
+      "carbs": "105.5 g (ESTIMATED)",
+      "fat": "36.1 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL measured recipe input ingredients using representative per-100g values. Not source-published macros; not lab tested. Product brand, draining, unused coating, oil retention and cooked-versus-dry weight assumptions affect accuracy. Confirm against actual labels before release.",
+    "fileNotes": "New vegetarian adaptation; published Pad Thai sometimes includes shrimp and fish sauce, neither is used here. Source handling: Source technique/reference; measured UNHANGRY complete-meal adaptation.",
+    "planningNotes": "Wok cooking plus pre-soaking noodles.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked tofu, noodles, egg and vegetables: approx 2000 g",
+      "Crushed peanut garnish: approx 70 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or within 1 hour if ambient temperatures exceed 32 C.",
+      "Refrigerate at 4 C or colder for up to 3-4 days; freeze later-week portions promptly. If freshly prepared salad is included, prepare and store separately.",
+      "Reheat previously cooked leftovers to 74 C, stirring and checking the centre. For egg dishes, ensure eggs are completely set before portioning.",
+      "Cool cooked rice rapidly and keep refrigerated; avoid leaving rice at room temperature. Reheat rice thoroughly once.",
+      "Defrost frozen portions in the refrigerator. Re-crisp pastries, breaded vegetables and air-fried items in an oven or air fryer.",
+      "Keep delicate avocado, fresh salad, cold yogurt sauce and unbaked crisp toppings separate. They are generally not freezer-friendly.",
+      "Freezer designation describes likely quality, not independently established safety or shelf life."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify original source and substitutions, packaged ingredients and vegetarian status, exact raw edible weights, yields and portion size.",
+      "Protein, calorie, carbs and fat values are approximate. Nutrition is calculated from the ENTIRE listed meal, including sides; verify with USDA/brand labels before public use.",
+      "Canned beans are ALREADY COOKED purchased inputs; their listed drained weight is NOT a dry-legume purchase amount. Packaged tofu, paneer, phyllo and bread are purchased inputs.",
+      "Flag eggs/dairy as VEGETARIAN but not vegan; check animal rennet in cheese, fish sauce/shrimp paste in Thai and Filipino condiments, and anchovy in Worcestershire."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 957,
+      "protein": 55,
+      "carbs": 106,
+      "fat": 40
+    },
+    "quantitiesFrom": "UNHANGRY Veggie All Methods file — exact raw quantities as written."
+  }
+}

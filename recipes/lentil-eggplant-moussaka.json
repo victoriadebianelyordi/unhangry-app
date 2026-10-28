@@ -1,0 +1,219 @@
+{
+  "id": "lentil-eggplant-moussaka",
+  "name": "Vegetarian Lentil Eggplant Moussaka",
+  "protein": "veggie",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 6,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 796,
+    "protein": 33,
+    "carbs": 95,
+    "fat": 32
+  },
+  "components": [
+    {
+      "id": "moussaka",
+      "name": "Lentil Eggplant Moussaka",
+      "scaling": "ratio",
+      "role": "whole",
+      "servings": 6,
+      "cookedYieldG": 3850,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 796,
+        "protein": 33,
+        "carbs": 95,
+        "fat": 32
+      },
+      "ingredients": [
+        {
+          "name": "Raw eggplant sliced",
+          "qty": 1100,
+          "unit": "g",
+          "component": "other",
+          "group": "Vegetable layers"
+        },
+        {
+          "name": "Raw potatoes thinly sliced",
+          "qty": 900,
+          "unit": "g",
+          "component": "carb",
+          "group": "Vegetable layers"
+        },
+        {
+          "name": "Olive oil for roasting vegetables",
+          "qty": 65,
+          "unit": "ml",
+          "component": "other",
+          "group": "Vegetable layers"
+        },
+        {
+          "name": "Dry green or brown lentils",
+          "qty": 340,
+          "unit": "g",
+          "component": "protein",
+          "group": "Lentil sauce"
+        },
+        {
+          "name": "Water for dried lentils",
+          "qty": 940,
+          "unit": "ml",
+          "component": "other",
+          "group": "Lentil sauce"
+        },
+        {
+          "name": "Canned crushed tomatoes",
+          "qty": 700,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Lentil sauce"
+        },
+        {
+          "name": "Raw onions diced",
+          "qty": 200,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Lentil sauce"
+        },
+        {
+          "name": "Raw garlic",
+          "qty": 25,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Lentil sauce"
+        },
+        {
+          "name": "Olive oil for sauce",
+          "qty": 25,
+          "unit": "ml",
+          "component": "other",
+          "group": "Lentil sauce"
+        },
+        {
+          "name": "Cinnamon and oregano blend",
+          "qty": 8,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Lentil sauce"
+        },
+        {
+          "name": "Milk",
+          "qty": 550,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Béchamel"
+        },
+        {
+          "name": "Plain flour",
+          "qty": 65,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Béchamel"
+        },
+        {
+          "name": "Butter",
+          "qty": 50,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Béchamel"
+        },
+        {
+          "name": "Raw beaten egg, without shell",
+          "qty": 150,
+          "unit": "g",
+          "component": "protein",
+          "group": "Béchamel"
+        },
+        {
+          "name": "Vegetarian hard cheese grated",
+          "qty": 80,
+          "unit": "g",
+          "component": "other",
+          "group": "Béchamel"
+        }
+      ],
+      "steps": [
+        "Heat oven to 200 C. Slice eggplant and potatoes thinly, brush with measured oil and roast in single layers 20-25 minutes until just tender.",
+        "Rinse dry lentils and simmer in measured water until tender, 25-35 minutes, then drain if needed.",
+        "Soften onions and garlic in 25 ml oil, cook tomatoes and cinnamon/oregano, then fold in cooked lentils to make thick sauce.",
+        "Make bechamel by melting butter, whisking in flour and slowly adding milk until smooth and thick; cool slightly before whisking in egg and vegetarian hard cheese.",
+        "Layer potatoes, eggplant and lentil sauce in a deep baking dish, then spread bechamel over the top.",
+        "Bake at 185 C for 40-50 minutes until golden and centre is set; rest 20 minutes before slicing into six. This is an extended multi-stage recipe."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Measured version of published vegetarian lentil moussaka; dry lentil conversion explicit. Source handling: Source technique/reference; measured UNHANGRY complete-meal adaptation.",
+    "Planning: SECONDARY STOVETOP: boil lentils, cook sauce and bechamel. LONG COMBINED COOK TIME.",
+    "Freezer: portions freeze; bechamel may release some water on reheating",
+    "Dietary: Wheat, dairy, egg; vegetarian hard cheese.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.themediterraneandish.com/vegetarian-moussaka-recipe/",
+  "reference": {
+    "sourceCredit": "Suzy Karadsheh, The Mediterranean Dish",
+    "sourceRecipeUrl": "https://www.themediterraneandish.com/vegetarian-moussaka-recipe/",
+    "fileTitle": "Vegetarian Lentil Eggplant Moussaka",
+    "fileRecipeNumber": "OV-10",
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Veggie",
+    "methodTag": "Oven",
+    "preparationMethod": "Oven roasting / baking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 50 minutes",
+    "cookingTime": "approx 85 minutes (some components or batch counts extend total time)",
+    "freezer": "YES: portions freeze; bechamel may release some water on reheating",
+    "dietaryHalalTag": "Wheat, dairy, egg; vegetarian hard cheese.",
+    "fileMacrosPerServing": {
+      "kcal": 796,
+      "protein": 32.8,
+      "carbs": 95,
+      "fat": 31.6
+    },
+    "fileMacroText": {
+      "kcal": "796 kcal (ESTIMATED)",
+      "protein": "32.8 g (ESTIMATED)",
+      "carbs": "95.0 g (ESTIMATED)",
+      "fat": "31.6 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL measured recipe input ingredients using representative per-100g values. Not source-published macros; not lab tested. Product brand, draining, unused coating, oil retention and cooked-versus-dry weight assumptions affect accuracy. Confirm against actual labels before release.",
+    "fileNotes": "Measured version of published vegetarian lentil moussaka; dry lentil conversion explicit. Source handling: Source technique/reference; measured UNHANGRY complete-meal adaptation.",
+    "planningNotes": "SECONDARY STOVETOP: boil lentils, cook sauce and bechamel. LONG COMBINED COOK TIME.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Baked lentil eggplant moussaka: approx 3850 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or within 1 hour if ambient temperatures exceed 32 C.",
+      "Refrigerate at 4 C or colder for up to 3-4 days; freeze later-week portions promptly. If freshly prepared salad is included, prepare and store separately.",
+      "Reheat previously cooked leftovers to 74 C, stirring and checking the centre. For egg dishes, ensure eggs are completely set before portioning.",
+      "Cool cooked rice rapidly and keep refrigerated; avoid leaving rice at room temperature. Reheat rice thoroughly once.",
+      "Defrost frozen portions in the refrigerator. Re-crisp pastries, breaded vegetables and air-fried items in an oven or air fryer.",
+      "Keep delicate avocado, fresh salad, cold yogurt sauce and unbaked crisp toppings separate. They are generally not freezer-friendly.",
+      "Freezer designation describes likely quality, not independently established safety or shelf life."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify original source and substitutions, packaged ingredients and vegetarian status, exact raw edible weights, yields and portion size.",
+      "Protein, calorie, carbs and fat values are approximate. Nutrition is calculated from the ENTIRE listed meal, including sides; verify with USDA/brand labels before public use.",
+      "Canned beans are ALREADY COOKED purchased inputs; their listed drained weight is NOT a dry-legume purchase amount. Packaged tofu, paneer, phyllo and bread are purchased inputs.",
+      "Flag eggs/dairy as VEGETARIAN but not vegan; check animal rennet in cheese, fish sauce/shrimp paste in Thai and Filipino condiments, and anchovy in Worcestershire."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 781,
+      "protein": 33,
+      "carbs": 100,
+      "fat": 30
+    },
+    "quantitiesFrom": "UNHANGRY Veggie All Methods file — exact raw quantities as written."
+  }
+}

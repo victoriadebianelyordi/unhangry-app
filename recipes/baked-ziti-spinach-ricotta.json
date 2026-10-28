@@ -1,0 +1,197 @@
+{
+  "id": "baked-ziti-spinach-ricotta",
+  "name": "Baked Ziti with Spinach and Ricotta",
+  "protein": "veggie",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 6,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 831,
+    "protein": 45,
+    "carbs": 88,
+    "fat": 33
+  },
+  "components": [
+    {
+      "id": "bake",
+      "name": "Baked Ziti",
+      "scaling": "ratio",
+      "role": "whole",
+      "servings": 6,
+      "cookedYieldG": 2850,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 831,
+        "protein": 45,
+        "carbs": 88,
+        "fat": 33
+      },
+      "ingredients": [
+        {
+          "name": "Dry ziti or penne pasta",
+          "qty": 550,
+          "unit": "g",
+          "component": "carb",
+          "group": "Pasta"
+        },
+        {
+          "name": "Canned tomato passata",
+          "qty": 800,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Tomato sauce"
+        },
+        {
+          "name": "Raw yellow onion diced",
+          "qty": 200,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Tomato sauce"
+        },
+        {
+          "name": "Raw garlic minced",
+          "qty": 24,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Tomato sauce"
+        },
+        {
+          "name": "Extra virgin olive oil",
+          "qty": 28,
+          "unit": "ml",
+          "component": "other",
+          "group": "Tomato sauce"
+        },
+        {
+          "name": "Italian dried herbs",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Tomato sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Tomato sauce"
+        },
+        {
+          "name": "Ricotta cheese from package",
+          "qty": 600,
+          "unit": "g",
+          "component": "other",
+          "group": "Spinach ricotta filling"
+        },
+        {
+          "name": "Raw baby spinach",
+          "qty": 550,
+          "unit": "g",
+          "component": "other",
+          "group": "Spinach ricotta filling"
+        },
+        {
+          "name": "Mozzarella, grated",
+          "qty": 260,
+          "unit": "g",
+          "component": "other",
+          "group": "Spinach ricotta filling"
+        },
+        {
+          "name": "Vegetarian-labelled Parmesan-style cheese",
+          "qty": 80,
+          "unit": "g",
+          "component": "other",
+          "group": "Spinach ricotta filling"
+        },
+        {
+          "name": "Raw beaten egg, without shell",
+          "qty": 100,
+          "unit": "g",
+          "component": "protein",
+          "group": "Spinach ricotta filling"
+        }
+      ],
+      "steps": [
+        "Heat the oven to 190 C. Boil the measured dry pasta 2 minutes less than its packet instruction; drain, noting it will finish cooking in the oven.",
+        "Heat olive oil in a skillet; saute onion and garlic, add passata and herbs and simmer 10 minutes.",
+        "Wilt spinach in a separate pan and squeeze dry; fold it through ricotta with beaten egg and half the hard cheese.",
+        "Mix pasta with tomato sauce, layer in an oven dish with spinach ricotta, and finish with mozzarella and remaining hard cheese.",
+        "Bake uncovered 25-30 minutes until bubbling and the egg binder is fully set; rest 10 minutes before slicing into six portions.",
+        "Freeze cooled portions tightly wrapped; thaw in the fridge and reheat with a spoon of water to prevent dry pasta."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "A quantified vegetarian casserole; all cheese should use vegetarian microbial/vegetable rennet. Source handling: UNHANGRY original working formulation.",
+    "Planning: SECONDARY STOVETOP: boil pasta and cook sauce.",
+    "Freezer: baked ziti freezes well but noodles soften slightly",
+    "Dietary: Wheat, eggs and dairy.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "reference": {
+    "sourceCredit": "UNHANGRY vegetarian baked ziti formulation",
+    "sourceRecipeUrl": "NO DIRECT SINGLE-RECIPE SOURCE VERIFIED",
+    "fileTitle": "Baked Ziti with Spinach and Ricotta",
+    "fileRecipeNumber": "OV-01",
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Veggie",
+    "methodTag": "Oven",
+    "preparationMethod": "Oven roasting / baking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 30 minutes",
+    "cookingTime": "approx 35 minutes (some components or batch counts extend total time)",
+    "freezer": "YES: baked ziti freezes well but noodles soften slightly",
+    "dietaryHalalTag": "Wheat, eggs and dairy.",
+    "fileMacrosPerServing": {
+      "kcal": 831,
+      "protein": 45.2,
+      "carbs": 88,
+      "fat": 33.1
+    },
+    "fileMacroText": {
+      "kcal": "831 kcal (ESTIMATED)",
+      "protein": "45.2 g (ESTIMATED)",
+      "carbs": "88.0 g (ESTIMATED)",
+      "fat": "33.1 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL measured recipe input ingredients using representative per-100g values. Not source-published macros; not lab tested. Product brand, draining, unused coating, oil retention and cooked-versus-dry weight assumptions affect accuracy. Confirm against actual labels before release.",
+    "fileNotes": "A quantified vegetarian casserole; all cheese should use vegetarian microbial/vegetable rennet. Source handling: UNHANGRY original working formulation.",
+    "planningNotes": "SECONDARY STOVETOP: boil pasta and cook sauce.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked ziti and sauce bake: approx 2850 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or within 1 hour if ambient temperatures exceed 32 C.",
+      "Refrigerate at 4 C or colder for up to 3-4 days; freeze later-week portions promptly. If freshly prepared salad is included, prepare and store separately.",
+      "Reheat previously cooked leftovers to 74 C, stirring and checking the centre. For egg dishes, ensure eggs are completely set before portioning.",
+      "Cool cooked rice rapidly and keep refrigerated; avoid leaving rice at room temperature. Reheat rice thoroughly once.",
+      "Defrost frozen portions in the refrigerator. Re-crisp pastries, breaded vegetables and air-fried items in an oven or air fryer.",
+      "Keep delicate avocado, fresh salad, cold yogurt sauce and unbaked crisp toppings separate. They are generally not freezer-friendly.",
+      "Freezer designation describes likely quality, not independently established safety or shelf life."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify original source and substitutions, packaged ingredients and vegetarian status, exact raw edible weights, yields and portion size.",
+      "Protein, calorie, carbs and fat values are approximate. Nutrition is calculated from the ENTIRE listed meal, including sides; verify with USDA/brand labels before public use.",
+      "Canned beans are ALREADY COOKED purchased inputs; their listed drained weight is NOT a dry-legume purchase amount. Packaged tofu, paneer, phyllo and bread are purchased inputs.",
+      "Flag eggs/dairy as VEGETARIAN but not vegan; check animal rennet in cheese, fish sauce/shrimp paste in Thai and Filipino condiments, and anchovy in Worcestershire."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 844,
+      "protein": 44,
+      "carbs": 92,
+      "fat": 33
+    },
+    "quantitiesFrom": "UNHANGRY Veggie All Methods file — exact raw quantities as written."
+  }
+}

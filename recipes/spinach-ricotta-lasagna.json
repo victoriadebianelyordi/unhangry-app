@@ -1,0 +1,197 @@
+{
+  "id": "spinach-ricotta-lasagna",
+  "name": "Spinach Ricotta Lasagna",
+  "protein": "veggie",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 6,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 825,
+    "protein": 50,
+    "carbs": 68,
+    "fat": 40
+  },
+  "components": [
+    {
+      "id": "lasagna",
+      "name": "Spinach Ricotta Lasagna",
+      "scaling": "ratio",
+      "role": "whole",
+      "servings": 6,
+      "cookedYieldG": 3150,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 825,
+        "protein": 50,
+        "carbs": 68,
+        "fat": 40
+      },
+      "ingredients": [
+        {
+          "name": "Dry oven-ready lasagna sheets",
+          "qty": 350,
+          "unit": "g",
+          "component": "carb",
+          "group": "Pasta"
+        },
+        {
+          "name": "Ricotta cheese from package",
+          "qty": 700,
+          "unit": "g",
+          "component": "other",
+          "group": "Spinach ricotta filling"
+        },
+        {
+          "name": "Raw baby spinach",
+          "qty": 650,
+          "unit": "g",
+          "component": "other",
+          "group": "Spinach ricotta filling"
+        },
+        {
+          "name": "Raw beaten eggs without shell",
+          "qty": 200,
+          "unit": "g",
+          "component": "protein",
+          "group": "Spinach ricotta filling"
+        },
+        {
+          "name": "Ground nutmeg and pepper",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Spinach ricotta filling"
+        },
+        {
+          "name": "Tomato passata",
+          "qty": 950,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Tomato sauce"
+        },
+        {
+          "name": "Raw onion diced",
+          "qty": 180,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Tomato sauce"
+        },
+        {
+          "name": "Raw garlic",
+          "qty": 25,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Tomato sauce"
+        },
+        {
+          "name": "Extra virgin olive oil",
+          "qty": 28,
+          "unit": "ml",
+          "component": "other",
+          "group": "Tomato sauce"
+        },
+        {
+          "name": "Dried oregano and basil",
+          "qty": 8,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Tomato sauce"
+        },
+        {
+          "name": "Mozzarella cheese shredded",
+          "qty": 320,
+          "unit": "g",
+          "component": "other",
+          "group": "Topping"
+        },
+        {
+          "name": "Vegetarian-labelled Parmesan-style hard cheese",
+          "qty": 100,
+          "unit": "g",
+          "component": "other",
+          "group": "Topping"
+        }
+      ],
+      "steps": [
+        "Preheat oven to 190 C. Heat oil in a skillet and soften onions and garlic; stir in tomato passata and dried herbs, simmer 10 minutes.",
+        "Wilt spinach, cool enough to handle and squeeze out excess water; mix spinach with ricotta, egg and a pinch of nutmeg.",
+        "Spread a thin layer of tomato sauce across the base of a large baking dish.",
+        "Layer dry lasagna sheets, spinach ricotta filling and tomato sauce repeatedly, finishing with sauce and shredded mozzarella and hard cheese.",
+        "Cover with foil and bake about 30 minutes, then uncover and bake 15 minutes more until golden and lasagna sheets fully tender.",
+        "Rest 15 minutes to cut six defined portions; chill quickly and freeze fully cooled portions if desired."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Oven-ready sheets require sufficiently wet sauce; check package cooking specification. Source handling: UNHANGRY original working formulation.",
+    "Planning: SECONDARY STOVETOP: cook sauce and wilt spinach.",
+    "Freezer: lasagna is excellent batch/freezer food; spinach releases some liquid",
+    "Dietary: Egg, dairy, wheat; vegetarian rennet only.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "reference": {
+    "sourceCredit": "UNHANGRY meatless ricotta lasagna formulation",
+    "sourceRecipeUrl": "NO DIRECT SINGLE-RECIPE SOURCE VERIFIED",
+    "fileTitle": "Spinach Ricotta Lasagna",
+    "fileRecipeNumber": "OV-04",
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Veggie",
+    "methodTag": "Oven",
+    "preparationMethod": "Oven roasting / baking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 35 minutes",
+    "cookingTime": "approx 50 minutes (some components or batch counts extend total time)",
+    "freezer": "YES: lasagna is excellent batch/freezer food; spinach releases some liquid",
+    "dietaryHalalTag": "Egg, dairy, wheat; vegetarian rennet only.",
+    "fileMacrosPerServing": {
+      "kcal": 825,
+      "protein": 49.9,
+      "carbs": 67.7,
+      "fat": 39.5
+    },
+    "fileMacroText": {
+      "kcal": "825 kcal (ESTIMATED)",
+      "protein": "49.9 g (ESTIMATED)",
+      "carbs": "67.7 g (ESTIMATED)",
+      "fat": "39.5 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL measured recipe input ingredients using representative per-100g values. Not source-published macros; not lab tested. Product brand, draining, unused coating, oil retention and cooked-versus-dry weight assumptions affect accuracy. Confirm against actual labels before release.",
+    "fileNotes": "Oven-ready sheets require sufficiently wet sauce; check package cooking specification. Source handling: UNHANGRY original working formulation.",
+    "planningNotes": "SECONDARY STOVETOP: cook sauce and wilt spinach.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Baked spinach ricotta lasagna: approx 3150 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or within 1 hour if ambient temperatures exceed 32 C.",
+      "Refrigerate at 4 C or colder for up to 3-4 days; freeze later-week portions promptly. If freshly prepared salad is included, prepare and store separately.",
+      "Reheat previously cooked leftovers to 74 C, stirring and checking the centre. For egg dishes, ensure eggs are completely set before portioning.",
+      "Cool cooked rice rapidly and keep refrigerated; avoid leaving rice at room temperature. Reheat rice thoroughly once.",
+      "Defrost frozen portions in the refrigerator. Re-crisp pastries, breaded vegetables and air-fried items in an oven or air fryer.",
+      "Keep delicate avocado, fresh salad, cold yogurt sauce and unbaked crisp toppings separate. They are generally not freezer-friendly.",
+      "Freezer designation describes likely quality, not independently established safety or shelf life."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify original source and substitutions, packaged ingredients and vegetarian status, exact raw edible weights, yields and portion size.",
+      "Protein, calorie, carbs and fat values are approximate. Nutrition is calculated from the ENTIRE listed meal, including sides; verify with USDA/brand labels before public use.",
+      "Canned beans are ALREADY COOKED purchased inputs; their listed drained weight is NOT a dry-legume purchase amount. Packaged tofu, paneer, phyllo and bread are purchased inputs.",
+      "Flag eggs/dairy as VEGETARIAN but not vegan; check animal rennet in cheese, fish sauce/shrimp paste in Thai and Filipino condiments, and anchovy in Worcestershire."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 830,
+      "protein": 48,
+      "carbs": 71,
+      "fat": 40
+    },
+    "quantitiesFrom": "UNHANGRY Veggie All Methods file — exact raw quantities as written."
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "id": "palak-paneer-roti",
+  "name": "Palak Paneer with Wholewheat Roti",
+  "protein": "veggie",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 835,
+    "protein": 41,
+    "carbs": 60,
+    "fat": 48
+  },
+  "components": [
+    {
+      "id": "main",
+      "name": "Palak Paneer",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 1600,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 612,
+        "protein": 35,
+        "carbs": 21,
+        "fat": 43
+      },
+      "ingredients": [
+        {
+          "name": "Raw spinach leaves, washed",
+          "qty": 650,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Paneer cubed from package (pre-cooking weight)",
+          "qty": 600,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Raw onion diced",
+          "qty": 180,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Raw tomato chopped",
+          "qty": 220,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Garlic minced",
+          "qty": 18,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Fresh grated ginger",
+          "qty": 16,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Olive or neutral oil",
+          "qty": 22,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Heavy cream",
+          "qty": 55,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Ground cumin",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Garam masala",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Water for sauce",
+          "qty": 170,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Wash spinach thoroughly, blanch in boiling water 1-2 minutes and immediately cool; drain and roughly blend with 170 ml water.",
+        "Heat oil in a saucepan and soften onion; add ginger and garlic for one minute.",
+        "Cook tomatoes and cumin until thick, then add blended spinach and simmer for 5 minutes.",
+        "Add paneer and garam masala; stir gently so cubes stay whole and cook for 5 minutes more.",
+        "Take off heat, stir in cream and taste salt; avoid extended boiling after adding dairy."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Wholewheat Roti",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 320,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 223,
+        "protein": 6,
+        "carbs": 39,
+        "fat": 5
+      },
+      "ingredients": [
+        {
+          "name": "Commercial plain wholewheat roti, eight pieces, purchased raw/pre-cooked as labelled",
+          "qty": 320,
+          "unit": "g",
+          "component": "carb"
+        }
+      ],
+      "steps": [
+        "Warm packaged roti according to its instructions and pack separately from palak paneer so bread stays pliable."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Paneer and packaged roti are PURCHASED food inputs, not raw-made from milk or flour; check product labels. Source handling: UNHANGRY original working formulation.",
+    "Planning: Stovetop saucepan and blender.",
+    "Freezer: curry freezes but paneer becomes firmer; freeze roti separately",
+    "Dietary: Contains dairy and gluten; check paneer vegetarian coagulant.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.indianhealthyrecipes.com/palak-paneer-recipe-easy-paneer-recipes-step-by-step-pics/",
+  "reference": {
+    "sourceCredit": "Swasthi Shreekanth, Swasthi’s Recipes (technique reference)",
+    "sourceRecipeUrl": "https://www.indianhealthyrecipes.com/palak-paneer-recipe-easy-paneer-recipes-step-by-step-pics/",
+    "fileTitle": "Palak Paneer with Wholewheat Roti",
+    "fileRecipeNumber": "ST-03",
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Veggie",
+    "methodTag": "Stovetop",
+    "preparationMethod": "Stovetop cooking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 20 minutes",
+    "cookingTime": "approx 30 minutes (some components or batch counts extend total time)",
+    "freezer": "PARTIAL: curry freezes but paneer becomes firmer; freeze roti separately",
+    "dietaryHalalTag": "Contains dairy and gluten; check paneer vegetarian coagulant.",
+    "fileMacrosPerServing": {
+      "kcal": 835,
+      "protein": 41,
+      "carbs": 60.4,
+      "fat": 47.7
+    },
+    "fileMacroText": {
+      "kcal": "835 kcal (ESTIMATED)",
+      "protein": "41.0 g (ESTIMATED)",
+      "carbs": "60.4 g (ESTIMATED)",
+      "fat": "47.7 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL measured recipe input ingredients using representative per-100g values. Not source-published macros; not lab tested. Product brand, draining, unused coating, oil retention and cooked-versus-dry weight assumptions affect accuracy. Confirm against actual labels before release.",
+    "fileNotes": "Paneer and packaged roti are PURCHASED food inputs, not raw-made from milk or flour; check product labels. Source handling: UNHANGRY original working formulation.",
+    "planningNotes": "Stovetop saucepan and blender.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Palak paneer: approx 1600 g",
+      "Packaged roti: approx 320 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or within 1 hour if ambient temperatures exceed 32 C.",
+      "Refrigerate at 4 C or colder for up to 3-4 days; freeze later-week portions promptly. If freshly prepared salad is included, prepare and store separately.",
+      "Reheat previously cooked leftovers to 74 C, stirring and checking the centre. For egg dishes, ensure eggs are completely set before portioning.",
+      "Cool cooked rice rapidly and keep refrigerated; avoid leaving rice at room temperature. Reheat rice thoroughly once.",
+      "Defrost frozen portions in the refrigerator. Re-crisp pastries, breaded vegetables and air-fried items in an oven or air fryer.",
+      "Keep delicate avocado, fresh salad, cold yogurt sauce and unbaked crisp toppings separate. They are generally not freezer-friendly.",
+      "Freezer designation describes likely quality, not independently established safety or shelf life."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify original source and substitutions, packaged ingredients and vegetarian status, exact raw edible weights, yields and portion size.",
+      "Protein, calorie, carbs and fat values are approximate. Nutrition is calculated from the ENTIRE listed meal, including sides; verify with USDA/brand labels before public use.",
+      "Canned beans are ALREADY COOKED purchased inputs; their listed drained weight is NOT a dry-legume purchase amount. Packaged tofu, paneer, phyllo and bread are purchased inputs.",
+      "Flag eggs/dairy as VEGETARIAN but not vegan; check animal rennet in cheese, fish sauce/shrimp paste in Thai and Filipino condiments, and anchovy in Worcestershire."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 898,
+      "protein": 46,
+      "carbs": 62,
+      "fat": 54
+    },
+    "quantitiesFrom": "UNHANGRY Veggie All Methods file — exact raw quantities as written."
+  }
+}

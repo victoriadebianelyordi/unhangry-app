@@ -1,0 +1,199 @@
+{
+  "id": "potato-spinach-feta-frittata",
+  "name": "Baked Potato Spinach Feta and Cottage Cheese Frittata",
+  "protein": "veggie",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 624,
+    "protein": 38,
+    "carbs": 47,
+    "fat": 32
+  },
+  "components": [
+    {
+      "id": "frittata",
+      "name": "Potato Spinach Feta Frittata",
+      "scaling": "ratio",
+      "role": "whole",
+      "servings": 4,
+      "cookedYieldG": 1750,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 605,
+        "protein": 37,
+        "carbs": 42,
+        "fat": 32
+      },
+      "ingredients": [
+        {
+          "name": "Raw waxy potatoes, thinly sliced",
+          "qty": 650,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Raw whole eggs without shell, around ten",
+          "qty": 500,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Raw baby spinach leaves",
+          "qty": 320,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Cottage cheese from package",
+          "qty": 230,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Vegetarian-labelled feta cheese",
+          "qty": 200,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Raw red bell pepper diced",
+          "qty": 200,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Raw onion diced",
+          "qty": 130,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 25,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Ground black pepper and oregano",
+          "qty": 4,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Heat oven to 190 C. Boil thinly sliced potatoes in water until just tender, 6-8 minutes, then drain and steam-dry.",
+        "Saute chopped onion and red pepper in olive oil until soft; stir in spinach briefly until wilted.",
+        "Beat weighed raw eggs with cottage cheese, seasonings and half the feta.",
+        "Layer potatoes and cooked vegetables in a lightly greased ovenproof pan; pour over egg mixture and scatter remaining feta.",
+        "Bake 25-35 minutes until the frittata is puffed and centre reaches a fully set, safe consistency, then rest 10 minutes."
+      ]
+    },
+    {
+      "id": "side",
+      "name": "Tomato Side Salad",
+      "scaling": "fixed",
+      "servings": 4,
+      "cookedYieldG": 410,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 19,
+        "protein": 1,
+        "carbs": 4,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Raw tomato for simple side salad",
+          "qty": 400,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Lemon juice for side salad",
+          "qty": 15,
+          "unit": "ml",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Slice into four complete-meal servings, adding chopped fresh tomato with lemon separately after reheating."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "User-approved egg-and-potato addition, an UNHANGRY variation rather than the Good Food goat-cheese recipe. Source handling: UNHANGRY adaptation: reference site supports frittata method only.",
+    "Planning: SECONDARY STOVETOP to parboil potatoes and soften vegetables.",
+    "Freezer: eggs and cottage cheese can turn watery after freezing; salad fresh",
+    "Dietary: Egg and dairy; check vegetarian feta.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.bbcgoodfood.com/recipes/potato-frittata-pesto-goats-cheese",
+  "reference": {
+    "sourceCredit": "UNHANGRY egg-and-potato oven formulation; method cross-check BBC Good Food",
+    "sourceRecipeUrl": "https://www.bbcgoodfood.com/recipes/potato-frittata-pesto-goats-cheese",
+    "fileTitle": "Baked Potato Spinach Feta and Cottage Cheese Frittata",
+    "fileRecipeNumber": "OV-11",
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Veggie",
+    "methodTag": "Oven",
+    "preparationMethod": "Oven roasting / baking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 25 minutes",
+    "cookingTime": "approx 35 minutes (some components or batch counts extend total time)",
+    "freezer": "PARTIAL: eggs and cottage cheese can turn watery after freezing; salad fresh",
+    "dietaryHalalTag": "Egg and dairy; check vegetarian feta.",
+    "fileMacrosPerServing": {
+      "kcal": 624,
+      "protein": 37.7,
+      "carbs": 46.5,
+      "fat": 31.9
+    },
+    "fileMacroText": {
+      "kcal": "624 kcal (ESTIMATED)",
+      "protein": "37.7 g (ESTIMATED)",
+      "carbs": "46.5 g (ESTIMATED)",
+      "fat": "31.9 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL measured recipe input ingredients using representative per-100g values. Not source-published macros; not lab tested. Product brand, draining, unused coating, oil retention and cooked-versus-dry weight assumptions affect accuracy. Confirm against actual labels before release.",
+    "fileNotes": "User-approved egg-and-potato addition, an UNHANGRY variation rather than the Good Food goat-cheese recipe. Source handling: UNHANGRY adaptation: reference site supports frittata method only.",
+    "planningNotes": "SECONDARY STOVETOP to parboil potatoes and soften vegetables.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Baked potato spinach feta frittata: approx 1750 g",
+      "Fresh tomato side: approx 410 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or within 1 hour if ambient temperatures exceed 32 C.",
+      "Refrigerate at 4 C or colder for up to 3-4 days; freeze later-week portions promptly. If freshly prepared salad is included, prepare and store separately.",
+      "Reheat previously cooked leftovers to 74 C, stirring and checking the centre. For egg dishes, ensure eggs are completely set before portioning.",
+      "Cool cooked rice rapidly and keep refrigerated; avoid leaving rice at room temperature. Reheat rice thoroughly once.",
+      "Defrost frozen portions in the refrigerator. Re-crisp pastries, breaded vegetables and air-fried items in an oven or air fryer.",
+      "Keep delicate avocado, fresh salad, cold yogurt sauce and unbaked crisp toppings separate. They are generally not freezer-friendly.",
+      "Freezer designation describes likely quality, not independently established safety or shelf life."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify original source and substitutions, packaged ingredients and vegetarian status, exact raw edible weights, yields and portion size.",
+      "Protein, calorie, carbs and fat values are approximate. Nutrition is calculated from the ENTIRE listed meal, including sides; verify with USDA/brand labels before public use.",
+      "Canned beans are ALREADY COOKED purchased inputs; their listed drained weight is NOT a dry-legume purchase amount. Packaged tofu, paneer, phyllo and bread are purchased inputs.",
+      "Flag eggs/dairy as VEGETARIAN but not vegan; check animal rennet in cheese, fish sauce/shrimp paste in Thai and Filipino condiments, and anchovy in Worcestershire."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 610,
+      "protein": 37,
+      "carbs": 46,
+      "fat": 32
+    },
+    "quantitiesFrom": "UNHANGRY Veggie All Methods file — exact raw quantities as written."
+  }
+}

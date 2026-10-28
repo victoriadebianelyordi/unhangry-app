@@ -1,0 +1,224 @@
+{
+  "id": "dal-makhani-jeera-rice",
+  "name": "Dal Makhani with Jeera Rice",
+  "protein": "veggie",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 5,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 692,
+    "protein": 25,
+    "carbs": 102,
+    "fat": 20
+  },
+  "components": [
+    {
+      "id": "main",
+      "name": "Dal Makhani",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 5,
+      "cookedYieldG": 2150,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 448,
+        "protein": 21,
+        "carbs": 56,
+        "fat": 17
+      },
+      "ingredients": [
+        {
+          "name": "Dry whole black urad dal, washed and soaked overnight",
+          "qty": 280,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Dry red kidney beans, soak and cook thoroughly",
+          "qty": 90,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Fresh water for boiling legumes after soaking",
+          "qty": 1200,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Raw tomato puree",
+          "qty": 370,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Chopped raw onion",
+          "qty": 180,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Fresh ginger",
+          "qty": 20,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Fresh garlic",
+          "qty": 18,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Butter",
+          "qty": 55,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Heavy cream",
+          "qty": 90,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Garam masala",
+          "qty": 7,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 7,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Soak urad dal and DRIED kidney beans separately overnight, drain soaking water and rinse. Cook kidney beans in freshly boiling water until fully tender; never use slow low-temperature cooking for raw kidney beans.",
+        "Simmer both fully cooked legumes together with fresh water as needed until the urad softens and begins to break apart; this can take 1-2 hours in an ordinary pot, significantly longer than pressure cooking.",
+        "In a second pan soften onion in half the butter with garlic and ginger; cook tomato puree and garam masala until concentrated.",
+        "Add the tomato base to the tender dal and keep on very low heat 30-45 minutes, stirring to prevent scorching. Finish with remaining butter, cream and salt.",
+        "Pack 5 portions of dal and rice. Expect lentils to firm considerably in the fridge; add water when reheating."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Cumin Rice",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 5,
+      "cookedYieldG": 860,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 244,
+        "protein": 4,
+        "carbs": 47,
+        "fat": 3
+      },
+      "ingredients": [
+        {
+          "name": "Dry basmati rice",
+          "qty": 300,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Water for rice",
+          "qty": 520,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Whole cumin seed",
+          "qty": 8,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Neutral oil for rice",
+          "qty": 15,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Cook rice in measured water and mix with cumin seeds lightly toasted in oil."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Extended and advance-soak recipe, a poor fit for a strictly three-hour simultaneous Sunday unless beans are pre-cooked. Source handling: Source technique/reference; measured UNHANGRY complete-meal adaptation.",
+    "Planning: ADVANCE: overnight legume soak. EXTENDED STOVETOP COOKING: up to 2.5 hours.",
+    "Freezer: freezes well; cream may look grainy but generally recombines on reheating",
+    "Dietary: Contains dairy; raw kidney beans MUST be fully boiled.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.indianhealthyrecipes.com/dal-makhani-recipe/",
+  "reference": {
+    "sourceCredit": "Swasthi Shreekanth, Swasthi’s Recipes",
+    "sourceRecipeUrl": "https://www.indianhealthyrecipes.com/dal-makhani-recipe/",
+    "fileTitle": "Dal Makhani with Jeera Rice",
+    "fileRecipeNumber": "ST-05",
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Veggie",
+    "methodTag": "Stovetop",
+    "preparationMethod": "Stovetop cooking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 30 minutes",
+    "cookingTime": "approx 150 minutes (some components or batch counts extend total time)",
+    "freezer": "YES: freezes well; cream may look grainy but generally recombines on reheating",
+    "dietaryHalalTag": "Contains dairy; raw kidney beans MUST be fully boiled.",
+    "fileMacrosPerServing": {
+      "kcal": 692,
+      "protein": 25.1,
+      "carbs": 102.2,
+      "fat": 20.3
+    },
+    "fileMacroText": {
+      "kcal": "692 kcal (ESTIMATED)",
+      "protein": "25.1 g (ESTIMATED)",
+      "carbs": "102.2 g (ESTIMATED)",
+      "fat": "20.3 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL measured recipe input ingredients using representative per-100g values. Not source-published macros; not lab tested. Product brand, draining, unused coating, oil retention and cooked-versus-dry weight assumptions affect accuracy. Confirm against actual labels before release.",
+    "fileNotes": "Extended and advance-soak recipe, a poor fit for a strictly three-hour simultaneous Sunday unless beans are pre-cooked. Source handling: Source technique/reference; measured UNHANGRY complete-meal adaptation.",
+    "planningNotes": "ADVANCE: overnight legume soak. EXTENDED STOVETOP COOKING: up to 2.5 hours.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked dal makhani: approx 2150 g",
+      "Cooked cumin rice: approx 860 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or within 1 hour if ambient temperatures exceed 32 C.",
+      "Refrigerate at 4 C or colder for up to 3-4 days; freeze later-week portions promptly. If freshly prepared salad is included, prepare and store separately.",
+      "Reheat previously cooked leftovers to 74 C, stirring and checking the centre. For egg dishes, ensure eggs are completely set before portioning.",
+      "Cool cooked rice rapidly and keep refrigerated; avoid leaving rice at room temperature. Reheat rice thoroughly once.",
+      "Defrost frozen portions in the refrigerator. Re-crisp pastries, breaded vegetables and air-fried items in an oven or air fryer.",
+      "Keep delicate avocado, fresh salad, cold yogurt sauce and unbaked crisp toppings separate. They are generally not freezer-friendly.",
+      "Freezer designation describes likely quality, not independently established safety or shelf life."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify original source and substitutions, packaged ingredients and vegetarian status, exact raw edible weights, yields and portion size.",
+      "Protein, calorie, carbs and fat values are approximate. Nutrition is calculated from the ENTIRE listed meal, including sides; verify with USDA/brand labels before public use.",
+      "Canned beans are ALREADY COOKED purchased inputs; their listed drained weight is NOT a dry-legume purchase amount. Packaged tofu, paneer, phyllo and bread are purchased inputs.",
+      "Flag eggs/dairy as VEGETARIAN but not vegan; check animal rennet in cheese, fish sauce/shrimp paste in Thai and Filipino condiments, and anchovy in Worcestershire."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 697,
+      "protein": 25,
+      "carbs": 106,
+      "fat": 20
+    },
+    "quantitiesFrom": "UNHANGRY Veggie All Methods file — exact raw quantities as written."
+  }
+}

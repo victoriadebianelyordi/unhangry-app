@@ -1,0 +1,245 @@
+{
+  "id": "air-fryer-cauliflower-black-bean-tacos",
+  "name": "Air Fryer Cauliflower Black Bean Tacos",
+  "protein": "veggie",
+  "method": "third-spot",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 857,
+    "protein": 35,
+    "carbs": 116,
+    "fat": 28
+  },
+  "components": [
+    {
+      "id": "filling",
+      "name": "Cauliflower & Black Bean Filling",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 1510,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 407,
+        "protein": 19,
+        "carbs": 53,
+        "fat": 14
+      },
+      "ingredients": [
+        {
+          "name": "Raw cauliflower florets",
+          "qty": 900,
+          "unit": "g",
+          "component": "other",
+          "group": "Cauliflower"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 35,
+          "unit": "ml",
+          "component": "other",
+          "group": "Cauliflower"
+        },
+        {
+          "name": "Smoked paprika, cumin and chili blend",
+          "qty": 10,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Cauliflower"
+        },
+        {
+          "name": "Canned black beans drained",
+          "qty": 700,
+          "unit": "g",
+          "component": "protein",
+          "group": "Black beans"
+        },
+        {
+          "name": "Raw onion diced",
+          "qty": 150,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Black beans"
+        },
+        {
+          "name": "Minced raw garlic",
+          "qty": 16,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Black beans"
+        },
+        {
+          "name": "Olive oil for beans",
+          "qty": 15,
+          "unit": "ml",
+          "component": "other",
+          "group": "Black beans"
+        }
+      ],
+      "steps": [
+        "Heat the air fryer to 195 C. Toss raw cauliflower with oil and spices and place in a single layer.",
+        "Air fry cauliflower for 14-18 minutes until just crisp at edges, shaking once; cook in batches for 900 g.",
+        "Meanwhile saute onions and garlic in measured oil, add drained black beans and heat thoroughly, mashing a small fraction for taco filling.",
+        "For meal prep, store hot cauliflower and beans apart from tortillas and cold topping. Freeze beans and cauliflower only, with texture caveats."
+      ]
+    },
+    {
+      "id": "tortillas",
+      "name": "Tortillas",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 360,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 275,
+        "protein": 8,
+        "carbs": 48,
+        "fat": 5
+      },
+      "ingredients": [
+        {
+          "name": "Eight small corn or wheat tortillas (read label)",
+          "qty": 360,
+          "unit": "g",
+          "component": "carb"
+        }
+      ],
+      "steps": [
+        "Warm tortillas briefly and fill each with spiced cauliflower and black beans; garnish with slaw, avocado and chilled yogurt."
+      ]
+    },
+    {
+      "id": "sides",
+      "name": "Slaw, Avocado & Yogurt",
+      "scaling": "fixed",
+      "servings": 4,
+      "cookedYieldG": 830,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 175,
+        "protein": 8,
+        "carbs": 15,
+        "fat": 10
+      },
+      "ingredients": [
+        {
+          "name": "Raw finely shredded red cabbage",
+          "qty": 260,
+          "unit": "g",
+          "component": "other",
+          "group": "Slaw"
+        },
+        {
+          "name": "Fresh tomato diced",
+          "qty": 140,
+          "unit": "g",
+          "component": "other",
+          "group": "Slaw"
+        },
+        {
+          "name": "Lime juice",
+          "qty": 35,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Slaw"
+        },
+        {
+          "name": "Ripe avocado flesh, added fresh",
+          "qty": 220,
+          "unit": "g",
+          "component": "other",
+          "group": "Avocado & yogurt"
+        },
+        {
+          "name": "Plain Greek yogurt",
+          "qty": 180,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Avocado & yogurt"
+        }
+      ],
+      "steps": [
+        "Mix cabbage, tomato and lime into slaw shortly before serving; cut fresh avocado only on serving day."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "UNHANGRY recipe with stove-heated beans; air fryer is primary for cauliflower. Source handling: UNHANGRY original working formulation.",
+    "Planning: SECONDARY STOVETOP to heat beans; assemble tacos fresh.",
+    "Freezer: beans freeze; cauliflower softens; tortillas may freeze separately; slaw avocado yogurt NO",
+    "Dietary: Milk from yogurt and possible wheat tortillas; use corn tortillas for GF.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.forksoverknives.com/recipes/vegan-baked-stuffed/air-fryer-taquitos-cauliflower-black-beans/",
+  "reference": {
+    "sourceCredit": "Forks Over Knives (air-fryer cauliflower and black bean taquito technique)",
+    "sourceRecipeUrl": "https://www.forksoverknives.com/recipes/vegan-baked-stuffed/air-fryer-taquitos-cauliflower-black-beans/",
+    "fileTitle": "Air Fryer Cauliflower Black Bean Tacos",
+    "fileRecipeNumber": "AF-04",
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Veggie",
+    "methodTag": "Air fryer",
+    "preparationMethod": "Air frying (see steps for secondary appliance use)",
+    "activePrepTime": "approx 25 minutes",
+    "cookingTime": "approx 35 minutes (some components or batch counts extend total time)",
+    "freezer": "PARTIAL: beans freeze; cauliflower softens; tortillas may freeze separately; slaw avocado yogurt NO",
+    "dietaryHalalTag": "Milk from yogurt and possible wheat tortillas; use corn tortillas for GF.",
+    "fileMacrosPerServing": {
+      "kcal": 857,
+      "protein": 34.8,
+      "carbs": 116.4,
+      "fat": 28
+    },
+    "fileMacroText": {
+      "kcal": "857 kcal (ESTIMATED)",
+      "protein": "34.8 g (ESTIMATED)",
+      "carbs": "116.4 g (ESTIMATED)",
+      "fat": "28.0 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL measured recipe input ingredients using representative per-100g values. Not source-published macros; not lab tested. Product brand, draining, unused coating, oil retention and cooked-versus-dry weight assumptions affect accuracy. Confirm against actual labels before release.",
+    "fileNotes": "UNHANGRY recipe with stove-heated beans; air fryer is primary for cauliflower. Source handling: UNHANGRY original working formulation.",
+    "planningNotes": "SECONDARY STOVETOP to heat beans; assemble tacos fresh.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Air-fried cauliflower: approx 730 g",
+      "Hot black bean filling: approx 780 g",
+      "Eight tortillas: approx 360 g",
+      "Fresh cabbage-tomato slaw: approx 430 g",
+      "Avocado and yogurt: approx 400 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or within 1 hour if ambient temperatures exceed 32 C.",
+      "Refrigerate at 4 C or colder for up to 3-4 days; freeze later-week portions promptly. If freshly prepared salad is included, prepare and store separately.",
+      "Reheat previously cooked leftovers to 74 C, stirring and checking the centre. For egg dishes, ensure eggs are completely set before portioning.",
+      "Cool cooked rice rapidly and keep refrigerated; avoid leaving rice at room temperature. Reheat rice thoroughly once.",
+      "Defrost frozen portions in the refrigerator. Re-crisp pastries, breaded vegetables and air-fried items in an oven or air fryer.",
+      "Keep delicate avocado, fresh salad, cold yogurt sauce and unbaked crisp toppings separate. They are generally not freezer-friendly.",
+      "Freezer designation describes likely quality, not independently established safety or shelf life."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify original source and substitutions, packaged ingredients and vegetarian status, exact raw edible weights, yields and portion size.",
+      "Protein, calorie, carbs and fat values are approximate. Nutrition is calculated from the ENTIRE listed meal, including sides; verify with USDA/brand labels before public use.",
+      "Canned beans are ALREADY COOKED purchased inputs; their listed drained weight is NOT a dry-legume purchase amount. Packaged tofu, paneer, phyllo and bread are purchased inputs.",
+      "Flag eggs/dairy as VEGETARIAN but not vegan; check animal rennet in cheese, fish sauce/shrimp paste in Thai and Filipino condiments, and anchovy in Worcestershire."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 730,
+      "protein": 29,
+      "carbs": 102,
+      "fat": 27
+    },
+    "quantitiesFrom": "UNHANGRY Veggie All Methods file — exact raw quantities as written."
+  }
+}

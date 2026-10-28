@@ -1,0 +1,202 @@
+{
+  "id": "baked-feta-white-beans-pita",
+  "name": "Baked Feta White Beans with Cherry Tomatoes and Pita",
+  "protein": "veggie",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 894,
+    "protein": 40,
+    "carbs": 112,
+    "fat": 32
+  },
+  "components": [
+    {
+      "id": "main",
+      "name": "Baked Feta White Beans",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 2100,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 672,
+        "protein": 33,
+        "carbs": 69,
+        "fat": 31
+      },
+      "ingredients": [
+        {
+          "name": "Cooked canned white beans drained and rinsed",
+          "qty": 1050,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Raw cherry tomatoes halved",
+          "qty": 650,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Raw red onion thin sliced",
+          "qty": 180,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Raw garlic",
+          "qty": 25,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 50,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Dried oregano and thyme",
+          "qty": 7,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Fine salt",
+          "qty": 4,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Vegetarian feta block, drained weight",
+          "qty": 300,
+          "unit": "g",
+          "component": "other",
+          "group": "Feta"
+        },
+        {
+          "name": "Fresh lemon juice",
+          "qty": 40,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Feta"
+        },
+        {
+          "name": "Fresh basil leaves",
+          "qty": 20,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Topping"
+        }
+      ],
+      "steps": [
+        "Heat oven to 200 C. Toss drained white beans, raw tomatoes, onions, garlic, oil and dried herbs in a deep baking dish.",
+        "Place the entire block of feta in the centre and drizzle with lemon juice.",
+        "Bake 25-30 minutes until tomatoes collapse, beans bubble and feta softens.",
+        "Mash a little feta into the hot tomato juices and fold through beans to make a thick sauce."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Wholewheat Pita",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 320,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 222,
+        "protein": 7,
+        "carbs": 43,
+        "fat": 1
+      },
+      "ingredients": [
+        {
+          "name": "Four packaged wholewheat pita breads",
+          "qty": 320,
+          "unit": "g",
+          "component": "carb"
+        }
+      ],
+      "steps": [
+        "Warm or toast packaged pita just before serving, and portion one pita with each quarter of the bean bake.",
+        "Pack pita separately for freezing and do not freeze fresh basil garnish."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Original measured UNHANGRY vegetarian baked feta/white beans dinner. Source handling: UNHANGRY original working formulation.",
+    "Planning: OVEN PRIMARY; oven warm pita optional.",
+    "Freezer: beans freeze, feta may become grainy; pita freeze separately",
+    "Dietary: Dairy and wheat; feta must be vegetarian rennet.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "reference": {
+    "sourceCredit": "UNHANGRY oven-baked feta and white bean formulation",
+    "sourceRecipeUrl": "NO DIRECT SINGLE-RECIPE SOURCE VERIFIED",
+    "fileTitle": "Baked Feta White Beans with Cherry Tomatoes and Pita",
+    "fileRecipeNumber": "OV-05",
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Veggie",
+    "methodTag": "Oven",
+    "preparationMethod": "Oven roasting / baking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 15 minutes",
+    "cookingTime": "approx 30 minutes (some components or batch counts extend total time)",
+    "freezer": "PARTIAL: beans freeze, feta may become grainy; pita freeze separately",
+    "dietaryHalalTag": "Dairy and wheat; feta must be vegetarian rennet.",
+    "fileMacrosPerServing": {
+      "kcal": 894,
+      "protein": 40.2,
+      "carbs": 111.6,
+      "fat": 31.9
+    },
+    "fileMacroText": {
+      "kcal": "894 kcal (ESTIMATED)",
+      "protein": "40.2 g (ESTIMATED)",
+      "carbs": "111.6 g (ESTIMATED)",
+      "fat": "31.9 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL measured recipe input ingredients using representative per-100g values. Not source-published macros; not lab tested. Product brand, draining, unused coating, oil retention and cooked-versus-dry weight assumptions affect accuracy. Confirm against actual labels before release.",
+    "fileNotes": "Original measured UNHANGRY vegetarian baked feta/white beans dinner. Source handling: UNHANGRY original working formulation.",
+    "planningNotes": "OVEN PRIMARY; oven warm pita optional.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Baked tomato white bean feta casserole: approx 2100 g",
+      "Wholewheat pita: approx 320 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or within 1 hour if ambient temperatures exceed 32 C.",
+      "Refrigerate at 4 C or colder for up to 3-4 days; freeze later-week portions promptly. If freshly prepared salad is included, prepare and store separately.",
+      "Reheat previously cooked leftovers to 74 C, stirring and checking the centre. For egg dishes, ensure eggs are completely set before portioning.",
+      "Cool cooked rice rapidly and keep refrigerated; avoid leaving rice at room temperature. Reheat rice thoroughly once.",
+      "Defrost frozen portions in the refrigerator. Re-crisp pastries, breaded vegetables and air-fried items in an oven or air fryer.",
+      "Keep delicate avocado, fresh salad, cold yogurt sauce and unbaked crisp toppings separate. They are generally not freezer-friendly.",
+      "Freezer designation describes likely quality, not independently established safety or shelf life."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify original source and substitutions, packaged ingredients and vegetarian status, exact raw edible weights, yields and portion size.",
+      "Protein, calorie, carbs and fat values are approximate. Nutrition is calculated from the ENTIRE listed meal, including sides; verify with USDA/brand labels before public use.",
+      "Canned beans are ALREADY COOKED purchased inputs; their listed drained weight is NOT a dry-legume purchase amount. Packaged tofu, paneer, phyllo and bread are purchased inputs.",
+      "Flag eggs/dairy as VEGETARIAN but not vegan; check animal rennet in cheese, fish sauce/shrimp paste in Thai and Filipino condiments, and anchovy in Worcestershire."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 886,
+      "protein": 40,
+      "carbs": 114,
+      "fat": 30
+    },
+    "quantitiesFrom": "UNHANGRY Veggie All Methods file — exact raw quantities as written."
+  }
+}

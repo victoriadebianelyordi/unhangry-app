@@ -1,0 +1,214 @@
+{
+  "id": "lentil-bolognese-spaghetti",
+  "name": "Lentil Bolognese with Wholewheat Spaghetti",
+  "protein": "veggie",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 5,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 722,
+    "protein": 35,
+    "carbs": 116,
+    "fat": 13
+  },
+  "components": [
+    {
+      "id": "main",
+      "name": "Lentil Bolognese",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 5,
+      "cookedYieldG": 2145,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 444,
+        "protein": 24,
+        "carbs": 64,
+        "fat": 11
+      },
+      "ingredients": [
+        {
+          "name": "Dry red lentils, rinsed",
+          "qty": 350,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Canned crushed tomatoes with juices",
+          "qty": 700,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Raw onion diced",
+          "qty": 250,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Raw carrots diced small",
+          "qty": 200,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Raw celery finely diced",
+          "qty": 120,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Fresh garlic minced",
+          "qty": 25,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 35,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Tomato paste",
+          "qty": 35,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Vegetable stock or water",
+          "qty": 750,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Dried Italian herb mix",
+          "qty": 8,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Fine salt",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Vegetarian-labelled hard Italian-style grated cheese",
+          "qty": 45,
+          "unit": "g",
+          "component": "sauce",
+          "group": "To finish"
+        }
+      ],
+      "steps": [
+        "Heat oil in a heavy pan and soften onions, carrots and celery for 8 minutes. Add garlic and tomato paste; cook 2 minutes.",
+        "Stir in dry washed lentils, crushed tomatoes, stock and Italian herbs. Simmer 25-35 minutes until tender and thick, stirring periodically; add measured extra water only if needed.",
+        "Taste and season after the lentils soften, then leave sauce to rest briefly.",
+        "Combine pasta with measured sauce or keep separate for better freezer results, and add the vegetarian hard cheese when serving.",
+        "Portion five complete meals, with pasta and sauce weights documented at kitchen trial."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Wholewheat Spaghetti",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 5,
+      "cookedYieldG": 1000,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 278,
+        "protein": 11,
+        "carbs": 52,
+        "fat": 2
+      },
+      "ingredients": [
+        {
+          "name": "Dry wholewheat spaghetti",
+          "qty": 400,
+          "unit": "g",
+          "component": "carb"
+        }
+      ],
+      "steps": [
+        "Boil wholewheat spaghetti in generously boiling water until just firm, drain and retain a small amount of pasta water if needed."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Alcohol-free adaptation of Mediterranean Dish lentil bolognese. Source handling: Source technique/reference; measured UNHANGRY complete-meal adaptation.",
+    "Planning: Sauce and pasta on separate burners.",
+    "Freezer: bolognese sauce excellent frozen; spaghetti acceptable but softer when reheated",
+    "Dietary: Wheat and dairy; regular Parmesan may use animal rennet, use vegetarian-labelled cheese.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.themediterraneandish.com/lentil-bolognese-recipe/",
+  "reference": {
+    "sourceCredit": "Joy Manning, The Mediterranean Dish",
+    "sourceRecipeUrl": "https://www.themediterraneandish.com/lentil-bolognese-recipe/",
+    "fileTitle": "Lentil Bolognese with Wholewheat Spaghetti",
+    "fileRecipeNumber": "ST-07",
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Veggie",
+    "methodTag": "Stovetop",
+    "preparationMethod": "Stovetop cooking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 25 minutes",
+    "cookingTime": "approx 45 minutes (some components or batch counts extend total time)",
+    "freezer": "YES: bolognese sauce excellent frozen; spaghetti acceptable but softer when reheated",
+    "dietaryHalalTag": "Wheat and dairy; regular Parmesan may use animal rennet, use vegetarian-labelled cheese.",
+    "fileMacrosPerServing": {
+      "kcal": 722,
+      "protein": 35.4,
+      "carbs": 115.8,
+      "fat": 13
+    },
+    "fileMacroText": {
+      "kcal": "722 kcal (ESTIMATED)",
+      "protein": "35.4 g (ESTIMATED)",
+      "carbs": "115.8 g (ESTIMATED)",
+      "fat": "13.0 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL measured recipe input ingredients using representative per-100g values. Not source-published macros; not lab tested. Product brand, draining, unused coating, oil retention and cooked-versus-dry weight assumptions affect accuracy. Confirm against actual labels before release.",
+    "fileNotes": "Alcohol-free adaptation of Mediterranean Dish lentil bolognese. Source handling: Source technique/reference; measured UNHANGRY complete-meal adaptation.",
+    "planningNotes": "Sauce and pasta on separate burners.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked lentil bolognese sauce: approx 2100 g",
+      "Cooked wholewheat spaghetti: approx 1000 g",
+      "Grated cheese topping: approx 45 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or within 1 hour if ambient temperatures exceed 32 C.",
+      "Refrigerate at 4 C or colder for up to 3-4 days; freeze later-week portions promptly. If freshly prepared salad is included, prepare and store separately.",
+      "Reheat previously cooked leftovers to 74 C, stirring and checking the centre. For egg dishes, ensure eggs are completely set before portioning.",
+      "Cool cooked rice rapidly and keep refrigerated; avoid leaving rice at room temperature. Reheat rice thoroughly once.",
+      "Defrost frozen portions in the refrigerator. Re-crisp pastries, breaded vegetables and air-fried items in an oven or air fryer.",
+      "Keep delicate avocado, fresh salad, cold yogurt sauce and unbaked crisp toppings separate. They are generally not freezer-friendly.",
+      "Freezer designation describes likely quality, not independently established safety or shelf life."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify original source and substitutions, packaged ingredients and vegetarian status, exact raw edible weights, yields and portion size.",
+      "Protein, calorie, carbs and fat values are approximate. Nutrition is calculated from the ENTIRE listed meal, including sides; verify with USDA/brand labels before public use.",
+      "Canned beans are ALREADY COOKED purchased inputs; their listed drained weight is NOT a dry-legume purchase amount. Packaged tofu, paneer, phyllo and bread are purchased inputs.",
+      "Flag eggs/dairy as VEGETARIAN but not vegan; check animal rennet in cheese, fish sauce/shrimp paste in Thai and Filipino condiments, and anchovy in Worcestershire."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 731,
+      "protein": 35,
+      "carbs": 130,
+      "fat": 11
+    },
+    "quantitiesFrom": "UNHANGRY Veggie All Methods file — exact raw quantities as written."
+  }
+}

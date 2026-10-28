@@ -1,0 +1,212 @@
+{
+  "id": "thai-red-tofu-curry",
+  "name": "Thai Red Tofu Curry with Jasmine Rice",
+  "protein": "veggie",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 828,
+    "protein": 40,
+    "carbs": 88,
+    "fat": 35
+  },
+  "components": [
+    {
+      "id": "main",
+      "name": "Thai Red Tofu Curry",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 2150,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 538,
+        "protein": 34,
+        "carbs": 27,
+        "fat": 34
+      },
+      "ingredients": [
+        {
+          "name": "Medium firm tofu from package, cut into cubes",
+          "qty": 850,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Coconut milk, canned",
+          "qty": 440,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Raw mixed bell peppers",
+          "qty": 450,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Raw mushrooms sliced",
+          "qty": 260,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Raw bamboo shoots, drained weight",
+          "qty": 230,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "THAI RED CURRY PASTE certified vegetarian with NO shrimp paste",
+          "qty": 65,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Soy sauce (instead of fish sauce)",
+          "qty": 25,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Brown sugar or palm sugar",
+          "qty": 12,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Lime juice",
+          "qty": 20,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Thai basil leaves",
+          "qty": 18,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Water",
+          "qty": 240,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Confirm the red curry paste has no fermented shrimp, fish or meat extracts, and soy sauce is vegetarian.",
+        "Heat half the coconut milk in a saucepan and simmer a few minutes; add vegetarian curry paste and stir until fragrant.",
+        "Stir in remaining coconut milk, water, mushrooms, bamboo shoots and tofu. Simmer 10 minutes before adding sliced peppers.",
+        "Season with soy sauce, sugar and lime; fold through Thai basil off heat.",
+        "Pack rice and curry separately; tofu can become spongier if frozen, so test freezer acceptability before publishing."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Jasmine Rice",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 810,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 290,
+        "protein": 6,
+        "carbs": 61,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Dry jasmine rice",
+          "qty": 290,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Water for rice",
+          "qty": 500,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Cook washed jasmine rice in the measured water."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Vegetarian Hot Thai Kitchen recipe; uses NO shrimp paste or fish sauce. Source handling: Source technique/reference; measured UNHANGRY complete-meal adaptation.",
+    "Planning: Secondary rice saucepan.",
+    "Freezer: curry base freezes, tofu texture changes; rice freezes promptly cooled",
+    "Dietary: Soy and coconut; curry paste MUST be vegetarian.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://hot-thai-kitchen.com/vegan-red-curry/",
+  "reference": {
+    "sourceCredit": "Pailin Chongchitnant, Hot Thai Kitchen",
+    "sourceRecipeUrl": "https://hot-thai-kitchen.com/vegan-red-curry/",
+    "fileTitle": "Thai Red Tofu Curry with Jasmine Rice",
+    "fileRecipeNumber": "ST-10",
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Veggie",
+    "methodTag": "Stovetop",
+    "preparationMethod": "Stovetop cooking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 20 minutes",
+    "cookingTime": "approx 30 minutes (some components or batch counts extend total time)",
+    "freezer": "PARTIAL: curry base freezes, tofu texture changes; rice freezes promptly cooled",
+    "dietaryHalalTag": "Soy and coconut; curry paste MUST be vegetarian.",
+    "fileMacrosPerServing": {
+      "kcal": 828,
+      "protein": 40.3,
+      "carbs": 88,
+      "fat": 34.9
+    },
+    "fileMacroText": {
+      "kcal": "828 kcal (ESTIMATED)",
+      "protein": "40.3 g (ESTIMATED)",
+      "carbs": "88.0 g (ESTIMATED)",
+      "fat": "34.9 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL measured recipe input ingredients using representative per-100g values. Not source-published macros; not lab tested. Product brand, draining, unused coating, oil retention and cooked-versus-dry weight assumptions affect accuracy. Confirm against actual labels before release.",
+    "fileNotes": "Vegetarian Hot Thai Kitchen recipe; uses NO shrimp paste or fish sauce. Source handling: Source technique/reference; measured UNHANGRY complete-meal adaptation.",
+    "planningNotes": "Secondary rice saucepan.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked tofu and vegetables curry: approx 2150 g",
+      "Cooked jasmine rice: approx 810 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or within 1 hour if ambient temperatures exceed 32 C.",
+      "Refrigerate at 4 C or colder for up to 3-4 days; freeze later-week portions promptly. If freshly prepared salad is included, prepare and store separately.",
+      "Reheat previously cooked leftovers to 74 C, stirring and checking the centre. For egg dishes, ensure eggs are completely set before portioning.",
+      "Cool cooked rice rapidly and keep refrigerated; avoid leaving rice at room temperature. Reheat rice thoroughly once.",
+      "Defrost frozen portions in the refrigerator. Re-crisp pastries, breaded vegetables and air-fried items in an oven or air fryer.",
+      "Keep delicate avocado, fresh salad, cold yogurt sauce and unbaked crisp toppings separate. They are generally not freezer-friendly.",
+      "Freezer designation describes likely quality, not independently established safety or shelf life."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify original source and substitutions, packaged ingredients and vegetarian status, exact raw edible weights, yields and portion size.",
+      "Protein, calorie, carbs and fat values are approximate. Nutrition is calculated from the ENTIRE listed meal, including sides; verify with USDA/brand labels before public use.",
+      "Canned beans are ALREADY COOKED purchased inputs; their listed drained weight is NOT a dry-legume purchase amount. Packaged tofu, paneer, phyllo and bread are purchased inputs.",
+      "Flag eggs/dairy as VEGETARIAN but not vegan; check animal rennet in cheese, fish sauce/shrimp paste in Thai and Filipino condiments, and anchovy in Worcestershire."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 746,
+      "protein": 31,
+      "carbs": 83,
+      "fat": 35
+    },
+    "quantitiesFrom": "UNHANGRY Veggie All Methods file — exact raw quantities as written."
+  }
+}

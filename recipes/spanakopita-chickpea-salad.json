@@ -1,0 +1,212 @@
+{
+  "id": "spanakopita-chickpea-salad",
+  "name": "Spanakopita with Chickpea Tomato Salad",
+  "protein": "veggie",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 6,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 797,
+    "protein": 34,
+    "carbs": 81,
+    "fat": 38
+  },
+  "components": [
+    {
+      "id": "main",
+      "name": "Spanakopita",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 6,
+      "cookedYieldG": 1420,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 554,
+        "protein": 23,
+        "carbs": 45,
+        "fat": 30
+      },
+      "ingredients": [
+        {
+          "name": "Frozen chopped spinach, thawed and very well drained (pre-cooking weight)",
+          "qty": 450,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Packaged phyllo dough thawed",
+          "qty": 350,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Vegetarian feta cheese crumbled",
+          "qty": 350,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Raw beaten whole eggs without shell",
+          "qty": 260,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Raw onion chopped",
+          "qty": 200,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Raw garlic",
+          "qty": 20,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Olive oil, measured for brushing phyllo",
+          "qty": 65,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Fresh parsley and dill",
+          "qty": 40,
+          "unit": "g",
+          "component": "aromatic"
+        }
+      ],
+      "steps": [
+        "Preheat oven to 165 C. Thoroughly squeeze thawed spinach until dry to prevent a soggy phyllo bottom.",
+        "Combine spinach, onion, minced garlic, eggs, feta, herbs and seasoning to make filling.",
+        "Keep phyllo under a slightly damp cloth; line an oiled large baking pan with layered sheets, brushing measured oil between layers.",
+        "Spread filling evenly, cover with remaining phyllo sheets brushed lightly with the remaining measured oil. Score the top before baking.",
+        "Bake about 55-65 minutes until pastry crisp and filling thoroughly set; rest before portioning into six."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Chickpea Tomato Salad",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 6,
+      "cookedYieldG": 1250,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 243,
+        "protein": 11,
+        "carbs": 36,
+        "fat": 7
+      },
+      "ingredients": [
+        {
+          "name": "Canned chickpeas, drained and rinsed",
+          "qty": 750,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Raw tomatoes diced",
+          "qty": 350,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Raw red onion sliced",
+          "qty": 100,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Lemon juice",
+          "qty": 35,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 25,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Mix drained chickpeas with chopped tomato, onion, lemon and olive oil. Pack chickpea salad separately to avoid softening the pastry."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Published spanakopita source supplemented by measured chickpea salad for full meal. Source handling: Source technique/reference; measured UNHANGRY complete-meal adaptation.",
+    "Planning: OVEN primary; cold salad separately.",
+    "Freezer: baked spanakopita can freeze and re-crisp; fresh tomato salad does not freeze",
+    "Dietary: Wheat, dairy and egg; check vegetarian feta.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.themediterraneandish.com/spanakopita-recipe-greek-spinach-pie/",
+  "reference": {
+    "sourceCredit": "Suzy Karadsheh, The Mediterranean Dish",
+    "sourceRecipeUrl": "https://www.themediterraneandish.com/spanakopita-recipe-greek-spinach-pie/",
+    "fileTitle": "Spanakopita with Chickpea Tomato Salad",
+    "fileRecipeNumber": "OV-06",
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Veggie",
+    "methodTag": "Oven",
+    "preparationMethod": "Oven roasting / baking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 35 minutes",
+    "cookingTime": "approx 65 minutes (some components or batch counts extend total time)",
+    "freezer": "PARTIAL: baked spanakopita can freeze and re-crisp; fresh tomato salad does not freeze",
+    "dietaryHalalTag": "Wheat, dairy and egg; check vegetarian feta.",
+    "fileMacrosPerServing": {
+      "kcal": 797,
+      "protein": 33.9,
+      "carbs": 80.8,
+      "fat": 37.5
+    },
+    "fileMacroText": {
+      "kcal": "797 kcal (ESTIMATED)",
+      "protein": "33.9 g (ESTIMATED)",
+      "carbs": "80.8 g (ESTIMATED)",
+      "fat": "37.5 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL measured recipe input ingredients using representative per-100g values. Not source-published macros; not lab tested. Product brand, draining, unused coating, oil retention and cooked-versus-dry weight assumptions affect accuracy. Confirm against actual labels before release.",
+    "fileNotes": "Published spanakopita source supplemented by measured chickpea salad for full meal. Source handling: Source technique/reference; measured UNHANGRY complete-meal adaptation.",
+    "planningNotes": "OVEN primary; cold salad separately.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Baked spanakopita: approx 1420 g",
+      "Cold chickpea tomato salad: approx 1250 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or within 1 hour if ambient temperatures exceed 32 C.",
+      "Refrigerate at 4 C or colder for up to 3-4 days; freeze later-week portions promptly. If freshly prepared salad is included, prepare and store separately.",
+      "Reheat previously cooked leftovers to 74 C, stirring and checking the centre. For egg dishes, ensure eggs are completely set before portioning.",
+      "Cool cooked rice rapidly and keep refrigerated; avoid leaving rice at room temperature. Reheat rice thoroughly once.",
+      "Defrost frozen portions in the refrigerator. Re-crisp pastries, breaded vegetables and air-fried items in an oven or air fryer.",
+      "Keep delicate avocado, fresh salad, cold yogurt sauce and unbaked crisp toppings separate. They are generally not freezer-friendly.",
+      "Freezer designation describes likely quality, not independently established safety or shelf life."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify original source and substitutions, packaged ingredients and vegetarian status, exact raw edible weights, yields and portion size.",
+      "Protein, calorie, carbs and fat values are approximate. Nutrition is calculated from the ENTIRE listed meal, including sides; verify with USDA/brand labels before public use.",
+      "Canned beans are ALREADY COOKED purchased inputs; their listed drained weight is NOT a dry-legume purchase amount. Packaged tofu, paneer, phyllo and bread are purchased inputs.",
+      "Flag eggs/dairy as VEGETARIAN but not vegan; check animal rennet in cheese, fish sauce/shrimp paste in Thai and Filipino condiments, and anchovy in Worcestershire."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 742,
+      "protein": 30,
+      "carbs": 73,
+      "fat": 38
+    },
+    "quantitiesFrom": "UNHANGRY Veggie All Methods file — exact raw quantities as written."
+  }
+}

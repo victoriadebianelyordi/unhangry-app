@@ -1,0 +1,197 @@
+{
+  "id": "edamame-egg-fried-rice",
+  "name": "Edamame Egg Fried Rice with Vegetables",
+  "protein": "veggie",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 771,
+    "protein": 37,
+    "carbs": 94,
+    "fat": 28
+  },
+  "components": [
+    {
+      "id": "friedrice",
+      "name": "Edamame Egg Fried Rice",
+      "scaling": "ratio",
+      "role": "whole",
+      "servings": 4,
+      "cookedYieldG": 2400,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 771,
+        "protein": 37,
+        "carbs": 94,
+        "fat": 28
+      },
+      "ingredients": [
+        {
+          "name": "Dry long-grain or jasmine rice",
+          "qty": 330,
+          "unit": "g",
+          "component": "carb",
+          "group": "Rice"
+        },
+        {
+          "name": "Water for rice",
+          "qty": 560,
+          "unit": "ml",
+          "component": "other",
+          "group": "Rice"
+        },
+        {
+          "name": "Frozen shelled edamame, thawed (pre-cooking weight)",
+          "qty": 600,
+          "unit": "g",
+          "component": "protein",
+          "group": "Fried rice"
+        },
+        {
+          "name": "Raw eggs without shells, beaten",
+          "qty": 300,
+          "unit": "g",
+          "component": "protein",
+          "group": "Fried rice"
+        },
+        {
+          "name": "Raw carrots finely diced",
+          "qty": 250,
+          "unit": "g",
+          "component": "other",
+          "group": "Fried rice"
+        },
+        {
+          "name": "Raw broccoli finely chopped",
+          "qty": 230,
+          "unit": "g",
+          "component": "other",
+          "group": "Fried rice"
+        },
+        {
+          "name": "Raw scallions sliced",
+          "qty": 140,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Fried rice"
+        },
+        {
+          "name": "Soy sauce",
+          "qty": 25,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Fried rice"
+        },
+        {
+          "name": "Sesame oil",
+          "qty": 24,
+          "unit": "ml",
+          "component": "other",
+          "group": "Fried rice"
+        },
+        {
+          "name": "Neutral cooking oil",
+          "qty": 25,
+          "unit": "ml",
+          "component": "other",
+          "group": "Fried rice"
+        },
+        {
+          "name": "Garlic minced",
+          "qty": 16,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Fried rice"
+        },
+        {
+          "name": "Ginger minced",
+          "qty": 10,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Fried rice"
+        }
+      ],
+      "steps": [
+        "Cook dry rice in measured water, then rapidly chill until cold. For meal prep, cook rice the previous day if following rigorous chilled-storage procedures.",
+        "Thaw edamame in the fridge and confirm product cooking requirements; cook it thoroughly as labelled.",
+        "Heat neutral oil in a large wok and scramble eggs until completely set; remove to a clean bowl.",
+        "Stir-fry carrot, broccoli, garlic and ginger until just tender, then add cold cooked rice and edamame.",
+        "Cook rice until steaming hot, stir in soy sauce, sesame oil, scallions and scrambled egg.",
+        "Portion into shallow containers and refrigerate quickly. Never leave cooked rice out on the counter to cool slowly."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Edamame nutrition estimates use a generic soybean/pea profile and require specific pack data; exact product macros may differ. Source handling: UNHANGRY original working formulation.",
+    "Planning: Requires PRECOOKED chilled rice; use two sessions.",
+    "Freezer: freeze quickly in shallow portions, reheat once until steaming hot",
+    "Dietary: Soy, egg, sesame; cooked rice food-safety priority.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "reference": {
+    "sourceCredit": "UNHANGRY quantified fried rice formulation",
+    "sourceRecipeUrl": "NO DIRECT SINGLE-RECIPE SOURCE VERIFIED",
+    "fileTitle": "Edamame Egg Fried Rice with Vegetables",
+    "fileRecipeNumber": "ST-14",
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Veggie",
+    "methodTag": "Stovetop",
+    "preparationMethod": "Stovetop cooking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 20 minutes",
+    "cookingTime": "approx 30 minutes (some components or batch counts extend total time)",
+    "freezer": "YES: freeze quickly in shallow portions, reheat once until steaming hot",
+    "dietaryHalalTag": "Soy, egg, sesame; cooked rice food-safety priority.",
+    "fileMacrosPerServing": {
+      "kcal": 771,
+      "protein": 36.9,
+      "carbs": 94,
+      "fat": 27.5
+    },
+    "fileMacroText": {
+      "kcal": "771 kcal (ESTIMATED)",
+      "protein": "36.9 g (ESTIMATED)",
+      "carbs": "94.0 g (ESTIMATED)",
+      "fat": "27.5 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL measured recipe input ingredients using representative per-100g values. Not source-published macros; not lab tested. Product brand, draining, unused coating, oil retention and cooked-versus-dry weight assumptions affect accuracy. Confirm against actual labels before release.",
+    "fileNotes": "Edamame nutrition estimates use a generic soybean/pea profile and require specific pack data; exact product macros may differ. Source handling: UNHANGRY original working formulation.",
+    "planningNotes": "Requires PRECOOKED chilled rice; use two sessions.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked fried rice with egg and edamame: approx 2400 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or within 1 hour if ambient temperatures exceed 32 C.",
+      "Refrigerate at 4 C or colder for up to 3-4 days; freeze later-week portions promptly. If freshly prepared salad is included, prepare and store separately.",
+      "Reheat previously cooked leftovers to 74 C, stirring and checking the centre. For egg dishes, ensure eggs are completely set before portioning.",
+      "Cool cooked rice rapidly and keep refrigerated; avoid leaving rice at room temperature. Reheat rice thoroughly once.",
+      "Defrost frozen portions in the refrigerator. Re-crisp pastries, breaded vegetables and air-fried items in an oven or air fryer.",
+      "Keep delicate avocado, fresh salad, cold yogurt sauce and unbaked crisp toppings separate. They are generally not freezer-friendly.",
+      "Freezer designation describes likely quality, not independently established safety or shelf life."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify original source and substitutions, packaged ingredients and vegetarian status, exact raw edible weights, yields and portion size.",
+      "Protein, calorie, carbs and fat values are approximate. Nutrition is calculated from the ENTIRE listed meal, including sides; verify with USDA/brand labels before public use.",
+      "Canned beans are ALREADY COOKED purchased inputs; their listed drained weight is NOT a dry-legume purchase amount. Packaged tofu, paneer, phyllo and bread are purchased inputs.",
+      "Flag eggs/dairy as VEGETARIAN but not vegan; check animal rennet in cheese, fish sauce/shrimp paste in Thai and Filipino condiments, and anchovy in Worcestershire."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 753,
+      "protein": 36,
+      "carbs": 94,
+      "fat": 27
+    },
+    "quantitiesFrom": "UNHANGRY Veggie All Methods file — exact raw quantities as written."
+  }
+}

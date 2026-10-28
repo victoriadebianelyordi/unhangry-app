@@ -1,0 +1,200 @@
+{
+  "id": "tortilla-de-patatas-bean-salad",
+  "name": "Spanish Tortilla de Patatas with White Bean Tomato Salad",
+  "protein": "veggie",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 740,
+    "protein": 34,
+    "carbs": 81,
+    "fat": 31
+  },
+  "components": [
+    {
+      "id": "main",
+      "name": "Tortilla de Patatas",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 1250,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 469,
+        "protein": 21,
+        "carbs": 41,
+        "fat": 24
+      },
+      "ingredients": [
+        {
+          "name": "Raw potatoes, peeled and thinly sliced",
+          "qty": 800,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Raw onion thinly sliced",
+          "qty": 220,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Raw whole eggs without shells, about ten large",
+          "qty": 500,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Olive oil for shallow sauteing",
+          "qty": 50,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Salt",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Slice potatoes thinly so they cook evenly; warm olive oil in a wide nonstick skillet and gently cook potato and onion covered, 15-20 minutes, stirring, until tender without burning.",
+        "Drain any free oil into the skillet, then lightly cool the potatoes. Beat the weighed eggs and salt and fold in potatoes/onions.",
+        "Pour into the nonstick pan over medium-low heat; cook slowly until edges are set and centre nearly firm.",
+        "Flip with a flat plate or use a covered skillet to finish, until the centre is fully cooked and set; avoid a runny centre for stored meals.",
+        "Cut tortilla into four wedges and portion with white bean salad; freeze tortilla only if its post-thaw texture passes kitchen testing."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "White Bean Tomato Salad",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 1120,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 271,
+        "protein": 13,
+        "carbs": 40,
+        "fat": 7
+      },
+      "ingredients": [
+        {
+          "name": "Canned white beans drained and rinsed",
+          "qty": 650,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Raw tomatoes diced",
+          "qty": 330,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Raw red onion finely chopped",
+          "qty": 100,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Fresh lemon juice",
+          "qty": 25,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Extra virgin olive oil",
+          "qty": 25,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Fresh parsley",
+          "qty": 20,
+          "unit": "g",
+          "component": "aromatic"
+        }
+      ],
+      "steps": [
+        "Toss drained white beans, diced tomato and onion with lemon, olive oil and parsley; keep chilled separately."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Original measured tortilla + white bean salad dinner to meet the requested potato-and-egg vegetarian slot. Source handling: UNHANGRY original working formulation.",
+    "Planning: A skillet flipping technique is required; fully set eggs for meal prep.",
+    "Freezer: cooked potato egg tortilla may become watery; fresh tomato salad NOT freezer friendly",
+    "Dietary: Egg; vegetarian, no fish.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.seriouseats.com/tortilla-espanola-spanish-potato-omelette-recipe",
+  "reference": {
+    "sourceCredit": "J. Kenji López-Alt, Serious Eats (tortilla technique reference)",
+    "sourceRecipeUrl": "https://www.seriouseats.com/tortilla-espanola-spanish-potato-omelette-recipe",
+    "fileTitle": "Spanish Tortilla de Patatas with White Bean Tomato Salad",
+    "fileRecipeNumber": "ST-18",
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Veggie",
+    "methodTag": "Stovetop",
+    "preparationMethod": "Stovetop cooking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 25 minutes",
+    "cookingTime": "approx 35 minutes (some components or batch counts extend total time)",
+    "freezer": "PARTIAL: cooked potato egg tortilla may become watery; fresh tomato salad NOT freezer friendly",
+    "dietaryHalalTag": "Egg; vegetarian, no fish.",
+    "fileMacrosPerServing": {
+      "kcal": 740,
+      "protein": 34.2,
+      "carbs": 80.6,
+      "fat": 31.2
+    },
+    "fileMacroText": {
+      "kcal": "740 kcal (ESTIMATED)",
+      "protein": "34.2 g (ESTIMATED)",
+      "carbs": "80.6 g (ESTIMATED)",
+      "fat": "31.2 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL measured recipe input ingredients using representative per-100g values. Not source-published macros; not lab tested. Product brand, draining, unused coating, oil retention and cooked-versus-dry weight assumptions affect accuracy. Confirm against actual labels before release.",
+    "fileNotes": "Original measured tortilla + white bean salad dinner to meet the requested potato-and-egg vegetarian slot. Source handling: UNHANGRY original working formulation.",
+    "planningNotes": "A skillet flipping technique is required; fully set eggs for meal prep.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked potato egg tortilla: approx 1250 g",
+      "Fresh white bean tomato salad: approx 1120 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or within 1 hour if ambient temperatures exceed 32 C.",
+      "Refrigerate at 4 C or colder for up to 3-4 days; freeze later-week portions promptly. If freshly prepared salad is included, prepare and store separately.",
+      "Reheat previously cooked leftovers to 74 C, stirring and checking the centre. For egg dishes, ensure eggs are completely set before portioning.",
+      "Cool cooked rice rapidly and keep refrigerated; avoid leaving rice at room temperature. Reheat rice thoroughly once.",
+      "Defrost frozen portions in the refrigerator. Re-crisp pastries, breaded vegetables and air-fried items in an oven or air fryer.",
+      "Keep delicate avocado, fresh salad, cold yogurt sauce and unbaked crisp toppings separate. They are generally not freezer-friendly.",
+      "Freezer designation describes likely quality, not independently established safety or shelf life."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify original source and substitutions, packaged ingredients and vegetarian status, exact raw edible weights, yields and portion size.",
+      "Protein, calorie, carbs and fat values are approximate. Nutrition is calculated from the ENTIRE listed meal, including sides; verify with USDA/brand labels before public use.",
+      "Canned beans are ALREADY COOKED purchased inputs; their listed drained weight is NOT a dry-legume purchase amount. Packaged tofu, paneer, phyllo and bread are purchased inputs.",
+      "Flag eggs/dairy as VEGETARIAN but not vegan; check animal rennet in cheese, fish sauce/shrimp paste in Thai and Filipino condiments, and anchovy in Worcestershire."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 720,
+      "protein": 33,
+      "carbs": 79,
+      "fat": 30
+    },
+    "quantitiesFrom": "UNHANGRY Veggie All Methods file — exact raw quantities as written."
+  }
+}

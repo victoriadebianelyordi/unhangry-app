@@ -1,0 +1,208 @@
+{
+  "id": "shakshuka-chickpeas-pita",
+  "name": "Shakshuka with Chickpeas and Wholewheat Pita",
+  "protein": "veggie",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 764,
+    "protein": 38,
+    "carbs": 91,
+    "fat": 28
+  },
+  "components": [
+    {
+      "id": "main",
+      "name": "Chickpea Shakshuka",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 1940,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 539,
+        "protein": 30,
+        "carbs": 48,
+        "fat": 26
+      },
+      "ingredients": [
+        {
+          "name": "Raw eggs without shells, about 8 eggs",
+          "qty": 400,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Canned crushed tomatoes",
+          "qty": 600,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Raw red bell peppers diced",
+          "qty": 260,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Raw onion diced",
+          "qty": 180,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Minced fresh garlic",
+          "qty": 18,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 24,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Ground cumin",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Sweet paprika",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Canned chickpeas drained and rinsed",
+          "qty": 450,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Feta cheese, vegetarian-labelled",
+          "qty": 120,
+          "unit": "g",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Heat olive oil in a broad lidded pan and soften onion and peppers for 7 minutes; stir in garlic and spices.",
+        "Add crushed tomatoes, chickpeas and salt, simmer uncovered about 15 minutes until thick enough to make wells.",
+        "Make eight spaces in the sauce and crack one egg into each well. Cover and cook until eggs are fully set for meal prep rather than runny.",
+        "Scatter vegetarian feta over warm sauce and let melt slightly.",
+        "Eggs are best freshly prepared. For later-week storage, freeze only the tomato-chickpea base and add freshly cooked eggs when eating."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Wholewheat Pita",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 320,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 225,
+        "protein": 8,
+        "carbs": 43,
+        "fat": 1
+      },
+      "ingredients": [
+        {
+          "name": "Four packaged wholewheat pita breads",
+          "qty": 320,
+          "unit": "g",
+          "component": "carb"
+        }
+      ],
+      "steps": [
+        "Divide into four boxes with two eggs each; keep pita breads separately."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Love and Lemons shakshuka adapted with measured chickpeas and pita to serve as lunch/dinner. Source handling: Source technique/reference; measured UNHANGRY complete-meal adaptation.",
+    "Planning: Fresh eggs recommended for later-week portions.",
+    "Freezer: tomato/chickpea base YES; cooked eggs become rubbery if frozen; pita freeze separately",
+    "Dietary: Egg, wheat and dairy; vegetarian-labelled feta.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.loveandlemons.com/shakshuka-recipe/",
+  "reference": {
+    "sourceCredit": "Jeanine Donofrio, Love and Lemons",
+    "sourceRecipeUrl": "https://www.loveandlemons.com/shakshuka-recipe/",
+    "fileTitle": "Shakshuka with Chickpeas and Wholewheat Pita",
+    "fileRecipeNumber": "ST-16",
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Veggie",
+    "methodTag": "Stovetop",
+    "preparationMethod": "Stovetop cooking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 20 minutes",
+    "cookingTime": "approx 30 minutes (some components or batch counts extend total time)",
+    "freezer": "PARTIAL: tomato/chickpea base YES; cooked eggs become rubbery if frozen; pita freeze separately",
+    "dietaryHalalTag": "Egg, wheat and dairy; vegetarian-labelled feta.",
+    "fileMacrosPerServing": {
+      "kcal": 764,
+      "protein": 37.9,
+      "carbs": 90.7,
+      "fat": 27.7
+    },
+    "fileMacroText": {
+      "kcal": "764 kcal (ESTIMATED)",
+      "protein": "37.9 g (ESTIMATED)",
+      "carbs": "90.7 g (ESTIMATED)",
+      "fat": "27.7 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL measured recipe input ingredients using representative per-100g values. Not source-published macros; not lab tested. Product brand, draining, unused coating, oil retention and cooked-versus-dry weight assumptions affect accuracy. Confirm against actual labels before release.",
+    "fileNotes": "Love and Lemons shakshuka adapted with measured chickpeas and pita to serve as lunch/dinner. Source handling: Source technique/reference; measured UNHANGRY complete-meal adaptation.",
+    "planningNotes": "Fresh eggs recommended for later-week portions.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked tomato chickpea base: approx 1450 g",
+      "Eight set poached eggs: approx 370 g",
+      "Feta topping: approx 120 g",
+      "Wholewheat pita: approx 320 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or within 1 hour if ambient temperatures exceed 32 C.",
+      "Refrigerate at 4 C or colder for up to 3-4 days; freeze later-week portions promptly. If freshly prepared salad is included, prepare and store separately.",
+      "Reheat previously cooked leftovers to 74 C, stirring and checking the centre. For egg dishes, ensure eggs are completely set before portioning.",
+      "Cool cooked rice rapidly and keep refrigerated; avoid leaving rice at room temperature. Reheat rice thoroughly once.",
+      "Defrost frozen portions in the refrigerator. Re-crisp pastries, breaded vegetables and air-fried items in an oven or air fryer.",
+      "Keep delicate avocado, fresh salad, cold yogurt sauce and unbaked crisp toppings separate. They are generally not freezer-friendly.",
+      "Freezer designation describes likely quality, not independently established safety or shelf life."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify original source and substitutions, packaged ingredients and vegetarian status, exact raw edible weights, yields and portion size.",
+      "Protein, calorie, carbs and fat values are approximate. Nutrition is calculated from the ENTIRE listed meal, including sides; verify with USDA/brand labels before public use.",
+      "Canned beans are ALREADY COOKED purchased inputs; their listed drained weight is NOT a dry-legume purchase amount. Packaged tofu, paneer, phyllo and bread are purchased inputs.",
+      "Flag eggs/dairy as VEGETARIAN but not vegan; check animal rennet in cheese, fish sauce/shrimp paste in Thai and Filipino condiments, and anchovy in Worcestershire."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 747,
+      "protein": 36,
+      "carbs": 93,
+      "fat": 27
+    },
+    "quantitiesFrom": "UNHANGRY Veggie All Methods file — exact raw quantities as written."
+  }
+}

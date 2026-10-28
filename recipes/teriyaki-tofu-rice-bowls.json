@@ -1,0 +1,221 @@
+{
+  "id": "teriyaki-tofu-rice-bowls",
+  "name": "Pan-Seared Teriyaki Tofu Rice Bowls",
+  "protein": "veggie",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 795,
+    "protein": 40,
+    "carbs": 99,
+    "fat": 27
+  },
+  "components": [
+    {
+      "id": "main",
+      "name": "Teriyaki Tofu",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 1060,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 410,
+        "protein": 29,
+        "carbs": 31,
+        "fat": 22
+      },
+      "ingredients": [
+        {
+          "name": "Medium-firm tofu before pressing, from package",
+          "qty": 900,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Potato or corn starch for dusting, some remains unused",
+          "qty": 65,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Neutral frying oil",
+          "qty": 30,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Soy sauce",
+          "qty": 75,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Teriyaki glaze"
+        },
+        {
+          "name": "Water, replacing sake and mirin for vegetarian alcohol-free adaptation",
+          "qty": 65,
+          "unit": "ml",
+          "component": "other",
+          "group": "Teriyaki glaze"
+        },
+        {
+          "name": "Brown sugar or maple syrup (nutrition modeled as sugar)",
+          "qty": 35,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Teriyaki glaze"
+        },
+        {
+          "name": "Rice vinegar",
+          "qty": 25,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Teriyaki glaze"
+        },
+        {
+          "name": "Fresh grated ginger",
+          "qty": 15,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Teriyaki glaze"
+        },
+        {
+          "name": "Crushed fresh garlic",
+          "qty": 15,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Teriyaki glaze"
+        }
+      ],
+      "steps": [
+        "Press tofu between clean towels under a weight for 20 minutes, then cut into even cubes.",
+        "Mix soy sauce, sugar, vinegar, water, ginger and garlic; this is an alcohol-free UNHANGRY teriyaki glaze, not Just One Cookbook's sake/mirin mixture.",
+        "Lightly dust tofu in starch, shaking off excess; pan fry in oil until crisp on both sides, 6-10 minutes total.",
+        "Pour in glaze and bubble briefly until glossy and clinging to tofu.",
+        "Pack tofu, rice and broccoli separately so tofu stays less soggy; serve extra sauce separately if possible."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Jasmine Rice & Broccoli",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 1290,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 385,
+        "protein": 11,
+        "carbs": 68,
+        "fat": 5
+      },
+      "ingredients": [
+        {
+          "name": "Dry jasmine rice",
+          "qty": 300,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Water for jasmine rice",
+          "qty": 510,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Raw broccoli florets",
+          "qty": 500,
+          "unit": "g",
+          "component": "other",
+          "group": "Broccoli"
+        },
+        {
+          "name": "Sesame oil",
+          "qty": 12,
+          "unit": "ml",
+          "component": "other",
+          "group": "Broccoli"
+        }
+      ],
+      "steps": [
+        "Rinse rice and cook with measured water; rest covered 10 minutes. Steam broccoli until bright green and tender, then toss with sesame oil."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Published tofu technique with alcohol-free sauce adaptation and full rice/broccoli side. Source handling: Source technique/reference; measured UNHANGRY complete-meal adaptation.",
+    "Planning: Press tofu 20 minutes.",
+    "Freezer: rice freezes; tofu texture changes markedly on freezing (source does not recommend it)",
+    "Dietary: Soy, sesame, possible wheat in soy sauce; alcohol-free sauce substitutes for sake/mirin.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.justonecookbook.com/teriyaki-tofu-bowl/",
+  "reference": {
+    "sourceCredit": "Namiko Hirasawa Chen, Just One Cookbook",
+    "sourceRecipeUrl": "https://www.justonecookbook.com/teriyaki-tofu-bowl/",
+    "fileTitle": "Pan-Seared Teriyaki Tofu Rice Bowls",
+    "fileRecipeNumber": "ST-09",
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Veggie",
+    "methodTag": "Stovetop",
+    "preparationMethod": "Stovetop cooking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 25 minutes",
+    "cookingTime": "approx 30 minutes (some components or batch counts extend total time)",
+    "freezer": "PARTIAL: rice freezes; tofu texture changes markedly on freezing (source does not recommend it)",
+    "dietaryHalalTag": "Soy, sesame, possible wheat in soy sauce; alcohol-free sauce substitutes for sake/mirin.",
+    "fileMacrosPerServing": {
+      "kcal": 795,
+      "protein": 40,
+      "carbs": 99.3,
+      "fat": 26.5
+    },
+    "fileMacroText": {
+      "kcal": "795 kcal (ESTIMATED)",
+      "protein": "40.0 g (ESTIMATED)",
+      "carbs": "99.3 g (ESTIMATED)",
+      "fat": "26.5 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL measured recipe input ingredients using representative per-100g values. Not source-published macros; not lab tested. Product brand, draining, unused coating, oil retention and cooked-versus-dry weight assumptions affect accuracy. Confirm against actual labels before release.",
+    "fileNotes": "Published tofu technique with alcohol-free sauce adaptation and full rice/broccoli side. Source handling: Source technique/reference; measured UNHANGRY complete-meal adaptation.",
+    "planningNotes": "Press tofu 20 minutes.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked glazed tofu: approx 1060 g",
+      "Cooked jasmine rice: approx 850 g",
+      "Cooked broccoli: approx 440 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or within 1 hour if ambient temperatures exceed 32 C.",
+      "Refrigerate at 4 C or colder for up to 3-4 days; freeze later-week portions promptly. If freshly prepared salad is included, prepare and store separately.",
+      "Reheat previously cooked leftovers to 74 C, stirring and checking the centre. For egg dishes, ensure eggs are completely set before portioning.",
+      "Cool cooked rice rapidly and keep refrigerated; avoid leaving rice at room temperature. Reheat rice thoroughly once.",
+      "Defrost frozen portions in the refrigerator. Re-crisp pastries, breaded vegetables and air-fried items in an oven or air fryer.",
+      "Keep delicate avocado, fresh salad, cold yogurt sauce and unbaked crisp toppings separate. They are generally not freezer-friendly.",
+      "Freezer designation describes likely quality, not independently established safety or shelf life."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify original source and substitutions, packaged ingredients and vegetarian status, exact raw edible weights, yields and portion size.",
+      "Protein, calorie, carbs and fat values are approximate. Nutrition is calculated from the ENTIRE listed meal, including sides; verify with USDA/brand labels before public use.",
+      "Canned beans are ALREADY COOKED purchased inputs; their listed drained weight is NOT a dry-legume purchase amount. Packaged tofu, paneer, phyllo and bread are purchased inputs.",
+      "Flag eggs/dairy as VEGETARIAN but not vegan; check animal rennet in cheese, fish sauce/shrimp paste in Thai and Filipino condiments, and anchovy in Worcestershire."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 695,
+      "protein": 30,
+      "carbs": 99,
+      "fat": 22
+    },
+    "quantitiesFrom": "UNHANGRY Veggie All Methods file — exact raw quantities as written."
+  }
+}

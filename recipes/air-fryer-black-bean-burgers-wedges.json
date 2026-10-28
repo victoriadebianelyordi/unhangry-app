@@ -1,0 +1,247 @@
+{
+  "id": "air-fryer-black-bean-burgers-wedges",
+  "name": "Air Fryer Black Bean Burgers with Potato Wedges",
+  "protein": "veggie",
+  "method": "third-spot",
+  "mealType": "main",
+  "feeds": 6,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 820,
+    "protein": 33,
+    "carbs": 133,
+    "fat": 17
+  },
+  "components": [
+    {
+      "id": "patties",
+      "name": "Black Bean Patties",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 6,
+      "cookedYieldG": 1150,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 372,
+        "protein": 19,
+        "carbs": 57,
+        "fat": 8
+      },
+      "ingredients": [
+        {
+          "name": "Canned cooked black beans, thoroughly drained",
+          "qty": 1000,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Raw onion grated and squeezed",
+          "qty": 170,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Raw garlic minced",
+          "qty": 25,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Panko crumbs",
+          "qty": 140,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Raw beaten whole egg without shell",
+          "qty": 110,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Chipotle chili in adobo with vegetarian label",
+          "qty": 30,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Soy sauce",
+          "qty": 22,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Ground cumin",
+          "qty": 10,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Olive oil for air fryer brushing",
+          "qty": 25,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Drain beans extremely well and mash coarsely with grated onion, garlic, chipotle, soy and cumin; retain some chunks for texture.",
+        "Fold in beaten egg and panko until patties hold their shape. Shape six burgers and refrigerate at least 20 minutes to firm.",
+        "Brush bean patties lightly with remaining measured oil and air fry at 190 C for 12-16 minutes, turning gently, until hot through and firm; do not stack.",
+        "Freeze formed cooked patties separately from buns and potato wedges; lettuce and fresh tomato should never be frozen."
+      ]
+    },
+    {
+      "id": "wedges",
+      "name": "Potato Wedges",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 6,
+      "cookedYieldG": 880,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 209,
+        "protein": 4,
+        "carbs": 34,
+        "fat": 6
+      },
+      "ingredients": [
+        {
+          "name": "Raw potatoes cut into wedges",
+          "qty": 1050,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Olive oil for potatoes",
+          "qty": 35,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Paprika and garlic powder",
+          "qty": 7,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Toss raw potato wedges with oil and spices, air fry 195 C for 18-25 minutes, shaking midway; cook in batches."
+      ]
+    },
+    {
+      "id": "buns",
+      "name": "Bun & Toppings",
+      "scaling": "fixed",
+      "servings": 6,
+      "cookedYieldG": 910,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 238,
+        "protein": 10,
+        "carbs": 42,
+        "fat": 3
+      },
+      "ingredients": [
+        {
+          "name": "Six wholewheat burger buns, packaged",
+          "qty": 480,
+          "unit": "g",
+          "component": "carb",
+          "group": "Buns"
+        },
+        {
+          "name": "Fresh tomato sliced",
+          "qty": 250,
+          "unit": "g",
+          "component": "other",
+          "group": "Tomato & lettuce"
+        },
+        {
+          "name": "Fresh lettuce leaves",
+          "qty": 180,
+          "unit": "g",
+          "component": "other",
+          "group": "Tomato & lettuce"
+        }
+      ],
+      "steps": [
+        "Warm burger buns, then assemble with tomato and lettuce only at serving time."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Love and Lemons burger is normally skillet/grill cooked. This is an AIR FRYER adaptation and includes measured wedges and buns. Source handling: Source technique/reference; measured UNHANGRY complete-meal adaptation.",
+    "Planning: AIR FRYER requires multiple batches; egg binder fully cooked.",
+    "Freezer: for cooked patties and buns, PARTIAL wedges; fresh vegetables not freezer-friendly",
+    "Dietary: Egg, wheat, soy; chipotle label vegetarian.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.loveandlemons.com/black-bean-burger-recipe/",
+  "reference": {
+    "sourceCredit": "Jeanine Donofrio, Love and Lemons (burger inspiration)",
+    "sourceRecipeUrl": "https://www.loveandlemons.com/black-bean-burger-recipe/",
+    "fileTitle": "Air Fryer Black Bean Burgers with Potato Wedges",
+    "fileRecipeNumber": "AF-02",
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Veggie",
+    "methodTag": "Air fryer",
+    "preparationMethod": "Air frying (see steps for secondary appliance use)",
+    "activePrepTime": "approx 30 minutes",
+    "cookingTime": "approx 45 minutes (some components or batch counts extend total time)",
+    "freezer": "YES for cooked patties and buns, PARTIAL wedges; fresh vegetables not freezer-friendly",
+    "dietaryHalalTag": "Egg, wheat, soy; chipotle label vegetarian.",
+    "fileMacrosPerServing": {
+      "kcal": 820,
+      "protein": 32.7,
+      "carbs": 133.3,
+      "fat": 17.3
+    },
+    "fileMacroText": {
+      "kcal": "820 kcal (ESTIMATED)",
+      "protein": "32.7 g (ESTIMATED)",
+      "carbs": "133.3 g (ESTIMATED)",
+      "fat": "17.3 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL measured recipe input ingredients using representative per-100g values. Not source-published macros; not lab tested. Product brand, draining, unused coating, oil retention and cooked-versus-dry weight assumptions affect accuracy. Confirm against actual labels before release.",
+    "fileNotes": "Love and Lemons burger is normally skillet/grill cooked. This is an AIR FRYER adaptation and includes measured wedges and buns. Source handling: Source technique/reference; measured UNHANGRY complete-meal adaptation.",
+    "planningNotes": "AIR FRYER requires multiple batches; egg binder fully cooked.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked six black bean patties: approx 1150 g",
+      "Air-fried potato wedges: approx 880 g",
+      "Six burger buns: approx 480 g",
+      "Fresh toppings: approx 430 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or within 1 hour if ambient temperatures exceed 32 C.",
+      "Refrigerate at 4 C or colder for up to 3-4 days; freeze later-week portions promptly. If freshly prepared salad is included, prepare and store separately.",
+      "Reheat previously cooked leftovers to 74 C, stirring and checking the centre. For egg dishes, ensure eggs are completely set before portioning.",
+      "Cool cooked rice rapidly and keep refrigerated; avoid leaving rice at room temperature. Reheat rice thoroughly once.",
+      "Defrost frozen portions in the refrigerator. Re-crisp pastries, breaded vegetables and air-fried items in an oven or air fryer.",
+      "Keep delicate avocado, fresh salad, cold yogurt sauce and unbaked crisp toppings separate. They are generally not freezer-friendly.",
+      "Freezer designation describes likely quality, not independently established safety or shelf life."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify original source and substitutions, packaged ingredients and vegetarian status, exact raw edible weights, yields and portion size.",
+      "Protein, calorie, carbs and fat values are approximate. Nutrition is calculated from the ENTIRE listed meal, including sides; verify with USDA/brand labels before public use.",
+      "Canned beans are ALREADY COOKED purchased inputs; their listed drained weight is NOT a dry-legume purchase amount. Packaged tofu, paneer, phyllo and bread are purchased inputs.",
+      "Flag eggs/dairy as VEGETARIAN but not vegan; check animal rennet in cheese, fish sauce/shrimp paste in Thai and Filipino condiments, and anchovy in Worcestershire."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 730,
+      "protein": 29,
+      "carbs": 118,
+      "fat": 16
+    },
+    "quantitiesFrom": "UNHANGRY Veggie All Methods file — exact raw quantities as written."
+  }
+}

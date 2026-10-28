@@ -1,0 +1,203 @@
+{
+  "id": "eggplant-parmesan-spaghetti",
+  "name": "Eggplant Parmesan with Tomato Sauce and Mozzarella",
+  "protein": "veggie",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 6,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 755,
+    "protein": 41,
+    "carbs": 82,
+    "fat": 29
+  },
+  "components": [
+    {
+      "id": "main",
+      "name": "Eggplant Parmesan",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 6,
+      "cookedYieldG": 2350,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 557,
+        "protein": 31,
+        "carbs": 48,
+        "fat": 28
+      },
+      "ingredients": [
+        {
+          "name": "Raw eggplant, sliced into thin rounds",
+          "qty": 1250,
+          "unit": "g",
+          "component": "other",
+          "group": "Eggplant"
+        },
+        {
+          "name": "Panko crumbs, includes potentially unused coating",
+          "qty": 180,
+          "unit": "g",
+          "component": "other",
+          "group": "Breading"
+        },
+        {
+          "name": "Raw beaten whole egg, without shell",
+          "qty": 160,
+          "unit": "g",
+          "component": "protein",
+          "group": "Breading"
+        },
+        {
+          "name": "Vegetarian-labelled hard Italian-style cheese, grated",
+          "qty": 95,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Breading"
+        },
+        {
+          "name": "Dried oregano and thyme",
+          "qty": 9,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Breading"
+        },
+        {
+          "name": "Olive oil spray, measured",
+          "qty": 40,
+          "unit": "ml",
+          "component": "other",
+          "group": "Breading"
+        },
+        {
+          "name": "Tomato marinara with no meat, purchased before baking",
+          "qty": 950,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Marinara"
+        },
+        {
+          "name": "Fresh mozzarella sliced",
+          "qty": 390,
+          "unit": "g",
+          "component": "other",
+          "group": "Cheese"
+        },
+        {
+          "name": "Fresh basil",
+          "qty": 25,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "To finish"
+        }
+      ],
+      "steps": [
+        "Preheat oven to 200 C. Coat eggplant rounds lightly in beaten egg then panko mixed with vegetarian hard cheese and herbs; shake off unused coating.",
+        "Arrange coated slices on oiled lined trays and roast 20-25 minutes until golden, flipping halfway.",
+        "Spoon marinara into an oven dish, layer eggplant slices and fresh mozzarella, then repeat until filled.",
+        "Bake casserole another 20-25 minutes until sauce bubbles and cheese melts; let rest before slicing into six portions.",
+        "Pack baked eggplant parmesan with measured spaghetti; add fresh basil when serving. Coating not fully retained may inflate estimated macros."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Wholewheat Spaghetti",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 6,
+      "cookedYieldG": 830,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 198,
+        "protein": 9,
+        "carbs": 34,
+        "fat": 1
+      },
+      "ingredients": [
+        {
+          "name": "Dry wholewheat spaghetti for a complete meal",
+          "qty": 330,
+          "unit": "g",
+          "component": "carb"
+        }
+      ],
+      "steps": [
+        "Meanwhile cook dry wholewheat pasta just until tender, drain and toss with a little of the measured tomato sauce if available."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Adapted from Love and Lemons baked recipe; wholewheat pasta is an additional measured meal component. Source handling: Source technique/reference; measured UNHANGRY complete-meal adaptation.",
+    "Planning: SECONDARY STOVETOP: pasta.",
+    "Freezer: portions freeze, though breaded eggplant loses crispness; pasta softer",
+    "Dietary: Dairy, wheat and egg; certified vegetarian hard cheese; potential coating waste.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.loveandlemons.com/eggplant-parmesan/",
+  "reference": {
+    "sourceCredit": "Jeanine Donofrio, Love and Lemons",
+    "sourceRecipeUrl": "https://www.loveandlemons.com/eggplant-parmesan/",
+    "fileTitle": "Eggplant Parmesan with Tomato Sauce and Mozzarella",
+    "fileRecipeNumber": "OV-03",
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Veggie",
+    "methodTag": "Oven",
+    "preparationMethod": "Oven roasting / baking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 30 minutes",
+    "cookingTime": "approx 50 minutes (some components or batch counts extend total time)",
+    "freezer": "YES: portions freeze, though breaded eggplant loses crispness; pasta softer",
+    "dietaryHalalTag": "Dairy, wheat and egg; certified vegetarian hard cheese; potential coating waste.",
+    "fileMacrosPerServing": {
+      "kcal": 755,
+      "protein": 40.9,
+      "carbs": 82,
+      "fat": 29.2
+    },
+    "fileMacroText": {
+      "kcal": "755 kcal (ESTIMATED)",
+      "protein": "40.9 g (ESTIMATED)",
+      "carbs": "82.0 g (ESTIMATED)",
+      "fat": "29.2 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL measured recipe input ingredients using representative per-100g values. Not source-published macros; not lab tested. Product brand, draining, unused coating, oil retention and cooked-versus-dry weight assumptions affect accuracy. Confirm against actual labels before release.",
+    "fileNotes": "Adapted from Love and Lemons baked recipe; wholewheat pasta is an additional measured meal component. Source handling: Source technique/reference; measured UNHANGRY complete-meal adaptation.",
+    "planningNotes": "SECONDARY STOVETOP: pasta.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked eggplant parmesan bake: approx 2350 g",
+      "Cooked wholewheat spaghetti: approx 830 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or within 1 hour if ambient temperatures exceed 32 C.",
+      "Refrigerate at 4 C or colder for up to 3-4 days; freeze later-week portions promptly. If freshly prepared salad is included, prepare and store separately.",
+      "Reheat previously cooked leftovers to 74 C, stirring and checking the centre. For egg dishes, ensure eggs are completely set before portioning.",
+      "Cool cooked rice rapidly and keep refrigerated; avoid leaving rice at room temperature. Reheat rice thoroughly once.",
+      "Defrost frozen portions in the refrigerator. Re-crisp pastries, breaded vegetables and air-fried items in an oven or air fryer.",
+      "Keep delicate avocado, fresh salad, cold yogurt sauce and unbaked crisp toppings separate. They are generally not freezer-friendly.",
+      "Freezer designation describes likely quality, not independently established safety or shelf life."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify original source and substitutions, packaged ingredients and vegetarian status, exact raw edible weights, yields and portion size.",
+      "Protein, calorie, carbs and fat values are approximate. Nutrition is calculated from the ENTIRE listed meal, including sides; verify with USDA/brand labels before public use.",
+      "Canned beans are ALREADY COOKED purchased inputs; their listed drained weight is NOT a dry-legume purchase amount. Packaged tofu, paneer, phyllo and bread are purchased inputs.",
+      "Flag eggs/dairy as VEGETARIAN but not vegan; check animal rennet in cheese, fish sauce/shrimp paste in Thai and Filipino condiments, and anchovy in Worcestershire."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 737,
+      "protein": 33,
+      "carbs": 95,
+      "fat": 27
+    },
+    "quantitiesFrom": "UNHANGRY Veggie All Methods file — exact raw quantities as written."
+  }
+}

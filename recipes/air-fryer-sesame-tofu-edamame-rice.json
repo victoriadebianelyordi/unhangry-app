@@ -1,0 +1,227 @@
+{
+  "id": "air-fryer-sesame-tofu-edamame-rice",
+  "name": "Air Fryer Sesame Tofu with Edamame and Brown Rice",
+  "protein": "veggie",
+  "method": "third-spot",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 920,
+    "protein": 52,
+    "carbs": 98,
+    "fat": 36
+  },
+  "components": [
+    {
+      "id": "tofu",
+      "name": "Sesame Tofu",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 910,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 491,
+        "protein": 32,
+        "carbs": 28,
+        "fat": 28
+      },
+      "ingredients": [
+        {
+          "name": "Extra-firm tofu from pack, pressed before cubing",
+          "qty": 780,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Cornstarch dusting (some may remain unused)",
+          "qty": 60,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Neutral oil for air fryer",
+          "qty": 24,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Sesame seeds",
+          "qty": 25,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Soy sauce",
+          "qty": 65,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Sesame glaze"
+        },
+        {
+          "name": "Maple syrup",
+          "qty": 30,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Sesame glaze"
+        },
+        {
+          "name": "Rice vinegar",
+          "qty": 30,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Sesame glaze"
+        },
+        {
+          "name": "Fresh garlic minced",
+          "qty": 16,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Sesame glaze"
+        },
+        {
+          "name": "Fresh ginger grated",
+          "qty": 15,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Sesame glaze"
+        },
+        {
+          "name": "Sesame oil",
+          "qty": 20,
+          "unit": "ml",
+          "component": "other",
+          "group": "Sesame glaze"
+        }
+      ],
+      "steps": [
+        "Press tofu for 20-30 minutes, then cut into cubes; dust lightly with cornstarch, shake off excess, toss with oil and sesame seeds.",
+        "Air fry tofu at 195 C in batches for 12-17 minutes until crisp outside and hot through; shake basket midway.",
+        "In a small saucepan bubble soy sauce, maple syrup, vinegar, garlic, ginger and sesame oil 2-3 minutes until lightly syrupy; toss hot tofu in sauce just before packing.",
+        "Divide tofu, edamame, broccoli and brown rice into four containers; freeze and reheat separately when feasible. The tofu will be less crisp after reheating."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Brown Rice, Edamame & Broccoli",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 1550,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 429,
+        "protein": 20,
+        "carbs": 69,
+        "fat": 8
+      },
+      "ingredients": [
+        {
+          "name": "Frozen shelled edamame beans, weighed frozen",
+          "qty": 520,
+          "unit": "g",
+          "component": "protein",
+          "group": "Edamame & broccoli"
+        },
+        {
+          "name": "Raw broccoli florets",
+          "qty": 450,
+          "unit": "g",
+          "component": "other",
+          "group": "Edamame & broccoli"
+        },
+        {
+          "name": "Dry brown rice",
+          "qty": 265,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Water for brown rice",
+          "qty": 570,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Wash brown rice and cook in the measured water until tender; cover and rest before fluffing.",
+        "Cook frozen edamame according to package instructions, then steam broccoli until tender."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Original quantified complete-meal tofu bowl. Edamame is frozen pre-cooking weight and needs product-specific macros. Source handling: UNHANGRY original working formulation.",
+    "Planning: SECONDARY STOVETOP brown rice, sauce and edamame.",
+    "Freezer: rice and edamame freeze well, tofu turns chewier and loses crispness",
+    "Dietary: Soy, sesame; possible wheat in soy sauce.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.bbcgoodfoodme.com/recipes/green-goddess-bowl-with-crispy-sesame-tofu/",
+  "reference": {
+    "sourceCredit": "Helena Busiakiewicz, Good Food Middle East (air fryer sesame tofu technique)",
+    "sourceRecipeUrl": "https://www.bbcgoodfoodme.com/recipes/green-goddess-bowl-with-crispy-sesame-tofu/",
+    "fileTitle": "Air Fryer Sesame Tofu with Edamame and Brown Rice",
+    "fileRecipeNumber": "AF-05",
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Veggie",
+    "methodTag": "Air fryer",
+    "preparationMethod": "Air frying (see steps for secondary appliance use)",
+    "activePrepTime": "approx 25 minutes",
+    "cookingTime": "approx 45 minutes (some components or batch counts extend total time)",
+    "freezer": "PARTIAL: rice and edamame freeze well, tofu turns chewier and loses crispness",
+    "dietaryHalalTag": "Soy, sesame; possible wheat in soy sauce.",
+    "fileMacrosPerServing": {
+      "kcal": 920,
+      "protein": 51.9,
+      "carbs": 97.6,
+      "fat": 35.8
+    },
+    "fileMacroText": {
+      "kcal": "920 kcal (ESTIMATED)",
+      "protein": "51.9 g (ESTIMATED)",
+      "carbs": "97.6 g (ESTIMATED)",
+      "fat": "35.8 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL measured recipe input ingredients using representative per-100g values. Not source-published macros; not lab tested. Product brand, draining, unused coating, oil retention and cooked-versus-dry weight assumptions affect accuracy. Confirm against actual labels before release.",
+    "fileNotes": "Original quantified complete-meal tofu bowl. Edamame is frozen pre-cooking weight and needs product-specific macros. Source handling: UNHANGRY original working formulation.",
+    "planningNotes": "SECONDARY STOVETOP brown rice, sauce and edamame.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked sesame glazed tofu: approx 910 g",
+      "Cooked edamame and broccoli: approx 810 g",
+      "Cooked brown rice: approx 740 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or within 1 hour if ambient temperatures exceed 32 C.",
+      "Refrigerate at 4 C or colder for up to 3-4 days; freeze later-week portions promptly. If freshly prepared salad is included, prepare and store separately.",
+      "Reheat previously cooked leftovers to 74 C, stirring and checking the centre. For egg dishes, ensure eggs are completely set before portioning.",
+      "Cool cooked rice rapidly and keep refrigerated; avoid leaving rice at room temperature. Reheat rice thoroughly once.",
+      "Defrost frozen portions in the refrigerator. Re-crisp pastries, breaded vegetables and air-fried items in an oven or air fryer.",
+      "Keep delicate avocado, fresh salad, cold yogurt sauce and unbaked crisp toppings separate. They are generally not freezer-friendly.",
+      "Freezer designation describes likely quality, not independently established safety or shelf life."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify original source and substitutions, packaged ingredients and vegetarian status, exact raw edible weights, yields and portion size.",
+      "Protein, calorie, carbs and fat values are approximate. Nutrition is calculated from the ENTIRE listed meal, including sides; verify with USDA/brand labels before public use.",
+      "Canned beans are ALREADY COOKED purchased inputs; their listed drained weight is NOT a dry-legume purchase amount. Packaged tofu, paneer, phyllo and bread are purchased inputs.",
+      "Flag eggs/dairy as VEGETARIAN but not vegan; check animal rennet in cheese, fish sauce/shrimp paste in Thai and Filipino condiments, and anchovy in Worcestershire."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 942,
+      "protein": 60,
+      "carbs": 98,
+      "fat": 39
+    },
+    "quantitiesFrom": "UNHANGRY Veggie All Methods file — exact raw quantities as written."
+  }
+}
