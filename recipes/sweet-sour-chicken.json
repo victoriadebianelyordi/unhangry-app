@@ -1,0 +1,232 @@
+{
+  "id": "sweet-sour-chicken",
+  "name": "Sweet and Sour Chicken with Rice",
+  "protein": "white-meat",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 5,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 650,
+    "protein": 59,
+    "carbs": 68,
+    "fat": 16
+  },
+  "components": [
+    {
+      "id": "chicken",
+      "name": "Sweet and Sour Chicken",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 5,
+      "cookedYieldG": 1500,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 436,
+        "protein": 54,
+        "carbs": 23,
+        "fat": 16
+      },
+      "ingredients": [
+        {
+          "name": "Light soy sauce",
+          "qty": 125,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Sweet and sour sauce"
+        },
+        {
+          "name": "Store-bought pineapple juice",
+          "qty": 80,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Sweet and sour sauce"
+        },
+        {
+          "name": "Honey",
+          "qty": 30,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Sweet and sour sauce"
+        },
+        {
+          "name": "Worcestershire sauce",
+          "qty": 30,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Sweet and sour sauce"
+        },
+        {
+          "name": "Apple cider vinegar",
+          "qty": 30,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Sweet and sour sauce"
+        },
+        {
+          "name": "Tomato ketchup",
+          "qty": 40,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Sweet and sour sauce"
+        },
+        {
+          "name": "Cornflour / cornstarch",
+          "qty": 16,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Sweet and sour sauce"
+        },
+        {
+          "name": "Peanut oil",
+          "qty": 30,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Boneless skinless chicken thighs, diced",
+          "qty": 1200,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Bell peppers, diced",
+          "qty": 360,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Brown onion, sliced",
+          "qty": 150,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Garlic, minced",
+          "qty": 12,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Fresh ginger, grated",
+          "qty": 25,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Salt",
+          "qty": 4,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "White pepper",
+          "qty": 1,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Whisk soy sauce, packaged pineapple juice, honey, Worcestershire, vinegar, ketchup and cornflour together thoroughly until smooth.",
+        "Sauté onions and bell peppers over high heat with 15 ml peanut oil until charred but slightly crisp; set aside.",
+        "Add remaining oil and brown chicken in a single layer, working in batches to avoid steaming.",
+        "Add garlic and grated ginger for the last minute, then return the vegetables.",
+        "Pour in the pre-mixed sauce and boil for about 2 minutes, stirring until glossy and thickened; verify chicken reaches 74°C.",
+        "Divide chicken and sauce evenly with the cooked rice into five containers; cool promptly and freeze later-week portions."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Rice",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 5,
+      "cookedYieldG": 840,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 214,
+        "protein": 5,
+        "carbs": 45,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Dry long-grain rice",
+          "qty": 300,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Cold water",
+          "qty": 600,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Salt",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Cook washed rice with 600 ml cold water and 3 g salt; cover at low heat for about 12 minutes, then rest covered."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Using Chef Jack’s July 2026 version, NOT the older YouTube ingredient version with different honey/chicken quantities. Original creator macros provided separately.",
+    "Storing & reheating: Creator states up to 4 days refrigerated or 3 months frozen; keep rice separate if preferred, reheat sauce until hot throughout.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://chefjackovens.com/sweet-sour-chicken-meal-prep/",
+  "reference": {
+    "sourceCredit": "Chef Jack Ovens",
+    "fileTitle": "Chef Jack Sweet and Sour Chicken with Rice",
+    "fileRecipeNumber": 12,
+    "recipeStatus": "DRAFT FOR MIRNA TESTING; ingredient and macro QA pending.",
+    "proteinTag": "White meat",
+    "methodTag": "Stovetop",
+    "preparationMethod": "Stovetop / skillet / saucepan (see steps)",
+    "activePrepMinutes": 20,
+    "cookingMinutes": 35,
+    "freezer": "YES",
+    "preservation": "Creator states up to 4 days refrigerated or 3 months frozen; keep rice separate if preferred, reheat sauce until hot throughout.",
+    "dietaryTag": "No pork included; verify stock, sauces and ingredient brands for household restrictions.",
+    "fileMacrosPerServing": {
+      "kcal": 650,
+      "protein": 59,
+      "carbs": 68,
+      "fat": 16
+    },
+    "fileMacroSource": "SOURCE-PUBLISHED",
+    "fileNotes": "Using Chef Jack’s July 2026 version, NOT the older YouTube ingredient version with different honey/chicken quantities. Original creator macros provided separately.",
+    "cookedYieldEstimates": [
+      "Cooked sweet and sour chicken including vegetables and sauce: approx 1500 g",
+      "Cooked rice: approx 840 g"
+    ],
+    "foodSafety": [
+      "Refrigerate in shallow containers promptly: within 2 hours of cooking, or within 1 hour if room temperature exceeds 32 C.",
+      "Store at 4 C or colder for no more than 3-4 days; freeze portions intended for later in the week.",
+      "Cook chicken and reheat leftovers thoroughly to 74 C. Ground pork must reach at least 71 C before serving; food-safe reheating still requires 74 C.",
+      "Rice must be rapidly cooled and chilled; never leave cooked rice standing for extended periods.",
+      "Freezer suitability describes practical use, not a guarantee of unchanged texture.",
+      "Creator-published macros may differ from the raw-input estimates because of product brands, cooking losses and serving definitions.",
+      "Nutrition values here are NOT lab-validated. Ingredient estimates use representative raw food averages, while source macros are from the credited creator.",
+      "If an adapted recipe differs from the original source, confirm both quantities and nutritional totals before public app release."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 666,
+      "protein": 55,
+      "carbs": 72,
+      "fat": 16
+    },
+    "quantitiesFrom": "UNHANGRY White Meat Stovetop file — exact raw quantities as written."
+  }
+}

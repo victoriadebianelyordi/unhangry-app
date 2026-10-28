@@ -1,0 +1,194 @@
+{
+  "id": "chicken-adobo",
+  "name": "Filipino Chicken Adobo with Rice",
+  "protein": "white-meat",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 625,
+    "protein": 34,
+    "carbs": 56,
+    "fat": 29
+  },
+  "components": [
+    {
+      "id": "adobo",
+      "name": "Chicken Adobo",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 910,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 425,
+        "protein": 30,
+        "carbs": 6,
+        "fat": 29
+      },
+      "ingredients": [
+        {
+          "name": "Bone-in chicken pieces",
+          "qty": 907,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Garlic, crushed",
+          "qty": 30,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "White vinegar",
+          "qty": 90,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Soy sauce",
+          "qty": 90,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Whole peppercorns",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Dried bay leaves",
+          "qty": 1,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Water",
+          "qty": 120,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Chicken bouillon cube",
+          "qty": 10,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "White sugar",
+          "qty": 4,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Neutral cooking oil",
+          "qty": 60,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Combine chicken, 8 g garlic, vinegar, soy sauce, peppercorns, bay leaves and 120 ml water in a deep pot. Bring gently to a boil.",
+        "Add bouillon and sugar, cover and simmer about 20 minutes, turning the chicken halfway, until the meat is cooked.",
+        "Lift chicken onto a plate. Heat oil in a second pan and sauté the remaining garlic, then briefly brown chicken pieces on each side.",
+        "Pour adobo liquid into the pan and simmer uncovered until reduced to a glossy sauce; check the thickest chicken pieces reach at least 74°C.",
+        "Remove bay leaves and portion with cooked rice. Refrigerate promptly; freeze later-week containers."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Jasmine Rice",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 730,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 200,
+        "protein": 4,
+        "carbs": 50,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Dry jasmine rice",
+          "qty": 260,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Water",
+          "qty": 420,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Salt",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Rinse the rice and place it with 420 ml water and 3 g salt in a saucepan. Bring to a boil, cover, then simmer on very low heat until absorbed; rest covered for 10 minutes."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Source adobo is four servings; UNHANGRY adds dry rice as a full lunch/dinner. Chicken is weighed bone-in; edible yield varies.",
+    "Storing & reheating: Freeze chicken and sauce separate from rice for best texture; cool rice rapidly.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://panlasangpinoy.com/easy-chicken-adobo-recipe/",
+  "reference": {
+    "sourceCredit": "Vanjo Merano, Panlasang Pinoy",
+    "fileTitle": "Filipino Chicken Adobo with Rice",
+    "fileRecipeNumber": 1,
+    "recipeStatus": "DRAFT FOR MIRNA TESTING; ingredient and macro QA pending.",
+    "proteinTag": "White meat",
+    "methodTag": "Stovetop",
+    "preparationMethod": "Stovetop / skillet / saucepan (see steps)",
+    "activePrepMinutes": 15,
+    "cookingMinutes": 45,
+    "freezer": "YES",
+    "preservation": "Freeze chicken and sauce separate from rice for best texture; cool rice rapidly.",
+    "dietaryTag": "No pork included; verify stock, sauces and ingredient brands for household restrictions.",
+    "fileMacrosPerServing": {
+      "kcal": 625,
+      "protein": 34.1,
+      "carbs": 56,
+      "fat": 29.3
+    },
+    "fileMacroSource": "ESTIMATED from raw ingredient reference averages",
+    "fileNotes": "Source adobo is four servings; UNHANGRY adds dry rice as a full lunch/dinner. Chicken is weighed bone-in; edible yield varies.",
+    "cookedYieldEstimates": [
+      "Cooked adobo chicken, edible meat plus sauce: approx 910 g",
+      "Cooked jasmine rice: approx 730 g"
+    ],
+    "foodSafety": [
+      "Refrigerate in shallow containers promptly: within 2 hours of cooking, or within 1 hour if room temperature exceeds 32 C.",
+      "Store at 4 C or colder for no more than 3-4 days; freeze portions intended for later in the week.",
+      "Cook chicken and reheat leftovers thoroughly to 74 C. Ground pork must reach at least 71 C before serving; food-safe reheating still requires 74 C.",
+      "Rice must be rapidly cooled and chilled; never leave cooked rice standing for extended periods.",
+      "Freezer suitability describes practical use, not a guarantee of unchanged texture.",
+      "Creator-published macros may differ from the raw-input estimates because of product brands, cooking losses and serving definitions.",
+      "Nutrition values here are NOT lab-validated. Ingredient estimates use representative raw food averages, while source macros are from the credited creator.",
+      "If an adapted recipe differs from the original source, confirm both quantities and nutritional totals before public app release."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 741,
+      "protein": 38,
+      "carbs": 58,
+      "fat": 39
+    },
+    "quantitiesFrom": "UNHANGRY White Meat Stovetop file — exact raw quantities as written."
+  }
+}

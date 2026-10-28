@@ -1,0 +1,209 @@
+{
+  "id": "pork-sinigang",
+  "name": "Filipino Pork Sinigang with Rice",
+  "protein": "white-meat",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 819,
+    "protein": 50,
+    "carbs": 81,
+    "fat": 33
+  },
+  "components": [
+    {
+      "id": "sinigang",
+      "name": "Pork Sinigang",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 2870,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 600,
+        "protein": 46,
+        "carbs": 34,
+        "fat": 32
+      },
+      "ingredients": [
+        {
+          "name": "Boneless pork shoulder, cut in chunks",
+          "qty": 900,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Tamarind paste",
+          "qty": 100,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Water",
+          "qty": 1800,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Kangkong / water spinach",
+          "qty": 150,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Long beans",
+          "qty": 160,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Chinese eggplant",
+          "qty": 220,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Daikon radish",
+          "qty": 220,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Okra",
+          "qty": 160,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Tomatoes",
+          "qty": 220,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Long green chilli pepper",
+          "qty": 35,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Onion",
+          "qty": 130,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Fish sauce",
+          "qty": 25,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Black pepper",
+          "qty": 1,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Add 1800 ml water, diced onion and half the tomatoes to a heavy pot. Bring to a simmer.",
+        "Add pork shoulder, skim foam and cook gently until almost tender, around 60 minutes depending on chunk size.",
+        "Stir tamarind paste into a little hot broth until smooth; return to pot, then add radish and eggplant.",
+        "After a few minutes, add long beans, okra, chilli and remaining tomatoes. Cook until tender but still holding their shape.",
+        "Finish with chopped water spinach, fish sauce and black pepper; turn off heat once greens are wilted.",
+        "Portion pork, broth, vegetables and rice consistently; label prominently NON-HALAL / CONTAINS PORK."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Jasmine Rice",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 670,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 219,
+        "protein": 4,
+        "carbs": 47,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Dry jasmine rice",
+          "qty": 240,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Water",
+          "qty": 390,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Rinse rice and cook in a covered pot with 390 ml water; rest before portioning."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "CONTAINS PORK; NOT HALAL. Uses pork shoulder instead of source belly, a cut the source explicitly allows, and adds rice. Uses pre-made tamarind puree to avoid boiling whole fruit; source uses young tamarind.",
+    "Storing & reheating: Freeze pork and sour broth; leafy greens and okra lose texture. Fresh greens may be added during reheating.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true,
+    "dietaryWarning": "Contains pork — not halal."
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://panlasangpinoy.com/pork-sinigang-na-baboy-recipe/",
+  "reference": {
+    "sourceCredit": "Vanjo Merano, Panlasang Pinoy",
+    "fileTitle": "Filipino Pork Sinigang with Rice",
+    "fileRecipeNumber": 16,
+    "recipeStatus": "DRAFT FOR MIRNA TESTING; ingredient and macro QA pending.",
+    "proteinTag": "White meat",
+    "methodTag": "Stovetop",
+    "preparationMethod": "Stovetop / skillet / saucepan (see steps)",
+    "activePrepMinutes": 25,
+    "cookingMinutes": 95,
+    "freezer": "PARTIAL",
+    "preservation": "Freeze pork and sour broth; leafy greens and okra lose texture. Fresh greens may be added during reheating.",
+    "dietaryTag": "NON-HALAL / CONTAINS PORK",
+    "fileMacrosPerServing": {
+      "kcal": 819,
+      "protein": 50.1,
+      "carbs": 80.9,
+      "fat": 32.7
+    },
+    "fileMacroSource": "ESTIMATED from raw ingredient reference averages",
+    "fileNotes": "CONTAINS PORK; NOT HALAL. Uses pork shoulder instead of source belly, a cut the source explicitly allows, and adds rice. Uses pre-made tamarind puree to avoid boiling whole fruit; source uses young tamarind.",
+    "cookedYieldEstimates": [
+      "Cooked pork chunks: approx 670 g",
+      "Cooked soup broth and vegetables: approx 2200 g",
+      "Cooked rice: approx 670 g"
+    ],
+    "foodSafety": [
+      "Refrigerate in shallow containers promptly: within 2 hours of cooking, or within 1 hour if room temperature exceeds 32 C.",
+      "Store at 4 C or colder for no more than 3-4 days; freeze portions intended for later in the week.",
+      "Cook chicken and reheat leftovers thoroughly to 74 C. Ground pork must reach at least 71 C before serving; food-safe reheating still requires 74 C.",
+      "Rice must be rapidly cooled and chilled; never leave cooked rice standing for extended periods.",
+      "Freezer suitability describes practical use, not a guarantee of unchanged texture.",
+      "Creator-published macros may differ from the raw-input estimates because of product brands, cooking losses and serving definitions.",
+      "Nutrition values here are NOT lab-validated. Ingredient estimates use representative raw food averages, while source macros are from the credited creator.",
+      "If an adapted recipe differs from the original source, confirm both quantities and nutritional totals before public app release."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 821,
+      "protein": 48,
+      "carbs": 83,
+      "fat": 33
+    },
+    "quantitiesFrom": "UNHANGRY White Meat Stovetop file — exact raw quantities as written."
+  }
+}

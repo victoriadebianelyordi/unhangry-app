@@ -1,0 +1,319 @@
+{
+  "id": "chicken-tikka-masala",
+  "name": "Chicken Tikka Masala with Basmati Rice",
+  "protein": "white-meat",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 6,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 597,
+    "protein": 29,
+    "carbs": 59,
+    "fat": 27
+  },
+  "components": [
+    {
+      "id": "chicken",
+      "name": "Chicken Tikka Masala",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 6,
+      "cookedYieldG": 1400,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 375,
+        "protein": 25,
+        "carbs": 13,
+        "fat": 27
+      },
+      "ingredients": [
+        {
+          "name": "Boneless chicken thigh",
+          "qty": 700,
+          "unit": "g",
+          "component": "protein",
+          "group": "Marinade"
+        },
+        {
+          "name": "Greek yogurt",
+          "qty": 120,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Marinade"
+        },
+        {
+          "name": "Kashmiri chilli powder",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Marinade"
+        },
+        {
+          "name": "Garam masala",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Marinade"
+        },
+        {
+          "name": "Turmeric",
+          "qty": 0.5,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Marinade"
+        },
+        {
+          "name": "Coriander powder",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Marinade"
+        },
+        {
+          "name": "Cumin powder",
+          "qty": 1,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Marinade"
+        },
+        {
+          "name": "Salt",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Marinade"
+        },
+        {
+          "name": "Lemon juice",
+          "qty": 15,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Marinade"
+        },
+        {
+          "name": "Kasuri methi",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Marinade"
+        },
+        {
+          "name": "Ginger garlic paste",
+          "qty": 15,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Marinade"
+        },
+        {
+          "name": "Mustard oil",
+          "qty": 15,
+          "unit": "ml",
+          "component": "other",
+          "group": "Marinade"
+        },
+        {
+          "name": "Oil or ghee",
+          "qty": 45,
+          "unit": "ml",
+          "component": "other",
+          "group": "Tikka sauce"
+        },
+        {
+          "name": "Onions, chopped",
+          "qty": 180,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Tikka sauce"
+        },
+        {
+          "name": "Green chilli",
+          "qty": 10,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Tikka sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Tikka sauce"
+        },
+        {
+          "name": "Ginger garlic paste",
+          "qty": 15,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Tikka sauce"
+        },
+        {
+          "name": "Kashmiri chilli powder",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Tikka sauce"
+        },
+        {
+          "name": "Garam masala",
+          "qty": 4,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Tikka sauce"
+        },
+        {
+          "name": "Coriander powder",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Tikka sauce"
+        },
+        {
+          "name": "Ground cumin",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Tikka sauce"
+        },
+        {
+          "name": "Sugar",
+          "qty": 8,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Tikka sauce"
+        },
+        {
+          "name": "Fresh tomato puree",
+          "qty": 450,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Tikka sauce"
+        },
+        {
+          "name": "Water",
+          "qty": 240,
+          "unit": "ml",
+          "component": "other",
+          "group": "Tikka sauce"
+        },
+        {
+          "name": "Kasuri methi",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Tikka sauce"
+        },
+        {
+          "name": "Heavy cream",
+          "qty": 120,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Tikka sauce"
+        },
+        {
+          "name": "Fresh coriander",
+          "qty": 12,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Tikka sauce"
+        }
+      ],
+      "steps": [
+        "Marinate chicken with yogurt, spices, aromatics and oil for at least 8 hours under refrigeration for best results.",
+        "In a hot skillet, brown chicken pieces in batches until nearly cooked, then reserve.",
+        "In a saucepan, heat sauce oil; cook onions to deep golden, add chilli and ginger-garlic, and briefly toast powdered spices.",
+        "Add tomato puree and simmer until thick and aromatic. Use the measured water to adjust consistency.",
+        "Stir in cream and fenugreek, return chicken and simmer gently until chicken reaches at least 74°C; garnish with coriander.",
+        "Pack tikka sauce with chicken separately from rice for reheating; avoid vigorous boiling of sauce."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Basmati Rice",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 6,
+      "cookedYieldG": 1000,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 222,
+        "protein": 4,
+        "carbs": 45,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Dry basmati rice",
+          "qty": 360,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Water",
+          "qty": 580,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Cook basmati separately in a covered pot and leave to rest before fluffing."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Adapted from source using the stovetop skillet option and adding 360g dry basmati rice. Source marination 8+ hours. Sauce uses cream version (not cashew version).",
+    "Storing & reheating: Freeze sauce and basmati separately; stir slowly while reheating.",
+    "Freezer: with possible cream change",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.indianhealthyrecipes.com/chicken-tikka-masala/",
+  "reference": {
+    "sourceCredit": "Swasthi Shreekanth, Swasthi’s Recipes",
+    "fileTitle": "Chicken Tikka Masala with Basmati Rice",
+    "fileRecipeNumber": 8,
+    "recipeStatus": "DRAFT FOR MIRNA TESTING; ingredient and macro QA pending.",
+    "proteinTag": "White meat",
+    "methodTag": "Stovetop",
+    "preparationMethod": "Stovetop / skillet / saucepan (see steps)",
+    "activePrepMinutes": 30,
+    "cookingMinutes": 55,
+    "freezer": "YES, with possible cream change",
+    "preservation": "Freeze sauce and basmati separately; stir slowly while reheating.",
+    "dietaryTag": "No pork included; verify stock, sauces and ingredient brands for household restrictions.",
+    "fileMacrosPerServing": {
+      "kcal": 597,
+      "protein": 29,
+      "carbs": 58.6,
+      "fat": 27.4
+    },
+    "fileMacroSource": "ESTIMATED from raw ingredient reference averages",
+    "fileNotes": "Adapted from source using the stovetop skillet option and adding 360g dry basmati rice. Source marination 8+ hours. Sauce uses cream version (not cashew version).",
+    "cookedYieldEstimates": [
+      "Cooked chicken tikka and sauce: approx 1400 g",
+      "Cooked rice: approx 1000 g"
+    ],
+    "foodSafety": [
+      "Refrigerate in shallow containers promptly: within 2 hours of cooking, or within 1 hour if room temperature exceeds 32 C.",
+      "Store at 4 C or colder for no more than 3-4 days; freeze portions intended for later in the week.",
+      "Cook chicken and reheat leftovers thoroughly to 74 C. Ground pork must reach at least 71 C before serving; food-safe reheating still requires 74 C.",
+      "Rice must be rapidly cooled and chilled; never leave cooked rice standing for extended periods.",
+      "Freezer suitability describes practical use, not a guarantee of unchanged texture.",
+      "Creator-published macros may differ from the raw-input estimates because of product brands, cooking losses and serving definitions.",
+      "Nutrition values here are NOT lab-validated. Ingredient estimates use representative raw food averages, while source macros are from the credited creator.",
+      "If an adapted recipe differs from the original source, confirm both quantities and nutritional totals before public app release."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 589,
+      "protein": 32,
+      "carbs": 62,
+      "fat": 23
+    },
+    "quantitiesFrom": "UNHANGRY White Meat Stovetop file — exact raw quantities as written."
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "id": "chicken-harees",
+  "name": "Emirati Chicken Harees Soup",
+  "protein": "white-meat",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 6,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 403,
+    "protein": 30,
+    "carbs": 33,
+    "fat": 17
+  },
+  "components": [
+    {
+      "id": "harees",
+      "name": "Chicken Harees",
+      "scaling": "ratio",
+      "role": "whole",
+      "servings": 6,
+      "cookedYieldG": 1850,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 377,
+        "protein": 30,
+        "carbs": 31,
+        "fat": 15
+      },
+      "ingredients": [
+        {
+          "name": "Whole small chicken, bone-in",
+          "qty": 1100,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Chicken stock",
+          "qty": 1000,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Whole wheat grains, dry before soaking",
+          "qty": 250,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Fine salt",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Cover dry wheat with plenty of water and soak in the fridge overnight; discard soaking water before cooking.",
+        "Place chicken and 1 litre stock in a deep pot, simmer about 20 to 30 minutes until cooked; lift chicken out and check meat reaches 74°C.",
+        "Add soaked drained wheat to the chicken stock, cover and simmer gently for approximately 3 hours, stirring occasionally and adding measured additional water only if needed.",
+        "Remove bones and skin from chicken; shred edible meat and set aside.",
+        "Blend or mash softened wheat until thick and creamy; fold chicken through or serve it on top."
+      ]
+    },
+    {
+      "id": "onion-topping",
+      "name": "Caramelised Onion Topping",
+      "scaling": "fixed",
+      "servings": 6,
+      "cookedYieldG": 95,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 26,
+        "protein": 0,
+        "carbs": 2,
+        "fat": 2
+      },
+      "ingredients": [
+        {
+          "name": "Onion, finely sliced",
+          "qty": 120,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 15,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Meanwhile slowly caramelise the 120 g onion in 15 ml oil until golden. Portion over harees; adjust texture with broth when reheating."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Source servings 4–6, fixed at higher number 6. Soak wheat overnight. Onion garnish is a quantified UNHANGRY addition. Slow-cooker alternative requires equipment-specific testing.",
+    "Storing & reheating: Freeze blended wheat base and shredded chicken in measured portions; loosen with stock after thawing.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://gulfnews.com/food/cooking-cuisines/emirati-chicken-harees-soup-1.1609140649838",
+  "reference": {
+    "sourceCredit": "Chef Silvena Rowe, Gulf News",
+    "fileTitle": "Emirati Chicken Harees Soup",
+    "fileRecipeNumber": 5,
+    "recipeStatus": "DRAFT FOR MIRNA TESTING; ingredient and macro QA pending.",
+    "proteinTag": "White meat",
+    "methodTag": "Stovetop",
+    "preparationMethod": "Stovetop / skillet / saucepan (see steps)",
+    "activePrepMinutes": 20,
+    "cookingMinutes": 210,
+    "freezer": "YES",
+    "preservation": "Freeze blended wheat base and shredded chicken in measured portions; loosen with stock after thawing.",
+    "dietaryTag": "No pork included; verify stock, sauces and ingredient brands for household restrictions.",
+    "fileMacrosPerServing": {
+      "kcal": 403,
+      "protein": 29.8,
+      "carbs": 32.6,
+      "fat": 17
+    },
+    "fileMacroSource": "ESTIMATED from raw ingredient reference averages",
+    "fileNotes": "Source servings 4–6, fixed at higher number 6. Soak wheat overnight. Onion garnish is a quantified UNHANGRY addition. Slow-cooker alternative requires equipment-specific testing.",
+    "cookedYieldEstimates": [
+      "Cooked blended wheat and broth: approx 1220 g",
+      "Cooked deboned chicken: approx 630 g",
+      "Caramelised onion topping: approx 95 g"
+    ],
+    "foodSafety": [
+      "Refrigerate in shallow containers promptly: within 2 hours of cooking, or within 1 hour if room temperature exceeds 32 C.",
+      "Store at 4 C or colder for no more than 3-4 days; freeze portions intended for later in the week.",
+      "Cook chicken and reheat leftovers thoroughly to 74 C. Ground pork must reach at least 71 C before serving; food-safe reheating still requires 74 C.",
+      "Rice must be rapidly cooled and chilled; never leave cooked rice standing for extended periods.",
+      "Freezer suitability describes practical use, not a guarantee of unchanged texture.",
+      "Creator-published macros may differ from the raw-input estimates because of product brands, cooking losses and serving definitions.",
+      "Nutrition values here are NOT lab-validated. Ingredient estimates use representative raw food averages, while source macros are from the credited creator.",
+      "If an adapted recipe differs from the original source, confirm both quantities and nutritional totals before public app release."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 438,
+      "protein": 30,
+      "carbs": 32,
+      "fat": 22
+    },
+    "quantitiesFrom": "UNHANGRY White Meat Stovetop file — exact raw quantities as written."
+  }
+}

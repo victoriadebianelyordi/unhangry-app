@@ -1,0 +1,200 @@
+{
+  "id": "emirati-chicken-machboos",
+  "name": "Emirati Chicken Machboos",
+  "protein": "white-meat",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 6,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 672,
+    "protein": 28,
+    "carbs": 85,
+    "fat": 25
+  },
+  "components": [
+    {
+      "id": "machboos",
+      "name": "Chicken Machboos",
+      "scaling": "ratio",
+      "role": "whole",
+      "servings": 6,
+      "cookedYieldG": 2230,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 672,
+        "protein": 28,
+        "carbs": 85,
+        "fat": 25
+      },
+      "ingredients": [
+        {
+          "name": "Bone-in chicken pieces",
+          "qty": 1000,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Dry basmati rice",
+          "qty": 600,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Fresh tomato, sliced",
+          "qty": 100,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Red onion, sliced",
+          "qty": 60,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Garlic, minced",
+          "qty": 12,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Fresh coriander",
+          "qty": 5,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Ghee",
+          "qty": 80,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Bzar Emirati spice mix",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Dried black lime (loomi)",
+          "qty": 30,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Cinnamon stick",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Dried bay leaf",
+          "qty": 0.5,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Cloves",
+          "qty": 0.5,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Ginger, grated",
+          "qty": 10,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Water",
+          "qty": 1500,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Fine salt",
+          "qty": 12,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Ground black pepper",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Cardamom pods",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Wash basmati rice and soak 20 minutes while preparing the aromatics. Drain thoroughly.",
+        "Melt ghee in a large deep pot; toast cardamom, cinnamon, cloves, bay leaf and bzar briefly without burning.",
+        "Add onion and garlic; sauté until golden. Add tomato, ginger, chicken, loomi, measured salt and pepper.",
+        "Stir in 1 litre of the water and simmer until chicken is nearly cooked through, about 35 to 50 minutes depending on cut.",
+        "Add drained rice and enough of the remaining measured water for the rice to absorb; bring to a steady simmer.",
+        "Cover on low heat for around 15 to 20 minutes until rice is tender and chicken is at least 74°C; rest before fluffing.",
+        "Portion rice and deboned edible chicken separately if you need accurate per-member protein weights."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Traditional one-pot rice dish. Source gives bone-in chicken and large rice batch. All measured seasonings fixed in this draft.",
+    "Storing & reheating: Chill rice rapidly in shallow containers; freeze portions promptly for later-week use.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://gulfnews.com/food/cooking-cuisines/chicken-machboos-1.1610888105164",
+  "reference": {
+    "sourceCredit": "Chef Musabbeh Al Kaabi, Gulf News",
+    "fileTitle": "Emirati Chicken Machboos",
+    "fileRecipeNumber": 3,
+    "recipeStatus": "DRAFT FOR MIRNA TESTING; ingredient and macro QA pending.",
+    "proteinTag": "White meat",
+    "methodTag": "Stovetop",
+    "preparationMethod": "Stovetop / skillet / saucepan (see steps)",
+    "activePrepMinutes": 30,
+    "cookingMinutes": 95,
+    "freezer": "YES",
+    "preservation": "Chill rice rapidly in shallow containers; freeze portions promptly for later-week use.",
+    "dietaryTag": "No pork included; verify stock, sauces and ingredient brands for household restrictions.",
+    "fileMacrosPerServing": {
+      "kcal": 672,
+      "protein": 28.2,
+      "carbs": 84.5,
+      "fat": 24.6
+    },
+    "fileMacroSource": "ESTIMATED from raw ingredient reference averages",
+    "fileNotes": "Traditional one-pot rice dish. Source gives bone-in chicken and large rice batch. All measured seasonings fixed in this draft.",
+    "cookedYieldEstimates": [
+      "Cooked machboos rice with aromatics: approx 1650 g",
+      "Cooked edible chicken meat: approx 580 g"
+    ],
+    "foodSafety": [
+      "Refrigerate in shallow containers promptly: within 2 hours of cooking, or within 1 hour if room temperature exceeds 32 C.",
+      "Store at 4 C or colder for no more than 3-4 days; freeze portions intended for later in the week.",
+      "Cook chicken and reheat leftovers thoroughly to 74 C. Ground pork must reach at least 71 C before serving; food-safe reheating still requires 74 C.",
+      "Rice must be rapidly cooled and chilled; never leave cooked rice standing for extended periods.",
+      "Freezer suitability describes practical use, not a guarantee of unchanged texture.",
+      "Creator-published macros may differ from the raw-input estimates because of product brands, cooking losses and serving definitions.",
+      "Nutrition values here are NOT lab-validated. Ingredient estimates use representative raw food averages, while source macros are from the credited creator.",
+      "If an adapted recipe differs from the original source, confirm both quantities and nutritional totals before public app release."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 748,
+      "protein": 30,
+      "carbs": 83,
+      "fat": 32
+    },
+    "quantitiesFrom": "UNHANGRY White Meat Stovetop file — exact raw quantities as written."
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "id": "chicken-afritada",
+  "name": "Filipino Chicken Afritada with Rice",
+  "protein": "white-meat",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 641,
+    "protein": 31,
+    "carbs": 77,
+    "fat": 23
+  },
+  "components": [
+    {
+      "id": "afritada",
+      "name": "Chicken Afritada",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 1500,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 442,
+        "protein": 27,
+        "carbs": 28,
+        "fat": 23
+      },
+      "ingredients": [
+        {
+          "name": "Bone-in chicken pieces",
+          "qty": 680,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Potatoes, peeled and diced",
+          "qty": 350,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Carrot, sliced",
+          "qty": 140,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Plain tomato sauce",
+          "qty": 227,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Frozen green peas",
+          "qty": 75,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Dried bay leaves",
+          "qty": 1,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Red onion, diced",
+          "qty": 120,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Garlic, minced",
+          "qty": 8,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Chicken broth",
+          "qty": 720,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "White sugar",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Neutral cooking oil",
+          "qty": 45,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Salt",
+          "qty": 4,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Black pepper",
+          "qty": 1,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Sauté diced onion and garlic in oil until softened, then add chicken and colour both sides briefly.",
+        "Stir in tomato sauce, broth and bay leaves; cover and simmer around 30 minutes.",
+        "Add diced potatoes and carrots; simmer another 10 to 15 minutes until tender.",
+        "Stir in peas and sugar; heat through and season with measured salt and pepper.",
+        "Ensure chicken is at least 74°C, remove bay leaves, and portion chicken/vegetables/sauce separately from rice when freezing."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Jasmine Rice",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 670,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 199,
+        "protein": 4,
+        "carbs": 49,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Dry jasmine rice",
+          "qty": 240,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Water",
+          "qty": 390,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Begin rice in a separate pot using 240 g dry rice and 390 ml water; simmer covered, then rest."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Adaptation based on source: excludes optional hotdogs to keep recipe pork-free; adds dry rice. Original source macros do not cover these changes.",
+    "Storing & reheating: Chicken and sauce freeze; potatoes and carrots soften slightly.",
+    "Freezer: with texture changes",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://panlasangpinoy.com/chicken-afritada-recipe/",
+  "reference": {
+    "sourceCredit": "Vanjo Merano, Panlasang Pinoy",
+    "fileTitle": "Filipino Chicken Afritada with Rice",
+    "fileRecipeNumber": 2,
+    "recipeStatus": "DRAFT FOR MIRNA TESTING; ingredient and macro QA pending.",
+    "proteinTag": "White meat",
+    "methodTag": "Stovetop",
+    "preparationMethod": "Stovetop / skillet / saucepan (see steps)",
+    "activePrepMinutes": 20,
+    "cookingMinutes": 50,
+    "freezer": "YES, with texture changes",
+    "preservation": "Chicken and sauce freeze; potatoes and carrots soften slightly.",
+    "dietaryTag": "No pork included; verify stock, sauces and ingredient brands for household restrictions.",
+    "fileMacrosPerServing": {
+      "kcal": 641,
+      "protein": 30.8,
+      "carbs": 77.1,
+      "fat": 23.3
+    },
+    "fileMacroSource": "ESTIMATED from raw ingredient reference averages",
+    "fileNotes": "Adaptation based on source: excludes optional hotdogs to keep recipe pork-free; adds dry rice. Original source macros do not cover these changes.",
+    "cookedYieldEstimates": [
+      "Cooked chicken and vegetable afritada: approx 1500 g",
+      "Cooked rice: approx 670 g"
+    ],
+    "foodSafety": [
+      "Refrigerate in shallow containers promptly: within 2 hours of cooking, or within 1 hour if room temperature exceeds 32 C.",
+      "Store at 4 C or colder for no more than 3-4 days; freeze portions intended for later in the week.",
+      "Cook chicken and reheat leftovers thoroughly to 74 C. Ground pork must reach at least 71 C before serving; food-safe reheating still requires 74 C.",
+      "Rice must be rapidly cooled and chilled; never leave cooked rice standing for extended periods.",
+      "Freezer suitability describes practical use, not a guarantee of unchanged texture.",
+      "Creator-published macros may differ from the raw-input estimates because of product brands, cooking losses and serving definitions.",
+      "Nutrition values here are NOT lab-validated. Ingredient estimates use representative raw food averages, while source macros are from the credited creator.",
+      "If an adapted recipe differs from the original source, confirm both quantities and nutritional totals before public app release."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 705,
+      "protein": 33,
+      "carbs": 76,
+      "fat": 29
+    },
+    "quantitiesFrom": "UNHANGRY White Meat Stovetop file — exact raw quantities as written."
+  }
+}

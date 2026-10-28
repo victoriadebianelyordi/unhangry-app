@@ -1,0 +1,218 @@
+{
+  "id": "chicken-saloona-wild-rice",
+  "name": "Chicken Saloona with Wild Rice",
+  "protein": "white-meat",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 3,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 1060,
+    "protein": 72,
+    "carbs": 105,
+    "fat": 39
+  },
+  "components": [
+    {
+      "id": "saloona",
+      "name": "Chicken Saloona",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 3,
+      "cookedYieldG": 2900,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 760,
+        "protein": 62,
+        "carbs": 46,
+        "fat": 38
+      },
+      "ingredients": [
+        {
+          "name": "Boneless chicken thigh cubes",
+          "qty": 1000,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Ghee",
+          "qty": 30,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Onion, chopped",
+          "qty": 260,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Garlic, minced",
+          "qty": 12,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Coriander leaves, chopped",
+          "qty": 20,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Dried black limes",
+          "qty": 30,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Bzar spice mix",
+          "qty": 12,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Concentrated tomato sauce",
+          "qty": 480,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Chicken stock powder",
+          "qty": 8,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Potato cubes",
+          "qty": 150,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Carrot cubes",
+          "qty": 130,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Marrow / zucchini cubes",
+          "qty": 120,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Fresh chopped tomato",
+          "qty": 150,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Water",
+          "qty": 2000,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Salt",
+          "qty": 12,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Heat ghee in a heavy pot and soften onion, garlic and chopped coriander.",
+        "Stir in chicken, tomato sauce, dried limes, spice mix and stock powder; sauté 4 to 5 minutes.",
+        "Add potatoes, carrots, marrow, chopped tomato and 2 litres measured water. Simmer until chicken is cooked and vegetables are tender, around 15 to 25 minutes.",
+        "Season with the measured salt and taste before adding more because stock powder is salty. Remove whole dried limes before eating.",
+        "Portion wild rice and chicken saloona separately and chill quickly."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Wild Rice",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 3,
+      "cookedYieldG": 650,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 300,
+        "protein": 10,
+        "carbs": 59,
+        "fat": 1
+      },
+      "ingredients": [
+        {
+          "name": "Dry wild rice, approx raw equivalent",
+          "qty": 240,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Water",
+          "qty": 720,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Cook the wild rice according to packet instructions with 720 ml water; check the grain is tender, drain any excess."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Source is three large portions. Wild rice quantity is the source cooked amount; raw-equivalent dry amount fixed here at ~240 g (estimated for 4 cups cooked).",
+    "Storing & reheating: Freeze saloona and wild rice separately. Courgette/marrow will soften after thawing.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://gulfnews.com/food/watch-first-emirati-flight-catering-chef-talks-recipes-vegan-cuisine-and-about-growing-up-with-a-love-for-cooking-1.1611388853889",
+  "reference": {
+    "sourceCredit": "Chef Saud Al Matrooshi, Gulf News",
+    "fileTitle": "Chicken Saloona with Wild Rice",
+    "fileRecipeNumber": 4,
+    "recipeStatus": "DRAFT FOR MIRNA TESTING; ingredient and macro QA pending.",
+    "proteinTag": "White meat",
+    "methodTag": "Stovetop",
+    "preparationMethod": "Stovetop / skillet / saucepan (see steps)",
+    "activePrepMinutes": 25,
+    "cookingMinutes": 35,
+    "freezer": "YES",
+    "preservation": "Freeze saloona and wild rice separately. Courgette/marrow will soften after thawing.",
+    "dietaryTag": "No pork included; verify stock, sauces and ingredient brands for household restrictions.",
+    "fileMacrosPerServing": {
+      "kcal": 1060,
+      "protein": 72.3,
+      "carbs": 104.7,
+      "fat": 39.1
+    },
+    "fileMacroSource": "ESTIMATED from raw ingredient reference averages",
+    "fileNotes": "Source is three large portions. Wild rice quantity is the source cooked amount; raw-equivalent dry amount fixed here at ~240 g (estimated for 4 cups cooked).",
+    "cookedYieldEstimates": [
+      "Chicken saloona, chicken plus vegetables and broth: approx 2900 g",
+      "Cooked wild rice: approx 650 g"
+    ],
+    "foodSafety": [
+      "Refrigerate in shallow containers promptly: within 2 hours of cooking, or within 1 hour if room temperature exceeds 32 C.",
+      "Store at 4 C or colder for no more than 3-4 days; freeze portions intended for later in the week.",
+      "Cook chicken and reheat leftovers thoroughly to 74 C. Ground pork must reach at least 71 C before serving; food-safe reheating still requires 74 C.",
+      "Rice must be rapidly cooled and chilled; never leave cooked rice standing for extended periods.",
+      "Freezer suitability describes practical use, not a guarantee of unchanged texture.",
+      "Creator-published macros may differ from the raw-input estimates because of product brands, cooking losses and serving definitions.",
+      "Nutrition values here are NOT lab-validated. Ingredient estimates use representative raw food averages, while source macros are from the credited creator.",
+      "If an adapted recipe differs from the original source, confirm both quantities and nutritional totals before public app release."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 1008,
+      "protein": 86,
+      "carbs": 107,
+      "fat": 27
+    },
+    "quantitiesFrom": "UNHANGRY White Meat Stovetop file — exact raw quantities as written."
+  }
+}

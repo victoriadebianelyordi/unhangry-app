@@ -177,7 +177,7 @@ function renderCard(recipe) {
 function flagIcons(recipe) {
   const flags = recipe.flags || {};
   let out = '';
-  if (flags.shelfLife) out += '⚠️';
+  if (flags.shelfLife || flags.dietaryWarning) out += '⚠️';
   if (flags.freezeFriendly) out += ' ❄️';
   return out;
 }
@@ -211,6 +211,7 @@ function formatQty(qty, unit) {
 function recipeFlagLines(recipe) {
   const flags = recipe.flags || {};
   return [
+    ...(flags.dietaryWarning ? [`⚠️ ${flags.dietaryWarning}`] : []),
     ...(flags.shelfLife ? [`⚠️ ${flags.shelfLife}`] : []),
     ...(flags.freezeFriendly ? ['❄️ Freeze-friendly'] : []),
   ];

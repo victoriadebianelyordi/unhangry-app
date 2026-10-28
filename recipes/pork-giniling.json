@@ -1,0 +1,227 @@
+{
+  "id": "pork-giniling",
+  "name": "Filipino Pork Giniling with Rice and Boiled Egg",
+  "protein": "white-meat",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 6,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 619,
+    "protein": 29,
+    "carbs": 54,
+    "fat": 32
+  },
+  "components": [
+    {
+      "id": "giniling",
+      "name": "Pork Giniling",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 6,
+      "cookedYieldG": 1230,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 402,
+        "protein": 21,
+        "carbs": 14,
+        "fat": 29
+      },
+      "ingredients": [
+        {
+          "name": "Ground pork",
+          "qty": 680,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Potatoes, diced",
+          "qty": 225,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Carrots, diced",
+          "qty": 125,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Plain tomato sauce",
+          "qty": 227,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Garlic, crushed",
+          "qty": 18,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Medium onion, minced",
+          "qty": 125,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "White sugar",
+          "qty": 4,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Pork bouillon cube",
+          "qty": 10,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Neutral oil",
+          "qty": 45,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Water",
+          "qty": 240,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Salt",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Black pepper",
+          "qty": 1,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "In a deep pan, sauté crushed garlic in oil until lightly golden; add diced onion and cook until soft.",
+        "Brown the ground pork for about five minutes, breaking it into crumbs.",
+        "Add pork bouillon, tomato sauce and 240 ml water; simmer 20 minutes to develop flavour.",
+        "Add potatoes and carrots; simmer another 10 to 12 minutes until tender. Season with sugar, measured salt and pepper."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Jasmine Rice",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 6,
+      "cookedYieldG": 840,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 172,
+        "protein": 4,
+        "carbs": 39,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Dry jasmine rice",
+          "qty": 300,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Water",
+          "qty": 490,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Cook rinsed jasmine rice separately using 490 ml water; rest and fluff."
+      ]
+    },
+    {
+      "id": "eggs",
+      "name": "Boiled Egg",
+      "scaling": "fixed",
+      "servings": 6,
+      "cookedYieldG": 185,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 45,
+        "protein": 4,
+        "carbs": 0,
+        "fat": 3
+      },
+      "ingredients": [
+        {
+          "name": "Eggs, without shell",
+          "qty": 200,
+          "unit": "g",
+          "component": "protein"
+        }
+      ],
+      "steps": [
+        "Place four eggs in simmering water and cook until hard-boiled, then chill and peel. For freezing portions, leave eggs out until serving.",
+        "Top servings with prepared egg if appropriate, and pack with rice. Freeze giniling without egg."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "CONTAINS PORK; NOT HALAL. Source 6 servings and four optional eggs. UNHANGRY adds rice and includes four eggs; macros divided by six. Egg amount can be scaled separately in Family Hub.",
+    "Storing & reheating: Freeze cooked pork tomato sauce without eggs; potatoes may soften. Add boiled eggs fresh or store chilled for earlier-week portions.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true,
+    "dietaryWarning": "Contains pork — not halal."
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://panlasangpinoy.com/ground-pork-giniling-recipe/",
+  "reference": {
+    "sourceCredit": "Vanjo Merano, Panlasang Pinoy",
+    "fileTitle": "Filipino Pork Giniling with Rice and Boiled Egg",
+    "fileRecipeNumber": 17,
+    "recipeStatus": "DRAFT FOR MIRNA TESTING; ingredient and macro QA pending.",
+    "proteinTag": "White meat",
+    "methodTag": "Stovetop",
+    "preparationMethod": "Stovetop / skillet / saucepan (see steps)",
+    "activePrepMinutes": 20,
+    "cookingMinutes": 50,
+    "freezer": "PARTIAL",
+    "preservation": "Freeze cooked pork tomato sauce without eggs; potatoes may soften. Add boiled eggs fresh or store chilled for earlier-week portions.",
+    "dietaryTag": "NON-HALAL / CONTAINS PORK",
+    "fileMacrosPerServing": {
+      "kcal": 619,
+      "protein": 29.1,
+      "carbs": 53.9,
+      "fat": 31.9
+    },
+    "fileMacroSource": "ESTIMATED from raw ingredient reference averages",
+    "fileNotes": "CONTAINS PORK; NOT HALAL. Source 6 servings and four optional eggs. UNHANGRY adds rice and includes four eggs; macros divided by six. Egg amount can be scaled separately in Family Hub.",
+    "cookedYieldEstimates": [
+      "Cooked pork giniling including vegetables: approx 1230 g",
+      "Cooked rice: approx 840 g",
+      "Hard-boiled eggs peeled: approx 185 g"
+    ],
+    "foodSafety": [
+      "Refrigerate in shallow containers promptly: within 2 hours of cooking, or within 1 hour if room temperature exceeds 32 C.",
+      "Store at 4 C or colder for no more than 3-4 days; freeze portions intended for later in the week.",
+      "Cook chicken and reheat leftovers thoroughly to 74 C. Ground pork must reach at least 71 C before serving; food-safe reheating still requires 74 C.",
+      "Rice must be rapidly cooled and chilled; never leave cooked rice standing for extended periods.",
+      "Freezer suitability describes practical use, not a guarantee of unchanged texture.",
+      "Creator-published macros may differ from the raw-input estimates because of product brands, cooking losses and serving definitions.",
+      "Nutrition values here are NOT lab-validated. Ingredient estimates use representative raw food averages, while source macros are from the credited creator.",
+      "If an adapted recipe differs from the original source, confirm both quantities and nutritional totals before public app release."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 656,
+      "protein": 29,
+      "carbs": 55,
+      "fat": 35
+    },
+    "quantitiesFrom": "UNHANGRY White Meat Stovetop file — exact raw quantities as written."
+  }
+}

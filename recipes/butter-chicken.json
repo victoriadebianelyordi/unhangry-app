@@ -1,0 +1,354 @@
+{
+  "id": "butter-chicken",
+  "name": "Butter Chicken with Basmati Rice",
+  "protein": "white-meat",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 730,
+    "protein": 34,
+    "carbs": 70,
+    "fat": 35
+  },
+  "components": [
+    {
+      "id": "chicken",
+      "name": "Butter Chicken",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 1260,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 483,
+        "protein": 30,
+        "carbs": 19,
+        "fat": 34
+      },
+      "ingredients": [
+        {
+          "name": "Boneless chicken thigh pieces",
+          "qty": 500,
+          "unit": "g",
+          "component": "protein",
+          "group": "Marinade"
+        },
+        {
+          "name": "Kashmiri chilli powder",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Marinade"
+        },
+        {
+          "name": "Salt",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Marinade"
+        },
+        {
+          "name": "Lemon juice",
+          "qty": 15,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Marinade"
+        },
+        {
+          "name": "Thick Greek yogurt",
+          "qty": 80,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Marinade"
+        },
+        {
+          "name": "Ginger garlic paste",
+          "qty": 12,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Marinade"
+        },
+        {
+          "name": "Turmeric",
+          "qty": 0.4,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Marinade"
+        },
+        {
+          "name": "Garam masala",
+          "qty": 2.5,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Marinade"
+        },
+        {
+          "name": "Cumin powder",
+          "qty": 1,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Marinade"
+        },
+        {
+          "name": "Coriander powder",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Marinade"
+        },
+        {
+          "name": "Dried fenugreek leaves",
+          "qty": 1,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Marinade"
+        },
+        {
+          "name": "Neutral oil",
+          "qty": 15,
+          "unit": "ml",
+          "component": "other",
+          "group": "Marinade"
+        },
+        {
+          "name": "Butter",
+          "qty": 35,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Butter sauce"
+        },
+        {
+          "name": "Cinnamon stick",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Butter sauce"
+        },
+        {
+          "name": "Cardamom pods",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Butter sauce"
+        },
+        {
+          "name": "Cloves",
+          "qty": 1,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Butter sauce"
+        },
+        {
+          "name": "Onion, sliced",
+          "qty": 130,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Butter sauce"
+        },
+        {
+          "name": "Fresh tomatoes",
+          "qty": 600,
+          "unit": "g",
+          "component": "other",
+          "group": "Butter sauce"
+        },
+        {
+          "name": "Ginger garlic paste",
+          "qty": 12,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Butter sauce"
+        },
+        {
+          "name": "Fresh green chilli",
+          "qty": 10,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Butter sauce"
+        },
+        {
+          "name": "Cashews",
+          "qty": 42,
+          "unit": "g",
+          "component": "other",
+          "group": "Butter sauce"
+        },
+        {
+          "name": "Water for blending",
+          "qty": 120,
+          "unit": "ml",
+          "component": "other",
+          "group": "Butter sauce"
+        },
+        {
+          "name": "Kashmiri chilli powder",
+          "qty": 4,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Butter sauce"
+        },
+        {
+          "name": "Garam masala",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Butter sauce"
+        },
+        {
+          "name": "Ground coriander",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Butter sauce"
+        },
+        {
+          "name": "Ground cumin",
+          "qty": 1,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Butter sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 4,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Butter sauce"
+        },
+        {
+          "name": "Sugar",
+          "qty": 4,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Butter sauce"
+        },
+        {
+          "name": "Dried fenugreek leaves",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Butter sauce"
+        },
+        {
+          "name": "Hot water for gravy",
+          "qty": 360,
+          "unit": "ml",
+          "component": "other",
+          "group": "Butter sauce"
+        },
+        {
+          "name": "Heavy cream",
+          "qty": 90,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Butter sauce"
+        },
+        {
+          "name": "Fresh coriander garnish",
+          "qty": 8,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Butter sauce"
+        }
+      ],
+      "steps": [
+        "Mix chicken with all marinade ingredients; refrigerate for at least 3 hours, ideally overnight.",
+        "Heat a large skillet; sear marinated chicken in batches until lightly charred and just cooked, then set aside.",
+        "Melt butter in a saucepan, toast whole spices, soften onions, add ginger-garlic, tomatoes, chilli, ground spices and cashews; simmer until tomatoes break down.",
+        "Cool the sauce briefly, remove whole spices, blend smooth with measured blending water; return to pan with hot water and heat to the correct sauce thickness.",
+        "Add chicken, cook until 74°C throughout; stir in fenugreek, sugar and cream on low heat without hard boiling."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Basmati Rice",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 730,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 247,
+        "protein": 4,
+        "carbs": 51,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Dry basmati rice",
+          "qty": 260,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Water",
+          "qty": 420,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Wash basmati and cook in measured water in a covered pot; rest 10 minutes before fluffing.",
+        "Pack rice separately from sauce and chicken; record exact edible chicken and sauce yield after first kitchen test."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Based on Swasthi’s butter chicken; UNHANGRY adds a measured basmati side. Marinade overnight if possible. Cashew version includes both cashews and cream as in source.",
+    "Storing & reheating: Freeze chicken sauce and rice separately; warm cream-based sauce gently, stirring, after thawing.",
+    "Freezer: with possible dairy separation",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.indianhealthyrecipes.com/butter-chicken/",
+  "reference": {
+    "sourceCredit": "Swasthi Shreekanth, Swasthi’s Recipes",
+    "fileTitle": "Butter Chicken with Basmati Rice",
+    "fileRecipeNumber": 6,
+    "recipeStatus": "DRAFT FOR MIRNA TESTING; ingredient and macro QA pending.",
+    "proteinTag": "White meat",
+    "methodTag": "Stovetop",
+    "preparationMethod": "Stovetop / skillet / saucepan (see steps)",
+    "activePrepMinutes": 30,
+    "cookingMinutes": 50,
+    "freezer": "YES, with possible dairy separation",
+    "preservation": "Freeze chicken sauce and rice separately; warm cream-based sauce gently, stirring, after thawing.",
+    "dietaryTag": "No pork included; verify stock, sauces and ingredient brands for household restrictions.",
+    "fileMacrosPerServing": {
+      "kcal": 730,
+      "protein": 33.9,
+      "carbs": 70.2,
+      "fat": 34.8
+    },
+    "fileMacroSource": "ESTIMATED from raw ingredient reference averages",
+    "fileNotes": "Based on Swasthi’s butter chicken; UNHANGRY adds a measured basmati side. Marinade overnight if possible. Cashew version includes both cashews and cream as in source.",
+    "cookedYieldEstimates": [
+      "Cooked butter chicken including sauce: approx 1260 g",
+      "Cooked basmati rice: approx 730 g"
+    ],
+    "foodSafety": [
+      "Refrigerate in shallow containers promptly: within 2 hours of cooking, or within 1 hour if room temperature exceeds 32 C.",
+      "Store at 4 C or colder for no more than 3-4 days; freeze portions intended for later in the week.",
+      "Cook chicken and reheat leftovers thoroughly to 74 C. Ground pork must reach at least 71 C before serving; food-safe reheating still requires 74 C.",
+      "Rice must be rapidly cooled and chilled; never leave cooked rice standing for extended periods.",
+      "Freezer suitability describes practical use, not a guarantee of unchanged texture.",
+      "Creator-published macros may differ from the raw-input estimates because of product brands, cooking losses and serving definitions.",
+      "Nutrition values here are NOT lab-validated. Ingredient estimates use representative raw food averages, while source macros are from the credited creator.",
+      "If an adapted recipe differs from the original source, confirm both quantities and nutritional totals before public app release."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 702,
+      "protein": 36,
+      "carbs": 71,
+      "fat": 30
+    },
+    "quantitiesFrom": "UNHANGRY White Meat Stovetop file — exact raw quantities as written."
+  }
+}

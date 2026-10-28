@@ -1,0 +1,202 @@
+{
+  "id": "chicken-tinola",
+  "name": "Filipino Chicken Tinola with Rice",
+  "protein": "white-meat",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 5,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 511,
+    "protein": 27,
+    "carbs": 55,
+    "fat": 21
+  },
+  "components": [
+    {
+      "id": "tinola",
+      "name": "Chicken Tinola",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 5,
+      "cookedYieldG": 2360,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 355,
+        "protein": 24,
+        "carbs": 15,
+        "fat": 20
+      },
+      "ingredients": [
+        {
+          "name": "Bone-in chicken pieces",
+          "qty": 907,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Malunggay / moringa leaves",
+          "qty": 35,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Fresh hot pepper leaves or spinach",
+          "qty": 35,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Black pepper",
+          "qty": 0.5,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Green unripe papaya",
+          "qty": 450,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Water",
+          "qty": 1440,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Chicken bouillon cube",
+          "qty": 10,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Onion, sliced",
+          "qty": 120,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Garlic, crushed",
+          "qty": 12,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Fresh ginger, julienned",
+          "qty": 45,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Fish sauce",
+          "qty": 30,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Vegetable oil",
+          "qty": 45,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Sauté onion, garlic and ginger in oil for 3 minutes without burning.",
+        "Add chicken pieces and brown gently for about 5 minutes. Season with black pepper.",
+        "Add 1.44 litres water, bring to a simmer, skim surface, and cook gently around 35 to 40 minutes until chicken is cooked through.",
+        "Add bouillon and chopped green papaya; cook until papaya is almost tender, about 5 to 10 minutes.",
+        "Add fish sauce and leafy greens; simmer very briefly until wilted. Chicken must reach 74°C.",
+        "Divide rice, soup broth, vegetables and edible meat consistently across five containers; do not leave cooked rice at room temperature."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Jasmine Rice",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 5,
+      "cookedYieldG": 690,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 156,
+        "protein": 3,
+        "carbs": 40,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Dry jasmine rice",
+          "qty": 250,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Water",
+          "qty": 405,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Cook jasmine rice in a separate saucepan with 405 ml water; keep covered and rest when finished."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Panlasang Pinoy tinola source is for five servings. UNHANGRY adds dry rice as a complete-meal accompaniment. Bone-in raw chicken yield is variable.",
+    "Storing & reheating: Freeze soup without fresh leaves for better texture; stir fresh spinach or malunggay into reheated soup.",
+    "Freezer: with soft greens",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://panlasangpinoy.com/classic-tinolang-manok-recipe/",
+  "reference": {
+    "sourceCredit": "Vanjo Merano, Panlasang Pinoy",
+    "fileTitle": "Filipino Chicken Tinola with Rice",
+    "fileRecipeNumber": 9,
+    "recipeStatus": "DRAFT FOR MIRNA TESTING; ingredient and macro QA pending.",
+    "proteinTag": "White meat",
+    "methodTag": "Stovetop",
+    "preparationMethod": "Stovetop / skillet / saucepan (see steps)",
+    "activePrepMinutes": 15,
+    "cookingMinutes": 65,
+    "freezer": "YES, with soft greens",
+    "preservation": "Freeze soup without fresh leaves for better texture; stir fresh spinach or malunggay into reheated soup.",
+    "dietaryTag": "No pork included; verify stock, sauces and ingredient brands for household restrictions.",
+    "fileMacrosPerServing": {
+      "kcal": 511,
+      "protein": 26.9,
+      "carbs": 54.5,
+      "fat": 20.6
+    },
+    "fileMacroSource": "ESTIMATED from raw ingredient reference averages",
+    "fileNotes": "Panlasang Pinoy tinola source is for five servings. UNHANGRY adds dry rice as a complete-meal accompaniment. Bone-in raw chicken yield is variable.",
+    "cookedYieldEstimates": [
+      "Cooked chicken tinola including broth: approx 2360 g",
+      "Cooked rice: approx 690 g"
+    ],
+    "foodSafety": [
+      "Refrigerate in shallow containers promptly: within 2 hours of cooking, or within 1 hour if room temperature exceeds 32 C.",
+      "Store at 4 C or colder for no more than 3-4 days; freeze portions intended for later in the week.",
+      "Cook chicken and reheat leftovers thoroughly to 74 C. Ground pork must reach at least 71 C before serving; food-safe reheating still requires 74 C.",
+      "Rice must be rapidly cooled and chilled; never leave cooked rice standing for extended periods.",
+      "Freezer suitability describes practical use, not a guarantee of unchanged texture.",
+      "Creator-published macros may differ from the raw-input estimates because of product brands, cooking losses and serving definitions.",
+      "Nutrition values here are NOT lab-validated. Ingredient estimates use representative raw food averages, while source macros are from the credited creator.",
+      "If an adapted recipe differs from the original source, confirm both quantities and nutritional totals before public app release."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 597,
+      "protein": 31,
+      "carbs": 55,
+      "fat": 28
+    },
+    "quantitiesFrom": "UNHANGRY White Meat Stovetop file — exact raw quantities as written."
+  }
+}

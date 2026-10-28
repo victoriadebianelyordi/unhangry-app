@@ -1,0 +1,248 @@
+{
+  "id": "honey-chicken-broccoli",
+  "name": "Honey Chicken with Broccoli and Rice",
+  "protein": "white-meat",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 5,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 631,
+    "protein": 51,
+    "carbs": 64,
+    "fat": 13
+  },
+  "components": [
+    {
+      "id": "chicken",
+      "name": "Honey Chicken",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 5,
+      "cookedYieldG": 850,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 321,
+        "protein": 42,
+        "carbs": 12,
+        "fat": 10
+      },
+      "ingredients": [
+        {
+          "name": "Peanut oil",
+          "qty": 15,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Boneless skinless chicken thighs",
+          "qty": 1000,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Onion powder",
+          "qty": 4,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Garlic, minced",
+          "qty": 12,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Salt",
+          "qty": 4,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Black pepper",
+          "qty": 1,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Honey",
+          "qty": 70,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Honey sauce"
+        },
+        {
+          "name": "Sriracha",
+          "qty": 50,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Honey sauce"
+        },
+        {
+          "name": "Apple cider vinegar",
+          "qty": 30,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Honey sauce"
+        },
+        {
+          "name": "Sesame oil",
+          "qty": 7.5,
+          "unit": "ml",
+          "component": "other",
+          "group": "Honey sauce"
+        }
+      ],
+      "steps": [
+        "Mix chicken with onion powder, garlic, salt and pepper; separately whisk honey, sriracha, vinegar and 7.5 ml sesame oil.",
+        "Sear chicken in 15 ml peanut oil in a wide pan until golden and fully cooked to at least 74°C.",
+        "Add honey sauce and simmer briefly until reduced to a sticky coating."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Basmati Rice",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 5,
+      "cookedYieldG": 950,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 242,
+        "protein": 5,
+        "carbs": 46,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Dry basmati rice",
+          "qty": 350,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Water",
+          "qty": 700,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Salt",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Cook rinsed dry rice in measured water in a covered saucepan until fluffy.",
+        "For later-week food, freeze rice and chicken portions promptly and avoid prolonged heat on reheated broccoli."
+      ]
+    },
+    {
+      "id": "broccoli",
+      "name": "Broccoli & Garnish",
+      "scaling": "fixed",
+      "servings": 5,
+      "cookedYieldG": 410,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 68,
+        "protein": 4,
+        "carbs": 6,
+        "fat": 3
+      },
+      "ingredients": [
+        {
+          "name": "Peanut oil",
+          "qty": 7.5,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Raw broccoli florets",
+          "qty": 500,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Sesame oil",
+          "qty": 5,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Spring onion, sliced",
+          "qty": 15,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Black and white sesame seeds",
+          "qty": 14,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "In another pan, stir-fry broccoli in 7.5 ml peanut oil for 3 to 4 minutes, finishing with 5 ml sesame oil.",
+        "Portion rice, chicken and broccoli into five containers; add spring onion and sesame seeds."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Source website rice version (not earlier couscous video variation). Source ingredient lists 2 broccoli heads, fixed here as 500g trim-ready raw florets.",
+    "Storing & reheating: Creator says up to 4 days refrigerated / 3 months frozen; store broccoli separate if possible to keep texture.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://chefjackovens.com/honey-chicken-meal-prep/",
+  "reference": {
+    "sourceCredit": "Chef Jack Ovens",
+    "fileTitle": "Chef Jack Honey Chicken with Broccoli and Rice",
+    "fileRecipeNumber": 15,
+    "recipeStatus": "DRAFT FOR MIRNA TESTING; ingredient and macro QA pending.",
+    "proteinTag": "White meat",
+    "methodTag": "Stovetop",
+    "preparationMethod": "Stovetop / skillet / saucepan (see steps)",
+    "activePrepMinutes": 20,
+    "cookingMinutes": 30,
+    "freezer": "YES",
+    "preservation": "Creator says up to 4 days refrigerated / 3 months frozen; store broccoli separate if possible to keep texture.",
+    "dietaryTag": "No pork included; verify stock, sauces and ingredient brands for household restrictions.",
+    "fileMacrosPerServing": {
+      "kcal": 631,
+      "protein": 50.8,
+      "carbs": 64.3,
+      "fat": 13.4
+    },
+    "fileMacroSource": "SOURCE-PUBLISHED",
+    "fileNotes": "Source website rice version (not earlier couscous video variation). Source ingredient lists 2 broccoli heads, fixed here as 500g trim-ready raw florets.",
+    "cookedYieldEstimates": [
+      "Cooked chicken with honey glaze: approx 850 g",
+      "Cooked basmati rice: approx 950 g",
+      "Cooked broccoli: approx 410 g"
+    ],
+    "foodSafety": [
+      "Refrigerate in shallow containers promptly: within 2 hours of cooking, or within 1 hour if room temperature exceeds 32 C.",
+      "Store at 4 C or colder for no more than 3-4 days; freeze portions intended for later in the week.",
+      "Cook chicken and reheat leftovers thoroughly to 74 C. Ground pork must reach at least 71 C before serving; food-safe reheating still requires 74 C.",
+      "Rice must be rapidly cooled and chilled; never leave cooked rice standing for extended periods.",
+      "Freezer suitability describes practical use, not a guarantee of unchanged texture.",
+      "Creator-published macros may differ from the raw-input estimates because of product brands, cooking losses and serving definitions.",
+      "Nutrition values here are NOT lab-validated. Ingredient estimates use representative raw food averages, while source macros are from the credited creator.",
+      "If an adapted recipe differs from the original source, confirm both quantities and nutritional totals before public app release."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 665,
+      "protein": 48,
+      "carbs": 78,
+      "fat": 17
+    },
+    "quantitiesFrom": "UNHANGRY White Meat Stovetop file — exact raw quantities as written."
+  }
+}

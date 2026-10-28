@@ -1,0 +1,238 @@
+{
+  "id": "chicken-biryani",
+  "name": "One-Pot Chicken Biryani",
+  "protein": "white-meat",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 582,
+    "protein": 30,
+    "carbs": 68,
+    "fat": 22
+  },
+  "components": [
+    {
+      "id": "biryani",
+      "name": "Chicken Biryani",
+      "scaling": "ratio",
+      "role": "whole",
+      "servings": 4,
+      "cookedYieldG": 1275,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 582,
+        "protein": 30,
+        "carbs": 68,
+        "fat": 22
+      },
+      "ingredients": [
+        {
+          "name": "Chicken thigh, boneless",
+          "qty": 500,
+          "unit": "g",
+          "component": "protein",
+          "group": "Marinade"
+        },
+        {
+          "name": "Plain yogurt",
+          "qty": 45,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Marinade"
+        },
+        {
+          "name": "Ginger garlic paste",
+          "qty": 18,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Marinade"
+        },
+        {
+          "name": "Salt",
+          "qty": 4,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Marinade"
+        },
+        {
+          "name": "Ground turmeric",
+          "qty": 0.6,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Marinade"
+        },
+        {
+          "name": "Kashmiri chilli powder",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Marinade"
+        },
+        {
+          "name": "Garam masala or biryani masala",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Marinade"
+        },
+        {
+          "name": "Lemon juice",
+          "qty": 15,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Marinade"
+        },
+        {
+          "name": "Dry basmati rice",
+          "qty": 300,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Water",
+          "qty": 480,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Neutral oil",
+          "qty": 25,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Ghee",
+          "qty": 15,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Onion, thinly sliced",
+          "qty": 180,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Tomatoes, chopped",
+          "qty": 150,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Mint leaves",
+          "qty": 12,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Coriander leaves",
+          "qty": 12,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Green chillies",
+          "qty": 12,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Whole cloves",
+          "qty": 0.5,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Green cardamom",
+          "qty": 1,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Cinnamon stick",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Bay leaves",
+          "qty": 0.5,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 4,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Rinse basmati thoroughly and soak for 20 minutes; drain just before cooking.",
+        "Coat chicken with all marinade ingredients. Refrigerate for at least 30 to 60 minutes.",
+        "Heat oil and ghee in a wide heavy pot; toast whole spices, then cook sliced onions until golden.",
+        "Add chilies and tomatoes; reduce the tomatoes briefly. Add marinated chicken, stir and cook until the outside loses its pink colour.",
+        "Stir in mint and coriander. Add soaked rice and measured water, taste the liquid and adjust only within salt allowance.",
+        "Bring to a boil, cover tightly and cook on the lowest heat until rice is done and chicken reaches 74°C. Rest 10 minutes off heat before fluffing.",
+        "Divide promptly into shallow containers, cool fast and refrigerate/freeze."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "A stovetop one-pot chicken biryani recipe; oven-baked Hadrian-reviewed biryani is a separate shortlisted recipe. Choose bone-in/boneless at recipe creation because nutrition differs.",
+    "Storing & reheating: Freeze rice and chicken rapidly after cooking in shallow portions.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.indianhealthyrecipes.com/chicken-biryani-recipe/",
+  "reference": {
+    "sourceCredit": "Swasthi Shreekanth, Swasthi’s Recipes",
+    "fileTitle": "One-Pot Chicken Biryani with Rice",
+    "fileRecipeNumber": 7,
+    "recipeStatus": "DRAFT FOR MIRNA TESTING; ingredient and macro QA pending.",
+    "proteinTag": "White meat",
+    "methodTag": "Stovetop",
+    "preparationMethod": "Stovetop / skillet / saucepan (see steps)",
+    "activePrepMinutes": 25,
+    "cookingMinutes": 40,
+    "freezer": "YES",
+    "preservation": "Freeze rice and chicken rapidly after cooking in shallow portions.",
+    "dietaryTag": "No pork included; verify stock, sauces and ingredient brands for household restrictions.",
+    "fileMacrosPerServing": {
+      "kcal": 582,
+      "protein": 29.6,
+      "carbs": 67.5,
+      "fat": 21.5
+    },
+    "fileMacroSource": "ESTIMATED from raw ingredient reference averages",
+    "fileNotes": "A stovetop one-pot chicken biryani recipe; oven-baked Hadrian-reviewed biryani is a separate shortlisted recipe. Choose bone-in/boneless at recipe creation because nutrition differs.",
+    "cookedYieldEstimates": [
+      "Cooked biryani rice including aromatics: approx 890 g",
+      "Cooked chicken edible portion: approx 385 g"
+    ],
+    "foodSafety": [
+      "Refrigerate in shallow containers promptly: within 2 hours of cooking, or within 1 hour if room temperature exceeds 32 C.",
+      "Store at 4 C or colder for no more than 3-4 days; freeze portions intended for later in the week.",
+      "Cook chicken and reheat leftovers thoroughly to 74 C. Ground pork must reach at least 71 C before serving; food-safe reheating still requires 74 C.",
+      "Rice must be rapidly cooled and chilled; never leave cooked rice standing for extended periods.",
+      "Freezer suitability describes practical use, not a guarantee of unchanged texture.",
+      "Creator-published macros may differ from the raw-input estimates because of product brands, cooking losses and serving definitions.",
+      "Nutrition values here are NOT lab-validated. Ingredient estimates use representative raw food averages, while source macros are from the credited creator.",
+      "If an adapted recipe differs from the original source, confirm both quantities and nutritional totals before public app release."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 555,
+      "protein": 32,
+      "carbs": 69,
+      "fat": 16
+    },
+    "quantitiesFrom": "UNHANGRY White Meat Stovetop file — exact raw quantities as written."
+  }
+}

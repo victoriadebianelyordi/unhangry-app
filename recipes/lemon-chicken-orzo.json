@@ -1,0 +1,252 @@
+{
+  "id": "lemon-chicken-orzo",
+  "name": "Lemon Chicken Orzo with Spinach and Peas",
+  "protein": "white-meat",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 5,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 780,
+    "protein": 65,
+    "carbs": 79,
+    "fat": 20
+  },
+  "components": [
+    {
+      "id": "chicken",
+      "name": "Chicken",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 5,
+      "cookedYieldG": 760,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 293,
+        "protein": 44,
+        "carbs": 2,
+        "fat": 10
+      },
+      "ingredients": [
+        {
+          "name": "Boneless chicken thigh pieces",
+          "qty": 1000,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 22,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Smoked paprika",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Garlic powder",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Onion powder",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Dried oregano",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Black pepper",
+          "qty": 1,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Mix diced chicken with olive oil and spices; brown in a deep pan until fully cooked, then reserve."
+      ]
+    },
+    {
+      "id": "orzo",
+      "name": "Lemon Orzo with Greens",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 5,
+      "cookedYieldG": 1820,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 487,
+        "protein": 21,
+        "carbs": 77,
+        "fat": 10
+      },
+      "ingredients": [
+        {
+          "name": "Olive oil",
+          "qty": 15,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Brown onion, diced",
+          "qty": 150,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Garlic, minced",
+          "qty": 15,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Dry orzo",
+          "qty": 400,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Chicken stock",
+          "qty": 800,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Whole milk",
+          "qty": 300,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Heavy cream",
+          "qty": 60,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Lemon zest",
+          "qty": 3,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Lemon juice",
+          "qty": 30,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Parmesan cheese",
+          "qty": 40,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 4,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Black pepper",
+          "qty": 1,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Baby spinach",
+          "qty": 120,
+          "unit": "g",
+          "component": "other",
+          "group": "Greens"
+        },
+        {
+          "name": "Frozen peas",
+          "qty": 120,
+          "unit": "g",
+          "component": "other",
+          "group": "Greens"
+        }
+      ],
+      "steps": [
+        "Soften onion in the second measured quantity of olive oil; add garlic for about 30 seconds.",
+        "Add dry orzo and stir one minute, then pour in 800 ml stock. Simmer, stirring regularly, for around 8 to 10 minutes until orzo is almost tender.",
+        "Lower heat and stir in 300 ml milk and 60 ml cream, warming gently without boiling hard.",
+        "Mix in lemon zest, juice, grated parmesan, spinach and frozen peas; stir until vegetables are heated through.",
+        "Fold in cooked chicken and any resting juices; distribute evenly into five containers.",
+        "When reheating, add a little measured water or milk to loosen thickened orzo, and heat thoroughly."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Source 5 servings. Nutrition is creator-published and is for completed dish. Extra lemon zest measured here as 3g fixed app quantity.",
+    "Storing & reheating: Source says up to 4 days fridge and 3 months freezer; orzo will thicken, loosen with a measured splash of water or milk when reheating.",
+    "Freezer: creator-approved",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://chefjackovens.com/high-protein-lemon-chicken-orzo/",
+  "reference": {
+    "sourceCredit": "Chef Jack Ovens",
+    "fileTitle": "Chef Jack Lemon Chicken Orzo with Spinach and Peas",
+    "fileRecipeNumber": 13,
+    "recipeStatus": "DRAFT FOR MIRNA TESTING; ingredient and macro QA pending.",
+    "proteinTag": "White meat",
+    "methodTag": "Stovetop",
+    "preparationMethod": "Stovetop / skillet / saucepan (see steps)",
+    "activePrepMinutes": 20,
+    "cookingMinutes": 35,
+    "freezer": "YES, creator-approved",
+    "preservation": "Source says up to 4 days fridge and 3 months freezer; orzo will thicken, loosen with a measured splash of water or milk when reheating.",
+    "dietaryTag": "No pork included; verify stock, sauces and ingredient brands for household restrictions.",
+    "fileMacrosPerServing": {
+      "kcal": 780,
+      "protein": 65,
+      "carbs": 79.2,
+      "fat": 20
+    },
+    "fileMacroSource": "SOURCE-PUBLISHED",
+    "fileNotes": "Source 5 servings. Nutrition is creator-published and is for completed dish. Extra lemon zest measured here as 3g fixed app quantity.",
+    "cookedYieldEstimates": [
+      "Cooked chicken: approx 760 g",
+      "Cooked orzo, sauce and vegetables: approx 1820 g"
+    ],
+    "foodSafety": [
+      "Refrigerate in shallow containers promptly: within 2 hours of cooking, or within 1 hour if room temperature exceeds 32 C.",
+      "Store at 4 C or colder for no more than 3-4 days; freeze portions intended for later in the week.",
+      "Cook chicken and reheat leftovers thoroughly to 74 C. Ground pork must reach at least 71 C before serving; food-safe reheating still requires 74 C.",
+      "Rice must be rapidly cooled and chilled; never leave cooked rice standing for extended periods.",
+      "Freezer suitability describes practical use, not a guarantee of unchanged texture.",
+      "Creator-published macros may differ from the raw-input estimates because of product brands, cooking losses and serving definitions.",
+      "Nutrition values here are NOT lab-validated. Ingredient estimates use representative raw food averages, while source macros are from the credited creator.",
+      "If an adapted recipe differs from the original source, confirm both quantities and nutritional totals before public app release."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 778,
+      "protein": 59,
+      "carbs": 75,
+      "fat": 26
+    },
+    "quantitiesFrom": "UNHANGRY White Meat Stovetop file — exact raw quantities as written."
+  }
+}

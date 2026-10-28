@@ -1,0 +1,298 @@
+{
+  "id": "thai-red-chicken-meatballs",
+  "name": "Thai Red Chicken Meatballs with Rice",
+  "protein": "white-meat",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 5,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 627,
+    "protein": 35,
+    "carbs": 62,
+    "fat": 26
+  },
+  "components": [
+    {
+      "id": "meatballs",
+      "name": "Chicken Meatballs",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 5,
+      "cookedYieldG": 660,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 215,
+        "protein": 26,
+        "carbs": 4,
+        "fat": 10
+      },
+      "ingredients": [
+        {
+          "name": "Ground chicken",
+          "qty": 700,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Grated zucchini, squeezed dry",
+          "qty": 190,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Red chilli, chopped",
+          "qty": 20,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Ginger, grated",
+          "qty": 20,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Garlic, grated",
+          "qty": 9,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Fresh coriander",
+          "qty": 10,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Spring onion, sliced",
+          "qty": 45,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Egg, without shell",
+          "qty": 60,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Soy sauce",
+          "qty": 40,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Black pepper",
+          "qty": 1,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Squeeze moisture from grated zucchini, then mix with chicken mince, chilli, ginger, garlic, coriander, spring onion, egg, soy sauce and measured seasonings.",
+        "Roll into even meatballs and brown in a skillet with 15 ml oil in batches; they will finish cooking in the sauce."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Jasmine Rice",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 5,
+      "cookedYieldG": 830,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 196,
+        "protein": 4,
+        "carbs": 47,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Dry jasmine rice",
+          "qty": 300,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Water",
+          "qty": 550,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Salt",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Cook washed jasmine rice in 550 ml water, covered on low heat, then rest and fluff."
+      ]
+    },
+    {
+      "id": "curry",
+      "name": "Red Curry Sauce & Vegetables",
+      "scaling": "fixed",
+      "servings": 5,
+      "cookedYieldG": 1050,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 215,
+        "protein": 5,
+        "carbs": 12,
+        "fat": 16
+      },
+      "ingredients": [
+        {
+          "name": "Thai red curry paste",
+          "qty": 45,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Coconut milk",
+          "qty": 400,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Spring onions",
+          "qty": 45,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Fresh ginger",
+          "qty": 20,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Garlic",
+          "qty": 9,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Red bell pepper",
+          "qty": 190,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Chicken stock",
+          "qty": 250,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Fish sauce",
+          "qty": 22,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Soy sauce",
+          "qty": 22,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Broccolini",
+          "qty": 250,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Fresh lime juice",
+          "qty": 30,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Coriander garnish",
+          "qty": 10,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Neutral oil for browning",
+          "qty": 15,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Bloom Thai red curry paste in the same pan; add spring onions, ginger and garlic and stir until fragrant.",
+        "Pour in coconut milk, stock, fish sauce, soy sauce and sliced red pepper; simmer five minutes.",
+        "Return meatballs to sauce for around six minutes; add broccolini for final four minutes, cooking until chicken meatballs reach 74°C.",
+        "Finish with lime and coriander. Divide rice, curry and meatballs evenly into five containers; freeze later-week portions."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Source includes zucchini in meatballs; ensure allergies/household preference filters do not incorrectly exclude all zucchini users. Egg is an ingredient, not counted separately as protein tag.",
+    "Storing & reheating: Source says 4 days refrigerated or 3 months frozen; meatballs with coconut curry freeze well, but broccolini softens.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://chefjackovens.com/thai-red-chicken-meatballs-meal-prep/",
+  "reference": {
+    "sourceCredit": "Chef Jack Ovens",
+    "fileTitle": "Chef Jack Thai Red Chicken Meatballs with Rice",
+    "fileRecipeNumber": 18,
+    "recipeStatus": "DRAFT FOR MIRNA TESTING; ingredient and macro QA pending.",
+    "proteinTag": "White meat",
+    "methodTag": "Stovetop",
+    "preparationMethod": "Stovetop / skillet / saucepan (see steps)",
+    "activePrepMinutes": 30,
+    "cookingMinutes": 40,
+    "freezer": "YES",
+    "preservation": "Source says 4 days refrigerated or 3 months frozen; meatballs with coconut curry freeze well, but broccolini softens.",
+    "dietaryTag": "No pork included; verify stock, sauces and ingredient brands for household restrictions.",
+    "fileMacrosPerServing": {
+      "kcal": 627,
+      "protein": 35,
+      "carbs": 62.3,
+      "fat": 26.2
+    },
+    "fileMacroSource": "SOURCE-PUBLISHED",
+    "fileNotes": "Source includes zucchini in meatballs; ensure allergies/household preference filters do not incorrectly exclude all zucchini users. Egg is an ingredient, not counted separately as protein tag.",
+    "cookedYieldEstimates": [
+      "Cooked chicken meatballs: approx 660 g",
+      "Cooked coconut sauce and vegetables: approx 1050 g",
+      "Cooked jasmine rice: approx 830 g"
+    ],
+    "foodSafety": [
+      "Refrigerate in shallow containers promptly: within 2 hours of cooking, or within 1 hour if room temperature exceeds 32 C.",
+      "Store at 4 C or colder for no more than 3-4 days; freeze portions intended for later in the week.",
+      "Cook chicken and reheat leftovers thoroughly to 74 C. Ground pork must reach at least 71 C before serving; food-safe reheating still requires 74 C.",
+      "Rice must be rapidly cooled and chilled; never leave cooked rice standing for extended periods.",
+      "Freezer suitability describes practical use, not a guarantee of unchanged texture.",
+      "Creator-published macros may differ from the raw-input estimates because of product brands, cooking losses and serving definitions.",
+      "Nutrition values here are NOT lab-validated. Ingredient estimates use representative raw food averages, while source macros are from the credited creator.",
+      "If an adapted recipe differs from the original source, confirm both quantities and nutritional totals before public app release."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 699,
+      "protein": 37,
+      "carbs": 64,
+      "fat": 34
+    },
+    "quantitiesFrom": "UNHANGRY White Meat Stovetop file — exact raw quantities as written."
+  }
+}

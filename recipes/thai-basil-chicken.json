@@ -1,0 +1,249 @@
+{
+  "id": "thai-basil-chicken",
+  "name": "Thai Basil Chicken with Jasmine Rice and Egg",
+  "protein": "white-meat",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 3,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 576,
+    "protein": 32,
+    "carbs": 57,
+    "fat": 25
+  },
+  "components": [
+    {
+      "id": "chicken",
+      "name": "Basil Chicken Stir-Fry",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 3,
+      "cookedYieldG": 600,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 252,
+        "protein": 21,
+        "carbs": 10,
+        "fat": 16
+      },
+      "ingredients": [
+        {
+          "name": "Thai bird chillies",
+          "qty": 15,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Garlic, minced",
+          "qty": 15,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Mild red chilli or pepper",
+          "qty": 35,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Long beans, sliced",
+          "qty": 60,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Onion, diced",
+          "qty": 55,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Ground chicken",
+          "qty": 300,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Oyster sauce",
+          "qty": 15,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Light soy sauce",
+          "qty": 15,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Fish sauce",
+          "qty": 10,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Dark soy sauce",
+          "qty": 8,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Water",
+          "qty": 30,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "White sugar",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Thai holy basil",
+          "qty": 25,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Neutral oil",
+          "qty": 20,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Whisk oyster sauce, light and dark soy sauces, fish sauce, sugar and measured water.",
+        "Chop chillies, garlic, long beans, pepper and onion, keeping basil leaves separate.",
+        "Stir-fry garlic and chillies briefly in the 20 ml oil; add chicken and brown thoroughly, breaking up the mince.",
+        "Add onion, beans and red pepper; continue cooking until tender-crisp. Add prepared sauce, bubbling until lightly glazed.",
+        "Turn heat off and fold in basil so it wilts without losing aroma. Cook ground chicken fully to 74°C."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Jasmine Rice",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 3,
+      "cookedYieldG": 490,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 224,
+        "protein": 4,
+        "carbs": 47,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Dry jasmine rice",
+          "qty": 180,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Water",
+          "qty": 295,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Rinse rice and cook with 295 ml water in a covered saucepan; rest after cooking."
+      ]
+    },
+    {
+      "id": "egg",
+      "name": "Egg",
+      "scaling": "units",
+      "units": {
+        "label": "egg",
+        "count": 3,
+        "step": 1,
+        "perServing": 1,
+        "sizeBy": "fixed"
+      },
+      "servings": 3,
+      "macrosPerServing": {
+        "kcal": 101,
+        "protein": 7,
+        "carbs": 0,
+        "fat": 8
+      },
+      "ingredients": [
+        {
+          "name": "Whole eggs, without shell",
+          "qty": 150,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Neutral oil",
+          "qty": 10,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "For earlier-week servings, fry eggs in the reserved 10 ml oil until whites and yolks are cooked to your household standard; for freezer portions omit egg and add it after reheating."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Source serves 2–3, fixed at 3. Source suggests rice and egg; measured ingredients here include both. Holy basil is freshest when added at the end.",
+    "Storing & reheating: Freeze basil chicken and rice separately; make fried egg fresh or use a fully cooked egg only for earlier-week meals.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://hot-thai-kitchen.com/holy-basil-stir-fry/",
+  "reference": {
+    "sourceCredit": "Pailin Chongchitnant, Hot Thai Kitchen",
+    "fileTitle": "Thai Basil Chicken with Jasmine Rice and Egg",
+    "fileRecipeNumber": 11,
+    "recipeStatus": "DRAFT FOR MIRNA TESTING; ingredient and macro QA pending.",
+    "proteinTag": "White meat",
+    "methodTag": "Stovetop",
+    "preparationMethod": "Stovetop / skillet / saucepan (see steps)",
+    "activePrepMinutes": 20,
+    "cookingMinutes": 15,
+    "freezer": "PARTIAL",
+    "preservation": "Freeze basil chicken and rice separately; make fried egg fresh or use a fully cooked egg only for earlier-week meals.",
+    "dietaryTag": "No pork included; verify stock, sauces and ingredient brands for household restrictions.",
+    "fileMacrosPerServing": {
+      "kcal": 576,
+      "protein": 31.8,
+      "carbs": 56.8,
+      "fat": 24.6
+    },
+    "fileMacroSource": "ESTIMATED from raw ingredient reference averages",
+    "fileNotes": "Source serves 2–3, fixed at 3. Source suggests rice and egg; measured ingredients here include both. Holy basil is freshest when added at the end.",
+    "cookedYieldEstimates": [
+      "Cooked chicken basil stir fry: approx 600 g",
+      "Cooked jasmine rice: approx 490 g",
+      "Cooked fried eggs: approx 132 g"
+    ],
+    "foodSafety": [
+      "Refrigerate in shallow containers promptly: within 2 hours of cooking, or within 1 hour if room temperature exceeds 32 C.",
+      "Store at 4 C or colder for no more than 3-4 days; freeze portions intended for later in the week.",
+      "Cook chicken and reheat leftovers thoroughly to 74 C. Ground pork must reach at least 71 C before serving; food-safe reheating still requires 74 C.",
+      "Rice must be rapidly cooled and chilled; never leave cooked rice standing for extended periods.",
+      "Freezer suitability describes practical use, not a guarantee of unchanged texture.",
+      "Creator-published macros may differ from the raw-input estimates because of product brands, cooking losses and serving definitions.",
+      "Nutrition values here are NOT lab-validated. Ingredient estimates use representative raw food averages, while source macros are from the credited creator.",
+      "If an adapted recipe differs from the original source, confirm both quantities and nutritional totals before public app release."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 564,
+      "protein": 31,
+      "carbs": 58,
+      "fat": 23
+    },
+    "quantitiesFrom": "UNHANGRY White Meat Stovetop file — exact raw quantities as written."
+  }
+}

@@ -1,0 +1,251 @@
+{
+  "id": "lemon-herb-chicken-mash",
+  "name": "Creamy Lemon Herb Chicken with Mash and Greens",
+  "protein": "white-meat",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 745,
+    "protein": 51,
+    "carbs": 48,
+    "fat": 39
+  },
+  "components": [
+    {
+      "id": "chicken",
+      "name": "Creamy Lemon Chicken",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 1150,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 526,
+        "protein": 43,
+        "carbs": 11,
+        "fat": 34
+      },
+      "ingredients": [
+        {
+          "name": "Skinless chicken breasts",
+          "qty": 600,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Fine salt",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Ground black pepper",
+          "qty": 1,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Plain flour",
+          "qty": 30,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Unsalted butter",
+          "qty": 40,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Garlic, minced",
+          "qty": 6,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Lemon cream sauce"
+        },
+        {
+          "name": "Chicken stock",
+          "qty": 300,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Lemon cream sauce"
+        },
+        {
+          "name": "Heavy cream",
+          "qty": 180,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Lemon cream sauce"
+        },
+        {
+          "name": "Fresh lemon juice",
+          "qty": 50,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Lemon cream sauce"
+        },
+        {
+          "name": "Dijon mustard",
+          "qty": 10,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Lemon cream sauce"
+        },
+        {
+          "name": "Parmesan",
+          "qty": 70,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Lemon cream sauce"
+        },
+        {
+          "name": "Fresh parsley",
+          "qty": 10,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Lemon cream sauce"
+        }
+      ],
+      "steps": [
+        "Slice chicken breasts horizontally into four thin cutlets, season with measured salt and pepper and dust lightly with 30 g flour.",
+        "Melt 40 g butter in a hot skillet; cook chicken in batches until golden and nearly fully cooked, then lift out.",
+        "Add garlic briefly; add stock, cream, lemon juice and mustard, stirring to scrape up fond. Simmer gently to thicken.",
+        "Melt parmesan into sauce and return chicken; simmer until chicken reaches at least 74°C. Stir in parsley.",
+        "Split chicken, lemon sauce, mash and broccoli into four portions; chill promptly and refrigerate for early-week use."
+      ]
+    },
+    {
+      "id": "mash",
+      "name": "Mashed Potatoes",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 740,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 180,
+        "protein": 4,
+        "carbs": 29,
+        "fat": 5
+      },
+      "ingredients": [
+        {
+          "name": "Potatoes, peeled",
+          "qty": 650,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Milk",
+          "qty": 130,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Unsalted butter",
+          "qty": 20,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Peel and cube potatoes; boil in salted water until very tender, drain thoroughly and mash with 130 ml warm milk, 20 g butter and 3 g salt."
+      ]
+    },
+    {
+      "id": "greens",
+      "name": "Steamed Broccoli",
+      "scaling": "fixed",
+      "servings": 4,
+      "cookedYieldG": 410,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 39,
+        "protein": 3,
+        "carbs": 7,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Broccoli florets",
+          "qty": 450,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Water for steaming",
+          "qty": 200,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Steam broccoli over 200 ml water until just tender; keep separate for portioning."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Uses the published stovetop lemon chicken as a base; UNHANGRY adds measured mashed potatoes and broccoli, plus parsley. Macros must include added sides and may differ from source.",
+    "Storing & reheating: Mashed potato freezes reasonably with dairy; creamy lemon sauce may separate and crispy sear softens. Better for early-week fridge meals.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.recipetineats.com/creamy-lemon-chicken/",
+  "reference": {
+    "sourceCredit": "Nagi Maehashi, RecipeTin Eats, plus UNHANGRY sides",
+    "fileTitle": "Creamy Lemon Herb Chicken with Mash and Greens",
+    "fileRecipeNumber": 14,
+    "recipeStatus": "DRAFT FOR MIRNA TESTING; ingredient and macro QA pending.",
+    "proteinTag": "White meat",
+    "methodTag": "Stovetop",
+    "preparationMethod": "Stovetop / skillet / saucepan (see steps)",
+    "activePrepMinutes": 25,
+    "cookingMinutes": 25,
+    "freezer": "PARTIAL",
+    "preservation": "Mashed potato freezes reasonably with dairy; creamy lemon sauce may separate and crispy sear softens. Better for early-week fridge meals.",
+    "dietaryTag": "No pork included; verify stock, sauces and ingredient brands for household restrictions.",
+    "fileMacrosPerServing": {
+      "kcal": 745,
+      "protein": 50.6,
+      "carbs": 47.5,
+      "fat": 39.2
+    },
+    "fileMacroSource": "ESTIMATED from raw ingredient reference averages",
+    "fileNotes": "Uses the published stovetop lemon chicken as a base; UNHANGRY adds measured mashed potatoes and broccoli, plus parsley. Macros must include added sides and may differ from source.",
+    "cookedYieldEstimates": [
+      "Cooked chicken with lemon cream sauce: approx 1150 g",
+      "Prepared mashed potato: approx 740 g",
+      "Steamed broccoli: approx 410 g"
+    ],
+    "foodSafety": [
+      "Refrigerate in shallow containers promptly: within 2 hours of cooking, or within 1 hour if room temperature exceeds 32 C.",
+      "Store at 4 C or colder for no more than 3-4 days; freeze portions intended for later in the week.",
+      "Cook chicken and reheat leftovers thoroughly to 74 C. Ground pork must reach at least 71 C before serving; food-safe reheating still requires 74 C.",
+      "Rice must be rapidly cooled and chilled; never leave cooked rice standing for extended periods.",
+      "Freezer suitability describes practical use, not a guarantee of unchanged texture.",
+      "Creator-published macros may differ from the raw-input estimates because of product brands, cooking losses and serving definitions.",
+      "Nutrition values here are NOT lab-validated. Ingredient estimates use representative raw food averages, while source macros are from the credited creator.",
+      "If an adapted recipe differs from the original source, confirm both quantities and nutritional totals before public app release."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 735,
+      "protein": 50,
+      "carbs": 48,
+      "fat": 39
+    },
+    "quantitiesFrom": "UNHANGRY White Meat Stovetop file — exact raw quantities as written."
+  }
+}

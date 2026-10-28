@@ -1,0 +1,326 @@
+{
+  "id": "hainanese-chicken-rice",
+  "name": "Hainanese Chicken Rice with Three Sauces",
+  "protein": "white-meat",
+  "method": "stovetop",
+  "mealType": "main",
+  "feeds": 6,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 732,
+    "protein": 39,
+    "carbs": 83,
+    "fat": 27
+  },
+  "components": [
+    {
+      "id": "chicken",
+      "name": "Poached Chicken",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 6,
+      "cookedYieldG": 880,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 322,
+        "protein": 31,
+        "carbs": 1,
+        "fat": 20
+      },
+      "ingredients": [
+        {
+          "name": "Whole bone-in chicken",
+          "qty": 1500,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Salt for rubbing",
+          "qty": 15,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Water for poaching (most remains stock)",
+          "qty": 3300,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Ginger slices",
+          "qty": 25,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Scallions",
+          "qty": 35,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Ice for chilling bath, not consumed",
+          "qty": 1500,
+          "unit": "g",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Rub chicken with measured salt and place whole chicken in a large pot with water, ginger and scallions. Bring just to a simmer, keeping the liquid moving only gently.",
+        "Poach until chicken is fully cooked and a thermometer inserted in the thickest edible section reaches at least 74°C; timing varies by chicken size. Move cooked chicken into an ice bath for about 15 minutes, then drain and refrigerate.",
+        "Debone and weigh cooked chicken; portion cooked rice and each sauce separately. Maintain strict cooked-rice cooling hygiene."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Chicken Rice",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 6,
+      "cookedYieldG": 1510,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 315,
+        "protein": 7,
+        "carbs": 73,
+        "fat": 1
+      },
+      "ingredients": [
+        {
+          "name": "Reserved chicken fat from the whole chicken (not an additional purchase)",
+          "qty": 50,
+          "unit": "g",
+          "component": "other",
+          "notPurchased": true
+        },
+        {
+          "name": "Neutral oil",
+          "qty": 5,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Garlic",
+          "qty": 12,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Dry jasmine rice",
+          "qty": 555,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Poaching stock transferred into rice, included above",
+          "qty": 950,
+          "unit": "ml",
+          "component": "sauce",
+          "notPurchased": true
+        },
+        {
+          "name": "Salt",
+          "qty": 4,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Reserve chicken stock for rice and sauces. Remove the chicken fat from the cavity where possible; render it with 5 ml oil, cook garlic briefly, then stir-fry washed uncooked jasmine rice for 2 minutes.",
+        "Transfer rice to a lidded pot with approximately 950 ml hot reserved stock and measured salt. Bring to a boil, then cover and cook very gently until tender. Rest covered."
+      ]
+    },
+    {
+      "id": "sauces",
+      "name": "Three Sauces",
+      "scaling": "fixed",
+      "servings": 6,
+      "cookedYieldG": 331,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 95,
+        "protein": 1,
+        "carbs": 9,
+        "fat": 6
+      },
+      "ingredients": [
+        {
+          "name": "Ginger, chopped",
+          "qty": 40,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Ginger garlic sauce"
+        },
+        {
+          "name": "Garlic",
+          "qty": 3,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Ginger garlic sauce"
+        },
+        {
+          "name": "Neutral oil",
+          "qty": 45,
+          "unit": "ml",
+          "component": "other",
+          "group": "Ginger garlic sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 1,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Ginger garlic sauce"
+        },
+        {
+          "name": "Water",
+          "qty": 60,
+          "unit": "ml",
+          "component": "other",
+          "group": "Sweet dark soy sauce"
+        },
+        {
+          "name": "Rock sugar",
+          "qty": 35,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Sweet dark soy sauce"
+        },
+        {
+          "name": "Dark soy sauce",
+          "qty": 60,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Sweet dark soy sauce"
+        },
+        {
+          "name": "Fresh red chillies",
+          "qty": 45,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Chilli sauce"
+        },
+        {
+          "name": "Fresh ginger",
+          "qty": 15,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Chilli sauce"
+        },
+        {
+          "name": "Garlic",
+          "qty": 6,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Chilli sauce"
+        },
+        {
+          "name": "Sesame oil",
+          "qty": 1,
+          "unit": "ml",
+          "component": "other",
+          "group": "Chilli sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Chilli sauce"
+        },
+        {
+          "name": "White sugar",
+          "qty": 1,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Chilli sauce"
+        },
+        {
+          "name": "Lime juice",
+          "qty": 15,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Chilli sauce"
+        },
+        {
+          "name": "Rice vinegar",
+          "qty": 3,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Chilli sauce"
+        },
+        {
+          "name": "Poaching stock from above",
+          "qty": 30,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Chilli sauce",
+          "notPurchased": true
+        }
+      ],
+      "steps": [
+        "For ginger-garlic sauce, mince ginger and garlic, then heat briefly with 45 ml neutral oil and 1 g salt until aromatic; transfer to a separate covered jar.",
+        "For sweet soy, simmer measured water and rock sugar until dissolved, then stir in the dark soy sauce.",
+        "For chilli sauce, crush chillies, ginger and garlic, then blend with sesame oil, lime juice, rice vinegar, stock, sugar and salt."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Longer, advanced stovetop recipe with three sauces. Raw chicken weighs 1.5 kg bone-in; macros from edible meat estimate. Cooking broth is reused as rice cooking liquid, so count the liquid only once.",
+    "Storing & reheating: Freeze cooked chicken and rice separately if necessary; fresh-made dipping sauces give best flavour. Chill rice rapidly.",
+    "Keeps 3–4 days in the fridge (≤4°C); refrigerate within 2 hours (1 hour above 32°C) in shallow containers, freeze portions for later in the week, and reheat to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://thewoksoflife.com/hainanese-chicken-rice/",
+  "reference": {
+    "sourceCredit": "Judy Leung, The Woks of Life",
+    "fileTitle": "Hainanese Chicken Rice with Three Sauces",
+    "fileRecipeNumber": 10,
+    "recipeStatus": "DRAFT FOR MIRNA TESTING; ingredient and macro QA pending.",
+    "proteinTag": "White meat",
+    "methodTag": "Stovetop",
+    "preparationMethod": "Stovetop / skillet / saucepan (see steps)",
+    "activePrepMinutes": 45,
+    "cookingMinutes": 155,
+    "freezer": "PARTIAL",
+    "preservation": "Freeze cooked chicken and rice separately if necessary; fresh-made dipping sauces give best flavour. Chill rice rapidly.",
+    "dietaryTag": "ADVANCED; uses large stockpot and additional saucepan for sauces",
+    "fileMacrosPerServing": {
+      "kcal": 732,
+      "protein": 39.1,
+      "carbs": 83.4,
+      "fat": 26.9
+    },
+    "fileMacroSource": "ESTIMATED from raw ingredient reference averages",
+    "fileNotes": "Longer, advanced stovetop recipe with three sauces. Raw chicken weighs 1.5 kg bone-in; macros from edible meat estimate. Cooking broth is reused as rice cooking liquid, so count the liquid only once.",
+    "cookedYieldEstimates": [
+      "Cooked edible chicken, skin included: approx 880 g",
+      "Cooked jasmine rice: approx 1510 g",
+      "Ginger garlic sauce: approx 86 g",
+      "Sweet dark soy sauce: approx 140 g",
+      "Chilli sauce: approx 105 g"
+    ],
+    "foodSafety": [
+      "Refrigerate in shallow containers promptly: within 2 hours of cooking, or within 1 hour if room temperature exceeds 32 C.",
+      "Store at 4 C or colder for no more than 3-4 days; freeze portions intended for later in the week.",
+      "Cook chicken and reheat leftovers thoroughly to 74 C. Ground pork must reach at least 71 C before serving; food-safe reheating still requires 74 C.",
+      "Rice must be rapidly cooled and chilled; never leave cooked rice standing for extended periods.",
+      "Freezer suitability describes practical use, not a guarantee of unchanged texture.",
+      "Creator-published macros may differ from the raw-input estimates because of product brands, cooking losses and serving definitions.",
+      "Nutrition values here are NOT lab-validated. Ingredient estimates use representative raw food averages, while source macros are from the credited creator.",
+      "If an adapted recipe differs from the original source, confirm both quantities and nutritional totals before public app release."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 808,
+      "protein": 39,
+      "carbs": 85,
+      "fat": 34
+    },
+    "quantitiesFrom": "UNHANGRY White Meat Stovetop file — exact raw quantities as written."
+  }
+}
