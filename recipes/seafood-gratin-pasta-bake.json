@@ -1,0 +1,212 @@
+{
+  "id": "seafood-gratin-pasta-bake",
+  "name": "Seafood Gratin Pasta Bake with Béchamel",
+  "protein": "seafood",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 982,
+    "protein": 61,
+    "carbs": 96,
+    "fat": 39
+  },
+  "components": [
+    {
+      "id": "gratin",
+      "name": "Seafood Gratin Pasta Bake",
+      "scaling": "ratio",
+      "role": "whole",
+      "servings": 4,
+      "cookedYieldG": 2200,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 982,
+        "protein": 61,
+        "carbs": 96,
+        "fat": 39
+      },
+      "ingredients": [
+        {
+          "name": "Raw mixed edible seafood: fish, peeled prawns, squid and mussel meat",
+          "qty": 750,
+          "unit": "g",
+          "component": "protein",
+          "group": "Seafood and pasta"
+        },
+        {
+          "name": "Dry macaroni pasta",
+          "qty": 280,
+          "unit": "g",
+          "component": "carb",
+          "group": "Seafood and pasta"
+        },
+        {
+          "name": "Raw finely chopped leek",
+          "qty": 180,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Seafood and pasta"
+        },
+        {
+          "name": "Raw minced garlic",
+          "qty": 20,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Seafood and pasta"
+        },
+        {
+          "name": "Olive oil for seafood and leek",
+          "qty": 30,
+          "unit": "ml",
+          "component": "other",
+          "group": "Seafood and pasta"
+        },
+        {
+          "name": "Unsalted butter",
+          "qty": 60,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Béchamel"
+        },
+        {
+          "name": "Plain wheat flour",
+          "qty": 55,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Béchamel"
+        },
+        {
+          "name": "Whole milk",
+          "qty": 750,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Béchamel"
+        },
+        {
+          "name": "Parmesan for sauce",
+          "qty": 65,
+          "unit": "g",
+          "component": "other",
+          "group": "Béchamel"
+        },
+        {
+          "name": "Salt",
+          "qty": 4,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Béchamel"
+        },
+        {
+          "name": "Black pepper",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Béchamel"
+        },
+        {
+          "name": "Panko breadcrumbs",
+          "qty": 70,
+          "unit": "g",
+          "component": "other",
+          "group": "Crumb top"
+        },
+        {
+          "name": "Finely grated parmesan",
+          "qty": 45,
+          "unit": "g",
+          "component": "other",
+          "group": "Crumb top"
+        },
+        {
+          "name": "Chopped parsley",
+          "qty": 15,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Crumb top"
+        }
+      ],
+      "steps": [
+        "Heat oven to 180 C. Boil macaroni until just firmer than al dente, drain and place in a deep baking dish.",
+        "In a very hot skillet quickly sear raw seafood in oil without fully cooking, then move it to the baking dish. Cook chopped leek and garlic briefly in the same pan.",
+        "Melt butter in the pan and stir in flour to form a paste. Add milk gradually, whisking until smooth, then heat until thick and finish with parmesan, salt and pepper.",
+        "Combine pasta, seafood and leeks; pour béchamel evenly over and finish with panko, parsley and grated parmesan.",
+        "Bake about 20-25 minutes until top is golden and seafood reaches 63 C. Rest briefly and divide into four complete servings."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Measured adaptation of RecipeTin Eats seafood gratin; cooking sequence retains stovetop pre-sear and oven finish.",
+    "Planning: SECONDARY STOVETOP: pasta, seafood sear and white sauce before baking.",
+    "Freezer: freezes but reheated seafood can become rubbery and béchamel may separate",
+    "Dietary: Contains fish, crustaceans, molluscs, wheat and dairy.",
+    "Refrigerate within 2 hours (1 hour above 32°C) in shallow containers at 4°C or colder, for 3–4 days at most, and follow the shorter seafood limit above. Cook fish and shellfish to 63°C and reheat leftovers to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": "Seafood gratin — plan for days 1-3; seafood can turn rubbery if frozen.",
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.recipetineats.com/seafood-gratin-pasta-bake/",
+  "reference": {
+    "sourceCredit": "Nagi Maehashi, RecipeTin Eats",
+    "sourceRecipeUrl": "https://www.recipetineats.com/seafood-gratin-pasta-bake/",
+    "fileTitle": "Seafood Gratin Pasta Bake with Béchamel",
+    "fileRecipeNumber": 11,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Seafood",
+    "methodTag": "Oven",
+    "preparationMethod": "Oven roasting / baking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 30 minutes",
+    "ovenCookingTime": "approx 25 minutes (can overlap with other components)",
+    "freezer": "PARTIAL: freezes but reheated seafood can become rubbery and béchamel may separate",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Contains fish, crustaceans, molluscs, wheat and dairy.",
+    "fileMacrosPerServing": {
+      "kcal": 982,
+      "protein": 61.2,
+      "carbs": 96,
+      "fat": 39.2
+    },
+    "fileMacroText": {
+      "kcal": "982 kcal (ESTIMATED)",
+      "protein": "61.2 g (ESTIMATED)",
+      "carbs": "96.0 g (ESTIMATED)",
+      "fat": "39.2 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL listed ingredient quantities using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, drained liquids, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "Measured adaptation of RecipeTin Eats seafood gratin; cooking sequence retains stovetop pre-sear and oven finish.",
+    "planningNotes": "SECONDARY STOVETOP: pasta, seafood sear and white sauce before baking.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked mixed seafood: approx 570 g",
+      "Cooked pasta: approx 700 g",
+      "Béchamel, leek and crumb topping: approx 930 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook fish and crustaceans to 63 C (145 F) or applicable local food-safety standard. Use a food thermometer.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "For seafood purchased whole or bone-in, RAW purchase weight is not edible cooked yield; measure edible portion before publishing."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 974,
+      "protein": 58,
+      "carbs": 101,
+      "fat": 37
+    },
+    "quantitiesFrom": "UNHANGRY Seafood Oven file — exact raw quantities as written."
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "id": "baked-sea-bass-lemon-potatoes-fennel",
+  "name": "Baked Sea Bass with Lemon Potatoes and Fennel",
+  "protein": "seafood",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 647,
+    "protein": 49,
+    "carbs": 52,
+    "fat": 27
+  },
+  "components": [
+    {
+      "id": "fish",
+      "name": "Baked Sea Bass",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 740,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 308,
+        "protein": 43,
+        "carbs": 1,
+        "fat": 14
+      },
+      "ingredients": [
+        {
+          "name": "Raw boneless sea bass fillets (rather than whole fish)",
+          "qty": 900,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Olive oil for fish",
+          "qty": 30,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Fresh lemon juice for fish",
+          "qty": 35,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Fresh basil",
+          "qty": 20,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Salt",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Pat sea bass dry and season with salt, olive oil and basil. Place skin down on a separate tray or on top of nearly finished potatoes.",
+        "Roast fish 10-15 minutes until the thickest centre reaches 63 C; do not leave in oven while potatoes finish.",
+        "Portion sea bass, lemon potatoes and fennel into four substantial meals; keep any fresh herbs separate."
+      ]
+    },
+    {
+      "id": "veg",
+      "name": "Lemon Potatoes & Fennel",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 1090,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 339,
+        "protein": 6,
+        "carbs": 51,
+        "fat": 13
+      },
+      "ingredients": [
+        {
+          "name": "Raw baby potatoes, halved",
+          "qty": 900,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Raw fennel bulb, thinly sliced",
+          "qty": 300,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Raw red onion wedges",
+          "qty": 160,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Olive oil for vegetables",
+          "qty": 45,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Fresh lemon juice for potatoes",
+          "qty": 50,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Minced fresh garlic",
+          "qty": 10,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Dried oregano",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Preheat oven to 210 C. Toss halved potatoes, fennel and onion with oil, lemon, garlic, oregano and salt on a large tray.",
+        "Roast 25-35 minutes, turning once, until potatoes are almost tender and browned."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Good Food source uses whole sea bass and fennel; UNHANGRY uses boneless fillets and adds measured lemon potatoes.",
+    "Planning: OVEN ONLY, stagger fish after potatoes.",
+    "Freezer: cooked sea bass best fresh/early week; potatoes become softer when frozen",
+    "Dietary: Contains fish, possible small pin bones.",
+    "Refrigerate within 2 hours (1 hour above 32°C) in shallow containers at 4°C or colder, for 3–4 days at most, and follow the shorter seafood limit above. Cook fish and shellfish to 63°C and reheat leftovers to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": "Sea bass — best fresh / early week (days 1-2).",
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.bbcgoodfood.com/recipes/baked-sea-bass-with-fennel",
+  "reference": {
+    "sourceCredit": "Good Food team",
+    "sourceRecipeUrl": "https://www.bbcgoodfood.com/recipes/baked-sea-bass-with-fennel",
+    "fileTitle": "Baked Sea Bass with Lemon Potatoes and Fennel",
+    "fileRecipeNumber": 6,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Seafood",
+    "methodTag": "Oven",
+    "preparationMethod": "Oven roasting / baking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 25 minutes",
+    "ovenCookingTime": "approx 45 minutes (can overlap with other components)",
+    "freezer": "PARTIAL: cooked sea bass best fresh/early week; potatoes become softer when frozen",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Contains fish, possible small pin bones.",
+    "fileMacrosPerServing": {
+      "kcal": 647,
+      "protein": 49.3,
+      "carbs": 52.2,
+      "fat": 26.7
+    },
+    "fileMacroText": {
+      "kcal": "647 kcal (ESTIMATED)",
+      "protein": "49.3 g (ESTIMATED)",
+      "carbs": "52.2 g (ESTIMATED)",
+      "fat": "26.7 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL listed ingredient quantities using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, drained liquids, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "Good Food source uses whole sea bass and fennel; UNHANGRY uses boneless fillets and adds measured lemon potatoes.",
+    "planningNotes": "OVEN ONLY, stagger fish after potatoes.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Baked sea bass: approx 740 g",
+      "Roasted potatoes: approx 750 g",
+      "Roasted fennel and onion: approx 340 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook fish and crustaceans to 63 C (145 F) or applicable local food-safety standard. Use a food thermometer.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "For seafood purchased whole or bone-in, RAW purchase weight is not edible cooked yield; measure edible portion before publishing."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 594,
+      "protein": 48,
+      "carbs": 50,
+      "fat": 22
+    },
+    "quantitiesFrom": "UNHANGRY Seafood Oven file — exact raw quantities as written."
+  }
+}

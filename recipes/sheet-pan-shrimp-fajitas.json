@@ -1,0 +1,208 @@
+{
+  "id": "sheet-pan-shrimp-fajitas",
+  "name": "Sheet-Pan Shrimp Fajitas with Black Beans and Tortillas",
+  "protein": "seafood",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 5,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 634,
+    "protein": 58,
+    "carbs": 68,
+    "fat": 14
+  },
+  "components": [
+    {
+      "id": "shrimp",
+      "name": "Shrimp Fajitas",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 5,
+      "cookedYieldG": 1370,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 291,
+        "protein": 43,
+        "carbs": 13,
+        "fat": 8
+      },
+      "ingredients": [
+        {
+          "name": "Raw peeled deveined shrimp",
+          "qty": 1000,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Raw mixed bell peppers sliced",
+          "qty": 500,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Raw red onion sliced",
+          "qty": 250,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Olive oil for roasting",
+          "qty": 35,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Fajita seasoning or chipotle-cumin blend",
+          "qty": 12,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Fresh lime juice",
+          "qty": 45,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Set oven to 220 C and spread pepper and onion strips on two hot trays; toss with oil and fajita spices. Roast for about 12-15 minutes.",
+        "Pat shrimp dry, mix with lime and a small portion of seasoning, and spread over peppers once they are partly softened.",
+        "Return to oven for 6-10 minutes, checking the centre of the largest shrimp reaches 63 C and avoiding overcooking.",
+        "Divide fajitas and beans into five meals, keeping tortillas and yogurt separate. Reheat shrimp and vegetables before assembling."
+      ]
+    },
+    {
+      "id": "beans",
+      "name": "Black Beans, Tortillas & Yogurt",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 5,
+      "cookedYieldG": 1060,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 343,
+        "protein": 16,
+        "carbs": 55,
+        "fat": 7
+      },
+      "ingredients": [
+        {
+          "name": "Canned cooked black beans drained",
+          "qty": 500,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Fresh chopped tomatoes",
+          "qty": 80,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Fresh coriander leaves",
+          "qty": 10,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Five wheat tortillas 70g each, as purchased",
+          "qty": 350,
+          "unit": "g",
+          "component": "carb",
+          "group": "Assembly"
+        },
+        {
+          "name": "Plain Greek yogurt for topping",
+          "qty": 180,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Assembly"
+        }
+      ],
+      "steps": [
+        "Warm drained cooked beans with tomato in a small saucepan or microwave, and set yogurt aside as a chilled topping."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Skinnytaste published shrimp fajitas use a skillet. UNHANGRY converts to a SHEET-PAN OVEN version; verify method in kitchen trial.",
+    "Planning: SECONDARY STOVETOP or microwave: beans; cold tortilla/yogurt assembly.",
+    "Freezer: cooked shrimp freezes but loses tenderness; tortillas freeze alone",
+    "Dietary: Contains crustaceans, wheat, dairy.",
+    "Refrigerate within 2 hours (1 hour above 32°C) in shallow containers at 4°C or colder, for 3–4 days at most, and follow the shorter seafood limit above. Cook fish and shellfish to 63°C and reheat leftovers to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": "Shrimp — plan for days 1-3; freeze tortillas on their own.",
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.skinnytaste.com/shrimp-fajitas/",
+  "reference": {
+    "sourceCredit": "Gina Homolka, Skinnytaste (source skillet recipe adapted to oven)",
+    "sourceRecipeUrl": "https://www.skinnytaste.com/shrimp-fajitas/",
+    "fileTitle": "Sheet-Pan Shrimp Fajitas with Black Beans and Tortillas",
+    "fileRecipeNumber": 13,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Seafood",
+    "methodTag": "Oven",
+    "preparationMethod": "Oven roasting / baking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 25 minutes",
+    "ovenCookingTime": "approx 25 minutes (can overlap with other components)",
+    "freezer": "PARTIAL: cooked shrimp freezes but loses tenderness; tortillas freeze alone",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Contains crustaceans, wheat, dairy.",
+    "fileMacrosPerServing": {
+      "kcal": 634,
+      "protein": 58.2,
+      "carbs": 68,
+      "fat": 14.4
+    },
+    "fileMacroText": {
+      "kcal": "634 kcal (ESTIMATED)",
+      "protein": "58.2 g (ESTIMATED)",
+      "carbs": "68.0 g (ESTIMATED)",
+      "fat": "14.4 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL listed ingredient quantities using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, drained liquids, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "Skinnytaste published shrimp fajitas use a skillet. UNHANGRY converts to a SHEET-PAN OVEN version; verify method in kitchen trial.",
+    "planningNotes": "SECONDARY STOVETOP or microwave: beans; cold tortilla/yogurt assembly.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Roasted fajita shrimp and peppers: approx 1370 g",
+      "Drained warmed beans: approx 530 g",
+      "Purchased tortillas: approx 350 g",
+      "Chilled yogurt: approx 180 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook fish and crustaceans to 63 C (145 F) or applicable local food-safety standard. Use a food thermometer.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "For seafood purchased whole or bone-in, RAW purchase weight is not edible cooked yield; measure edible portion before publishing."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 619,
+      "protein": 57,
+      "carbs": 66,
+      "fat": 15
+    },
+    "quantitiesFrom": "UNHANGRY Seafood Oven file — exact raw quantities as written."
+  }
+}

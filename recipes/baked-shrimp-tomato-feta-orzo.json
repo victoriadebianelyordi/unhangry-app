@@ -1,0 +1,211 @@
+{
+  "id": "baked-shrimp-tomato-feta-orzo",
+  "name": "One-Pan Baked Shrimp, Tomato and Feta Orzo",
+  "protein": "seafood",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 6,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 626,
+    "protein": 53,
+    "carbs": 69,
+    "fat": 16
+  },
+  "components": [
+    {
+      "id": "orzo",
+      "name": "Shrimp, Tomato and Feta Orzo",
+      "scaling": "ratio",
+      "role": "whole",
+      "servings": 6,
+      "cookedYieldG": 2750,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 626,
+        "protein": 53,
+        "carbs": 69,
+        "fat": 16
+      },
+      "ingredients": [
+        {
+          "name": "Raw dry orzo pasta",
+          "qty": 450,
+          "unit": "g",
+          "component": "carb",
+          "group": "Orzo traybake"
+        },
+        {
+          "name": "Vegetable stock for pasta absorption",
+          "qty": 700,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Orzo traybake"
+        },
+        {
+          "name": "Crushed canned tomatoes with juice",
+          "qty": 450,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Orzo traybake"
+        },
+        {
+          "name": "Raw cherry tomatoes",
+          "qty": 200,
+          "unit": "g",
+          "component": "other",
+          "group": "Orzo traybake"
+        },
+        {
+          "name": "Raw sliced bell pepper",
+          "qty": 200,
+          "unit": "g",
+          "component": "other",
+          "group": "Orzo traybake"
+        },
+        {
+          "name": "Raw onion, finely sliced",
+          "qty": 160,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Orzo traybake"
+        },
+        {
+          "name": "Raw garlic, minced",
+          "qty": 20,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Orzo traybake"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 35,
+          "unit": "ml",
+          "component": "other",
+          "group": "Orzo traybake"
+        },
+        {
+          "name": "Dried oregano and paprika",
+          "qty": 7,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Orzo traybake"
+        },
+        {
+          "name": "Salt",
+          "qty": 7,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Orzo traybake"
+        },
+        {
+          "name": "Raw peeled deveined shrimp",
+          "qty": 1100,
+          "unit": "g",
+          "component": "protein",
+          "group": "Shrimp topping"
+        },
+        {
+          "name": "Fresh lemon juice",
+          "qty": 45,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Shrimp topping"
+        },
+        {
+          "name": "Feta cheese, crumbled",
+          "qty": 180,
+          "unit": "g",
+          "component": "other",
+          "group": "Shrimp topping"
+        },
+        {
+          "name": "Fresh parsley",
+          "qty": 15,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Shrimp topping"
+        }
+      ],
+      "steps": [
+        "Heat oven to 200 C and mix raw orzo, stock, tomatoes, pepper, onion, garlic, oil, oregano and salt in a deep baking dish.",
+        "Cover securely with foil and bake 20-25 minutes; check that most orzo has softened and there is still enough liquid for the pasta. Add small amounts of hot water if needed.",
+        "Toss peeled raw shrimp with lemon and nestle into the hot orzo; scatter feta on top.",
+        "Bake uncovered a further 10-15 minutes, stirring once if necessary, until the shrimp are opaque and register 63 C.",
+        "Fold through parsley, divide six servings and chill in shallow containers promptly. Avoid prolonged cooking that toughens shrimp."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Source includes a baked prawn, feta and tomato orzo tray; weights scaled as UNHANGRY batch and additional vegetables included.",
+    "Planning: OVEN only; use deep covered dish so dry orzo hydrates.",
+    "Freezer: shrimp and cooked pasta soften on freezing; best early in week",
+    "Dietary: Contains crustaceans, wheat and dairy.",
+    "Refrigerate within 2 hours (1 hour above 32°C) in shallow containers at 4°C or colder, for 3–4 days at most, and follow the shorter seafood limit above. Cook fish and shellfish to 63°C and reheat leftovers to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": "Shrimp orzo — best early in the week (days 1-3).",
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.marksandspencer.com/c/food-and-wine/cooking/recipes/237825/prawn-feta-and-tomato-orzo-traybake/",
+  "reference": {
+    "sourceCredit": "M&S Food recipe team",
+    "sourceRecipeUrl": "https://www.marksandspencer.com/c/food-and-wine/cooking/recipes/237825/prawn-feta-and-tomato-orzo-traybake/",
+    "fileTitle": "One-Pan Baked Shrimp, Tomato and Feta Orzo",
+    "fileRecipeNumber": 10,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Seafood",
+    "methodTag": "Oven",
+    "preparationMethod": "Oven roasting / baking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 20 minutes",
+    "ovenCookingTime": "approx 40 minutes (can overlap with other components)",
+    "freezer": "PARTIAL: shrimp and cooked pasta soften on freezing; best early in week",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Contains crustaceans, wheat and dairy.",
+    "fileMacrosPerServing": {
+      "kcal": 626,
+      "protein": 53.1,
+      "carbs": 68.5,
+      "fat": 15.5
+    },
+    "fileMacroText": {
+      "kcal": "626 kcal (ESTIMATED)",
+      "protein": "53.1 g (ESTIMATED)",
+      "carbs": "68.5 g (ESTIMATED)",
+      "fat": "15.5 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL listed ingredient quantities using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, drained liquids, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "Source includes a baked prawn, feta and tomato orzo tray; weights scaled as UNHANGRY batch and additional vegetables included.",
+    "planningNotes": "OVEN only; use deep covered dish so dry orzo hydrates.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked orzo with tomato vegetables: approx 1600 g",
+      "Cooked shrimp and feta topping: approx 1150 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook fish and crustaceans to 63 C (145 F) or applicable local food-safety standard. Use a food thermometer.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "For seafood purchased whole or bone-in, RAW purchase weight is not edible cooked yield; measure edible portion before publishing."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 626,
+      "protein": 55,
+      "carbs": 70,
+      "fat": 14
+    },
+    "quantitiesFrom": "UNHANGRY Seafood Oven file — exact raw quantities as written."
+  }
+}

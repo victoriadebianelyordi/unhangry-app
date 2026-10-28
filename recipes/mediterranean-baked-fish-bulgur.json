@@ -1,0 +1,225 @@
+{
+  "id": "mediterranean-baked-fish-bulgur",
+  "name": "Mediterranean Baked White Fish with Tomatoes, Olives and Bulgur",
+  "protein": "seafood",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 6,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 532,
+    "protein": 42,
+    "carbs": 53,
+    "fat": 17
+  },
+  "components": [
+    {
+      "id": "fish",
+      "name": "Baked Fish with Tomato & Olives",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 6,
+      "cookedYieldG": 1380,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 310,
+        "protein": 34,
+        "carbs": 7,
+        "fat": 16
+      },
+      "ingredients": [
+        {
+          "name": "Raw boneless white fish fillet",
+          "qty": 1050,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Fine salt",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Ground black pepper",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Cherry tomatoes, halved",
+          "qty": 370,
+          "unit": "g",
+          "component": "other",
+          "group": "Tomato olive topping"
+        },
+        {
+          "name": "Pitted mixed olives",
+          "qty": 120,
+          "unit": "g",
+          "component": "other",
+          "group": "Tomato olive topping"
+        },
+        {
+          "name": "Diced red onion",
+          "qty": 90,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Tomato olive topping"
+        },
+        {
+          "name": "Minced garlic",
+          "qty": 20,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Tomato olive topping"
+        },
+        {
+          "name": "Olive oil for fish and topping",
+          "qty": 65,
+          "unit": "ml",
+          "component": "other",
+          "group": "Tomato olive topping"
+        },
+        {
+          "name": "Fresh lemon juice",
+          "qty": 50,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Tomato olive topping"
+        },
+        {
+          "name": "Dried oregano",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Tomato olive topping"
+        },
+        {
+          "name": "Fresh thyme leaves",
+          "qty": 8,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Tomato olive topping"
+        }
+      ],
+      "steps": [
+        "Heat oven to 220 C. Pat fish dry, season both sides, and arrange in a lightly oiled baking dish.",
+        "Toss tomatoes, olives, onion, garlic and herbs with oil and lemon, then scatter the mixture around and over the fish.",
+        "Bake 15-20 minutes, depending on thickness, until centre of fish reaches 63 C and vegetables release their juices.",
+        "Portion bulgur separately from fish and tomato mixture so juices do not make the grains soggy before serving."
+      ]
+    },
+    {
+      "id": "bulgur",
+      "name": "Bulgur Wheat",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 6,
+      "cookedYieldG": 950,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 222,
+        "protein": 8,
+        "carbs": 46,
+        "fat": 1
+      },
+      "ingredients": [
+        {
+          "name": "Dry bulgur wheat",
+          "qty": 360,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Water for bulgur",
+          "qty": 650,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Salt for bulgur",
+          "qty": 4,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Cook dry bulgur in measured water according to its grade, then cover off heat until tender and steam has absorbed."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Measured bulgur side is new; the source fish dish is lower-calorie without a grain.",
+    "Planning: SECONDARY STOVETOP: bulgur needs boiling.",
+    "Freezer: fish less attractive after freezing; cooked grains freeze well",
+    "Dietary: Contains fish, wheat; olives are high in salt.",
+    "Refrigerate within 2 hours (1 hour above 32°C) in shallow containers at 4°C or colder, for 3–4 days at most, and follow the shorter seafood limit above. Cook fish and shellfish to 63°C and reheat leftovers to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": "Fish — plan for days 1-3; bulgur freezes well.",
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.themediterraneandish.com/baked-white-fish-recipe/",
+  "reference": {
+    "sourceCredit": "Suzy Karadsheh, The Mediterranean Dish",
+    "sourceRecipeUrl": "https://www.themediterraneandish.com/baked-white-fish-recipe/",
+    "fileTitle": "Mediterranean Baked White Fish with Tomatoes, Olives and Bulgur",
+    "fileRecipeNumber": 2,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Seafood",
+    "methodTag": "Oven",
+    "preparationMethod": "Oven roasting / baking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 20 minutes",
+    "ovenCookingTime": "approx 20 minutes (can overlap with other components)",
+    "freezer": "PARTIAL: fish less attractive after freezing; cooked grains freeze well",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Contains fish, wheat; olives are high in salt.",
+    "fileMacrosPerServing": {
+      "kcal": 532,
+      "protein": 41.9,
+      "carbs": 52.9,
+      "fat": 17
+    },
+    "fileMacroText": {
+      "kcal": "532 kcal (ESTIMATED)",
+      "protein": "41.9 g (ESTIMATED)",
+      "carbs": "52.9 g (ESTIMATED)",
+      "fat": "17.0 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL listed ingredient quantities using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, drained liquids, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "Measured bulgur side is new; the source fish dish is lower-calorie without a grain.",
+    "planningNotes": "SECONDARY STOVETOP: bulgur needs boiling.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Baked white fish: approx 860 g",
+      "Tomato olive topping: approx 520 g",
+      "Cooked bulgur: approx 950 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook fish and crustaceans to 63 C (145 F) or applicable local food-safety standard. Use a food thermometer.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "For seafood purchased whole or bone-in, RAW purchase weight is not edible cooked yield; measure edible portion before publishing."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 491,
+      "protein": 40,
+      "carbs": 52,
+      "fat": 15
+    },
+    "quantitiesFrom": "UNHANGRY Seafood Oven file — exact raw quantities as written."
+  }
+}

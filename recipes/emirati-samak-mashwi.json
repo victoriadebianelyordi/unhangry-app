@@ -1,0 +1,235 @@
+{
+  "id": "emirati-samak-mashwi",
+  "name": "Emirati Samak Mashwi with Bezar and Basmati Rice",
+  "protein": "seafood",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 696,
+    "protein": 56,
+    "carbs": 88,
+    "fat": 13
+  },
+  "components": [
+    {
+      "id": "fish",
+      "name": "Samak Mashwi",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 980,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 323,
+        "protein": 49,
+        "carbs": 9,
+        "fat": 12
+      },
+      "ingredients": [
+        {
+          "name": "Raw boneless white fish fillets (instead of bone-in whole fish)",
+          "qty": 1000,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Bezar Emirati spice mixture",
+          "qty": 16,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Raw minced garlic",
+          "qty": 20,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Fresh lime juice",
+          "qty": 55,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 30,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Salt for fish",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Raw sliced onion",
+          "qty": 180,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Fresh coriander leaves",
+          "qty": 30,
+          "unit": "g",
+          "component": "aromatic"
+        }
+      ],
+      "steps": [
+        "Rub fish with bezar, garlic, lime juice, oil and salt, then refrigerate 30 minutes.",
+        "Heat oven to 190 C and place fish in a baking dish over onion slices, with coriander on top; cover lightly with foil.",
+        "Bake 15-22 minutes depending on thickness until the centre of fish reaches 63 C; remove foil for the last few minutes if browning is desired."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Basmati Rice",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 920,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 317,
+        "protein": 6,
+        "carbs": 66,
+        "fat": 1
+      },
+      "ingredients": [
+        {
+          "name": "Dry long grain basmati rice",
+          "qty": 340,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Water for rice",
+          "qty": 580,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Salt for rice",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Cook dry basmati rice in measured water on the stove, then rest covered 10 minutes."
+      ]
+    },
+    {
+      "id": "salad",
+      "name": "Carrot-Cucumber Side",
+      "scaling": "fixed",
+      "servings": 4,
+      "cookedYieldG": 590,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 56,
+        "protein": 1,
+        "carbs": 13,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Raw carrots cut into matchsticks",
+          "qty": 450,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Raw cucumber, chopped",
+          "qty": 150,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Fresh lemon juice",
+          "qty": 35,
+          "unit": "ml",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Pack the fish and onions with rice, and keep the crunchy raw carrot-cucumber-lemon side in a separate chilled container to add after reheating."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Emirati fish spice profile follows published Samak bil Fern. Boneless fillets and rice/salad are UNHANGRY batch adaptations.",
+    "Planning: SECONDARY STOVETOP: rice; fresh side packed separately.",
+    "Freezer: cooked fish and rice can freeze; fresh salad not suitable",
+    "Dietary: Contains fish; check bezar spice premix. Raw seafood never used for cold salad.",
+    "Refrigerate within 2 hours (1 hour above 32°C) in shallow containers at 4°C or colder, for 3–4 days at most, and follow the shorter seafood limit above. Cook fish and shellfish to 63°C and reheat leftovers to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": "Fish — plan for days 1-3; pack the fresh salad separately.",
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.thebigsweettooth.com/samak-bil-fern-emirati-baked-fish/",
+  "reference": {
+    "sourceCredit": "Rafeeda, The Big Sweet Tooth",
+    "sourceRecipeUrl": "https://www.thebigsweettooth.com/samak-bil-fern-emirati-baked-fish/",
+    "fileTitle": "Emirati Samak Mashwi with Bezar and Basmati Rice",
+    "fileRecipeNumber": 16,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Seafood",
+    "methodTag": "Oven",
+    "preparationMethod": "Oven roasting / baking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 25 minutes",
+    "ovenCookingTime": "approx 25 minutes (can overlap with other components)",
+    "freezer": "PARTIAL: cooked fish and rice can freeze; fresh salad not suitable",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Contains fish; check bezar spice premix. Raw seafood never used for cold salad.",
+    "fileMacrosPerServing": {
+      "kcal": 696,
+      "protein": 56.4,
+      "carbs": 88.4,
+      "fat": 13
+    },
+    "fileMacroText": {
+      "kcal": "696 kcal (ESTIMATED)",
+      "protein": "56.4 g (ESTIMATED)",
+      "carbs": "88.4 g (ESTIMATED)",
+      "fat": "13.0 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL listed ingredient quantities using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, drained liquids, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "Emirati fish spice profile follows published Samak bil Fern. Boneless fillets and rice/salad are UNHANGRY batch adaptations.",
+    "planningNotes": "SECONDARY STOVETOP: rice; fresh side packed separately.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked fish with onions: approx 980 g",
+      "Cooked rice: approx 920 g",
+      "Fresh vegetable side: approx 590 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook fish and crustaceans to 63 C (145 F) or applicable local food-safety standard. Use a food thermometer.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "For seafood purchased whole or bone-in, RAW purchase weight is not edible cooked yield; measure edible portion before publishing."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 671,
+      "protein": 53,
+      "carbs": 89,
+      "fat": 10
+    },
+    "quantitiesFrom": "UNHANGRY Seafood Oven file — exact raw quantities as written."
+  }
+}

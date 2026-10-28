@@ -1,0 +1,210 @@
+{
+  "id": "baked-greek-shrimp-saganaki-rice",
+  "name": "Baked Greek Shrimp Saganaki with Feta and Rice",
+  "protein": "seafood",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 734,
+    "protein": 59,
+    "carbs": 70,
+    "fat": 24
+  },
+  "components": [
+    {
+      "id": "shrimp",
+      "name": "Shrimp Saganaki",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 1380,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 477,
+        "protein": 54,
+        "carbs": 15,
+        "fat": 24
+      },
+      "ingredients": [
+        {
+          "name": "Raw peeled jumbo shrimp",
+          "qty": 900,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Raw cherry tomatoes halved",
+          "qty": 420,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Kalamata olives pitted",
+          "qty": 100,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Raw minced shallot",
+          "qty": 100,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Garlic crushed",
+          "qty": 20,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 35,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Fresh lemon juice",
+          "qty": 80,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Fresh dill",
+          "qty": 20,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Feta cheese cubes",
+          "qty": 180,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Salt, moderate because olives and feta salty",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Preheat oven to 200 C. Toss tomatoes, shallot, olives, garlic and oil in a shallow roasting dish and bake about 15 minutes until tomatoes start collapsing.",
+        "Stir in lemon juice and seasonings, then fold raw shrimp gently into the hot vegetables in a single layer.",
+        "Scatter feta cubes across the top and bake another 8-12 minutes, until shrimp reach 63 C and feta softens.",
+        "Pack the tomato-feta shrimp separately from measured rice. Finish with dill after reheating."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Basmati Rice",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 770,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 257,
+        "protein": 5,
+        "carbs": 55,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Dry basmati rice",
+          "qty": 280,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Water for rice",
+          "qty": 480,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Salt for rice",
+          "qty": 4,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "While tray bakes, rinse dry rice and cook in measured water; rest covered before fluffing."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Skinnytaste source is a skillet shrimp saganaki. This is an OVEN adaptation with a calculated rice side.",
+    "Planning: SECONDARY STOVETOP: rice.",
+    "Freezer: cooked shrimp and feta do not retain ideal texture when frozen",
+    "Dietary: Contains crustaceans and dairy.",
+    "Refrigerate within 2 hours (1 hour above 32°C) in shallow containers at 4°C or colder, for 3–4 days at most, and follow the shorter seafood limit above. Cook fish and shellfish to 63°C and reheat leftovers to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": "Shrimp saganaki — plan for days 1-3; doesn't freeze well.",
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.skinnytaste.com/shrimp-saganaki/",
+  "reference": {
+    "sourceCredit": "Gina Homolka, Skinnytaste (stovetop recipe adapted for oven)",
+    "sourceRecipeUrl": "https://www.skinnytaste.com/shrimp-saganaki/",
+    "fileTitle": "Baked Greek Shrimp Saganaki with Feta and Rice",
+    "fileRecipeNumber": 14,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Seafood",
+    "methodTag": "Oven",
+    "preparationMethod": "Oven roasting / baking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 20 minutes",
+    "ovenCookingTime": "approx 30 minutes (can overlap with other components)",
+    "freezer": "PARTIAL: cooked shrimp and feta do not retain ideal texture when frozen",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Contains crustaceans and dairy.",
+    "fileMacrosPerServing": {
+      "kcal": 734,
+      "protein": 58.5,
+      "carbs": 70.1,
+      "fat": 24.4
+    },
+    "fileMacroText": {
+      "kcal": "734 kcal (ESTIMATED)",
+      "protein": "58.5 g (ESTIMATED)",
+      "carbs": "70.1 g (ESTIMATED)",
+      "fat": "24.4 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL listed ingredient quantities using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, drained liquids, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "Skinnytaste source is a skillet shrimp saganaki. This is an OVEN adaptation with a calculated rice side.",
+    "planningNotes": "SECONDARY STOVETOP: rice.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Baked shrimp and tomato feta sauce: approx 1380 g",
+      "Cooked rice: approx 770 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook fish and crustaceans to 63 C (145 F) or applicable local food-safety standard. Use a food thermometer.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "For seafood purchased whole or bone-in, RAW purchase weight is not edible cooked yield; measure edible portion before publishing."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 720,
+      "protein": 59,
+      "carbs": 70,
+      "fat": 23
+    },
+    "quantitiesFrom": "UNHANGRY Seafood Oven file — exact raw quantities as written."
+  }
+}

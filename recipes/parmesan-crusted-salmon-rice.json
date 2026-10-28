@@ -1,0 +1,236 @@
+{
+  "id": "parmesan-crusted-salmon-rice",
+  "name": "Parmesan-Crusted Baked Salmon with Rice and Green Beans",
+  "protein": "seafood",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 5,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 908,
+    "protein": 56,
+    "carbs": 74,
+    "fat": 43
+  },
+  "components": [
+    {
+      "id": "salmon",
+      "name": "Parmesan-Crusted Salmon",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 5,
+      "cookedYieldG": 1000,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 616,
+        "protein": 50,
+        "carbs": 17,
+        "fat": 39
+      },
+      "ingredients": [
+        {
+          "name": "Raw salmon fillets",
+          "qty": 1000,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Fine dry panko crumbs",
+          "qty": 95,
+          "unit": "g",
+          "component": "other",
+          "group": "Crust"
+        },
+        {
+          "name": "Finely grated parmesan",
+          "qty": 90,
+          "unit": "g",
+          "component": "other",
+          "group": "Crust"
+        },
+        {
+          "name": "Prepared basil pesto",
+          "qty": 40,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Crust"
+        },
+        {
+          "name": "Olive oil to bind crumb topping",
+          "qty": 20,
+          "unit": "ml",
+          "component": "other",
+          "group": "Crust"
+        },
+        {
+          "name": "Fresh lemon juice",
+          "qty": 25,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Crust"
+        },
+        {
+          "name": "Dried Italian herbs",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Crust"
+        }
+      ],
+      "steps": [
+        "Heat oven to 200 C, pat salmon dry and arrange on a lined tray.",
+        "Mix breadcrumbs, parmesan, pesto, oil, herbs and lemon to a damp crumb consistency; press over the flesh side of salmon.",
+        "Roast for 12-18 minutes until salmon centre reaches 63 C and crumb top is golden; adjust timing for thickness.",
+        "Divide crusted salmon with rice and green beans into five balanced meals; keep crisp topping dry when reheating."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Basmati Rice",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 5,
+      "cookedYieldG": 870,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 223,
+        "protein": 4,
+        "carbs": 49,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Dry uncooked basmati rice",
+          "qty": 320,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Water for rice",
+          "qty": 550,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Salt for rice",
+          "qty": 4,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Rinse uncooked rice and simmer with measured water until tender, then rest covered."
+      ]
+    },
+    {
+      "id": "beans",
+      "name": "Green Beans",
+      "scaling": "fixed",
+      "servings": 5,
+      "cookedYieldG": 540,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 69,
+        "protein": 2,
+        "carbs": 8,
+        "fat": 4
+      },
+      "ingredients": [
+        {
+          "name": "Raw trimmed green beans",
+          "qty": 620,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Olive oil to coat beans",
+          "qty": 20,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Salt for green beans",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Roast or steam green beans with their measured oil and salt until just tender."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "This is an original UNHANGRY parmesan salmon variation informed by Good Food pesto and breadcrumb crusted fish, NOT an identical source recipe.",
+    "Planning: SECONDARY STOVETOP: rice; roast beans in same oven if space permits.",
+    "Freezer: salmon can freeze but crumb coating softens after thaw",
+    "Dietary: Fish, wheat, milk and possibly nuts from pesto.",
+    "Refrigerate within 2 hours (1 hour above 32°C) in shallow containers at 4°C or colder, for 3–4 days at most, and follow the shorter seafood limit above. Cook fish and shellfish to 63°C and reheat leftovers to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": "Salmon — plan for days 1-3; the crust softens if frozen.",
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.bbcgoodfood.com/recipes/pesto-olive-crusted-fish",
+  "reference": {
+    "sourceCredit": "Good Food team; pesto olive crust source adapted to salmon and parmesan",
+    "sourceRecipeUrl": "https://www.bbcgoodfood.com/recipes/pesto-olive-crusted-fish",
+    "fileTitle": "Parmesan-Crusted Baked Salmon with Rice and Green Beans",
+    "fileRecipeNumber": 15,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Seafood",
+    "methodTag": "Oven",
+    "preparationMethod": "Oven roasting / baking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 25 minutes",
+    "ovenCookingTime": "approx 20 minutes (can overlap with other components)",
+    "freezer": "PARTIAL: salmon can freeze but crumb coating softens after thaw",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Fish, wheat, milk and possibly nuts from pesto.",
+    "fileMacrosPerServing": {
+      "kcal": 908,
+      "protein": 56.1,
+      "carbs": 74.2,
+      "fat": 42.9
+    },
+    "fileMacroText": {
+      "kcal": "908 kcal (ESTIMATED)",
+      "protein": "56.1 g (ESTIMATED)",
+      "carbs": "74.2 g (ESTIMATED)",
+      "fat": "42.9 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL listed ingredient quantities using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, drained liquids, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "This is an original UNHANGRY parmesan salmon variation informed by Good Food pesto and breadcrumb crusted fish, NOT an identical source recipe.",
+    "planningNotes": "SECONDARY STOVETOP: rice; roast beans in same oven if space permits.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked salmon and parmesan crust: approx 1000 g",
+      "Cooked rice: approx 870 g",
+      "Cooked green beans: approx 540 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook fish and crustaceans to 63 C (145 F) or applicable local food-safety standard. Use a food thermometer.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "For seafood purchased whole or bone-in, RAW purchase weight is not edible cooked yield; measure edible portion before publishing."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 938,
+      "protein": 55,
+      "carbs": 77,
+      "fat": 44
+    },
+    "quantitiesFrom": "UNHANGRY Seafood Oven file — exact raw quantities as written."
+  }
+}

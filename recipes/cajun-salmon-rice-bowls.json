@@ -1,0 +1,231 @@
+{
+  "id": "cajun-salmon-rice-bowls",
+  "name": "Cajun Baked Salmon Rice Bowls with Corn and Peppers",
+  "protein": "seafood",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 5,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 777,
+    "protein": 45,
+    "carbs": 68,
+    "fat": 36
+  },
+  "components": [
+    {
+      "id": "salmon",
+      "name": "Cajun Salmon",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 5,
+      "cookedYieldG": 780,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 453,
+        "protein": 39,
+        "carbs": 4,
+        "fat": 31
+      },
+      "ingredients": [
+        {
+          "name": "Raw salmon portions",
+          "qty": 950,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Olive oil for salmon",
+          "qty": 35,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Cajun seasoning without added sugar",
+          "qty": 15,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt if seasoning is salt-free",
+          "qty": 4,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Fresh lime juice",
+          "qty": 40,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Finish"
+        },
+        {
+          "name": "Fresh coriander leaves",
+          "qty": 15,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Finish"
+        }
+      ],
+      "steps": [
+        "Heat oven to 215 C. Mix oil and Cajun seasoning, then coat dried salmon fillets.",
+        "Place salmon in oven when vegetables are halfway through; roast fish until thickest centre reaches 63 C, about 12-18 minutes depending on thickness.",
+        "Portion five rice bowls with cooked vegetables and one salmon portion, refrigerating quickly; add lime and coriander just before eating."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Jasmine Rice",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 5,
+      "cookedYieldG": 900,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 231,
+        "protein": 4,
+        "carbs": 50,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Dry jasmine rice",
+          "qty": 330,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Water for rice",
+          "qty": 560,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Salt for rice",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Rinse dry rice and cook with measured water on stovetop, cover and rest 10 minutes before fluffing."
+      ]
+    },
+    {
+      "id": "veg",
+      "name": "Roasted Corn & Peppers",
+      "scaling": "fixed",
+      "servings": 5,
+      "cookedYieldG": 510,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 93,
+        "protein": 2,
+        "carbs": 13,
+        "fat": 4
+      },
+      "ingredients": [
+        {
+          "name": "Raw bell peppers, strips",
+          "qty": 280,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Frozen sweetcorn kernels",
+          "qty": 230,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Raw red onion strips",
+          "qty": 100,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Olive oil for vegetables",
+          "qty": 20,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "On a separate tray toss pepper, corn and onion with measured oil; roast vegetables about 15 minutes."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "UNHANGRY-created Cajun variation, not the same recipe as source; source is used for salmon-oven timing only.",
+    "Planning: SECONDARY STOVETOP: rice must cook.",
+    "Freezer: salmon may dry after thawing; rice can freeze if cooled rapidly",
+    "Dietary: Fish; Cajun spice brand may contain celery or mustard.",
+    "Refrigerate within 2 hours (1 hour above 32°C) in shallow containers at 4°C or colder, for 3–4 days at most, and follow the shorter seafood limit above. Cook fish and shellfish to 63°C and reheat leftovers to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": "Salmon — plan for days 1-3; rice freezes for later in the week.",
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.recipetineats.com/lemon-garlic-salmon-tray-bake-easy-healthy/",
+  "reference": {
+    "sourceCredit": "UNHANGRY adaptation; flavour and fish roasting technique cross-checked against RecipeTin Eats salmon traybake",
+    "sourceRecipeUrl": "https://www.recipetineats.com/lemon-garlic-salmon-tray-bake-easy-healthy/",
+    "fileTitle": "Cajun Baked Salmon Rice Bowls with Corn and Peppers",
+    "fileRecipeNumber": 4,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Seafood",
+    "methodTag": "Oven",
+    "preparationMethod": "Oven roasting / baking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 25 minutes",
+    "ovenCookingTime": "approx 30 minutes (can overlap with other components)",
+    "freezer": "PARTIAL: salmon may dry after thawing; rice can freeze if cooled rapidly",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Fish; Cajun spice brand may contain celery or mustard.",
+    "fileMacrosPerServing": {
+      "kcal": 777,
+      "protein": 45.2,
+      "carbs": 67.6,
+      "fat": 36.2
+    },
+    "fileMacroText": {
+      "kcal": "777 kcal (ESTIMATED)",
+      "protein": "45.2 g (ESTIMATED)",
+      "carbs": "67.6 g (ESTIMATED)",
+      "fat": "36.2 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL listed ingredient quantities using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, drained liquids, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "UNHANGRY-created Cajun variation, not the same recipe as source; source is used for salmon-oven timing only.",
+    "planningNotes": "SECONDARY STOVETOP: rice must cook.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked salmon: approx 780 g",
+      "Cooked jasmine rice: approx 900 g",
+      "Roasted corn peppers onion: approx 510 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook fish and crustaceans to 63 C (145 F) or applicable local food-safety standard. Use a food thermometer.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "For seafood purchased whole or bone-in, RAW purchase weight is not edible cooked yield; measure edible portion before publishing."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 800,
+      "protein": 45,
+      "carbs": 70,
+      "fat": 37
+    },
+    "quantitiesFrom": "UNHANGRY Seafood Oven file — exact raw quantities as written."
+  }
+}

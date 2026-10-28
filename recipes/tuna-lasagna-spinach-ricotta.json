@@ -1,0 +1,204 @@
+{
+  "id": "tuna-lasagna-spinach-ricotta",
+  "name": "Tuna Lasagna with Tomato, Spinach and Ricotta",
+  "protein": "seafood",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 6,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 735,
+    "protein": 66,
+    "carbs": 52,
+    "fat": 29
+  },
+  "components": [
+    {
+      "id": "lasagna",
+      "name": "Tuna Lasagna",
+      "scaling": "ratio",
+      "role": "whole",
+      "servings": 6,
+      "cookedYieldG": 2970,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 735,
+        "protein": 66,
+        "carbs": 52,
+        "fat": 29
+      },
+      "ingredients": [
+        {
+          "name": "Canned tuna in water, drained weight",
+          "qty": 800,
+          "unit": "g",
+          "component": "protein",
+          "group": "Tuna tomato filling"
+        },
+        {
+          "name": "Tomato passata",
+          "qty": 700,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Tuna tomato filling"
+        },
+        {
+          "name": "Raw chopped onion",
+          "qty": 180,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Tuna tomato filling"
+        },
+        {
+          "name": "Raw minced garlic",
+          "qty": 22,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Tuna tomato filling"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 25,
+          "unit": "ml",
+          "component": "other",
+          "group": "Tuna tomato filling"
+        },
+        {
+          "name": "Raw spinach leaves",
+          "qty": 180,
+          "unit": "g",
+          "component": "other",
+          "group": "Tuna tomato filling"
+        },
+        {
+          "name": "Dried oregano",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Tuna tomato filling"
+        },
+        {
+          "name": "Salt",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Tuna tomato filling"
+        },
+        {
+          "name": "Ricotta cheese",
+          "qty": 450,
+          "unit": "g",
+          "component": "other",
+          "group": "Ricotta layer"
+        },
+        {
+          "name": "Raw whole eggs without shells",
+          "qty": 120,
+          "unit": "g",
+          "component": "protein",
+          "group": "Ricotta layer"
+        },
+        {
+          "name": "Grated parmesan",
+          "qty": 55,
+          "unit": "g",
+          "component": "other",
+          "group": "Ricotta layer"
+        },
+        {
+          "name": "Dry lasagna sheets",
+          "qty": 300,
+          "unit": "g",
+          "component": "carb",
+          "group": "Assembly"
+        },
+        {
+          "name": "Shredded mozzarella",
+          "qty": 250,
+          "unit": "g",
+          "component": "other",
+          "group": "Assembly"
+        }
+      ],
+      "steps": [
+        "Preheat oven to 190 C. Sauté chopped onion and garlic in oil, then stir in passata and oregano and simmer until thick enough to layer.",
+        "Drain tuna well, flake with a fork, and combine with tomato sauce and wilted spinach.",
+        "In a separate bowl mix ricotta, eggs and half the parmesan until smooth.",
+        "Spread a thin spoonful of tomato sauce in a deep baking dish, then alternate dry lasagna sheets, tuna tomato layer and ricotta mixture.",
+        "Finish with mozzarella and remaining parmesan. Cover with foil, bake about 35 minutes, then uncover another 15-20 minutes until bubbling and pasta soft; ensure internal temperature reaches at least 74 C with eggs fully set.",
+        "Rest 15-20 minutes before dividing into six portions; cool and refrigerate or freeze promptly."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "PROVISIONAL UNHANGRY RECIPE. User requested a tuna lasagna remembered from Downshiftology, but no matching published recipe has been verified. DO NOT publish author attribution as Downshiftology or claim recipe fidelity without user source.",
+    "Planning: SECONDARY STOVETOP: tomato filling; macaroni is uncooked sheets.",
+    "Freezer: freezes in squares; ricotta and tuna may become grainier",
+    "Dietary: Contains fish, dairy, eggs and wheat. Source verification outstanding.",
+    "Refrigerate within 2 hours (1 hour above 32°C) in shallow containers at 4°C or colder, for 3–4 days at most, and follow the shorter seafood limit above. Cook fish and shellfish to 63°C and reheat leftovers to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": null,
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "reference": {
+    "sourceCredit": "USER-REQUESTED ORIGINAL: Downshiftology attribution NOT VERIFIED; UNHANGRY provisional formulation",
+    "sourceRecipeUrl": "SOURCE NOT YET VERIFIED: user to confirm exact Downshiftology recipe or supply personal version",
+    "fileTitle": "Tuna Lasagna with Tomato, Spinach and Ricotta",
+    "fileRecipeNumber": 17,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Seafood",
+    "methodTag": "Oven",
+    "preparationMethod": "Oven roasting / baking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 40 minutes",
+    "ovenCookingTime": "approx 55 minutes (can overlap with other components)",
+    "freezer": "YES: freezes in squares; ricotta and tuna may become grainier",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Contains fish, dairy, eggs and wheat. Source verification outstanding.",
+    "fileMacrosPerServing": {
+      "kcal": 735,
+      "protein": 66.4,
+      "carbs": 52.2,
+      "fat": 28.9
+    },
+    "fileMacroText": {
+      "kcal": "735 kcal (ESTIMATED)",
+      "protein": "66.4 g (ESTIMATED)",
+      "carbs": "52.2 g (ESTIMATED)",
+      "fat": "28.9 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL listed ingredient quantities using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, drained liquids, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "PROVISIONAL UNHANGRY RECIPE. User requested a tuna lasagna remembered from Downshiftology, but no matching published recipe has been verified. DO NOT publish author attribution as Downshiftology or claim recipe fidelity without user source.",
+    "planningNotes": "SECONDARY STOVETOP: tomato filling; macaroni is uncooked sheets.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked tomato-tuna filling: approx 1570 g",
+      "Pasta, ricotta and cheese layers: approx 1400 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook fish and crustaceans to 63 C (145 F) or applicable local food-safety standard. Use a food thermometer.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "For seafood purchased whole or bone-in, RAW purchase weight is not edible cooked yield; measure edible portion before publishing."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 754,
+      "protein": 66,
+      "carbs": 55,
+      "fat": 29
+    },
+    "quantitiesFrom": "UNHANGRY Seafood Oven file — exact raw quantities as written."
+  }
+}

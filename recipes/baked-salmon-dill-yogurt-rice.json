@@ -1,0 +1,223 @@
+{
+  "id": "baked-salmon-dill-yogurt-rice",
+  "name": "Baked Salmon with Dill Yogurt Sauce and Rice",
+  "protein": "seafood",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 5,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 683,
+    "protein": 47,
+    "carbs": 58,
+    "fat": 29
+  },
+  "components": [
+    {
+      "id": "salmon",
+      "name": "Baked Salmon",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 5,
+      "cookedYieldG": 740,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 399,
+        "protein": 36,
+        "carbs": 0,
+        "fat": 28
+      },
+      "ingredients": [
+        {
+          "name": "Raw salmon fillets",
+          "qty": 900,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 25,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Salt",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Preheat oven to 200 C. Lightly oil a baking sheet and place patted-dry salmon fillets skin side down.",
+        "Brush salmon with oil and salt and bake 12-18 minutes until it reaches 63 C.",
+        "Divide salmon and rice between five meal containers, pack yogurt sauce in separate leakproof cups and add it cold after reheating."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Basmati Rice",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 5,
+      "cookedYieldG": 890,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 229,
+        "protein": 4,
+        "carbs": 52,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Raw uncooked basmati rice",
+          "qty": 330,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Water for rice",
+          "qty": 560,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Salt for rice",
+          "qty": 4,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "In parallel cook dry rice with measured water and allow it to rest covered before fluffing."
+      ]
+    },
+    {
+      "id": "sauce",
+      "name": "Dill Yogurt Sauce",
+      "scaling": "fixed",
+      "servings": 5,
+      "cookedYieldG": 440,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 55,
+        "protein": 7,
+        "carbs": 5,
+        "fat": 1
+      },
+      "ingredients": [
+        {
+          "name": "Plain Greek yogurt",
+          "qty": 300,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Chopped dill leaves",
+          "qty": 22,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Dijon mustard",
+          "qty": 25,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Fresh lemon juice",
+          "qty": 45,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Finely chopped shallot",
+          "qty": 45,
+          "unit": "g",
+          "component": "aromatic"
+        },
+        {
+          "name": "Salt for sauce",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Mix Greek yogurt with dill, mustard, lemon juice, shallot and salt. Reserve in a clean separate container; do not dip tools that touch raw salmon back into this sauce."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Source is baked salmon with yogurt; rice makes it a complete lunch. Sauce stored separately.",
+    "Planning: SECONDARY STOVETOP: rice.",
+    "Freezer: freeze cooked salmon and rice only; refrigerate cold yogurt sauce for early-week use",
+    "Dietary: Fish, dairy, mustard.",
+    "Refrigerate within 2 hours (1 hour above 32°C) in shallow containers at 4°C or colder, for 3–4 days at most, and follow the shorter seafood limit above. Cook fish and shellfish to 63°C and reheat leftovers to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": "Salmon — plan for days 1-3; yogurt sauce early-week only.",
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://totaste.com/recipe/dill-yogurt-salmon/",
+  "reference": {
+    "sourceCredit": "Lindsey Schoenfeld, To Taste",
+    "sourceRecipeUrl": "https://totaste.com/recipe/dill-yogurt-salmon/",
+    "fileTitle": "Baked Salmon with Dill Yogurt Sauce and Rice",
+    "fileRecipeNumber": 9,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Seafood",
+    "methodTag": "Oven",
+    "preparationMethod": "Oven roasting / baking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 20 minutes",
+    "ovenCookingTime": "approx 20 minutes (can overlap with other components)",
+    "freezer": "PARTIAL: freeze cooked salmon and rice only; refrigerate cold yogurt sauce for early-week use",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Fish, dairy, mustard.",
+    "fileMacrosPerServing": {
+      "kcal": 683,
+      "protein": 47.3,
+      "carbs": 57.6,
+      "fat": 29.2
+    },
+    "fileMacroText": {
+      "kcal": "683 kcal (ESTIMATED)",
+      "protein": "47.3 g (ESTIMATED)",
+      "carbs": "57.6 g (ESTIMATED)",
+      "fat": "29.2 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL listed ingredient quantities using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, drained liquids, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "Source is baked salmon with yogurt; rice makes it a complete lunch. Sauce stored separately.",
+    "planningNotes": "SECONDARY STOVETOP: rice.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked salmon: approx 740 g",
+      "Cooked basmati rice: approx 890 g",
+      "Cold dill yogurt sauce: approx 440 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook fish and crustaceans to 63 C (145 F) or applicable local food-safety standard. Use a food thermometer.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "For seafood purchased whole or bone-in, RAW purchase weight is not edible cooked yield; measure edible portion before publishing."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 710,
+      "protein": 48,
+      "carbs": 57,
+      "fat": 30
+    },
+    "quantitiesFrom": "UNHANGRY Seafood Oven file — exact raw quantities as written."
+  }
+}

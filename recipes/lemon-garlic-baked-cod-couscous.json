@@ -1,0 +1,226 @@
+{
+  "id": "lemon-garlic-baked-cod-couscous",
+  "name": "Lemon Garlic Baked Cod with Couscous",
+  "protein": "seafood",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 5,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 583,
+    "protein": 42,
+    "carbs": 63,
+    "fat": 18
+  },
+  "components": [
+    {
+      "id": "fish",
+      "name": "Lemon Garlic Cod",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 5,
+      "cookedYieldG": 780,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 313,
+        "protein": 33,
+        "carbs": 11,
+        "fat": 16
+      },
+      "ingredients": [
+        {
+          "name": "Raw boneless cod fillets, thawed if frozen",
+          "qty": 900,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Plain flour used for light coating",
+          "qty": 50,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Coating"
+        },
+        {
+          "name": "Ground coriander",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Coating"
+        },
+        {
+          "name": "Paprika",
+          "qty": 3,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Coating"
+        },
+        {
+          "name": "Salt",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Coating"
+        },
+        {
+          "name": "Fresh lemon juice",
+          "qty": 70,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Lemon sauce"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 55,
+          "unit": "ml",
+          "component": "other",
+          "group": "Lemon sauce"
+        },
+        {
+          "name": "Unsalted butter",
+          "qty": 25,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Lemon sauce"
+        },
+        {
+          "name": "Fresh minced garlic",
+          "qty": 20,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Lemon sauce"
+        },
+        {
+          "name": "Fresh parsley",
+          "qty": 20,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Garnish"
+        }
+      ],
+      "steps": [
+        "Preheat oven to 200 C. Dry the fish carefully and distribute salt, coriander and paprika through the measured flour.",
+        "Lightly coat the fillets and shake off surplus flour; discard any coating that touched raw fish.",
+        "Melt butter and whisk with lemon, olive oil and minced garlic. Arrange fish in a single layer in a shallow oven dish and spoon sauce over it.",
+        "Bake until each thickest fillet reaches 63 C, normally 12-18 minutes depending on thickness; avoid extended holding in the warm oven.",
+        "Pack fish with its lemon cooking juices separately from couscous and finish with parsley after reheating."
+      ]
+    },
+    {
+      "id": "couscous",
+      "name": "Wholewheat Couscous",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 5,
+      "cookedYieldG": 820,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 270,
+        "protein": 9,
+        "carbs": 53,
+        "fat": 2
+      },
+      "ingredients": [
+        {
+          "name": "Dry wholewheat couscous",
+          "qty": 350,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Hot water or stock for couscous",
+          "qty": 440,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Olive oil for couscous",
+          "qty": 10,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Salt",
+          "qty": 4,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "While fish bakes, pour hot water over dry couscous, cover until absorbed and fluff with a fork, then add measured oil and salt."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Original cod preparation sourced; couscous added as UNHANGRY measured complete-meal component.",
+    "Planning: SECONDARY STOVETOP or kettle required for couscous.",
+    "Freezer: cooked cod can freeze, but texture is best within 1-2 refrigerated days; couscous freezes well",
+    "Dietary: Contains wheat, fish and dairy; flour used for coating may not all be eaten; nutrition is a rough upper estimate.",
+    "Refrigerate within 2 hours (1 hour above 32°C) in shallow containers at 4°C or colder, for 3–4 days at most, and follow the shorter seafood limit above. Cook fish and shellfish to 63°C and reheat leftovers to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": "Cod — best within 1-2 days in the fridge; couscous freezes well.",
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.themediterraneandish.com/baked-cod-recipe-lemon-garlic/",
+  "reference": {
+    "sourceCredit": "Suzy Karadsheh, The Mediterranean Dish",
+    "sourceRecipeUrl": "https://www.themediterraneandish.com/baked-cod-recipe-lemon-garlic/",
+    "fileTitle": "Lemon Garlic Baked Cod with Couscous",
+    "fileRecipeNumber": 1,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Seafood",
+    "methodTag": "Oven",
+    "preparationMethod": "Oven roasting / baking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 20 minutes",
+    "ovenCookingTime": "approx 18 minutes (can overlap with other components)",
+    "freezer": "PARTIAL: cooked cod can freeze, but texture is best within 1-2 refrigerated days; couscous freezes well",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Contains wheat, fish and dairy; flour used for coating may not all be eaten; nutrition is a rough upper estimate.",
+    "fileMacrosPerServing": {
+      "kcal": 583,
+      "protein": 42.4,
+      "carbs": 63.3,
+      "fat": 17.8
+    },
+    "fileMacroText": {
+      "kcal": "583 kcal (ESTIMATED)",
+      "protein": "42.4 g (ESTIMATED)",
+      "carbs": "63.3 g (ESTIMATED)",
+      "fat": "17.8 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL listed ingredient quantities using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, drained liquids, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "Original cod preparation sourced; couscous added as UNHANGRY measured complete-meal component.",
+    "planningNotes": "SECONDARY STOVETOP or kettle required for couscous.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked cod with lemon sauce: approx 780 g",
+      "Hydrated couscous: approx 820 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook fish and crustaceans to 63 C (145 F) or applicable local food-safety standard. Use a food thermometer.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "For seafood purchased whole or bone-in, RAW purchase weight is not edible cooked yield; measure edible portion before publishing."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 604,
+      "protein": 43,
+      "carbs": 65,
+      "fat": 18
+    },
+    "quantitiesFrom": "UNHANGRY Seafood Oven file — exact raw quantities as written."
+  }
+}

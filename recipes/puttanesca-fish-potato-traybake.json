@@ -1,0 +1,236 @@
+{
+  "id": "puttanesca-fish-potato-traybake",
+  "name": "Puttanesca Fish and Potato Traybake",
+  "protein": "seafood",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 6,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 515,
+    "protein": 40,
+    "carbs": 45,
+    "fat": 19
+  },
+  "components": [
+    {
+      "id": "fish",
+      "name": "Fish & Puttanesca Vegetables",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 6,
+      "cookedYieldG": 1830,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 313,
+        "protein": 36,
+        "carbs": 13,
+        "fat": 13
+      },
+      "ingredients": [
+        {
+          "name": "Raw boneless firm white fish fillets",
+          "qty": 1000,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Raw cherry tomatoes",
+          "qty": 600,
+          "unit": "g",
+          "component": "other",
+          "group": "Tomato puttanesca"
+        },
+        {
+          "name": "Raw fennel bulb, sliced",
+          "qty": 250,
+          "unit": "g",
+          "component": "other",
+          "group": "Tomato puttanesca"
+        },
+        {
+          "name": "Raw red onion, sliced",
+          "qty": 160,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Tomato puttanesca"
+        },
+        {
+          "name": "Pitted kalamata olives",
+          "qty": 130,
+          "unit": "g",
+          "component": "other",
+          "group": "Tomato puttanesca"
+        },
+        {
+          "name": "Drained capers",
+          "qty": 45,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Tomato puttanesca"
+        },
+        {
+          "name": "Anchovy fillets drained and chopped",
+          "qty": 45,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Tomato puttanesca"
+        },
+        {
+          "name": "Fresh minced garlic",
+          "qty": 24,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Tomato puttanesca"
+        },
+        {
+          "name": "Olive oil for vegetables",
+          "qty": 40,
+          "unit": "ml",
+          "component": "other",
+          "group": "Tomato puttanesca"
+        },
+        {
+          "name": "Dried oregano",
+          "qty": 6,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Tomato puttanesca"
+        },
+        {
+          "name": "Chilli flakes",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Tomato puttanesca"
+        },
+        {
+          "name": "Fresh lemon juice",
+          "qty": 30,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Finish"
+        },
+        {
+          "name": "Fresh parsley",
+          "qty": 20,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Finish"
+        }
+      ],
+      "steps": [
+        "Meanwhile combine tomatoes, fennel, onion, olives, capers, chopped anchovies, garlic, chilli flakes and oregano with the remaining olive oil.",
+        "Add the tomato-fennel mixture around the half-roasted potatoes and return to the oven another 12-15 minutes until vegetables begin softening.",
+        "Season the fish lightly, place on top of the vegetables and roast another 12-18 minutes until the thickest fish centre reaches 63 C.",
+        "Finish with lemon and parsley, then portion the fish, potatoes and tomato-olive vegetables evenly into six containers.",
+        "Cool quickly. Use earlier-week portions for best fish texture, and freeze only if acceptable after testing."
+      ]
+    },
+    {
+      "id": "potatoes",
+      "name": "Roasted Potato Wedges",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 6,
+      "cookedYieldG": 900,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 202,
+        "protein": 4,
+        "carbs": 32,
+        "fat": 6
+      },
+      "ingredients": [
+        {
+          "name": "Raw potatoes, cut in small wedges",
+          "qty": 1100,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Olive oil for potatoes",
+          "qty": 35,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Heat oven to 210 C. Coat potato wedges in their measured olive oil and roast on a large tray about 20 minutes."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Original RecipeTin Eats one-tray recipe uses potatoes, fish, tomatoes, olives, capers and anchovies; raw weights adapted for 6-meal UNHANGRY batch.",
+    "Planning: OVEN ONLY; stage potatoes first, vegetables second, fish last.",
+    "Freezer: cooked fish and roasted potatoes may soften; tomato sauce freezes well",
+    "Dietary: Contains fish and anchovy; verify any additional fish allergens.",
+    "Refrigerate within 2 hours (1 hour above 32°C) in shallow containers at 4°C or colder, for 3–4 days at most, and follow the shorter seafood limit above. Cook fish and shellfish to 63°C and reheat leftovers to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": "Fish — use earlier-week portions (days 1-3).",
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.recipetineats.com/puttanesca-fish-tray-bake/",
+  "reference": {
+    "sourceCredit": "Nagi Maehashi, RecipeTin Eats",
+    "sourceRecipeUrl": "https://www.recipetineats.com/puttanesca-fish-tray-bake/",
+    "fileTitle": "Puttanesca Fish and Potato Traybake",
+    "fileRecipeNumber": 20,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Seafood",
+    "methodTag": "Oven",
+    "preparationMethod": "Oven roasting / baking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 30 minutes",
+    "ovenCookingTime": "approx 55 minutes (can overlap with other components)",
+    "freezer": "PARTIAL: cooked fish and roasted potatoes may soften; tomato sauce freezes well",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Contains fish and anchovy; verify any additional fish allergens.",
+    "fileMacrosPerServing": {
+      "kcal": 515,
+      "protein": 40.2,
+      "carbs": 44.9,
+      "fat": 19.4
+    },
+    "fileMacroText": {
+      "kcal": "515 kcal (ESTIMATED)",
+      "protein": "40.2 g (ESTIMATED)",
+      "carbs": "44.9 g (ESTIMATED)",
+      "fat": "19.4 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL listed ingredient quantities using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, drained liquids, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "Original RecipeTin Eats one-tray recipe uses potatoes, fish, tomatoes, olives, capers and anchovies; raw weights adapted for 6-meal UNHANGRY batch.",
+    "planningNotes": "OVEN ONLY; stage potatoes first, vegetables second, fish last.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked fish: approx 830 g",
+      "Roasted potatoes: approx 900 g",
+      "Puttanesca vegetables and sauce: approx 1000 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook fish and crustaceans to 63 C (145 F) or applicable local food-safety standard. Use a food thermometer.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "For seafood purchased whole or bone-in, RAW purchase weight is not edible cooked yield; measure edible portion before publishing."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 481,
+      "protein": 38,
+      "carbs": 44,
+      "fat": 17
+    },
+    "quantitiesFrom": "UNHANGRY Seafood Oven file — exact raw quantities as written."
+  }
+}

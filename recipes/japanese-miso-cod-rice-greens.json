@@ -1,0 +1,217 @@
+{
+  "id": "japanese-miso-cod-rice-greens",
+  "name": "Japanese Miso Cod with Rice and Greens",
+  "protein": "seafood",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 656,
+    "protein": 51,
+    "carbs": 93,
+    "fat": 9
+  },
+  "components": [
+    {
+      "id": "cod",
+      "name": "Miso Cod",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 630,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 414,
+        "protein": 42,
+        "carbs": 30,
+        "fat": 8
+      },
+      "ingredients": [
+        {
+          "name": "Raw boneless black cod fillets",
+          "qty": 800,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Saikyo white miso paste",
+          "qty": 200,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Miso marinade"
+        },
+        {
+          "name": "Mirin (contains cooking alcohol)",
+          "qty": 65,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Miso marinade"
+        },
+        {
+          "name": "Sake (contains cooking alcohol)",
+          "qty": 45,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Miso marinade"
+        },
+        {
+          "name": "Sugar",
+          "qty": 20,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Miso marinade"
+        }
+      ],
+      "steps": [
+        "Two to three DAYS before cooking, mix white miso, mirin, sake and sugar; coat cod in marinade and refrigerate sealed. This advance requirement is part of the source recipe.",
+        "On cooking day, scrape off excess miso completely to prevent the sugar from burning. Preheat oven to 200 C.",
+        "Place fish skin-side up on a lined tray and bake about 18-22 minutes until thickest centre reaches 63 C.",
+        "Pack fish separately from rice and greens. Do not treat uncooked marinade as cooked sauce; nutrition calculations count marinade ingredients even though much is discarded, so macros need kitchen verification."
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Japanese Rice",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 830,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 208,
+        "protein": 7,
+        "carbs": 60,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Dry Japanese short grain rice",
+          "qty": 320,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Water for rice",
+          "qty": 460,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Rinse rice and cook in measured water, then rest covered 10 minutes."
+      ]
+    },
+    {
+      "id": "greens",
+      "name": "Bok Choy Greens",
+      "scaling": "fixed",
+      "servings": 4,
+      "cookedYieldG": 365,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 34,
+        "protein": 3,
+        "carbs": 3,
+        "fat": 1
+      },
+      "ingredients": [
+        {
+          "name": "Raw baby bok choy or spinach",
+          "qty": 450,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Sesame oil for greens",
+          "qty": 15,
+          "unit": "ml",
+          "component": "other"
+        },
+        {
+          "name": "Soy sauce for greens",
+          "qty": 15,
+          "unit": "ml",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Quickly steam or sauté greens and season with sesame oil and soy sauce."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Faithful to source cooking method and advance marinade concept, with rice and greens as UNHANGRY additions.",
+    "Planning: ADVANCE PREP: source requires 2-3 days of marination, meaning Tuesday planning and Friday/Saturday prep. SECONDARY STOVETOP rice/greens.",
+    "Freezer: BETTER FREEZE RAW MARINATED fish before cooking where appropriate; cooked cod less freezer-friendly",
+    "Dietary: Contains fish, soy and cooking ALCOHOL (sake/mirin); NOT halal-friendly as written.",
+    "Refrigerate within 2 hours (1 hour above 32°C) in shallow containers at 4°C or colder, for 3–4 days at most, and follow the shorter seafood limit above. Cook fish and shellfish to 63°C and reheat leftovers to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": "Cod — plan for days 1-3; freeze the fish raw in its marinade, not cooked.",
+    "freezeFriendly": false,
+    "dietaryWarning": "Contains cooking alcohol (sake, mirin) — not halal as written."
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.justonecookbook.com/black-cod-with-miso/",
+  "reference": {
+    "sourceCredit": "Namiko Chen, Just One Cookbook",
+    "sourceRecipeUrl": "https://www.justonecookbook.com/black-cod-with-miso/",
+    "fileTitle": "Japanese Miso Cod with Rice and Greens",
+    "fileRecipeNumber": 19,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Seafood",
+    "methodTag": "Oven",
+    "preparationMethod": "Oven roasting / baking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 25 minutes",
+    "ovenCookingTime": "approx 22 minutes (can overlap with other components)",
+    "freezer": "BETTER FREEZE RAW MARINATED fish before cooking where appropriate; cooked cod less freezer-friendly",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Contains fish, soy and cooking ALCOHOL (sake/mirin); NOT halal-friendly as written.",
+    "fileMacrosPerServing": {
+      "kcal": 656,
+      "protein": 51.3,
+      "carbs": 92.6,
+      "fat": 8.9
+    },
+    "fileMacroText": {
+      "kcal": "656 kcal (ESTIMATED)",
+      "protein": "51.3 g (ESTIMATED)",
+      "carbs": "92.6 g (ESTIMATED)",
+      "fat": "8.9 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL listed ingredient quantities using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, drained liquids, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "Faithful to source cooking method and advance marinade concept, with rice and greens as UNHANGRY additions.",
+    "planningNotes": "ADVANCE PREP: source requires 2-3 days of marination, meaning Tuesday planning and Friday/Saturday prep. SECONDARY STOVETOP rice/greens.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked cod fish after removing excess marinade: approx 630 g",
+      "Cooked rice: approx 830 g",
+      "Cooked greens: approx 365 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook fish and crustaceans to 63 C (145 F) or applicable local food-safety standard. Use a food thermometer.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "For seafood purchased whole or bone-in, RAW purchase weight is not edible cooked yield; measure edible portion before publishing."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 909,
+      "protein": 39,
+      "carbs": 97,
+      "fat": 37
+    },
+    "quantitiesFrom": "UNHANGRY Seafood Oven file — exact raw quantities as written."
+  }
+}

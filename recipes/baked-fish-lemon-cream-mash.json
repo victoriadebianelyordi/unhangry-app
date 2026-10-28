@@ -1,0 +1,248 @@
+{
+  "id": "baked-fish-lemon-cream-mash",
+  "name": "Baked White Fish with Lemon Cream Sauce, Mash and Green Beans",
+  "protein": "seafood",
+  "method": "oven",
+  "mealType": "main",
+  "feeds": 4,
+  "needsMirnaReview": true,
+  "macrosPerServing": {
+    "kcal": 766,
+    "protein": 47,
+    "carbs": 49,
+    "fat": 42
+  },
+  "components": [
+    {
+      "id": "fish",
+      "name": "Fish in Lemon Cream Sauce",
+      "scaling": "ratio",
+      "role": "protein",
+      "servings": 4,
+      "cookedYieldG": 925,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 429,
+        "protein": 39,
+        "carbs": 6,
+        "fat": 28
+      },
+      "ingredients": [
+        {
+          "name": "Raw skinless boneless mild white fish fillets",
+          "qty": 800,
+          "unit": "g",
+          "component": "protein"
+        },
+        {
+          "name": "Salt",
+          "qty": 5,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Black pepper",
+          "qty": 2,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Unsalted butter",
+          "qty": 65,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Lemon cream sauce"
+        },
+        {
+          "name": "Heavy cream",
+          "qty": 120,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Lemon cream sauce"
+        },
+        {
+          "name": "Minced garlic",
+          "qty": 20,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Lemon cream sauce"
+        },
+        {
+          "name": "Dijon mustard",
+          "qty": 25,
+          "unit": "g",
+          "component": "sauce",
+          "group": "Lemon cream sauce"
+        },
+        {
+          "name": "Fresh lemon juice",
+          "qty": 35,
+          "unit": "ml",
+          "component": "sauce",
+          "group": "Lemon cream sauce"
+        },
+        {
+          "name": "Shallot, finely minced",
+          "qty": 45,
+          "unit": "g",
+          "component": "aromatic",
+          "group": "Lemon cream sauce"
+        }
+      ],
+      "steps": [
+        "Heat oven to 200 C. Pat fish fillets dry and spread in one layer in a shallow baking dish.",
+        "Gently melt butter with cream, Dijon, garlic, shallot and lemon; whisk until combined without boiling hard, then pour around fish.",
+        "Bake 12-18 minutes depending on fillet thickness until centre of fish registers 63 C; spoon the cooked sauce over the fillets.",
+        "Pack each meal with fish and sauce, mashed potato and beans, keeping the fish and mash separated when possible for gentle reheating."
+      ]
+    },
+    {
+      "id": "mash",
+      "name": "Mashed Potatoes",
+      "scaling": "ratio",
+      "role": "fill",
+      "servings": 4,
+      "cookedYieldG": 870,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 264,
+        "protein": 5,
+        "carbs": 35,
+        "fat": 11
+      },
+      "ingredients": [
+        {
+          "name": "Raw potatoes peeled",
+          "qty": 800,
+          "unit": "g",
+          "component": "carb"
+        },
+        {
+          "name": "Butter for mash",
+          "qty": 45,
+          "unit": "g",
+          "component": "sauce"
+        },
+        {
+          "name": "Milk for mash",
+          "qty": 120,
+          "unit": "ml",
+          "component": "sauce"
+        },
+        {
+          "name": "Salt for mash",
+          "qty": 4,
+          "unit": "g",
+          "component": "sauce"
+        }
+      ],
+      "steps": [
+        "Boil peeled potatoes until tender, drain and mash with butter, milk and salt."
+      ]
+    },
+    {
+      "id": "beans",
+      "name": "Green Beans",
+      "scaling": "fixed",
+      "servings": 4,
+      "cookedYieldG": 430,
+      "yieldEstimated": true,
+      "macrosPerServing": {
+        "kcal": 73,
+        "protein": 2,
+        "carbs": 9,
+        "fat": 4
+      },
+      "ingredients": [
+        {
+          "name": "Raw green beans",
+          "qty": 500,
+          "unit": "g",
+          "component": "other"
+        },
+        {
+          "name": "Olive oil",
+          "qty": 15,
+          "unit": "ml",
+          "component": "other"
+        }
+      ],
+      "steps": [
+        "Cook green beans by steaming or quick oven-roasting with measured oil until tender."
+      ]
+    }
+  ],
+  "notes": [
+    "Draft — needs Mirna review: not kitchen-tested yet; macros and cooked yields are estimates.",
+    "Source fish sauce is a one-pan preparation; mash and green beans are measured extra components for a complete meal.",
+    "Planning: SECONDARY STOVETOP: potatoes and possibly green beans.",
+    "Freezer: fish freezes with sauce but cream can separate; mash freezes better than beans",
+    "Dietary: Contains dairy, fish and mustard.",
+    "Refrigerate within 2 hours (1 hour above 32°C) in shallow containers at 4°C or colder, for 3–4 days at most, and follow the shorter seafood limit above. Cook fish and shellfish to 63°C and reheat leftovers to at least 74°C."
+  ],
+  "flags": {
+    "shelfLife": "Fish — plan for days 1-3; the cream sauce can separate if frozen.",
+    "freezeFriendly": true
+  },
+  "componentScalable": false,
+  "sourceUrl": "https://www.recipetineats.com/baked-fish-with-lemon-cream-sauce/",
+  "reference": {
+    "sourceCredit": "Nagi Maehashi, RecipeTin Eats",
+    "sourceRecipeUrl": "https://www.recipetineats.com/baked-fish-with-lemon-cream-sauce/",
+    "fileTitle": "Baked White Fish with Lemon Cream Sauce, Mash and Green Beans",
+    "fileRecipeNumber": 7,
+    "recipeStatus": "WORKING DRAFT | Not kitchen-tested or nutritionally verified",
+    "proteinTag": "Seafood",
+    "methodTag": "Oven",
+    "preparationMethod": "Oven roasting / baking (see steps for secondary appliance use)",
+    "activePrepTime": "approx 30 minutes",
+    "ovenCookingTime": "approx 25 minutes (can overlap with other components)",
+    "freezer": "PARTIAL: fish freezes with sauce but cream can separate; mash freezes better than beans",
+    "dietaryHalalTag": "Check ingredient brands, allergies and household halal requirements; no pork expressly listed in this formula. | Contains dairy, fish and mustard.",
+    "fileMacrosPerServing": {
+      "kcal": 766,
+      "protein": 47,
+      "carbs": 49.2,
+      "fat": 42.3
+    },
+    "fileMacroText": {
+      "kcal": "766 kcal (ESTIMATED)",
+      "protein": "47.0 g (ESTIMATED)",
+      "carbs": "49.2 g (ESTIMATED)",
+      "fat": "42.3 g (ESTIMATED)"
+    },
+    "macroBasis": "Computed from ALL listed ingredient quantities using representative per-100g ingredient averages. Not source-published macros, not lab-tested. Brands, bones, drained liquids, discarded marinades and cooking fats affect accuracy.",
+    "fileNotes": "Source fish sauce is a one-pan preparation; mash and green beans are measured extra components for a complete meal.",
+    "planningNotes": "SECONDARY STOVETOP: potatoes and possibly green beans.",
+    "ingredientsNote": "RAW INGREDIENTS BY COMPONENT | EVERY ENTRY WEIGHED OR MEASURED BEFORE COOKING",
+    "stepsNote": "PREPARATION STEPS | NEWLY WRITTEN UNHANGRY WORKING INSTRUCTIONS",
+    "cookedYieldHeading": "COOKED YIELD | COMPONENT-SPECIFIC ESTIMATES (NOT MEASURED)",
+    "cookedYieldEstimates": [
+      "Cooked fish and lemon cream sauce: approx 925 g",
+      "Mashed potatoes: approx 870 g",
+      "Cooked green beans: approx 430 g"
+    ],
+    "cookedYieldNote": "Do not use these cooked yields as final scaling coefficients until a kitchen trial weighs each component.",
+    "preservationAndReheating": [
+      "Refrigerate cooked food promptly in shallow covered containers. Target within 2 hours, or 1 hour when ambient temperature exceeds 32 C.",
+      "Refrigerate at 4 C or below for 3-4 days maximum; freeze later-week portions soon after cooking.",
+      "Reheat cooked leftovers to 74 C. Cook fish and crustaceans to 63 C (145 F) or applicable local food-safety standard. Use a food thermometer.",
+      "When a recipe includes rice, cool it rapidly and store cold immediately; avoid leaving cooked rice at room temperature.",
+      "Freeze in suitable airtight food-safe containers. Defrost in refrigerator, not on counter. Reheat crisp foods in oven when possible.",
+      "These freezer tags describe likely eating quality, not an individually laboratory-validated shelf life.",
+      "If a sauce or salad is designated for fresh assembly, pack it separately and use within its safe refrigerated window."
+    ],
+    "qualityAssurance": [
+      "BEFORE PUBLISHING: verify source attribution, batch size, source-to-adaptation changes, raw weights, yield and cooked food temperature.",
+      "Nutrition numbers are approximate and require actual product-label / USDA database recalculation for public nutrition claims.",
+      "For seafood purchased whole or bone-in, RAW purchase weight is not edible cooked yield; measure edible portion before publishing."
+    ],
+    "independentCheckMacrosPerServing": {
+      "kcal": 725,
+      "protein": 45,
+      "carbs": 50,
+      "fat": 39
+    },
+    "quantitiesFrom": "UNHANGRY Seafood Oven file — exact raw quantities as written."
+  }
+}
